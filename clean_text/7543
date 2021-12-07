@@ -1,0 +1,104 @@
+
+
+
+
+Massachusetts Bay Transportation Authority v. Anderson
+
+
+
+
+United States District Court for the District of Massachusetts
+
+
+Filed
+
+
+Decided
+
+
+Case name
+
+
+Citations
+
+
+Holding
+
+
+Judge
+
+
+Laws applied
+
+
+
+Massachusetts Bay Transportation Authority v. Anderson, et al., Civil Action No. 08-11364, was a challenge brought by the Massachusetts Bay Transportation Authority (MBTA) to prevent three Massachusetts Institute of Technology (MIT) students from publicly presenting a security vulnerability they discovered in the MBTA's Charlie Card automated fare collection system. The case concerns the extent to which the disclosure of a computer security flaw is a form of free speech protected by the First Amendment to the United States Constitution.
+The MBTA claimed that the MIT students violated the Computer Fraud and Abuse Act (CFAA) and on August 9, 2008 was granted a temporary restraining order (TRO) against the students to prevent them from presenting information to DEFCON conference attendees that could have potentially been used to defraud the MBTA of transit fares. The MIT students contended that submitting their research for review and approval by a government agency before publication is unconstitutional prior restraint.
+The case garnered considerable popular and press attention when the injunction unintentionally increased the dissemination of the sensitive information in the students' presentation because the slides had been both distributed to conference organizers in the weeks before the injunction as well as inadvertently posted to the district court's public website as exhibits to the MBTA's original complaint.
+On August 19, the judge rejected the MBTA's request to extend the restraining order and the TRO likewise expired, thus granting the students the right to discuss and present their findings.1
+Background
+In December 2007, cautions were published separately by Karsten Nohl2 and Henryk Plotz regarding the weak encryption and other vulnerabilities of the particular security scheme as implemented on NXP's MIFARE chip set and contactless electronic card system.34 In March 2008, articles on the vulnerabilities appeared in newspapers and computer trade journals.56 A comparable independent cryptanalysis, focused on the MIFARE Classic chip, was performed at the Radboud University Nijmegen. On March 7 the scientists were able to recover a cryptographic key from the RFID card without using expensive equipment.7. With respect to responsible disclosure the Radboud University Nijmegen published the article8 six months later. NXP tried to stop the publication of the second article through a preliminary injunction. In the Netherlands, the judge ruled on July 18 that publishing this scientific article falls under the principle of freedom of expression and that in a democratic society it is of great importance that the results of scientific research can be published.9
+In May 2008, MIT students Zack Anderson,10 Russell J. Ryan,11 Alessandro Chiesa,12 and Samuel G. McVeety presented a final paper in Professor Ron Rivest's 6.857: Computer and Network Security class demonstrating weaknesses in the MBTA's automated fare collection system. The report identified four problems: the value is stored on the card and not in a secure database, the data on the card can be easily read and overwritten, there is no cryptographic signature algorithm to prevent forgeries, and there is no centralized card verification system.13 Anderson, Ryan, and Chiesa submitted a presentation entitled &quot;Anatomy of a Subway Hack: Breaking Crypto RFID's and Magstripes of Ticketing Systems&quot; to the DEF CON hacker convention which claimed to review and demonstrate how to reverse engineer the data on the magstripe card, several attacks to break the MIFARE-based Charlie Card, and brute force attacks using FPGAs.14
+Before the complaint was filed in August 2008, Bruce Schneier wrote on the matter that &quot;Publication of this attack might be expensive for NXP and its customers, but it's good for security overall. Companies will only design security as good as their customers know to ask for.&quot;15
+Litigation
+On 8 August 2008, the MBTA filed suit seeking a temporary restraining order to prevent the students from presenting or otherwise discussing their findings until its vendors had sufficient time to correct defects as well as seeking monetary damages. The motion was granted on August 9 by Judge Douglas Woodlock16 and while the students appeared as scheduled, they did not speak or present at the convention.1718 However, the injunction not only garnered more popular and press attention to the case, but the sensitive information in the students' presentation became even more widely disseminated afterwards since it had been both distributed to conference organizers in the weeks before the injunction as well as inadvertently posted to the district court's public website as exhibits to the MBTA's original complaint.1920
+The MBTA retained Holland &amp; Knight to represent them and contended that under the norm of responsible disclosure, the students did not provide sufficient information or time before the presentation for the MBTA to correct the flaw and further alleged that the students transmitted programs to cause damage to (or attempted to transmit and damage) MBTA computers in an amount in excess of $5,000 under the Computer Fraud and Abuse Act. Furthermore, it was contended that this damage constituted a threat to public health and safety and the MBTA would suffer irreparable harm if the students were allowed to present; that the students converted and trespassed on MBTA property; that the students illegally profited from their activities; and that MIT itself was negligent in supervising the undergraduates and notifying the MBTA.21
+The MIT students retained the Electronic Frontier Foundation and Fish &amp; Richardson to represent them and asserted that the term &quot;transmission&quot; in the CFAA cannot be broadly construed as any form of communication and the restraining order is a prior restraint infringing their First Amendment right to protected free speech about academic research.2223 An 11 August letter published by 11 prominent computer scientists supported the defendants' assertions and claimed that the precedent of the gag order will &quot;stifle research efforts and weaken academic computing research programs. In turn, we fear the shadow of the law's ambiguities will reduce our ability to contribute to industrial research in security technologies at the heart of our information infrastructure.&quot;24
+On 19 August, the judge rejected the MBTA's request to extend the restraining order and the TRO likewise expired, thus granting the students the right to discuss and present their findings.25
+See also
+
+Responsible disclosure
+Security through obscurity
+Streisand effect
+
+References
+
+Further reading
+
+McGraw-Herdeg, Michael, and Vogt, Marissa, &quot;MBTA Sues Three Students to Stop Speech on Subway Vulnerabilities&quot;, The Tech, MIT, Volume 128, Issue 31, Monday, August 25, 2008
+
+External links
+Court documents
+
+Complaint: MBTA vs. Anderson, et al.
+Temporary restraining order: August 9 restraining order
+Response: MIT Students' response and Motion to Modify
+Exhibit: Letter from Computer Science Professors and Computer Scientists
+
+Other links
+
+Electronic Frontier Foundation case homepage
+Legal Talk Network discussion
+
+
+Category:Cryptography law Category:United States district court cases Category:United States Internet case law Category:United States Free Speech Clause case law Category:Electronic Frontier Foundation Category:Massachusetts Bay Transportation Authority Category:2008 in United States case law
+
+
+
+ ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Zack Anderson homepage at MIT↩
+Russell J. Ryan homepage↩
+Alessandro Chiesa page at MIT↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Complaint, pp. 12-16↩
+Response, pp. 9-17↩
+ ↩
+Letter from Computer Science Professors and Computer Scientists, p.7↩
+
+
+

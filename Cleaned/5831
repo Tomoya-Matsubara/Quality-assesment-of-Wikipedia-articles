@@ -1,0 +1,14 @@
+Jimmy White's Whirlwind Snooker was a computer game by veteran programmer Archer MacLean, released by Virgin Games in 1991 for the Commodore Amiga, Atari ST and PC (later for the Sega Mega Drive). Although the game was not the first to simulate a snooker or pool table in 3D, it made full use of the processing power and graphics capabilities of 16-bit home computers and was praised for its then ground-breaking realism and easy-to-use interface. Many remarked that the game was the closest thing to being on a real snooker table that existed at that time, and that it could be used by a player to refine their real-life snooker skills.
+Development and technology
+The game took MacLean several years to complete; the Billiard ball physics alone taking several months of programming. One of the reasons why the game runs as quickly as it does is the way in which each  is played. The next shot is effectively pre-played while the  is being  – the position and movement of each ball being calculated frame-by-frame and kept in a list in memory. Each frame of the next shot is then displayed by rendering each ball from this list, frame-by-frame, instead of rendering it in real-time.
+Features
+Despite being a accurate (for the time) and serious simulation of the sport, MacLean's irreverent sense of humour was prominent throughout. The sound effect used for a successful  was a resounding &quot;pop&quot; (regardless of the speed at which the ball reached the pocket) and numerous animations provided comic relief should a player take more than a few seconds to take their shot. Balls would sprout eyeballs and arms, making faces at the player or holding up signs that read &quot;Get on with it!&quot; and such.
+Also present was an extensive trick shot editor, featuring a number of pre-set table arrangements with instructions on how they should be played. An easter egg enabled the option to watch the computer player complete a maximum break.
+The game's title music was similar to (and probably intended to pay homage to) that of snooker TV programme Pot Black.
+Tournament
+Following the game's release, Virgin launched a nationwide tournament in the UK. Regional heats were held at Virgin's stores; the eventual winner went on to challenge MacLean himself in the first series of Channel 4's GamesMaster with snooker pro Jimmy White commentating.
+Sequels
+The game was followed by Archer MacLean's Pool in 1992 and Jimmy White's 2: Cueball in 1999.
+References
+fr:Jimmy White's Whirlwind Snooker
+Category:Cue sports video games Category:1991 video games Category:Amiga games Category:Atari ST games Category:DOS games Category:Sega Mega Drive games

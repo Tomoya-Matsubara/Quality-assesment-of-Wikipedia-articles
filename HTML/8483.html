@@ -1,0 +1,78 @@
+<p><img src="Znam-2-3-11-23-31.svg" title="fig:Graphical demonstration that 1 = 1/2 + 1/3 + 1/11 + 1/23 + 1/31 + 1/(2&lt;U+00D7&gt;3&lt;U+00D7&gt;11&lt;U+00D7&gt;23&lt;U+00D7&gt;31). Each row of k squares of side length 1/k has total area 1/k, and all the squares together exactly cover a larger square with area 1. The bottom row of 47058 squares with side length 1/47058 is too small to see in the figure and is not shown." alt="Graphical demonstration that 1 = 1/2 + 1/3 + 1/11 + 1/23 + 1/31 + 1/(2&lt;U+00D7&gt;3&lt;U+00D7&gt;11&lt;U+00D7&gt;23&lt;U+00D7&gt;31). Each row of k squares of side length 1/k has total area 1/k, and all the squares together exactly cover a larger square with area 1. The bottom row of 47058 squares with side length 1/47058 is too small to see in the figure and is not shown." width="301" /> In <a href="number_theory" title="wikilink">number theory</a>, <strong>Zn&lt;U+00E1&gt;m's problem</strong> asks which sets of integers have the property that each integer in the set is a <a href="proper_divisor" title="wikilink">proper divisor</a> of the product of the other integers in the set, plus 1. That is, given <em>k</em>, what sets of integers</p>
+<dl>
+
+<dd>{<em>n</em><sub>1</sub>, ... <em>n</em><sub>k</sub>}
+</dd>
+</dl>
+<p>are there, such that, for each <em>i</em>, <em>n</em><sub><em>i</em></sub> divides but is not equal to</p>
+<p><br /><span class="math display">$$\prod_{j \ne i}^n n_j + 1?$$</span><br /></p>
+<p>A closely related problem concerns sets of integers in which each integer in the set is a divisor, but not necessarily a proper divisor, of one plus the product of the other integers in the set. This problem does not seem to have been named in the literature, but for ease of description we refer to it as the improper Zn&lt;U+00E1&gt;m problem. Any solution to Zn&lt;U+00E1&gt;m's problem is also a solution to the improper Zn&lt;U+00E1&gt;m problem, but not necessarily vice versa.</p>
+<p>Zn&lt;U+00E1&gt;m's problem is named after Slovak mathematician <a href="&lt;U+0160&gt;tefan_Zn&lt;U+00E1&gt;m" title="wikilink">&lt;U+0160&gt;tefan Zn&lt;U+00E1&gt;m</a>, who suggested it in 1972. Barbeau (1971) had posed the improper Zn&lt;U+00E1&gt;m problem for <em>k</em> = 3, and Mordell (1973) independently of Zn&lt;U+00E1&gt;m found all solutions to the improper problem for <em>k</em> &lt;U+2264&gt; 5. Skula (1975) showed that Zn&lt;U+00E1&gt;m's problem is unsolvable for <em>k</em> &lt; 5, and credited J. Jan&lt;U+00E1&gt;k with finding the solution {2, 3, 11, 23, 31} for <em>k</em> = 5.</p>
+<p>The improper Zn&lt;U+00E1&gt;m problem is easily solved for any <em>k</em>: the first <em>k</em> terms of <a href="Sylvester&#39;s_sequence" title="wikilink">Sylvester's sequence</a> provide a solution. Sun (1983) showed that there is at least one solution to Zn&lt;U+00E1&gt;m's problem for each <em>k</em> &lt;U+2265&gt; 5. Sun's solution is based on a recurrence similar to that for Sylvester's sequence, but with a different set of initial values.</p>
+<p>It is unknown whether there are any solutions to Zn&lt;U+00E1&gt;m's problem using only odd numbers. With one exception, all known solutions start with <a href="2_(number)" title="wikilink">2</a>. If all numbers in a solution to Zn&lt;U+00E1&gt;m's problem or the improper Zn&lt;U+00E1&gt;m problem are <a href="prime_number" title="wikilink">prime</a>, their product is a <a href="primary_pseudoperfect_number" title="wikilink">primary pseudoperfect number</a> (Butske et al. 2000); it is unknown whether infinitely many solutions of this type exist.</p>
+<h2 id="examples">Examples</h2>
+<p>One solution to <em>k</em> = 5 is {2, 3, 7, 47, 395}. A few calculations will show that</p>
+<dl>
+
+<dd>{|
+</dd>
+</dl>
+<p>|align=&quot;right&quot; | 3 × 7 × 47 × 395 || + 1 = || 389866, ||   || which is divisible by but unequal to 2, |- |align=&quot;right&quot; | 2 × 7 × 47 × 395 || + 1 = || 259911, ||   || which is divisible by but unequal to 3, |- |align=&quot;right&quot; | 2 × 3 × 47 × 395 || + 1 = || 111391, ||   || which is divisible by but unequal to 7, |- |align=&quot;right&quot; | 2 × 3 × 7 × 395 || + 1 = || 16591, ||   || which is divisible by but unequal to 47, and |- |align=&quot;right&quot; | 2 × 3 × 7 × 47 || + 1 = || 1975, ||   || which is divisible by but unequal to 395. |}</p>
+<p>An interesting &quot;near miss&quot; for <em>k</em> = 4 is the set {2, 3, 7, 43}, formed by taking the first four terms of Sylvester's sequence. It has the property that each integer in the set divides the product of the other integers in the set, plus 1, but the last member of this set is equal to the product of the first three members plus one, rather than being a proper divisor. Thus, it is a solution to the improper Zn&lt;U+00E1&gt;m problem, but not a solution to Zn&lt;U+00E1&gt;m's problem as it is usually defined.</p>
+<h2 id="connection-to-egyptian-fractions">Connection to Egyptian fractions</h2>
+<p>Any solution to the improper Zn&lt;U+00E1&gt;m problem is equivalent (via division by the product of the <em>x</em><sub><em>i</em></sub>'s) to a solution to the equation</p>
+<p><br /><span class="math display">$$\sum\frac1{x_i} + \prod\frac1{x_i}=y,$$</span><br /> where <em>y</em> as well as each <em>x</em><sub><em>i</em></sub> must be an integer, and conversely any such solution corresponds to a solution to the improper Zn&lt;U+00E1&gt;m problem. However, all known solutions have <em>y</em> = 1, so they satisfy the equation</p>
+<p><br /><span class="math display">$$\sum\frac1{x_i} + \prod\frac1{x_i}=1.$$</span><br /> That is, they lead to an <a href="Egyptian_fraction" title="wikilink">Egyptian fraction</a> representation of the number one as a sum of <a href="unit_fractions" title="wikilink">unit fractions</a>. Several of the cited papers on Zn&lt;U+00E1&gt;m's problem study also the solutions to this equation; Brenton and Hill (1988) describe an application of the equation in <a href="topology" class="uri" title="wikilink">topology</a>, to the classification of <a href="Mathematical_singularity" title="wikilink">singularities</a> on surfaces.</p>
+<h2 id="number-of-solutions">Number of solutions</h2>
+<p>As Jan&lt;U+00E1&gt;k and Skula (1978) showed, the number of solutions for any <em>k</em> is finite, so it makes sense to count the total number of solutions for each <em>k</em>.</p>
+<p>Brenton and Vasiliu calculated that the number of solutions for small values of <em>k</em>, starting with <em>k</em> = 5, forms the sequence</p>
+<dl>
+
+<dd><a href="2_(number)" title="wikilink">2</a>, <a href="5_(number)" title="wikilink">5</a>, <a href="15_(number)" title="wikilink">15</a>, <a href="93_(number)" title="wikilink">93</a> .
+</dd>
+</dl>
+<p>Presently, a few solutions are known for <em>k</em> = 9 and <em>k</em> = 10, but it is unclear how many solutions remain undiscovered for those values of <em>k</em>. However, there are infinitely many solutions if <em>k</em> is not fixed: Cao and Jing (1998) showed that there are at least 39 solutions for each <em>k</em> &lt;U+2265&gt; 12, improving earlier results proving the existence of fewer solutions (Cao et al 1987; Sun and Cao 1988). Sun and Cao (1988) conjecture that the number of solutions for each value of <em>k</em> grows monotonically with <em>k</em>.</p>
+<h2 id="references">References</h2>
+<div class="references-small" style="-moz-column-count:2; column-count:2;">
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+</div>
+<h2 id="external-links">External links</h2>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<p><a href="Category:Number_theory" title="wikilink">Category:Number theory</a> <a href="Category:Integer_sequences" title="wikilink">Category:Integer sequences</a> <a href="Category:Egyptian_fractions" title="wikilink">Category:Egyptian fractions</a></p>

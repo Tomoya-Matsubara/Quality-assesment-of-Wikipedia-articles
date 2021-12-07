@@ -1,0 +1,139 @@
+The 1953 Atlantic hurricane season was the first time an organized list of female names was used to name Atlantic storms. It officially began on June 15,1 and lasted until November 15,2 although activity occurred both before and after the season's limits. It is one of only four seasons to have a pre-season storm and a post-season storm, the others being the 1887, 2003, and 2007 seasons. The season was active with fourteen total storms, six of which developed into hurricanes; four of the hurricanes attained major hurricane status, or a Category 3 or greater on the Saffir-Simpson scale.
+The strongest hurricane of the season was Carol, although by the time it struck Atlantic Canada it was much weaker. Both hurricanes Barbara and Florence struck the United States; the former crossed the Outer Banks and impacted much of the east coast, and Florence struck a sparsely-populated region of the Florida Panhandle without causing much damage. Bermuda was threatened by three hurricanes within two weeks. In addition to the hurricanes, Tropical Storm Alice developed in late May and left several fatalities in Cuba. The final named storm of the season, Hazel, produced additional rainfall in Florida after previous flooding conditions. There were several unnamed storms, the last of which dissipated on December 9.
+Storms
+ ImageSize = width:800 height:200 PlotArea = top:10 bottom:80 right:20 left:20 Legend = columns:3 left:30 top:58 columnwidth:270 AlignBars = early
+DateFormat = dd/mm/yyyy Period = from:01/05/1953 till:31/12/1953 TimeAxis = orientation:horizontal ScaleMinor = grid:black unit:month increment:1 start:01/05/1953
+Colors =
+ id:canvas value:gray(0.88)
+ id:GP     value:red
+ id:TD     value:rgb(0.38,0.73,1)  legend:Tropical_Depression_=_&lt;39_mph_(0&lt;U+2013&gt;62_km/h)
+ id:TS     value:rgb(0,0.98,0.96)  legend:Tropical_Storm_=_39&lt;U+2013&gt;73_mph_(63&lt;U+2013&gt;117 km/h)
+ id:C1     value:rgb(1,1,0.80)     legend:Category_1_=_74&lt;U+2013&gt;95_mph_(119&lt;U+2013&gt;153_km/h)
+ id:C2     value:rgb(1,0.91,0.46)  legend:Category_2_=_96&lt;U+2013&gt;110_mph_(154&lt;U+2013&gt;177_km/h)
+ id:C3     value:rgb(1,0.76,0.25)  legend:Category_3_=_111&lt;U+2013&gt;130_mph_(178&lt;U+2013&gt;209-km/h)
+ id:C4     value:rgb(1,0.56,0.13)  legend:Category_4_=_131&lt;U+2013&gt;155_mph_(210&lt;U+2013&gt;249_km/h)
+ id:C5     value:rgb(1,0.38,0.38)  legend:Category_5_=_&gt;=156_mph_(&gt;=250_km/h)
+Backgroundcolors = canvas:canvas
+BarData =
+ barset:Hurricane
+ bar:Month
+PlotData=
+ barset:Hurricane width:10 align:left fontsize:S shift:(4,-4) anchor:till
+ from:25/05/1953 till:06/06/1953 color:TS text:&quot;Alice&quot;
+ from:11/08/1953 till:16/08/1953 color:C2 text:&quot;Barbara&quot;
+ from:28/08/1953 till:03/09/1953 color:TS text:&quot;#3&quot;
+ from:28/08/1953 till:09/09/1953 color:C4 text:&quot;Carol&quot;
+ from:14/09/1953 till:19/09/1953 color:C3 text:&quot;Dolly&quot;
+ from:14/09/1953 till:19/09/1953 color:C3 text:&quot;Edna&quot;
+ from:14/09/1953 till:28/09/1953 color:TS text:&quot;#7&quot;
+ barset:break
+ from:23/09/1953 till:28/09/1953 color:C3 text:&quot;Florence&quot;
+ from:02/10/1953 till:05/10/1953 color:C1 text:&quot;Gail&quot;
+ from:03/10/1953 till:06/10/1953 color:TS text:&quot;#10&quot;
+ from:05/10/1953 till:09/10/1953 color:TS text:&quot;#11&quot;
+ from:07/10/1953 till:10/10/1953 color:TS text:&quot;Hazel&quot;
+ from:23/11/1953 till:26/11/1953 color:TS text:&quot;#13&quot;
+ from:07/12/1953 till:09/12/1953 color:TS text:&quot;#14&quot;
+ bar:Month width:5 align:center fontsize:S shift:(0,-20) anchor:middle color:canvas
+ from:01/05/1953 till:01/06/1953 text:May
+ from:01/06/1953 till:01/07/1953 text:June
+ from:01/07/1953 till:01/08/1953 text:July
+ from:01/08/1953 till:01/09/1953 text:August
+ from:01/09/1953 till:01/10/1953 text:September
+ from:01/10/1953 till:01/11/1953 text:October
+ from:01/11/1953 till:01/12/1953 text:November
+ from:01/12/1953 till:31/12/1953 text:December
+TextData =
+  pos:(570,30)
+  text:&quot;(From the&quot;
+  pos:(617,30)
+  text:&quot;Saffir-Simpson Hurricane Scale)&quot;
+Tropical Storm Alice
+A tropical storm developed east of Nicaragua on May 25, executing a counterclockwise loop over Central America. After weakening over land, Alice re-intensified over the western Caribbean, moving over western Cuba on May 21 with winds of 50 mph (80 km/h). On June 1, it entered the Gulf of Mexico, and later executed another loop off the northwest coast of Cuba.3 Alice quickly weakened due to a cold front,4 and advisories were discontinued by June 3.5 While near Cuba, Alice produced drought-breaking rainfall that caused flooding and several unofficial drowning deaths.6
+After passing near Cuba, Alice turned to the north and restrengthened to peak winds of . It again weakened before making landfall near Panama City Beach on June 6 as a minimal tropical storm, and Alice dissipated shortly thereafter.7 Alice brought heavy rainfall to Florida, peaking at  in Lake Placid. Near where it made landfall, the storm dropped light rainfall,8 and there were no reports of damage in the state.9 Alice was the first North Atlantic tropical cyclone to have a female name.10 It was also one of 22 tropical or subtropical cyclones on record in the month of May.
+Hurricane Barbara
+A tropical wave developed into Tropical Storm Barbara over the Bahamas on August 11. It intensified as it moved north-northwestward, becoming a hurricane by the next day,1112 and reaching peak winds of 110 mph (175 km/h) just south of Cape Hatteras on August 13. Barbara moved over the Outer Banks, passing between Morehead City and Ocracoke, and it turned and accelerated to the northeast. Steadily weakening and losing tropical characteristics, the hurricane transitioned into an extratropical cyclone late on August 15. It turned northward, crossing eastern Nova Scotia and dissipating over Labrador on August 16.13
+Before Barbara struck the Outer Banks, officials ordered evacuations for a few islands, and several thousand tourists voluntarily left the region.14 Wind gusts reached  at Hatteras and Nags Head. Torrential rainfall fell across the state and extended northward into Virginia,15 peaking at  near Onley along the Eastern Shore of Virginia.16 Across the region, the hurricane left flooding and downed trees,17 some of which survived the Great Atlantic Hurricane of 1944.18 Monetary damage from Barbara was estimated around $1.3 million (1953 USD, $ {{#time:Y}} USD),19 mostly from the crop damage.20 Newspaper reports indicated there were seven deaths in the country;21 two additional deaths occurred offshore Atlantic Canada when a dory sunk.22
+Tropical Storm Three
+On August 28, a tropical storm developed near Isla de la Juventud, south of the western tip of Cuba. It moved erratically, first quickly northwestward through Cuba, followed by a turn to the east across southern Florida. While moving through the state, the storm dropped heavy rainfall, reaching  at Fort Lauderdale Beach; similar rainfall was observed in the northern Bahamas. Athough one Weather Bureau forecaster described the system as &quot;wide and flat&quot;, the storm gradually organized over the western Atlantic Ocean.23 On August 31, after turning to the northwest, the storm reached peak winds of 60 mph (95 km/h), although it weakened to a tropical depression before moving ashore near Savannah, Georgia on September 1. It turned to the north over land, and dissipated over Kentucky on September 3.
+Hurricane Carol
+On August 28, a tropical wave developed into a tropical depression near Cape Verde. After moving west-southwestward, it turned to the northwest, intensifying into a tropical storm on August 31 and into a hurricane on September 2. Passing northeast of the Lesser Antilles, Carol rapidly intensified to reach peak winds of 150 mph (240 km/h) on September 3, making it the strongest hurricane of the season.24 It gradually weakened, bypassing Bermuda on September 6 and producing high waves.25 Carol later turned to the north-northeast, brushing Cape Cod and causing boating accidents across New England. Four people were killed in the region.26 Fishing losses totaled around $1 million (1953 USD, $ {{#time:Y}} USD).27
+After bypassing New England, Carol brushed western Nova Scotia before moving ashore near Saint John, New Brunswick as a minimal hurricane.28 As it moved ashore, it produced hurricane conditions in eastern Maine, one of only six Atlantic hurricanes to do so.29 In Nova Scotia, several boats were wrecked or washed ashore, with one drowning death reported. High seas caused coastal flooding, while strong winds downed large areas of trees. Heavy losses to the apple crop occurred in Annapolis Valley, totaling $1 million (1950 CAD, $ {{#time:Y}} USD ).30 Carol later dissipated southwest of Greenland on September 9.
+Hurricane Dolly
+The origins of Dolly were from a tropical wave that moved through the eastern Caribbean Sea,31 producing  in Saint Thomas in the U.S. Virgin Islands. The rains closed schools and government buildings around San Juan, Puerto Rico, and flooding was reported in Guayama, Yabucoa, and Patillas.32 On September 8, a tropical storm developed north of Puerto Rico, which moved slowly west-southwestward before turning to the north. It quickly intensified, and after Hurricane Hunters reported an eye, Dolly reached hurricane status on September 9. At that time, hurricane warnings were issued in the Bahamas, although the storm turned away from the archipelago.33 It rapidly intensified to peak winds of  on September 10, as reported by aircraft.34
+Dolly weakened as it accelerated northeastward, although it still threatened to strike Bermuda with strong winds. As a result, the United States Air Force ordered all of the planes on the island to fly to the mainland.35 After continued weakening, Dolly passed over the island on September 11, producing only gale-force winds, rains, and little to no damage.3637 It deteriorated into a tropical storm on September 12 and transitioned into an extratropical cyclone later that day. The remnants of Dolly later turned eastward, dissipating just west of Portugal on September 17.
+Hurricane Edna
+Shortly behind Dolly, another tropical wave spawned a tropical depression over the Lesser Antilles on September 14.38 As it moved through the region, it produced unsettled conditions across the northeast Caribbean.39 Dolly quickly intensified as it tracked northwestward, attaining hurricane status on September 15 and peak winds of 125 mph (205 km/h) the next day. After peaking, the hurricane turned to the northeast and maintained most of its intensity for a few days.40 It passed just north of Bermuda early on September 18 with winds of 115 mph (185 km/h), before beginning a steady weakening trend as it accelerated. By September 19, Edna completed the transition into an extratropical cyclone, lasting another day before dissipating west of Ireland.
+Before Edna struck Bermuda, the islanders were well-prepared due to being previously impacted by hurricanes Carol and Dolly, and they boarded up their homes.41 The hurricane caused &quot;considerable damage&quot;, with wind gusts reaching .42 The winds downed trees, blocking roads, and also caused disruptions to the power and water services.43 During its passage, Edna produced heavy rainfall and also damaged several roofs. There were three injuries on the island.44
+Tropical Storm Seven
+A tropical depression formed in the western Gulf of Mexico on September 14 and moved eastward. The storm produced heavy seas across the region, which damaged two small boats.45 After turning to the northeast, the storm reached peak winds of , followed by executing a clockwise loop from September 16 through September 18. After maintaining peak winds for about five days, the storm weakened, by which time it curved to the northeast. On September 20, it moved ashore in Taylor County, Florida and later crossed the state. The storm dissipated on September 21 just off the Georgia coast.
+Hurricane Florence
+Florence developed on September 28 near Jamaica from a tropical wave.46 While passing that island, it produced heavy rainfall that blocked roads.47 It intensified to hurricane status on September 24 while passing through the Yucat&lt;U+00E1&gt;n Channel,48 and while doing so left heavy damage in western Cuba.49 After turning north and entering the Gulf of Mexico, Florence quickly intensified to peak winds of 125 mph (205 km/h). It gradually weakened before making landfall on September 26 as a minimal hurricane in a sparsely-populated region of the Florida Panhandle.
+Before hitting the United States Gulf Coast, about 10,000 people evacuated Panama City, Florida,50 and the Weather Bureau issued timely warnings that was credited in preventing any deaths or major injuries.51 Winds reached  at Eglin Air Force Base,52 and the heaviest rainfall was  in Lockhart, Alabama.53 The combination of winds and heavy rainfall left crop damage in the Florida panhandle and southeastern Alabama, although coastal damage was not severe. Overall, 421 houses were damaged and another three were destroyed, with monetary damage estimated around $200,000 (1953 USD, $ {{#time:Y}} USD).54 After landfall, Florence quickly transitioned into an extratropical cyclone, and as it continued across the southeastern United States it produced moderately heavy rainfall. It dissipated on September 28 southeast of New England.55
+Hurricane Gail
+On October 2, a tropical wave spawned a tropical depression about 815 mi (1310 km) west-southwest of the Cape Verde islands. The depression quickly intensified into Tropical Storm Gail, and the next day, a ship encountered the storm, reporting a minimum pressure of 986 mbar (29.12 inHg). As the ship crossed through the center, it reported winds of 80 mph (130 km/h), indicating Gail attained hurricane status. There were no further observations, and the hurricane was estimated to have turned to the southwest; it weakened, dissipating on October 5 about 765 mi (1230 km) east-southeast of Barbados.56
+Tropical Storm Ten
+On October 3, a tropical storm developed near the southern coast of Cuba. It moved northwestward, crossing the island before turning to the northeast. Early on October 5, the storm brushed southeastern Florida, producing gusty winds and rainfall. The threat of the storm prompted small craft warnings from the Florida Keys through South Carolina.57 As it accelerated northeastward, the storm strengthened slightly to maximum sustained winds of 45 mph (75 km/h), before becoming extratropical on October 6. Two days later, the remnants moved over Atlantic Canada with winds of 70 mph (120 km/h), producing flooding rainfall that washed out several roads. The storm killed two deaths after it wrecked a boat in Broad Cove, Nova Scotia.58 Later, the cyclone passed south of Greenland before dissipating southwest of Iceland on October 10.
+Tropical Storm Eleven
+On October 5, a tropical storm developed about halfway between Cape Verde and the northern Lesser Antilles. It developed in the same region as Hurricane Gail dissipated. The storm moved generally west-northwestward, reaching peak winds of 70 mph (120 km/h) about 12 hours after it was first observed. Subsequently it began a slow weakening trend, and the system dissipated on October 9 about 470 mi (755 km) north-northeast of Barbuda. The storm never affected land.
+Tropical Storm Hazel
+The twelfth tropical storm and the final named storm of the season formed in the Yucat&lt;U+00E1&gt;n Channel on October 7. Given the name Hazel, the storm tracked north-northeastward, then northeastward through the Gulf of Mexico while gradually intensifying. On October 9, Hazel made landfall just north of Fort Myers, Florida at its peak intensity of 70 mph (120 km/h). Peak wind gusts were , with a minimum pressure of  reported in Okeechobee City. The storm crossed the state in about six hours, during which it weakened slightly. Over the western Atlantic Ocean, Hazel re-intensified to its peak winds, although by late on October 10 it transitioned into an extratropical storm between North Carolina and Bermuda. The remnants continued northeastward, dissipating southeast of Newfoundland on October 12.59 On Sable Island, the storm produced heavy winds and rain.60
+Due to the fairly light winds across Florida, damage from Hazel was minor, estimated around $250,000 (1953 USD, $ {{#time:Y}} USD). During its passage, the storm spawned a tornado in St. James City that destroyed several homes, and there were indications of another tornado in Okeechobee City. The primary impact from Hazel was from its rainfall,61 peaking at  in Daytona Beach.62 The rains added to previous flooding conditions across the state, causing a record flood stage along the St. Johns River that flooded  of highway. Overall flooding damage was estimated up to $10 million (1953 USD, $ {{#time:Y}} USD), but it was impossible to determine how much was due to Hazel.63
+Tropical Storm Thirteen
+A tropical storm developed on November 23 about 460 mi (740 km) northeast of Barbuda in the Lesser Antilles. It moved northeastward, strengthening to peak winds of 50 mph (85 km/h) on November 24. It later turned sharply to the west as it began a weakening trend, followed by a curve to the north. The cyclone dissipated on November 26 about 450 mi (725 km) east-northeast of Bermuda, without ever affecting land.
+Tropical Storm Fourteen
+The final tropical cyclone of the season developed on December 7 about 705 mi (1735 km) east-northeast of the Lesser Antilles as a tropical depression. The first December storm since 1925, it tracked generally westward, briefly intensifying into a tropical storm on December 8. The next day it dissipated about 270 mi (435 km) north of the Lesser Antilles.
+Storm names
+These names were used to name storms during the 1953 season. The list was the same for the 1954 season as well. Initially, all female names were used; it was not until the 1979 season that male and female names were used in alternating order. Names that were not assigned are marked in . All storm names were named for the first time.64 No names were retired.
+Alice
+Barbara
+Carol
+Dolly
+Edna
+Florence
+Gail
+Hazel
+See also
+List of Atlantic hurricanes
+List of Atlantic hurricane seasons
+List of off-season Atlantic hurricanes
+References
+External links
+Monthly Weather Review
+On the formation of Tropical Storm Alice, 1953
+nl:Atlantisch orkaanseizoen 1953
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩

@@ -1,0 +1,25 @@
+In  relativistic physics, proper length is an invariant quantity which is the rod distance between spacelike events in a frame of reference in which the events are simultaneous. (Unlike classical mechanics, simultaneity is relative in relativity. See relativity of simultaneity for more information.)
+In special relativity, the proper length L between spacelike events is
+$L=\sqrt{\Delta x^2 + \Delta y^2 + \Delta z^2 - c^2 \Delta t^2}$,
+where
+t is the temporal coordinates of the events for an observer,
+x, y, and z are the linear, orthogonal, spatial coordinates of the events for the same observer,
+c is the speed of light, and
+&lt;U+0394&gt; stands for &quot;difference in&quot;.
+Along an arbitrary spacelike path P in either special relativity or general relativity, the proper length is given in tensor syntax by the line integral
+$L = c \int_P \sqrt{-g_{\mu\nu} dx^\mu dx^\nu}$,
+where
+g&lt;U+03BC&gt;&lt;U+03BD&gt; is the metric tensor for the current spacetime and coordinate mapping,
+dx&lt;U+03BC&gt; is the coordinate separation between neighboring events along the path P,
+the +--- metric signature is used, and
+g&lt;U+03BC&gt;&lt;U+03BD&gt; has been normalized to return a time instead of a distance1.
+Proper length is analogous to proper time. The difference is that proper length is the invariant interval of a spacelike path while proper time is the invariant interval of a timelike path. For more information on the path integral above and examples of its use, see the proper time article.
+Notes
+Note 1: By mutiplying or dividing by c2, a metric can be made to produce an invariant interval in units of either space or time. For convenience, physicists often avoid this issue by using geometrized units, which are set up so that c=G=1.
+See also
+Proper time
+Comoving distance
+Special relativity
+General relativity
+fr:Distance propre ru:&lt;U+0418&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+043B&gt; (&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043E&gt;&lt;U+0440&gt;&lt;U+0438&gt;&lt;U+044F&gt; &lt;U+043E&gt;&lt;U+0442&gt;&lt;U+043D&gt;&lt;U+043E&gt;&lt;U+0441&gt;&lt;U+0438&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043B&gt;&lt;U+044C&gt;&lt;U+043D&gt;&lt;U+043E&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+0438&gt;)
+Category:Relativity

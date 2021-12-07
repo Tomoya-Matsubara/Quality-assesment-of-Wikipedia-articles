@@ -1,0 +1,19 @@
+ADM-Aeolus, or, in full, Atmospheric Dynamics Mission Aeolus, is an ESA satellite that is due for launch in 2014.12 ADM-Aeolus will be the first equipment capable of performing global wind-component-profile observation and will provide much-needed information to improve weather forecasting.
+Satellite
+The Aeolus satellite is an integral part of the Atmospheric Dynamics Mission (ADM) that is planned by the European Space Agency (ESA) as the fourth Earth Explorer Mission. The central aim of this mission is to further the knowledge of the Earth's atmosphere and weather systems. By recording and monitoring the weather in different parts of the world, Aeolus will allow scientists to build complex models of our environment, which can then be used to help predict how that environment will behave in the future. These predictions will be useful in the short-term, since they can be applied to Numerical Weather Prediction (NWP) in order to make forecasts more accurate. The mission will thus improve the knowledge of all sorts of weather phenomena, from global warming to the effects of pollution. ADM-Aeolus is seen as a mission that will pave the way for future operational meteorological satellites dedicated to measuring the Earth's wind fields.
+The spacecraft is being built by EADS Astrium.3
+Instrumentation
+The wind-component profiles will be measured by the Aeolus payload, namely the Atmospheric LAser Doppler INstrument (ALADIN).
+Atmospheric LAser Doppler INstrument (ALADIN)
+ALADIN instrument, essentially a direct detection Lidar, consists of three major elements: a transmitter, a combined Mie and Rayleigh backscattering receiver assembly, and a Cassegrain telescope with a  diameter.4 The transmitter architecture is based on a 150 mJ diode-pumped frequency-tripled Nd:YAG laser operating in the ultraviolet at 355 nm.5 The Mie receiver consists of a Fizeau spectrometer with a resolution of 100 MHz (equivalent to 18 m/s). The received backscatter signal produces a linear fringe whose position is directly linked to the wind velocity; the wind speed is determined by the fringe centroid position to better than a tenth of the resolution (1.8 m/s).6 The Raleigh receiver employs a dual-filter Fabry&lt;U+2013&gt;P&lt;U+00E9&gt;rot interferometer with a 2 GHz resolution and 5 GHz spacing. It analyzes the wings of the Rayleigh spectrum with a CCD; the etalon is split into two zones, which are imaged separately on the detector.7
+The processing of the backscatter signals will produce line-of-sight wind-component profiles above thick clouds or down to the surface in clear air along the satellite track, every . Wind information in thin cloud or at the tops of thick clouds is also attainable; from the data processing, information on other elements like clouds and aerosols can also be extracted. The data will be disseminated to the main NWP-centres in near-real-time.
+Launch
+The launch vehicle is not confirmed, can be any small-capacity launch vehicle such as Vega, Rockot or Dnepr.8
+References
+External links
+Aeolus page at EADS Astrium
+Aeolus pages at ESA, with latest news
+Aeolus page at ESA Spacecraft Operations
+Category:Earth observation satellites Category:European Space Agency Category:Future spaceflights Category:2014 in spaceflight Category:Proposed spacecraft
+↩
+↩

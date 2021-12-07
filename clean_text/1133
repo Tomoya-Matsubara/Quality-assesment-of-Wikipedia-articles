@@ -1,0 +1,249 @@
+thumb|upright=2.8|right|Lentiviral Delivery of designed shRNA's and the mechanism of RNA interference in mammalian cells.
+RNA interference (RNAi) is a system within living cells that helps to control which genes are active and how active they are. Two types of small RNA molecules &lt;U+2013&gt; microRNA (miRNA) and small interfering RNA (siRNA) &lt;U+2013&gt; are central to RNA interference. RNAs are the direct products of genes, and these small RNAs can bind to specific other RNAs and either increase or decrease their activity, for example by preventing a messenger RNA from producing a protein. RNA interference has an important role in defending cells against parasitic genes &lt;U+2013&gt; viruses and transposons &lt;U+2013&gt; but also in directing development as well as gene expression in general.
+The RNAi pathway is found in many eukaryotes including animals and is initiated by the enzyme Dicer, which cleaves long double-stranded RNA (dsRNA) molecules into short fragments of ~20 nucleotides. The siRNA will be unwound into two ssRNA, namely the passenger strand and the guide strand. The passenger strand will be degraded, and the guide strand is incorporated into the RNA-induced silencing complex (RISC). The most well-studied outcome is post-transcriptional gene silencing, which occurs when the guide strand base pairs with a complementary sequence of a messenger RNA molecule and induces cleavage by Argonaute, the catalytic component of the RISC complex. This process is known to spread systemically throughout the organism despite initially limited molar concentrations of siRNA.
+The selective and robust effect of RNAi on gene expression makes it a valuable research tool, both in cell culture and in living organisms because synthetic dsRNA introduced into cells can induce suppression of specific genes of interest. RNAi may also be used for large-scale screens that systematically shut down each gene in the cell, which can help identify the components necessary for a particular cellular process or an event such as cell division. Exploitation of the pathway is also a promising tool in biotechnology and medicine.
+Historically, RNA interference was known by other names, including cosuppression, post transcriptional gene silencing, and quelling. Only after these apparently unrelated processes were fully understood did it become clear that they all described the RNAi phenomenon. In 2006, Andrew Fire and Craig C. Mello shared the Nobel Prize in Physiology or Medicine for their work on RNA interference in the nematode worm C. elegans,1 which they published in 1998.2
+Cellular mechanism
+
+The dicer protein from Giardia intestinalis, which catalyzes the cleavage of dsRNA to siRNAs. The RNase domains are colored green, the PAZ domain yellow, the platform domain red, and the connector helix blue.3
+
+RNAi is an RNA-dependent gene silencing process that is controlled by the RNA-induced silencing complex (RISC) and is initiated by short double-stranded RNA molecules in a cell's cytoplasm, where they interact with the catalytic RISC component argonaute.4 When the dsRNA is exogenous (coming from infection by a virus with an RNA genome or laboratory manipulations), the RNA is imported directly into the cytoplasm and cleaved to short fragments by the enzyme Dicer. The initiating dsRNA can also be endogenous (originating in the cell), as in pre-microRNAs expressed from RNA-coding genes in the genome. The primary transcripts from such genes are first processed to form the characteristic stem-loop structure of pre-miRNA in the nucleus, then exported to the cytoplasm to be cleaved by Dicer. Thus, the two dsRNA pathways, exogenous and endogenous, converge at the RISC complex.5
+dsRNA cleavage
+Endogenous dsRNA initiates RNAi by activating the ribonuclease protein Dicer,6 which binds and cleaves double-stranded RNAs (dsRNAs) to produce double-stranded fragments of 20&lt;U+2013&gt;25 base pairs with a 2 nucleotide overhang at 3' end.78910 Bioinformatics studies on the genomes of multiple organisms suggest this length maximizes target-gene specificity and minimizes non-specific effects.11 These short double-stranded fragments are called small interfering RNAs (siRNAs). These siRNAs are then separated into single strands and integrated into an active RISC complex. After integration into the RISC, siRNAs base-pair to their target mRNA and induce cleavage of the mRNA, thereby preventing it from being used as a transcription template.12
+Exogenous dsRNA is detected and bound by an effector protein, known as RDE-4 in C. elegans and R2D2 in Drosophila, that stimulates dicer activity.13 This protein only binds long dsRNAs, but the mechanism producing this length specificity is unknown.14 These RNA-binding proteins then facilitate transfer of cleaved siRNAs to the RISC complex.15
+In C. elegans, this initiation response is amplified by the cell by the synthesis of a population of 'secondary' siRNAs using the dicer-produced initiating or 'primary' siRNAs as templates.16 These siRNAs are structurally distinct from dicer-produced siRNAs and appear to be produced by an RNA-dependent RNA polymerase (RdRP).1718
+MicroRNA
+  MicroRNAs (miRNAs) are genomically encoded non-coding RNAs that help regulate gene expression, particularly during development.1920 The phenomenon of RNA interference, broadly defined, includes the endogenously induced gene silencing effects of miRNAs as well as silencing triggered by foreign dsRNA. Mature miRNAs are structurally similar to siRNAs produced from exogenous dsRNA, but before reaching maturity, miRNAs must first undergo extensive post-transcriptional modification. An miRNA is expressed from a much longer RNA-coding gene as a primary transcript known as a pri-miRNA which is processed, in the cell nucleus, to a 70-nucleotide stem-loop structure called a pre-miRNA by the microprocessor complex. This complex consists of an RNase III enzyme called Drosha and a dsRNA-binding protein Pasha. The dsRNA portion of this pre-miRNA is bound and cleaved by Dicer to produce the mature miRNA molecule that can be integrated into the RISC complex; thus, miRNA and siRNA share the same cellular machinery downstream of their initial processing.21
+The siRNAs derived from long dsRNA precursors differ from miRNAs in that miRNAs, especially those in animals, typically have incomplete base pairing to a target and inhibit the translation of many different mRNAs with similar sequences. In contrast, siRNAs typically base-pair perfectly and induce mRNA cleavage only in a single, specific target.22 In Drosophila and C. elegans, miRNA and siRNA are processed by distinct argonaute proteins and dicer enzymes.2324
+
+Left: A full-length argonaute protein from the archaea species Pyrococcus furiosus. Right: The PIWI domain of an argonaute protein in complex with double-stranded RNA.
+
+RISC activation and catalysis
+The active components of an RNA-induced silencing complex (RISC) are endonucleases called argonaute proteins, which cleave the target mRNA strand complementary to their bound siRNA.25 As the fragments produced by dicer are double-stranded, they could each in theory produce a functional siRNA. However, only one of the two strands, which is known as the guide strand, binds the argonaute protein and directs gene silencing. The other anti-guide strand or passenger strand is degraded during RISC activation.26 Although it was first believed that an ATP-dependent helicase separated these two strands,27 the process is actually ATP-independent and performed directly by the protein components of RISC.2829 The strand selected as the guide tends to be the one whose 5' end is least paired to its complement,30 but strand selection is unaffected by the direction in which dicer cleaves the dsRNA before RISC incorporation.31 Instead, the R2D2 protein may serve as the differentiating factor by binding the more-stable 5' end of the passenger strand.32
+The structural basis for binding of RNA to the argonaute protein was examined by X-ray crystallography of the binding domain of an RNA-bound argonaute protein. Here, the phosphorylated 5' end of the RNA strand enters a conserved basic surface pocket and makes contacts through a divalent cation (an atom with two positive charges) such as magnesium and by aromatic stacking (a process that allows more than one atom to share an electron by passing it back and forth) between the 5' nucleotide in the siRNA and a conserved tyrosine residue. This site is thought to form a nucleation site for the binding of the siRNA to its mRNA target.33
+It is not understood how the activated RISC complex locates complementary mRNAs within the cell. Although the cleavage process has been proposed to be linked to translation, translation of the mRNA target is not essential for RNAi-mediated degradation.34 Indeed, RNAi may be more effective against mRNA targets that are not translated.35 Argonaute proteins, the catalytic components of RISC, are localized to specific regions in the cytoplasm called P-bodies (also cytoplasmic bodies or GW bodies), which are regions with high rates of mRNA decay;36 miRNA activity is also clustered in P-bodies.37 Disruption of P-bodies decreases the efficiency of RNA interference, suggesting that they are the site of a critical step in the RNAi process.38 
+Transcriptional silencing
+Components of the RNA interference pathway are also used in many eukaryotes in the maintenance of the organisation and structure of their genomes. Modification of histones and associated induction of heterochromatin formation serves to downregulate genes pre-transcriptionally;39 this process is referred to as RNA-induced transcriptional silencing (RITS), and is carried out by a complex of proteins called the RITS complex. In fission yeast this complex contains argonaute, a chromodomain protein Chp1, and a protein called Tas3 of unknown function.40 As a consequence, the induction and spread of heterochromatic regions requires the argonaute and RdRP proteins.41 Indeed, deletion of these genes in the fission yeast S. pombe disrupts histone methylation and centromere formation,42 causing slow or stalled anaphase during cell division.43 In some cases, similar processes associated with histone modification have been observed to transcriptionally upregulate genes.44
+The mechanism by which the RITS complex induces heterochromatin formation and organization is not well understood, and most studies have focused on the mating-type region in fission yeast, which may not be representative of activities in other genomic regions or organisms. In maintenance of existing heterochromatin regions, RITS forms a complex with siRNAs complementary to the local genes and stably binds local methylated histones, acting co-transcriptionally to degrade any nascent pre-mRNA transcripts that are initiated by RNA polymerase. The formation of such a heterochromatin region, though not its maintenance, is dicer-dependent, presumably because dicer is required to generate the initial complement of siRNAs that target subsequent transcripts.45 Heterochromatin maintenance has been suggested to function as a self-reinforcing feedback loop, as new siRNAs are formed from the occasional nascent transcripts by RdRP for incorporation into local RITS complexes.46 The relevance of observations from fission yeast mating-type regions and centromeres to mammals is not clear, as heterochromatin maintenance in mammalian cells may be independent of the components of the RNAi pathway.47
+Crosstalk with RNA editing
+The type of RNA editing that is most prevalent in higher eukaryotes converts adenosine nucleotides into inosine in dsRNAs via the enzyme adenosine deaminase (ADAR).48 It was originally proposed in 2000 that the RNAi and A&lt;U+2192&gt;I RNA editing pathways might compete for a common dsRNA substrate.49 Indeed, some pre-miRNAs do undergo A&lt;U+2192&gt;I RNA editing,5051 and this mechanism may regulate the processing and expression of mature miRNAs.52 Furthermore, at least one mammalian ADAR can sequester siRNAs from RNAi pathway components.53 Further support for this model comes from studies on ADAR-null C. elegans strains indicating that A&lt;U+2192&gt;I RNA editing may counteract RNAi silencing of endogenous genes and transgenes.54 
+Variation among organisms
+Organisms vary in their ability to take up foreign dsRNA and use it in the RNAi pathway. The effects of RNA interference can be both systemic and heritable in plants and C. elegans, although not in Drosophila or mammals. In plants, RNAi is thought to propagate by the transfer of siRNAs between cells through plasmodesmata (channels in the cell walls that enable communication and transport).55 The heritability comes from methylation of promoters targeted by RNAi; the new methylation pattern is copied in each new generation of the cell.56 A broad general distinction between plants and animals lies in the targeting of endogenously produced miRNAs; in plants, miRNAs are usually perfectly or nearly perfectly complementary to their target genes and induce direct mRNA cleavage by RISC, while animals' miRNAs tend to be more divergent in sequence and induce translational repression.57 This translational effect may be produced by inhibiting the interactions of translation initiation factors with the messenger RNA's polyadenine tail.58
+Some eukaryotic protozoa such as Leishmania major and Trypanosoma cruzi lack the RNAi pathway entirely.5960 Most or all of the components are also missing in some fungi, most notably the model organism Saccharomyces cerevisiae.61 A recent study however reveals the presence of RNAi in other budding yeast species such as Saccharomyces castellii and Candida albicans, further demonstrating that inducing two RNAi-related proteins from S. castellii facilitates RNAi in S. cerevisiae62. That certain ascomycetes and basidiomycetes are missing RNA interference pathways indicates that proteins required for RNA silencing have been lost independently from many fungal lineages, possibly due to the evolution of a novel pathway with similar function, or to the lack of selective advantage in certain niches.63
+Related prokaryotic systems
+Gene expression in prokaryotes is influenced by an RNA-based system similar in some respects to RNAi. Here, RNA-encoding genes control mRNA abundance or translation by producing a complementary RNA that binds to an mRNA by base pairing. However these regulatory RNAs are not generally considered to be analogous to miRNAs because the dicer enzyme is not involved.64 It has been suggested that CRISPR interference systems in prokaryotes are analogous to eukaryotic RNA interference systems, although none of the protein components are orthologous.65
+Biological functions
+Immunity
+RNA interference is a vital part of the immune response to viruses and other foreign genetic material, especially in plants where it may also prevent self-propagation by transposons.66 Plants such as Arabidopsis thaliana express multiple dicer homologs that are specialized to react differently when the plant is exposed to different types of viruses.67 Even before the RNAi pathway was fully understood, it was known that induced gene silencing in plants could spread throughout the plant in a systemic effect, and could be transferred from stock to scion plants via grafting.68 This phenomenon has since been recognized as a feature of the plant adaptive immune system, and allows the entire plant to respond to a virus after an initial localized encounter.69 In response, many plant viruses have evolved elaborate mechanisms that suppress the RNAi response in plant cells.70 These include viral proteins that bind short double-stranded RNA fragments with single-stranded overhang ends, such as those produced by the action of dicer.71 Some plant genomes also express endogenous siRNAs in response to infection by specific types of bacteria.72 These effects may be part of a generalized response to pathogens that downregulates any metabolic processes in the host that aid the infection process.73
+Although animals generally express fewer variants of the dicer enzyme than plants, RNAi in some animals has also been shown to produce an antiviral response. In both juvenile and adult Drosophila, RNA interference is important in antiviral innate immunity and is active against pathogens such as Drosophila X virus.7475 A similar role in immunity may operate in C. elegans, as argonaute proteins are upregulated in response to viruses and worms that overexpress components of the RNAi pathway are resistant to viral infection.7677
+The role of RNA interference in mammalian innate immunity is poorly understood, and relatively little data is available. However, the existence of viruses that encode genes able to suppress the RNAi response in mammalian cells may be evidence in favour of an RNAi-dependent mammalian immune response.7879 However, this hypothesis of RNAi-mediated immunity in mammals has been challenged as poorly substantiated.80 Alternative functions for RNAi in mammalian viruses also exist, such as miRNAs expressed by the herpes virus that may act as heterochromatin organization triggers to mediate viral latency.81
+Downregulation of genes
+Endogenously expressed miRNAs, including both intronic and intergenic miRNAs, are most important in translational repression82 and in the regulation of development, especially on the timing of morphogenesis and the maintenance of undifferentiated or incompletely differentiated cell types such as stem cells.83 The role of endogenously expressed miRNA in downregulating gene expression was first described in C. elegans in 1993.84 In plants this function was discovered when the &quot;JAW microRNA&quot; of Arabidopsis was shown to be involved in the regulation of several genes that control plant shape.85 In plants, the majority of genes regulated by miRNAs are transcription factors;86 thus miRNA activity is particularly wide-ranging and regulates entire gene networks during development by modulating the expression of key regulatory genes, including transcription factors as well as F-box proteins.87 In many organisms, including humans, miRNAs have also been linked to the formation of tumors and dysregulation of the cell cycle. Here, miRNAs can function as both oncogenes and tumor suppressors.88
+Upregulation of genes
+RNA sequences (siRNA and miRNA) that are complementary to parts of a promoter can increase gene transcription, a phenomenon dubbed RNA activation. Part of the mechanism for how these RNA upregulate genes is known: dicer and argonaute are involved, and there is histone demethylation.8990
+Evolution
+Based on parsimony-based phylogenetic analysis, the most recent common ancestor of all eukaryotes most likely already possessed an early RNA interference pathway; the absence of the pathway in certain eukaryotes is thought to be a derived characteristic.91 This ancestral RNAi system probably contained at least one dicer-like protein, one argonaute, one PIWI protein, and an RNA-dependent RNA polymerase that may have also played other cellular roles. A large-scale comparative genomics study likewise indicates that the eukaryotic crown group already possessed these components, which may then have had closer functional associations with generalized RNA degradation systems such as the exosome.92 This study also suggests that the RNA-binding argonaute protein family, which is shared among eukaryotes, most archaea, and at least some bacteria (such as Aquifex aeolicus), is homologous to and originally evolved from components of the translation initiation system.
+The ancestral function of the RNAi system is generally agreed to have been immune defense against exogenous genetic elements such as transposons and viral genomes.9394 Related functions such as histone modification may have already been present in the ancestor of modern eukaryotes, although other functions such as regulation of development by miRNA are thought to have evolved later.95
+RNA interference genes, as components of the antiviral innate immune system in many eukaryotes, are involved in an evolutionary arms race with viral genes. Some viruses have evolved mechanisms for suppressing the RNAi response in their host cells, an effect that has been noted particularly for plant viruses.96 Studies of evolutionary rates in Drosophila have shown that genes in the RNAi pathway are subject to strong directional selection and are among the fastest-evolving genes in the Drosophila genome.97
+Technological applications
+Gene knockdown
+The RNA interference pathway is often exploited in experimental biology to study the function of genes in cell culture and in vivo in model organisms.98 Double-stranded RNA is synthesized with a sequence complementary to a gene of interest and introduced into a cell or organism, where it is recognized as exogenous genetic material and activates the RNAi pathway. Using this mechanism, researchers can cause a drastic decrease in the expression of a targeted gene. Studying the effects of this decrease can show the physiological role of the gene product. Since RNAi may not totally abolish expression of the gene, this technique is sometimes referred as a &quot;knockdown&quot;, to distinguish it from &quot;knockout&quot; procedures in which expression of a gene is entirely eliminated.99
+Extensive efforts in computational biology have been directed toward the design of successful dsRNA reagents that maximize gene knockdown but minimize &quot;off-target&quot; effects. Off-target effects arise when an introduced RNA has a base sequence that can pair with and thus reduce the expression of multiple genes at a time. Such problems occur more frequently when the dsRNA contains repetitive sequences. It has been estimated from studying the genomes of H. sapiens, C. elegans, and S. pombe that about 10% of possible siRNAs will have substantial off-target effects.100 A multitude of software tools have been developed implementing algorithms for the design of general,101102 mammal-specific,103 and virus-specific104 siRNAs that are automatically checked for possible cross-reactivity.
+Depending on the organism and experimental system, the exogenous RNA may be a long strand designed to be cleaved by dicer, or short RNAs designed to serve as siRNA substrates. In most mammalian cells, shorter RNAs are used because long double-stranded RNA molecules induce the mammalian interferon response, a form of innate immunity that reacts nonspecifically to foreign genetic material.105 Mouse oocytes and cells from early mouse embryos lack this reaction to exogenous dsRNA and are therefore a common model system for studying gene-knockdown effects in mammals.106 Specialized laboratory techniques have also been developed to improve the utility of RNAi in mammalian systems by avoiding the direct introduction of siRNA, for example, by stable transfection with a plasmid encoding the appropriate sequence from which siRNAs can be transcribed,107 or by more elaborate lentiviral vector systems allowing the inducible activation or deactivation of transcription, known as conditional RNAi.108109
+Functional genomics
+  Most functional genomics applications of RNAi in animals have used C. elegans110 and Drosophila,111 as these are the common model organisms in which RNAi is most effective. C. elegans is particularly useful for RNAi research for two reasons: firstly, the effects of the gene silencing are generally heritable, and secondly because delivery of the dsRNA is extremely simple. Through a mechanism whose details are poorly understood, bacteria such as E. coli that carry the desired dsRNA can be fed to the worms and will transfer their RNA payload to the worm via the intestinal tract. This &quot;delivery by feeding&quot; is just as effective at inducing gene silencing as more costly and time-consuming delivery methods, such as soaking the worms in dsRNA solution and injecting dsRNA into the gonads.112 Although delivery is more difficult in most other organisms, efforts are also underway to undertake large-scale genomic screening applications in cell culture with mammalian cells.113
+Approaches to the design of genome-wide RNAi libraries can require more sophistication than the design of a single siRNA for a defined set of experimental conditions. Artificial neural networks are frequently used to design siRNA libraries114 and to predict their likely efficiency at gene knockdown.115 Mass genomic screening is widely seen as a promising method for genome annotation and has triggered the development of high-throughput screening methods based on microarrays.116117 However, the utility of these screens and the ability of techniques developed on model organisms to generalize to even closely related species has been questioned, for example from C. elegans to related parasitic nematodes.118119
+Functional genomics using RNAi is a particularly attractive technique for genomic mapping and annotation in plants because many plants are polyploid, which presents substantial challenges for more traditional genetic engineering methods. For example, RNAi has been successfully used for functional genomics studies in bread wheat (which is hexaploid)120 as well as more common plant model systems Arabidopsis and maize.121
+Medicine
+It may be possible to exploit RNA interference in therapy. Although it is difficult to introduce long dsRNA strands into mammalian cells due to the interferon response, the use of short interfering RNA mimics has been more successful.122 Among the first applications to reach clinical trials were in the treatment of macular degeneration and respiratory syncytial virus,123 RNAi has also been shown to be effective in the reversal of induced liver failure in mouse models.124
+Other proposed clinical uses center on antiviral therapies, including topical microbicide treatments that use RNAi to treat infection (at Harvard University Medical School; in mice, so far) by herpes simplex virus type 2 and the inhibition of viral gene expression in cancerous cells,125 knockdown of host receptors and coreceptors for HIV,126 the silencing of hepatitis A127 and hepatitis B genes,128 silencing of influenza gene expression,129 and inhibition of measles viral replication.130 Potential treatments for neurodegenerative diseases have also been proposed, with particular attention being paid to the polyglutamine diseases such as Huntington's disease.131 RNA interference is also often seen as a promising way to treat cancer by silencing genes differentially upregulated in tumor cells or genes involved in cell division.132133 A key area of research in the use of RNAi for clinical applications is the development of a safe delivery method, which to date has involved mainly viral vector systems similar to those suggested for gene therapy.134135
+Despite the proliferation of promising cell culture studies for RNAi-based drugs, some concern has been raised regarding the safety of RNA interference, especially the potential for &quot;off-target&quot; effects in which a gene with a coincidentally similar sequence to the targeted gene is also repressed.136 A computational genomics study estimated that the error rate of off-target interactions is about 10%.137 One major study of liver disease in mice led to high death rates in the experimental animals, suggested by researchers to be the result of &quot;oversaturation&quot; of the dsRNA pathway,138 due to the use of shRNAs that have to be processed in the nucleus and exported to the cytoplasm using an active mechanism. All these are considerations that are under active investigation, to reduce their impact in the potential therapeutic applications for RNAi.
+RNA interference-based applications are being developed to target persistent HIV-1 infection. Viruses like HIV-1 are particularly difficult targets for RNAi-attack because they are escape-prone, which requires combinatorial RNAi strategies to prevent viral escape. The future of antiviral RNAi therapeutics is very promising, but it remains of critical importance to include many controls in pre-clinical test models to unequivocally demonstrate sequence-specific action of the RNAi inducers.139
+Biotechnology
+RNA interference has been used for applications in biotechnology, particularly in the engineering of food plants that produce lower levels of natural plant toxins. Such techniques take advantage of the stable and heritable RNAi phenotype in plant stocks. For example, cotton seeds are rich in dietary protein but naturally contain the toxic terpenoid product gossypol, making them unsuitable for human consumption. RNAi has been used to produce cotton stocks whose seeds contain reduced levels of delta-cadinene synthase, a key enzyme in gossypol production, without affecting the enzyme's production in other parts of the plant, where gossypol is important in preventing damage from plant pests.140 Similar efforts have been directed toward the reduction of the cyanogenic natural product linamarin in cassava plants.141
+Although no plant products that use RNAi-based genetic engineering have yet passed the experimental stage, development efforts have successfully reduced the levels of allergens in tomato plants142 and decreased the precursors of likely carcinogens in tobacco plants.143 Other plant traits that have been engineered in the laboratory include the production of non-narcotic natural products by the opium poppy,144 resistance to common plant viruses,145 and fortification of plants such as tomatoes with dietary antioxidants.146 Previous commercial products, including the Flavr Savr tomato and two cultivars of ringspot-resistant papaya, were originally developed using antisense technology but likely exploited the RNAi pathway.147148
+History and discovery
+ The discovery of RNAi was preceded first by observations of transcriptional inhibition by antisense RNA expressed in transgenic plants,149 and more directly by reports of unexpected outcomes in experiments performed by plant scientists in the United States and the Netherlands in the early 1990s.150 In an attempt to alter flower colors in petunias, researchers introduced additional copies of a gene encoding chalcone synthase, a key enzyme for flower pigmentation into petunia plants of normally pink or violet flower color. The overexpressed gene was expected to result in darker flowers, but instead produced less pigmented, fully or partially white flowers, indicating that the activity of chalcone synthase had been substantially decreased; in fact, both the endogenous genes and the transgenes were downregulated in the white flowers. Soon after, a related event termed quelling was noted in the fungus Neurospora crassa,151 although it was not immediately recognized as related. Further investigation of the phenomenon in plants indicated that the downregulation was due to post-transcriptional inhibition of gene expression via an increased rate of mRNA degradation.152 This phenomenon was called co-suppression of gene expression, but the molecular mechanism remained unknown.153  Not long after, plant virologists working on improving plant resistance to viral diseases observed a similar unexpected phenomenon. While it was known that plants expressing virus-specific proteins showed enhanced tolerance or resistance to viral infection, it was not expected that plants carrying only short, non-coding regions of viral RNA sequences would show similar levels of protection. Researchers believed that viral RNA produced by transgenes could also inhibit viral replication.154 The reverse experiment, in which short sequences of plant genes were introduced into viruses, showed that the targeted gene was suppressed in an infected plant. This phenomenon was labeled &quot;virus-induced gene silencing&quot; (VIGS), and the set of such phenomena were collectively called post transcriptional gene silencing.155
+After these initial observations in plants, many laboratories around the world searched for the occurrence of this phenomenon in other organisms.156157 Craig C. Mello and Andrew Fire's 1998 Nature paper reported a potent gene silencing effect after injecting double stranded RNA into C. elegans.158 In investigating the regulation of muscle protein production, they observed that neither mRNA nor antisense RNA injections had an effect on protein production, but double-stranded RNA successfully silenced the targeted gene. As a result of this work, they coined the term RNAi. Fire and Mello's discovery was particularly notable because it represented the first identification of the causative agent for the phenomenon. Fire and Mello were awarded the Nobel Prize in Physiology or Medicine in 2006 for their work.159
+References
+
+External links
+
+
+Overview of the RNAi process, from Cambridge University's The Naked Scientists
+Animation of the RNAi process, from Nature
+NOVA scienceNOW explains RNAi &lt;U+2013&gt; A 15 minute video of the Nova broadcast that aired on PBS, July 26, 2005
+
+Silencing Genomes RNA interference (RNAi) experiments and bioinformatics in C. elegans for education. From the Dolan DNA Learning Center of Cold Spring Harbor Laboratory.
+RNAi screens in C. elegans in a 96-well liquid format and their application to the systematic identification of genetic interactions (a protocol)
+2 American &lt;U+2018&gt;Worm People&lt;U+2019&gt; Win Nobel for RNA Work, from NY Times''
+Molecular Therapy web focus: &quot;The development of RNAi as a therapeutic strategy&quot;, a collection of free articles about RNAi as a therapeutic strategy.
+
+
+
+an:Interferencia d'ARN zh-min-nan:RNA kan-g&lt;U+0101&gt;i cs:RNA interference da:RNA-interferens de:RNA-Interferenz el:&lt;U+0395&gt;&lt;U+03C0&gt;&lt;U+03B5&gt;&lt;U+03BC&gt;&lt;U+03B2&gt;&lt;U+03B1&gt;&lt;U+03C4&gt;&lt;U+03B9&gt;&lt;U+03BA&gt;&lt;U+03CC&gt; RNA es:ARN interferente fa:&lt;U+0622&gt;&lt;U+0631&gt;&lt;U+0627&gt;&lt;U+0646&gt;&lt;U+200C&gt;&lt;U+0627&gt;&lt;U+06CC&gt; &lt;U+0645&gt;&lt;U+062F&gt;&lt;U+0627&gt;&lt;U+062E&gt;&lt;U+0644&gt;&lt;U+0647&gt;&lt;U+200C&gt;&lt;U+06AF&gt;&lt;U+0631&gt; fr:ARN interf&lt;U+00E9&gt;rent ko:RNA &lt;U+AC04&gt;&lt;U+C12D&gt; hi:&lt;U+0906&gt;&lt;U+0930&gt;&lt;U+090F&gt;&lt;U+0928&gt;&lt;U+090F&gt; &lt;U+0939&gt;&lt;U+0938&gt;&lt;U+094D&gt;&lt;U+0924&gt;&lt;U+0915&gt;&lt;U+094D&gt;&lt;U+0937&gt;&lt;U+0947&gt;&lt;U+092A&gt; id:Interferensi RNA it:RNA interference he:RNAi kn:&lt;U+0C86&gt;&lt;U+0CB0&gt;&lt;U+0CCD&gt;&lt;U+200C&gt;&lt;U+0C8E&gt;&lt;U+0CA8&gt;&lt;U+0CCD&gt;&lt;U+200C&gt;&lt;U+0C8E&gt; &lt;U+0CB9&gt;&lt;U+0CB8&gt;&lt;U+0CCD&gt;&lt;U+0CA4&gt;&lt;U+0C95&gt;&lt;U+0CCD&gt;&lt;U+0CB7&gt;&lt;U+0CC7&gt;&lt;U+0CAA&gt; lv:RNS interference nl:RNA-interferentie ja:RNAi no:RNA-interferens nn:RNA-interferens pl:Interferencja RNA pt:RNA interferente ru:&lt;U+0420&gt;&lt;U+041D&gt;&lt;U+041A&gt;-&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+0444&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0446&gt;&lt;U+0438&gt;&lt;U+044F&gt; fi:RNA-interferenssi sv:RNA-interferens ta:&lt;U+0B86&gt;&lt;U+0BB0&gt;&lt;U+0BCD&gt;.&lt;U+0B8E&gt;&lt;U+0BA9&gt;&lt;U+0BCD&gt;.&lt;U+0B8F&gt; &lt;U+0B95&gt;&lt;U+0BC1&gt;&lt;U+0BB1&gt;&lt;U+0BC1&gt;&lt;U+0B95&gt;&lt;U+0BCD&gt;&lt;U+0B95&gt;&lt;U+0BC0&gt;&lt;U+0B9F&gt;&lt;U+0BC1&gt; th:RNA interference ur:&lt;U+0627&gt;&lt;U+0631&gt;&lt;U+0646&gt;&lt;U+0627&gt; &lt;U+062A&gt;&lt;U+062F&gt;&lt;U+0627&gt;&lt;U+062E&gt;&lt;U+0644&gt; zh:RNA&lt;U+5E72&gt;&lt;U+6270&gt;
+Category:RNA Category:RNA interference Category:Gene expression Category:Molecular genetics
+
+
+
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Li LC, Okino ST, Zhao H, Pookot D, Place RF, Urakami S, Enokida H, Dahiya R. (2006). Small dsRNAs induce transcriptional activation in human cells. Proc Natl Acad Sci USA 103(46):17337&lt;U+2013&gt;42. PMID 17085592↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+
+
+↩
+
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+
+
+

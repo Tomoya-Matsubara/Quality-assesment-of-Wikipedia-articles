@@ -1,0 +1,39 @@
+In functional analysis, a state on a C*-algebra is a positive linear functional of norm 1. The set of states of a C*-algebra A, sometimes denoted by S(A), is always a convex set. The extremal points of S(A) are called pure states. If A has a multiplicative identity, S(A) is compact in the weak*-topology.
+In the C*-algebraic formulation of quantum mechanics, states in this previous sense correspond to physical states, i.e. mappings from physical observables to their expected measurement outcome.
+Jordan decomposition
+States can be viewed as noncommutative generalizations of probability measures. By Gelfand representation, every commutative C*-algebra A is of the form C0(X) for some locally compact Hausdorff X. In this case, S(A) consists of positive Radon measures on X, and the pure states are the evaluation functionals on X.
+A bounded linear functional on a C*-algebra A is said to be self-adjoint if it is real-valued on the self-adjoint elements of A. Self-adjoint functionals are noncommutative analogues of signed measures.
+The Jordan decomposition in measure theory says that every signed measure can be expressed as the difference of two positive measures supported on disjoint sets. This can be extended to the noncommutative setting.
+Theorem Every self-adjoint f in A* can be written as f = f+ - f- where f+ and f- are positive functionals and ||f|| = ||f+|| + ||f-||.
+A proof can be sketched as follows: Let &lt;U+03A9&gt; be the weak*-compact set of positive linear functionals on A with norm &lt;U+2264&gt; 1, and C(&lt;U+03A9&gt;) be the continuous functions on &lt;U+03A9&gt;. A can be viewed as a closed linear subspace of C(&lt;U+03A9&gt;) (this is Kadison's function representation). By Hahn-Banach, f extends to a g in C(&lt;U+03A9&gt;)* with ||g|| = ||f||.
+Using results from measure theory quoted above, one has
+g( ⋅ ) = ∫⋅ dμ
+where, by the self-adjointness of f, &lt;U+03BC&gt; can be taken to be a signed measure. Write
+μ = μ+ − μ−, 
+a difference of positive measures. The restrictions of the functionals &lt;U+222B&gt; &lt;U+00B7&gt; d&lt;U+03BC&gt;+ and &lt;U+222B&gt; &lt;U+00B7&gt; d&lt;U+03BC&gt;- to A has the required properties of f+ and f-. This proves the theorem.
+It follows from the above decomposition that A* is the linear span of states.
+Properties of states
+
+a tracial state is a state τ fulfilling
+
+τ(AB) = τ(BA) 
+
+a state τ is called normal, iff for every monotone, increasing net Hα of operators with upper bound H τ(Hα)  converges to τ(H) .
+a state is said to be faithful, if the image of strictly positive operators is itself strictly positive
+
+See also
+
+Quantum state
+Gelfand-Naimark-Segal construction
+Quantum mechanics
+
+Quantum state
+Density matrix
+
+
+References
+
+
+
+es:Estado (an&lt;U+00E1&gt;lisis funcional)
+Category:functional analysis

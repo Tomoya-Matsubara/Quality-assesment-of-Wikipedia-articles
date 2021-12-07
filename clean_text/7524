@@ -1,0 +1,110 @@
+
+ExtendSim (formerly known as Extend) is a simulation program for modeling  discrete event, continuous, agent-based, and discrete rate processes. There are four ExtendSim packages: CP for continuous processes; OR (operations research) which adds discrete event; AT (advanced technology) which adds discrete rate, a number of advanced modeling features , and Stat::Fit for statistical distribution fitting; and Suite which adds 3D animation.
+History
+
+
+
+Year
+Features added
+
+
+
+
+1987
+original release for continuous modeling on the Macintosh
+
+
+1990
+discrete event capabilities added
+
+
+1995
+release for Microsoft Windows
+
+
+2008
+discrete rate and 3D capabilities added
+
+
+
+Model construction
+Models are created by dragging blocks from a library into a model worksheet. Blocks are connected together to create the logical flow of the model. Data for the model resides in the parameters of the blocks and in a proprietary database. New blocks can be created by combining existing blocks into a single hierarchical block or by programming a block in ExtendSim's  c-based language, ModL. The major libraries in ExtendSim are:
+
+
+
+Library name
+Purpose
+Sample blocks
+
+
+
+
+Value
+Mathematical calculations, remote data access, statistics collection
+Math, Read, Write, Mean &amp; Variance
+
+
+Item
+Models discrete event processes
+Queue, Activity, Resource Pool, Item
+
+
+Rate
+Models discrete rate processes
+Tank, Valve, Interchange
+
+
+Plotter
+Displays plots and charts
+Plotter I/O, Histogram
+
+
+Animation 2D 3D
+Animates the model state
+Animate Value, Animate 3D
+
+
+Utilities
+Model interface, debugging, and information
+Buttons, Record Message, Memory Usage
+
+
+
+Application areas
+ExtendSim is used for modeling manufacturing, healthcare, supply chain, communications, defense, environmental, agricultural, biological, energy, reliability, service, information flow, and recreational systems. Sample applications include resource optimization for food logistics 1, six sigma process improvement for a hospital emergency department 2, communication systems 3, and manufacturing facility design 4
+See also
+
+Discrete event simulation
+Computer model
+Process optimization
+Simulation software
+
+Related software
+
+Simcad Pro
+Simprocess
+Simul8
+Anylogic
+Arena (software)
+Simio
+Flexsim
+
+References
+
+External links
+
+ExtendSim home page
+ExtendSim blog
+SPICOSA page on ExtendSim
+Rainforest carbon cycling model
+
+Category:Simulation software
+
+
+
+↩
+↩
+↩
+↩
+
+

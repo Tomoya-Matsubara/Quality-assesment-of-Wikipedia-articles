@@ -1,0 +1,205 @@
+
+<p><strong>JRuby</strong> is a <a href="Java_(programming_language)" title="wikilink">Java</a> implementation of the <a href="Ruby_(programming_language)" title="wikilink">Ruby programming language</a>, being developed by the JRuby team. It is <a href="free_software" title="wikilink">free software</a> released under a three-way <a href="Common_Public_License" title="wikilink">CPL</a>/<a href="GNU_General_Public_License" title="wikilink">GPL</a>/<a href="GNU_Lesser_General_Public_License" title="wikilink">LGPL</a> license. JRuby is tightly integrated with <a href="Java_(programming_language)" title="wikilink">Java</a> to allow the embedding of the interpreter into any Java application with full two-way access between the Java and the Ruby code (similar to <a href="Jython" class="uri" title="wikilink">Jython</a> for the Python language).</p>
+<p>JRuby's lead developers are <a href="Charles_Nutter" title="wikilink">Charles Nutter</a>, <a href="Thomas_Enebo" title="wikilink">Thomas Enebo</a>, <a href="Ola_Bini" title="wikilink">Ola Bini</a> and <a href="Nick_Sieger" title="wikilink">Nick Sieger</a>. In September 2006, <a href="Sun_Microsystems" title="wikilink">Sun Microsystems</a> hired Enebo and Nutter to work on JRuby full time.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> In June 2007, <a href="ThoughtWorks" class="uri" title="wikilink">ThoughtWorks</a> hired Ola Bini to work on Ruby and JRuby.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> In July 2009, the JRuby developers left Sun to continue JRuby development at <a href="Engine_Yard" title="wikilink">Engine Yard</a>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<h2 id="history">History</h2>
+
+<p>JRuby was originally created by Jan Arne Petersen, in 2001. At that time and for several years following, the code was a direct port of the Ruby 1.6 <a href="C_(programming_language)" title="wikilink">C</a> code. With the release of Ruby 1.8.6, an effort began to update JRuby to 1.8.6 features and semantics. Since 2001, several contributors have assisted the project, leading to the current () core team of four members.</p>
+<p>The <a href="NetBeans#NetBeans_Ruby_Pack" title="wikilink">Netbeans Ruby Pack</a>, available since NetBeans 6.0, allows IDE development with <a href="Ruby_(programming_language)" title="wikilink">Ruby</a> and JRuby, as well as <a href="Ruby_on_Rails" title="wikilink">Ruby on Rails</a> for the two implementations of Ruby.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a><a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
+<p>JRuby 1.1 added <a href="Just-in-time_compilation" title="wikilink">Just-in-time compilation</a> and <a href="AOT_compiler" title="wikilink">Ahead-of-time compilation</a> modes to JRuby and was already faster in most cases than the current Ruby 1.8.7 reference implementation<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.</p>
+<p>JRuby 1.1.1 is stated to be packaged in <a href="Fedora_(operating_system)#Fedora_9" title="wikilink">Fedora 9</a><a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a><a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a>.</p>
+<p>Since version 1.1.1, the JRuby team began to issue <a href="point_release" title="wikilink">point releases</a> often to quickly address issues that are brought up by users<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>.</p>
+<p>On July 2009, the core JRuby developers, <a href="Charles_Nutter" title="wikilink">Charles Nutter</a>, <a href="Thomas_Enebo" title="wikilink">Thomas Enebo</a> and <a href="Nick_Sieger" title="wikilink">Nick Sieger</a>, joined <a href="Engine_Yard" title="wikilink">Engine Yard</a> to continue JRuby development.<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a><a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a></p>
+<p>JRuby initially supported <a href="Ruby_MRI" title="wikilink">Ruby MRI</a> 1.8.6, and gradually improved its Ruby 1.9 support<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a>. Since 1.4.0 it also support Ruby 1.8.7.</p>
+<h3 id="rails">Rails</h3>
+<p>JRuby supports <a href="Ruby_on_Rails" title="wikilink">Ruby on Rails</a> since version 0.9 (May 2006) <a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a><a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a>, with the ability to execute <a href="RubyGems" class="uri" title="wikilink">RubyGems</a> and <a href="WEBrick" class="uri" title="wikilink">WEBrick</a>. Since the hiring of the two lead developers by Sun, Rails compatibility and speed have improved greatly. JRuby version 1.0 successfully passed nearly all of Rails' own test cases<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a>. Since then, developers have begun to use JRuby for Rails applications in production environments <a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a>.</p>
+<h3 id="multiple-virtual-machine-collaboration">Multiple virtual machine collaboration</h3>
+<p>On February 27, 2008, <a href="Sun_Microsystems" title="wikilink">Sun Microsystems</a> and the <a href="University_of_Tokyo" title="wikilink">University of Tokyo</a> announced a joint-research project to implement a virtual machine capable of executing more than one <a href="Ruby_(programming_language)" title="wikilink">Ruby</a> or JRuby application on one interpreter<a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a>.</p>
+<h3 id="dynamic-invocation-on-java-virtual-machines">Dynamic invocation on Java Virtual Machines</h3>
+<p><a href="Java_Community_Process" title="wikilink">JSR 292</a> (<em>Supporting Dynamically Typed Languages on the JavaTM Platform</em>) <a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a> propose to:</p>
+<ul>
+<li>add a new <code>invokedynamic</code> instruction at the JVM level, to allow method invocation relying on dynamic <a href="Type_system#Type_checking" title="wikilink">type checking</a>,</li>
+<li>to be able to change the classes and methods at runtime dynamically in a production environment.</li>
+</ul>
+<p>The <a href="Sun_Microsystems" title="wikilink">Sun</a> Open source project <a href="Da_Vinci_Machine" title="wikilink">Multi Language Virtual Machine</a> aim to prototype this JSR<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a>. The first working prototype, developed as a patch on <a href="OpenJDK" class="uri" title="wikilink">OpenJDK</a>, was announced and made available on end of August 2008<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a><a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a>.</p>
+<p>The JRuby team has successfully wired dynamic invocation in their codebase, albeit in a very primitive way. Dynamic invocation shipped with the 1.1.5 release, although being disabled on <a href="Java_Virtual_Machine" title="wikilink">JVMs</a> without Dynamic invocation capabilities<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a>.</p>
+<h3 id="release-history">Release history</h3>
+<p>This table present only releases that present significant steps in JRuby history, aside from versions that mainly fixed bugs and improved performance.</p>
+<table>
+<thead>
+<tr class="header">
+<th><p>Release</p></th>
+<th><p>Release Date</p></th>
+<th><p>Highlights</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0.9</p></td>
+<td><p>2006-08-01</p></td>
+<td><p>Rails support<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a></p></td>
+</tr>
+<tr class="even">
+<td><p>1.1</p></td>
+<td><p>2008-03-28</p></td>
+<td><p>Performs better than Ruby MRI 1.8.7<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a><br />
+<a href="AOT_compiler" title="wikilink">AOT mode</a> and <a href="Just-in-time_compilation" title="wikilink">JIT mode</a><a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></p></td>
+</tr>
+<tr class="odd">
+<td><p>1.1.4</p></td>
+<td><p>2008-08-28</p></td>
+<td><p>Refactored Java integration layer<br />
+Beginning of Ruby 1.9 support<br />
+<a href="Foreign_function_interface" title="wikilink">FFI</a> subsystem for calling <a href="C_(programming_language)" title="wikilink">C</a> libraries<ref>{{cite web</p></td>
+</tr>
+<tr class="even">
+<td><p>1.2.0<ref>{{cite web</p></td>
+<td><p>url=<a href="http://docs.codehaus.org/display/JRUBY/2009/03/16/JRuby+1.2.0+Released" class="uri">http://docs.codehaus.org/display/JRUBY/2009/03/16/JRuby+1.2.0+Released</a></p></td>
+<td><p>title=JRuby 1.2.0 Released</p></td>
+</tr>
+<tr class="odd">
+<td><p>1.3.0<ref>{{cite web</p></td>
+<td><p>url=<a href="http://docs.codehaus.org/display/JRUBY/2009/06/03/JRuby+1.3.0+Released" class="uri">http://docs.codehaus.org/display/JRUBY/2009/06/03/JRuby+1.3.0+Released</a></p></td>
+<td><p>title=JRuby 1.3.0 Released</p></td>
+</tr>
+<tr class="even">
+<td><p>1.4.0<ref>{{cite web</p></td>
+<td><p>url=<a href="http://www.jruby.org/2009/11/02/jruby-1-4-0" class="uri">http://www.jruby.org/2009/11/02/jruby-1-4-0</a></p></td>
+<td><p>title=JRuby 1.4.0 Released</p></td>
+</tr>
+</tbody>
+</table>
+<h2 id="design">Design</h2>
+<p>Since early 2006, the current JRuby core team has endeavored to move JRuby beyond being a simple C port, to support better performance and to aid eventual compilation to Java bytecode. To support this end, the team set an ambitious goal: to be able to run <a href="Ruby_on_Rails" title="wikilink">Ruby on Rails</a> unmodified using JRuby. In the process of achieving this goal, the JRuby test suite expanded to such extent that the team gained confidence in the &quot;correctness&quot; of JRuby. As a result, toward the end of 2006 and in the beginning of 2007, they began to commit much more complicated redesigns and refactorings of JRuby's core subsystems.</p>
+<p>JRuby is designed to work as a mixed-mode virtual machine for Ruby, where code can be either interpreted directly, <a href="Just-in-time_compilation" title="wikilink">just-in-time</a> compiled at runtime to Java bytecode, or <a href="AOT_compiler" title="wikilink">ahead-of-time</a> compiled to Java bytecode before execution. Until October 2007, only the <a href="Interpreter_(computing)" title="wikilink">interpreted</a> mode supported all Ruby's constructs, but a full <a href="AOT_compiler" title="wikilink">AOT</a>/<a href="Just-in-time_compilation" title="wikilink">JIT</a> compiler is available since version 1.1<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a>. The compiler design allows for interpreted and compiled code to run side-by-side, as well as <a href="Deoptimization" title="wikilink">decompilation</a> to reoptimize and outputting generated <a href="Java_bytecode" title="wikilink">bytecode</a> as Java class files.</p>
+<h2 id="frameworks-support">Frameworks support</h2>
+<p>JRuby has built-in support for <a href="Ruby_on_Rails" title="wikilink">Rails</a>, <a href="RSpec" class="uri" title="wikilink">RSpec</a>, <a href="Rake_(software)" title="wikilink">Rake</a>, and <a href="RubyGems" class="uri" title="wikilink">RubyGems</a>. It embeds an <a href="Foreign_function_interface" title="wikilink">FFI</a> subsystem to allow to use <a href="C_(programming_language)" title="wikilink">C</a> libraries bundled as <a href="RubyGems" title="wikilink">gems</a>.</p>
+<p>It also allows to launch the <a href="Interactive_Ruby_Shell" title="wikilink">Interactive Ruby Shell</a> (irb) as <a href="Ruby_MRI" title="wikilink">Ruby MRI</a> does.</p>
+<h2 id="programming">Programming</h2>
+<h3 id="ruby-meets-java">Ruby meets Java</h3>
+<p>JRuby is essentially the Ruby interpreter, except this version is written entirely in <a href="Java_(programming_language)" title="wikilink">Java</a>. JRuby features some of the same concepts, including <a href="object-oriented_programming" title="wikilink">object-oriented programming</a>, and <a href="Duck_typing" title="wikilink">duck-typing</a> as Ruby. The key difference is that JRuby is tightly integrated with Java, and can be called directly from Java programs<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a>.</p>
+<h3 id="calling-java-from-jruby">Calling Java from JRuby</h3>
+<p>One powerful feature of JRuby is its ability to invoke the classes of the <a href="Java_Platform" title="wikilink">Java Platform</a>. To do this, one must first load JRuby's Java support, by calling &quot;include Java&quot; (&quot;require 'java'&quot; in earlier versions). The following example creates a Java <strong></strong> with a <strong></strong>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode ruby"><code class="sourceCode ruby"><a class="sourceLine" id="cb1-1" data-line-number="1">include <span class="dt">Java</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">frame = javax.swing.<span class="dt">JFrame</span>.new()</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">frame.getContentPane().add(javax.swing.<span class="dt">JLabel</span>.new(<span class="st">&#39;Hello, World!&#39;</span>))</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">frame.setDefaultCloseOperation(javax.swing.<span class="dt">JFrame</span>::<span class="dt">EXIT_ON_CLOSE</span>)</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">frame.pack()</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">frame.set_visible(<span class="dv">true</span>)</a></code></pre></div>
+<p>JRuby also allows the user to call Java code using the more Ruby-like <a href="Naming_conventions_(programming)#Multiple-word_identifiers" title="wikilink">underscore method naming</a> and to refer to <a href="JavaBean" class="uri" title="wikilink">JavaBean</a> properties as attributes:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode ruby"><code class="sourceCode ruby"><a class="sourceLine" id="cb2-1" data-line-number="1">frame.content_pane.add label</a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">frame.visible = <span class="dv">true</span></a></code></pre></div>
+<h3 id="calling-jruby-from-java">Calling JRuby from Java</h3>
+<p>JRuby can just as easily be called from Java, using either the <a href="JSR_223" title="wikilink">JSR 223</a><a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a> Scripting for Java 6 or the <a href="Bean_Scripting_Framework" title="wikilink">Apache Bean Scripting</a> framework. More information on this is available in the <a href="http://wiki.jruby.org/wiki/Java_Integration">JRuby Wiki article</a>.</p>
+<h2 id="performance">Performance</h2>
+<p>JRuby supports <a href="Interpreted_language" title="wikilink">interpreted mode</a>, <a href="AOT_compiler" title="wikilink">AOT mode</a>, and <a href="Just-in-time_compilation" title="wikilink">JIT mode</a> (the last two modes are available since version 1.1<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a>). JRuby evolved from being several times slower than <a href="Ruby_MRI" title="wikilink">Ruby Reference implementation</a><a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a>, to being several times faster.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a> <a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a> Benchmarks as of 16 December 2009, show JRuby using between 2 and 56 times the memory of Ruby MRI.<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a></p>
+<h3 id="interpreted-mode">Interpreted mode</h3>
+<p>In this mode, JRuby 1.0 was slower than the C Ruby reference<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a>. For example, serving up Rails requests in the standard <a href="Interpreted_language" title="wikilink">interpreted mode</a>, JRuby was 50% to 70% slower than <a href="Ruby_MRI" title="wikilink">C Ruby 1.8</a>. Since then, JRuby performance in interpreted mode has improved a lot. The JRuby team claims that JRuby 1.1.4 is 15%-20% faster in interpreted mode than <a href="Ruby_MRI" title="wikilink">Ruby MRI</a> <a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a>.</p>
+<p>When using Ruby 1.9 (<a href="YARV" class="uri" title="wikilink">YARV</a>) benchmarks on <a href="Java_Platform,_Standard_Edition" title="wikilink">Java 6</a>, interpreted JRuby 1.0 was 4 times slower than Ruby (including startup time).</p>
+<h3 id="just-in-time-compilation-mode">Just-in-time compilation mode</h3>
+<p><a href="Just-in-time_compilation" title="wikilink">JIT mode</a> is available since JRuby 1.1. In performance benchmarks, JRuby is consistently 200% to 300% faster than <a href="Ruby_MRI" title="wikilink">C Ruby 1.8.6</a> <a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a> but still 15%-25% slower than C Ruby 1.9. However, the JRuby 1.1.6 version outperforms C Ruby 1.9 in some cases <a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a><a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a> <a href="#fn39" class="footnote-ref" id="fnref39"><sup>39</sup></a>.</p>
+<p>Also in a real <a href="Mongrel_(web_server)" title="wikilink">Mongrel</a> <a href="web_server" title="wikilink">web server</a> application, JRuby performance is better than Ruby (after the <a href="Java_Virtual_Machine" title="wikilink">Virtual Machine</a> has instantiated)<a href="#fn40" class="footnote-ref" id="fnref40"><sup>40</sup></a>.</p>
+<h2 id="see-also">See also</h2>
+
+<ul>
+<li><a href="Jython" class="uri" title="wikilink">Jython</a></li>
+<li><a href="YARV" class="uri" title="wikilink">YARV</a></li>
+<li><a href="ZK_(framework)" title="wikilink">ZK (framework)</a> &lt;U+2013&gt; an Ajax framework supporting JRuby</li>
+<li><a href="Monkeybars_Framework" title="wikilink">Monkeybars Framework</a></li>
+<li><a href="Da_Vinci_Machine" title="wikilink">Da Vinci Machine</a></li>
+</ul>
+<h2 id="references">References</h2>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+<h2 id="external-links">External links</h2>
+
+<ul>
+<li><a href="http://www.jruby.org/">The JRuby home page</a></li>
+<li><a href="http://kenai.com/projects/jruby/pages/Home?nav=off">The JRuby Wiki</a></li>
+<li><a href="http://www.jrubyhub.com/">JRubyHub.com: The hub for all resources related to JRuby and JRuby on Rails (JRoR)</a></li>
+<li><a href="http://www.jrubyonrails.de/">JRubyonRails.de: JRuby on Rails Blog (german)</a></li>
+<li><a href="http://www.javaworld.com/javaworld/jw-07-2006/jw-0717-ruby.html">Joshua Fox, &quot;Ruby for the Java world&quot;</a>, <a href="JavaWorld" class="uri" title="wikilink">JavaWorld</a></li>
+<li><a href="http://www.headius.com/jrubywiki/index.php/Roadmap_%28January_2007_-_June_2007%29">JRuby Roadmap for 2007</a></li>
+<li><a href="http://antoniocangiano.com/2008/12/09/the-great-ruby-shootout-december-2008/">The Great Ruby Shootout: JRuby compared to other Ruby VMs</a></li>
+<li><a href="http://www-128.ibm.com/developerworks/java/library/j-alj09084/">Article on JRuby at IBM DeveloperWorks</a></li>
+<li><a href="http://www.javaworld.com/javaworld/jw-02-2007/jw-02-jruby.html">Joshua Fox, &quot;JRuby on Rails&quot;</a>, <a href="JavaWorld" class="uri" title="wikilink">JavaWorld</a></li>
+<li><a href="http://www.javaworld.com/javaworld/jw-11-2007/jw-11-jsr223.html">Scripting on the Java platform</a>, <a href="JavaWorld" class="uri" title="wikilink">JavaWorld</a></li>
+<li><a href="http://wiki.netbeans.org/wiki/view/NetbeansedJRuby">JRuby development in NetBeans</a></li>
+<li><a href="http://www.digitalsanctum.com/2007/07/24/jruby-deploying-a-rails-application-on-tomcat/">Deploying a Rails Application in Tomcat</a></li>
+<li><a href="http://www.digitalsanctum.com/2007/07/25/calling-rubys-activerecord-from-java-using-the-bean-scripting-framework/">Calling Ruby&lt;U+2019&gt;s ActiveRecord from Java Using the Bean Scripting Framework</a></li>
+<li><a href="http://blogs.sun.com/sabada/entry/deploying_jruby_on_rails_war">Deploying JRuby on Rails application on Sun Java System Web Server 7</a></li>
+<li><a href="http://bitnami.org/stack/jrubystack">Easy to install distribution of JRuby, Tomcat and Glassfish</a></li>
+<li><a href="http://blogs.sun.com/arungupta/entry/screencast_web6_first_jruby_app">Arun's Flash Demo: First JRuby app in GlassFish V2</a></li>
+<li><a href="http://blogs.sun.com/arungupta/entry/first_jruby_on_rails_app">First JRuby app in GlassFish V3</a></li>
+<li><a href="http://www.jrubyonrails.de/">JRuby on Rails Blog (german)</a></li>
+</ul>
+<h3 id="media">Media</h3>
+<ul>
+<li></li>
+<li><a href="http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-9294&amp;yr=2007&amp;track=9">JavaOne 2007 Exploiting JRuby</a></li>
+<li><a href="http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-9370&amp;yr=2007&amp;track=9">JavaOne 2007 JRuby on Rails</a></li>
+<li><a href="http://www.netbeans.org/download/flash/jruby_on_rails/jruby_on_rails.html">Roumen's Ruby Flash Demo (Part One): JRuby on Rails in NetBeans</a></li>
+<li><a href="http://www.netbeans.org/download/flash/jruby_editing/jruby_editing.html">Roumen's Ruby Flash Demo (Part Two): Advanced JRuby editing features in NetBeans</a></li>
+<li><a href="Java_Posse" title="wikilink">Java Posse</a>, <a href="http://www.javaposse.com/index.php?post_id=171709">Interview with Charles Oliver Nutter and Thomas Enebo</a> about JRuby</li>
+<li><a href="http://www.infoq.com/presentations/qconsf-nutter-jruby">A presentation by Charles Nutter</a> introducing JRuby, from QCon San Francisco 2007</li>
+<li><a href="http://www.infoq.com/interviews/charles-nutter-jruby">An interview with Charles Nutter</a> about several aspects of JRuby, from QCon San Francisco 2007</li>
+<li><a href="http://www.infoq.com/presentations/bini-power-on-jvm">A presentation by Ola Bini</a> about JRuby's implementation and optimization, from QCon London 2008</li>
+<li><a href="http://www.infoq.com/interviews/sieger-jruby-warbler-rails">An interview with Nick Sieger</a> about JRuby, from RubyFringe 2008</li>
+<li><a href="http://www.infoq.com/presentations/nutter-jruby-duby-juby">A presentation by Charles Nutter</a> about JRuby internal details and future development, from the Sun JVM Languages Summit 2009</li>
+</ul>
+
+
+<p><a href="de:JRuby" class="uri" title="wikilink">de:JRuby</a> <a href="es:JRuby" class="uri" title="wikilink">es:JRuby</a> <a href="fr:JRuby" class="uri" title="wikilink">fr:JRuby</a> <a href="ja:JRuby" class="uri" title="wikilink">ja:JRuby</a> <a href="pt:JRuby" class="uri" title="wikilink">pt:JRuby</a> <a href="ru:JRuby" class="uri" title="wikilink">ru:JRuby</a> <a href="zh-yue:JRuby" class="uri" title="wikilink">zh-yue:JRuby</a></p>
+<p><a href="Category:Free_software_programmed_in_Java" title="wikilink">Category:Free software programmed in Java</a> <a href="Category:Free_software_programmed_in_Ruby" title="wikilink">Category:Free software programmed in Ruby</a> <a href="Category:JVM_programming_languages" title="wikilink">Category:JVM programming languages</a> <a href="Category:Scripting_languages" title="wikilink">Category:Scripting languages</a> <a href="Category:Object-oriented_programming_languages" title="wikilink">Category:Object-oriented programming languages</a></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><a href="#fnref1" class="footnote-back">↩</a></li>
+<li id="fn2"><a href="#fnref2" class="footnote-back">↩</a></li>
+<li id="fn3"><a href="#fnref3" class="footnote-back">↩</a></li>
+<li id="fn4"><a href="#fnref4" class="footnote-back">↩</a></li>
+<li id="fn5"><a href="#fnref5" class="footnote-back">↩</a></li>
+<li id="fn6"><a href="#fnref6" class="footnote-back">↩</a></li>
+<li id="fn7"><a href="#fnref7" class="footnote-back">↩</a></li>
+<li id="fn8"><a href="#fnref8" class="footnote-back">↩</a></li>
+<li id="fn9"><a href="#fnref9" class="footnote-back">↩</a></li>
+<li id="fn10"></li>
+<li id="fn11"><a href="#fnref11" class="footnote-back">↩</a></li>
+<li id="fn12"><a href="#fnref12" class="footnote-back">↩</a></li>
+<li id="fn13"><a href="#fnref13" class="footnote-back">↩</a></li>
+<li id="fn14"><a href="#fnref14" class="footnote-back">↩</a></li>
+<li id="fn15">98.6% of the 2,807 Rails-specific test cases execute successfully; see <a href="http://docs.codehaus.org/display/JRUBY/2007/03/05/JRuby+0.9.8+Released">JRuby 0.9.8 Released</a><a href="#fnref15" class="footnote-back">↩</a></li>
+<li id="fn16"><a href="#fnref16" class="footnote-back">↩</a></li>
+<li id="fn17"><a href="#fnref17" class="footnote-back">↩</a></li>
+<li id="fn18"><a href="http://www.jcp.org/en/jsr/detail?id=292">see JSR 292</a><a href="#fnref18" class="footnote-back">↩</a></li>
+<li id="fn19"><a href="#fnref19" class="footnote-back">↩</a></li>
+<li id="fn20"><a href="#fnref20" class="footnote-back">↩</a></li>
+<li id="fn21"><a href="#fnref21" class="footnote-back">↩</a></li>
+<li id="fn22"><a href="#fnref22" class="footnote-back">↩</a></li>
+<li id="fn23"></li>
+<li id="fn24"></li>
+<li id="fn25"></li>
+<li id="fn26"><a href="#fnref26" class="footnote-back">↩</a></li>
+<li id="fn27"><a href="#fnref27" class="footnote-back">↩</a></li>
+<li id="fn28"><a href="http://jcp.org/aboutJava/communityprocess/final/jsr223/index.html">JSR 223: Scripting for the Java Platform Specification Request</a><a href="#fnref28" class="footnote-back">↩</a></li>
+<li id="fn29"></li>
+<li id="fn30"><a href="#fnref30" class="footnote-back">↩</a></li>
+<li id="fn31"><a href="#fnref31" class="footnote-back">↩</a></li>
+<li id="fn32"><a href="#fnref32" class="footnote-back">↩</a></li>
+<li id="fn33"></li>
+<li id="fn34"><a href="#fnref34" class="footnote-back">↩</a></li>
+<li id="fn35"><a href="#fnref35" class="footnote-back">↩</a></li>
+<li id="fn36"></li>
+<li id="fn37"><a href="#fnref37" class="footnote-back">↩</a></li>
+<li id="fn38"><a href="#fnref38" class="footnote-back">↩</a></li>
+<li id="fn39"><a href="#fnref39" class="footnote-back">↩</a></li>
+<li id="fn40"><a href="#fnref40" class="footnote-back">↩</a></li>
+</ol>
+</section>

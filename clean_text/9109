@@ -1,0 +1,126 @@
+
+Norton Internet Security, developed by Symantec Corporation, provides malware prevention and removal during a subscription period and uses signatures and heuristics to identify viruses. Other features include a software firewall, e-mail spam filtering and phishing protection.1 Additional functionalities, such as parental controls, are available as extensions developed by Symantec.2
+Symantec distributes the product as a download, a box copy, or OEM software. Norton Internet Security and its sister product, Norton AntiVirus, combined, held a 61% antivirus market share as of 2007. Major competitors in terms of market share include antivirus products from vendors CA, Trend Micro, and Kaspersky Lab.3
+Norton Internet Security runs on Microsoft Windows and Mac OS X. Version 16.5.0.135 is the latest update available for Norton Internet Security 2009, made available for users encountering issues when updating to build 16.5.0.134.4 The latest Mac version is 4.0.
+Windows edition
+In August of 1990 Symantec acquired Peter Norton Computing from Peter Norton.5 Norton and his company developed various utilities, or applications for DOS. Symantec continued the development of acquired technologies. The technologies are marketed under the name of &quot;Norton&quot;, with the tagline &quot;from Symantec&quot;. Norton's crossed-arm pose, a registered U.S. trademark, was featured on Norton product packaging.6 However, his pose was later moved to the spine of the packaging, and later dropped altogether.7
+Product activation was introduced to Norton Internet Security 2004, addressing the estimated 3.6 million counterfeit Norton products sold. A alphanumeric code is generated to identify a computer's configuration, which ties in with the product key. Users are allowed to activate their product five times with the same product key.8 Spyware detection and removal was introduced to the 2005 version for Windows, with the tagline &quot;Antispyware Edition&quot;.9 The tagline was dropped in later releases.
+Version 2006 (13.0)
+ Norton Internet Security 2006 debuted on September 26, 2005. The main graphical user interface, dubbed the Norton Protection Center aggregates all information in a central location.10 CNET reports the Norton Protection Center, while useful, attempts to advertise additional products and services from Symantec.
+To help identify zero-day viruses, Bloodhound technology disassembles and scans application code for possibly malicious instructions.11 Norton can revert Internet Explorer homepage hijacking attempts and block advertisements. Users are warned of unauthorized changes to Internet Explorer's homepage, and given an option to revert such changes. Advertisement blocking rewrites a website's HTML to prevent advertisements from being displayed. E-mail filtering blocks e-mail spam and can be configured using a blacklist of blocked senders or a whitelist comprised of allowed senders.12 Parental controls, bundled with this release, allow users to block specific sites, block certain programs from accessing the Internet, and restrict newsgroup access.13
+CNET found this version had a noticeable toll on system performance, especially when opening files across a network or on a removable disk.1415 Oli Warner also noted Norton's significant drag when opening or creating files, compared to similar offerings from different vendors.16
+Windows 98 compatibility was dropped from this release. System requirements were Windows 2000 Service Pack 3 or Windows XP, 325 MB (Megabytes) of free hard drive space, a 300 MHz processor, and 256 MB of RAM is needed.
+Version 2007 (14.0)
+The 2007 version was released on September 12, 2006. 80 percent of the code was rewritten, with the goal of reducing high system resource utilization. New features include a tabbed interface.17 Symantec extended its Veritas VxMS technology, enhancing rootkit detection. VxMS allows Norton to detect inconsistencies among files within directories and files at the volume level.18
+Phishing protection was introduced in this release. Norton checks sites against a blacklist and analyzes its code if the site is not present on a blacklist. Other features include a exploit scanner which looks at system components commonly hosting vulnerabilities, such as Internet Explorer settings. Supplementing the scanner, real-time exploit protection blocks attackers from leveraging common browser and application vulnerabilities. When possible, Norton will fix issues found; otherwise the user is warned of the vulnerability.19 A startup application manager allows users to prevent applications from launching at login. E-mail spam filtering, parental controls, and the advertisement blocking features were not bundled with this release. Instead, the features are available in 2007 add-on package.20
+CNET reports mixed results in performance testing; however gains were made over the 2006 version.21 Warner also noted the 2007 version's reduced impact on system performance, compared to the 2006 version.
+Windows 2000 compatibility was dropped from this release. Compatibility with 32-bit editions of Windows Vista was introduced later in this release with a patch from Symantec. When installed in Vista, 350 MB of free space, an 800 MHz processor, and 512 MB of RAM is needed. When installed in Windows XP, 350 MB of free space, a 300 MHz (Mega-Hertz) processor, and 256 MB of RAM is required.
+Version 2008 (15.0)
+The 2008 version was released on August 28, 2007. New features include SONAR, which monitors applications for malicious or damaging actions. SONAR was designed using technologies acquired from WholeSecurity. The Norton Identity Safe stores personal information and fills webforms as needed.22 The startup application manager was dropped. Advertisement blocking was also dropped in the 2008 add-on package.
+When installed in 32-bit editions of Windows XP Service Pack 2, 350 MB of free space, a 300 MHz processor, and 256 MB of RAM is required. Support for 32-bit and 64-bit editions of Windows Vista was introduced in this release. 350 MB of free space, a 800 MHz processor, and 512 MB of RAM is required for those.
+Version 2009 (16.0)
+The 2009 version was released on September 8, 2008.23 Benchmarking conducted by PassMark Software highlights this release's 52 second install time, 32 second scan time, and 7 MB memory utilization. However, Symantec funded the benchmark test and provided scripts used to benchmark each participating antivirus software.24
+A single main interface replaces the tabs found in prior releases. A CPU usage monitor displays the total CPU utilization and Norton's CPU usage in the main interface. Other features include Norton Insight which whitelists files based on reputation, cutting scanning time.25 Virus signature updates are now delivered 5 to 15 minutes, supplementing the reliability tested updates issued by Symantec every several hours. However, such updates may incorrectly identify files as malicious. Users can disable receiving such updates. The exploit scanner found in the 2007 and 2008 versions was dropped from this release.26
+When the 2009 version is installed in 32-bit editions of Windows XP, a 300 MHz processor, 256 MB of RAM and 200 MB of free space are needed. The 2009 version is compatible with 32-bit and 64-bit versions of Windows Vista. An 800 MHz processor, 512 MB of RAM, and 200 MB of free space is required. Existing users of Norton Internet Security 2006 through 2008 can upgrade to the 2009 version without having to buy a new subscription.27
+Macintosh edition
+Version 1.0 through 3.0
+Norton Internet Security version 1.0 for Mac was released November 1, 2000. It can identify and remove both Windows and Mac viruses. Other features include a firewall, advertisement blocking in the browser, parental controls, and the ability to prevent confidential information from being transmitted outside the computer. Users are prompted before such information is able to be transmitted. The incorporation of Aladdin Systems' iClean allows users to purge the browser cache, cookies, and browsing history within Norton's interface.28 Operating system requirements call for Mac OS 8.1. Hardware requirements call for 24 MB of RAM, 12 MB of disk space, and a PowerPC processor.29
+Version 2.0 also ties in with the WHOIS database, allowing users to trace attacking computers. Users can inform network administrators of the attacking computers for corrective actions. When running under Mac OS 8.1 or 9, a PowerPC processor, 24 MB of RAM, and 25 MB of free space is required. Under Mac OS X 10.1, a PowerPC G3 processor, 128 MB of RAM, and 25 MB of free space is required.30
+The subsequent release, version 3.0, maintained the feature set found in version 2.0. The firewall now allocates internet access as needed rather than relying on user input using predefined rules. Compatibility with OS 8 was dropped. When running under OS 9.2, a PowerPC processor, 24 MB of RAM, and 25 MB of free space is required. Under OS X 10.1.5 through 10.3, a PowerPC G3, 128 MB of RAM, and 150 MB of free space is required. However, version 3.0 is not compatible with OS X 10.4, or &quot;Tiger&quot;.31
+Version 4.0
+Version 4.0 was released on December 18, 2008.3233 Symantec also markets a bundle of Version 4.0 and the 2009 version for Windows, intended for users with both Microsoft Windows and Mac OS X installed.34 iClean was dropped from this release. The firewall now blocks access to malicious sites using a blacklist updated by Symantec. To prevent attackers from leveraging insecurities in the Mac or installed software, exploit protection was introduced in this release.35 Phishing protection was introduced in this release as well.36 Operating system requirements call for Mac OS X 10.4.11 or higher. Either a PowerPC or Intel Core processor, 256 MB of RAM and 150 MB of free space are required.
+Reception
+FBI cooperation
+The FBI confirmed the active development of Magic Lantern, a keylogger intended to obtain passwords to encrypted e-mail as part of a criminal investigation. Magic Lantern was first reported in the media by Bob Sullivan of MSNBC on 20 November 2001 and by Ted Bridis of the Associated Press.37 The FBI intends to deploy Magic Lantern in the form of an e-mail attachment. When the attachment is opened, it installs a trojan horse on the suspect's computer. The trojan horse is activated when the suspect uses PGP encryption, often used to increase the security of sent e-mail messages. When activated, the trojan horse will log the PGP password, which allows the FBI to decrypt user communications.3839 Symantec and other major antivirus vendors have whitelisted Magic Lantern, rendering their antivirus products, including Norton Internet Security, incapable of detecting Magic Lantern. Concerns include uncertainties about Magic Lantern's full potential and whether hackers could subvert it for purposes outside the jurisdiction of the law.4041
+Graham Cluley, a technology consultant from Sophos, said &quot;We have no way of knowing if it was written by the FBI, and even if we did, we wouldn&lt;U+2019&gt;t know whether it was being used by the FBI or if it had been commandeered by a third party&quot;.42 Another reaction came from Marc Maiffret, chief technical officer and cofounder of eEye Digital Security, &quot;Our customers are paying us for a service, to protect them from all forms of malicious code. It is not up to us to do law enforcement's job for them so we do not, and will not, make any exceptions for law enforcement malware or other tools.&quot;43
+FBI spokesman Paul Bresson, in response if Magic Lantern needed a court order to deploy, &quot;Like all technology projects or tools deployed by the FBI it would be used pursuant to the appropriate legal process.&quot;4445 Proponents of Magic Lantern argue the technology would allow law enforcement to efficiently and quickly decrypt messages protected by encryption schemes. Implementing Magic Lantern does not require physical access to a suspect's computer, unlike Carnivore, a predecessor to Magic Lantern, since physical access to a computer would require a court order.46
+Performance impact
+In 2006, Oli Warner published two articles comparing the system performance impact of various Windows applications, including Norton Internet Security 2006. He later reran the experiments, revising his methodology and included 2007 version at Symantec's request. Warner benchmarked the processor and the disk performance with and without each application, compiling two scripts in C++, a programming language. One calculated all prime numbers between 100,000 and 200,000 and the other tested file read/write time. BootVis was used to measure boot time. All testing was conducted inside a virtualized environment created by VMware. Despite the 2007 version's improvements, Warner noted its significant boot delay and impact on file operations.47
+Recent testing conducted by PassMark Software found the 2009 version had the least impact on system performance. As noted earlier, Symantec funded the testing and provided some of the scripts used. Warner's scripts were also used to test file read/write time. The second and third ranked suites were ESET Smart Security 2008 and Kaspersky Internet Security 2009, respectively.48 Systems were benchmarked with a clean installation of Windows Vista, then again with a security suite installed. The 2009 version had the least impact on boot time, the fastest scan speed, lowest memory utilization, and the program itself installed the fastest out of its competitors. However, the 2009 version had the second most impact on file read/write time, as highlighted by Warner earlier.49
+Uninstallation
+Norton Internet Security (Windows versions) have been criticized for refusing to uninstall completely, leaving unnecessary files behind.5051 Versions prior to 2009 installed a separate LiveUpdate program, which updates Norton-branded software. The user must uninstall both Norton Internet Security and the LiveUpdate component manually. The LiveUpdate component is purposely left behind to update other Norton-branded products, if present. In response, Symantec developed the Norton Removal Tool to remove leftover registry keys and values along with files and folders.52 However, uninstallation will not remove subscription data, preserved to prevent users from installing multiple trial copies.
+Windows XP and Vista Service Packs
+When Norton Internet Security 2008 is installed, users encountered incompatibilities upgrading to Windows XP Service Pack 3 or Windows Vista Service Pack 1. Users report numerous invalid registry keys being added by a tool named fixcss.exe, resulting in an empty Device Manager and missing devices such as wireless network adapters.5354 Symantec initially blamed Microsoft for the incompatibilities but has since accepted partial responsibility.
+Dave Cole, Symantec's senior director of product management, acknowledged that users running Norton products were experiencing problems, but said the numbers are small. Cole also said that Symantec had done &quot;extensive testing&quot; of its products with Windows XP SP3, but this issue hadn't surfaced. Cole essentially blamed Microsoft, &quot;This is related to XP SP3,&quot; he stated. Microsoft recommended users to contact Windows customer support.55 To resolve the problem, Symantec has issued a fix intended for users before upgrading.56 Symantec also recommends disabling the tamper protection component in the 2008 release, dubbed SymProtect.57 A tool to remove the added registry entries is also available from Symantec.58
+Windows Vista
+Sarah Hicks, Symantec's vice president of consumer product management, voiced concern over Windows Vista 64-bit's PatchGuard feature. PatchGuard was designed by Microsoft to ensure the integrity of the kernel, a part of a operating system which interacts with the hardware. Rootkits often hide in a operating system's kernel, complicating removal.59 Mike Dalton, European president of McAfee said, &quot;The decision to build a wall around the kernel with the assumption it can't be breached is ridiculous&quot;, claiming Microsoft was preventing security vendors from effectively protecting the kernel while promoting its own security product, Windows Live OneCare.60 Hicks said Symantec did not mind the competition from OneCare.61 Symantec later published a white paper detailing PatchGuard with instructions to obtain a PatchGuard exploit.626364 After negotiations and investigations from antitrust regulators, Microsoft decided to allow security vendors access to the kernel by creating special API instructions.65
+References
+
+External links
+
+Norton Internet Security
+Norton Internet Security 4.0 for Mac
+
+
+ar:&lt;U+0646&gt;&lt;U+0648&gt;&lt;U+0631&gt;&lt;U+062A&gt;&lt;U+0646&gt; &lt;U+0625&gt;&lt;U+0646&gt;&lt;U+062A&gt;&lt;U+0631&gt;&lt;U+0646&gt;&lt;U+062A&gt; &lt;U+0633&gt;&lt;U+0643&gt;&lt;U+064A&gt;&lt;U+0648&gt;&lt;U+0631&gt;&lt;U+062A&gt;&lt;U+064A&gt; de:Norton Internet Security it:Norton Internet Security ja:&lt;U+30CE&gt;&lt;U+30FC&gt;&lt;U+30C8&gt;&lt;U+30F3&gt;&lt;U+30FB&gt;&lt;U+30A4&gt;&lt;U+30F3&gt;&lt;U+30BF&gt;&lt;U+30FC&gt;&lt;U+30CD&gt;&lt;U+30C3&gt;&lt;U+30C8&gt;&lt;U+30BB&gt;&lt;U+30AD&gt;&lt;U+30E5&gt;&lt;U+30EA&gt;&lt;U+30C6&gt;&lt;U+30A3&gt; pl:Norton Internet Security zh:&lt;U+8AFE&gt;&lt;U+9813&gt;&lt;U+7DB2&gt;&lt;U+7D61&gt;&lt;U+5B89&gt;&lt;U+5168&gt;&lt;U+5927&gt;&lt;U+5E2B&gt;
+Category:Symantec software Category:Antivirus software Category:Proprietary software Category:Computer and Information Security articles
+
+
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+
+
+
+↩
+↩
+↩
+↩
+↩
+http://www.passmark.com/ftp/antivirus_09-performance-testing-ed3.pdf↩
+↩
+http://www.techworld.com.au/article/253266/symantec_says_security_software_needs_speed↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+Ted Bridis. &quot;FBI Develops Eavesdropping Tools,&quot; Washington Post, November 22, 2001.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Lai, Karen. Wren, David. (2009). &quot;Antivirus, Internet Security and Total Security Performance Benchmarking Edition 3&quot;, PassMark Software Pty Ltd.↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+
+
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+

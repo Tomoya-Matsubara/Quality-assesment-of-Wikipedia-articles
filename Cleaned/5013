@@ -1,0 +1,98 @@
+{{ About|a particular model of computer|the &quot;classic&quot; Macintosh operating system|Mac OS}}
+The Macintosh Classic was a personal computer manufactured by Apple Computer. Introduced on October 15, 1990, it was the first Apple Macintosh to sell for less than US$1,000.1 Production of the Classic was prompted by the success of the Macintosh Plus and the SE. The system specifications of the Classic were very similar to its predecessors, with the same  monochrome CRT display, 512×342 pixel resolution, and 4 megabyte (MB) memory limit of the older Macintosh computers.2 Apple's decision to not update the Classic with newer technology such as a 68010 CPU, higher RAM capacity or color display ensured compatibility with the Mac's by-then healthy software base as well as enabled it to fit the lower price-point Apple intended for it. Nevertheless, the Classic featured several improvements over the aging Macintosh Plus, which it replaced as Apple's low-end Mac computer. It was up to 25 percent faster than the Plus and included an Apple SuperDrive  floppy disk drive as standard.
+The Classic was an adaptation of Jerry Manock's and Terry Oyama's 1984 Macintosh 128K industrial design, as had been the earlier Macintosh SE. Apple released two versions that ranged from $1,000 to $1,500. Reviewers' reactions were mixed; most focused on the slow processor performance and lack of expansion slots. The consensus was that the Classic was only useful for word processing, spreadsheets and databases. The lower price and the availability of education software led to the Classic's popularity in education. It was sold alongside the more powerful Macintosh Classic II in 1991 until its discontinuation the next year.
+History
+Development
+After Apple co-founder Steve Jobs left Apple in 1985, product development was handed to Jean-Louis Gass&lt;U+00E9&gt;e, formerly manager of Apple France. Gass&lt;U+00E9&gt;e consistently pushed the Apple product line in two directions, towards more &quot;openness&quot; in terms of expandability and interoperability, and towards higher price. Gass&lt;U+00E9&gt;e long argued that Apple should not market their computers towards the low end of the market, where profits were thin, but instead concentrate on the high end and higher profit margins. He illustrated the concept using a graph showing the price/performance ratio of computers with low-power, low-cost machines in the lower left and high-power high-cost machines in the upper right. The &quot;high-right&quot; goal became a mantra among the upper management, who said &quot;fifty-five or die&quot;, referring to Gass&lt;U+00E9&gt;e's goal of a 55 percent profit margin.3
+The high-right policy led to a series of machines with ever-increasing prices. The original Macintosh plans called for a system around $1000, but it was released at $2495.4 From there, the price of Mac systems continued to climb: the Macintosh Plus was slightly more expensive at $2599, the SE was $2900 or $3900 depending on the model, and a basic Macintosh II was at least $5500. More modern machines cost even more: the Macintosh IIcx was $5369, the IIci $6269, and the IIfx $9900 - all without monitors or keyboards. Color CRTs were relatively expensive in the late 1980s; Apple's 14&quot; 640x480 monitor had a list price of $999 and Apple's ADB keyboards, while high quality, were similarly expensive. The only inexpensive machine in the lineup by the late 1980s was the several-year-old Mac Plus, which was now selling for around $2000.
+Having abandoned the &quot;low-left&quot; of the market years earlier, and being ignored on the high end for PCs, Apple's fortunes of the 1980s quickly reversed. The Christmas season of 1989 drove this point home, with the first decrease in sales in years, and an accompanying 20 percent drop in Apple's stock price for the quarter.5
+In January 1990, Gass&lt;U+00E9&gt;e resigned and his authority over product development was divided among several successors.6 Many Apple engineers had long been pressing for lower-cost options in order to build market share and increase demand across the entire price spectrum. With Gass&lt;U+00E9&gt;e out, a rush started to quickly introduce a series of low-cost machines. Three systems were identified, a very low-cost machine aimed at costing $1000, a low-cost machine with color graphics, and a more upscale color machine for small business use. In time, these would develop as the Classic, Macintosh LC, and Macintosh IIsi.7
+Release
+MacWEEK magazine reported on July 10, 1990 that Apple had paid $1 million to Modular Computer Systems Inc., a subsidiary of Daimler-Benz AG, for the right to use the &quot;Classic&quot; name as part of a five-year contract.8 Apple did not renew the contract when it ended.9 MacWEEK speculated the Macintosh Classic would use the same 8 megahertz (MHz) Motorola 68000 microprocessor and  display as its predecessors and that the Classic would be priced from $1,500 to $2,150.10
+On October 15, 1990, John Sculley (then Apple CEO) introduced the Classic at a press conference, announcing that pricing would start at $1,00011 and saying, &quot;To reach new customers, we didn't just lower the prices of our existing products. We redesigned these computers from the ground up with the features customers have told us they value most.&quot;12 Apple's new pricing strategy caused concern among investors, who thought it would reduce profit margins.13 Brodie Keast, an Apple product marketing manager, said, &quot;We are prepared to do whatever it takes to reach more people with Macintosh ... The plan is to get as aggressive on price as we need to be.&quot;14 After the release of the Classic, Apple's share price closed at $27.75 per share, down 50 cents from October 12, 1990, and far below its previous 12-month high of $50.37.15
+The Classic was released in Europe and Japan concurrently with the United States release. In Japan, the Classic retailed for 198,000 yen ($1,523),16 more than in the US but matching the price of the Toshiba Dynabook laptop computer.17
+After spending $40 million marketing the Classic to first-time buyers,18 Apple had difficulty meeting the high demand.19 Apple doubled its manufacturing space in 1990 by expanding its Singapore and Cork, Ireland factories, where the Classic was assembled.20 Air freight, rather than sea shipping, was used to speed delivery.21 The shortage caused concern among dealers, who blamed Apple's poor business planning.22
+Macintosh Classics and LCs had been given to Scholastic Software 12 months before they were officially announced,23 and Scholastic planned to release 16 new Macintosh products in 1991.24 Peter Kelman, Scholastic's publisher, predicted that the Macintosh would become &quot;the school machine of the nineties.&quot;25 The Classic was sold to schools for $800.26 This and the availability of education software led to the Classic's popularity in the education sector.27
+Features
+The low-end model had 1 MB memory, no hard disk, and cost $999, while the $1,499 model contained an additional 1 MB memory expansion card and a 40 MB hard disk. The Classic featured several improvements over the Macintosh Plus, which it replaced as Apple's low-end Mac computer: it was up to 25 percent faster than the Plus and included an Apple SuperDrive 3.5&quot; floppy disk drive as standard.28 The SuperDrive could read and write to Macintosh, MS-DOS, OS/2, and ProDOS disks.29 Also, the Classic was the last compact Mac to use the Motorola 68000 central processing unit (CPU).
+The Classic used the System 6.0.7 operating system with support for all versions up to System 7.5.5. A hidden Hierarchical File System (HFS) disk volume contained in the read-only memory (ROM) included System 6.0.3.30 The Mac Classic could be booted into System 6.0.3 by holding down the Command + Option + X + O keys during boot.31
+Some dealers included a software bundle called Smartbundle with the Classic.32 Also sold separately for $349, this included T/Maker's WriteNow word processor, Ashton-Tate's Full Impact spreadsheet program, RecordHolderPlus database, and Silicon Beach Software's SuperPaint 2.0 paint and draw program.33
+Design
+ The Macintosh Classic was the final adaptation of Jerry Manock's and Terry Oyama's Macintosh 128K industrial design, bringing back some elements of the original, while retaining little of the Snow White design language used in the Macintosh SE's design.34 The only remnant of the SE was the stripe across the front panel (bezel) for the floppy drive; the distinctive front bezel lines of the SE were not used on the Classic, and the vertical lines around its base were replaced by four horizontal vent lines, more reminiscent of the original design.35 Also, the curve of the front bezel was increased to the same  radial curve as on the front of both the Macintosh LC and Macintosh IIsi.36 The screen brightness dial on this bezel was also removed in favor of a software control. This curved front bezel became a signature of Apple product design for much of the 1990s.37
+The logic board, the central circuit board of the computer, was based on the Macintosh SE design.38 Its size, however, was reduced using surface mount technology39 to 9×5 inches (23×13 cm), half the size of the SE board. This redesign, and the absence of expansion slots, kept manufacturing costs low.40 This lack of expansion abilities, along with the small screen size and Macintosh's popularity in the burgeoning field of desktop publishing led to such oddities as video displays which connected through the SCSI port by users seeking to connect a larger full- or dual-page display to their Mac.The Classic design was used once more in 1991 for the Classic II, which succeeded the Classic and replaced the Macintosh SE/30.41
+Reception
+Some reviewers of the Macintosh Classic focused on the processor performance and lack of expansion slots. Liza Schafer of Home Office Computing praised the Classic's ease of use and price, but criticized the  display because a full US letter page (8&lt;U+00BD&gt; &lt;U+00D7&gt; 11 inches) would not fit at full size, and warned those who required high-end graphics and desktop publishing capabilities against buying the Classic.42 Schafer concluded: &quot;The Classic's value is more impressive than its performance, but its performance will get you working on that novel, database, or spreadsheet.&quot;43 PC Week criticized the lack of a faster processor, stating, &quot;The 7.8 MHz speed is adequate for text applications and limited graphics work, but it is not suitable for power users. As such, the Classic is appropriate as a home computer or for limited computing on the road.&quot;44 Similarly, PC User's review concluded, &quot;The slow processor and lack of expansion slots on the Macintosh Classic offset the low prices.&quot;45 MacWEEK described it as a &quot;fine, inexpensive replacement for the Macintosh Plus that best embodies the original Macintosh vision six and a half years later&quot;.46
+In the February 1991 edition of Electronic Learning, Robert McCarthy wrote: &quot;Teachers, educational administrators and software developers are enthusiastic about the new, lower cost Apple Macintosh computers&quot;.47 Steve Taffe, manager of instructional strategy at MECC, a developer and publisher of educational software, explained his excitement about the Classic: &quot;[it] is terrific &lt;U+2013&gt; both because it's a Mac and because of that low price. Everyone can now afford a Macintosh.&quot;48 Scholastic, an education software developer, was also confident of Apple's ability to compete with MS-DOS machines, stating: &quot;They are just as cost-effective and as powerful as MS-DOS computers, but the Apples will have a superior comfort-level.&quot;49 Sue Talley, Apple's manager of strategic planning in education, said of the Classic: &quot;we see it going into applications where you need a fair number of powerful stations, but where color is not a big issue.&quot;50 Talley mentioned that it was most suited for writing labs and other basic productivity uses.51 Many schools decided not to buy Classics because of the lack of a color monitor, an option which the higher priced Macintosh LC had.52
+Specifications
+Component
+Specification53
+Display
+monochrome CRT display, 512 × 342 pixel resolution
+Storage
+40 MB SCSI hard disk drive optional, Built-in SuperDrive 3.5 in floppy disk drive
+Processor
+8 MHz Motorola 68000
+Bus Speed
+8 MHz
+Random Access Memory
+1 MB, expandable to 2 or 4 MB using 120 ns 30-pin SIMMs and optional custom RAM-slot expansion card
+Read-only Memory
+512 KB
+Networking
+AppleTalk
+Battery
+3.6 V lithium
+Physical dimensions
+ cm &lt;U+00D7&gt; {{#expr:2.54*9.7round1}} cm &lt;U+00D7&gt; {{#expr:2.54*11.2round1}} cm;}} depth by width by height)
+Port connections
+1× ADB (keyboard, mouse)
+2× mini-DIN-8 RS-422 serial ports (printer, modem, AppleTalk)
+1× DB-19 (ext. floppy drive)
+1× DB-25 SCSI connector (ext. hard drive, scanner)
+1× 3.5 mm Headphone jack socket
+Expansion slots
+none
+Audio
+8-bit mono 22 kHz
+Gestalt ID
+17 (computer identification code)
+Codename
+XO{{cite book
+See also
+Basilisk II, emulator with limited support
+Mini vMac, emulator capable of booting from the ROM disk
+List of Macintosh models by case type
+List of products discontinued by Apple Inc.
+List of Macintosh models grouped by CPU type
+References
+External links
+Macintosh Classic technical specifications at apple.com
+Classic information page mac512.com
+ar:&lt;U+0645&gt;&lt;U+0627&gt;&lt;U+0643&gt;&lt;U+0646&gt;&lt;U+062A&gt;&lt;U+0648&gt;&lt;U+0634&gt; &lt;U+0643&gt;&lt;U+0644&gt;&lt;U+0627&gt;&lt;U+0633&gt;&lt;U+064A&gt;&lt;U+0643&gt; ca:Macintosh Classic de:Macintosh Classic es:Macintosh Classic eo:Macintosh Classic fr:Macintosh Classic it:Macintosh Classic hu:Macintosh Classic ja:Macintosh Classic pl:Macintosh Classic pt:Macintosh classic ru:Macintosh Classic simple:Macintosh Classic fi:Macintosh Classic sv:Macintosh Classic
+Classic Classic Classic Category:1990 introductions
+↩
+↩
+↩
+.↩
+.↩
+.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩

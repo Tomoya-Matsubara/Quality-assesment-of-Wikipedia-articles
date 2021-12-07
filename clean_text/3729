@@ -1,0 +1,222 @@
+In physics and chemistry, an atomic orbital is the region in which an electron may be found around a single atom.1 Specifically, atomic orbitals are the quantum states of the individual electrons in the electron cloud around a single atom. Classically, the electrons were thought to orbit the atomic nucleus, much like the planets around the Sun (or more accurately, a moth orbiting very quickly around a lamp). However electrons cannot be described as solid particles (as a planet or a moth), so a more accurate comparison would be that of a (huge) atmosphere (the spatially distributed electron) around a (tiny) planet (the nucleus). Hence the term &quot;orbit&quot; had to be substituted with something else: orbital.
+Explaining the behavior of the electrons that &quot;orbit&quot; an atom was one of the driving forces behind quantum mechanics. In quantum mechanics, the atomic orbitals are the quantum states that electrons surrounding an atom may exist in. These can be described as a wave function over space, as shown in the diagram on the right, by the n, l, and m quantum numbers of the orbital, or by the names of the orbitals, as used in electron configurations. 
+The orbital names (s, p, d, f, g, h,...) are derived from the quality of their spectroscopic lines: sharp, principal, diffuse and fundamental, the rest being named in alphabetical order.
+Orbital names
+Orbitals are given names in the form:
+$$X \, \mathrm{type}^y \$$ where X is the energy level corresponding to the principal quantum number $n \$, type is a lower-case letter denoting the shape or subshell of the orbital and it corresponds to the angular quantum number $\ell \$, and y is the number of electrons in that orbital.
+For example, the orbital 1s2 (pronounced &quot;one s two&quot;) has two electrons and is the lowest energy level (n = 1) and has an angular quantum number of l = 0. In some cases, the principal quantum number is given a letter associated with it. For n = 1, 2, 3, 4, 5 ....., the letters associated with those number are K, L, M, N, O .... respectively.
+Formal quantum mechanical definition
+In quantum mechanics, the state of an atom, i.e. the eigenstates of the atomic Hamiltonian, is expanded (see configuration interaction expansion and basis (linear algebra)) into linear combinations of anti-symmetrized products (Slater determinants) of one-electron functions. The spatial components of these one-electron functions are called atomic orbitals. (When one considers also their spin component, one speaks of atomic spin orbitals.)
+In atomic physics, the atomic spectral lines correspond to transitions (quantum leaps) between quantum states of an atom. These states are labelled by a set of quantum numbers summarized in the term symbol and usually associated to particular electron configurations, i.e. by occupations schemes of atomic orbitals (e.g. $1s^2 2s^2 2p^6 \$ for the ground state of neon -- term symbol: ${}^1\!S_0 \$).
+This notation means that the corresponding Slater determinants have a clear higher weight in the configuration interaction expansion. The atomic orbital concept is therefore a key concept for visualizing the excitation process associated to a given transition. For example, one can say for a given transition that it corresponds to the excitation of an electron from an occupied orbital to a given unoccupied orbital. Nevertheless one has to keep in mind that electrons are fermions ruled by Pauli exclusion principle and cannot be distinguished from the other electrons in the atom. Moreover, it sometimes happens that the configuration interaction expansion converges very slowly and that one cannot speak about simple one-determinantal wave function at all. This is the case when electron correlation is large.
+Fundamentally, an atomic orbital is a one-electron wavefunction. Don't forget that when thinking about orbitals, we are often bombarded (even if we don't know it) by the Hartree-Fock vision of molecular orbital theory.
+Hydrogen-like atoms
+
+The simplest atomic orbitals are those that occur in an atom with a single electron, such as the hydrogen atom. In this case the atomic orbitals are the eigenstates of the hydrogen Hamiltonian. They can be obtained analytically (see Hydrogen atom). An atom of any other element ionized down to a single electron is very similar to hydrogen, and the orbitals take the same form.
+For atoms with two or more electrons, the governing equations can only be solved with the use of methods of iterative approximation. Orbitals of multi-electron atoms are qualitatively similar to those of hydrogen, and in the simplest models, they are taken to have the same form. For more rigorous and precise analysis, the numerical approximations must be used.
+A given (hydrogen-like) atomic orbital is identified by unique values of three quantum numbers: n, l, and ml. The rules restricting the values of the quantum numbers, and their energies (see below), explain the electron configuration of the atoms and the periodic table.
+The stationary states (quantum states) of the hydrogen-like atoms are its atomic orbital. However, in general, an electron's behavior is not fully described by a single orbital. Electron states are best represented by time-depending &quot;mixtures&quot; (linear combinations) of multiple orbitals. See Linear combination of atomic orbitals molecular orbital method.
+The quantum number n first appeared in the Bohr model. It determines, among other things, the distance of the electron from the nucleus; all electrons with the same value of n lay at the same distance. Modern quantum mechanics confirms that these orbitals are closely related. For this reason, orbitals with the same value of n are said to comprise a &quot;shell&quot;. Orbitals with the same value of n and also the same value of l are even more closely related, and are said to comprise a &quot;subshell&quot;.
+Qualitative characterization
+Limitations on the quantum numbers
+An atomic orbital is uniquely identified by the values of the three quantum numbers, and each set of the three quantum numbers corresponds to exactly one orbital, but the quantum numbers only occur in certain combinations of values. The rules governing the possible values of the quantum numbers are as follows:
+The principal quantum number n is always a positive integer. In fact, it can be any positive integer, but for reasons discussed below, large numbers are seldom encountered. Each atom has, in general, many orbitals associated with each value of n; these orbitals together are sometimes called a shell.
+The azimuthal quantum number ℓ is a non-negative integer. Within a shell where n is some integer n0, ℓ ranges across all (integer) values satisfying the relation 0 ≤ ℓ ≤ n0 − 1. For instance, the n = 1 shell has only orbitals with ℓ = 0, and the n = 2 shell has only orbitals with ℓ = 0, and ℓ = 1. The set of orbitals associated with a particular value of ℓ are sometimes collectively called a subshell.
+The magnetic quantum number mℓ is also always an integer. Within a subshell where ℓ is some integer ℓ0, mℓ ranges thus:  − ℓ0 ≤ mℓ ≤ ℓ0.
+The above results may be summarized in the following table. Each cell represents a subshell, and lists the values of mℓ available in that subshell. Empty cells represent subshells that do not exist.
+
+
+
+
+l = 0
+1
+2
+3
+4
+...
+
+
+
+
+n = 1
+ml = 0
+
+
+
+
+
+
+
+2
+0
+-1, 0, 1
+
+
+
+
+
+
+3
+0
+-1, 0, 1
+-2, -1, 0, 1, 2
+
+
+
+
+
+4
+0
+-1, 0, 1
+-2, -1, 0, 1, 2
+-3, -2, -1, 0, 1, 2, 3
+
+
+
+
+5
+0
+-1, 0, 1
+-2, -1, 0, 1, 2
+-3, -2, -1, 0, 1, 2, 3
+-4, -3, -2 -1, 0, 1, 2, 3, 4
+
+
+
+...
+...
+...
+...
+...
+...
+...
+
+
+
+Subshells are usually identified by their n- and ℓ-values. n is represented by its numerical value, but ℓ is represented by a letter as follows: 0 is represented by 's', 1 by 'p', 2 by 'd', 3 by 'f', and 4 by 'g'. For instance, one may speak of the subshell with n = 2 and ℓ = 0 as a '2s subshell'.
+The Shapes of Orbitals
+ Any discussion of the shapes of electron orbitals is necessarily imprecise, because a given electron, regardless of which orbital it occupies, can at any moment be found at any distance from the nucleus and in any direction due to the Uncertainty Principle.
+However, the electron is much more likely to be found in certain regions of the atom than in others. Given this, a boundary surface can be drawn so that the electron has a high probability to be found anywhere within the surface, and all regions outside the surface have low values. The precise placement of the surface is arbitrary, but any reasonably compact determination must follow a pattern specified by the behavior of ψ2, the square of the wavefunction. This boundary surface is what is meant when the &quot;shape&quot; of an orbital is mentioned.
+Generally speaking, the number n determines the size and energy of the orbital: as n increases, the size of the orbital increases.
+Also in general terms, ℓ determines an orbital's shape, and mℓ its orientation. However, since some orbitals are described by equations in complex numbers, the shape sometimes depends on mℓ also. s-orbitals (ℓ = 0) are shaped like spheres. p-orbitals have the form of two ellipsoids with a point of tangency at the nucleus (sometimes referred to as a dumbbell). The three p-orbitals in each shell are oriented at right angles to each other, as determined by their respective values of mℓ.
+Four of the five d-orbitals look similar, each with four pear-shaped balls, each ball tangent to two others, and the centers of all four lying in one plane, between a pair of axes. Three of these planes are the xy-, xz-, and yz-planes, and the fourth has the centres on the x and y axes. The fifth and final d-orbital consists of three regions of high probability density: a torus with two pear-shaped regions placed symmetrically on its z axis.
+There are seven f-orbitals, each with shapes more complex than those of the d-orbitals.
+The shapes of atomic orbitals in one-electron atom are related to 3-dimensional spherical harmonics.
+Orbital energy
+In atoms with a single electron (essentially the hydrogen atom), the energy of an orbital (and, consequently, of any electrons in the orbital) is determined exclusively by n. The n = 1 orbital has the lowest possible energy in the atom. Each successively higher value of n has a higher level of energy, but the difference decreases as n increases. For high n, the level of energy becomes so high that the electron can easily escape from the atom.
+In atoms with multiple electrons, the energy of an electron depends not only on the intrinsic properties of its orbital, but also on its interactions with the other electrons. These interactions depend on the detail of its spatial probability distribution, and so the energy levels of orbitals depend not only on n but also on ℓ. Higher values of ℓ are associated with higher values of energy; for instance, the 2p state is higher than the 2s state. When ℓ = 3, the increase in energy of the orbital becomes so large as to push the energy of orbital above the energy of the s-orbital in the next higher shell; when ℓ = 4 the energy is pushed into the shell two steps higher.
+The energy order of the first 24 subshells is given in the following table. Each cell represents a subshell with n and ℓ given by its row and column indices, respectively. The number in the cell is the subshell's position in the sequence. Empty cells represent subshells that do not exist.
+
+
+
+
+s
+p
+d
+f
+g
+
+
+
+
+1
+1
+
+
+
+
+
+
+2
+2
+3
+
+
+
+
+
+3
+4
+5
+7
+
+
+
+
+4
+6
+8
+10
+13
+
+
+
+5
+9
+11
+14
+17
+21
+
+
+6
+12
+15
+18
+22
+26
+
+
+7
+16
+19
+23
+27
+32
+
+
+8
+20
+24
+28
+33
+38
+
+
+
+Electron placement and the periodic table
+Several rules govern the placement of electrons in orbitals (electron configuration). The first dictates that no two electrons in an atom may have the same set of values of quantum numbers (this is the Pauli exclusion principle). These quantum numbers include the three that define orbitals, as well as (the hitherto unmentioned) s. Thus, two electrons may occupy a single orbital, so long as they have different values of s. However, only two electrons, because of their spin, can be associated with each orbital.
+Additionally, an electron always tries to occupy the lowest possible energy state. It is possible for it to occupy any orbital so long as it does not violate the Pauli exclusion principle, but if lower-energy orbitals are available, this condition is unstable. The electron will eventually lose energy (by releasing a photon) and drop into the lower orbital. Thus, electrons fill orbitals in the order specified by the energy sequence given above.
+This behavior is responsible for the structure of the periodic table. The table may be divided into several rows (called 'periods'), numbered starting with 1 at the top. The presently known elements occupy seven periods. If a certain period has number i, it consists of elements whose outermost electrons fall in the ith shell.
+The periodic table may also be divided into several numbered rectangular 'blocks'. The elements belonging to a given block have this common feature: their highest-energy electrons all belong to the same ℓ-state (but the n associated with that ℓ-state depends upon the period). For instance, the leftmost two columns constitute the 's-block'. The outermost electrons of Li and Be respectively belong to the 2s subshell, and those of Na and Mg to the 3s subshell.
+The number of electrons in a neutral atom increases with the atomic number. The electrons in the outermost shell, or valence electrons, tend to be responsible for an element's chemical behavior. Elements that contain the same number of valence electrons can be grouped together and display similar chemical properties.
+See also
+
+List of Hund's rules
+Electron configuration
+Atomic electron configuration table
+Molecular orbital
+Energy level
+
+References
+
+Further reading
+
+Tipler, Paul &amp; Ralph Llewellyn (2003). Modern Physics (4th ed.). New York: W. H. Freeman and Company. ISBN 0-7167-4345-0
+
+External links
+
+Guide to atomic orbitals
+Covalent Bonds and Molecular Structure
+The Orbitron, a visualization of all common and uncommon atomic orbitals, from 1s to 7g
+David Manthey's Orbital Viewer renders orbitals with n &lt;U+2264&gt; 30
+Java orbital viewer applet
+
+ca:Orbital at&lt;U+00F2&gt;mic cs:Atomov&lt;U+00FD&gt; orbital de:Orbital es:Orbital at&lt;U+00F3&gt;mico fa:&lt;U+0627&gt;&lt;U+0648&gt;&lt;U+0631&gt;&lt;U+0628&gt;&lt;U+06CC&gt;&lt;U+062A&gt;&lt;U+0627&gt;&lt;U+0644&gt; fr:Orbitale atomique gl:Orbital it:Orbitale he:&lt;U+05D0&gt;&lt;U+05D5&gt;&lt;U+05E8&gt;&lt;U+05D1&gt;&lt;U+05D9&gt;&lt;U+05D8&gt;&lt;U+05DC&gt; nl:Orbitaal ja:&lt;U+539F&gt;&lt;U+5B50&gt;&lt;U+8ECC&gt;&lt;U+9053&gt; no:Orbital nn:Orbita pl:Orbital pt:Orbital ru:&lt;U+0410&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+043C&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+044F&gt; &lt;U+043E&gt;&lt;U+0440&gt;&lt;U+0431&gt;&lt;U+0438&gt;&lt;U+0442&gt;&lt;U+0430&gt;&lt;U+043B&gt;&lt;U+044C&gt; sl:Orbitala fi:Atomiorbitaali zh:&lt;U+539F&gt;&lt;U+5B50&gt;&lt;U+8F68&gt;&lt;U+9053&gt;
+Category:Chemical bonding Category:Atomic physics
+
+
+
+↩
+
+

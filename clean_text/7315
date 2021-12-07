@@ -1,0 +1,86 @@
+In mathematics, a measure is a function that assigns a number, e.g., a &quot;size&quot;, &quot;volume&quot;, or &quot;probability&quot;, to subsets of a given set. The concept has developed in connection with a desire to carry out integration over arbitrary sets rather than on an interval as traditionally done, and is important in mathematical analysis and probability theory.
+Measure theory is that branch of real analysis which investigates &lt;U+03C3&gt;-algebras, measures, measurable functions and integrals. It is of importance in probability and statistics.
+Formal definition
+Formally, a measure &lt;U+03BC&gt; is a function defined on a &lt;U+03C3&gt;-algebra &lt;U+03A3&gt; over a set X and taking values in the extended interval [0, &lt;U+221E&gt;] such that the following properties are satisfied:
+
+The empty set has measure zero:
+
+
+
+
+
+μ(⌀) = 0;
+
+
+
+
+
+Countable additivity or &lt;U+03C3&gt;-additivity: if E1, E2, E3, ​ ... is a countable sequence of pairwise disjoint sets in &lt;U+03A3&gt;, the measure of the union of all the Ei ​'s is equal to the sum of the measures of each Ei ​:
+
+$$\mu\left(\bigcup_{i=1}^\infty E_i\right) = \sum_{i=1}^\infty \mu(E_i).$$
+The triple (X,&lt;U+03A3&gt;,&lt;U+03BC&gt;) is then called a measure space, and the members of &lt;U+03A3&gt; are called measurable sets.
+Properties
+Several further properties can be derived from the definition of a countably additive measure.
+Monotonicity
+&lt;U+03BC&gt; is monotonic: If E1 and E2 are measurable sets with E1 &lt;U+2286&gt; E2 then &lt;U+03BC&gt;(E1) &lt;U+2264&gt; &lt;U+03BC&gt;(E2).
+Measures of infinite unions of measurable sets
+If E1, E2, E3, ... is a countable sequence of sets in &lt;U+03A3&gt;, not necessarily disjoint, then
+$$\mu\left( \bigcup_{i=1}^\infty E_i\right) \le \sum_{i=1}^\infty \mu(E_i)$$.
+If E1, E2, E3, ... are measurable sets and En is a subset of En+1 for all n, then the union of the sets En is measurable, and
+$$\mu\left(\bigcup_{i=1}^\infty E_i\right) = \lim_{i\to\infty} \mu(E_i)$$.
+Measures of infinite intersections of measurable sets
+If E1, E2, E3, ... are measurable sets and En+1 is a subset of En for all n, then the intersection of the sets En is measurable; furthermore, if at least one of the En has finite measure, then
+$$\mu\left(\bigcap_{i=1}^\infty E_i\right) = \lim_{i\to\infty} \mu(E_i)$$.
+This property is false without the assumption that at least one of the En has finite measure. For instance, for each n &lt;U+2208&gt; N, let
+En = [n, ∞) ⊆ ℝ
+which all have infinite measure, but the intersection is empty.
+Sigma-finite measures
+
+
+
+
+
+A measure space (X,&lt;U+03A3&gt;,&lt;U+03BC&gt;) is called finite if &lt;U+03BC&gt;(X) is a finite real number (rather than &lt;U+221E&gt;). It is called &lt;U+03C3&gt;-finite if X can be decomposed into a countable union of measurable sets of finite measure. A set in a measure space has &lt;U+03C3&gt;-finite measure if it is a union of sets with finite measure.
+For example, the real numbers with the standard Lebesgue measure are &lt;U+03C3&gt;-finite but not finite. Consider the closed intervals [k,k+1] for all integers k; there are countably many such intervals, each has measure 1, and their union is the entire real line. Alternatively, consider the real numbers with the counting measure, which assigns to each finite set of reals the number of points in the set. This measure space is not &lt;U+03C3&gt;-finite, because every set with finite measure contains only finitely many points, and it would take uncountably many such sets to cover the entire real line. The &lt;U+03C3&gt;-finite measure spaces have some very convenient properties; &lt;U+03C3&gt;-finiteness can be compared in this respect to separability of topological spaces.
+Completeness
+A measurable set X is called a null set if &lt;U+03BC&gt;(X) = 0. A subset of a null set is called a negligible set. A negligible need not be measurable, but every measurable negligible set is automatically a null set. A measure &lt;U+03BC&gt; is called complete if every negligible set is measurable.
+A measure can be extended to a complete one by considering the &lt;U+03C3&gt;-algebra of subsets Y which differ by a negligible set from a measurable set X, that is, such that the symmetric difference of X and Y is contained in a null set. One defines &lt;U+03BC&gt;(Y) to equal &lt;U+03BC&gt; (X).
+Examples
+Some important measures are listed here.
+
+The counting measure is defined by &lt;U+03BC&gt;(S) = number of elements in S.
+The Lebesgue measure is the unique complete translation-invariant measure on a &lt;U+03C3&gt;-algebra containing the intervals in R such that &lt;U+03BC&gt;([0,1]) = 1.
+Circular angle measure is invariant under rotation.
+The Haar measure for a locally compact topological group is a generalization of the Lebesgue measure and has a similar uniqueness property.
+The zero measure is defined by &lt;U+03BC&gt;(S) = 0 for all S.
+Every probability space gives rise to a measure which takes the value 1 on the whole space (and therefore takes all its values in the unit interval [0,1]). Such a measure is called a probability measure. See probability axioms.
+The Dirac measure &lt;U+03BC&gt;a (confer Dirac delta function) is given by &lt;U+03BC&gt;a(S) = &lt;U+03C7&gt;S(a), where &lt;U+03C7&gt;S is the characteristic function of S. The measure of a set is 1 if it contains the point a and 0 otherwise.
+
+Other measures include: Borel measure, Jordan measure, Ergodic measure, Euler measure, Gauss measure, Baire measure, Radon measure.
+Counterexamples
+Not all subsets of Euclidean space are Lebesgue measurable; examples of such sets include the Vitali set, the Hausdorff paradox, and the Banach&lt;U+2013&gt;Tarski paradox. The concept of non-measurability is developed further in the article on non-measurable sets.
+Generalizations
+For certain purposes, it is useful to have a &quot;measure&quot; whose values are not restricted to the non-negative reals or infinity. For instance, a countably additive set function with values in the (signed) real numbers is called a signed measure, while such a function with values in the complex numbers is called a complex measure. Measures that take values in Banach spaces have been studied extensively. A measure that takes values in the set of self-adjoint projections on a Hilbert space is called a projection-valued measure; these are used mainly in functional analysis for the spectral theorem. When it is necessary to distinguish the usual measures which take non-negative values from generalizations, the term &quot;positive measure&quot; is used.
+Another generalization is the finitely additive measure. This is the same as a measure except that instead of requiring countable additivity we require only finite additivity. Historically, this definition was used first, but proved to be not so useful. It turns out that in general, finitely additive measures are connected with notions such as Banach limits, the dual of L&lt;U+221E&gt; and the Stone-&lt;U+010C&gt;ech compactification. All these are linked in one way or another to the axiom of choice.
+The remarkable result in integral geometry known as Hadwiger's theorem states that the space of translation-invariant, finitely additive, not-necessarily-nonnegative set functions defined on finite unions of compact convex sets in Rn consists (up to scalar multiples) of one &quot;measure&quot; that is &quot;homogeneous of degree k&quot; for each k=0,1,2,...,n, and linear combinations of those &quot;measures&quot;. &quot;Homogeneous of degree k&quot; means that rescaling any set by any factor c&gt;0 multiplies the set's &quot;measure&quot; by ck. The one that is homogeneous of degree n is the ordinary n-dimensional volume. The one that is homogeneous of degree n-1 is the &quot;surface volume&quot;. The one that is homogeneous of degree 1 is a mysterious function called the &quot;mean width&quot;, a misnomer. The one that is homogeneous of degree 0 is the Euler characteristic.
+See also
+
+Outer measure
+Inner measure
+Hausdorff measure
+Product measure
+Almost everywhere
+Lebesgue integration
+Lebesgue measure
+Caratheodory extension theorem
+
+References
+
+R. M. Dudley, 2002. Real Analysis and Probability. Cambridge University Press.
+D. H. Fremlin, 2000. Measure Theory. Torres Fremlin.
+Paul Halmos, 1950. Measure theory. Van Nostrand and Co.
+M. E. Munroe, 1953. Introduction to Measure and Integration. Addison Wesley.
+Shilov, G. E., and Gurevich, B. L., 1978. Integral, Measure, and Derivative: A Unified Approach, Richard A. Silverman, trans. Dover Publications. ISBN 0-486-63519-8. Emphasizes the Daniell integral.
+
+ar:&lt;U+0646&gt;&lt;U+0638&gt;&lt;U+0631&gt;&lt;U+064A&gt;&lt;U+0629&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0642&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+0633&gt; cs:Teorie m&lt;U+00ED&gt;ry de:Ma&lt;U+00DF&gt;theorie es:Teor&lt;U+00ED&gt;a de la medida fa:&lt;U+0646&gt;&lt;U+0638&gt;&lt;U+0631&gt;&lt;U+06CC&gt;&lt;U+0647&gt; &lt;U+0627&gt;&lt;U+0646&gt;&lt;U+062F&gt;&lt;U+0627&gt;&lt;U+0632&gt;&lt;U+0647&gt; fr:Mesure (math&lt;U+00E9&gt;matiques) it:Misura (matematica) he:&lt;U+05DE&gt;&lt;U+05D9&gt;&lt;U+05D3&gt;&lt;U+05D4&gt; (&lt;U+05DE&gt;&lt;U+05EA&gt;&lt;U+05DE&gt;&lt;U+05D8&gt;&lt;U+05D9&gt;&lt;U+05E7&gt;&lt;U+05D4&gt;) hu:M&lt;U+00E9&gt;rt&lt;U+00E9&gt;kelm&lt;U+00E9&gt;let (matematika) nl:Maat (wiskunde) ja:&lt;U+6E2C&gt;&lt;U+5EA6&gt;&lt;U+8AD6&gt; pl:Miara (matematyka) ru:&lt;U+041C&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+0430&gt; fi:Mittateoria sv:M&lt;U+00E5&gt;tt (matematik) th:&lt;U+0E17&gt;&lt;U+0E24&gt;&lt;U+0E29&gt;&lt;U+0E0E&gt;&lt;U+0E35&gt;&lt;U+0E01&gt;&lt;U+0E32&gt;&lt;U+0E23&gt;&lt;U+0E27&gt;&lt;U+0E31&gt;&lt;U+0E14&gt; vi:&lt;U+0110&gt;&lt;U+1ED9&gt; &lt;U+0111&gt;o uk:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+043E&gt;&lt;U+0440&gt;&lt;U+0456&gt;&lt;U+044F&gt; &lt;U+043C&gt;&lt;U+0456&gt;&lt;U+0440&gt;&lt;U+0438&gt; zh:&lt;U+6D4B&gt;&lt;U+5EA6&gt;
+*

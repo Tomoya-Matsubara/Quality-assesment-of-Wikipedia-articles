@@ -1,0 +1,81 @@
+In mathematics, a continuous function is a function for which, intuitively, small changes in the input result in small changes in the output. Otherwise, a function is said to be discontinuous.
+An intuitive though imprecise (and inexact) idea of continuity is given by the common statement that a continuous function is a function whose graph can be drawn without lifting the chalk from the blackboard.
+The context of this introduction is one in which the inputs and outputs of functions are real numbers. More technical definitions are needed for complex numbers or more general topological spaces. In order theory, especially in domain theory, one considers a notion derived from this basic definition, which is known as Scott continuity.
+As an example, consider the function h(t) which describes the height of a growing flower at time t. This function is continuous. In fact, there is a dictum of classical physics which states that in nature everything is continuous. By contrast, if M(t) denotes the amount of money in a bank account at time t, then the function jumps whenever money is deposited or withdrawn, so the function M(t) is discontinuous.
+Real-valued continuous functions
+Suppose we have a function that maps real numbers to real numbers and whose domain is some interval, like the functions h and M above. Such a function can be represented by a graph in the Cartesian plane; the function is continuous if, roughly speaking, the graph is a single unbroken curve with no &quot;holes&quot; or &quot;jumps&quot;.
+To be more precise, we say that the function f is continuous at some point c when the following two requirements are satisfied:
+
+f(c) must be defined (i.e. c must be an element of the domain of f).
+The limit of f(x) as x approaches c must exist and be equal to f(c). (If the point c in the domain of f is not an accumulation point of the domain, then this condition is vacuously true, since x cannot approach c. Thus, for example, every function whose domain is the set of all integers is continuous, merely for lack of opportunity to be otherwise. However, one does not usually talk about continuous functions in this setting.)
+
+We call the function everywhere continuous, or simply continuous, if it is continuous at every point of its domain. More generally, we say that a function is continuous on some subset of its domain if it is continuous at every point of that subset. If we simply say that a function is continuous, we usually mean that it is continuous for all real numbers.
+The notation C(&lt;U+03A9&gt;) or C0(&lt;U+03A9&gt;) is sometimes used to denote the set of all continuous functions with domain &lt;U+03A9&gt;. Similarly, C1(&lt;U+03A9&gt;) is used to denote the set of differentiable functions whose derivative is continuous, C2(&lt;U+03A9&gt;) for the twice-differentiable functions whose second derivative is continuous, and so on. The notation C(n, α)(Ω) occurs in the definition of a more subtle concept, that of H&lt;U+00F6&gt;lder continuity.
+Cauchy definition (epsilon-delta)
+Without resorting to limits, one can define continuity of real functions as follows.
+Again consider a function f that maps a set of real numbers to another set of real numbers, and suppose c is an element of the domain of f. The function f is said to be continuous at the point c if (and only if) the following holds: For any number &lt;U+03B5&gt; &gt; 0 however small, there exists some number &lt;U+03B4&gt; &gt; 0 such that for all x in the domain with c − &lt;U+03B4&gt; &lt; x &lt; c + &lt;U+03B4&gt;, the value of f(x) will satisfy f(c) − &lt;U+03B5&gt; &lt; f(x) &lt; f(c) + &lt;U+03B5&gt;.
+Alternatively written: Given I, D ⊂ ℝ (that is, I and D are subsets of the real numbers), continuity of f : I → D (read f maps I into D) at c ∈ I means that for all ε &gt; 0 there exists a δ &gt; 0 such that |x − c| &lt; δ and x ∈ I imply that |f(x) − f(c)| &lt; ε.
+This &quot;epsilon-delta definition&quot; of continuity was first given by Cauchy.
+More intuitively, we can say that if we want to get all the f(x) values to stay in some small neighborhood around f(c), we simply need to choose a small enough neighborhood for the x values around c, and we can do that no matter how small the f(x) neighborhood is; f(x) is then continuous at c.
+Heine definition of continuity
+The following definition of continuity is due to Heine.
+
+
+A real function f is continuous if for any sequence (xn) such that
+$$\lim\limits_{n\to\infty} x_n=x_0,$$
+
+it holds that
+$$\lim\limits_{n\to\infty} f(x_n)=f(x_0).$$
+
+(We assume that all points xn, x0 belong to the domain of f.)
+
+
+One can say briefly, that a function is continuous if and only if it preserves limits.
+Cauchy's and Heine's definition of continuity are equivalent. The usual (easier) proof makes use of the axiom of choice, but in the case of global continuity of real functions it was proved by Wac&lt;U+0142&gt;aw Sierpi&lt;U+0144&gt;ski that the axiom of choice is not actually needed. 1
+In more general setting of topological spaces, the concept analogous to Heine definition of continuity is called sequential continuity. In general, sequential continuity is not equivalent to the analogue of Cauchy continuity, which is just called continuity (see continuity (topology) for details).
+Examples
+
+All polynomial functions are continuous.
+If a function has a domain which is not an interval, the notion of a continuous function as one whose graph you can draw without taking your pencil off the paper is not quite correct. Consider the functions f(x)=1/x and g(x)=(sin x)/x. Neither function is defined at x=0, so each has domain R\{0}, and each function is continuous. The question of continuity at x=0 does not arise, since it is not in the domain. The function f cannot be extended to a continuous function whose domain is R, since no matter what value is assigned at 0, the resulting function will not be continuous. On the other hand, since the limit of g at 0 is 1, g can be extended continuously to R by defining its value at 0 to be 1. A point in the domain that can be filled in so that the resulting function is continuous is called a removable singularity. Whether this can be done is not the same as continuity.
+The rational functions, exponential functions, logarithms, square root function, trigonometric functions and absolute value function are continuous.
+An example of a discontinuous function is the function f defined by f(x) = 1 if x &gt; 0, f(x) = 0 if x &lt;U+2264&gt; 0. Pick for instance &lt;U+03B5&gt; = 1/2. There is no &lt;U+03B4&gt;-neighborhood around x=0 that will force all the f(x) values to be within &lt;U+03B5&gt; of f(0). Intuitively we can think of this type of discontinuity as a sudden jump in function values.
+Another example of a discontinuous function is the sign function.
+A more complicated example of a discontinuous function is the popcorn function.
+
+Facts about continuous functions
+If two functions f and g are continuous, then f + g and fg are continuous. If g(x) &lt;U+2260&gt; 0 for all x in the domain, then f/g is also continuous.
+The composition f o g of two continuous functions is continuous.
+The intermediate value theorem is an existence theorem, based on the real number property of completeness, and states: &quot;If the real-valued function f is continuous on the closed interval [a, b] and k is some number between f(a) and f(b), then there is some number c in [a, b] such that f(c) = k&quot;. For example, if a child undergoes continuous growth from 1m to 1.5m between the ages of 2 years and 6 years, then, at some time between 2 years and 6 years of age, the child's height must have been 1.25m.
+As a consequence, if f is continuous on [a, b] and f(a) and f(b) differ in sign, then, at some point c, f(c) must equal zero.
+Extreme value theorem: if a function f is defined on a closed interval [a,b] (or any closed and bounded set) and is continuous there, then the function attains its maximum, i.e. there exists c &lt;U+2208&gt; [a,b] with f(c) &lt;U+2265&gt; f(x) for all x &lt;U+2208&gt; [a,b]. The same is true of the minimum of f. These statements are false if the function is defined on an open interval (a,b) (or any set that is not both closed and bounded), as for example the continuous function f(x) = 1/x defined on the open interval (0,1).
+If a function is differentiable at some point c of its domain, then it is also continuous at c. The converse is not true: a function that's continuous at c need not be differentiable there. Consider for instance the absolute value function at c = 0.
+Continuous functions between metric spaces
+Now consider a function f from one metric space (X, dX) to another metric space (Y, dY). Then f is continuous at the point c in X if for any positive real number &lt;U+03B5&gt;, there exists a positive real number &lt;U+03B4&gt; such that all x in X satisfying dX(x, c) &lt; &lt;U+03B4&gt; will also satisfy dY(f(x), f(c)) &lt; &lt;U+03B5&gt;.
+This can also be formulated in terms of sequences and limits: the function f is continuous at the point c if for every sequence (xn) in X with limit lim xn = c, we have lim f(xn) = f(c). Continuous functions transform limits into limits.
+This latter condition can be weakened as follows: f is continuous at the point c if and only if for every convergent sequence (xn) in X with limit c, the sequence (f(xn)) is a Cauchy sequence, and c is in the domain of f. Continuous functions transform convergent sequences into Cauchy sequences.
+Continuous functions between topological spaces
+
+The above definitions of continuous functions can be generalized to functions from one topological spaces to another in a natural way; a function f : X &lt;U+2192&gt; Y, where X and Y are topological spaces, is continuous iff for every open set V &lt;U+2286&gt; Y, f−1(V) is open in X.
+Continuous functions between partially ordered sets
+In order theory, continuity of a function between posets is Scott continuity. Let X be a complete lattice, then a function f:X &lt;U+2192&gt; X is continuous if, for each subset Y of X, we have sup f(Y) = f(sup Y).
+Continuous binary relation
+A binary relation R on A is continuous if R(a,b) whenever there are sequences (ak)i and (bk)i in A which converge to a and b respectively for which R(ak, bk) for all k. Clearly, if one treats R as a characteristic function in three variables, this definition of continuous is identical to that for continuous functions.
+See also
+
+semicontinuity
+classification of discontinuities
+uniform continuity
+absolute continuity
+equicontinuity
+Lipschitz continuity
+Scott continuity
+normal function
+bounded linear operator
+continuous functor
+
+References
+
+Visual Calculus by Lawrence S. Husch, University of Tennessee (2001)
+
+ca:Funci&lt;U+00F3&gt; cont&lt;U+00ED&gt;nua cs:Spojit&lt;U+00E1&gt; funkce da:Kontinuitet de:Stetigkeit el:&lt;U+03A3&gt;&lt;U+03C5&gt;&lt;U+03BD&gt;&lt;U+03AD&gt;&lt;U+03C7&gt;&lt;U+03B5&gt;&lt;U+03B9&gt;&lt;U+03B1&gt; &lt;U+03C3&gt;&lt;U+03C5&gt;&lt;U+03BD&gt;&lt;U+03AC&gt;&lt;U+03C1&gt;&lt;U+03C4&gt;&lt;U+03B7&gt;&lt;U+03C3&gt;&lt;U+03B7&gt;&lt;U+03C2&gt; es:Continuidad (matem&lt;U+00E1&gt;tica) eo:Kontinua funkcio fr:Fonction continue ko:&lt;U+C5F0&gt;&lt;U+C18D&gt; &lt;U+D568&gt;&lt;U+C218&gt; it:Funzione continua he:&lt;U+05E8&gt;&lt;U+05E6&gt;&lt;U+05D9&gt;&lt;U+05E4&gt;&lt;U+05D5&gt;&lt;U+05EA&gt; lt:Tolydi funkcija nl:Continue functie ja:&lt;U+9023&gt;&lt;U+7D9A&gt; (&lt;U+6570&gt;&lt;U+5B66&gt;) pl:Funkcja ci&lt;U+0105&gt;g&lt;U+0142&gt;a pt:Fun&lt;U+00E7&gt;&lt;U+00E3&gt;o cont&lt;U+00ED&gt;nua ro:Func&lt;U+0163&gt;ie continu&lt;U+0103&gt; ru:&lt;U+041D&gt;&lt;U+0435&gt;&lt;U+043F&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+044B&gt;&lt;U+0432&gt;&lt;U+043D&gt;&lt;U+043E&gt;&lt;U+0435&gt; &lt;U+043E&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0431&gt;&lt;U+0440&gt;&lt;U+0430&gt;&lt;U+0436&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0438&gt;&lt;U+0435&gt; su:Continuous function fi:Jatkuva funktio sv:Kontinuerlig th:&lt;U+0E1F&gt;&lt;U+0E31&gt;&lt;U+0E07&gt;&lt;U+0E01&gt;&lt;U+0E4C&gt;&lt;U+0E0A&gt;&lt;U+0E31&gt;&lt;U+0E19&gt;&lt;U+0E15&gt;&lt;U+0E48&gt;&lt;U+0E2D&gt;&lt;U+0E40&gt;&lt;U+0E19&gt;&lt;U+0E37&gt;&lt;U+0E48&gt;&lt;U+0E2D&gt;&lt;U+0E07&gt; zh:&lt;U+8FDE&gt;&lt;U+7EED&gt;&lt;U+51FD&gt;&lt;U+6570&gt;
+Category:Calculus Category:General topology Category:Scientific terminology Category:Scientific modeling

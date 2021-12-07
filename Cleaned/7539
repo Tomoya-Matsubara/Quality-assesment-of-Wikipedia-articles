@@ -1,0 +1,35 @@
+Seven words written in New Orthography. The standard spellings are &lt;U+B189&gt;&lt;U+B2C8&gt;&lt;U+B2E4&gt;, &lt;U+D758&gt;&lt;U+B800&gt;&lt;U+B2E4&gt;, &lt;U+AE68&gt;&lt;U+B2EC&gt;&lt;U+C73C&gt;&lt;U+B2C8&gt;, &lt;U+C9C0&gt;&lt;U+C5B4&gt;, &lt;U+ACE0&gt;&lt;U+C640&gt;, &lt;U+C655&gt;, and &lt;U+AC00&gt;&lt;U+C838&gt;&lt;U+C11C&gt;.
+The New Orthography for the Korean Language was a spelling reform used in North Korea from 1948&lt;U+2013&gt;1954. It added five consonants and one vowel letter to the hangul alphabet, making it a perfect morphophonological fit to the Korean language.
+The reason for the reform is that some Korean roots change form and therefore cannot be written with a consistent spelling using standard hangul. The additional letters introduced in the New Orthography do not represent new sounds, but these situations where a sound changes, say from a /p/ to a /w/. Three were created de novo by modifying existing letters, two (&lt;U+317F&gt; and &lt;U+3186&gt;) were obsolete letters, and one (1) is a numeral.
+For example, the root of the verb &quot;to walk&quot; has the form &lt;U+AC77&gt; geod before a consonant, as in the inflection &lt;U+AC77&gt;&lt;U+B2E4&gt; geotta, but the form &lt;U+AC78&gt; geol before a vowel, as in &lt;U+AC78&gt;&lt;U+C5B4&gt; georeo and &lt;U+AC78&gt;&lt;U+C73C&gt;&lt;U+B2C8&gt; georeuni. In New Orthography, the root is invariable, spelled with the new letter &lt;U+317F&gt; in place of both the &lt;U+3137&gt; in &lt;U+AC77&gt; and the &lt;U+3139&gt; in &lt;U+AC78&gt;. (This is not shown due to lack of unicode support.)
+Letter
+Name1
+Pronunciation
+before a
+vowel
+before a
+consonant
+NOoK-lieul.png
+&lt;U+B9AC&gt;&lt;U+C73C&gt; rieu2
+NOoK-rieur.png
+?
+ (&lt;U+317F&gt;)
+&lt;U+B9AC&gt;&lt;U+C743&gt; rieut
+ (&lt;U+3186&gt;)
+&lt;U+D788&gt;&lt;U+C73C&gt; hieu
+&lt;U+2014&gt;3
+NOoK-wieuw.png
+&lt;U+C704&gt;&lt;U+C74D&gt; weup
+4
+ (1)
+&lt;U+C774&gt; i
+5
+For convenience they are also called &lt;U+C5EC&gt;&lt;U+B9B0&gt;&lt;U+B9AC&gt;&lt;U+C744&gt;, &lt;U+B41C&gt;&lt;U+B9AC&gt;&lt;U+C744&gt;, &lt;U+BC18&gt;&lt;U+C2DC&gt;&lt;U+C74F&gt;, &lt;U+C5EC&gt;&lt;U+B9B0&gt;&lt;U+D788&gt;&lt;U+C757&gt;, &lt;U+C704&gt;&lt;U+C74D&gt;, and &lt;U+C5EC&gt;&lt;U+B9B0&gt;&lt;U+C774&gt;.
+Also called &lt;U+C8FD&gt;&lt;U+B294&gt;&lt;U+3139&gt;(&lt;U+C8FD&gt;&lt;U+B294&gt;&lt;U+B9AC&gt;&lt;U+C744&gt;) &quot;silencing &lt;U+3139&gt;&quot;.
+Silence.
+In standard orthography, combines with a following vowel as &lt;U+3158&gt;, &lt;U+3159&gt;, &lt;U+315A&gt;, &lt;U+315D&gt;, &lt;U+315E&gt;, &lt;U+315F&gt;
+In standard orthography, combines with a following vowel as &lt;U+3151&gt;, &lt;U+3152&gt;, &lt;U+3155&gt;, &lt;U+3156&gt;, &lt;U+315B&gt;, &lt;U+3160&gt;
+The New Orthography also added two new digraphs to the lexicon, &lt;U+316D&gt;  and &lt;U+11EC&gt; .
+There were other changes that made the orthography more morphemic, without requiring the addition of new letters. For example, in the word normally spelled &lt;U+B189&gt;&lt;U+B2C8&gt;&lt;U+B2E4&gt; (top example in image at right), the morpheme &lt;U+3142&gt; is separated out in its own block. Such spellings can be found in medieval documents, but weren't normally seen in the 20th century.
+ja:&lt;U+671D&gt;&lt;U+9BAE&gt;&lt;U+8A9E&gt;&lt;U+65B0&gt;&lt;U+7DB4&gt;&lt;U+5B57&gt;&lt;U+6CD5&gt; ko:&lt;U+C870&gt;&lt;U+C120&gt;&lt;U+C5B4&gt; &lt;U+C2E0&gt;&lt;U+CCA0&gt;&lt;U+C790&gt;&lt;U+BC95&gt; 
+Category:Korean writing system

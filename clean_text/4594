@@ -1,0 +1,175 @@
+
+In abstract algebra and formal logic, the distributive property of binary operations generalizes the distributive law from elementary algebra. In propositional logic, distribution refers to two valid rules of replacement. The rules allow one to reformulate conjunctions and disjunctions within logical proofs.
+For example, in arithmetic:
+
+
+2 &lt;U+00B7&gt; (1 + 3) = (2 &lt;U+00B7&gt; 1) + (2 &lt;U+00B7&gt; 3), but 2 / (1 + 3) &lt;U+2260&gt; (2 / 1) + (2 / 3).
+
+
+In the left-hand side of the first equation, the 2 multiplies the sum of 1 and 3; on the right-hand side, it multiplies the 1 and the 3 individually, with the products added afterwards. Because these give the same final answer (8), we say that multiplication by 2 distributes over addition of 1 and 3. Since we could have put any real numbers in place of 2, 1, and 3 above, and still have obtained a true equation, we say that multiplication of real numbers distributes over addition of real numbers.
+Definition
+Given a set S and two binary operators $\scriptstyle *$ and $\scriptstyle +$ on S, we say that the operation $\scriptstyle *$
+
+is left-distributive over $\scriptstyle +$ if, given any elements x, y, and z of S,
+
+x * (y + z) = (x * y) + (x * z)
+
+is right-distributive over $\scriptstyle +$ if, given any elements x, y, and z of S:
+
+(y + z) * x = (y * x) + (z * x)
+
+is distributive over $\scriptstyle +$ if it is left- and right-distributive.1
+
+Notice that when $\scriptstyle *$ is commutative, then the three above conditions are logically equivalent.
+Meaning
+The operators used for examples in this section are the binary operations of addition( + ) and multiplication ( ⋅ ) of numbers.
+There is a distinction between left-distribuitivity and right-distributivity:
+a ⋅ (b±c) = a ⋅ b ± a ⋅ c  (left-distributive)
+(a ± b) ⋅ c = a ⋅ c ± b ⋅ c  (right-distributive)
+In either case, the distributive property can be described in words as:
+To multiply a sum (or difference) by a factor, each summand (or minuend and subtrahend) is multiplied by this factor and the resulting products are added (or subtracted).
+If the operation outside the parentheses (in this case, the multiplication) is commutative , then left-distributivity implies right-distributivity and vice-versa.
+One example of an operation that is &quot;only&quot; right-distributive is division , which is not commutative:
+(a ± b) ÷ c = a ÷ c ± b ÷ c In this case, left-distributivity does not apply:
+a ÷ (b ± c) ≠ a ÷ b ± a ÷ c
+The distributive laws are among the axioms for rings and fields . Examples of structures in which two operations are mutually related to each other by the distributive law are Boolean algebras such as the algebra of sets or the switching algebra . There are also combinations of operations that are not mutually distributive over each other; For example, addition is not distributive over multiplication.
+Multiplying sums can be put into words as follows: When a sum is multiplied by a sum, multiply each summand of a sum with each summand of the other sums (keeping track of signs), and then adding up all of the resulting products.
+Examples
+Real Numbers
+In the following examples, the use of the distributive law on the set of real numbers $\R$ is illustrated. When multiplication is mentioned in elementary mathematics, it usually refers to this kind of multiplication. From the point of view of algebra , the real numbers form a field , which ensures the validity of the distributive law.
+
+First example (mental and written multiplication)
+
+
+During mental arithmetic, distributivity is often used unconsciously:
+6 ⋅ 16 = 6 ⋅ (10 + 6) = 6 ⋅ 10 + 6 ⋅ 6 = 60 + 36 = 96 Thus, to calculate 6 &lt;U+00B7&gt; 16 in your head, you first multiply 6 &lt;U+00B7&gt; 10 and 6 &lt;U+00B7&gt; 6 and add the intermediate results. Written multiplication is also based on the distributive law.
+
+Second example (with variables)
+
+
+3a2b ⋅ (4a − 5b) = 3a2b ⋅ 4a − 3a2b ⋅ 5b = 12a3b − 15a2b2
+
+
+
+
+
+Third example (with two sums)
+
+
+
+
+
+
+
+\begin{align} (a + b) \cdot (a - b) &amp; = a \cdot (a - b) + b \cdot (a - b) = a^2 - ab + ba - b^2 = a^2 - b^2 \\
+                     &amp; = (a + b) \cdot a - (a + b) \cdot b = a^2 + ba - ab - b^2 = a^2 - b^2
+\end{align} 
+
+
+Here the distributive law was applied twice and. It does not matter which bracket is first multiplied out.
+
+
+
+Fourth Example
+Here the distributive law is applied the other way around as in the previous examples. Consider
+12a3b2 − 30a4bc + 18a2b3c2 .
+
+Since all the facto 6a2b occurs in all summand, it can be factored out. That is, due to the distributive law one obtains
+12a3b2 − 30a4bc + 18a2b3c2 = 6a2b(2ab − 5a2c + 3b2c2) .
+
+
+Matrices
+f&lt;U+00FC&gt;r alle l × m-Matrizen A und m × n-Matrizen B, C. Da f&lt;U+00FC&gt;r die Matrizenmultiplikation das
+The distributive law is valid for matrix multiplication . More precisely,
+(A + B) ⋅ C = A ⋅ C + B ⋅ C for all l × m-matrices A, B and m × n-matrices &lt;math C, as well as
+A ⋅ (B + C) = A ⋅ B + A ⋅ C for all l × m-matrices A and m × n-matrices B, C. Because the commutative property does not hold for matrix multiplication, the second law does not follow from the first law. In this case, they are two different laws.
+Other examples
+
+Multiplication of ordinal numbers, in contrast, is only left-distributive, not right-distributive.
+The cross product is left- and right-distributive over vector addition, though not commutative.
+The union of sets is distributive over intersection, and intersection is distributive over union.
+Logical disjunction (&quot;or&quot;) is distributive over logical conjunction (&quot;and&quot;), and conjunction is distributive over disjunction.
+For real numbers (and for any totally ordered set), the maximum operation is distributive over the minimum operation, and vice-versa: max(a,min(b,c)) = min(max(a,b),max(a,c)) and min(a,max(b,c)) = max(min(a,b),min(a,c)).
+For integers, the greatest common divisor is distributive over the least common multiple, and vice-versa: gcd(a,lcm(b,c)) = lcm(gcd(a,b),gcd(a,c)) and lcm(a,gcd(b,c)) = gcd(lcm(a,b),lcm(a,c)).
+For real numbers, addition distributes over the maximum operation, and also over the minimum operation: a + max(b,c) = max(a+b,a+c) and a + min(b,c) = min(a+b,a+c).
+
+Propositional logic
+
+Rule of replacement
+In standard truth-functional propositional logic, distribution234 in logical proofs uses two valid rules of replacement to expand individual occurrences of certain logical connectives, within some formula, into separate applications of those connectives across subformulas of the given formula. The rules are:
+$$(P \and (Q \or R)) \Leftrightarrow ((P \and Q) \or (P \and R))$$ and
+$$(P \or (Q \and R)) \Leftrightarrow ((P \or Q) \and (P \or R))$$
+where &quot;⇔&quot;, also written &lt;U+2261&gt;, is a metalogical symbol representing &quot;can be replaced in a proof with&quot; or &quot;is logically equivalent to&quot;.
+Truth functional connectives
+Distributivity is a property of some logical connectives of truth-functional propositional logic. The following logical equivalences demonstrate that distributivity is a property of particular connectives. The following are truth-functional tautologies.
+
+Distribution of conjunction over conjunction$$(P \and (Q \and R)) \leftrightarrow ((P \and Q) \and (P \and R))$$
+
+
+
+Distribution of conjunction over disjunction:5$(P \and (Q \or R)) \leftrightarrow ((P \and Q) \or (P \and R))$
+
+
+
+Distribution of disjunction over conjunction:6$(P \or (Q \and R)) \leftrightarrow ((P \or Q) \and (P \or R))$
+
+
+
+Distribution of disjunction over disjunction$$(P \or (Q \or R)) \leftrightarrow ((P \or Q) \or (P \or R))$$
+
+
+
+Distribution of implication(P → (Q → R)) ↔ ((P → Q) → (P → R))
+
+
+
+Distribution of implication over equivalence(P → (Q ↔ R)) ↔ ((P → Q) ↔ (P → R))
+
+
+
+Distribution of disjunction over equivalence$$(P \or (Q \leftrightarrow R)) \leftrightarrow ((P \or Q) \leftrightarrow (P \or R))$$
+
+
+
+Double distribution:\begin{align}
+
+
+ ((P \and Q) \or (R \and S)) &amp;\leftrightarrow (((P \or R) \and (P \or S)) \and ((Q \or R) \and (Q \or S))) \\
+  ((P \or Q) \and (R \or S)) &amp;\leftrightarrow (((P \and R) \or (P \and S)) \or ((Q \and R) \or (Q \and S)))
+\end{align}
+Distributivity and rounding
+In practice, the distributive property of multiplication (and division) over addition may appear to be compromised or lost because of the limitations of arithmetic precision. For example, the identity &lt;U+2153&gt; + &lt;U+2153&gt; + &lt;U+2153&gt; = (1 + 1 + 1) / 3 appears to fail if the addition is conducted in decimal arithmetic; however, if many significant digits are used, the calculation will result in a closer approximation to the correct results. For example, if the arithmetical calculation takes the form: 0.33333 + 0.33333 + 0.33333 = 0.99999 &lt;U+2260&gt; 1, this result is a closer approximation than if fewer significant digits had been used. Even when fractional numbers can be represented exactly in arithmetical form, errors will be introduced if those arithmetical values are rounded or truncated. For example, buying two books, each priced at &lt;U+00A3&gt;14.99 before a tax of 17.5%, in two separate transactions will actually save &lt;U+00A3&gt;0.01, over buying them together: &lt;U+00A3&gt;14.99 &lt;U+00D7&gt; 1.175 = &lt;U+00A3&gt;17.61 to the nearest &lt;U+00A3&gt;0.01, giving a total expenditure of &lt;U+00A3&gt;35.22, but &lt;U+00A3&gt;29.98 &lt;U+00D7&gt; 1.175 = &lt;U+00A3&gt;35.23. Methods such as banker's rounding may help in some cases, as may increasing the precision used, but ultimately some calculation errors are inevitable.
+Distributivity in rings
+Distributivity is most commonly found in rings and distributive lattices.
+A ring has two binary operations (commonly called &quot;+&quot; and &quot;&lt;U+2217&gt;&quot;), and one of the requirements of a ring is that &lt;U+2217&gt; must distribute over +. Most kinds of numbers (example 1) and matrices (example 4) form rings. A lattice is another kind of algebraic structure with two binary operations, &lt;U+2227&gt; and &lt;U+2228&gt;. If either of these operations (say &lt;U+2227&gt;) distributes over the other (&lt;U+2228&gt;), then &lt;U+2228&gt; must also distribute over &lt;U+2227&gt;, and the lattice is called distributive. See also the article on distributivity (order theory).
+Examples 4 and 5 are Boolean algebras, which can be interpreted either as a special kind of ring (a Boolean ring) or a special kind of distributive lattice (a Boolean lattice). Each interpretation is responsible for different distributive laws in the Boolean algebra. Examples 6 and 7 are distributive lattices which are not Boolean algebras.
+Failure of one of the two distributive laws brings about near-rings and near-fields instead of rings and division rings respectively. The operations are usually configured to have the near-ring or near-field distributive on the right but not on the left.
+Rings and distributive lattices are both special kinds of rigs, certain generalizations of rings. Those numbers in example 1 that don't form rings at least form rigs. Near-rigs are a further generalization of rigs that are left-distributive but not right-distributive; example 2 is a near-rig.
+Generalizations of distributivity
+In several mathematical areas, generalized distributivity laws are considered. This may involve the weakening of the above conditions or the extension to infinitary operations. Especially in order theory one finds numerous important variants of distributivity, some of which include infinitary operations, such as the infinite distributive law; others being defined in the presence of only one binary operation, such as the according definitions and their relations are given in the article distributivity (order theory). This also includes the notion of a completely distributive lattice.
+In the presence of an ordering relation, one can also weaken the above equalities by replacing = by either &lt;U+2264&gt; or &lt;U+2265&gt;. Naturally, this will lead to meaningful concepts only in some situations. An application of this principle is the notion of sub-distributivity as explained in the article on interval arithmetic.
+In category theory, if (S, &lt;U+03BC&gt;, &lt;U+03B7&gt;) and (S', &lt;U+03BC&gt;', &lt;U+03B7&gt;') are monads on a category C, a distributive law S.S' &lt;U+2192&gt; S'.S is a natural transformation &lt;U+03BB&gt; : S.S' &lt;U+2192&gt; S'.S such that (''S' '', &lt;U+03BB&gt;) is a lax map of monads S &lt;U+2192&gt; S and (S, &lt;U+03BB&gt;) is a colax map of monads ''S' &lt;U+2192&gt; S' ''. This is exactly the data needed to define a monad structure on S'.S: the multiplication map is S'&lt;U+03BC&gt;.&lt;U+03BC&gt;'S&lt;U+00B2&gt;.S'&lt;U+03BB&gt;S and the unit map is &lt;U+03B7&gt;'S.&lt;U+03B7&gt;. See: distributive law between monads.
+A generalized distributive law has also been proposed in the area of information theory.
+Notes
+
+References
+
+Ayres, Frank, Schaum's Outline of Modern Abstract Algebra, McGraw-Hill; 1st edition (June 1, 1965). ISBN 0-07-002655-6.
+
+External links
+
+
+A demonstration of the Distributive Law for integer arithmetic (from cut-the-knot)
+
+Category:Abstract algebra *Distributivity Category:Elementary algebra Category:Rules of inference Category:Theorems in propositional logic
+
+
+
+Ayres, p. 20.↩
+Moore and Parker↩
+Copi and Cohen↩
+Hurley↩
+Russell and Whitehead, Principia Mathematica↩
+Russell and Whitehead, Principia Mathematica↩
+
+

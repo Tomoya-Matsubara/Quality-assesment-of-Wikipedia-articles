@@ -1,0 +1,117 @@
+Cham is the language of the Cham people of Southeast Asia, and formerly the language of the kingdom of Champa in central Vietnam. A member of the Malayo-Polynesian branch of the Austronesian family, it is spoken by 100,000 people in Vietnam and up to 220,000 people in Cambodia (1992 estimate). There are also small populations of speakers in Thailand and Malaysia. Other Chamic languages are spoken in Vietnam (Raglai, Rhade, Jarai, Chru, H'roi) and on the Chinese island of Hainan (Tsat). Cham is related to the Malayo-Polynesian languages of Indonesia, Malaysia, Madagascar, and the Philippines. It once had a much wider extent and possibly much larger number of speakers as it was the primary language of the Champa empire.
+Dialectal differences
+The two regions where Cham is spoken (Cambodia and southern Vietnam) use sometimes different pronunciations for certain sounds, or sometimes use different words altogether for certain concepts.1 The table below gives some examples of words where the two dialects differ.
+{| class=&quot;wikitable&quot;
+|- ! ! Cambodia ! southern Vietnam |- ! colspan = &quot;3&quot; align=&quot;center&quot; | vowels |- | child || an&lt;U+0153&gt;k || an&lt;U+1EBD&gt;k |- | take || tuk || t&lt;U+00F4&gt;k |- | not || jv&lt;U+1EBD&gt;i || jvai |- ! colspan = &quot;3&quot; align=&quot;center&quot; | sibilants |- | one || sa || tha |- | save from drowning || srong || throng |- | salt || sara || shara |- | equal || samu || hamu |- ! colspan = &quot;3&quot; align=&quot;center&quot; | final consonants |- | heavy || trap || trak |- | in front || anap || anak |- ! colspan = &quot;3&quot; align=&quot;center&quot; | lexical differences |- | market || pasa || 'darak'' |- | hate || amo&lt;U+1E25&gt; || limuk |}
+Grammar
+Word formation
+There are several prefixes and infixes which can be used for word derivation.2
+prefix pa-: causative, sometimes giving more force to the word
+th&lt;U+0103&gt;u (to know) &lt;U+2192&gt; path&lt;U+0103&gt;u (to inform)
+bl&lt;U+1EBD&gt;i (to buy) &lt;U+2192&gt; pabl&lt;U+1EBD&gt;i (to sell)
+bier (low) &lt;U+2192&gt; pabier (to lower)
+y&lt;U+0103&gt;u (like, as) &lt;U+2192&gt; pay&lt;U+0103&gt;u (to compare)
+j&lt;U+0153&gt;&lt;U+00FB&gt; (finished) &lt;U+2192&gt; paj&lt;U+0153&gt;&lt;U+00FB&gt; (well finished)
+prefix m&lt;U+0153&gt;-: sometimes causative, often indicates a state, possession, mutuality, reciprocity
+jruu (poison) &lt;U+2192&gt; m&lt;U+0153&gt;jruu (to poison)
+gruu (teacher) &lt;U+2192&gt; m&lt;U+0153&gt;gruu (to study)
+t&lt;U+00E9&gt;an (belly) &lt;U+2192&gt; m&lt;U+0153&gt;t&lt;U+00E9&gt;an (pregnancy)
+bo&lt;U+1E25&gt; (egg, fruit) &lt;U+2192&gt; m&lt;U+0153&gt;bo&lt;U+1E25&gt; (lay an egg, give fruit)
+dak&lt;U+00E9&gt; (horn) &lt;U+2192&gt; m&lt;U+0153&gt;dak&lt;U+00E9&gt; (having horns)
+prefix ta- or da-: frequentative
+galu&lt;U+1E47&gt;g (to roll) &lt;U+2192&gt; tagalu&lt;U+1E47&gt;g (to roll around)
+d&lt;U+00E2&gt;p (to hide oneself) &lt;U+2192&gt; dad&lt;U+00E2&gt;p (to be wont to hide oneself)
+infix -n-: noun formation
+pv&lt;U+00E2&gt;ch (to speak) &lt;U+2192&gt; panv&lt;U+00E2&gt;ch (speech)
+ti&lt;U+00EA&gt;u (row) &lt;U+2192&gt; tani&lt;U+00EA&gt;u (oar)
+dok (to live) &lt;U+2192&gt; danok (house, living place)
+infix -m&lt;U+0153&gt;-: no specific meaning
+pay&lt;U+0103&gt;u (to compare) &lt;U+2192&gt; pam&lt;U+0153&gt;y&lt;U+0103&gt;u (to compare)
+Reduplication is often used:3
+pal&lt;U+1EBD&gt;i, pala-pal&lt;U+1EBD&gt;i (country)
+ra&lt;U+1E05&gt;a&lt;U+1E25&gt;, ra&lt;U+1E05&gt;a&lt;U+1E25&gt;-ra&lt;U+1E05&gt;&lt;U+0153&gt;p (misery)
+Syntax and word order
+Cham generally uses SVO word order, without any case marking to distinguish subject from object:4  
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Dahlak || atong || nhu. |- | I || beat || he |- | colspan = &quot;3&quot; | I beat him. |} 
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Nhu || atong || dahlak. |- | he || beat || I |- | colspan = &quot;3&quot; | He beats me. |}  Dummy pronominal subjects are sometimes used, echoing the subject:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | In&lt;U+0153&gt;&lt;U+00FB&gt; hudi&lt;U+00EA&gt;p dahlak || nhu || atong || ad&lt;U+1EBD&gt;i puthang nhu. |- | my wife's mother || she || beat || her husband's younger sister |- | colspan = &quot;4&quot; | &quot;My wife's mother beats her husband's younger sister.&quot; |} Composite verbs will behave as one inseparable verb, having the object come after it:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Blo&lt;U+1E25&gt; || nhu || &lt;U+1E0D&gt;i&lt;U+1E25&gt; dii apv&lt;U+1EBD&gt;i || an&lt;U+1EBD&gt;k lak&lt;U+1EBD&gt;i. |- | then || she || lie at fire (i.e.: give birth) || son |- | colspan = &quot;4&quot; | &quot;Then she gave birth to a son.&quot; |} Sometimes, however, the verb is placed in front of the subject:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | L&lt;U+00EA&gt;k || dahlak. |- | fall || I |- | colspan = &quot;2&quot; | &quot;I fall.&quot; |}
+Auxiliary verbs are placed after any objects:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Nhu || ba || hudi&lt;U+00EA&gt;p nhu || nau. |- | he || bring || his wife || go |- | colspan = &quot;4&quot; | &quot;He brings his wife.&quot; |} If a sentence contains more than one main verb, one of the two will have an adverbial meaning:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Nhu || d&lt;U+00E2&gt;p || kla&lt;U+1E25&gt; || m&lt;U+0153&gt;tai. |- | he || hide || evade || death |- | colspan = &quot;4&quot; | &quot;He evaded death by hiding.&quot; |} Adjectives come after the nouns they modify:5
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | thang || prong |- | house || big |- | colspan = &quot;2&quot; | &quot;a big house&quot; |} If the order is reversed, the whole will behave like a compound:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | &lt;U+00F4&gt;rang || prong || shap |- | person || big || noise |- | colspan = &quot;3&quot; | &quot;a noisy person&quot; |}
+Composite sentences can be formed with the particle krung:6  
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | thaa dr&lt;U+1EBD&gt;i ath&lt;U+0103&gt;u thaa dr&lt;U+1EBD&gt;i m&lt;U+0153&gt;y&lt;U+0103&gt;u || krung || a&lt;U+00EF&gt; nhu br&lt;U+1EBD&gt;i kaa nhu |- | the dog and the cat || which || his brother gave him |- | colspan = &quot;3&quot; | &quot;the dog and the cat his brother gave him&quot; |} 
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | nau tapak || danau || krung || a&lt;U+00EF&gt; that ikan |- | to go straight || lake || which || brother is fishing |- | colspan = &quot;4&quot; | &quot;to go straight to the lake where his brother was fishing&quot; |}  It is also possible to leave out this particle, without change in meaning:7
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Dahlak br&lt;U+1EBD&gt;i ath&lt;U+00EA&gt;h nan || kaa va dahlak ||  || dok dii pal&lt;U+1EBD&gt;i Ram. |- | I give this horse || to my uncle || who || live in the village of Ram |- | colspan = &quot;3&quot; | &quot;I have given this horse to my uncle, who lives in the village of Ram.&quot; |}
+Questions are formed with the sentence-final particle r&lt;U+1EBD&gt;i:8
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | An&lt;U+1EBD&gt;k || th&lt;U+0103&gt;u ||vakhar || r&lt;U+1EBD&gt;i? |- | child || know || writing ||  |- |colspan = &quot;4&quot; | &quot;Can you write, child?&quot; |} Other question words are in situ:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | H&lt;U+1EBD&gt;&lt;U+00FB&gt; || nau || hatau? |- | you || go || where |- | colspan = &quot;3&quot; | &quot;Where are you going?&quot; |}
+Nominals
+Like many languages in Eastern Asia, Cham uses numeral classifiers to express amounts.9 The classifier will always come after the numeral, with the noun coming invariably before or after the classifier-numeral pair.  
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | lim&lt;U+0153&gt;&lt;U+00FB&gt; || bo&lt;U+1E25&gt; || ch&lt;U+0153&gt;k |- | five ||  || mountain |- | colspan = &quot;3&quot; | &quot;five mountains&quot; |} 
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | pal&lt;U+1EBD&gt;i || na&lt;U+1E43&gt; || bo&lt;U+1E25&gt; |- | village || six ||  |- | colspan = &quot;3&quot; | &quot;six villages&quot; |}  The above examples show the classifier bo&lt;U+1E25&gt;, which literally means &quot;egg&quot; and is the most frequently used — particularly for round and voluminous objects. Other classifiers are &lt;U+00F4&gt;rang (person) for people and deities, &lt;U+1E05&gt;&lt;U+00EA&gt;k for long objects, bla&lt;U+1E25&gt; (leaf) for flat objects, and many others.
+The days of the month are counted with a similar system, with two classifiers: one (bangun) used to count days before the full moon, and the other one (rana&lt;U+1E43&gt;) for days after the full moon.10  
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | har&lt;U+1EBD&gt;i || thaa || bangun |- | day || one ||  |- | colspan = &quot;3&quot; | &quot;first day after new moon&quot; |} 
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | har&lt;U+1EBD&gt;i || dvaa || kla&lt;U+1E43&gt; |- | day || two ||  |- | colspan = &quot;3&quot; | &quot;second day after full moon&quot; |} 
+Personal pronouns behave like ordinary nouns and do not show any case distinctions. There are different forms depending on the level of politeness. The first person singular, for example, is k&lt;U+0103&gt;u in formal or distant context, while it is dahlak (in Vietnam) or hulun (in Cambodia) in an ordinarily polite context. As is the case with many other languages of the region, kinship terms are often used as personal pronouns.11
+Comparative and superlative are expressed with the locative preposition di/dii:12
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | tapaa || di || a&lt;U+00EF&gt; nhu |- | big || at || his brother |- | colspan = &quot;3&quot; | &quot;bigger than his brother&quot; |}
+Verbs
+There are some particles that can be used to indicate tense/aspect.13 The future is indicated with shi or thi in Vietnam, with hi or si in Cambodia. The perfect is expressed with '' j&lt;U+0153&gt;&lt;U+00FB&gt;''. The first one comes in front of the verb:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Arak ni || k&lt;U+0103&gt;u || shi || nao. |- | now || I ||  || go |- | colspan = &quot;4&quot; | &quot;I will go now.&quot; |} The second one is sentence-final:
+{| cellspacing=&quot;7&quot; style=&quot;line-height: 1em;&quot;
+|- style=&quot;font-style: italic;&quot; | Shit traa || k&lt;U+0103&gt;u || nao || j&lt;U+0153&gt;&lt;U+00FB&gt;. |- | little more || I || go ||  |- | colspan = &quot;4&quot; | &quot;I'll be gone in a moment.&quot; |} Certain verbs can function as auxiliaries to express other tenses or aspects.14 The verb dok (&quot;to stay&quot;) is used for the continuous, v&lt;U+0153&gt;k (&quot;to return&quot;) for the repetitive aspect, and ki&lt;U+0153&gt;ng (&quot;to want&quot;) for the future tense.
+The negation is formed with &lt;U+00F4&gt;h/&lt;U+00F4&gt; at either or both sides of the verb, or with di/dii15 in front.16
+The imperative is formed with the sentence-final particle b&lt;U+00EA&gt;k, and the negative imperative with the preverbal jvai/jv&lt;U+1EBD&gt;i (in Vietnam and Cambodia respectively).17
+See also
+Cham script
+Cham people
+Champa kingdom
+Notes
+Further reading
+Aymonier, Etienne and Antoine Cabaton (1906). Dictionnaire Cam-Fran&lt;U+00E7&gt;ais. Paris: Leroux.
+Blood, D. L., &amp; Blood, D. (1977). East Cham language. Vietnam data microfiche series, no. VD 51-72. Huntington Beach, Calif: Summer Institute of Linguistics.
+Blood, D. L. (1977). A romanization of the Cham language in relation to the Cham script. Vietnam data microfiche series, no. VD51-17. Dallas: Summer Institute of Linguistics.
+Moussay, Gerard (1971). Dictionnaire Cam-Vietnamien-Fran&lt;U+00E7&gt;ais. Phan Rang: Centre Culturel Cam.
+Thurgood, G. (1999). From ancient Cham to modern dialects: two thousand years of language contact and change. Oceanic linguistics special publication, no. 28. Honolulu: University of Hawai'i Press. ISBN 0824821319
+External links
+Entry for Cambodian Cham at Rosetta Project
+Entry for Eastern Cham at Rosetta Project
+Entry for Hainan Cham at Rosetta Project
+de:Cham (Sprache) es:Idioma cham fr:Cham (langue) id:Bahasa Cham lt:&lt;U+010C&gt;am&lt;U+0173&gt; kalba lij:Lengua cham ja:&lt;U+30C1&gt;&lt;U+30E3&gt;&lt;U+30E0&gt;&lt;U+8A9E&gt; pl:J&lt;U+0119&gt;zyk czamski ru:&lt;U+0427&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0441&gt;&lt;U+043A&gt;&lt;U+0438&gt;&lt;U+0439&gt; &lt;U+044F&gt;&lt;U+0437&gt;&lt;U+044B&gt;&lt;U+043A&gt; ta:&lt;U+0B9A&gt;&lt;U+0BBE&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt; &lt;U+0BAE&gt;&lt;U+0BCA&gt;&lt;U+0BB4&gt;&lt;U+0BBF&gt; th:&lt;U+0E20&gt;&lt;U+0E32&gt;&lt;U+0E29&gt;&lt;U+0E32&gt;&lt;U+0E08&gt;&lt;U+0E32&gt;&lt;U+0E21&gt; vi:Ti&lt;U+1EBF&gt;ng Ch&lt;U+0103&gt;m zh:&lt;U+5360&gt;&lt;U+8A9E&gt;
+Category:Languages of Cambodia Category:Languages of China Category:Languages of Thailand Category:Languages of Vietnam Category:Chamic languages
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+This happens to be homophonous with the locative preposition.↩

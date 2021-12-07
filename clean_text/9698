@@ -1,0 +1,330 @@
+
+  Stem cells are cells found in most, if not all, multi-cellular organisms. They are characterized by the ability to renew themselves through mitotic cell division and differentiating into a diverse range of specialized cell types. Research in the stem cell field grew out of findings by Canadian scientists Ernest A. McCulloch and James E. Till in the 1960s.12 The two broad types of mammalian stem cells are: embryonic stem cells that are isolated from the inner cell mass of blastocysts, and adult stem cells that are found in adult tissues. In a developing embryo, stem cells can differentiate into all of the specialized embryonic tissues. In adult organisms, stem cells and progenitor cells act as a repair system for the body, replenishing specialized cells, but also maintain the normal turnover of regenerative organs, such as blood, skin, or intestinal tissues.
+Stem cells can now be grown and transformed into specialized cells with characteristics consistent with cells of various tissues such as muscles or nerves through cell culture. Highly plastic adult stem cells from a variety of sources, including umbilical cord blood and bone marrow, are routinely used in medical therapies. Embryonic cell lines and autologous embryonic stem cells generated through therapeutic cloning have also been proposed as promising candidates for future therapies.3
+Properties
+The classical definition of a stem cell requires that it possess two properties:
+
+Self-renewal - the ability to go through numerous cycles of cell division while maintaining the undifferentiated state.
+Potency - the capacity to differentiate into specialized cell types. In the strictest sense, this requires stem cells to be either totipotent or pluripotent - to be able to give rise to any mature cell type, although multipotent or unipotent progenitor cells are sometimes referred to as stem cells.
+
+Potency definitions
+  Potency specifies the differentiation potential (the potential to differentiate into different cell types) of the stem cell.4
+
+Totipotent (a.k.a omnipotent) stem cells can differentiate into embryonic and extraembryonic cell types. Such cells can construct a complete, viable, organism.5 These cells are produced from the fusion of an egg and sperm cell. Cells produced by the first few divisions of the fertilized egg are also totipotent.
+Pluripotent stem cells are the descendants of totipotent cells and can differentiate into nearly all cells,6 i.e. cells derived from any of the three germ layers.7
+Multipotent stem cells can differentiate into a number of cells, but only those of a closely related family of cells.8
+Oligopotent stem cells can differentiate into only a few cells, such as lymphoid or myeloid stem cells.9
+Unipotent cells can produce only one cell type, their own,10 but have the property of self-renewal which distinguishes them from non-stem cells (e.g. muscle stem cells).
+
+Identification
+The practical definition of a stem cell is the functional definition - a cell that has the potential to regenerate tissue over a lifetime. For example, the gold standard test for a bone marrow or hematopoietic stem cell (HSC) is the ability to transplant one cell and save an individual without HSCs. In this case, a stem cell must be able to produce new blood cells and immune cells over a long term, demonstrating potency. It should also be possible to isolate stem cells from the transplanted individual, which can themselves be transplanted into another individual without HSCs, demonstrating that the stem cell was able to self-renew.
+Properties of stem cells can be illustrated in vitro, using methods such as clonogenic assays, where single cells are characterized by their ability to differentiate and self-renew.1112 As well, stem cells can be isolated based on a distinctive set of cell surface markers. However, in vitro culture conditions can alter the behavior of cells, making it unclear whether the cells will behave in a similar manner in vivo. Considerable debate exists whether some proposed adult cell populations are truly stem cells.
+Embryonic
+
+Embryonic stem cell lines (ES cell lines) are cultures of cells derived from the epiblast tissue of the inner cell mass (ICM) of a blastocyst or earlier morula stage embryos.13 A blastocyst is an early stage embryo&lt;U+2014&gt;approximately four to five days old in humans and consisting of 50&lt;U+2013&gt;150 cells. ES cells are pluripotent and give rise during development to all derivatives of the three primary germ layers: ectoderm, endoderm and mesoderm. In other words, they can develop into each of the more than 200 cell types of the adult body when given sufficient and necessary stimulation for a specific cell type. They do not contribute to the extra-embryonic membranes or the placenta.
+Nearly all research to date has taken place using mouse embryonic stem cells (mES) or human embryonic stem cells (hES). Both have the essential stem cell characteristics, yet they require very different environments in order to maintain an undifferentiated state. Mouse ES cells are grown on a layer of gelatin and require the presence of Leukemia Inhibitory Factor (LIF).14 Human ES cells are grown on a feeder layer of mouse embryonic fibroblasts (MEFs) and require the presence of basic Fibroblast Growth Factor (bFGF or FGF-2).15 Without optimal culture conditions or genetic manipulation,16 embryonic stem cells will rapidly differentiate.
+A human embryonic stem cell is also defined by the presence of several transcription factors and cell surface proteins. The transcription factors Oct-4, Nanog, and Sox2 form the core regulatory network that ensures the suppression of genes that lead to differentiation and the maintenance of pluripotency.17 The cell surface antigens most commonly used to identify hES cells are the glycolipids SSEA3 and SSEA4 and the keratan sulfate antigens Tra-1-60 and Tra-1-81. The molecular definition of a stem cell includes many more proteins and continues to be a topic of research.18
+After nearly ten years of research19, there are no approved treatments using embryonic stem cells. The first human trial was approved by the US Food &amp; Drug Administration in January 200920. ES cells, being pluripotent cells, require specific signals for correct differentiation - if injected directly into another body, ES cells will differentiate into many different types of cells, causing a teratoma. Differentiating ES cells into usable cells while avoiding transplant rejection are just a few of the hurdles that embryonic stem cell researchers still face.21 Many nations currently have moratoria on either ES cell research or the production of new ES cell lines. Because of their combined abilities of unlimited expansion and pluripotency, embryonic stem cells remain a theoretically potential source for regenerative medicine and tissue replacement after injury or disease.
+Fetal
+Fetal stem cells are primitive cell types found in the organs of fetuses 22. The classification of fetal stem cells remains unclear and this type of stem cell is currently often grouped into an adult stem cell. However, a more clear distinction between the two cell types appears necessary.
+Adult
+
+
+Stem cell division and differentiation. A - stem cell; B - progenitor cell; C - differentiated cell; 1 - symmetric stem cell division; 2 - asymmetric stem cell division; 3 - progenitor division; 4 - terminal differentiation
+
+The term adult stem cell refers to any cell which is found in a developed organism that has two properties: the ability to divide and create another cell like itself and also divide and create a cell more differentiated than itself. Also known as somatic (from Greek &lt;U+03A3&gt;&lt;U+03C9&gt;&lt;U+03BC&gt;&lt;U+03B1&gt;&lt;U+03C4&gt;&lt;U+03B9&gt;&lt;U+03BA&gt;&lt;U+00F3&gt;&lt;U+03C2&gt;, &quot;of the body&quot;) stem cells and germline (giving rise to gametes) stem cells, they can be found in children, as well as adults.23
+Pluripotent adult stem cells are rare and generally small in number but can be found in a number of tissues including umbilical cord blood.24 A great deal of adult stem cell research has focused on clarifying their capacity to divide or self-renew indefinitely and their differentiation potential.25 In mice, pluripotent stem cells are directly generated from adult fibroblast cultures. Unfortunately, many mice don't live long with stem cell organs.26
+Most adult stem cells are lineage-restricted (multipotent) and are generally referred to by their tissue origin (mesenchymal stem cell, adipose-derived stem cell, endothelial stem cell, etc.).2728
+Adult stem cell treatments have been successfully used for many years to treat leukemia and related bone/blood cancers through bone marrow transplants.29 Adult stem cells are also used in veterinary medicine to treat tendon and ligament injuries in horses.30
+The use of adult stem cells in research and therapy is not as controversial as embryonic stem cells, because the production of adult stem cells does not require the destruction of an embryo. Additionally, because in some instances adult stem cells can be obtained from the intended recipient, (an autograft) the risk of rejection is essentially non-existent in these situations. Consequently, more US government funding is being provided for adult stem cell research.31
+Amniotic
+Multipotent stem cells are also found in amniotic fluid. These stem cells are very active, expand extensively without feeders and are not tumorogenic. Amniotic stem cells are multipotent and can differentiate in cells of adipogenic, osteogenic, myogenic, endothelial, hepatic and also neuronal lines.32
+Induced pluripotent
+
+These are not adult stem cells, but rather reprogrammed cells (e.g. epithelial cells) given pluripotent capabilities. Using genetic reprogramming with protein transcription factors, pluripotent stem cells equivalent to embryonic stem cells have been derived from human adult skin tissue.333435 Shinya Yamanaka and his colleagues at Kyoto University used the transcription factors Oct3/4, Sox2, c-Myc, and Klf436 in their experiments on cells from human faces. Junying Yu, James Thomson, and their colleagues at the University of Wisconsin&lt;U+2013&gt;Madison used a different set of factors, Oct4, Sox2, Nanog and Lin28,37 and carried out their experiments using cells from human foreskin.
+As a result of the success of these experiments, Ian Wilmut, who helped create the first cloned animal Dolly the Sheep, has announced that he will abandon nuclear transfer as an avenue of research.38
+Lineage
+
+To ensure self-renewal, stem cells undergo two types of cell division (see Stem cell division and differentiation diagram). Symmetric division gives rise to two identical daughter cells both endowed with stem cell properties. Asymmetric division, on the other hand, produces only one stem cell and a progenitor cell with limited self-renewal potential. Progenitors can go through several rounds of cell division before terminally differentiating into a mature cell. It is possible that the molecular distinction between symmetric and asymmetric divisions lies in differential segregation of cell membrane proteins (such as receptors) between the daughter cells.39
+An alternative theory is that stem cells remain undifferentiated due to environmental cues in their particular niche. Stem cells differentiate when they leave that niche or no longer receive those signals. Studies in Drosophila germarium have identified the signals dpp and adherens junctions that prevent germarium stem cells from differentiating.4041
+
+The signals that lead to reprogramming of cells to an embryonic-like state are also being investigated. These signal pathways include several transcription factors including the oncogene c-Myc. Initial studies indicate that transformation of mice cells with a combination of these anti-differentiation signals can reverse differentiation and may allow adult cells to become pluripotent.42 However, the need to transform these cells with an oncogene may prevent the use of this approach in therapy.
+Challenging the terminal nature of cellular differentiation and the integrity of lineage commitment, it was recently determined that the somatic expression of combined transcription factors can directly induce other defined somatic cell fates; researchers identified three neural-lineage-specific transcription factors that could directly convert mouse fibroblasts (skin cells) into fully-functional neurons43. This &quot;induced neurons&quot; (iN) cell research inspires the researchers to induce other cell types 44 implies that all cells are totipotent: with the proper tools, all cells may form all kinds of tissue.
+Treatments
+
+[[File:Stem cell treatments.svg|thumb|330px|Diseases and conditions where stem cell treatment is promising or emerging. Diabetes, rheumatoid arthritis, Parkinson's, Alzheimer's disease, osteoarthritis:
+
+Cell Basics: What are the potential uses of human stem cells and the obstacles that must be overcome before these potential uses will be realized?. In Stem Cell Information World Wide Web site. Bethesda, MD: National Institutes of Health, U.S. Department of Health and Human Services, 2009. cited Sunday, April 26, 2009
+
+Stroke and traumatic brain injury repair:
+
+Stem Cells Tapped to Replenish Organs thescientist.com, Nov 2000. By Douglas Steinberg
+
+Learning defects:
+
+ISRAEL21c &gt; Israeli scientists reverse brain birth defects using stem cells December 25, 2008. (Researchers from the Hebrew University of Jerusalem-Hadassah Medical led by Prof. Joseph Yanai)
+
+Spinal cord injury repair:
+
+
+
+Heart infarction:
+
+
+
+Anti-cancer:
+
+Stem Cells Tapped to Replenish Organs thescientist.com, Nov 2000. By Douglas Steinberg
+
+Baldness:
+
+Hair Cloning Nears Reality as Baldness Cure WebMD November 2004
+
+Replace missing teeth:
+
+
+
+Repair hearing:
+
+Gene therapy is first deafness 'cure' - health - 14 February 2005 - New Scientist
+
+Restore vision:
+
+BBC NEWS | England | Southern Counties | Stem cells used to restore vision
+
+Amyotrophic lateral sclerosis:
+
+Drs. Gearhart and Kerr of Johns Hopkins University. April 4, 2001 edition of JAMA (Vol. 285, 1691-1693)
+
+Crohn's disease:
+
+
+
+Wound healing:
+
+Gurtner GC, Callaghan, MJ and Longaker MT. 2007. Progress and potential for regenerative medicine. Annu. Rev. Med 58:299-312
+
+ Bone marrow transplantation is, as of 2009, the only established use of stem cells.]]
+Medical researchers believe that stem cell therapy has the potential to dramatically change the treatment of human disease. A number of adult stem cell therapies already exist, particularly bone marrow transplants that are used to treat leukemia.45 In the future, medical researchers anticipate being able to use technologies derived from stem cell research to treat a wider variety of diseases including cancer, Parkinson's disease, spinal cord injuries, Amyotrophic lateral sclerosis, multiple sclerosis, and muscle damage, amongst a number of other impairments and conditions.4647 However, there still exists a great deal of social and scientific uncertainty surrounding stem cell research, which could possibly be overcome through public debate and future research, and further education of the public.
+Stem cells, however, are already used extensively in research, and some scientists do not see cell therapy as the first goal of the research, but see the investigation of stem cells as a goal worthy in itself.48
+Controversy surrounding research
+
+
+Opponents of the research argue that embryonic stem cell technologies are a slippery slope to reproductive cloning and can fundamentally devalue human life. Some in the pro-life movement argue that a human embryo is already a human life that is entitled to protection.
+Contrarily, supporters of embryonic stem cell research argue that such research should be pursued because the resultant treatments could have significant medical potential. It is also noted that excess embryos created for in vitro fertilization could be donated with consent and used for the research.
+The ensuing debate has prompted authorities around the world to seek regulatory frameworks and highlighted the fact that stem cell research represents a social and ethical challenge.
+Research patents
+The patents covering a lot of work on human embryonic stem cells are owned by the Wisconsin Alumni Research Foundation (WARF). WARF does not charge academics to study human stem cells but does charge commercial users. WARF sold Geron Corp. exclusive rights to work on human stem cells but later sued Geron Corp. to recover some of the previously sold rights. The two sides agreed that Geron Corp. would keep the rights to only three cell types. In 2001, WARF came under public pressure to widen access to human stem-cell technology.49
+These patents are now in doubt as a request for review by the US Patent and Trademark Office has been filed by non-profit patent-watchdogs The Foundation for Taxpayer &amp; Consumer Rights and the Public Patent Foundation as well as molecular biologist Jeanne Loring of the Burnham Institute. According to them, two of the patents granted to WARF are invalid because they cover a technique published in 1993 for which a patent had already been granted to an Australian researcher. Another part of the challenge states that these techniques, developed by James A. Thomson, are rendered obvious by a 1990 paper and two textbooks.
+The outcome of this legal challenge is particularly relevant to the Geron Corp. as it can only license patents that are upheld.5051
+Key research events
+
+1908 - The term &quot;stem cell&quot; was proposed for scientific use by the Russian histologist Alexander Maksimov (1874&lt;U+2013&gt;1928) at congress of hematologic society in Berlin. It postulated existence of haematopoietic stem cells.
+1960s - Joseph Altman and Gopal Das present scientific evidence of adult neurogenesis, ongoing stem cell activity in the brain; like Andr&lt;U+00E9&gt; Gernez, their reports contradict Cajal's &quot;no new neurons&quot; dogma and are largely ignored.
+1963 - McCulloch and Till illustrate the presence of self-renewing cells in mouse bone marrow.
+1968 - Bone marrow transplant between two siblings successfully treats SCID.
+1978 - Haematopoietic stem cells are discovered in human cord blood.
+1981 - Mouse embryonic stem cells are derived from the inner cell mass by scientists Martin Evans, Matthew Kaufman, and Gail R. Martin. Gail Martin is attributed for coining the term &quot;Embryonic Stem Cell&quot;.
+1992 - Neural stem cells are cultured in vitro as neurospheres.
+1997 - Leukemia is shown to originate from a haematopoietic stem cell, the first direct evidence for cancer stem cells.
+1998 - James Thomson and coworkers derive the first human embryonic stem cell line at the University of Wisconsin&lt;U+2013&gt;Madison.
+
+
+
+
+2000s - Several reports of adult stem cell plasticity are published.
+2001 - Scientists at Advanced Cell Technology clone first early (four- to six-cell stage) human embryos for the purpose of generating embryonic stem cells.
+
+
+
+
+2003 - Dr. Songtao Shi of NIH discovers new source of adult stem cells in children's primary teeth.52
+2004&lt;U+2013&gt;2005 - Korean researcher Hwang Woo-Suk claims to have created several human embryonic stem cell lines from unfertilised human oocytes. The lines were later shown to be fabricated.
+2005 - Researchers at Kingston University in England claim to have discovered a third category of stem cell, dubbed cord-blood-derived embryonic-like stem cells (CBEs), derived from umbilical cord blood. The group claims these cells are able to differentiate into more types of tissue than adult stem cells.
+2005 - Researchers at UC Irvine's Reeve-Irvine Research Center are able to partially restore the ability of mice with paralyzed spines to walk through the injection of human neural stem cells.
+August 2006 - Rat Induced pluripotent stem cells: the journal Cell publishes Kazutoshi Takahashi and Shinya Yamanaka.
+
+
+
+
+October 2006 - Scientists at Newcastle University in England create the first ever artificial liver cells using umbilical cord blood stem cells.
+
+
+53
+
+January 2007 - Scientists at Wake Forest University led by Dr. Anthony Atala and Harvard University report discovery of a new type of stem cell in amniotic fluid.
+
+
+ This may potentially provide an alternative to embryonic stem cells for use in research and therapy.54
+
+June 2007 - Research reported by three different groups shows that normal skin cells can be reprogrammed to an embryonic state in mice.
+
+
+ In the same month, scientist Shoukhrat Mitalipov reports the first successful creation of a primate stem cell line through somatic cell nuclear transfer55
+
+October 2007 - Mario Capecchi, Martin Evans, and Oliver Smithies win the 2007 Nobel Prize for Physiology or Medicine for their work on embryonic stem cells from mice using gene targeting strategies producing genetically engineered mice (known as knockout mice) for gene research.
+
+
+
+
+November 2007 - Human induced pluripotent stem cells: Two similar papers released by their respective journals prior to formal publication: in Cell by Kazutoshi Takahashi and Shinya Yamanaka, &quot;Induction of pluripotent stem cells from adult human fibroblasts by defined factors&quot;,56 and in Science by Junying Yu, et al., from the research group of James Thomson, &quot;Induced pluripotent stem cell lines derived from human somatic cells&quot;:
+
+
+ pluripotent stem cells generated from mature human fibroblasts. It is possible now to produce a stem cell from almost any other human cell instead of using embryos as needed previously, albeit the risk of tumorigenesis due to c-myc and retroviral gene transfer remains to be determined.
+
+January 2008 - Robert Lanza and colleagues at Advanced Cell Technology and UCSF create the first human embryonic stem cells without destruction of the embryo
+
+
+
+
+January 2008 - Development of human cloned blastocysts following somatic cell nuclear transfer with adult fibroblasts
+
+
+
+
+February 2008 - Generation of pluripotent stem cells from adult mouse liver and stomach: these iPS cells seem to be more similar to embryonic stem cells than the previous developed iPS cells and not tumorigenic, moreover genes that are required for iPS cells do not need to be inserted into specific sites, which encourages the development of non-viral reprogramming techniques.
+
+
+
+
+March 2008-The first published study of successful cartilage regeneration in the human knee using autologous adult mesenchymal stem cells is published by clinicians from Regenerative Sciences
+
+
+
+
+October 2008 - Sabine Conrad and colleagues at T&lt;U+00FC&gt;bingen, Germany generate pluripotent stem cells from spermatogonial cells of adult human testis by culturing the cells in vitro under leukemia inhibitory factor (LIF) supplementation.
+
+
+
+
+30 October 2008 - Embryonic-like stem cells from a single human hair.
+
+
+
+
+1 March 2009 - Andras Nagy, Keisuke Kaji, et al. discover a way to produce embryonic-like stem cells from normal adult cells by using a novel &quot;wrapping&quot; procedure to deliver specific genes to adult cells to reprogram them into stem cells without the risks of using a virus to make the change.
+
+
+5758 The use of electroporation is said to allow for the temporary insertion of genes into the cell.5960
+
+5 March 2009 Australian scientists find a way to improve chemotherapy of mouse muscle stem cells.
+
+preprint abstract
+
+28 May 2009 Kim et al. announced that they had devised a way to manipulate skin cells to create patient specific &quot;induced pluripotent stem cells&quot; (iPS), claiming it to be the 'ultimate stem cell solution'.
+
+
+(cited in lay summary, not read)
+See also
+
+The American Society for Cell Biology
+California Institute for Regenerative Medicine
+Genetics Policy Institute
+Cancer stem cells
+Induced Pluripotent Stem Cell (iPS Cell)
+Meristem
+Plant stem cells
+Stem cell marker
+
+References
+
+External links
+
+
+General
+
+
+
+Tell Me About Stem Cells: Quick and simple guide explaining the science behind stem cells
+Stem Cell Basics
+Nature Reports Stem Cells: Introductory material, research advances and debates concerning stem cell research.
+Understanding Stem Cells: A View of the Science and Issues from the National Academies
+Scientific American Magazine (June 2004 Issue) The Stem Cell Challenge
+Scientific American Magazine (July 2006 Issue) Stem Cells: The Real Culprits in Cancer?
+
+Isolation of amniotic stem cell lines with potential for therapy
+How stem cells make skin | physorg.com
+
+
+Peer-reviewed journals
+
+
+
+STEM CELLS
+Cytotherapy
+Cloning and Stem Cells
+Stem Cells and Development
+Regenerative Medicine
+Stem Cell Research
+
+
+
+
+
+af:Stamsel ar:&lt;U+062E&gt;&lt;U+0637&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+062E&gt;&lt;U+0644&gt;&lt;U+0627&gt;&lt;U+064A&gt;&lt;U+0627&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+062C&gt;&lt;U+0630&gt;&lt;U+0639&gt;&lt;U+064A&gt;&lt;U+0629&gt; bs:Mati&lt;U+010D&gt;na &lt;U+0107&gt;elija bg:&lt;U+0421&gt;&lt;U+0442&gt;&lt;U+0432&gt;&lt;U+043E&gt;&lt;U+043B&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+0430&gt; &lt;U+043A&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+043A&gt;&lt;U+0430&gt; ca:C&lt;U+00E8&gt;l&lt;U+00B7&gt;lula mare cs:Kmenov&lt;U+00E1&gt; bu&lt;U+0148&gt;ka da:Stamcelle de:Stammzelle et:T&lt;U+00FC&gt;virakud es:C&lt;U+00E9&gt;lula madre eo:Stam&lt;U+0109&gt;elo eu:Zelula ama fa:&lt;U+0633&gt;&lt;U+0644&gt;&lt;U+0648&gt;&lt;U+0644&gt; &lt;U+0628&gt;&lt;U+0646&gt;&lt;U+06CC&gt;&lt;U+0627&gt;&lt;U+062F&gt;&lt;U+06CC&gt; fr:Cellule souche gl:C&lt;U+00E9&gt;lula nai ko:&lt;U+C904&gt;&lt;U+AE30&gt; &lt;U+C138&gt;&lt;U+D3EC&gt; hi:&lt;U+0938&gt;&lt;U+094D&gt;&lt;U+091F&gt;&lt;U+0947&gt;&lt;U+092E&gt; &lt;U+0915&gt;&lt;U+094B&gt;&lt;U+0936&gt;&lt;U+093F&gt;&lt;U+0915&gt;&lt;U+093E&gt; hr:Mati&lt;U+010D&gt;ne stanice id:Sel punca ia:Cellula originator it:Cellula staminale he:&lt;U+05EA&gt;&lt;U+05D0&gt; &lt;U+05D2&gt;&lt;U+05D6&gt;&lt;U+05E2&gt; ka:&lt;U+10E6&gt;&lt;U+10D4&gt;&lt;U+10E0&gt;&lt;U+10DD&gt;&lt;U+10D5&gt;&lt;U+10D0&gt;&lt;U+10DC&gt;&lt;U+10D8&gt; &lt;U+10E3&gt;&lt;U+10EF&gt;&lt;U+10E0&gt;&lt;U+10D4&gt;&lt;U+10D3&gt;&lt;U+10D8&gt; lt:Kamienin&lt;U+0117&gt; l&lt;U+0105&gt;stel&lt;U+0117&gt; hu:&lt;U+0150&gt;ssejt mk:&lt;U+041C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+0447&gt;&lt;U+043D&gt;&lt;U+0430&gt; &lt;U+043A&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+043A&gt;&lt;U+0430&gt; nl:Stamcel ja:&lt;U+5E79&gt;&lt;U+7D30&gt;&lt;U+80DE&gt; no:Stamcelle pl:Kom&lt;U+00F3&gt;rki macierzyste pt:C&lt;U+00E9&gt;lula-tronco ro:Celul&lt;U+0103&gt; stem ru:&lt;U+0421&gt;&lt;U+0442&gt;&lt;U+0432&gt;&lt;U+043E&gt;&lt;U+043B&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+044F&gt; &lt;U+043A&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+043A&gt;&lt;U+0430&gt; simple:Stem cell sk:Kme&lt;U+0148&gt;ov&lt;U+00E1&gt; bunka sr:&lt;U+0418&gt;&lt;U+0437&gt;&lt;U+0432&gt;&lt;U+043E&gt;&lt;U+0440&gt;&lt;U+043D&gt;&lt;U+0430&gt; &lt;U+045B&gt;&lt;U+0435&gt;&lt;U+043B&gt;&lt;U+0438&gt;&lt;U+0458&gt;&lt;U+0430&gt; sh:Mati&lt;U+010D&gt;na &lt;U+0107&gt;elija su:S&lt;U+00E9&gt;l punca fi:Kantasolu sv:Stamcell ta:&lt;U+0B95&gt;&lt;U+0BC1&gt;&lt;U+0BB0&gt;&lt;U+0BC1&gt;&lt;U+0BA4&gt;&lt;U+0BCD&gt;&lt;U+0BA4&gt;&lt;U+0BA3&gt;&lt;U+0BC1&gt; te:&lt;U+0C2E&gt;&lt;U+0C42&gt;&lt;U+0C32&gt; &lt;U+0C15&gt;&lt;U+0C23&gt;&lt;U+0C02&gt; th:&lt;U+0E2A&gt;&lt;U+0E40&gt;&lt;U+0E15&gt;&lt;U+0E47&gt;&lt;U+0E21&gt;&lt;U+0E40&gt;&lt;U+0E0B&gt;&lt;U+0E25&gt;&lt;U+0E25&gt;&lt;U+0E4C&gt; tr:K&lt;U+00F6&gt;k h&lt;U+00FC&gt;cre uk:&lt;U+0421&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+0431&gt;&lt;U+0443&gt;&lt;U+0440&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+0456&gt; &lt;U+043A&gt;&lt;U+043B&gt;&lt;U+0456&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0438&gt; ur:&lt;U+062E&gt;&lt;U+0644&gt;&lt;U+06CC&gt;&lt;U+06C1&gt; &lt;U+062C&gt;&lt;U+0630&gt;&lt;U+0639&gt;&lt;U+06CC&gt;&lt;U+06C1&gt; yi:&lt;U+05E1&gt;&lt;U+05D8&gt;&lt;U+05E2&gt;&lt;U+05DD&gt; &lt;U+05E6&gt;&lt;U+05E2&gt;&lt;U+05DC&gt; zh-yue:&lt;U+5E79&gt;&lt;U+7D30&gt;&lt;U+80DE&gt; bat-smg:Kam&lt;U+0117&gt;in&lt;U+0117&gt;nes l&lt;U+0101&gt;steles zh:&lt;U+5E79&gt;&lt;U+7D30&gt;&lt;U+80DE&gt;
+  Category:Biotechnology Category:Cell biology Category:Developmental biology Category:Cloning
+
+
+
+↩
+↩
+↩
+↩
+
+
+↩
+
+
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+
+&quot;His inspiration comes from the research by Prof Shinya Yamanaka at Kyoto University, which suggests a way to create human embryo stem cells without the need for human eggs, which are in extremely short supply, and without the need to create and destroy human cloned embryos, which is bitterly opposed by the pro life movement.&quot;↩
+↩
+↩
+↩
+↩
+Vierbuchen, T. Wernig, M. et al. Direct conversion of fibroblasts to functional neurons by defined factors. Nature. 27 Jan 2010.↩
+Devlin, H. Neuron breakthrough offers hope on Alzheimer&lt;U+2019&gt;s and Parkinson&lt;U+2019&gt;s. Neuron breakthrough offers hope. 28 Jan 2010.↩
+↩
+↩
+↩
+↩
+Regalado, Antonio, David P. Hamilton (July 2006). &quot;How a University's Patents May Limit Stem-Cell Researcher.&quot; Wall Street Journal. Retrieved on July 24, 2006.↩
+Kintisch, Eli (July 18, 2006) &quot;Groups Target Stem Cell Patents.&quot; ScienceNOW Daily News. Retrieved August 15, 2006.↩
+Associated Press. (July 19, 2006) &quot;Stem Cell Patents Come Under Fire.&quot; Retrieved August 15, 2006.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+

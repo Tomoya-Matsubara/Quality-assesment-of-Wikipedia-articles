@@ -1,0 +1,117 @@
+ Dominoes (or dominos) generally refers to the collective gaming pieces making up a domino set (sometimes called a deck or pack) or to the subcategory of tile games played with domino pieces. In the area of mathematical tilings and polyominoes, the word domino often refers to any rectangle formed from joining two congruent squares edge to edge. The traditional Sino-European domino set consists of 120 dominoes, colloquially nicknamed bones, cards, tiles, tickets, stones, or spinners. Each domino is a rectangular tile with a line dividing its face into two square ends. Each end is marked with a number of spots (also called pips) or is blank. The backs of the dominoes in a set are indistinguishable, either blank or having some common design. A domino set is a generic gaming device, similar to playing cards or dice, in that a variety of games can be played with a set.
+Construction and composition of domino sets
+European-style dominoes are traditionally made of ivory/bone, or a dark hardwood such as ebony, with contrasting black or white pips (inlaid or painted). Alternatively, domino sets have been made from many different natural materials: stone (e.g., marble, granite or soapstone); other hardwoods (e.g., ash, oak, redwood and cedar); metals (e.g., brass or pewter); ceramic clay, or even frosted glass or crystal. These sets have a more novel look, and the often heavier weight makes them feel more substantial, but such materials and the resulting products are usually much more expensive than polymer materials.  Modern commercial domino sets are usually made of synthetic materials, such as ABS or polystyrene plastics, or Bakelite and other phenolic resins; many sets approximate the look and feel of ivory while others use colored or even translucent plastics to achieve a more contemporary look. Modern sets also commonly use a different color for the dots of each different end value (one-spots might have black pips while two-spots might be green, three red, etc.) to facilitate finding matching ends. Occasionally, one may find a domino set made of card stock like that for playing cards. Such sets are lightweight, compact and inexpensive, but like cards are more susceptible to minor disturbances such as a sudden breeze.
+The traditional set of dominoes contains one unique piece for each possible combination of two ends with zero to six spots, and is known as a double-six set because the highest-value piece has six pips on each end (the &quot;double six&quot;). The spots from one to six are generally arranged as they are on six-sided dice, but because there are also blank ends having no spots there are seven possible faces, allowing 28 unique pieces in a double-six set.
+However, this is a relatively small number especially when playing with more than four people, so many domino sets are &quot;extended&quot; by introducing ends with greater numbers of spots, which increases the number of unique combinations of ends and thus of pieces. Each progressively larger set increases the maximum number of pips on an end by three, so the common extended sets are double-nine, double-twelve, double-fifteen and double-eighteen. Larger sets such as double-twenty-one can theoretically exist but are rarely seen in retail stores, as identifying the number of pips on each domino becomes difficult, and a double-twenty-one set would have 253 pieces, far more than is normally necessary for most domino games even with eight players.
+History
+ Domino pieces were historically carved from ivory or animal bone with small, round pips of inset ebony. The game's name comes from the pieces' resemblance to Venetian Carnival masks known as domini, which were white with black spots. These masks were so named, in turn, because they resembled French priests' winter hoods, being black on the outside and white on the inside. The name ultimately derives from the Latin dominus, meaning &quot;lord&quot; or &quot;master.&quot;
+Many different domino sets have been used for centuries in various parts of world to play a variety of domino games. Dominoes are played by grown-ups and young people throughout the world. Each domino originally represented one of the 21 results of throwing two dice. One half of each domino is set with the pips from one die and the other half contains the pips from the second die. Chinese sets also introduce duplicates of some throws and divide the dominoes into two classes: military and civil. Chinese dominoes are also longer than typical European dominoes. Over time Chinese dominoes also evolved into the tile set used to play Mah Jong, a game which swept across the United States in the early to mid 1920s and has enjoyed moderate popularity, especially in its &quot;solitaire&quot; form, since that time. It is played a lot in the Caribbean, especially in Barbados and Jamaica.
+The early 18th century witnessed dominoes making their way to Europe, making their first appearance in Italy. The game changed somewhat in the translation from Chinese to the European culture. European domino sets contain neither class distinctions nor the duplicates that went with them. Instead, European sets contain seven additional dominoes, with six of these representing the values that result from throwing a single die with the other half of the tile left blank, and the seventh domino representing the blank-blank (0&lt;U+2013&gt;0) combination.
+Ivory Dominoes were routinely used in 19th century rural England in the settling of disputes over traditional grazing boundaries, and were commonly referred to as &quot;bonesticks&quot; (see Hartley, Land Law in West Lancashire in the mid- 19th Century, Farm Gazette, March 1984).
+Tiles and suits
+Domino tiles, also known as bones, are twice as long as they are wide, a line in the middle suggesting a division into two squares. The value of either side is the number of spots or pips. In the most common variant (Double Six) the values range from blank or 0 (no pips) to 6.1 The sum of the two values, i.e. the total number of pips, may be referred to as the rank or weight of a tile, and a tile with more pips may be called heavier than a lighter tile with fewer pips.
+Tiles are generally named after their two values; e.g. 2&lt;U+2013&gt;5 or 5&lt;U+2013&gt;2 are alternative ways of describing the tile with the values 2 and 5. Tiles that have the same value on both ends are called doubles, and are typically referred to as double-zero, double-one etc.2 Tiles with two different values are called singles.3
+Every tile belongs to the two suits of its two values, e.g. 0&lt;U+2013&gt;3 belongs both to the blank suit (or 0 suit) and to the 3 suit. Naturally the doubles form an exception in that each double belongs to only one suit.4 In 42, the doubles are treated like an additional suit of doubles, so that e.g. the double-six 6&lt;U+2013&gt;6 belongs both to the 6 suit and the suit of doubles.
+Domino sets
+The five most common domino sets commercially available are:
+Set
+Tiles
+Pips
+Double-6
+28
+168
+Double-9
+55
+495
+Double-12
+91
+1092
+Double-15
+136
+2040
+Double-18
+190
+3420
+These numbers may be computed quite easily using triangular numbers: for double-n dominoes, there are $\tfrac{(n+1)(n+2)}{2}$ tiles and $\tfrac{n(n+1)(n+2)}{2}$ pips. Generally the most commonly used sets are double-6 and double-9, though the other three sets are more popular for games involving several players or for players looking for long domino games.
+Rules
+Basic rules
+Most domino games are blocking games, i.e. the objective is to empty one's hand whilst blocking the opponents. In the end, a score may be determined by counting the pips in the losing players' hands. In scoring games the scoring is different and happens mostly during gameplay, making it the principal objective.5
+Block game
+The most basic domino variant is for two players and requires a double six set. The 28 tiles are shuffled face down and form the stock or boneyard. Each player draws seven tiles; the remainder are not used. Once the players begin drawing tiles, they are typically placed on-edge before the players, so that each player can see his own tiles, but none can see the value of other players' tiles. Every player can thus see how many tiles remain in the other players' hands at all times during gameplay. One player begins by downing (playing the first tile) one of their tiles. This tile starts the line of play, a series of tiles in which adjacent tiles touch with matching, i.e. equal, values. The players alternately extend the line of play with one tile at one of its two ends. A player who cannot do this draws another tile from the boneyard until they can use one in the line. The game ends when one player wins by playing their last tile, or when the game is blocked because neither player can play. If that occurs, whoever caused the block gets all of the remaining player points not counting their own.6
+Draw game
+In the Draw game, players are additionally allowed to draw as many tiles as desired from the stock before playing a tile, and they are not allowed to pass before the stock is (nearly) empty.7 The score of a game is the number of pips in the losing player's hand plus the number of pips in the stock. Most rules prescribe that two tiles need to remain in the stock.8 The Draw game is often referred to as simply &quot;dominoes&quot;.9
+Adaptations of both games can accommodate more than two players, who may play individually or in teams.10
+Line of play
+The line of play is the configuration of played tiles on the table. Typically it starts with a single tile, from which it grows in two opposite directions when the players add matching tiles. (In practice the players often play tiles at right angles when the line of play gets too close to the edge of the table.)
+The rules for the line of play often differ from one variant to another. In many rules the doubles serve as spinners, i.e. they can be played on all four sides, causing the line of play to branch. Sometimes the first tile is required to be a double, and serves as the only spinner.11 In some games such as Chicken Foot, all sides of a spinner must be occupied before anybody is allowed to play elsewhere. Matador has unusual rules for matching. Bendomino uses curved tiles, so that one side of the line of play (or both) may be blocked for geometrical reasons.
+In Mexican Train and other Trains games, the game starts with a spinner from which various trains branch off. Most trains are owned by a player, and in most situations players are only allowed to extend their own train.
+Scoring
+In blocking games the scoring happens at the end of the game. After a player has emptied their hand, thereby winning the game for their team, the score consists of the total pip count of the losing teams' hands. In some rules the pip count of the remaining stock is added. If a game is blocked because no player can move, the winner can often be determined by counting the pips in all players' hands.12
+In scoring games each individual move potentially adds to the score. E.g. in Bergen, players score 2 points whenever they cause a configuration in which both open ends have the same value and 3 points if additionally one open end is formed by a double.1314 In Muggins, players score by ensuring that the total pip count of the open ends is a multiple of a certain number. In variants of Muggins the line of play may branch due to spinners.
+In British public houses and social clubs the scoring version of &quot;fives and threes&quot; is used. Score is kept on a cribbage board and the objective is to score 61 points. The points are scored by making totals at the ends of the lines that are divisible by five and three, thus a score of 15 (say double five at one end and a single five at the other) scores a total of eight points (five threes and three fives). If at the end game your score is more than the points remaining you cannot peg out and must wait to score lower (for example if you have 54 and you score 8 points you cannot peg that, so you must wait for the opportunity to score fewer points). This is played in a number of competitive leagues in the British Isles.
+Minor details
+In many versions of the game, the player with the highest double leads with that double, for example &quot;double six&quot;. If no one has it the next highest double is called - &quot;double five?&quot;, then &quot;double four?&quot;, etc. until the highest double in any of the players hands is played. If no player has an &quot;opening&quot; double, the next heaviest domino in the highest suit is called - &quot;six - five?&quot;, &quot;six - four?&quot;. In some variants the players take turns picking dominoes from the stock until an opening double is picked and played; in other variants the hand is reshuffled and each player picks seven dominoes. After the first hand, the winner or winning team of the previous hand is allowed to pick their dominoes first, and begins by playing any domino in his or her hand.
+Playing the first bone of a hand is sometimes called setting, leading, downing, or posing the first bone. Dominoes aficionados often call this procedure smacking the bone down. After each hand the bones are shuffled, and each player draws the number of bones required (7). Play generally proceeds &quot;clockwise&quot;. The next player, and all players in turn, must play a bone with an end that matches one of the open ends of the layouts. In some versions of the games, the pips or points on the end, and the section to be played next to it must add up to a given number; [For example in a double six set the &quot;sum&quot; would be six, requiring a &quot;blank&quot; to be played next to a &quot;6,&quot; a &quot;1&quot; next to a &quot;5&quot;, a &quot;2&quot; next to a &quot;4&quot;, etc.]
+The stock of bones left behind, if any, is called the bone yard, and the bones therein are said to be sleeping. In draw games, players take part in the bone selection, typically drawing from the bone yard when they don't have a &quot;match&quot; in their hand.
+Generally, if a player inadvertently picks up and sees one or more extra dominoes, those dominoes becomes part of his or her hand.
+A player who can play a tile may or may not be allowed to pass anyway. Passing can be signalled by tapping twice on the table or by saying &quot;go&quot; or &quot;pass&quot;.
+Play continues until one of the players has played all the dominoes in his or her hand, (and calls &quot;out!&quot;, &quot;I win&quot;, or &quot;domino!&quot;) and wins the hand, or until all the players are blocked and no legal plays are left. This is in some areas referred to as a lockdown or &quot;sewed up&quot;. In a common version of the game, the next player after the block, picks up all the dominoes in the bone yard, as if trying to find the (non-existent) match. If all the players are blocked, or locked out the player with the lowest hand / pip count wins. In team play, the team with the lowest individual hand wins. In the case of a tie, the first of tied players or the first team in the play rotation wins.
+In games where points are accrued, the winning player scores a point for each pip on each bone still held by each opponent, or the opposing team. If no player went out, however, the win is determined by the lightest hand; sometimes only the excess points held by opponents. A game is generally played to 100 points, the tally being kept with paper and pencil. In more common games, mainly urban rules, games are played to 150, 200, or 250 points. In some games the tally is kept by creating houses, where the beginning of the house (the first ten points) is a large +, the next ten points are O, and scoring with a 5 is a /, and are placed in the four 'corners' of the house. In some versions, if a lockdown occurs then the first person to call the lockdown will gain the other players bones and add the amount of the pips to their house. Also, the first person to call rocks if they believe or know the person that called &quot;domino&quot; or &quot;lockdown&quot; miscounted the pips will count the pips themselves; if the person that called rocks finds that the number of pips the player called is different, the points become his after proving that he is correct in his counting.
+Games using more dominoes
+With bigger domino sets, especially with the Double Fifteens and Double Eighteens, it is possible to have more players. Double 9s is good for 4 to 6 players and each player would start with 10 dominoes in their hand. Double 12s, 15s, and 18s are good for up to 10 to 15 players, each with 7 dominoes. If you have fewer players and more dominoes, start with more dominoes in each player's hand, but leave enough dominoes in the bone pile to draw from. When using the larger sets, make sure you have plenty of playing room as they can spread out considerably.
+Double 6s = 7 rounds, double 9s = 10 rounds, double 12s = 13 rounds, double 15s = 16 rounds, double 18s = 19 rounds.
+Card games using domino sets
+Apart from the usual blocking and scoring games, there are also domino of games of a very different character, such as solitaire or trick-taking games. Most of these are adaptations of card games and were once popular in certain areas to circumvent religious prescriptions against playing cards.15 A very simple example is a Concentration variant played with a double-six set; two tiles are considered to match if their total pip count is 12.
+A popular domino game in Texas is 42. The game is similar to the card game spades. It is played with four players paired into teams. Each player draws seven dominoes, and the dominoes are played into tricks. Each trick counts as 1 point, and any domino with a multiple of 5 dots counts toward the total of the hand. 35 points of &quot;five count&quot; + 7 tricks = 42 points, hence the name.
+Competitive play
+Dominoes is played at a professional level, similar to poker. Numerous organisations and clubs of amateur domino players exist around the world. Some organisations, including the International Federation of Dominos and the F&lt;U+00E9&gt;d&lt;U+00E9&gt;ration Internationale de Domino (FIDO), organise international competitions. The 2008 and 2009 Double FIDO domino world champion from the UK is Darren Elhindi.
+Other uses of dominoes
+  Besides playing games, another use of dominoes is standing them on end in long lines so that when the first tile is toppled, it topples the second, which topples the third, etc., resulting in all of the tiles falling. For large and elaborate arrangements, special blockages are employed at regular distances to prevent a premature toppling from undoing more than a section of the dominoes while still being able to be removed without damage.
+Arrangements of millions of tiles have been made that have taken many minutes to fall. By analogy, the phenomenon of small events causing similar events leading to eventual catastrophe is called the domino effect. The phenomenon also has some theoretical relevance (amplifier, digital signal, information processing),16 and this amounts to the theoretical possibility of building domino computers.17 Dominoes are also commonly used as components in Rube Goldberg machines.
+The Netherlands has hosted an annual domino toppling exhibition called Domino Day since 1986. The event held on November 18, 2005 knocked over 4 million dominoes by a team from Weijers Domino Productions. On Domino Day 2008 (November 14, 2008), the Weijers Domino Productions team attempted to set 10 records:1819
+Longest domino spiral (200 m)
+Highest domino climb (12 m)
+Smallest domino tile (7 mm)
+Largest domino tile (4.8 m)
+Longest domino wall (16 m)
+Largest domino structure (25,000 tiles)
+Fastest topple of 30 metres of domino tiles (4.21 sec, time by Churandy Martina: 3.81 sec)
+Largest number of domino tiles resting on a single domino (1002 tiles) for more than 1 hour
+Largest rectangular level domino field (1 million tiles)
+A new record of 4,345,027 tiles
+This record attempt was held in the WTC Expo hall in Leeuwarden. The artist who toppled the first stone was the Finnish acrobat Salima Peippo.
+At one time, Pressman Toys manufactured a product called Domino Rally that contained tiles and mechanical devices for setting up toppling exhibits.
+In Berlin on November 9, 2009, giant dominoes were toppled in a 20th anniversary commemoration of the fall of the Berlin Wall. Former Polish president and Solidarity leader Lech Wa&lt;U+0142&gt;&lt;U+0119&gt;sa set the toppling in motion.
+A similar physical phenomenon can be seen in Newton's cradle.
+Dominoes in Unicode
+Since April 2008,20 the universal text encoding standard Unicode includes characters that represent the double-six domino tiles in various orientations (all combinations of 0 through 6 pips on the left or right provides 7x7 or 49 glyphs, the same combinations vertically for another 49, and also a horizontal and a vertical &quot;back&quot; for a total of 100 glyphs). The Unicode range for dominoes is U+1F030 .. U+1F09F. (Grey areas in the table below indicate non-assigned code points.) However, few fonts 1 are known to support these glyphs.
+Historic domino competitions
+Col. Henry T. Titus vs. Capt. Clark Rice for the naming of Titusville, Florida21
+See also
+Board games
+Chinese dominoes
+Domino Theory
+List of world championships in mind sports
+Pub games
+Quad-Ominos
+Triominoes
+References
+Hoyle's Rules of Games 3rd Ed. (2001). Hoyle, Edmond, Mott-Smith, Geoffrey, &amp; Morehead, Philip, &amp; Morehead, A. H. (Eds). Signet. ISBN 0451204840
+This article incorporates text from the public domain 1911 Encyclop&lt;U+00E6&gt;dia Britannica.
+External links
+Dominoes at the Game Cabinet - includes a short history of dominoes
+Dominoes at the DominoesStars - includes a short brief of dominoes strategy and rules
+ar:&lt;U+062F&gt;&lt;U+0648&gt;&lt;U+0645&gt;&lt;U+064A&gt;&lt;U+0646&gt;&lt;U+0648&gt; be:&lt;U+0414&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0456&gt;&lt;U+043D&gt;&lt;U+043E&gt; br:Domino (c'hoari) ca:D&lt;U+00F2&gt;mino cs:Domino da:Domino de:Domino (Spiel) et:Doomino es:Domin&lt;U+00F3&gt; eo:Domeno (ludo) eu:Domino fa:&lt;U+062F&gt;&lt;U+0648&gt;&lt;U+0645&gt;&lt;U+06CC&gt;&lt;U+0646&gt;&lt;U+0648&gt; fr:Domino (jeu) ko:&lt;U+B3C4&gt;&lt;U+BBF8&gt;&lt;U+B178&gt; io:Domino id:Domino it:Domino (gioco) he:&lt;U+05D3&gt;&lt;U+05D5&gt;&lt;U+05DE&gt;&lt;U+05D9&gt;&lt;U+05E0&gt;&lt;U+05D5&gt; jv:Domino lb:Dominospill lt:Domino hu:Domin&lt;U+00F3&gt; mk:&lt;U+0414&gt;&lt;U+043E&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+043E&gt; mn:&lt;U+041D&gt;&lt;U+04AF&gt;&lt;U+0445&gt; &lt;U+0448&gt;&lt;U+0430&gt;&lt;U+0445&gt;&lt;U+0430&gt;&lt;U+0445&gt; nl:Domino (spel) ja:&lt;U+30C9&gt;&lt;U+30DF&gt;&lt;U+30CE&gt; no:Domino pl:Domino pt:Domin&lt;U+00F3&gt; ru:&lt;U+0414&gt;&lt;U+043E&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+043E&gt; so:Dumnad fi:Domino (peli) sv:Domino tl:Domino (laro) tr:Domino uk:&lt;U+0414&gt;&lt;U+043E&gt;&lt;U+043C&gt;&lt;U+0456&gt;&lt;U+043D&gt;&lt;U+043E&gt; zh:&lt;U+9AA8&gt;&lt;U+724C&gt;
+  Category:Polyforms Category:Pub games
+{{ Cite book |title=Hoyle's games modernized |last=Hoyle |first=Edmond |last2=Dawson |first2=Lawrence Hawkins |publisher=Routledge &amp; Kegan Paul |year=1950 }}. Republished 1994 by Wordsworth Editions.↩
+↩
+↩
+↩
+↩
+↩
+Domino computer↩
+Domino computers, a detailed description written by David Johnston↩
+↩
+Domino Day documentation on DominoFans.com↩
+↩
+↩

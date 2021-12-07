@@ -1,0 +1,152 @@
+Web caching is the caching of web documents (e.g., HTML pages, images) to reduce bandwidth usage, server load, and perceived lag. A web cache stores copies of documents passing through it; subsequent requests may be satisfied from the cache if certain conditions are met.1
+It should not to be confused with a web archive, a site that keeps old versions of web pages.
+Systems
+Web caches exist in various systems.
+
+A search engine may cache a website.
+A forward cache sits close to users and accelerates their requests to Internet.
+A reverse cache sits in front of one or more Web servers and web applications, accelerating requests from the Internet.2
+A client, such as a web browser, can store web content for reuse. For example, if the back button is pressed, the local cached version of a page may be displayed instead of a new request being sent to the web server.
+A web proxy sitting between the client and the server can evaluate HTTP headers and choose to store web content.
+A content delivery network can retain copies of web content at various points throughout a network.
+
+Cache control
+HTTP defines three basic mechanisms for controlling caches: freshness, validation, and invalidation.
+
+Freshness allows a response to be used without re-checking it on the origin server, and can be controlled by both the server and the client. For example, the Expires response header gives a date when the document becomes stale, and the Cache-Control: max-age directive tells the cache how many seconds the response is fresh for.
+Validation can be used to check whether a cached response is still good after it becomes stale. For example, if the response has a Last-Modified header, a cache can make a conditional request using the If-Modified-Since header to see if it has changed. The ETag (entity tag) mechanism also allows for both strong and weak validation.
+Invalidation is usually a side effect of another request that passes through the cache. For example, if URL associated with a cached response subsequently gets a POST, PUT or DELETE request, the cached response will be invalidated.
+
+Browser cache
+
+Web browsers cache content on the client machine, in memory and on disk.
+Legal issues
+In 1998 the DMCA added rules to the United States Code (17 U.S.C. &lt;U+00A7&gt;: 512) that relinquishes system operators from copyright liability for the purposes of caching.
+Comparison of web caches
+
+
+
+Name
+Type
+Operating System
+Forward
+Mode
+Reverse
+Mode
+License
+
+
+
+
+ApplianSys CACHEbox
+Appliance
+Linux
+
+
+Commercial
+
+
+Ara Networks Jaguar5000
+Software/Appliance
+Linux
+
+
+Commercial
+
+
+Blue Coat ProxySG
+Appliance
+SGOS
+
+
+Commercial
+
+
+Nginx
+Software
+Linux, Unix
+
+
+2-clause BSD-like
+
+
+Microsoft ISA
+Software
+Windows
+
+
+Commercial
+
+
+Squid
+Software
+Linux, Unix, Windows
+
+
+GNU GPL
+
+
+Traffic Server
+Software
+Linux, Unix
+
+
+Apache License 2.0
+
+
+Varnish
+Software
+Linux, Unix
+
+
+BSD
+
+
+WinGate
+Software
+Windows
+
+
+Commercial
+
+
+
+
+
+
+
+
+
+
+
+See also
+
+Web accelerator
+Proxy server
+Harvest project
+
+References
+
+
+Ari Luotonen, Web Proxy Servers (Prentice Hall, 1997) ISBN 0-13-680612-0
+Duane Wessels, Web Caching (O'Reilly and Associates, 2001). ISBN 1-56592-536-X
+Michael Rabinovich and Oliver Spatschak, Web Caching and Replication (Addison Wesley, 2001). ISBN 0-201-61570-3
+
+External links
+
+Is the Internet Heading for a Cache Crunch?
+Caching Tutorial for Web Authors and Webmasters
+Web Caching and Content Delivery Resources
+Web Caching, Web caching in general with some references to SQUID
+Cache control directives demystified Explanations, do's and don't
+
+
+ar:&lt;U+0630&gt;&lt;U+0627&gt;&lt;U+0643&gt;&lt;U+0631&gt;&lt;U+0629&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0648&gt;&lt;U+064A&gt;&lt;U+0628&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0645&gt;&lt;U+062E&gt;&lt;U+0628&gt;&lt;U+0626&gt;&lt;U+0629&gt; de:Webcache es:Cach&lt;U+00E9&gt; web fr:Cache web ko:&lt;U+C6F9&gt; &lt;U+CE90&gt;&lt;U+C2DC&gt; it:Web cache vi:Web caching
+Category:HTTP Category:Cache *
+
+
+
+↩
+↩
+
+

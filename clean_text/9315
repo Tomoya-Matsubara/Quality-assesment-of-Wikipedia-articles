@@ -1,0 +1,65 @@
+
+Janusz (John) Antoni Brzozowski (born on May 10, 1935 in Warsaw, Poland) is a Polish-Canadian computer scientist.
+In 1962, Brzozowski earned his PhD in the field of electrical engineering at Princeton University under Edward J. McCluskey. The topic of the thesis was Regular Expression Techniques for Sequential Circuits. From 1967 to 1996 he was Professor at the University of Waterloo. He is best known for his influential contributions to mathematical logic, circuit theory and automata theory.
+Achievements in research
+Brzozowski is renowned in particular for his fundamental work on regular expressions and on syntactic semigroups of formal languages.1 A notable achievement was the algebraic characterization of locally testable events together with Imre Simon, which had a similar impact2 on the development of the algebraic theory of formal languages as Sch&lt;U+00FC&gt;tzenberger's famous characterization of the star-free languages.
+In the area, there are today at least three concepts bearing Brzozowski's name in honour of his contributions: The first is the Brzozowski conjecture3 about the regularity of noncounting classes. Second, Brzozowski's algorithm 4 is a conceptually simple algorithm for performing DFA minimization. Third, Eilenberg's reference work on automata theory has a chapter devoted to the so-called Brzozowski hierarchy5 inside the star-free languages, also known as dot-depth hierarchy. Curiously, Brzozowski was not only co-author of the paper6 that defined the dot-depth hierarchy and raised the question whether this hierarchy is strict, he later also was co-author of the paper7 resolving that problem after roughly ten years. The Brzozowski hierarchy gained further importance after Thomas discovered a relation between the algebraic concept of dot-depth and the alternation depth of quantifiers in first-order logic via Ehrenfeucht-Fra&lt;U+00EF&gt;ss&lt;U+00E9&gt; games.8
+He received the following academic awards:
+
+NSERC Scientific Exchange Award to France (1974–1975)
+Japan Society for the Promotion of Science Research Fellowship (1984)
+Distinguished Professor Emeritus, University of Waterloo, Canada (1996)9
+Medal of Merit, Catholic University of Lublin, Poland (2001)
+Canadian Pioneer in Computing10 (2005)
+
+Influential research papers
+
+J. A. Brzozowski: Derivatives of regular expressions, Journal of the ACM 11(4): 481–494 (1964)
+J. A. Brzozowski, I. Simon: Characterizations of Locally Testable Events, FOCS 1971, pp. 166–176
+R. S. Cohen, J. A. Brzozowski: Dot-Depth of Star-Free Events. Journal of Computer and System Sciences 5(1): 1-16 (1971)
+J. A. Brzozowski, R. Knast: The Dot-Depth Hierarchy of Star-Free Languages is Infinite. Journal of Computer and System Sciences 16(1): 37–55 (1978)
+
+Books
+
+J. A. Brzozowski, M. Yoeli: Digital Networks. Prentice–Hall, 1976
+J.A. Brzozowski, C.-J. H. Seger: Asychronous Circuits. Springer-Verlag, 1995
+
+Notes
+
+References
+
+S. Eilenberg, Automata, Languages and Machines, Volume B. ISBN 0-12-234001-9
+W. Thomas, Classifying Regular Events in Symbolic Logic. J. Comput. Syst. Sci. 25(3): 360-376 (1982)
+J.-E. Pin, Syntactic semigroups, Chapter 10 in &quot;Handbook of Formal Language Theory&quot;, Vol. 1, G. Rozenberg and A. Salomaa (eds.), Springer Verlag, (1997) Vol. 1, pp. 679–746
+A. de Luca and S. Varicchio, Regularity and Finiteness Conditions, Chapter 11 in &quot;Handbook of Formal Language Theory&quot;, Vol. 1, G. Rozenberg and A. Salomaa (eds.), Springer Verlag, (1997) Vol. 1, pp. 747–810
+V. Diekert, P. Gastin, M. Kufleitner, A Survey on Small Fragments of First-Order Logic over Finite Words. Int. J. Found. Comput. Sci. 19(3): 513-548 (2008)
+J. Shallit, A Second Course in Formal Languages and Automata Theory, Cambridge University Press (2009)
+
+External links
+
+Profile of John Brzozowski
+Brzozowski's personal website at the University of Waterloo
+The Theory of Computing Hall of Fame
+
+
+Concatenation Hierarchies by Jean-Eric Pin
+
+
+
+
+Category:Polish computer scientists Category:Canadian computer scientists Category:Theoretical computer scientists Category:1935 births Category:Living people
+
+
+
+Pin (1997)↩
+Diekert et al. (2008)↩
+de Luca and Varicchio (1997)↩
+Shallit (2009), ch. 3.10↩
+Eilenberg (1974)↩
+Cohen and Brzozowski (1971)↩
+Brzozowski and Knast (1979)↩
+Thomas (1982)↩
+Profile of John Brzozowski↩
+Pioneers of Computing in Canada↩
+
+

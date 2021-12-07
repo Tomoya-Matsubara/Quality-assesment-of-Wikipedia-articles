@@ -1,0 +1,402 @@
+  
+A rechargeable battery (also known as a storage battery) is a group of one or more [electrochemical cell]]s. They are known as secondary cells because theirelectrochemical reactions are electrically reversible. Rechargeable batteries come in many different sizes and use different combinations of chemicals; common types include: lead acid, nickel cadmium (NiCd), nickel metal hydride (NiMH), lithium ion (Li-ion), and lithium ion polymer (Li-ion polymer).
+Rechargeable batteries can offer economic and environmental benefits compared to disposable batteries. Some rechargeable battery types are available in the same sizes as disposable types. While the rechargeable cells have a higher initial cost, rechargeable batteries can be recharged many times. Proper selection of a rechargeable battery system can reduce toxic materials sent to landfills compared to an equivalent series of disposable batteries. For example, battery manufacturers of NiMH rechargeable batteries claim a service life of 100-1000 charge cycles for their batteries.
+Usage and applications
+Rechargeable batteries currently are used for applications such as automobile starters, portable consumer devices, light vehicles (such as motorized wheelchairs, golf carts, electric bicycles, and electric forklifts), tools, and uninterruptible power supplies. Emerging applications in hybrid electric vehicles and electric vehicles are driving the technology to reduce cost, reduce weight, and increase lifetime.1
+Unlike non-rechargeable batteries (primary cells), rechargeable batteries have to be charged before use. The need to charge rechargeable batteries before use deterred potential buyers who needed to use the batteries immediately. However, new low self discharge batteries allow users to purchase rechargeable battery that already hold about 70% of the rated capacity, allowing consumers to use the batteries immediately and recharge later.
+Grid energy storage applications use industrial rechargeable batteries for load leveling, where they store electric energy for use during peak load periods, and for renewable energy uses, such as storing power generated from photovoltaic arrays during the day to be used at night. By charging batteries during periods of low demand and returning energy to the grid during periods of high electrical demand, load-leveling helps eliminate the need for expensive peaking power plants and helps amortize the cost of generators over more hours of operation.
+The National Electrical Manufacturers Association has estimated that U.S. demand for rechargeables is growing twice as fast as demand for nonrechargeables.2
+Charging and discharging
+
+During charging, the positive active material is oxidized, producing electrons, and the negative material is reduced, consuming electrons. These electrons constitute the current flow in the external circuit. The electrolyte may serve as a simple buffer for ion flow between the electrodes, as in lithium-ion and nickel-cadmium cells, or it may be an active participant in the electrochemical reaction, as in lead-acid cells.
+  
+The energy used to charge rechargeable batteries mostly comes from AC current (mains electricity) using an adapter unit. Most battery chargers can take several hours to charge a battery. Most batteries can be charged in far less time than the most common simple battery chargers are capable of. Duracell and Rayovac now sell chargers that can charge AA- and AAA-size NiMH batteries in just 15 minutes; Energizer sells chargers that can additionally charge C/D-size and 9 V NiMH batteries. However, high rates of charging (eg. 15 minute charger, 1 hour chargers) will cause long term damage to NiMH and most other rechargeable batteries.
+Rechargeable batteries are susceptible to damage due to reverse charging if they are fully discharged. Fully integrated battery chargers that optimize the charging current are available.
+Also, attempting to recharge non-rechargeable batteries has a small chance of causing a battery explosion.
+Flow batteries, which are not commonly used by consumers, are recharged by replacing the electrolyte liquid.
+Battery manufacturers' technical notes often refer to VPC. This is volts per cell, and refers to the individual secondary cells that make up the battery. For example, to charge a 12 V battery (containing 6 cells of 2 V each) at 2.3 VPC requires a voltage of 13.8 V across the battery's terminals.
+Most NiMH AA or AAA batteries rate their cells at 1.2 V. However, this is not a problem in most devices because alkaline batteries drop in voltage as the energy is depleted. Most devices are designed to continue to operate at a reduced voltage of between 0.9 and 1.1 V.
+Reverse charging
+Reverse charging, which damages batteries, is when a rechargeable battery is recharged with its polarity reversed. Reverse charging can occur under a number of circumstances, the three most common being:
+
+When a battery is incorrectly inserted into a charger.
+When an automotive type battery charger is connected in reverse to the battery terminals. This usually occurs when a completely discharged battery is being charged, otherwise sparking will occur.
+When a series string is deeply discharged.
+
+When one cell completely discharges ahead of the rest, the stronger cells will apply a reverse current to the discharged cell. This is commonly referred to as &quot;cell reversal&quot;. Cell reversal significantly shortens the life of the affected cell and therefore shortens the overall life of the battery. In some extreme cases, the reversed cell can begin to emit smoke or catch fire. Some Ni-Cad type cells exhibit a &quot;memory&quot; effect. Some Ni-Cad type cells that are not fully charged and discharged periodically can lose their ability to retain a full charge, i.e. exhibit reduced capacity. Cycling a multicell battery into deep discharge to overcome this memory effect can cause cell reversal and do more harm than good. In critical applications using Ni-Cad batteries, such as in aircraft, each cell is individually discharged by connecting a load clip across the terminals of each cell, thereby avoiding cell reversal, then charging the cells in series.
+Depth of discharge
+
+
+Depth of discharge (DOD) is normally stated as a percentage of the nominal ampere-hour capacity; 0% DOD means no discharge. Since the usable capacity of a battery system depends on the rate of discharge and the allowable voltage at the end of discharge, the depth of discharge must be qualified to show the way it is to be measured. Due to variations during manufacture and aging, the DOD for complete discharge can change over time / discharge cycles. Generally a rechargeable battery system will tolerate more charge/discharge cycles if the DOD is lower on each cycle.3
+Active components
+The active components in a secondary cell are the chemicals that make up the positive and negative active materials, and the electrolyte. The positive and negative are made up of different materials, with the positive exhibiting a reduction potential and the negative having an oxidation potential. The sum of these potentials is the standard cell potential or voltage.
+In primary cells the positive and negative electrodes are known as the cathode and anode, respectively. Although this convention is sometimes carried through to rechargeable systems &lt;U+2014&gt; especially with lithium-ion cells, because of their origins in primary lithium cells &lt;U+2014&gt; this practice can lead to confusion. In rechargeable cells the positive electrode is the cathode on discharge and the anode on charge, and vice versa for the negative electrode.
+Table of rechargeable battery technologies
+
+
+
+Type
+Voltagea
+Energy densityb
+Powerc
+Effi.d
+E/$e
+Disch.f
+Cyclesg
+Lifeh
+
+
+
+
+(V)
+(MJ/kg)
+(Wh/kg)
+(Wh/L)
+(W/kg)
+(%)
+
+(%/month)
+(#)
+
+
+Lead-acid
+2.1
+0.11-0.14
+30-40
+60-75
+180
+70%-92%
+5-8
+3%-4%
+
+
+VRLAi
+2.105
+
+
+
+
+
+
+
+
+
+Alkaline
+1.5
+0.31
+85
+250
+50
+99.9%
+7.7
+&lt;0.3
+
+
+Ni-iron
+1.2
+0.18
+50
+
+100
+65%
+5-7.34
+20%-40%
+
+
+Ni-cadmium
+1.2
+0.14-0.22
+40-60
+50-150
+150
+70%-90%
+
+20%
+
+
+NIH2
+1.5
+
+75
+
+
+
+
+
+
+
+NiMH
+1.2
+0.11-0.29
+30-80
+140-300
+250-1000
+66%
+1.37
+20%
+
+
+Ni-zinc
+1.7
+0.22
+60
+170
+900
+
+2-3.3
+
+
+
+Li ion
+3.6
+0.58
+160
+270
+1800
+99.9%
+2.8-55
+5%-10%
+
+
+Li polymer
+3.7
+0.47-0.72
+130-200
+300
+3000+
+99.8%
+2.8-5.0
+
+
+
+LiFePO4
+3.25
+
+80-120
+170 6
+1400
+
+0.7-3.0
+
+
+
+Li sulfur7
+2.0
+0.94-1.448
+4009
+350
+
+
+
+
+
+
+Li titanate
+2.3
+
+90
+
+4000+
+87-95%r
+0.5-1.010
+
+
+
+Thin film Li
+?
+
+
+350
+959
+?
+?p11
+
+
+
+ZnBr
+
+
+75-85
+
+
+
+
+
+
+
+V redox
+1.15-1.55
+
+25-3512
+
+
+80%13
+
+20%14
+
+
+NaS
+
+
+150
+
+
+89%-92%
+
+
+
+
+Molten salt
+
+
+70-11015
+
+150-220
+
+4.5416
+
+
+
+Silver zinc (Ag-zinc)
+1.86
+
+130
+240
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+For brevity, entries in the table had to be abbreviated. For a full description, please refer to the individual article about each type.
+
+a Nominal cell voltage in V.
+
+
+Graph of mass and volume energy densities of several secondary cells
+
+
+b Energy density = energy/weight or energy/size, given in three different units
+c Specific power = power/weight in W/kg
+d Charge/discharge efficiency in %
+e Energy/consumer price in W&lt;U+00B7&gt;h/US$ (approximately)
+j Safe Depth of Discharge to maintain lifecycles
+f Self-discharge rate in %/month
+g Cycle durability in number of cycles
+h Time durability in years
+i VRLA or recombinant includes gel batteries and absorbed glass mats
+p Pilot production
+r Depending upon charge rate
+
+Common rechargeable battery types
+
+Nickel-cadmium battery (NiCd):
+
+
+Created by Waldemar Jungner of Sweden in 1899 which was based on Thomas Edison's first alkaline battery. Using nickel oxide hydroxide and metallic cadmium as electrodes. Cadmium is a toxic element, and was banned for most uses by the European Union in 2004. Nickel-cadmium batteries have been almost completely superseded by nickel-metal hydride batteries.
+
+Nickel-metal hydride battery (NiMH):
+
+
+First developed around 1980's. The battery has a hydrogen-absorbing alloy for the negative electrode instead of cadmium.
+
+Lithium-ion battery:
+
+
+The technology behind lithium-ion battery has not yet fully reached maturity. However, the batteries are the type of choice in many consumer electronics and have one of the best energy-to-mass ratios and a very slow loss of charge when not in use. The popularity of lithium-ion batteries has spread as their technology continues to improve.
+Less common types
+
+Lithium sulfur battery: A new battery chemistry developed by Sion Power since 1994.17 Claims superior energy to weight than current lithium technologies on the market. Also lower material cost may help this product reach the mass market.18 Not to be confused with lithium sulfur dioxide (Li-SO2) batteries which explode when recharged.
+Thin film battery (TFB): An emerging refinement of the lithium ion technology by Excellatron.19 The developers claim a very large increase in recharge cycles, around 40,000 cycles. Higher charge and discharge rates. At least 5C charge rate. Sustained 60C discharge, and 1000C peak discharge rate. And also a significant increase in specific energy, and energy density.20
+Also Infinite Power Solutions makes thin film batteries (TFB) for micro-electronic applications, that are flexible, rechargeable, solid-state lithium batteries.21
+
+Smart battery: A smart battery has the voltage monitoring circuit built inside. See also: Smart Battery System
+Carbon foam-based lead acid battery: Firefly Energy has developed a carbon foam-based lead acid battery with a reported energy density of 30-40% more than their original 38 W&lt;U+00B7&gt;h/kg,22 with long life and very high power density.
+
+
+Recent developments
+In 2007, assistant professor Yi Cui and colleagues at Stanford University's Department of Materials Science and Engineering discovered that using silicon nanowires as the anode increases the volumetric charge density of the anode by up to a factor of 10. See also Nanowire battery.2324
+Another development is the invention of flexible batteries, which can be made paper-thin.2526
+Ceramatec, a research and development subcompany of CoorsTek, is testing a battery which contains a chunk of solid sodium metal mated to a sulfur compound by an extraordinary, paper-thin ceramic membrane. The membrane conducts ions back and forth to generate a current. The company claims that it can cram about 40 kilowatt hours of energy into a package about the size of a refrigerator, and operate below 90 degrees Celsius. The company also claims that their battery will allow for 3,650 discharge/recharge cycles (or roughly 1 per day for one decade.)27
+Alternatives
+Several alternatives to rechargeable batteries exist or are under development. For uses like portable radios and flashlights, rechargeable batteries may be replaced by clockwork mechanisms or dynamos which are cranked by the user to provide power. For transportation, uninterruptible power supply systems and laboratories, flywheel energy storage systems store energy in a spinning rotor for reconversion to electric power when needed; such systems may be used to provide large pulses of power that would otherwise be objectionable on a common electrical grid.
+A future development could be ultracapacitors for transportation, using a large capacitor to store energy instead of the rechargeable battery banks used in hybrid vehicles. One drawback to capacitors compared with batteries is that the terminal voltage drops rapidly; a capacitor that has 25% of its initial energy left in it will have one-half of its initial voltage. Battery systems tend to have a terminal voltage that does not decline rapidly until nearly exhausted. This characteristic complicates the design of power electronics for use with ultracapacitors. However, there are potential benefits in cycle efficiency, lifetime, and weight compared with rechargeable systems.
+See also
+
+
+Battery pack
+Battery recycling
+Deep cycle automotive battery manufacturers
+Fuel cell
+Mercury-containing and Rechargeable Battery Management Act
+Nanowire battery
+Nickel hydrogen battery
+Power-to-weight ratio
+Primary cell
+Rechargeable electricity storage system
+Service life
+Smart card
+Thin-film battery
+Trickle charging
+WiTricity
+
+References
+
+External links
+
+
+High-performance lithium battery anodes using silicon nanowires
+Scientific American - How Rechargeable Batteries Work
+Battery University – on-line resource that provides practical battery knowledge for engineers, educators, students and battery users alike.
+
+
+ar:&lt;U+062E&gt;&lt;U+0644&gt;&lt;U+064A&gt;&lt;U+0629&gt; &lt;U+062B&gt;&lt;U+0627&gt;&lt;U+0646&gt;&lt;U+0648&gt;&lt;U+064A&gt;&lt;U+0629&gt; bs:Akumulator cs:Akumul&lt;U+00E1&gt;tor da:Akkumulator (elektrisk) de:Akkumulator et:Elektriakumulaator es:Bater&lt;U+00ED&gt;a (electricidad) eo:Akumulatoro eu:Bateria elektriko fr:Accumulateur &lt;U+00E9&gt;lectrique ko:&lt;U+C774&gt;&lt;U+CC28&gt; &lt;U+C804&gt;&lt;U+C9C0&gt; hr:Akumulator it:Accumulatore di carica elettrica lv:Akumulatoru baterija hu:Akkumul&lt;U+00E1&gt;tor nl:Oplaadbare batterij ja:&lt;U+4E8C&gt;&lt;U+6B21&gt;&lt;U+96FB&gt;&lt;U+6C60&gt; pl:Akumulator elektryczny ru:&lt;U+042D&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+043A&gt;&lt;U+0442&gt;&lt;U+0440&gt;&lt;U+0438&gt;&lt;U+0447&gt;&lt;U+0435&gt;&lt;U+0441&gt;&lt;U+043A&gt;&lt;U+0438&gt;&lt;U+0439&gt; &lt;U+0430&gt;&lt;U+043A&gt;&lt;U+043A&gt;&lt;U+0443&gt;&lt;U+043C&gt;&lt;U+0443&gt;&lt;U+043B&gt;&lt;U+044F&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0440&gt; sq:Akumulatori simple:Rechargeable battery sk:Sekund&lt;U+00E1&gt;rny elektrochemick&lt;U+00FD&gt; &lt;U+010D&gt;l&lt;U+00E1&gt;nok sl:Akumulator sr:&lt;U+0410&gt;&lt;U+043A&gt;&lt;U+0443&gt;&lt;U+043C&gt;&lt;U+0443&gt;&lt;U+043B&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0440&gt; fi:Akku sv:Ackumulator (elektricitet) tr:Ak&lt;U+00FC&gt;m&lt;U+00FC&gt;lat&lt;U+00F6&gt;r uk:&lt;U+0415&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+043A&gt;&lt;U+0442&gt;&lt;U+0440&gt;&lt;U+0438&gt;&lt;U+0447&gt;&lt;U+043D&gt;&lt;U+0438&gt;&lt;U+0439&gt; &lt;U+0430&gt;&lt;U+043A&gt;&lt;U+0443&gt;&lt;U+043C&gt;&lt;U+0443&gt;&lt;U+043B&gt;&lt;U+044F&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0440&gt; ur:&lt;U+0645&gt;&lt;U+06A9&gt;&lt;U+0631&gt;&lt;U+0631&gt;&lt;U+0628&gt;&lt;U+0627&gt;&lt;U+0631&gt;&lt;U+06CC&gt; vi:Pin s&lt;U+1EA1&gt;c zh:&lt;U+84C4&gt;&lt;U+96FB&gt;&lt;U+6C60&gt;
+Category:Electric batteries * Category:Recyclable materials
+
+
+
+David Linden, Thomas B. Reddy (ed). Handbook Of Batteries 3rd Edition. McGraw-Hill, New York, 2002 ISBN 0-07-135978-8 chapter 22↩
+Batteries Product Stewardship | Wastes | EPA↩
+Reddy, Handbook of Batteries page 22-20↩
+mpoweruk.com: Accumulator and battery comparisons (pdf)↩
+http://www.werbos.com/E/WhoKilledElecPJW.htm (which links to http://www.thunder-sky.com/home_en.asp)↩
+phantom hub motors, LiFePO4 batteries, electric bike kits, electric scooters↩
+Lithium_Sulfur↩
+1↩
+http://www.polyplus.com/inproperty/patents/pat6358643.PDF↩
+Power &amp; Energy Systems FAQ↩
+Excellatron - the Company↩
+Vanadium Redox Battery↩
+2↩
+
+http://www.betard.co.uk/new_zebra.pdf↩
+EVWORLD FEATURE: Fuel Cell Disruptor - Part 2:BROOKS FUEL CELL | CARB | ARB | HYDROGEN | ZEBRA | EV | ELECTRIC↩
+Sion Power Corporation - Advanced Energy Storage : Welcome↩
+Sion Power Corporation - Advanced Energy Storage : Technology Overview↩
+Excellatron↩
+Excellatron - the Company↩
+http://www.infinitepowersolutions.com/↩
+Green Car Congress: Firefly Energy Eyeing the Hybrid Market; Lead-Acid Foam Batteries for Mild-Hybrid Applications Heading to DOE for Testing and Validation↩
+{{ cite web | title = A tenfold improvement in battery life? | url = http://www.news.com/A-tenfold-improvement-in-battery-life/2100-1041_3-6226196.html?part=rss&amp;tag=2547-1_3-0-5&amp;subj=news | first = Alex | last = Serpo | publisher = CNET | work = News.com | date = 15 January 2008 | accessdate = 2008-04-12 }}↩
+{{ cite web | title = High-performance lithium battery anodes using silicon nanowires | url = http://www.nature.com/nnano/journal/v3/n1/full/nnano.2007.411.html | publisher = Nature | work = Nanotechnology 3, 31 - 35 (2008) | date = 16 December 2007 | accessdate = 2008-04-12 | doi = 10.1038/nnano.2007.411 }}↩
+Self rechargeable battery (flexible organic battery)↩
+Power Paper thin and flexible batteries↩
+New battery could change the world, one house at a time↩
+
+

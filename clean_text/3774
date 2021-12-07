@@ -1,0 +1,14 @@
+In mathematical analysis, the Whitney covering lemma is a lemma which asserts the existence of a certain type of partition of an open set in a Euclidean space. Originally it was employed in the proof of Hassler Whitney's extension theorem. The lemma was subsequently applied to prove generalizations of the Calder&lt;U+00F3&gt;n-Zygmund decomposition.
+Roughly speaking, the lemma states that it is possible to cover an open set by cubes each of whose diameter is proportional, within certain bounds, to its distance from the boundary of the open set. More precisely,
+
+An open subset A of Rn can be written as a disjoint union of countably many closed cubes {Qj} whose corners have dyadic rational coordinates such that the following inequality holds for all j ∈ N:
+
+diam(Qj) ≤ dist(Qj, ∂A) ≤ 4diam(Qj).
+References
+
+.
+.
+.
+
+
+Category:Covering lemmas

@@ -1,0 +1,232 @@
+ thumb|300px|Schematic of typical animal cell, showing subcellular components. Organelles: (1) nucleolus (2) nucleus (3) ribosome (4) vesicle (5) rough endoplasmic reticulum (ER) (6) Golgi apparatus (7) Cytoskeleton (8) smooth ER (9) mitochondria (10) vacuole (11) cytoplasm (12) lysosome (13) centrioles
+In cell biology, the nucleus (pl. nuclei; from Latin nucleus or nuculeus, kernel) is a membrane-enclosed organelle found in most eukaryotic cells. It contains most of the cell's genetic material, organized as multiple long linear DNA molecules in complex with a large variety of proteins such as histones to form chromosomes. The genes within these chromosomes make up the cell's nuclear genome. The function of the nucleus is to maintain the integrity of these genes and to control the activities of the cell by regulating gene expression.
+The main structural elements of the nucleus are the nuclear envelope, a double membrane that encloses the entire organelle and keeps its contents separated from the cellular cytoplasm, and the nuclear lamina, a meshwork within the nucleus that adds mechanical support much like the cytoskeleton supports the cell as a whole. Because the nuclear membrane is impermeable to most molecules, nuclear pores are required to allow movement of molecules across the envelope. These pores cross both membranes of the envelope, providing a channel that allows free movement of small molecules and ions. The movement of larger molecules such as proteins is carefully controlled, and requires active transport facilitated by carrier proteins. Nuclear transport is of paramount importance to cell function, as movement through the pores is required for both gene expression and chromosomal maintenance.
+Although the interior of the nucleus does not contain any membrane-delineated bodies, its contents are not uniform, and a number of subnuclear bodies exist, made up of unique proteins, RNA molecules, and DNA conglomerates. The best known of these is the nucleolus, which is mainly involved in assembly of ribosomes. After being produced in the nucleolus, ribosomes are exported to the cytoplasm where they translate mRNA.
+The nucleus was the first organelle to be discovered, and was first described by Franz Bauer in 1802.1 It was later described in more detail by Scottish botanist Robert Brown in 1831. Brown was studying orchids microscopically when he observed an opaque area, which he called the areola or nucleus, in the cells of the flower's outer layer.2
+Structure
+The nucleus is the largest cellular organelle.3 It varies in diameter from 11 to 22 micrometers (&lt;U+03BC&gt;m) and occupies about 10% of the total volume of a typical cell.4 The viscous liquid within it is called nucleoplasm, and is similar to the cytoplasm found outside the nucleus.
+Nuclear envelope and pores
+ 
+The nuclear envelope consists of two cellular membranes, an inner and an outer membrane, arranged parallel to one another and separated by 10 to 50 nanometers (nm). The nuclear envelope completely encloses the nucleus and separates the cell's genetic material from the surrounding cytoplasm, serving as a barrier to prevent macromolecules from diffusing freely between the nucleoplasm and the cytoplasm.5 The outer nuclear membrane is continuous with the membrane of the rough endoplasmic reticulum (RER), and is similarly studded with ribosomes. The space between the membranes is called the perinuclear space and is continuous with the RER lumen.
+Nuclear pores, which provide aqueous channels through the envelope, are composed of multiple proteins, collectively referred to as nucleoporins. The pores are about 125 million daltons in molecular weight and consist of around 50 (in yeast) to 100 proteins (in vertebrates).6 The pores are 100 nm in total diameter; however, the gap through which molecules freely diffuse is only about 9 nm wide, due to the presence of regulatory systems within the center of the pore. This size allows the free passage of small water-soluble molecules while preventing larger molecules, such as nucleic acids and proteins, from inappropriately entering or exiting the nucleus. These large molecules must be actively transported into the nucleus instead. The nucleus of a typical mammalian cell will have about 3000 to 4000 pores throughout its envelope,7 each of which contains a donut-shaped, eightfold-symmetric ring-shaped structure at a position where the inner and outer membranes fuse.8 Attached to the ring is a structure called the nuclear basket that extends into the nucleoplasm, and a series of filamentous extensions that reach into the cytoplasm. Both structures serve to mediate binding to nuclear transport proteins.9
+Most proteins, ribosomal subunits, and some RNAs are transported through the pore complexes in a process mediated by a family of transport factors known as karyopherins. Those karyopherins that mediate movement into the nucleus are also called importins, while those that mediate movement out of the nucleus are called exportins. Most karyopherins interact directly with their cargo, although some use adaptor proteins.10 Steroid hormones such as cortisol and aldosterone, as well as other small lipid-soluble molecules involved in intercellular signaling can diffuse through the cell membrane and into the cytoplasm, where they bind nuclear receptor proteins that are trafficked into the nucleus. There they serve as transcription factors when bound to their ligand; in the absence of ligand many such receptors function as histone deacetylases that repress gene expression.11
+Cytoskeleton
+{{ main|Nuclear lamina}} Two networks of intermediate filaments provide the nucleus with mechanical support: the nuclear lamina forms an organized meshwork on the internal face of the envelope, while less organized support is provided on the cystolic face of the envelope. Both systems provide structural support for the nuclear envelope and anchoring sites for chromosomes and nuclear pores.12
+The nuclear lamina is mostly composed of lamin proteins. Like all proteins, lamins are synthesized in the cytoplasm and later transported into the nucleus interior, where they are assembled before being incorporated into the existing network of nuclear lamina.1314 Lamins are also found inside the nucleoplasm where they form another regular structure, known as the nucleoplasmic veil,15 that is visible using fluorescence microscopy. The actual function of the veil is not clear, although it is excluded from the nucleolus and is present during interphase.16 The lamin structures that make up the veil bind chromatin and disrupting their structure inhibits transcription of protein-coding genes.17
+Like the components of other intermediate filaments, the lamin monomer contains an alpha-helical domain used by two monomers to coil around each other, forming a dimer structure called a coiled coil. Two of these dimer structures then join side by side, in an antiparallel arrangement, to form a tetramer called a protofilament. Eight of these protofilaments form a lateral arrangement that is twisted to form a ropelike filament. These filaments can be assembled or disassembled in a dynamic manner, meaning that changes in the length of the filament depend on the competing rates of filament addition and removal.18
+Mutations in lamin genes leading to defects in filament assembly are known as laminopathies. The most notable laminopathy is the family of diseases known as progeria, which causes the appearance of premature aging in its sufferers. The exact mechanism by which the associated biochemical changes give rise to the aged phenotype is not well understood.19
+Chromosomes
+
+The cell nucleus contains the majority of the cell's genetic material, in the form of multiple linear DNA molecules organized into structures called chromosomes. During most of the cell cycle these are organized in a DNA-protein complex known as chromatin, and during cell division the chromatin can be seen to form the well defined chromosomes familiar from a karyotype. A small fraction of the cell's genes are located instead in the mitochondria.
+There are two types of chromatin. Euchromatin is the less compact DNA form, and contains genes that are frequently expressed by the cell.20 The other type, heterochromatin, is the more compact form, and contains DNA that are infrequently transcribed. This structure is further categorized into facultative heterochromatin, consisting of genes that are organized as heterochromatin only in certain cell types or at certain stages of development, and constitutive heterochromatin that consists of chromosome structural components such as telomeres and centromeres.21 During interphase the chromatin organizes itself into discrete individual patches,&lt;ref = &quot;Schardin&quot;&gt; called chromosome territories.&lt;ref = &quot;Lamond&quot;&gt; Active genes, which are generally found in the euchromatic region of the chromosome, tend to be located towards the chromosome's territory boundary.&lt;ref = &quot;Kurz&quot;&gt;
+Antibodies to certain types of chromatin organization, particularly nucleosomes, have been associated with a number of autoimmune diseases, such as systemic lupus erythematosus.22 These are known as anti-nuclear antibodies (ANA) and have also been observed in concert with multiple sclerosis as part of general immune system dysfunction.23 As in the case of progeria, the role played by the antibodies in inducing the symptoms of autoimmune diseases is not obvious.
+Nucleolus
+ {{ main|Nucleolus}} The nucleolus is a discrete densely-stained structure found in the nucleus. It is not surrounded by a membrane, and is sometimes called a suborganelle. It forms around tandem repeats of rDNA, DNA coding for ribosomal RNA (rRNA). These regions are called nucleolar organizer regions (NOR). The main roles of the nucleolus are to synthesize rRNA and assemble ribosomes. The structural cohesion of the nucleolus depends on its activity, as ribosomal assembly in the nucleolus results in the transient association of nucleolar components, facilitating further ribosomal assembly, and hence further association. This model is supported by observations that inactivation of rDNA results in intermingling of nucleolar structures.24
+The first step in ribosomal assembly is transcription of the rDNA, by a protein called RNA polymerase I, forming a large pre-rRNA precursor. This is cleaved into the subunits 5.8S, 18S, and 28S rRNA.25 The transcription, post-transcriptional processing, and assembly of rRNA occurs in the nucleolus, aided by small nucleolar RNA (snoRNA) molecules, some of which are derived from spliced introns from messenger RNAs encoding genes related to ribosomal function. The assembled ribosomal subunits are the largest structures passed through the nuclear pores.26
+When observed under the electron microscope, the nucleolus can be seen to consist of three distinguishable regions: the innermost fibrillar centers (FCs), surrounded by the dense fibrillar component (DFC), which in turn is bordered by the granular component (GC). Transcription of the rDNA occurs either in the FC or at the FC-DFC boundary, and therefore when rDNA transcription in the cell is increased more FCs are detected. Most of the cleavage and modification of rRNAs occurs in the DFC, while the latter steps involving protein assembly onto the ribosomal subunits occurs in the GC.27
+Other subnuclear bodies
+
+
+
+colspan=5 style=&quot;border-right:0px;&quot;;| Subnuclear structure sizes
+
+
+
+
+Structure name
+
+
+Cajal bodies
+
+
+PIKA
+
+
+PML bodies
+
+
+Speckles
+
+
+
+Besides the nucleolus, the nucleus contains a number of other non-membrane delineated bodies. These include Cajal bodies, Gemini of coiled bodies, polymorphic interphase karyosomal association (PIKA), promyelocytic leukaemia (PML) bodies, and speckles. Although little is known about a number of these domains, they are significant in that they show that the nucleoplasm is not uniform mixture, but rather contains organized functional subdomains.28
+Other subnuclear structures appear as part of abnormal disease processes. For example, the presence of small intranuclear rods have been reported in some cases of nemaline myopathy. This condition typically results from mutations in actin, and the rods themsleves consist of mutant actin as well as other cytoskeletal proteins.29
+Cajal bodies and gems
+A nucleus typically contains between 1 and 10 compact structures called Cajal bodies or coiled bodies (CB), whose diameter measures between 0.2 &lt;U+03BC&gt;m and 2.0 &lt;U+03BC&gt;m depending on the cell type and species.30 When seen under an electron microscope, they resemble balls of tangled thread31 and are dense foci of distribution for the protein coilin.32 CBs are involved in a number of different roles relating to RNA processing, specifically small nucleolar RNA (snoRNA) and small nuclear RNA (snRNA) maturation, and histone mRNA modification.33
+Similar to Cajal bodies are Gemini of coiled bodies, or gems, whose is derived from the Gemini constellation in reference to their close &quot;twin&quot; relationship with CBs. Gems are similar in size and shape to CBs, and in fact are virtually indistinguishable under the microscope.34 Unlike CBs, gems don't contain small nuclear ribonucleoproteins (snRNPs), but do contain a protein called survivor of motor neurons (SMN) whose function relates to snRNP biogenesis. Gems are believed to assist CBs in snRNP biogenesis,35 though it has also been suggested from microscopy evidence that CBs and gems are different manifestations of the same structure.36
+PIKA and PTF domains
+PIKA domains, or polymorphic interphase karyosomal associations, were first described in microscopy studies in 1991. Their function was and remains unclear, though they were not thought to be associated with active DNA replication, transcription, or RNA processing.37 They have been found to often associate with discrete domains defined by dense localization of the transcription factor PTF, which promotes transcription of snRNA.38
+PML bodies
+Promyelocytic leukaemia bodies (PML bodies) are spherical bodies found scattered throughout the nucleoplasm, measuring around 0.2-1.0 &lt;U+03BC&gt;m. They are known by a number of other names, including nuclear domain 10 (ND10), Kremer bodies, and PML oncogenic domains. They are often seen in the nucleus in association with Cajal bodies and cleavage bodies. It has been suggested that they play a role in regulating transcription.39
+Speckles
+Sometimes referred to as interchromatin granule clusters, speckles are rich in splicing snRNPs and other splicing proteins necessary for pre-mRNA processing. Because of a cell's changing requirements, the composition and location of these bodies changes according to mRNA transcription and regulation via phosphorylation of specific proteins.40
+Function
+The main function of the cell nucleus is to control gene expression and mediate the replication of DNA during the cell cycle. The nucleus provides a site for genetic transcription that is segregated from the location of translation in the cytoplasm, allowing levels of gene regulation that are not available to prokaryotes.
+Cell compartmentalization
+The nuclear envelope allows the nucleus to control its contents, and separate them from the rest of the cytoplasm where necessary. This is important for controlling processes on either side of the nuclear membrane. In some cases where a cytoplasmic process needs to be restricted, a key participant is removed to the nucleus, where it interacts with transcription factors to downregulate the production of certain enzymes in the pathway. This regulatory mechanism occurs in the case of glycolysis, a cellular pathway for breaking down glucose to produce energy. Hexokinase is an enzyme responsible for the first the step of glycolysis, forming glucose-6-phosphate from glucose. At high concentrations of fructose-6-phosphate, a molecule made later from glucose-6-phosphate, a regulator protein removes hexokinase to the nucleus,41 where it forms a transcriptional repressor complex with nuclear proteins to reduce the expression of genes involved in glycolysis.42
+In order to control which genes are being transcribed, the cell separates some transcription factor proteins responsible for regulating gene expression from physical access to the DNA until they are activated by other signaling pathways. This prevents even low levels of inappropriate gene expression. For example in the case of NF-&lt;U+03BA&gt;B-controlled genes, which are involved in most inflammatory responses, transcription is induced in response to a signal pathway such as that initiated by the signaling molecule TNF-&lt;U+03B1&gt;, binds to a cell membrane receptor, resulting in the recruitment of signalling proteins, and eventually activating the transcription factor NF-&lt;U+03BA&gt;B. A nuclear localisation signal on the NF-&lt;U+03BA&gt;B protein allows it to be transported through the nuclear pore and into the nucleus, where it stimulates the transcription of the target genes.43
+The compartmentalization allows the cell to prevent translation of unspliced mRNA.44 Eukaryotic mRNA contains introns that must be removed before being translated to produce functional proteins. The splicing is done inside the nucleus before the mRNA can be accessed by ribosomes for translation. Without the nucleus ribosomes would translate newly transcribed (unprocessed) mRNA resulting in misformed and nonfunctional proteins.
+
+|thumb|200px|left|A micrograph of ongoing gene transcription of ribosomal RNA illustrating the growing primary transcripts. &quot;Begin&quot; indicates the 5' end of the DNA, where new RNA synthesis begins; &quot;end&quot; indicates the 3' end, where the primary transcripts are almost complete.
+
+Gene expression
+
+Gene expression first involves transcription, in which DNA is used as a template to produce RNA. In the case of genes encoding proteins, that RNA produced from this process is messenger RNA (mRNA), which then needs to be translated by ribosomes to form a protein. As ribosomes are located outside the nucleus, mRNA produced needs to be exported.
+Since the nucleus is the site of transcription, it also contains a variety of proteins which either directly mediate transcription or are involved in regulating the process. These proteins include helicases that unwind the double-stranded DNA molecule to facilitate access to it, RNA polymerases that synthesize the growing RNA molecule, topoisomerases that change the amount of supercoiling in DNA, helping it wind and unwind, as well as a large variety of transcription factors that regulate expression.
+Processing of pre-mRNA
+
+Newly synthesized mRNA molecules are known as primary transcripts or pre-mRNA. They must undergo post-transcriptional modification in the nucleus before being exported to the cytoplasm; mRNA that appears in the nucleus without these modifications is degraded rather than used for protein translation. The three main modifications are 5' capping, 3' polyadenylation, and RNA splicing. While in the nucleus, pre-mRNA is associated with a variety of proteins in complexes known as heterogeneous ribonucleoprotein particles (hnRNPs). Addition of the 5' cap occurs co-transcriptionally and is the first step in post-translational modification. The 3' poly-adenine tail is only added after transcription is complete.
+RNA splicing, carried out by a complex called the spliceosome, is the process by which introns, or regions of DNA that do not code for protein, are removed from the pre-mRNA and the remaining exons connected to re-form a single continuous molecule. This process normally occurs after 5' capping and 3' polyadenylation but can begin before synthesis is complete in transcripts with many exons.45 Many pre-mRNAs, including those encoding antibodies, can be spliced in multiple ways to produce different mature mRNAs that encode different protein sequences. This process is known as alternative splicing, and allows production of a large variety of proteins from a limited amount of DNA. {{-}}
+Dynamics and regulation
+Nuclear transport
+  The entry and exit of large molecules from the nucleus is tightly controlled by the nuclear pore complexes. Although small molecules can enter the nucleus without regulation,46 macromolecules such as RNA and proteins require association karyopherins called importins to enter the nucleus and exportins to exit. &quot;Cargo&quot; proteins that must be translocated from the cytoplasm to the nucleus contain short amino acid sequences known as nuclear localization signals which are bound by importins, while those transported from the nucleus to the cytoplasm carry nuclear export signals bound by exportins. The ability of importins and exportins to transport their cargo is regulated by GTPases, enzymes that hydrolyze the molecule guanosine triphosphate to release energy. The key GTPase in nuclear transport is Ran, which can bind either GTP or GDP (guanosine diphosphate) depending on whether it is located in the nucleus or the cytoplasm. Whereas importins depend on RanGTP to dissociate from their cargo, exportins require RanGTP in order to bind to their cargo.47
+Nuclear import depends on the importin binding its cargo in the cytoplasm and carrying it through the nuclear pore into the nucleus. Inside the nucleus, RanGTP acts to separate the cargo from the importin, allowing the importin to exit the nucleus and be reused. Nuclear export is similar, as the exportin binds the cargo inside the nucleus in a process facilitated by RanGTP, exits through the nuclear pore, and separates from its cargo in the cytoplasm.
+Specialized export proteins exist for translocation of mature mRNA and tRNA to the cytoplasm after post-transcriptional modification is complete. This quality-control mechanism is important due to the these molecules' central role in protein translation; mis-expression of a protein due to incomplete excision of exons or mis-incorporation of amino acids could have negative consequences for the cell; thus incompletely modified RNA that reaches the cytoplasm is degraded rather than used in translation.48
+Assembly and disassembly
+ During its lifetime a nucleus may be broken down, either in the process of cell division or as a consequence of apoptosis, a regulated form of cell death. During these events, the structural components of the nucleus - the envelope and lamina - are systematically degraded.
+During the cell cycle the cell divides to form two cells. In order for this process to be possible, each of the new daughter cells must have a full set of genes, a process requiring replication of the chromosomes as well as segregation of the separate sets. This occurs by the replicated chromosomes, the sister chromatids, attaching to microtubules, which in turn are attached to different centrosomes. The sister chromatids can then be pulled to separate locations in the cell. However, in many cells the centrosome is located in the cytoplasm, outside the nucleus, the microtubles would be unable to attach to the chromatids in the presence of the nuclear envelope.49 Therefore the early stages in the cell cycle, beginning in prophase and until around prometaphase, the nuclear membrane is dismantled.50 Likewise, during the same period, the nuclear lamina is also dissembled, a process regulated by phosphorylation of the lamins.51 Towards the end of the cell cycle, the nuclear membrane is reformed, and around the same time, the nuclear lamina are reassembled by dephosphorylating the lamins.52
+Apoptosis is a controlled process in which the cell's structural components are destroyed, resulting in death of the cell. Changes associated with apoptosis directly affect the nucleus and its contents, for example in the condensation of chromatin and the disintegration of the nuclear envelope and lamina. The destruction of the lamin networks is controlled by specialized apoptotic proteases called caspases, which cleave the lamin proteins and thus degrade the nucleus' structural integrity. Lamin cleavage is sometimes used as a laboratory indicator of caspase activity in assays for early apoptotic activity53 Cells that express mutant caspase-resistant lamins are deficient in nuclear changes related to apoptosis, suggesting that lamins play a role in initiating the events that lead to apoptotic degradation of the nucleus.54 Inhibition of lamin assembly itself is an inducer of apoptosis.55
+The nuclear envelope acts as a barrier that prevents both DNA and RNA viruses from entering the nucleus. Some viruses require access to proteins inside the nucleus in order to replicate and/or assemble. DNA viruses, such as herpesvirus replicate and assemble in the cell nucleus, and exit by budding through the inner nuclear membrane. This process is accompanied by disassembly of the lamina on the nuclear face of the inner membrane.56
+Anucleated and polynucleated cells
+thumb|230px|right|Human red blood cells, like those of other mammals, lack nuclei. This occurs as a normal part of the cells' development. Although most cells have a single nucleus, some cell types can have none or many nuclei. This can be a normal process, as in the maturation of mammalian red blood cells, or an abnormal product of faulty cell division.
+Anucleated cells contain no nucleus and are therefore incapable of dividing to produce daughter cells. The best-known anucleated cell is the mammalian red blood cell, or erythrocyte, which also lacks other organelles such as mitochondria and serves primarily as a transport vessel to ferry oxygen from the lungs to the body's tissues. Erythrocytes mature via erythropoiesis in the bone marrow, where they lose their nuclei, organelles, and ribosomes. The nucleus is expelled during the process of differentiation from an erythroblast to a reticulocyte, the immediate precursor of the mature erythrocyte.57 The presence of mutagens may induce the release of some immature &quot;micronucleated&quot; erythrocytes into the bloodstream.5859 Anucleated cells can also arise from flawed cell division in which one daughter lacks a nucleus and the other is binucleate.
+Polynucleated cells contain multiple nuclei. Most Acantharean species of protozoa60 and some fungi in mycorrhizae61 have naturally polynucleated cells. In humans, skeletal muscle cells, called myocytes, become polynucleated during development; the resulting arrangement of nuclei near the periphery of the cells allows maximal intracellular space for myofibrils.62 Multinucleated cells can also be abnormal in humans; for example, cells arising from the fusion of monocytes and macrophages, known as giant multinucleated cells, sometimes accompany inflammation63 and are also implicated in tumor formation.64
+Evolution
+As the major defining characteristic of the eukaryotic cell, the nucleus' evolutionary origin has been the subject of much speculation. Four major theories have been proposed to explain the existence of the nucleus, although none have yet earned widespread support.65
+The theory known as the &quot;syntrophic model&quot; proposes that a symbiotic relationship between the archaea and bacteria created the nucleus-containing eukaryotic cell. It is hypothesized that the symbiosis originated when ancient archaea, similar to modern methanogenic archaea, invaded and lived within bacteria similar to modern myxobacteria, eventually forming the early nucleus. This theory is analogous to the accepted theory for the origin of eukaryotic mitochondria and chloroplasts, which are thought to have developed from a similar endosymbiotic relationship between proto-eukaryotes and aerobic bacteria.66 The archaeal origin of the nucleus is supported by observations that archaea and eukarya have similar genes for certain proteins, including histones. Observations that myxobacteria are motile, can form multicellular complexes, and possess kinases and G proteins similar to eukarya, support a bacterial origin for the eukaryotic cell.67
+A second model proposes that proto-eukaryotic cells evolved from bacteria without an endosymbiotic stage. This model is based on the existence of modern planctomycetes bacteria that possess a nuclear structure with primitive pores and other compartmentalized membrane structures.68 A similar proposal states that a eukaryote-like cell, the chronocyte, evolved first and phagocytosed archaea and bacteria to generate the nucleus and the eukaryotic cell.69
+The most controversial model, known as viral eukaryogenesis, posits that the membrane-bound nucleus, along with other eukaryotic features, originated from the infection of a prokaryote by a virus. The suggestion is based on similarities between eukaryotes and viruses such as linear DNA strands, mRNA capping, and tight binding to proteins (analogizing histones to viral envelopes). One version of the proposal suggests that the nucleus evolved in concert with phagocytosis to form an early cellular &quot;predator&quot;.70 Another variant proposes that eukaryotes originated from early archaea infected by poxviruses, on the basis of observed similarity between the DNA polymerases in modern poxviruses and eukaryotes.7172 It has been suggested that the unresolved question of the evolution of sex could be related to the viral eukaryogenesis hypothesis.73
+Finally, a very recent proposal suggests that traditional variants of the endosymbiont theory are insufficiently powerful to explain the origin of the eukaryotic nucleus. This model, termed the exomembrane hypothesis, suggests that the nucleus instead originated from a single ancestral cell that evolved a second exterior cell membrane; the interior membrane enclosing the original cell then became the nuclear membrane and evolved increasingly elaborate pore structures for passage of internally synthesized cellular components such as ribosomal subunits.74
+References
+
+Further reading
+
+
+
+
+
+A review article about nuclear lamins, explaining their structure and various roles
+
+
+
+
+
+
+
+A review article about nuclear transport, explains the principles of the mechanism, and the various transport pathways
+
+
+
+
+
+
+
+A review article about the nucleus, explaining the structure of chromosomes within the organelle, and describing the nucleolus and other subnuclear bodies
+
+
+
+
+
+
+
+A review article about the evolution of the nucleus, explaining a number of different theories
+
+
+
+
+
+
+
+A university level textbook focusing on cell biology. Contains information on nucleus structure and function, including nuclear transport, and subnuclear domains
+
+
+External links
+
+cellnucleus.com Website covering structure and function of the nucleus from the Department of Oncology at the University of Alberta.
+The Nuclear Protein Database Information on nuclear components.
+The Nucleus Collection in the Image &amp; Video Library of The American Society for Cell Biology contains peer-reviewed still images and video clips that illustrate the nucleus.
+Nuclear Envelope and Nuclear Import Section from [http://cellimages.ascb.org/cdm4/browse.php?CISOROOT=%2Fp4041coll11 Landmark Papers in Cell Biology], Joseph G. Gall, J. Richard McIntosh, eds., contains digitized commentaries and links to seminal research papers on the nucleus. Published online in the Image &amp; Video Library of The American Society for Cell Biology
+
+
+
+ar:&lt;U+0646&gt;&lt;U+0648&gt;&lt;U+0627&gt;&lt;U+0629&gt; (&lt;U+062E&gt;&lt;U+0644&gt;&lt;U+064A&gt;&lt;U+0629&gt;) ca:Nucli cel&lt;U+00B7&gt;lular cs:Bun&lt;U+011B&gt;&lt;U+010D&gt;n&lt;U+00E9&gt; j&lt;U+00E1&gt;dro cy:Cnewyllyn da:Cellekerne de:Zellkern es:N&lt;U+00FA&gt;cleo celular eo:&lt;U+0108&gt;elkerno fr:Noyau (biologie) gl:N&lt;U+00FA&gt;cleo celular ko:&lt;U+C138&gt;&lt;U+D3EC&gt;&lt;U+D575&gt; is:Frumukjarni it:Nucleo cellulare he:&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05E2&gt;&lt;U+05D9&gt;&lt;U+05DF&gt; &lt;U+05D4&gt;&lt;U+05EA&gt;&lt;U+05D0&gt; lb:Zellk&lt;U+00E4&gt;r lt:L&lt;U+0105&gt;stel&lt;U+0117&gt;s branduolys hu:Sejtmag mk:&lt;U+041A&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0447&gt;&lt;U+043D&gt;&lt;U+043E&gt; &lt;U+0458&gt;&lt;U+0430&gt;&lt;U+0434&gt;&lt;U+0440&gt;&lt;U+043E&gt; ms:Nukleus nl:Celkern ja:&lt;U+7D30&gt;&lt;U+80DE&gt;&lt;U+6838&gt; no:Cellekjerne pl:J&lt;U+0105&gt;dro kom&lt;U+00F3&gt;rkowe pt:N&lt;U+00FA&gt;cleo celular ru:&lt;U+041A&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0447&gt;&lt;U+043D&gt;&lt;U+043E&gt;&lt;U+0435&gt; &lt;U+044F&gt;&lt;U+0434&gt;&lt;U+0440&gt;&lt;U+043E&gt; simple:Cell nucleus sk:Bunkov&lt;U+00E9&gt; jadro sr:&lt;U+0408&gt;&lt;U+0435&gt;&lt;U+0434&gt;&lt;U+0440&gt;&lt;U+043E&gt; fi:Tuma sv:Cellk&lt;U+00E4&gt;rna tr:H&lt;U+00FC&gt;cre &lt;U+00E7&gt;ekirde&lt;U+011F&gt;i uk:&lt;U+041A&gt;&lt;U+043B&gt;&lt;U+0456&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+043D&gt;&lt;U+0435&gt; &lt;U+044F&gt;&lt;U+0434&gt;&lt;U+0440&gt;&lt;U+043E&gt; zh:&lt;U+7EC6&gt;&lt;U+80DE&gt;&lt;U+6838&gt;
+Category:Organelles Category:Medical terms
+
+
+
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+
+↩
+
+
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+
+
+↩
+
+
+↩
+
+
+↩
+
+ PMID 1955462↩
+↩
+
+↩
+↩
+ PMID 15667322↩
+
+↩
+
+↩
+
+
+↩
+
+↩
+
+
+
+↩
+
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Bell PJ. (2001). &quot;Viral eukaryogenesis: was the ancestor of the nucleus a complex DNA virus?&quot; J Mol Biol Sep;53(3):251-6. PMID 11523012↩
+Takemura M. (2001). Poxviruses and the origin of the eukaryotic nucleus. J Mol Evol 52(5):419-25. PMID 11443345↩
+↩
+Bell PJ. (2006). &quot;Sex and the eukaryotic cell cycle is consistent with a viral ancestry for the eukaryotic nucleus.&quot; J Theor Biol 2006 Nov 7;243(1):54-63. PMID 16846615↩
+↩
+
+

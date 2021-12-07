@@ -1,0 +1,299 @@
+ Deoxyribonucleic acid, or DNA is a nucleic acid molecule that contains the genetic instructions used in the development and functioning of all living organisms. The main role of DNA is the long-term storage of information and it is often compared to a set of blueprints, since DNA contains the instructions needed to construct other components of cells, such as proteins and RNA molecules. The DNA segments that carry this genetic information are called genes, but other DNA sequences have structural purposes, or are involved in regulating the use of this genetic information.
+Chemically, DNA is a long polymer of simple units called nucleotides, which are held together by a backbone made of alternating sugars and phosphate groups. Attached to each sugar is one of four types of molecules called bases. It is the sequence of these four bases along the backbone that encodes information. This information is read using the genetic code, which specifies the sequence of the amino acids within proteins. The code is read by copying stretches of DNA into the related nucleic acid RNA, in a process called transcription. Most of these RNA molecules are used to synthesize proteins, but others are used directly in structures such as ribosomes and spliceosomes.
+Within cells, DNA is organized into structures called chromosomes and the set of chromosomes within a cell make up a genome. These chromosomes are duplicated before cells divide, in a process called DNA replication. Eukaryotic organisms such as animals, plants, and fungi store their DNA inside the cell nucleus, while in prokaryotes such as bacteria it is found in the cell's cytoplasm. Within the chromosomes, chromatin proteins such as histones compact and organize DNA, which helps control its interactions with other proteins and thereby control which genes are transcribed.
+Physical and chemical properties
+The chemical structure of DNA.
+DNA is a long polymer made from repeating units called nucleotides.12 The DNA chain is 22 to 24 &lt;U+00C5&gt;ngstr&lt;U+00F6&gt;ms wide (2.2 to 2.4 nanometres), and one nucleotide unit is 3.3 &lt;U+00C5&gt;ngstroms (0.33 nanometres) long.3 Although each individual repeating unit is very small, DNA polymers can be enormous molecules containing millions of nucleotides. For instance, the largest human chromosome, chromosome number 1, is 220 million base pairs long.4
+In living organisms, DNA does not usually exist as a single molecule, but instead as a tightly-associated pair of molecules.56 These two long strands entwine like vines, in the shape of a double helix. The nucleotide repeats contain both the backbone of the molecule, which holds the chain together, and a base, which interacts with the other DNA strand in the helix. In general, a base linked to a sugar is called a nucleoside and a base linked to a sugar and one or more phosphate groups is called a nucleotide. If multiple nucleotides are linked together, as in DNA, this polymer is referred to as a polynucleotide.7
+The backbone of the DNA strand is made from alternating phosphate and sugar residues.8 The sugar in DNA is 2-deoxyribose, which is a pentose (five carbon) sugar. The sugars are joined together by phosphate groups that form phosphodiester bonds between the third and fifth carbon atoms of adjacent sugar rings. These asymmetric bonds mean a strand of DNA has a direction. In a double helix the direction of the nucleotides in one strand is opposite to their direction in the other strand. This arrangement of DNA strands is called antiparallel. The asymmetric ends of a strand of DNA bases are referred to as the 5' (five prime) and 3' (three prime) ends. One of the major differences between DNA and RNA is the sugar, with 2-deoxyribose being replaced by the alternative pentose sugar ribose in RNA.9
+The DNA double helix is stabilized by hydrogen bonds between the bases attached to the two strands. The four bases found in DNA are adenine (abbreviated A), cytosine (C), guanine (G) and thymine (T). These four bases are shown below and are attached to the sugar/phosphate to form the complete nucleotide, as shown for adenosine monophosphate.
+Adenine_chemical_structure.png
+Guanine_chemical_structure.png
+Thymine_chemical_structure.png
+Cytosine_chemical_structure.png
+AMP_chemical_structure.png
+Adenine
+Guanine
+Thymine
+Cytosine
+Adenosine monophosphate
+Structures of the four bases found in DNA and the nucleotide adenosine monophosphate
+These bases are classified into two types; adenine and guanine are fused five- and six-membered heterocyclic compounds called purines, while cytosine and thymine are six-membered rings called pyrimidines.10 A fifth pyrimidine base, called uracil (U), usually replaces thymine in RNA and differs from thymine by lacking a methyl group on its ring. Uracil is normally only found in DNA as a breakdown product of cytosine, but a very rare exception to this rule is a bacterial virus called PBS1 that contains uracil in its DNA.11 In contrast, following RNA synthesis a significant number of the uracils are converted to thymines by the enzymatic addition of the missing methyl group. This occurs mostly on structural and enzymatic RNAs like transfer RNAs and ribosomal RNA.12
+Animation of the structure of a section of DNA. The bases lie horizontally between the two spiraling strands. Large version13
+The double helix is a right-handed spiral. As the DNA strands wind around each other, they leave gaps between each set of phosphate backbones, revealing the sides of the bases inside (see animation). There are two of these grooves twisting around the surface of the double helix: one groove is 22 &lt;U+00C5&gt; wide and the other is 12 &lt;U+00C5&gt; wide.14 The larger groove is called the major groove, while the smaller, narrower groove is called the minor groove. The narrowness of the minor groove means that the edges of the bases are more accessible in the major groove. As a result, proteins like transcription factors that can bind to specific sequences in double-stranded DNA usually read the sequence by making contacts to the sides of the bases exposed in the major groove.15
+GC_Watson_Crick_basepair.png
+AT_Watson_Crick_basepair.png
+At top, a GC base pair with three hydrogen bonds. At the bottom, AT base pair with two hydrogen bonds. Hydrogen bonds are shown as dashed lines.
+Base pairing
+Each type of base on one strand forms a bond with just one type of base on the other strand. This is called complementary base pairing. Here, purines form hydrogen bonds to pyrimidines, with A bonding only to T, and C bonding only to G. This arrangement of two nucleotides joined together across the double helix is called a base pair. In a double helix, the two strands are also held together by forces generated by the hydrophobic effect and pi stacking, but these forces are not affected by the sequence of the DNA.16 As hydrogen bonds are not covalent, they can be broken and rejoined relatively easily. The two strands of DNA in a double helix can therefore be pulled apart like a zipper, either by a mechanical force or high temperature.17 As a result of this complementarity, all the information in the double-stranded sequence of a DNA helix is duplicated on each strand, which is vital in DNA replication. Indeed, this reversible and specific interaction between complementary base pairs is critical for all the functions of DNA in living organisms.18
+The two types of base pairs form different numbers of hydrogen bonds, AT forming two hydrogen bonds, and GC forming three hydrogen bonds (see figures, left). The GC base pair is therefore stronger than the AT base pair. As a result, it is both the percentage of GC base pairs and the overall length of a DNA double helix that determine the strength of the association between the two strands of DNA. Long DNA helices with a high GC content have strongly interacting strands, while short helices with high AT content have weakly interacting strands.19 Parts of the DNA double helix that need to separate easily, such as the TATAAT Pribnow box in bacterial promoters, tend to have sequences with a high AT content, making the strands easier to pull apart.20 In the laboratory, the strength of this interaction can be measured by finding the temperature required to break the hydrogen bonds, their melting temperature (also called Tm value). When all the base pairs in a DNA double helix melt, the strands separate and exist in solution as two entirely independent molecules. These single-stranded DNA molecules have no single shape, but some conformations are more stable than others.21
+Sense and antisense
+A DNA sequence is called &quot;sense&quot; if its sequence is the same as that of a messenger RNA (mRNA) copy that is translated into protein. The sequence on the opposite strand is complementary to the sense sequence and is therefore called the &quot;antisense&quot; sequence. Since RNA polymerases work by making a complementary copy of their templates, it is this antisense strand that is the template for producing the sense mRNA. Both sense and antisense sequences can exist on different parts of the same strand of DNA. In both prokaryotes and eukaryotes, antisense sequences are transcribed, but the functions of these RNAs are not entirely clear.22 One proposal is that antisense RNAs are involved in regulating gene expression through RNA-RNA base pairing.23
+A few DNA sequences in prokaryotes and eukaryotes, and more in plasmids and viruses, blur the distinction made above between sense and antisense strands by having overlapping genes.24 In these cases, some DNA sequences do double duty, encoding one protein when read 5' to 3' along one strand, and a second protein when read in the opposite direction (still 5' to 3') along the other strand. In bacteria, this overlap may be involved in the regulation of gene transcription,25 while in viruses, overlapping genes increase the amount of information that can be encoded within the small viral genome.26 Another way of reducing genome size is seen in some viruses that contain linear or circular single-stranded DNA as their genetic material.2728
+Supercoiling
+DNA can be twisted like a rope in a process called DNA supercoiling. Normally, with DNA in its &quot;relaxed&quot; state, a strand circles the axis of the double helix once every 10.4 base pairs, but if the DNA is twisted the strands become more tightly or more loosely wound.29 If the DNA is twisted in the direction of the helix, this is positive supercoiling, and the bases are held more tightly together. If they are twisted in the opposite direction, this is negative supercoiling, and the bases come apart more easily. In nature, most DNA has slight negative supercoiling that is introduced by enzymes called topoisomerases.30 These enzymes are also needed to relieve the twisting stresses introduced into DNA strands during processes such as transcription and DNA replication.31
+From left to right, the structures of A, B and Z DNA
+Alternative double-helical structures
+DNA exists in several possible conformations. The conformations so far identified are: A-DNA, B-DNA, C-DNA, D-DNA,32 E-DNA,33 H-DNA,34 L-DNA,35, P-DNA36, and Z-DNA.3738 However, only A-DNA, B-DNA, and Z-DNA have been observed in naturally occurring biological systems. Which conformation DNA adopts depends on the sequence of the DNA, the amount and direction of supercoiling, chemical modifications of the bases and also solution conditions, such as the concentration of metal ions and polyamines.39 Of these three conformations, the &quot;B&quot; form described above is most common under the conditions found in cells. The two alternative double-helical forms of DNA differ in their geometry and dimensions.
+The A form is a wider right-handed spiral, with a shallow and wide minor groove and a narrower and deeper major groove. The A form occurs under non-physiological conditions in dehydrated samples of DNA, while in the cell it may be produced in hybrid pairings of DNA and RNA strands.40 Segments of DNA where the bases have been chemically-modified by methylation may undergo a larger change in conformation and adopt the Z form. Here, the strands turn about the helical axis in a left-handed spiral, the opposite of the more common B form.41 These unusual structures can be recognised by specific Z-DNA binding proteins and may be involved in the regulation of transcription.42
+Structure of a DNA quadruplex formed by telomere repeats.43
+Quadruplex structures
+At the ends of the linear chromosomes are specialized regions of DNA called telomeres. The main function of these regions is to allow the cell to replicate chromosome ends using the enzyme telomerase, as the enzymes that normally replicate DNA cannot copy the extreme 3' ends of chromosomes.44 As a result, if a chromosome lacked telomeres it would become shorter each time it was replicated. These specialized chromosome caps also help protect the DNA ends from exonucleases and stop the DNA repair systems in the cell from treating them as damage to be corrected.45 In human cells, telomeres are usually lengths of single-stranded DNA containing several thousand repeats of a simple TTAGGG sequence.46
+These guanine-rich sequences may stabilize chromosome ends by forming very unusual structures of stacked sets of four-base units, rather than the usual base pairs found in other DNA molecules. Here, four guanine bases form a flat plate and these flat four-base units then stack on top of each other, to form a stable quadruplex structure.47 These structures are stabilized by hydrogen bonding between the edges of the bases and chelation of a metal ion in the centre of each four-base unit. The structure shown to the left is a top view of the quadruplex formed by a DNA sequence found in human telomere repeats. The single DNA strand forms a loop, with the sets of four bases stacking in a central quadruplex three plates deep. In the space at the centre of the stacked bases are three chelated potassium ions.48 Other structures can also be formed, with the central set of four bases coming from either a single strand folded around the bases, or several different parallel strands, each contributing one base to the central structure.
+In addition to these stacked structures, telomeres also form large loop structures called telomere loops, or T-loops. Here, the single-stranded DNA curls around in a long circle stabilized by telomere-binding proteins.49 At the very end of the T-loop, the single-stranded telomere DNA is held onto a region of double-stranded DNA by the telomere strand disrupting the double-helical DNA and base pairing to one of the two strands. This triple-stranded structure is called a displacement loop or D-loop.50
+Chemical modifications
+Cytosine_chemical_structure.png
+5-methylcytosine.png
+Thymine_chemical_structure.png
+cytosine
+5-methylcytosine
+thymine
+Structure of cytosine with and without the 5-methyl group. After deamination the 5-methylcytosine has the same structure as thymine
+Base modifications
+The expression of genes is influenced by the chromatin structure of a chromosome and regions of heterochromatin (low or no gene expression) correlate with the methylation of cytosine. For example, cytosine methylation, to produce 5-methylcytosine, is important for X-chromosome inactivation.51 The average level of methylation varies between organisms, with Caenorhabditis elegans lacking cytosine methylation, while vertebrates show higher levels, with up to 1% of their DNA containing 5-methylcytosine.52 Despite the biological role of 5-methylcytosine it is susceptible to spontaneous deamination to leave the thymine base, and methylated cytosines are therefore mutation hotspots.53 Other base modifications include adenine methylation in bacteria and the glycosylation of uracil to produce the &quot;J-base&quot; in kinetoplastids.5455
+DNA damage
+ DNA can be damaged by many different sorts of mutagens. These include oxidizing agents, alkylating agents and also high-energy electromagnetic radiation such as ultraviolet light and x-rays. The type of DNA damage produced depends on the type of mutagen. For example, UV light mostly damages DNA by producing thymine dimers, which are cross-links between adjacent pyrimidine bases in a DNA strand.56 On the other hand, oxidants such as free radicals or hydrogen peroxide produce multiple forms of damage, including base modifications, particularly of guanosine, as well as double-strand breaks.57 It has been estimated that in each human cell, about 500 bases suffer oxidative damage per day.5859 Of these oxidative lesions, the most dangerous are double-strand breaks, as these lesions are difficult to repair and can produce point mutations, insertions and deletions from the DNA sequence, as well as chromosomal translocations.60
+Many mutagens intercalate into the space between two adjacent base pairs. Intercalators are mostly aromatic and planar molecules, and include ethidium, daunomycin, doxorubicin and thalidomide. In order for an intercalator to fit between base pairs, the bases must separate, distorting the DNA strands by unwinding of the double helix. These structural changes inhibit both transcription and DNA replication, causing toxicity and mutations. As a result, DNA intercalators are often carcinogens, with benzopyrene diol epoxide, acridines, aflatoxin and ethidium bromide being well-known examples.616263Nevertheless, due to their properties of inhibiting DNA transcription and replication, they are also used in chemotherapy to inhibit rapidly-growing cancer cells.64
+Overview of biological functions
+The DNA is usually in linear chromosomes in eukaryotes, and circular chromosomes in prokaryotes. The set of chromosomes in a cell makes up its genome; the human genome has approximately 3 billion base pairs of DNA arranged into 46 chromosomes.65 The information carried by DNA is held in the sequence of pieces of DNA called genes. Genetic information in genes is transmitted through complementary base pairing. For example, when a cell uses the information in a gene, the DNA sequence is copied into a complementary RNA sequence in a process called transcription. Usually, this RNA copy is then used to make a matching protein sequence in a process called translation. Alternatively, a cell may simply copy its genetic information in a process called DNA replication. The details of these functions are covered in other articles; here we focus on the interactions between DNA and other molecules that mediate the function of the genome.
+Genome structure
+Genomic DNA is located in the cell nucleus of eukaryotes, as well as small amounts in mitochondria and chloroplasts. In prokaryotes, the DNA is held within an irregularly shaped body in the cytoplasm called the nucleoid.66 The genetic information in a genome is held within genes. A gene is a unit of heredity and is a region of DNA that influences a particular characteristic in an organism. Genes contain an open reading frame that can be transcribed, as well as regulatory sequences such as promoters and enhancers, which control the expression of the open reading frame.
+In many species, only a small fraction of the total sequence of the genome encodes protein. For example, only about 1.5% of the human genome consists of protein-coding exons, with over 50% of human DNA consisting of non-coding repetitive sequences.67 The reasons for the presence of so much non-coding DNA in eukaryotic genomes and the extraordinary differences in genome size, or C-value, among species represent a long-standing puzzle known as the &quot;C-value enigma.&quot;68  Some non-coding DNA sequences play structural roles in chromosomes. Telomeres and centromeres typically contain few genes, but are important for the function and stability of chromosomes.6970 An abundant form of non-coding DNA in humans are pseudogenes, which are copies of genes that have been disabled by mutation.71 These sequences are usually just molecular fossils, although they can occasionally serve as raw genetic material for the creation of new genes through the process of gene duplication and divergence.72
+Transcription and translation
+A gene is a sequence of DNA that contains genetic information and can influence the phenotype of an organism. Within a gene, the sequence of bases along a DNA strand defines a messenger RNA sequence, which then defines a protein sequence. The relationship between the nucleotide sequences of genes and the amino-acid sequences of proteins is determined by the rules of translation, known collectively as the genetic code. The genetic code consists of three-letter 'words' called codons formed from a sequence of three nucleotides (e.g. ACT, CAG, TTT).
+In transcription, the codons of a gene are copied into messenger RNA by RNA polymerase. This RNA copy is then decoded by a ribosome that reads the RNA sequence by base-pairing the messenger RNA to transfer RNA, which carries amino acids. Since there are 4 bases in 3-letter combinations, there are 64 possible codons (43 combinations). These encode the twenty standard amino acids. Most amino acids, therefore, have more than one possible codon. There are also three 'stop' or 'nonsense' codons signifying the end of the coding region; these are the TAA, TGA and TAG codons.
+DNA replication. The double helix is unwound by a helicase and topoisomerase. Next, one DNA polymerase produces the leading strand copy. Another DNA polymerase binds to the lagging strand. This enzyme makes discontinuous segments (called Okazaki fragments) before DNA ligase joins them together.
+Replication
+Cell division is essential for an organism to grow, but when a cell divides it must replicate the DNA in its genome so that the two daughter cells have the same genetic information as their parent. The double-stranded structure of DNA provides a simple mechanism for DNA replication. Here, the two strands are separated and then each strand's complementary DNA sequence is recreated by an enzyme called DNA polymerase. This enzyme makes the complementary strand by finding the correct base through complementary base pairing, and bonding it onto the original strand. As DNA polymerases can only extend a DNA strand in a 5' to 3' direction, different mechanisms are used to copy the antiparallel strands of the double helix.73 In this way, the base on the old strand dictates which base appears on the new strand, and the cell ends up with a perfect copy of its DNA.
+Interactions with proteins
+All the functions of DNA depend on interactions with proteins. These protein interactions can either be non-specific or specific, where the protein can only bind to a particular DNA sequence. Enzymes can also bind to DNA and of these, the polymerases that copy the DNA base sequence in transcription and DNA replication are particularly important.
+DNA-binding proteins
+Nucleosome_2.jpg
+Nucleosome_(opposites_attracts).JPG
+Interaction of DNA with histones (shown in white, top). These proteins' basic amino acids (below left, blue) bind to the acidic phosphate groups on DNA (below right, red).
+Structural proteins that bind DNA are well-understood examples of non-specific DNA-protein interactions. Within chromosomes, DNA is held in complexes between DNA and structural proteins. These proteins organize the DNA into a compact structure called chromatin. In eukaryotes this structure involves DNA binding to a complex of small basic proteins called histones, while in prokaryotes multiple types of proteins are involved.74 The histones form a disk-shaped complex called a nucleosome, which contains two complete turns of double-stranded DNA wrapped around its surface. These non-specific interactions are formed through basic residues in the histones making ionic bonds to the acidic sugar-phosphate backbone of the DNA, and are therefore largely independent of the base sequence.75 Chemical modifications of these basic amino acid residues include methylation, phosphorylation and acetylation.76 These chemical changes alter the strength of the interaction between the DNA and the histones, making the DNA more or less accessible to transcription factors and changing the rate of transcription.77 Other non-specific DNA-binding proteins found in chromatin include the high-mobility group proteins, which bind preferentially to bent or distorted DNA.78 These proteins are important in bending arrays of nucleosomes and arranging them into more complex chromatin structures.79
+A distinct group of DNA-binding proteins are the single-stranded DNA-binding proteins that specifically bind single-stranded DNA. In humans, replication protein A is the best-characterised member of this family and is essential for most processes where the double helix is separated, including DNA replication, recombination and DNA repair.80 These binding proteins seem to stabilize single-stranded DNA and protect it from forming stem loops or being degraded by nucleases.
+ In contrast, other proteins have evolved to specifically bind particular DNA sequences. The most intensively studied of these are the various classes of transcription factors. These proteins control gene transcription. Each one of these proteins bind to one particular set of DNA sequences and thereby activates or inhibits the transcription of genes with these sequences close to their promoters. The transcription factors do this in two ways. Firstly, they can bind the RNA polymerase responsible for transcription, either directly or through other mediator proteins; this locates the polymerase at the promoter and allows it to begin transcription.81 Alternatively, transcription factors can bind enzymes that modify the histones at the promoter; this will change the accessibility of the DNA template to the polymerase.82
+As these DNA targets can occur throughout an organism's genome, changes in the activity of one type of transcription factor can affect thousands of genes.83 Consequently, these proteins are often the targets of the signal transduction processes that mediate responses to environmental changes or cellular differentiation and development. The specificity of these transcription factors' interactions with DNA come from the proteins making multiple contacts to the edges of the DNA bases, allowing them to &quot;read&quot; the DNA sequence. Most of these base interactions are made in the major groove, where the bases are most accessible.84
+The restriction enzyme EcoRV (green) in a complex with its substrate DNA85
+DNA-modifying enzymes
+Nucleases and ligases
+Nucleases are enzymes that cut DNA strands by catalyzing the hydrolysis of the phosphodiester bonds. Nucleases that hydrolyse nucleotides from the ends of DNA strands are called exonucleases, while endonucleases cut within strands. The most frequently-used nucleases in molecular biology are the restriction endonucleases, which cut DNA at specific sequences. For instance, the EcoRV enzyme shown to the left recognizes the 6-base sequence 5'-GAT|ATC-3' and makes a cut at the vertical line. In nature, these enzymes protect bacteria against phage infection by digesting the phage DNA when it enters the bacterial cell, acting as part of the restriction modification system.86 In technology, these sequence-specific nucleases are used in molecular cloning and DNA fingerprinting.
+Enzymes called DNA ligases can rejoin cut or broken DNA strands, using the energy from either adenosine triphosphate or nicotinamide adenine dinucleotide.87 Ligases are particularly important in lagging strand DNA replication, as they join together the short segments of DNA produced at the replication fork into a complete copy of the DNA template. They are also used in DNA repair and genetic recombination.88
+Topoisomerases and helicases
+Topoisomerases are enzymes with both nuclease and ligase activity. These proteins change the amount of supercoiling in DNA. Some of these enzyme work by cutting the DNA helix and allowing one section to rotate, thereby reducing its level of supercoiling; the enzyme then seals the DNA break.89 Other types of these enzymes are capable of cutting one DNA helix and then passing a second strand of DNA through this break, before rejoining the helix.90 Topoisomerases are required for many processes involving DNA, such as DNA replication and transcription.91
+Helicases are proteins that are a type of molecular motor. They use the chemical energy in nucleoside triphosphates, predominantly ATP, to break hydrogen bonds between bases and unwind the DNA double helix into single strands.92 These enzymes are essential for most processes where enzymes need to access the DNA bases.
+Polymerases
+Polymerases are enzymes that synthesise polynucleotide chains from nucleoside triphosphates. They function by adding nucleotides onto the 3&lt;U+02C8&gt; hydroxyl group of the previous nucleotide in the DNA strand. As a consequence, all polymerases work in a 5' to 3' direction.93 In the active site of these enzymes, the nucleoside triphosphate substrate base-pairs to a single-stranded polynucleotide template: this allows polymerases to accurately synthesise the complementary strand of this template. Polymerases are classified depending of the type of template they use.
+In DNA replication, a DNA-dependent DNA polymerase makes a DNA copy of a DNA sequence. Accuracy is vital in this process, so many of these polymerases have a proofreading activity. Here, the polymerase recognizes the occasional mistakes in the synthesis reaction by the lack of base pairing between the mismatched nucleotides. If a mismatch is detected, a 3' to 5' exonuclease activity is activated and the incorrect base removed.94 In most organisms DNA polymerases function in a large complex called the replisome that contains multiple accessory subunits, such as the DNA clamp or helicases.95
+RNA-dependent DNA polymerases are a specialised class of polymerases that copy the sequence of a RNA strand into DNA. They include reverse transcriptase, which is a viral enzyme involved in the infection of cells by retroviruses, and telomerase, which is required for the replication of telomeres.9697 Telomerase is an unusual polymerase because it contains its own RNA template as part of its structure.98
+Transcription is carried out by a DNA-dependent RNA polymerase that copies the sequence of a DNA strand into RNA. To begin transcribing a gene, the RNA polymerase binds to a sequence of DNA called a promoter and separates the DNA strands. It then copies the gene sequence into a messenger RNA transcript until it reaches a region of DNA called the terminator, where it halts and detaches from the DNA. As with human DNA-dependent DNA polymerases, RNA polymerase II, the enzyme that transcribes most of the genes in the human genome, operates as part of a large protein complex with multiple regulatory and accessory subunits.99
+Genetic recombination
+Holliday_Junction_cropped.png
+Holliday_junction_coloured.png
+Structure of the Holliday junction intermediate in genetic recombination. The four separate DNA strands are coloured red, blue, green and yellow.100
+Recombination involves the breakage and rejoining of two chromosomes (M and F) to produce two re-arranged chromosomes (C1 and C2).
+A DNA helix does not usually interact with other segments of DNA, and in human cells the different chromosomes even occupy separate areas in the nucleus called &quot;chromosome territories&quot;.101 This physical separation of different chromosomes is important for the ability of DNA to function as a stable repository for information, as one of the few times chromosomes interact is when they recombine. Recombination is when two DNA helices break, swap a section and then rejoin.
+Recombination allows chromosomes to exchange genetic information and produces new combinations of genes, which increases the efficiency of natural selection and can be important in the rapid evolution of new proteins.102 Genetic recombination can also be involved in DNA repair, particularly in the cell's response to double-strand breaks.103
+The most common form of recombination is homologous recombination, where the two chromosomes involved share very similar sequences. Non-homologous recombination can be damaging to cells, as it can produce chromosomal translocations and genetic abnormalities. The recombination reaction is catalyzed by enzymes known as recombinases, such as Cre recombinase.104 In the first step, the recombinase creates a nick in one strand of a DNA double helix, allowing the nicked strand to pull apart from its complementary strand and anneal to one strand of the double helix on the opposite chromatid. A second nick allows the strand in the second chromatid to pull apart and anneal to the remaining strand in the first helix, forming a structure known as a cross-strand exchange or a Holliday junction. The Holliday junction is a tetrahedral junction structure that can be moved along the pair of chromosomes, swapping one strand for another. The recombination reaction is then halted by cleavage of the junction and re-ligation of the released DNA.105
+Evolution of DNA-based metabolism
+DNA contains the genetic information that allows all modern living things to function, grow and reproduce. However, it is unclear how long in the 4-billion-year history of life DNA has performed this function, as it has been proposed that the earliest forms of life may have used RNA as their genetic material.106107 RNA may have acted as the central part of early cell metabolism as it can both transmit genetic information and carry out catalysis as part of ribozymes.108 This ancient RNA world where nucleic acid would have been used for both catalysis and genetics may have influenced the evolution of the current genetic code based on four nucleotide bases. This would occur since the number of unique bases in such an organism is a trade-off between a small number of bases increasing replication accuracy and a large number of bases increasing the catalytic efficiency of ribozymes.109
+Unfortunately, there is no direct evidence of ancient genetic systems, as recovery of DNA from most fossils is impossible. This is because DNA will survive in the environment for less than one million years and slowly degrades into short fragments in solution.110 Although claims for older DNA have been made, most notably a report of the isolation of a viable bacterium from a salt crystal 250-million years old,111 these claims are controversial and have been disputed.112113
+Uses in technology
+Modern biology and biochemistry make intensive use of recombinant DNA technology. Recombinant DNA is a man-made DNA sequence assembled from other DNA sequences in a plasmid. These plasmids can be transformed into organisms. The genetically modified organisms produced can be used to produce products such as recombinant proteins, used in medical research,114 or be grown in agriculture.115116
+Forensics
+Forensic scientists can use DNA in blood, semen, skin, saliva or hair at a crime scene to identify a perpetrator. This process is called genetic fingerprinting, or more accurately, DNA profiling. In DNA profiling, the lengths of variable sections of repetitive DNA, such as short tandem repeats and minisatellites, are compared between people. This method is usually an extremely reliable technique for identifying a criminal.117 However, identification can be complicated if the scene is contaminated with DNA from several people.118 DNA profiling was developed in 1984 by British geneticist Sir Alec Jeffreys,119 and first used in forensic science to convict Colin Pitchfork in the 1988 Enderby murders case.120 People convicted of certain types of crimes may be required to provide a sample of DNA for a database. This has helped investigators solve old cases where only a DNA sample was obtained from the scene. DNA profiling can also be used to identify victims of mass casualty incidents.121
+Bioinformatics
+Bioinformatics involves the manipulation, searching, and data mining of DNA sequence data. The development of techniques to store and search DNA sequences have led to widely-applied advances in computer science, especially string searching algorithms, machine learning and database theory.122 String searching or matching algorithms, which find an occurrence of a sequence of letters inside a larger sequence of letters, were developed to search for specific sequences of nucleotides.123 In other applications such as text editors, even simple algorithms for this problem usually suffice, but DNA sequences cause these algorithms to exhibit near-worst-case behaviour due to their small number of distinct characters. The related problem of sequence alignment aims to identify homologous sequences and locate the specific mutations that make them distinct. These techniques, especially multiple sequence alignment, are used in studying phylogenetic relationships and protein function.124 Data sets representing entire genomes' worth of DNA sequences, such as those produced by the Human Genome Project, are difficult to use without annotations, which label the locations of genes and regulatory elements on each chromosome. Regions of DNA sequence that have the characteristic patterns associated with protein- or RNA-coding genes can be identified by gene finding algorithms, which allow researchers to predict the presence of particular gene products in an organism even before they have been isolated experimentally.125
+DNA and computation
+DNA was first used in computing to solve a small version of the directed Hamiltonian path problem, an NP-complete problem.126 DNA computing is advantageous over electronic computers in power use, space use, and efficiency, due to its ability to compute in a highly parallel fashion (see parallel computing). A number of other problems, including simulation of various abstract machines, the boolean satisfiability problem, and the bounded version of the travelling salesman problem, have since been analysed using DNA computing.127 Due to its compactness, DNA also has a theoretical role in cryptography, where in particular it allows unbreakable one-time pads to be efficiently constructed and used.128
+History and anthropology
+Because DNA collects mutations over time, which are then inherited, it contains historical information and by comparing DNA sequences, geneticists can infer the evolutionary history of organisms, their phylogeny.129 This field of phylogenetics is a powerful tool in evolutionary biology. If DNA sequences within a species are compared, population geneticists can learn the history of particular populations. This can be used in studies ranging from ecological genetics to anthropology; for example, DNA evidence is being used to try to identify the Ten Lost Tribes of Israel.130131
+DNA has also been used to look at modern family relationships, such as establishing family relationships between the descendants of Sally Hemings and Thomas Jefferson. This usage is closely related to the use of DNA in criminal investigations detailed above. Indeed, some criminal investigations have been solved when DNA from crime scenes has matched relatives of the guilty individual.132
+History
+DNA was first isolated by Friedrich Miescher who, in 1869, discovered a microscopic substance in the pus of discarded surgical bandages. As it resided in the nuclei of cells, he called it &quot;nuclein&quot;.133 In 1929 this discovery was followed by Phoebus Levene's identification of the base, sugar and phosphate nucleotide unit.134 Levene suggested that DNA consisted of a string of nucleotide units linked together through the phosphate groups. However, Levene thought the chain was short and the bases repeated in a fixed order. In 1937 William Astbury produced the first X-ray diffraction patterns that showed that DNA had a regular structure.135
+In 1943, Oswald Theodore Avery discovered that traits of the &quot;smooth&quot; form of the Pneumococcus could be transferred to the &quot;rough&quot; form of the same bacteria by mixing killed &quot;smooth&quot; bacteria with the live &quot;rough&quot; form. Avery identified DNA as this transforming principle.136 DNA's role in heredity was confirmed in 1953, when Alfred Hershey and Martha Chase in the Hershey-Chase experiment showed that DNA is the genetic material of the T2 phage.137
+In 1953, based on X-ray diffraction images138 taken by Rosalind Franklin and the information that the bases were paired, James D. Watson and Francis Crick suggested139 what is now accepted as the first accurate model of DNA structure in the journal Nature.140 Experimental evidence for Watson and Crick's model were published in a series of five articles in the same issue of Nature.141 Of these, Franklin and Raymond Gosling's paper142 saw the publication of the X-ray diffraction image, which was key in Watson and Crick interpretation, as well as another article, co-authored by Maurice Wilkins and his colleagues.143 Franklin and Gosling's subsequent paper identified the distinctions between the A and B structures of the double helix in DNA.144 In 1962 Watson, Crick, and Maurice Wilkins jointly received the Nobel Prize in Physiology or Medicine (Franklin didn't share the prize with them since she had died earlier).145
+In an influential presentation in 1957, Crick laid out the &quot;Central Dogma&quot; of molecular biology, which foretold the relationship between DNA, RNA, and proteins, and articulated the &quot;adaptor hypothesis&quot;.146 Final confirmation of the replication mechanism that was implied by the double-helical structure followed in 1958 through the Meselson-Stahl experiment.147 Further work by Crick and coworkers showed that the genetic code was based on non-overlapping triplets of bases, called codons, allowing Har Gobind Khorana, Robert W. Holley and Marshall Warren Nirenberg to decipher the genetic code.148 These findings represent the birth of molecular biology.
+See also
+Genetic disorder
+Plasmid
+DNA sequencing
+Southern blot
+DNA microarray
+Polymerase chain reaction
+Protein-DNA interaction site predictor
+Phosphoramidite
+Quantification of nucleic acids
+References
+Further reading
+Clayton, Julie. (Ed.). 50 Years of DNA, Palgrave MacMillan Press, 2003. ISBN 978-1-40-391479-8
+Judson, Horace Freeland. The Eighth Day of Creation: Makers of the Revolution in Biology, Cold Spring Harbor Laboratory Press, 1996. ISBN 978-0-87-969478-4
+Olby, Robert. The Path to The Double Helix: Discovery of DNA, first published in October 1974 by MacMillan, with foreword by Francis Crick; ISBN 978-0-48-668117-7; the definitive DNA textbook, revised in 1994, with a 9 page postscript.
+Ridley, Matt. Francis Crick: Discoverer of the Genetic Code (Eminent Lives) HarperCollins Publishers; 192 pp, ISBN 978-0-06-082333-7 2006
+Rose, Steven. The Chemistry of Life, Penguin, ISBN 978-0-14-027273-4.
+Watson, James D. and Francis H.C. Crick. A structure for Deoxyribose Nucleic Acid (PDF). Nature 171, 737 &lt;U+2013&gt; 738, 25 April 1953.
+Watson, James D. DNA: The Secret of Life ISBN 978-0-375-41546-3.
+Watson, James D. The Double Helix: A Personal Account of the Discovery of the Structure of DNA (Norton Critical Editions). ISBN 978-0-393-95075-5
+Watson, James D. &quot;Avoid boring people and other lessons from a life in science&quot; New York: Random House. ISBN 978-0-375-421844 (0-375-41284-0)366pp 2007
+Calladine, Chris R.; Drew, Horace R.; Luisi, Ben F. and Travers, Andrew A. Understanding DNA, Elsevier Academic Press, 2003. ISBN 978-0-12155089-9
+DVD
+DNA &lt;U+2014&gt; The Story of the Pioneers who Changed the World, Windfall Films Production for Channel Four Television &amp; PBS Thirteen-WNET &lt;U+2014&gt; 2003, PAL 1, NTSC PBS Shop
+DNA interactive PAL 2, NTSC 3, 4
+DNA: The Secret of Life Carolina Biological
+DNA &lt;U+2014&gt; Secret of Photo 51 Rosalind Franklin &lt;U+2014&gt; NOVA documentary (NTSC &lt;U+2014&gt; Region 1?)
+Cracking the Code of Life NOVA documentary (NTSC &lt;U+2014&gt; All Regions)
+External links
+5 Crick's personal papers at Mandeville Special Collections Library, Geisel Library, University of California, San Diego
+DNA Interactive (requires Adobe Flash)
+DNA from the beginning
+Double Helix 1953 &lt;U+2013&gt; 2003 National Centre for Biotechnology Education
+Double helix: 50 years of DNA, Nature
+Rosalind Franklin's contributions to the study of DNA
+U.S. National DNA Day &lt;U+2014&gt; watch videos and participate in real-time chat with top scientists
+Genetic Education Modules for Teachers &lt;U+2014&gt; DNA from the Beginning Study Guide
+Listen to Francis Crick and James Watson talking on the BBC in 1962, 1972, and 1974
+DNA under electron microscope
+DNA Articles &lt;U+2014&gt; articles and information collected from various sources
+DNA coiling to form chromosomes
+DISPLAR: DNA binding site prediction on protein
+Dolan DNA Learning Center
+Olby, R. (2003) &quot;Quiet debut for the double helix&quot; Nature 421 (January 23): 402 &lt;U+2013&gt; 405.
+Basic animated guide to DNA cloning
+ar:&lt;U+062D&gt;&lt;U+0645&gt;&lt;U+0636&gt; &lt;U+0646&gt;&lt;U+0648&gt;&lt;U+0648&gt;&lt;U+064A&gt; &lt;U+0631&gt;&lt;U+064A&gt;&lt;U+0628&gt;&lt;U+064A&gt; &lt;U+0645&gt;&lt;U+0646&gt;&lt;U+0642&gt;&lt;U+0648&gt;&lt;U+0635&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0623&gt;&lt;U+0643&gt;&lt;U+0633&gt;&lt;U+062C&gt;&lt;U+064A&gt;&lt;U+0646&gt; az:Dezoksiribonuklein tur&lt;U+015F&gt;usu zh-min-nan:DNA bs:Dezoksiribonukleinska kiselina bg:&lt;U+0414&gt;&lt;U+041D&gt;&lt;U+041A&gt; ca:&lt;U+00C0&gt;cid desoxiribonucleic cs:DNA cy:DNA da:Dna pdc:DNA de:Desoxyribonukleins&lt;U+00E4&gt;ure et:Desoks&lt;U+00FC&gt;ribonukleiinhape el:DNA es:ADN eo:DNA eu:ADN fa:&lt;U+062F&gt;&lt;U+06CC&gt;&lt;U+200C&gt;&lt;U+0627&gt;&lt;U+0646&gt;&lt;U+200C&gt;&lt;U+0627&gt;&lt;U+06CC&gt; fr:Acide d&lt;U+00E9&gt;soxyribonucl&lt;U+00E9&gt;ique ga:ADN gl:ADN ko:DNA hr:Deoksiribonukleinska kiselina id:Asam deoksiribonukleat it:DNA he:DNA ka:&lt;U+10D3&gt;&lt;U+10D4&gt;&lt;U+10D6&gt;&lt;U+10DD&gt;&lt;U+10E5&gt;&lt;U+10E1&gt;&lt;U+10D8&gt;&lt;U+10E0&gt;&lt;U+10D8&gt;&lt;U+10D1&gt;&lt;U+10DD&gt;&lt;U+10DC&gt;&lt;U+10E3&gt;&lt;U+10D9&gt;&lt;U+10DA&gt;&lt;U+10D4&gt;&lt;U+10D8&gt;&lt;U+10DC&gt;&lt;U+10D8&gt;&lt;U+10E1&gt; &lt;U+10DB&gt;&lt;U+10DF&gt;&lt;U+10D0&gt;&lt;U+10D5&gt;&lt;U+10D0&gt; ht:ADN la:Acidum deoxyribonucleinicum lv:Dezoksiribonukle&lt;U+012B&gt;nsk&lt;U+0101&gt;be lt:Deoksiribonukleor&lt;U+016B&gt;g&lt;U+0161&gt;tis hu:DNS (biol&lt;U+00F3&gt;gia) mk:&lt;U+0414&gt;&lt;U+041D&gt;&lt;U+041A&gt; ms:DNA nl:DNA ja:&lt;U+30C7&gt;&lt;U+30AA&gt;&lt;U+30AD&gt;&lt;U+30B7&gt;&lt;U+30EA&gt;&lt;U+30DC&gt;&lt;U+6838&gt;&lt;U+9178&gt; no:DNA nn:Deoksyribonukleinsyre pam:DNA pl:Kwas deoksyrybonukleinowy pt:DNA ro:ADN ru:&lt;U+0414&gt;&lt;U+0435&gt;&lt;U+0437&gt;&lt;U+043E&gt;&lt;U+043A&gt;&lt;U+0441&gt;&lt;U+0438&gt;&lt;U+0440&gt;&lt;U+0438&gt;&lt;U+0431&gt;&lt;U+043E&gt;&lt;U+043D&gt;&lt;U+0443&gt;&lt;U+043A&gt;&lt;U+043B&gt;&lt;U+0435&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+044F&gt; &lt;U+043A&gt;&lt;U+0438&gt;&lt;U+0441&gt;&lt;U+043B&gt;&lt;U+043E&gt;&lt;U+0442&gt;&lt;U+0430&gt; sq:ADN simple:DNA sk:Deoxyribonukleov&lt;U+00E1&gt; kyselina sl:Deoksiribonukleinska kislina sr:&lt;U+0414&gt;&lt;U+041D&gt;&lt;U+041A&gt; sh:DNK su:DNA fi:DNA sv:DNA tl:DNA ta:&lt;U+0B86&gt;&lt;U+0B95&gt;&lt;U+0BCD&gt;&lt;U+0B9A&gt;&lt;U+0BBF&gt;&lt;U+0B9C&gt;&lt;U+0BA9&gt;&lt;U+0BB1&gt;&lt;U+0BCD&gt;&lt;U+0BB1&gt; &lt;U+0BB0&gt;&lt;U+0BC8&gt;&lt;U+0BAA&gt;&lt;U+0BCB&gt; &lt;U+0B95&gt;&lt;U+0BB0&gt;&lt;U+0BC1&gt; &lt;U+0B85&gt;&lt;U+0BAE&gt;&lt;U+0BBF&gt;&lt;U+0BB2&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt; th:&lt;U+0E14&gt;&lt;U+0E35&gt;&lt;U+0E40&gt;&lt;U+0E2D&gt;&lt;U+0E47&gt;&lt;U+0E19&gt;&lt;U+0E40&gt;&lt;U+0E2D&gt; vi:DNA tr:DNA uk:&lt;U+0414&gt;&lt;U+041D&gt;&lt;U+041A&gt; ur:&lt;U+0688&gt;&lt;U+06CC&gt; &lt;U+0627&gt;&lt;U+06CC&gt;&lt;U+0646&gt; &lt;U+0627&gt;&lt;U+06D2&gt; yi:&lt;U+05D3&gt;&lt;U+05D9&gt; &lt;U+05E2&gt;&lt;U+05DF&gt; &lt;U+05E2&gt;&lt;U+05D9&gt; zh:&lt;U+8131&gt;&lt;U+6C27&gt;&lt;U+6838&gt;&lt;U+7CD6&gt;&lt;U+6838&gt;&lt;U+9178&gt;
+  Category:Genetics
+↩
+Butler, John M. (2001) Forensic DNA Typing &quot;Elsevier&quot;. pp. 14 &lt;U+2013&gt; 15. ISBN 978-0-12-147951-0.↩
+↩
+↩
+↩
+Berg J., Tymoczko J. and Stryer L. (2002) Biochemistry. W. H. Freeman and Company ISBN 0-7167-4955-6↩
+Abbreviations and Symbols for Nucleic Acids, Polynucleotides and their Constituents IUPAC-IUB Commission on Biochemical Nomenclature (CBN) Accessed 03 Jan 2006↩
+↩
+↩
+↩
+Created from PDB 1D65↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Created from NDB UD0017↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+,↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Created from PDB 1RVA↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Created from PDB 1M6G↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Colin Pitchfork &lt;U+2014&gt; first murder conviction on DNA evidence also clears the prime suspect Forensic Science Service Accessed 23 Dec 2006↩
+↩
+Baldi, Pierre. Brunak, Soren. Bioinformatics: The Machine Learning Approach MIT Press (2001) ISBN 978-0-262-02506-5↩
+Gusfield, Dan. Algorithms on Strings, Trees, and Sequences: Computer Science and Computational Biology. Cambridge University Press, 15 January 1997. ISBN 978-0-521-58519-4.↩
+↩
+↩
+↩
+↩
+Ashish Gehani, Thomas LaBean and John Reif. DNA-Based Cryptography. Proceedings of the 5th DIMACS Workshop on DNA Based Computers, Cambridge, MA, USA, 14 &lt;U+2013&gt; 15 June 1999.↩
+↩
+Lost Tribes of Israel, NOVA, PBS airdate: 22 February 2000. Transcript available from PBS.org, (last accessed on 4 March 2006)↩
+Kleiman, Yaakov. &quot;The Cohanim/DNA Connection: The fascinating story of how DNA studies confirm an ancient biblical tradition&quot;. aish.com (January 13, 2000). Accessed 4 March 2006.↩
+Bhattacharya, Shaoni. &quot;Killer convicted thanks to relative's DNA&quot;. newscientist.com (20 April 2004). Accessed 22 Dec 06↩
+↩
+↩
+↩
+↩
+↩
+Watson J.D. and Crick F.H.C. &quot;A Structure for Deoxyribose Nucleic Acid&quot;. (PDF) Nature 171, 737 &lt;U+2013&gt; 738 (1953). Accessed 13 Feb 2007.↩
+Nature Archives Double Helix of DNA: 50 Years↩
+Molecular Configuration in Sodium Thymonucleate. Franklin R. and Gosling R.G.Nature 171, 740 &lt;U+2013&gt; 741 (1953)Nature Archives Full Text (PDF)↩
+Molecular Structure of Deoxypentose Nucleic Acids. Wilkins M.H.F., A.R. Stokes A.R. &amp; Wilson, H.R. Nature 171, 738 &lt;U+2013&gt; 740 (1953)Nature Archives (PDF)↩
+Evidence for 2-Chain Helix in Crystalline Structure of Sodium Deoxyribonucleate. Franklin R. and Gosling R.G. Nature 172, 156 &lt;U+2013&gt; 157 (1953)Nature Archives,full text (PDF)↩
+The Nobel Prize in Physiology or Medicine 1962 Nobelprize .org Accessed 22 Dec 06↩
+Crick, F.H.C. On degenerate templates and the adaptor hypothesis (PDF). genome.wellcome.ac.uk (Lecture, 1955). Accessed 22 Dec 2006↩
+↩
+The Nobel Prize in Physiology or Medicine 1968 Nobelprize.org Accessed 22 Dec 06↩

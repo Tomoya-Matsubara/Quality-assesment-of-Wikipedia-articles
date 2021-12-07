@@ -1,0 +1,347 @@
+
+This Z antenna tested at the National Institute of Standards and Technology is smaller than a standard antenna with comparable properties. Its high efficiency is derived from the &quot;Z element&quot; inside the square that acts as a metamaterial, greatly boosting the radiated signal. The square is 30 millimeters on a side.
+
+Metamaterial antennas are a class of antennas which use metamaterials to increase performance of miniaturized (electrically small) antenna systems. Their purpose, as with any electromagnetic antenna, is to launch energy into free space. However, these incorporate metamaterials, which are materials engineered with novel, often microscopic, structures to produce unusual physical properties. Antenna designs incorporating metamaterials can step-up the radiated power of an antenna. Novel components such as compact resonators and metamaterial loaded waveguides offer the possibility of previously unavailable applications.
+In contrast, conventional antennas that are very small compared to the wavelength reflect most of the signal back to the source. The metamaterial, on the other hand, makes the antenna behave as if it were much larger than it really is, because the novel antenna structure stores energy, and re-radiates it. Hence, these novel antennas appear to be useful for wireless systems that continue to decrease in size for applications such as portable interaction with satellites, wide angle beam steering, emergency communications devices, micro-sensors and portable ground-penetrating radars to search for tunnels, caverns and other geophysical features. In addition, already established lithography techniques can be used to print metamaterial elements on a PC board. 1234 Some content is reproduced from Public Domain material available from the National Institute of Standards and Technology (NIST).
+
+Some content is derived from Public Domain material on the NIST web site.
+
+
+
+Novel antennas
+Antenna designs incorporating metamaterials can step-up the radiated power of an antenna. The newest metamaterial antennas radiate as much as 95 percent of an input radio signal. Standard antennas need to be at least half the size of the signal wavelength to operate efficiently. At 300 MHz, for instance, an antenna would need to be half a meter long. In contrast, the experimental antennas are as small as one-fiftieth of a wavelength, and could have further decreases in size.
+Metamaterials are a basis for further miniaturization of microwave antennas, with efficient power and acceptable bandwidth. Novel antennas employing metamaterials offer the possibility of overcoming restrictive efficiency-bandwidth limitations for conventionally constructed, miniature antennas.
+In contrast, metamaterials permit smaller antenna elements that cover a wider frequency range, thus making better use of available space for small platforms, or spaces. Some applications for metamaterial antennas are wireless communication, space communications, GPS, satellites, space vehicle navigation, and airplanes. In these instances, miniature antennas with high gain are significantly relevant because the radiating elements are combined into large antenna arrays for these functions, and vehicles. Furthermore, negative refractive index, produced by metamaterials, results in electromagnetic radiation being focused by a flat lens versus being dispersed.5
+
+
+
+
+
+Metamaterials 2009 
+
+Metamaterials '2009 &lt;U+2013&gt; Sessions
+Proceedings of the Virtual Institute for Artificial Electromagnetic Materials and Metamaterials
+
+The DNG shell
+The earliest research in metamaterial based antennas was an analytical study of surrounding a miniature dipole antenna with material that produces a negative index of refraction. This material has an interchangeable nomenclature of negative index metamaterial (NIM) or double negative metamaterial (DNG) among other names.6
+This configuration analytically and numerically appears to produce an order of magnitude increase in power. At the same time, the reactance appears to have a corresponding decrease. Furthermore, the DNG shell becomes a natural impedance matching network for this dipole antenna system.7
+Ground plane applications
+Metamaterials employed in the ground planes surrounding antennas offers improved isolation between radio frequency, or microwave channels of (multiple-input multiple-output) (MIMO) antenna arrays. Metamaterial, high-impedance groundplanes can also be used to improve the radiation efficiency, and axial radio performance of low-profile antennas located close to the ground plane surface. Metamaterials have also been used to increase the beam scanning range by using both the forward and backward waves in leaky wave antennas. Various metamaterial antenna systems can be employed to support surveillance sensors, communication links, navigation systems and command and control systems.8
+Novel configurations
+Besides antenna miniaturization, the novel configurations have potential applications ranging from radio frequency devices to optical devices. Other combinations, for other devices in metamaterial antenna subsystems are being researched.9 Either double negative metamaterial slabs are used exclusively or combinations of double positive (DPS) with DNG slabs, or epsilon-negative (ENG) slabs with mu-negative (MNG) slabs are employed in the subsystems. The antenna subsystems that are currently being researched are cavity resonators, waveguides, scatters, and antennas (radiators).
+
+ In addition, metamaterial antennas are already (2009) commercially available.
+
+1011
+Negative refraction for novel antennas
+
+Pendry et al. were able to show that a three-dimensional array of intersecting, thin wires could be used to create negative values of permittivity (or &quot;&lt;U+03B5&gt;&quot;), and that a periodic array of copper split ring resonators could produce an effective negative magnetic permeability (or &quot;&lt;U+03BC&gt;&quot;).
+In May 2000, a group of researchers, [[Negative index metamaterials|Smith et al.]] were the first to successfully combine the split-ring resonator, often designated as SRR, with thin wire conducting posts and produce a left-handed material, which had negative values of &lt;U+03B5&gt;, &lt;U+03BC&gt;, and refractive index for frequencies in the gigahertz or microwave range.1213
+In 2002, a different class of negative refractive index (NRI) metamaterials was introduced. This employs periodic reactive loading of a 2-D transmission line as the host medium. This configuration actually used positive index (DPS) material with negative index material (DNG). It employed a small, planar, negative-refractive-lens interfaced with a positive index, parallel-plate waveguide. This was experimentally verified soon after, in a subsequent demonstration.1415
+Although some inefficiencies with split-ring resonances were stated during and after the introduction of this combined negative and positive index material, split-ring resonators are still effectively employed as of 2009 for research. SRRs have been involved in wide ranging metamaterial research, including research on metamaterial antennas.1617
+
+
+A more recent view is that by using split-ring resonators (SRRs) as typical metamaterial building blocks, the designed electromagnetic response and associated flexibility is practical and desirable.18
+Phase compensation due to negative refraction
+Negative refraction media (or DNG) can provide phase compensation. This is due to their negative index of refraction. This is accomplished by combining a slab of conventional lossless DPS material with a slab of lossless DNG metamaterial.
+The DPS has a conventional or ordinary index of refraction, while the DNG has the opposite, negative refractive index. Both of these slabs are impedance matched to the outside region (e.g., free space). The desired monochromatic plane wave is radiated on this configuration. As this wave propagates through the first slab of material there is a phase difference between the exit face and entrance face. As the wave propagates through the second slab the phase difference is significantly decreased and even compensated for. Therefore as the wave exits the second slab the total phase difference is equal to zero. This is discussed in more detail in a section below.
+
+
+
+
+With this system a phase-compensated, waveguiding system could be produced. By stacking slabs of this configuration, the phase compensation (beam translation effects) would occur throughout the entire system. Furthermore, by changing the index of any of the DPS-DNG pairs, the speed at which the beam enters the front face, and exits the back face of the entire stack-system changes. In this manner, a volumetric, low loss, time delay transmission line could be realized for a given system.19
+Furthermore, this phase compensation can lead to a set of applications, which are miniaturized, subwavelength, cavity resonators, and waveguides with applications below diffraction limits.20
+Dispersion compensation in a transmission line using negative refraction
+
+Because of the dispersive nature of the DNG metamaterial as a transmission medium, it could be useful as an effective dispersion compensation device for time-domain applications. The dispersion produces a variance of the group speed of the wave components of the signal, as they propagate in the DNG medium. Hence, volumetric (stacked) DNG metamaterials could be useful for the modification of the propagation of signals along a  microstrip transmission line. At the same time, dispersion leads to distortion. However, if the dispersion could be compensated for along the microstrip line, RF or microwave signals propagating along them would significantly decrease in distortion. Therefore, components for attenuating distortion become less critical, and could lead to simplification of components in many systems. Dispersion along the microstrip can be eliminated by correcting for the frequency dependence of the effective permittivity associated with this type of transmission line. It is possible to do this with metamaterials.21
+The strategy is to design a length of metamaterial-loaded transmission line that can be introduced, in some manner, with the original length of microstrip line to make the paired system dispersionless &lt;U+2013&gt; in other words, create a dispersion-compensating segment of transmission line. This could be accomplished by introducing a metamaterial with a certain localized permittivity and a certain localized magnetic permeability, which then affects the overall relative permittivity and permeability of the microstrip line. At the same time, it is introduced in such a manner that the wave impedance in the metamaterial remains the same as it is in the original conventional microstrip line. Then the index of refraction in the medium compensates for the dispersion effects associated with the microstrip geometry itself; that is the effective refractive index of the pair becomes that of free space.22
+Part of the design strategy is that the effective permittivity and permeability of such a metamaterial should be negative &lt;U+2013&gt; a DNG material must be introduced for this purpose.23
+Innovation
+A circuit design which has a broader range of material parameters resulting in negative refractive index has resulted in antennas that are innovative. Combining a left-handed transmission line segments with a conventional (right-handed) transmission line results in novel configurations with advantages over conventional antenna designs. The left-handed transmission lines are essentially a high-pass filter with phase advance. Conversely, the right-handed transmission lines are a low-pass filter with phase lag. This configuration is designated composite right/left-handed (CRLH) metamaterial.242526
+The conventional Leaky Wave antenna has had limited commercial success because it lacks complete backfire-to-endfire frequency scanning capability. The CRLH configuration allows the innovation over half-space scanning (broadside-to-endfire). The CRLH now allows for complete backfire-to-endfire frequency scanning, including broadside.
+Metamaterial microwave lens
+The metamaterial lens, found in metamaterial antenna systems, is used as an efficient coupler to the external radiation, focusing radiation along or from a microstrip transmission line into transmitting and receiving components. Hence, it can be designed as an input device. In addition, it can enhance the amplitude of evanescent waves, as well as correct the phase of propagating waves.
+A metamaterial (lens) for directing radiation
+The metamaterial for research in many instances is the SRR and wire configuration. However in this instance it is several layers of a metallic mesh of thin wires &lt;U+2013&gt; with wires in the three directions of space, and slices of foam. Interestingly the permittivity of this material, above the plasma frequency can be positive and less than one. This means that the refractive index is less than one, but hardly above zero. In this case, the relevant parameter is often the contrast between the permittivities rather than the value of the overall permittivity itself, at desired frequencies. This occurs because the equivalent (effective) permittivity has a behavior governed by a plasma frequency in the microwave domain. This low optical index material then becomes a good candidate for creation of extremely convergent microlenses. Methods that have been developed theoretically using dielectric photonic crystals are applied in the microwave domain to realize a directive emitter using metallic grids.27
+In this instance, arrayed wires in a cubic, crystal lattice structure can be analyzed as an array of aerials (antenna array). Therefore, as a lattice structure it has a lattice constant. The lattice constant, or lattice parameter, refers to the constant distance between unit cells in a crystal lattice.28
+The earlier discovery of plasmons created the view that metal at plasmon frequency fp is a composite material. The effect of plasmons on any metal sample is to create properties in the metal such that it can behave as a dielectric, independent of the wave vector of the EM excitation (radiation) field. Furthermore, there is a minute-fractionally small amount of plasmon energy that is absorbed into the system denoted as &lt;U+03B3&gt;. For aluminium fp = 15 eV, and &lt;U+03B3&gt; = 0.1 eV. Perhaps the most important result of the interaction of metal and the plasma frequency is that permittivity is negative below the plasma frequency, all the way to the minute value of &lt;U+03B3&gt;.2930
+These facts ultimately result in the arrayed wire structure as being effectively a homogenous medium.31
+This metamaterial allows for control of the direction of emission of an electromagnetic radiation source located inside the material in order to collect all the energy in a small angular domain around the normal.32 By using a slab of a metamaterial, diverging electromagnetic waves are focused into a narrow cone. Dimensions of its component are small in comparison to the wavelength, and thus the slab behaves as a homogeneous material with a low plasma frequency.33
+Transmission line models
+Conventional transmission lines
+  A transmission line is the material medium or structure that forms all or part of a path from one place to another for directing the transmission of energy, such as electromagnetic waves as well as electric power transmission. Types of transmission line include wires, coaxial cables, dielectric slabs, striplines, optical fibers, electric power lines, and waveguides.34
+A microstrip is a type of electrical transmission line which can be fabricated using printed circuit board technology, and is used to convey microwave-frequency signals. It consists of a conducting strip separated from a ground plane by a dielectric layer known as the substrate. Microwave components such as antennas, couplers, filters, power dividers etc. can be formed from microstrip.
+From the simplified schematics to the right it can be seen that total impedance, conductance, reactance (capacitance and inductance), and the transmission medium (transmission line) can be represented by single components, which give the overall value.
+With transmission line mediums it is important to match the load impedance ZL to the characteristic impedance Z0 as closely as possible, because it is usually desirable that as much power as possible will be absorbed by the load.
+R is the resistance per unit length,
+L is the inductance per unit length,
+G is the conductance of the dielectric per unit length,
+C is the capacitance per unit length,
+j is the imaginary unit, and
+ω is the angular frequency.
+Lumped circuit elements
+Often, because of the goal which moves physical metamaterial inclusions (or cells) to smaller sizes, discussion and implementation of lumped LC circuits, or distributed LC networks, are often included in the research. Lumped circuit elements are actually microscopic elements that effectively approximate, their larger component counterpart. For example circuit capacitance and inductance can be created with spilt rings, which are on the scale of nanometers at optical frequencies. The distributed LC model is related to the lumped LC model, however the distributed element model is more accurate but more complex than the lumped element model.
+Metamaterial &lt;U+2013&gt; loaded transmission line configurations
+Some noted metamaterial antennas employ negative refractive index transmission-line metamaterials (NRI-TLM). These include lenses that can overcome the diffraction limit, small band and broadband phase shifting lines, small antennas, low profile antennas, antenna feed networks, and novel power architectures, and high directivity couplers. A novel approach for implementing NRI-TLM is loading a planar metamaterial network of TLs with series capacitors and shunt inductors, which has a higher performance than standard TLs. This results in a large operating bandwidth while the refractive index is negative.3536
+Because superlenses can overcome the diffraction limit, this allows for a more efficient coupling to the external radiation, and enables the availability for a broader band of frequency. For example the superlens can be applied to the TLM architecture. In conventional lenses, the imaging is limited by the diffraction limit. With John Pendry's superlens the details of the near field images are not lost. Growing evanescent waves are supported in the metamaterial (n &lt; 1), which restores the decaying evanescent waves from the source. This results in a diffraction-limited resolution of &lt;U+03BB&gt;/6, after some small losses. This compares with &lt;U+03BB&gt;/2, from normal diffraction limit for conventional lenses.37
+By combining right-handed materials (RHM) with left-handed materials (LHM) as a composite material (CRLH) construction for the transmission line, both a backward to forward scanning capability is obtained. Metamaterials were first used for antenna technology around 2005. This type of antenna used the established capability of SNGs to couple with external radiation. Resonant coupling allowed for a wavelength larger than the antenna. At microwave frequencies this allowed for an electrically small antenna.3839
+A metamaterial-loaded transmission line has stated advantages, which are significant over conventional or standard delay transmission lines. It is more compact in size, it can achieve positive or negative phase shift while occupying the same short physical length and it exhibits a linear, flatter phase response with frequency, leading to shorter group delays. It can work in lower frequency because of high series distributed-capacitors, it has smaller plane dimensions than its equivalent coplanar structure.40
+Negative refractive index metamaterials supporting 2-D waves
+In 2002, rather than using split-ring-resonator-wire configuration, or other 3-D media, researchers looked at planar configurations that supported backward wave propagation, thus demonstrating negative refractive index and focusing as a consequence.41
+It has long been known that transmission lines periodically loaded with capacitive and inductive elements in a high-pass configuration support certain types of backward waves. In addition, planar transmission lines are a natural match for 2-D wave propagation. Furthermore, with lumped circuit elements they retain a compact configuration, and can still support the lower RF range. With this in mind, periodically loaded, two-dimensional LC transmission line networks, designed with a high pass and cutoff, were proposed. The LC networks can be designed to support backward waves, without bulky SRR/ wire structure. This was the first such proposal which veered away from bulk media for a negative refractive effect (result). A notable property of this type of networks is that there is no reliance on resonance, and instead it is the ability to support backward waves which defines negative refraction.42
+The principles behind focusing are derived from Veselago's well-known paper, &lt;U+201C&gt;The electrodynamics of substances with simultaneously negative values of &lt;U+03B5&gt; and &lt;U+03BC&gt;&lt;U+201D&gt; and Sir Pendry's Perfect lens proposal. To give an overview of how this works &lt;U+2013&gt; by combining a conventional, flat, (planar) DPS slab, M-1, with a left-handed medium, M-2, a propagating electromagnetic wave with a wave vector k1 in M-1, results in a refracted wave with a wave vector k2 in M-2. Since, M-2 supports backward wave propagation k2 is refracted to the opposite side of the normal, while the Poynting vector of M-2 is anti-parallel with k2. Under such conditions, power is refracted through an effectively negative angle, which indeed implies an effectively negative index of refraction.43
+Electromagnetic waves from a point source located inside a conventional DPS can be focused inside an LHM using a planar interface of the two media. These conditions can be modeled by exciting a single node inside the DPS, and observing the magnitude and phase of the voltages to ground at all points in the LHM. A focusing effect should manifest itself as a &lt;U+201C&gt;spot&lt;U+201D&gt; distribution of voltage at a predictable location in the LHM.44
+Negative refraction and focusing of electromagnetic waves can be accomplished without employing resonances or directly synthesizing the permittivity and permeability. In addition, this media can be practically fabricated by appropriately loading a host transmission line medium. Furthermore, the resulting planar topology permits LHM structures to be readily integrated with conventional planar microwave circuits and devices.45
+When transverse electromagnetic propagation occurs with a transmission line medium, the analogy for permittivity and permeability is &lt;U+03B5&gt; = L, and &lt;U+03BC&gt; = C. Since this analogy was developed with positive values for these parameters, then the next logic step was realizing that negative values could be achieved. In order to synthesize a left-handed medium (&lt;U+03B5&gt; &lt; 0 and &lt;U+03BC&gt; &lt; 0) the series reactance and shunt susceptibility should become negative, because the material parameters are directly proportional to these circuit quantities.46
+A transmission line which has lumped circuit elements that synthesize a left-handed medium is referred to as a &quot;dual transmission line&quot; as compared to &quot;conventional transmission line&quot;. The dual transmission line structure can be implemented in practice by loading a host transmission line with lumped element series capacitors (C) and shunt inductors (L). In this periodic structure, the loading is strong such that the lumped elements dominate the propagation characteristics.
+
+
+Left-handed behavior in LC loaded transmission lines
+At the very end of 2002, some researchers noticed that split-ring resonators (SRRs) were restricted to narrow bandwidths, and this was mostly due to the SRRs reliance on resonance. In addition, to utilize SRRs at RF frequencies, as with wireless devices, the split-ring resonators have to be scaled to larger dimensions. This worked against making the (wireless) devices themselves more and more compact. In contrast, LC network configurations could be scaled in both microwave and RF frequencies.47
+Therefore, it appeared that LC loaded transmission lines were enabling the design of a new class of metamaterials to synthesize a negative refractive index. In addition, by relying on LC networks to emulate electrical permittivity and magnetic permeability this resulted in a substantial increase in operating bandwidths.48
+Moreover, their unit cells are connected through a transmission-line network and they may, therefore, be equipped with lumped circuit elements, which permit them to be compact at frequencies where the SRR cannot be compact. The flexibility gained through the use of either discrete or printed elements enables the proposed planar metamaterials to be scalable from the megahertz to the tens of gigahertz range. In addition, by utilizing varactors instead of capacitors, the effective material properties can be dynamically tuned. Furthermore, the proposed media are planar and inherently support two-dimensional (2-D) wave propagation, and are well suited for RF/microwave device and circuit applications.
+
+
+Growing evanescent waves in negative-refractive-index transmission-line media
+The periodic 2-D LC loaded transmission-line (TL) was shown to exhibit NRI properties over a broad frequency range. This network will be referred to as a dual TL structure since it is of a high-pass configuration, as opposed to the low-pass representation of a conventional TL structure.49 Dual TL structures have been used to experimentally demonstrate backward-wave radiation and focusing at microwave frequencies.5051
+As a negative refractive index medium, a dual TL structure is not simply a phase compensator. It can enhance the amplitude of evanescent waves, as well as correct the phase of propagating waves. Evanescent waves actually grow within the dual TL structure.
+
+
+Backward wave antenna using an NRI loaded transmission line
+Grbic et al. used one-dimensional LC loaded transmission line network, which supports fast backward-wave propagation to demonstrate characteristics analogous to &quot;reversed Cherenkov radiation&quot;. Their proposed backward-wave radiating structure was inspired by negative refractive index LC materials. The simulated E-plane pattern at 15 GHz showed radiation towards the backfire direction in the far-field pattern, clearly indicating the excitation of a backward wave. Since the transverse dimension of the array is electrically short, the structure is backed by a long metallic trough. The trough acts as a waveguide below cut-off and recovers the back radiation, resulting in unidirectional far-field patterns52
+Planar NIMs with periodic loaded transmission lines
+A technique has been presented for implementing planar media with an effective negative refractive index. The underlying concept is based on appropriately loading a printed network of transmission lines periodically with inductors and capacitors.53 This technique results in effective permittivity and permeability material parameters that are both inherently and simultaneously negative, obviating the need to synthesize these parameters separately, or by separate means. The proposed media possess several other desirable features including very wide bandwidth over which the refractive index. remains negative, the ability to guide 2-D TM waves, scalability from RF to millimeter-wave frequencies, low transmission losses, as well as the potential for tunability by inserting varactors and/or switches in the unit cell.54 The proposed concept has been verified with circuit and full-wave simulations. Moreover, a prototype focusing device has been implemented and tested experimentally. The experimental results demonstrated focusing of an incident cylindrical wave within an octave bandwidth and over an electrically short area; a phenomenon suggestive of near-field focusing.55
+Anticipated future applications are new enabling RF/microwave devices can be implemented based on these proposed planar negative refractive index media for applications in wireless communications, surveillance, and radars.
+
+
+Larger NRI transmission lines
+According to some researchers SRR/wire configured metamaterials are bulky 3-D constructions, which are difficult to adapt for RF/microwave device and circuit applications.56 These structures can achieve a negative index of refraction only within a narrow bandwidth.57 Furthermore, when applied to wireless devices at RF frequencies the split ring-resonators have to be scaled to larger dimensions, which, in turn would make such devices less compact.58
+Proposed designs of a new class of metamaterials to synthesize a negative refractive index.59 The proposed structures go beyond the wire/SRR composites in that they do not rely on SRRs to synthesize the material parameters, thus leading to dramatically increased operating bandwidths. Moreover, their unit cells are connected through a transmission-line network and they may, therefore, be equipped with lumped elements, which permit them to be compact at frequencies where the SRR cannot be compact.60 The flexibility gained through the use of either discrete or printed elements enables the proposed planar metamaterials to be scalable from the megahertz to the tens of gigahertz range. In addition, by utilizing varactors instead of capacitors, the effective material properties can be dynamically tuned. Furthermore, the proposed media are planar and inherently support two-dimensional (2-D) wave propagation. Therefore, these new metamaterials are well suited for RF/microwave device and circuit applications.61
+In the long-wavelength regime, the permittivity and permeability of conventional materials can be artificially synthesized using periodic LC networks arranged in a low-pass configuration. In the dual (high-pass) configuration, these equivalent material parameters assume simultaneously negative values, and may therefore be used to synthesize a negative refractive index.62
+Metamaterial antenna configurations
+Over longer distances than human hearing, or which the unaided eye can see, electromagnetic waves are transmitted over wire or via aerial devices (antennas).63
+An antenna (or aerial) is a transducer designed to transmit or receive electromagnetic waves. In other words, antennas convert electromagnetic waves into electrical currents and vice versa.
+An antenna as a radiator or receiver of electromagnetic energy can also be defined as the transition region between free space and the guiding electromagnetic structure such as the transmission line.64
+Antenna theory is based on classical electromagnetic theory as described by Maxwell's equations.65 Physically, an antenna is an arrangement of one or more conductors, usually called elements in this context. In transmission, an alternating current is created in the elements by applying a voltage at the antenna terminals, causing the elements to radiate an electromagnetic field. In reception, the inverse occurs: an electromagnetic field from another source induces an alternating current in the elements and a corresponding voltage at the antenna's terminals. Some receiving antennas (such as parabolic and horn types) incorporate shaped reflective surfaces to collect EM waves from free space and direct or focus them onto the actual conductive elements. 
+An antenna creates sufficiently strong electromagnetic fields at large distances. Reciprocally, it is sensitive to the electromagnetic fields impressed upon it externally. The actual coupling between a transmitting and receiving antenna is so small that amplifier circuits are required at both the transmitting and receiving stations. Antennas are usually created by modifying ordinary circuitry into transmission line configurations.66
+The required antenna for any given application is dependent on the bandwidth employed, and range (power) requirements. In the microwave to millimeter-wave range &lt;U+2013&gt; wavelengths from a few meters to millimeters &lt;U+2013&gt; the following antennas are usually employed:67
+Dipole antennas, short antennas, parabolic and other reflector antennas, horn antennas, periscope antennas, helical antennas, spiral antennas, surface-wave and leaky wave antennas. Leaky wave antennas include dielectric and dielectric loaded antennas, and the variety of microstrip antennas.68
+Radiation properties antennas with SRRs
+The split ring resonator (SRR) was introduced by Pendry in 1999, and is one of the most common elements of metamaterials69 As a nonmagnetic conducting unit, it comprises an array of units which yield an enhanced negative effective magnetic permeability, when the frequency of the incident electromagnetic field is close to the SRR resonance frequency. The resonant frequency of the SRR simply depends on its shape and physical design. In addition, resonance can occur at wavelengths much larger than it size.7071
+Double negative metamaterials increase radiated power of antennas
+Through the application of double negative metamaterials (DNG), the power radiated by electrically small dipole antennas can be notably increased. This could be accomplished by surrounding an antenna with a shell of double negative (DNG) material. At the time (late 2003) this was investigated both analytically and numerically. When the electric dipole is embedded in a homogeneous DNG medium, the analysis shows that the antenna acts inductively rather than capacitively, as it would in free space without the interaction of the DNG material. In addition, the dipole-DNG shell combination increases the real power radiated by more than an order of magnitude over a free space antenna. A notable decrease in the reactance of the dipole antenna corresponds to the increase in radiated power.72
+Analysis also shows that the reactive power within this dipole-DNG shell system indicates that the DNG shell acts as a natural matching network for the dipole. The DNG material matches the intrinsic reactance of this antenna system to free space, hence the impedance of DNG material matches free space. It provides a natural matching circuit to the antenna.73
+Single negative SRR and monopole composite
+There is interest in the use of metamaterials to increase antenna performance. With the addition of an SRR-DNG metamaterial the radiated power was shown to increase by more than an order of magnitude over a comparable free space antenna. Electrically small antennas, high directivity, and tunable operational frequency are produced with negative magnetic permeability. When combining a right-handed material (RHM) with a Veselago-left-handed material (LHM) other novel properties are obtained. Finally, a single negative material resonator, obtained with an SRR, can produce an electrically small antenna when operating at microwave frequencies, as follows:74
+The configuration of a split-ring resonator used was two concentric annular rings with relative opposite gaps in the inner and outer ring. Its geometrical parameters were R = 3.6 mm, r = 2.5 mm, w = 0.2 mm, t = 0.9 mm. R and r are used in annular parameters, w is the spacing between the rings and t = the width of the outer ring. The material had a thickness of 1.6 mm. Permittivity was 3.85 at 4 GHz. The SRR was fabricated with an etching technique onto a 30 &lt;U+03BC&gt;m thick copper. The SRR was excited by using a monopole antenna.75 The monopole antenna was composed of a coaxial cable, ground plane, and radiating components. The ground plane material was aluminium. The operation frequency of the antenna was 3.52 GHz, which was determined by considering the geometrical parameters of SRR.76 A length of wire of 8.32 mm was placed above the ground plane, connected to the antenna, which was one quarter of the operation wavelength. Therefore, this makes the antenna work with a feed wavelength was 33.28 mm and feed frequency was 7.8 GHz. The resonant frequency of the SRR turned out to be smaller than the monopole operation frequency.77
+The monopole-SRR (metamaterial) antenna was found to operate efficiently at (&lt;U+03BB&gt;/10) using the SRR-wire configuration.78 It demonstrated good coupling efficiency, and enough radiation efficiency.79 Its operation was found to be comparable to a conventional antenna at &lt;U+03BB&gt;/2, which is recommended as an antenna size for efficient coupling and radiation for a conventional antenna. Therefore, the monopole-SRR antenna becomes an acceptable electrically small antenna, at the resonance frequency of the SRR.80 This antenna can be used wherever (planar) patch antennas are used.
+When the SRR is made part of this configuration the characteristics, such as radiation pattern of the antenna are entirely changed. This is noticed with comparison to a conventional monopole antenna. With modifications to the SRR structure (the metamaterial) the antenna size could reach (&lt;U+03BB&gt;/40). Furthermore, by coupling 2, 3, and 4 SRRs side by side, there is a slight shift radiation patterns.81
+Patch antennas with a metamaterial
+In 2005, a new, patch antenna, with a metamaterial cover, which resulted in enhanced directivity was proposed. According to the numerical results, the metamaterial patch antenna showed significant improvement in directivity, compared to the conventional patch antenna. This was cited in 2007 for an efficient design of directive patch antennas in mobile communications using metamaterials. This design was based on the left-handed material (LHM) transmission line model, with the circuit elements L and C of the LHM equivalent circuit model. This study developed formulae to determine the L and C values of the LHM equivalent circuit model for desirable characteristics of directive patch antennas. Design examples derived from actual frequency bands in mobile communications were performed, which illustrates the efficiency of this patch antenna.828384
+Novel flat lens horn antenna
+This configuration uses flat aperture constructed of zero-index metamaterial. The zero-index metamaterial is a fully flat structure. This has advantages over ordinary (conventional) curved lenses, which results in a much improved directivity for this horn antenna configuration. In addition, references are made to the following devices: perfect lens, backward leaky-wave antenna, miniaturization of patch antenna, resonant cavity and coupler. These investigations have provided capabilities for the miniaturization of microwave source and non-source devices, circuits, antennas and the improvement of electromagnetic performances.85
+Improvements in design
+Research and applications of metamaterial based antennas. Related components are also researched.8687
+Subwavelength cavities and waveguides
+When the interface between a pair of materials, which function as optical transmission media, have interactions as a result of opposing permittivity and / or permeability values that are either ordinary (positive) or extraordinary (negative), notable anomalous behaviors may occur. The pair of materials would be a DNG metamaterial (layer), paired with a DPS, ENG, or MNG layer. In these instances wave propagation behavior and properties may occur that would otherwise not happen if only DNG layers are paired together.88
+At the interface between two media, the concept of the continuity of the tangential electric and magnetic field components can be applied. If either the permeability or permittivity of two media has opposite signs then the normal components of the tangential field, on both sides of the interface, will be discontinuous (at the boundary). This implies a concentrated resonant phenomenon at the interface. This appears to be similar to the current and voltage distributions at the junction between an inductor and capacitor, at the resonance of an L-C circuit. This can because for notable characteristics of wave interaction in metamaterial-based devices and components. This &quot;interface resonance&quot; is essentially independent of the total thickness of the paired layers. This is because it occurs along the discontinuity between two such conjugate materials.8990
+Parallel-plate waveguiding structures
+The geometry consists of two parallel plates as perfect conductors (PEC), an idealized structure, filled by two stacked planar slabs of homogeneous and isotropic materials with their respective constitutive parameters &lt;U+03B5&gt;1, &lt;U+03B5&gt;2, u1, u2. Each slab has thickness = d, slab 1 = d1, and slab 2 = d2. Choosing which combination of parameters to employ involves pairing of DPS and DNG or ENG and MNG materials. As mentioned previously, this is one pair of oppositely signed constitutive parameters, combined.91
+Thin subwavelength cavity resonators
+Phase compensation:
+The real component values for negative permittivity and permeability results in a real component values for negative refraction n. In a loss less medium, all that would exist is real values. This concept can then be used to map out phase compensation when a conventional lossless material, DPS, is matched with a lossless NIM (DNG).92
+In phase compensation, the DPS of thickness d1 has &lt;U+03B5&gt; &gt; 0 and &lt;U+00B5&gt; &gt; 0. Conversely, the NIM of thickness d2 has &lt;U+03B5&gt; &lt; 0 and &lt;U+00B5&gt; &lt; 0. Assume that the intrinsic impedance of the DPS dielectric material (d1) is the same as that of the outside region, and responding to a normally incident plane wave. The wave travels through the medium without any reflection because the DPS impedance and the outside impedance are equal. However, the plane wave at the end of DPS slab it is out of phase with the plane wave at the beginning of the material.93
+The plane wave then enters the lossless NIM (d2). At certain frequencies &lt;U+03B5&gt; &lt; 0 and &lt;U+00B5&gt; &lt; 0 and n &lt; 0. Like the DPS, the NIM has intrinsic impedance which is equal to the outside, and, therefore, is lossless as well.94 The direction of power flow (i.e., the Poynting vector) in the first slab should be the same as that in the second one, because the power of the incident wave enters the first slab (without any reflection at the first interface), traverses the first slab, exits the second interface, enters the second slab and traverses it, and finally leaves the second slab.95 However, as stated earlier, the direction of power is anti-parallel to the direction of phase velocity. Therefore, the wave vector k2 is in the opposite direction of k1. Furthermore, whatever phase difference is developed by traversing the first slab, it can be decreased and even cancelled by traversing the second slab. If the ratio of the two thicknesses is d1 / d2 = n2 / n1, then total phase difference between the front face, and the back face, of the matched DPS &lt;U+2013&gt; NIM slabs, is zero.96 This demonstrates how the NIM slab at chosen frequencies acts as a phase compensator. It is important to note that this phase compensation process is not dependent on the thickness of d1 + d1 but only on the ratio of d1 / d2. Therefore, d1 + d1 can be any value, as long as this ratio satisfies the above condition. Finally, even though this two-layer structure is present, the wave traversing this structure would not experience the phase difference.
+Following this, the next step is the subwavelength cavity resonator.97
+Compact subwavelength 1-D cavity resonators using metamaterials:
+The phase compensator described above can be used to conceptualize the possibility of designing a compact 1-D cavity resonator. The above two-layer structure is applied as two perfect reflectors, or in other words, two perfect conducting plates.98 Conceptually, what is constrained in the resonator is d1 / d2, not d1 + d2. Therefore, in principle, one can have a thin subwavelength cavity resonator for a given frequency, if at this frequency the second layer acts a metamaterial with negative permittivity and permeability and the ratio correlates to the correct values.99
+The cavity can conceptually be thin and can still be resonant, as long as the ratio of thicknesses is satisfied in the special dispersion relation. This can, in principle, provide possibility for having subwavelength thin compact cavity resonators.100
+Miniature cavity resonator utilizing FSS
+Frequency selective surface (FSS) based metamaterials utilize equivalent LC circuitry configurations. Using FSS in a cavity allows for miniaturization, decrease of the resonant frequency, and also lowers the cut-off frequency along with other benefits, and smooth transition from a fast-wave to a slow-wave in a waveguide configuration.101
+Composite metamaterial based cavities
+As an application for left-handed materials (LHM), four different cavities, operating in the microwave regime were fabricated and experimentally observed and described.102
+Metamaterial ground plane
+Leaky mode propagation with metamaterial ground plane
+A magnetic dipole was placed on metamaterial (slab) ground plane. The metamaterials have either constituent parameters that are both negative, or negative permittivity, or negative permeability. The dispersion and radiation properties of leaky waves supported by these metamaterial slabs, respectively, were investigated.103
+Patented metamaterial antenna systems
+ There are a number of metamaterial antenna systems that have patents. On some of these patents the researchers of metamaterials and metamaterial antenna system components in the lab now have patents.
+Phased array systems and antennas for use in such systems are well known in areas such as telecommunications and other radar applications. In general phased array systems work by coherently reassembling signals over the entire array by using circuit elements to compensate for relative phase differences and time delays.104
+Phased array metamaterial antenna system
+Patented in 2004, this particular phased array antenna system is useful in automotive radar applications. By using negative index metamaterials (NIMs) as a biconcave lens to focus the microwaves transmitted by the antenna the sidelobes of the antenna are reduced. This equates to a reduction in radiated energy loss, and a relatively wider, useful bandwidth. Overall, because of the strategies implemented, this is an efficient (low-loss, reduced sidelobes), dynamically ranged phased array radar antenna system.105
+In addition, the signal amplitude is increased across the microstrip transmission lines (TL) by suspending the microstrip TLs above the ground plane at a predetermined distance. In other words, they are not in contact with a solid substrate. By suspending the microstrip transmission lines in this manner, dielectric signal loss is reduced significantly, thus resulting in a less-attenuated signal at its destination.106
+In addition, this phased array antenna system was designed to boost the performance of the Monolithic microwave integrated circuit (MMIC), among other benefits. A transmission line (microstrip) is created with photolithography. A metamaterial lens, consisting of a thin wire array (see section above), focuses the transmitted or received signals between the microstrip TL and the emitter / receiver elements.107
+The metamaterial lens also functions as an input device and consists of a number of periodic unit-cells disposed along the microstrip line. Furthermore, the metamaterial lens consists of multiple microstrip lines of the same make up; a plurality of periodic unit-cells. The periodic unit-cells are constructed of a plurality of electrical components; capacitors and inductors as components of multiple distributed circuits.108
+The metamaterial of the phased array antenna system incorporates a conducting transmission element, a substrate comprising at least a first ground plane for grounding the transmission element, a plurality of unit-cell circuits composed periodically along the transmission element, at least one via for electrically connecting the transmission element to at least the first ground plane. It also includes a means for suspending this conducting transmission element predetermined distance away from the substrate in a way such that the transmission element is located at a second predetermined distance away from the ground plane.109
+ENG and MNG waveguides and scattering devices
+US Patent issued on May 15, 2007. A structure for use in waveguiding or scattering of waves, the structure comprising first and second adjacent layers, the first layer comprising an epsilon-negative (ENG) material or a mu-negative (MNG) material, and the second layer comprising either a double-positive (DPS) material, a double-negative (DNG) material, an ENG material when the first layer is an MNG material, or a MNG material when the first layer is an ENG material.110
+In the news
+
+width200|A keyless entry system key fob
+
+Pertaining to wireless infrastructure
+December 2010 &lt;U+2013&gt; Currently the variety of wireless devices is significantly expanding. For example, radio frequency identification (RFID) tags have broad applications. The possible uses now range from electronic key fobs that remotely turn over engines, work-related swipe cards, and are placed inside shoes so manufacturers may match separate components. Other wireless technologies are light switches, printers and microwave ovens. Such broad expansion leads to interference from competing signals. Metamaterials, functional at miniature sizes can allow signals in, but keep them from getting out. Rather than the conventional absorbers at three inches thick, metamaterials can be the size of thin films, 2 mm (0.078 in) thick.111
+See also
+
+
+Acoustic metamaterials
+Chirality (electromagnetism)
+Metamaterial
+Metamaterial cloaking
+Metamaterials surface antenna technology
+Negative index metamaterials
+Nonlinear metamaterials
+Photonic metamaterials
+Photonic crystal
+Quantum metamaterials
+Seismic metamaterials
+Split-ring resonator
+Superlens
+Tunable metamaterials
+Transformation optics
+Acoustic dispersion
+
+
+
+
+
+Books
+
+
+
+
+
+Metamaterials Handbook
+Metamaterials: Physics and Engineering Explorations
+
+
+General references
+
+References
+
+External links
+
+U.S. Air Force Research Lab Demonstrated metamaterials technology transforms antenna radiation pattern
+The electrodynamics of substances with simultaneously negative values of &lt;U+03B5&gt; and &lt;U+03BC&gt; Victor G. Veselago.
+Microwave transmission-line networks for backward-wave media and reduction of scattering
+Radiating power through air
+NTIA Manual of Regulations and Procedures for Federal Radio Frequency Management. 2011.
+
+
+da:Metamaterialeantenne
+Category:Radio frequency antenna types Category:Metamaterials Category:Electromagnetism
+
+
+
+
+↩
+
+↩
+
+
+
+↩
+
+↩
+↩
+
+↩
+
+
+
+↩
+↩
+
+
+
+
+↩
+UCLA Technology. Backfire to Endfire Leaky wave antenna. 2003.↩
+↩
+↩
+
+
+
+↩
+↩
+
+↩
+Federal Standard 1037C↩
+
+
+
+↩
+
+↩
+
+
+
+
+
+
+
+
+
+
+
+↩
+
+
+
+
+
+
+
+
+
+↩
+
+
+
+
+
+↩
+↩
+↩
+↩
+
+↩
+
+
+
+
+
+
+
+
+↩
+↩
+↩
+↩
+Metamaterial-Engineered Antennas. University of Arizona. Accessed 2011-03-12.↩
+AFRL-Demonstrated Metamaterials Technology Transforms Antenna Radiation Pattern. U.S. Air Force research.Accessed 2011-03-12↩
+
+↩
+
+↩
+
+
+
+
+
+↩
+
+
+
+↩
+↩
+↩
+
+
+
+Metz, Carsten; &quot;Phased array metamaterial antenna system&quot;  issue date October 25, 2005↩
+
+
+Engheta, Nader; Al&lt;U+00F9&gt;, Andrea &quot;Waveguides and scattering devices incorporating epsilon-negative and/or mu-negative slabs&quot;  publication date May 15, 2007↩
+↩
+
+

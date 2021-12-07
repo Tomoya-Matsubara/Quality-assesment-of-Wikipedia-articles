@@ -1,0 +1,66 @@
+The Petersen graph is a small graph that serves as a useful example and counterexample in graph theory. The graph is named for Julius Petersen, who published it in 1898. Petersen constructed it to be the smallest bridgeless cubic graph with no three-edge-coloring.1 Although the graph is generally credited to Petersen, it had in fact first appeared 12 years earlier, in 1886.2
+Properties
+Basic properties
+The Petersen graph ...
+is 3-connected and hence 3-edge-connected and bridgeless. See the glossary.
+has independence number 4 and is 3-partite. See the glossary.
+is cubic, is strongly regular, has domination number 3, and has a perfect matching and a 2-factor. See the glossary.
+has radius 2 and diameter 2.
+has chromatic number 3 and chromatic index 4, making it a snark. (To see that there is no 3-edge-coloring requires checking four cases.) It was the only known snark from 1898 until 1946.
+Other properties
+The Petersen graph ...
+is nonplanar. It has as minors both the complete graph K5 (contract the five short edges in the first picture), and the complete bipartite graph K3, 3.
+has crossing number 2.
+can be embedded in the projective plane with six pentagonal faces.
+has a Hamiltonian path but no Hamiltonian cycle.
+is symmetric, meaning that it is edge transitive and vertex transitive.
+is one of only five known connected vertex transitive graphs with no Hamiltonian cycle. It is conjectured that there are no others.
+is hypohamiltonian, meaning that although it has no Hamiltonian cycle, deleting any vertex makes it Hamiltonian. See this embedding for a demonstration of the hypohamiltonian property.
+is one of only 14 cubic distance-regular graphs.3
+is the complement of the line graph of K5.
+is a unit distance graph, meaning it can be drawn in the plane with all the edges length 1.
+has automorphism group the symmetric group S5.
+is the Kneser graph KG5, 2. (This means you get the Petersen graph from the following construction: Take the 2-element subsets of a 5-element set as vertices, and connect two vertices if they are disjoint as sets.)
+is the graph formed by the vertices and edges of the hemi-dodecahedron, that is, a dodecahedron with opposite points, lines and faces identified together.
+has graph spectrum −2, −2, −2, −2, 1, 1, 1, 1, 1, 3.
+has Thue number five
+Every homomorphism of the Petersen graph to itself that doesn't identify adjacent vertices is an automorphism.
+Largest and smallest
+The Petersen graph ...
+is the smallest snark.
+is the smallest bridgeless cubic graph with no Hamiltonian cycle.
+is the smallest bridgeless cubic graph with no three-edge-coloring.
+is the largest cubic graph with diameter 2.
+is the smallest hypohamiltonian graph.
+is the smallest cubic graph of girth 5. (It is the unique (3, 5)-cage. In fact, since it has only 10 vertices, it is the unique (3, 5)-Moore graph.)
+is the smallest connected vertex-transitive graph that is not a Cayley graph
+has 2000 spanning trees, the most of any 10-vertex cubic graph4.
+As counterexample
+The Petersen graph frequently arises as a counterexample or exception in graph theory. For example, if G is a 2-connected, r-regular graph with at most 3r + 1 vertices, then G is Hamiltonian or G is the Petersen graph.5
+Generalized Petersen graphs
+In 1969 Mark Watkins introduced a family of graphs generalizing the Petersen graph. The generalized Petersen graph G(n, k) is a graph with vertex set
+{u0, u1, …, un − 1, v0, v1, …, vn − 1}
+and edge set
+{uiui + 1, uivi, vivi + k : i = 0, …, n − 1}
+where subscripts are to be read modulo n and k &lt; n/2.
+The Petersen graph itself is G(5, 2).
+This family of graphs possesses a number of interesting properties. For example,
+G(n, k) is vertex-transitive if and only if n = 10, k = 2 or $k^2 \equiv \pm 1 \pmod n$.
+It is edge-transitive only in the following seven cases: (n, k) = (4, 1), (5, 2), (8, 3), (10, 2), (10, 3), (12, 5), (24, 5).
+It is bipartite if and only if n is even and k is odd.
+It is a Cayley graph if and only if $k^2 \equiv 1 \pmod n$.
+Among the generalized Petersen graphs are the n-prism G(n, 1), the D&lt;U+00FC&gt;rer graph G(6, 2), the M&lt;U+00F6&gt;bius-Kantor graph G(8, 3), the dodecahedron G(10, 2), and the Desargues graph G(10, 3).
+The Petersen graph itself is the only generalized Petersen graph that is not 3-edge-colorable. [Castagna and Prins, 1972]
+Petersen graph family
+The Petersen graph family consists of the seven graphs that can be formed from the complete graph K6 by zero or more applications of &lt;U+0394&gt;-Y or Y-&lt;U+0394&gt; transforms. A graph is intrinsically linked if and only if it contains one of these graphs as a subgraph.
+Notes
+References
+Available on Google print.
+Mitch Keller, 
+de:Petersen-Graph es:Grafo de Petersen fr:Graphe Petersen ko:&lt;U+D398&gt;&lt;U+D14C&gt;&lt;U+B974&gt;&lt;U+C13C&gt; &lt;U+ADF8&gt;&lt;U+B798&gt;&lt;U+D504&gt; no:Petersen-grafen pl:Graf Petersena sl:Petersenov graf zh:&lt;U+4F69&gt;&lt;U+7279&gt;&lt;U+68EE&gt;&lt;U+5716&gt;
+Category:Graphs
+The Petersen graph by Andries E. Brouwer.↩
+↩
+According to Cubic symmetric graphs (The Foster Census).↩
+Jakobson and Rivin 1999; Valdes 1991. The cubic graphs with 6 and 8 vertices maximizing the number of spanning trees are M&lt;U+00F6&gt;bius ladders.↩
+Holton and Sheehan, page 32↩

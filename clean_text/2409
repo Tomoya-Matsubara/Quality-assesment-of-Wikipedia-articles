@@ -1,0 +1,233 @@
+
+
+An example of the printf function.
+
+printf functions (which stands for &quot;print formatted&quot;) are a class of functions typically associated with curly bracket programming languages. They accept a string parameter called the format string, which specifies a method for rendering an arbitrary number of varied data type parameter(s) into a string. This string is then by default printed on the standard output stream, but variants exist that perform other tasks with the result. Characters in the format string are usually copied literally into the function's output, with the other parameters being rendered into the resulting text at points marked by format specifiers. Format specifiers are typically introduced by a % character, and a literal percent sign can be copied into the output using the escape sequence %%.
+Timeline
+Several programming languages implement a printf function, to output a formatted string. It originated from the C programming language, where it has a prototype similar to the following:
+int printf(const char *format, ...)
+The string constant format provides a description of the output, with placeholders marked by &quot;%&quot; escape characters, to specify both the relative location and the type of output that the function should produce.
+1950s: FORTRAN, COBOL
+FORTRANs variadic PRINT statement took a reference to a non-executable FORMAT statement . 
+     PRINT, 601, 123456, 1000.0, 3.14, 250
+ 601 FORMAT (7HRED NUM,I7,3HEXP, E7.1, 4HREAL ,F3.2, 3HVAL, I3)
+
+will print the following line (including the CF LF characters):
+RED NUM 123456 EXP 1.0E 03 REAL 3.14 VAL 250
+1960s: BCPL, ALGOL 68, Multics PL/I
+C's variadic printf has its origins in BCPL's writef function.
+ALGOL 68 Draft and Final report had the functions inf and outf, subsequently these were revised out of the original language and replaced with the now more familiar readf/getf and printf/putf.
+printf(($&quot;Color &quot;g&quot;, number1 &quot;6d,&quot;, number2 &quot;4zd,&quot;, hex &quot;16r2d,&quot;, float &quot;-d.2d,&quot;, unsigned value&quot;-3d&quot;.&quot;l$,
+            &quot;red&quot;, 123456, 89, BIN 255, 3.14, 250));
+Multics has a standard function called ioa_ with a wide variety of control codes. It was based on a machine-language facility from Multics's BOS (Bootstrap Operating System).
+ call ioa_ (&quot;Hello, ^a&quot;, &quot;World!&quot;);
+ 
+1970s: C, Lisp
+ printf(&quot;Color %s, number1 %d, number2 %05d, hex %x, float %5.2f, unsigned value %u.\n&quot;, &quot;red&quot;, 123456, 89, 255, 3.14159, 250);
+ 
+will print the following line (including new-line character, \n):
+Color red, number1 123456, number2 00089, hex ff, float  3.14, unsigned value 250.
+The printf function returns the number of characters printed, or a negative value if an output error occurs.
+Common Lisp has the format function.
+ (format t &quot;Hello, ~a&quot; &quot;World!&quot;)
+ 
+prints &quot;Hello, World!&quot; on the standard output stream. If the first argument is nil, format returns the string to its caller. The first argument can also be any output stream. format was introduced into ZetaLisp at M.I.T. in 1978, based on the Multics ioa_, and was later adopted into the Common Lisp standard.
+1980s: perl
+Perl also has a printf function. Common Lisp has a format function which acts according to the same principles as printf, but uses different characters for output conversion. The GLib library contains g_print, an implementation of printf.
+Some Unix systems have a printf program for use in shell scripts. This can be used instead of echo in situations where the latter is not portable. For example:
+echo -n -e &quot;$FOO\t$BAR&quot;
+may be rewritten portably as:
+printf &quot;%s\t%s&quot; &quot;$FOO&quot; &quot;$BAR&quot;
+1990s: PHP &amp; Python
+1991: Python's % operator hearkens to printf's syntax when interpolating the contents of a tuple. This operator can, for example, be used with the print function:
+print(&quot;%s\t%s&quot; % (foo,bar))
+1995: PHP also has the printf function, with the same specifications and usage as that in C/C++. MATLAB does not have printf, but does have its two extensions sprintf and fprintf which use the same formatting strings. sprintf returns a formatted string instead of producing a visual output.
+2000s: Java
+2004: Java supported printf from version 1.5 onwards as a member of the PrintStream1 class, giving it the functionality of both the printf and fprintf functions. At the same time sprintf-like functionality was added to the String class by adding the format(String, Object... args) method2.
+// Write &quot;Hello, World!&quot; to standard output (like printf)
+System.out.printf(&quot;%s, %s&quot;, &quot;Hello&quot;, &quot;World!&quot;); 
+// create a String object with the value &quot;Hello, World!&quot; (like sprintf)
+String myString = String.format(&quot;%s, %s&quot;, &quot;Hello&quot;, &quot;World!&quot;); 
+Unlike most other implementations, Java's implementation of printf throws an exception on encountering a malformed format string.
+Derivative functions
+The C Standard specifies a number of derivative functions to further leverage the printf functionality:
+fprintf
+int fprintf(FILE *stream, const char *format, ...)
+fprintf enables printf output to be written to any file. Programmers frequently use it to print errors, by writing to the standard error device, but it can operate with any file opened with the fopen function.The same functionality is applicable in PRO * C also.
+sprintf
+int sprintf (char *str, const char *format, ...)
+sprintf prints to a string (char array) instead of to standard output. Users of sprintf must ensure, via calculation or via a guard page, that the resulting string will not be larger than the memory allocated for str. Failure to ensure this can allow a buffer overflow to occur.
+In higher-level languages such as PHP the sprintf function does not have the str argument. Instead, it returns the formatted output string. The prototype in PHP is like this:
+string sprintf (const string format, ...)
+Buffer safety and sprintf
+In ISO C99, snprintf was introduced as an alternative to sprintf that can help avoid the risk of a buffer overflow:
+int snprintf(char *str, size_t size, const char * restrict format, ...)
+snprintf is guaranteed not to write more than size bytes into str, so use of it can help avoid the risk of a buffer overflow, as in the following code fragment:
+#define BUFFER_SIZE 50
+char buf[BUFFER_SIZE];
+int n;
+
+...
+
+n = snprintf(buf, BUFFER_SIZE, &quot;Your name is %s.\n&quot;, username);
+if (n &gt; BUFFER_SIZE)
+   /* Handle error */
+If username in the above example causes result to exceed 50 characters in length, the function will limit the string that gets saved in buf by cutting off final characters (truncating). This may seem undesirable, but it is usually preferable to having a security vulnerability, which buffer overflows often cause. Additionally, the return code of snprintf indicates how many characters the function would have written to the string had enough space existed. Systems can use this information to allocate a new (larger) buffer if they require the whole string.
+Another safe sprintf alternative is asprintf which is a GNU extension:
+int asprintf(char **ret, const char *format, ...)
+asprintf automatically allocates enough memory to hold the final string. It sets *ret to a pointer to the resulting string, or to an undefined value if an error occurred (GLibc is notable in being the only implementation that doesn't always set *ret to NULL on error). The programmer using asprintf has the responsibility of freeing the allocated memory after use. Though not part of any standard, asprintf comes in the C libraries of several operating systems (including OpenBSD, FreeBSD, and NetBSD) and on other platforms in the libiberty library.
+GLib provides yet another safe alternative: g_strdup_printf, which allocates enough memory, but, unlike asprintf, returns the resulting string as its return value rather than via the first argument.
+C++ alternatives to sprintf for numeric conversion
+The standard method for string formatting and the conversion of other types to strings in C++ is iostream. Unlike printf, the iostream standard library is type-safe and extensible.
+A common programming task is convert a numeric type into a string (char buffer). The sprintf family, while useful, in many applications seems like overkill for such a simple task.
+A number of alternative means in C/C++ have been developed:
+
+Boost::lexical_cast
+Boost::format
+modp_numtoa
+itoa
+
+vprintf, vfprintf, vsprintf, vsnprintf, and vasprintf
+/* va_list versions of above */
+int vprintf(const char *format, va_list ap);
+int vfprintf(FILE *stream, const char *format, va_list ap);
+int vsprintf(char *str, const char *format, va_list ap);
+int vsnprintf(char *str, size_t size, const char *format, va_list ap);
+int vasprintf(char **ret, const char *format, va_list ap);
+These are analogous to the above functions without the vs, except that they use variable argument lists. These functions offer the ability for programmers to essentially create their own printf variants. For instance, a programmer could write a function
+void fatal_error(const char *format, ...)
+which would use the va_start macro to obtain a va_list variable from the extra parameters, print a message on the standard error device using vfprintf, clean up after the va_list variable with the va_end macro, and finally perform the necessary tasks to cleanly shut down the program.
+Another common application of these functions is to write a custom printf that prints to a different target than a file. For instance, a graphical library might provide a printf-like function with X and Y coordinates:
+int graphical_printf(int x, int y, const char *format, ...)
+This would work by temporarily saving the string to a private buffer using vsnprintf or vasprintf.
+printf format placeholders
+Formatting takes place via placeholders within the format string. For example, if a program wanted to print out a person's age, it could present the output by prefixing it with &quot;Your age is &quot;. To denote that we want the integer for the age to be shown immediately after that message, we may use the format string:
+&quot;Your age is %d.&quot;
+The syntax for a format placeholder is &quot;%[parameter][flags][width][.precision][length]type&quot;.
+
+Parameter can be omitted or can be:
+
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Character ! Description |- | n$ | n is the number of the parameter to display using this format specifier, allowing the parameters provided to be output multiple times, using varying format specifiers or in different orders. This is a POSIX extension and not in C99. Example: printf(&quot;%2$d %1$#x %1$d&quot;,16,17) produces &quot;17 0x10 16&quot; |}
+
+Flags can be zero or more (in any order) of:
+
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Character ! Description |- | a number | Causes printf to left-pad the output with spaces until the required length of output is attained. If combined with '0' (see below), it will cause the sign to become a space when positive, but the remaining characters will be zero-padded |- | + | Causes printf to always denote the sign '+' or '-' of a number (the default is to omit the sign for positive numbers). Only applicable to numeric types. |- | - | Causes printf to left-align the output of this placeholder (the default is to right-align the output). |- | # | Alternate form. For 'g' and 'G', trailing zeros are not removed. For 'f', 'F', 'e', 'E', 'g', 'G', the output always contains a decimal point. For 'o', 'x', and 'X', a 0, 0x, and 0X, respectively, is prepended to non-zero numbers. |- | 0 | Causes printf to use 0 instead of spaces to left-fill a fixed-length field. For example, printf(&quot;%2d&quot;, 3) results in &quot; 3&quot;, while printf(&quot;%02d&quot;, 3) results in &quot;03&quot;. |}
+
+Width can be omitted or be any of:
+
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Character ! Description |- | a number | Causes printf to pad the output of this placeholder with spaces until it is at least number characters wide. As mentioned above, if number has a leading '0', that is interpreted as a flag, and the padding is done with '0' characters instead of spaces. |- | * | Causes printf to pad the output until it is n characters wide, where n is an integer value stored in the a function argument just preceding that represented by the modified type. For example printf(&quot;%*d&quot;, 5, 10) will result in &quot;10&quot; being printed with a width of 5. |}
+
+Precision can be omitted or be any of:
+
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Character ! Description |- | a number | For non-integral numeric types, causes the decimal portion of the output to be expressed in at least number digits. For the string type, causes the output to be truncated at number characters. If the precision is zero, nothing is printed for the corresponding argument. |- | * | Same as the above, but uses an integer value in the intaken argument to determine the number of decimal places or maximum string length. For example, printf(&quot;%.*s&quot;, 3, &quot;abcdef&quot;) will result in &quot;abc&quot; being printed. |}
+
+Length can be omitted or be any of:
+
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Character ! Description |- | hh | For integer types, causes printf to expect an int sized integer argument which was promoted from a char. |- | h | For integer types, causes printf to expect a int sized integer argument which was promoted from a short. |- | l | For integer types, causes printf to expect a long sized integer argument. |- | ll | For integer types, causes printf to expect a long long sized integer argument. |- | L | For floating point types, causes printf to expect a long double argument. |- | z | For integer types, causes printf to expect a size_t sized integer argument. |- | j | For integer types, causes printf to expect a intmax_t sized integer argument. |- | t | For integer types, causes printf to expect a ptrdiff_t sized integer argument. |}
+Additionally, several platform specific length options came to exist prior to widespread use of the ISO C99 extensions:
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Characters ! Description |- | I | For signed integer types, causes printf to expect ptrdiff_t sized integer argument; for unsigned integer types, causes printf to expect size_t sized integer argument. Commonly found in Win32/Win64 platforms. |- | I32 | For integer types, causes printf to expect a 32-bit (double word) integer argument. Commonly found in Win32/Win64 platforms. |- | I64 | For integer types, causes printf to expect a 64-bit (quad word) integer argument. Commonly found in Win32/Win64 platforms. |- | q | For integer types, causes printf to expect a 64-bit (quad word) integer argument. Commonly found in BSD platforms. |}
+ISO C99 includes the inttypes.h header file that includes a number of macros for use in platform-independent printf coding. Example macros include:
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Characters ! Description |- | &quot;PRId32&quot; | Typically equivalent to I32d (Win32/Win64) or d |- | &quot;PRId64&quot; | Typically equivalent to I64d (Win32/Win64), lld (32-bit platforms) or ld (64-bit platforms) |- | &quot;PRIi32&quot; | Typically equivalent to I32i (Win32/Win64) or i |- | &quot;PRIi64&quot; | Typically equivalent to I64i (Win32/Win64), lli (32-bit platforms) or li (64-bit platforms) |- | &quot;PRIu32&quot; | Typically equivalent to I32u (Win32/Win64) or u |- | &quot;PRIu64&quot; | Typically equivalent to I64u (Win32/Win64), llu (32-bit platforms) or lu (64-bit platforms) |}
+
+Type can be any of:
+
+
+
+{| class=&quot;wikitable&quot;
+
+
+|- ! Character ! Description |- | d, i | Print an int as a signed decimal number. '%d' and '%i' are synonymous for output, but are different when used with scanf() for input. |- | u | Print decimal unsigned int. |- | f, F | Print a double in normal (fixed-point) notation. 'f' and 'F' only differs in how the strings for an infinite number or NaN are printed ('inf', 'infinity' and 'nan' for 'f', 'INF', 'INFINITY' and 'NAN' for 'F'). |- | e, E | Print a double value in standard form ([-]d.ddd e[+/-]ddd).An E conversion uses the letter E (rather than e) to introduce the exponent. The exponent always contains at least two digits; if the value is zero, the exponent is 00. |- | g, G | Print a double in either normal or exponential notation, whichever is more appropriate for its magnitude. 'g' uses lower-case letters, 'G' uses upper-case letters. This type differs slightly from fixed-point notation in that insignificant zeroes to the right of the decimal point are not included. Also, the decimal point is not included on whole numbers. |- | x, X | Print an unsigned int as a hexadecimal number. 'x' uses lower-case letters and 'X' uses upper-case. |- | o | Print an unsigned int in octal. |- | s | Print a character string. |- | c | Print a char (character). |- | p | Print a void * (pointer to void) in an implementation-defined format. |- | n | Print nothing, but write number of characters successfully written so far into an integer pointer parameter. |- | % | Print a literal '%' character (this type doesn't accept any flags, width, precision or length). |}
+If the syntax of a conversion specification is invalid, behavior remains undefined, and in fact can cause program termination. If there are too few function arguments provided to supply values for all the conversion specifications in the template string, or if the arguments are not of the correct types, the results are also undefined. Excess arguments are ignored. In a number of cases, the undefined behavior has led to &quot;Format string attack&quot; security vulnerabilities.
+Note that some compilers, like the GNU Compiler Collection, will statically check the format strings of printf-like functions and warn about problems (specially by using the flags -Wall or -Wformat). The GNU Compiler Collection will also warn about user-defined printf-style functions if the non-standard &quot;format&quot; __attribute__ is applied to the function.
+Risks of using field width versus explicit delimiters in tabular output
+Using only field widths to provide for tabulation, as with a format like &quot;%8d%8d%8d&quot; for three integers in three 8-character columns, will not guarantee that field separation will be retained if large numbers occur in the data. Loss of field separation can easily lead to corrupt output. In systems which encourage the use of programs as building blocks in scripts, such corrupt data can often be forwarded into and corrupt further processing, regardless of whether the original programmer expected the output would only be read by human eyes. Such problems can be eliminated by including explicit delimiters, even spaces, in all tabular output formats. Simply changing the dangerous example from before to &quot;%7d %7d %7d&quot; addresses this, formatting identically until numbers become larger, but then explicitly preventing them from becoming merged on output due to the explicitly-included spaces. Similar strategies apply to string data.
+Custom printf format placeholders
+There are a few implementations of printf-like functions that allow extensions to the escape-character-based mini-language, thus allowing the programmer to have a specific formatting function for non-builtin types. One of the most well-known is glibc's register_printf_function(). However, it is rarely used due to the fact that it conflicts with static format string checking. Another is Vstr custom formatters, which allows adding multi-character format names, and can work with static format checkers.
+Some applications (like the Apache HTTP Server) include their own printf-like function, and embed extensions into it. However these all tend to have the same problems that register_printf_function() has.
+Most non-C languages that have a printf-like function work around the lack of this feature by just using the &quot;%s&quot; format and converting the object to a string representation. C++ offers a notable exception, in that it has a printf function inherited from its C history, but also has a completely different mechanism that is preferred.
+Programming languages with printf
+
+AMPL
+awk
+Bourne shell (sh) and derivatives such as Korn shell (ksh), Bourne again shell (bash), or Z shell (zsh)
+C, and subsequently C++ and Obj-C (C++ also provides overloaded shift operators and manipulators as an alternative for formatted output - see iostream and iomanip)
+F#
+GNU MathProg
+GNU Octave
+Haskell
+Java (since version 1.5)
+Maple
+Mathematica
+MATLAB
+Objective Caml
+PHP,
+Python (using the % operator)
+Perl
+Ruby
+
+See also
+
+scanf
+C standard library
+Format string attack
+iostream
+
+Notes
+
+External links
+
+printf format specifications quick reference
+
+The Formatter specification in Java 1.5
+GNU Bash printf(1) builtin
+C printf comparison page
+
+sprintf() for JavaScript - a lightweight and easy to use implementation
+Size Prefixes for printf and wprintf Format-Type Specifiers
+GNU Bash printf Man Page
+
+
+es:Printf fr:Printf it:Printf ja:Printf pl:Printf ru:Printf
+Category:Articles with example C code Category:Stdio.h Category:Unix software
+
+
+
+{{ cite web | publisher=Sun Microsystems Inc. | title = PrintStream (Java 2 Platform SE 5.0) | year = 1994 | url=http://java.sun.com/j2se/1.5.0/docs/api/java/io/PrintStream.html#printf(java.lang.String,%20java.lang.Object...) | accessdate=2008-11-18 }}↩
+{{ cite web | publisher=Sun Microsystems Inc. | title = String (Java 2 Platform SE 5.0) | year = 1994 | url=http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html#format(java.lang.String,%20java.lang.Object...) | accessdate=2008-11-18 }}↩
+
+

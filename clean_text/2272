@@ -1,0 +1,87 @@
+In mathematics, the Henstock&lt;U+2013&gt;Kurzweil integral, also known as the Denjoy integral (pronounced ) and the Perron integral, is one of a number of definitions of the integral of a function. It is a generalization of the Riemann integral which in some situations is more useful than the Lebesgue integral.
+This integral was first defined by Arnaud Denjoy (1912). Denjoy was interested in a definition that would allow one to integrate functions like
+$$f(x)=\frac{1}{x}\sin\left(\frac{1}{x^3}\right).$$
+This function has a singularity at 0, and is not Lebesgue integrable. However, it seems natural to calculate its integral except over [−&lt;U+03B5&gt;,&lt;U+03B4&gt;] and then let &lt;U+03B5&gt;, &lt;U+03B4&gt; &lt;U+2192&gt; 0.
+Trying to create a general theory Denjoy used transfinite induction over the possible types of singularities which made the definition quite complicated. Other definitions were given by Nikolai Luzin (using variations on the notions of absolute continuity), and by Oskar Perron, who was interested in continuous major and minor functions. It took a while to understand that the Perron and Denjoy integrals are actually identical.
+Later, in 1957, the Czech mathematician Jaroslav Kurzweil discovered a new definition of this integral elegantly similar in nature to Riemann's original definition which he named the gauge integral; the theory was developed by Ralph Henstock. Due to these two important mathematicians, it is now commonly known as the Henstock&lt;U+2013&gt;Kurzweil integral. The simplicity of Kurzweil's definition made some educators advocate that this integral should replace the Riemann integral in introductory calculus courses, but this idea has not gained traction.
+Definition
+Henstock's definition is as follows:
+Given a tagged partition P of [a, b], say
+a = u0 &lt; u1 &lt; ⋯ &lt; un = b,  ti ∈ [ui − 1, ui]
+and a positive function
+δ: [a, b] → (0, ∞), 
+which we call a gauge, we say ''P ''is δ-fine if
+∀i  ui − ui − 1 &lt; δ(ti).
+For a tagged partition P and a function
+f: [a, b] → ℝ
+we define the Riemann sum to be
+$$\sum_P f = \sum_{i = 1}^n (u_i - u_{i-1}) f(t_i).$$
+Given a function
+f: [a, b] → ℝ,
+we now define a number I to be the Henstock&lt;U+2013&gt;Kurzweil integral of f if for every &lt;U+03B5&gt; &gt; 0 there exists a gauge δ such that whenever P is δ-fine, we have
+|∑Pf − I| &lt; ε.
+If such an I exists, we say that f is Henstock&lt;U+2013&gt;Kurzweil integrable on [a, b].
+Cousin's theorem states that for every gauge δ, such a δ-fine partition P does exist, so this condition cannot be satisfied vacuously. The Riemann integral can be regarded as the special case where we only allow constant gauges.
+Properties
+Let  be any function.
+If , then f is Henstock&lt;U+2013&gt;Kurzweil integrable on [a, b] if and only if it is Henstock&lt;U+2013&gt;Kurzweil integrable on both [a, c] and [c, b], and then
+∫abf(x) dx = ∫acf(x) dx + ∫cbf(x) dx.
+The Henstock&lt;U+2013&gt;Kurzweil integral is linear, i.e., if f and g are integrable, and &lt;U+03B1&gt;, &lt;U+03B2&gt; are reals, then &lt;U+03B1&gt;f + &lt;U+03B2&gt;g is integrable and
+∫abαf(x) + βg(x) dx = α∫abf(x) dx + β∫abg(x) dx.
+If f is Riemann or Lebesgue integrable, then it is also Henstock&lt;U+2013&gt;Kurzweil integrable, and the values of the integrals are the same. The important Hake's theorem states that
+∫abf(x) dx = limc → b−∫acf(x) dx
+whenever either side of the equation exists, and symmetrically for the lower integration bound. This means that if f is &quot;improperly Henstock&lt;U+2013&gt;Kurzweil integrable&quot;, then it is properly Henstock&lt;U+2013&gt;Kurzweil integrable; in particular, improper Riemann or Lebesgue integrals such as
+$$\int_0^1\frac{\sin(1/x)}x\,dx$$
+are also Henstock&lt;U+2013&gt;Kurzweil integrals. This shows that there is no sense in studying an &quot;improper Henstock&lt;U+2013&gt;Kurzweil integral&quot; with finite bounds. However, it makes sense to consider improper Henstock&lt;U+2013&gt;Kurzweil integrals with infinite bounds such as
+∫a + ∞f(x) dx := limb →  + ∞∫abf(x) dx.
+For many types of functions the Henstock&lt;U+2013&gt;Kurzweil integral is no more general than Lebesgue integral. For example, if f is bounded, the following are equivalent:
+
+f is Henstock&lt;U+2013&gt;Kurzweil integrable,
+f is Lebesgue integrable,
+f is Lebesgue measurable.
+
+In general, every Henstock&lt;U+2013&gt;Kurzweil integrable function is measurable, and f is Lebesgue integrable if and only if both f and |f| are Henstock&lt;U+2013&gt;Kurzweil integrable. This means that the Henstock&lt;U+2013&gt;Kurzweil integral can be thought of as a &quot;non-absolutely convergent version of Lebesgue integral&quot;. It also implies that the Henstock&lt;U+2013&gt;Kurzweil integral satisfies appropriate versions of the monotone convergence theorem (without requiring the functions to be nonnegative) and dominated convergence theorem (where the condition of dominance is loosened to g(x) &lt;U+2264&gt; fn(x) &lt;U+2264&gt; h(x) for some integrable g, h).
+If F is differentiable everywhere (or with countable many exceptions), the derivative F′ is Henstock&lt;U+2013&gt;Kurzweil integrable, and its indefinite Henstock&lt;U+2013&gt;Kurzweil integral is F. (Note that F′ need not be Lebesgue integrable.) In other words, we obtain a simpler and more satisfactory version of the second fundamental theorem of calculus: each differentiable function is, up to a constant, the integral of its derivative:
+
+
+F(x) − F(a) = ∫axF′(t) dt.
+
+
+Conversely, the Lebesgue differentiation theorem continues to holds for the Henstock&lt;U+2013&gt;Kurzweil integral: if f is Henstock&lt;U+2013&gt;Kurzweil integrable on [a, b], and
+F(x) = ∫axf(t) dt,
+then F′(x) = f(x) almost everywhere in [a, b] (in particular, F is almost everywhere differentiable).
+McShane integral
+Interestingly, Lebesgue integral on a line can also be presented in a similar fashion.
+First of all, change of
+∀i  ui − ui − 1 &lt; δ(ti)
+to
+∀i  [ui − 1, ui] ⊂ Uδ(ti)(ti)
+(here Uε(a) is a ε-neighbourhood of a) in the notion of δ-fine partition yields a definition of the Henstock&lt;U+2013&gt;Kurzweil integral equivalent to the one given above. But after this change we can drop condition
+ti ∈ [ui − 1, ui]
+and get a definition of McShane integral, which is equivalent to the Lebesgue integral.
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+External links
+The following are additional resources on the web for learning more:
+
+http://www.math.vanderbilt.edu/~schectex/ccc/gauge/
+http://www.math.vanderbilt.edu/~schectex/ccc/gauge/letter/
+
+
+ca:Integral de Henstock-Kurzwe de:Gauge-Integral fr:Int&lt;U+00E9&gt;grale de Kurzweil-Henstock it:Integrale di Henstock-Kurzweil he:&lt;U+05D0&gt;&lt;U+05D9&gt;&lt;U+05E0&gt;&lt;U+05D8&gt;&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05DC&gt; &lt;U+05D4&gt;&lt;U+05E0&gt;&lt;U+05E1&gt;&lt;U+05D8&gt;&lt;U+05D5&gt;&lt;U+05E7&gt; nl:Henstock-Kurzweil-integraal pt:Integral de Henstock&lt;U+2013&gt;Kurzweil ru:&lt;U+0418&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+0433&gt;&lt;U+0440&gt;&lt;U+0430&gt;&lt;U+043B&gt; &lt;U+041A&gt;&lt;U+0443&gt;&lt;U+0440&gt;&lt;U+0446&gt;&lt;U+0432&gt;&lt;U+0435&gt;&lt;U+0439&gt;&lt;U+043B&gt;&lt;U+044F&gt;-&lt;U+0425&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+043A&gt;&lt;U+0430&gt; fi:Henstock-Kurzweil-integraali
+Category:Definitions of mathematical integration

@@ -1,0 +1,865 @@
+
+This article concerns the grammar of the Icelandic language. Icelandic is an inflected language with four cases: nominative, accusative, dative and genitive. Icelandic nouns can have one of three grammatical genders, masculine, feminine or neuter. Nouns, adjectives and pronouns are declined in the four cases, in two numbers, singular and plural.
+Morphology
+Many German speakers will find Icelandic morphology familiar. Almost every morphological category in one language is represented in the other. Nouns are declined for case, number and gender, adjectives for case, number, gender and comparison, and there are two declensions for adjectives, weak and strong. Icelandic possesses only the definite article, which can stand on its own, or be attached to its modified noun (as in other North Germanic languages). Verbs are conjugated for tense, mood, person, number and voice. There are three voices: active, passive and medial; but it may be debated whether the medial voice is a voice or simply an independent class of verbs of its own. There are only two simple tenses, past and present, but to make up for that there are a number of auxiliary constructions, some of which may be regarded as tenses, others as aspects to varying degrees.
+Nouns
+Icelandic nouns are much like Old Norse, both in form and inflection. They decline in four cases (nominative, accusative, dative and genitive) and vary in gender (masculine, feminine or neuter) and number (singular and plural). There are two main declension paradigms for each gender: strong and weak nouns, that are furthermore divided in smaller paradigms for declension, according to many criteria (sound-shifts, consonant clusters etc.)
+
+
+
+number
+case
+masculine
+feminine
+neuter
+
+
+
+
+singular
+nom.
+hattur
+borg
+glas
+
+
+acc.
+hatt
+borg
+glas
+
+
+
+dat.
+hatti
+borg
+glasi
+
+
+
+gen.
+hatts
+borgar
+glass
+
+
+
+plural
+nom.
+hattar
+borgir
+gl&lt;U+00F6&gt;s
+
+
+acc.
+hatta
+borgir
+gl&lt;U+00F6&gt;s
+
+
+
+dat.
+h&lt;U+00F6&gt;ttum
+borgum
+gl&lt;U+00F6&gt;sum
+
+
+
+gen.
+hatta
+borga
+glasa
+
+
+
+
+The gender of a noun can often be surmised by looking at the ending of the word:
+
+Masculine nouns&lt;U+2014&gt;often end in -ur, -i, -ll or -nn
+Feminine nouns&lt;U+2014&gt;often end in -a, -ing or -un
+Neuter nouns&lt;U+2014&gt;if the last letter of the word has an acute accent (&lt;U+00B4&gt;), then the word is usually neuter
+
+Whilst rare, some nouns, such as leikfimi (gymnastics) are not declined at all.
+Articles
+Icelandic does not have an indefinite article (a/an in English), and the definite article (the) is joined onto the end of word in question. The table below shows the different suffix forms for the three genders:
+
+
+
+No article
+Definite article
+
+
+
+
+masculine
+feminine
+
+
+sing.
+plu.
+
+
+-ur
+-ar
+
+
+-i
+-inn
+
+
+-ll
+-a
+
+
+-nn
+-nninn
+
+
+
+The example below shows three nouns, one for each respective gender, declined in the accusative:
+
+masculine: hvallur&lt;U+2014&gt;&lt;U+201C&gt;(a) whale&lt;U+201D&gt; becomes hvallurinn&lt;U+2014&gt;&lt;U+201C&gt;the whale&lt;U+201D&gt;
+feminine: klukka&lt;U+2014&gt;&lt;U+201C&gt;(a) clock&lt;U+201D&gt; becomes klukkan&lt;U+2014&gt;&lt;U+201C&gt;the clock&lt;U+201D&gt;
+neuter: heimilisfang&lt;U+2014&gt;&lt;U+201C&gt;(an) address&lt;U+201D&gt; becomes heimilisfangi&lt;U+00F0&gt;&lt;U+2014&gt;&lt;U+201C&gt;the address&lt;U+201D&gt;
+
+Pronouns
+Personal
+The personal pronouns in Icelandic are as follows:
+
+
+
+
+case
+1st person
+2nd person
+3rd person
+
+
+
+
+singular
+nom.
+&lt;U+00E9&gt;g
+&lt;U+00FE&gt;&lt;U+00FA&gt;
+hann
+
+
+acc.
+mig
+&lt;U+00FE&gt;ig
+hann
+hana
+
+
+dat.
+m&lt;U+00E9&gt;r
+&lt;U+00FE&gt;&lt;U+00E9&gt;r
+honum
+henni
+
+
+gen.
+m&lt;U+00ED&gt;n
+&lt;U+00FE&gt;&lt;U+00ED&gt;n
+hans
+hennar
+
+
+plural
+nom.
+vi&lt;U+00F0&gt;
+&lt;U+00FE&gt;i&lt;U+00F0&gt;
+&lt;U+00FE&gt;eir
+
+
+acc.
+okkur
+ykkur
+&lt;U+00FE&gt;&lt;U+00E1&gt;
+&lt;U+00FE&gt;&lt;U+00E6&gt;r
+
+
+dat.
+okkur
+ykkur
+&lt;U+00FE&gt;eim
+
+
+
+gen.
+okkar
+ykkar
+&lt;U+00FE&gt;eirra
+
+
+
+
+Icelandic has separate masculine, feminine and neuter words for they, when talking about a group of mixed gender people or items, the neuter form is used. Like English, the pronoun usually comes before the verb, as in the example below:
+
+
+&lt;U+00E9&gt;g heiti Magn&lt;U+00FA&gt;s&lt;U+2014&gt;I am called Magn&lt;U+00FA&gt;s
+
+
+But, just as easily, the order of the sentence may be inverted. In this case, the pronoun moves to the end of the sentence:
+
+
+Magn&lt;U+00FA&gt;s heiti &lt;U+00E9&gt;g&lt;U+2014&gt;Magn&lt;U+00FA&gt;s I am called (or, literally Magn&lt;U+00FA&gt;s called I am)
+
+
+In English, changing of the word order like this would render a phrase nonsensical. This is mainly due to the fact that whilst being a Germanic language, English has lost most of its noun declension. See syntax for more information.
+Possessive
+The Icelandic possessive pronouns for the respective grammatical persons are as follows:
+
+
+
+
+case
+1st person
+colspan =3 | 2nd person
+3rd person
+
+
+
+
+singular
+nom.
+minn
+m&lt;U+00ED&gt;n
+mitt
+
+
+acc.
+minn
+m&lt;U+00ED&gt;na
+mitt
+&lt;U+00FE&gt;inn
+
+
+dat.
+m&lt;U+00ED&gt;num
+minni
+m&lt;U+00ED&gt;nu
+&lt;U+00FE&gt;&lt;U+00ED&gt;num
+
+
+gen.
+m&lt;U+00ED&gt;ns
+minnar
+m&lt;U+00ED&gt;ns
+&lt;U+00FE&gt;&lt;U+00ED&gt;ns
+
+
+plural
+nom.
+m&lt;U+00ED&gt;nir
+m&lt;U+00ED&gt;nar
+m&lt;U+00ED&gt;n
+
+
+acc.
+m&lt;U+00ED&gt;na
+m&lt;U+00ED&gt;nar
+m&lt;U+00ED&gt;n
+&lt;U+00FE&gt;&lt;U+00ED&gt;na
+
+
+dat.
+m&lt;U+00ED&gt;num
+m&lt;U+00ED&gt;num
+m&lt;U+00ED&gt;num
+&lt;U+00FE&gt;&lt;U+00ED&gt;num
+
+
+gen.
+minna
+minna
+minna
+&lt;U+00FE&gt;inna
+
+
+
+Where the three columns for each person represent masculine, feminine and neuter genders respectively.
+Demonstrative
+The Icelandic demonstrative pronouns are as follows:
+
+
+
+
+case
+&lt;U+00FE&gt;essi
+colspan =3 | s&lt;U+00E1&gt;
+hinn
+
+
+
+
+singular
+nom.
+&lt;U+00FE&gt;essi
+&lt;U+00FE&gt;essi
+&lt;U+00FE&gt;etta
+
+
+acc.
+&lt;U+00FE&gt;ennan
+&lt;U+00FE&gt;essa
+&lt;U+00FE&gt;etta
+&lt;U+00FE&gt;ann
+
+
+dat.
+&lt;U+00FE&gt;essum
+&lt;U+00FE&gt;essari
+&lt;U+00FE&gt;essu
+&lt;U+00FE&gt;eim
+
+
+gen.
+&lt;U+00FE&gt;essa
+&lt;U+00FE&gt;essarar
+&lt;U+00FE&gt;essa
+&lt;U+00FE&gt;ess
+
+
+plural
+nom.
+&lt;U+00FE&gt;essir
+&lt;U+00FE&gt;essar
+&lt;U+00FE&gt;essi
+
+
+acc.
+&lt;U+00FE&gt;essa
+&lt;U+00FE&gt;essar
+&lt;U+00FE&gt;essi
+&lt;U+00FE&gt;&lt;U+00E1&gt;
+
+
+dat.
+&lt;U+00FE&gt;essum
+&lt;U+00FE&gt;essum
+&lt;U+00FE&gt;essum
+&lt;U+00FE&gt;eim
+
+
+gen.
+&lt;U+00FE&gt;essara
+&lt;U+00FE&gt;essara
+&lt;U+00FE&gt;essara
+&lt;U+00FE&gt;eirra
+
+
+
+Where the three columns for each person represent masculine, feminine and neuter genders respectively.
+Numerals
+The words for one to four are declined for the respective cases and genders:
+
+
+
+
+
+
+one
+masculine
+feminine
+neuter
+
+
+
+
+nominative
+einn
+ein
+eitt
+
+
+accusative
+einn
+eina
+eitt
+
+
+dative
+einum
+einni
+einu
+
+
+genitive
+eins
+einnar
+eins
+
+
+
+
+
+
+two
+masculine
+feminine
+neuter
+
+
+
+
+nominative
+tveir
+tv&lt;U+00E6&gt;r
+tv&lt;U+00F6&gt;
+
+
+accusative
+tvo
+tv&lt;U+00E6&gt;r
+tv&lt;U+00F6&gt;
+
+
+dative
+tveimur
+
+
+
+
+genitive
+tveggja
+
+
+
+
+
+
+
+
+
+
+three
+masculine
+feminine
+neuter
+
+
+
+
+nominative
+&lt;U+00FE&gt;r&lt;U+00ED&gt;r
+&lt;U+00FE&gt;rj&lt;U+00E1&gt;r
+&lt;U+00FE&gt;rj&lt;U+00FA&gt;
+
+
+accusative
+&lt;U+00FE&gt;rj&lt;U+00E1&gt;
+&lt;U+00FE&gt;rj&lt;U+00E1&gt;r
+&lt;U+00FE&gt;rj&lt;U+00FA&gt;
+
+
+dative
+&lt;U+00FE&gt;remur
+
+
+
+
+genitive
+&lt;U+00FE&gt;riggja
+
+
+
+
+
+
+
+
+four
+masculine
+feminine
+neuter
+
+
+
+
+nominative
+fj&lt;U+00F3&gt;rir
+fj&lt;U+00F3&gt;rar
+fj&lt;U+00F6&gt;gur
+
+
+accusative
+fj&lt;U+00F3&gt;ra
+fj&lt;U+00F3&gt;rar
+fj&lt;U+00F6&gt;gur
+
+
+dative
+fj&lt;U+00F3&gt;rum
+
+
+
+
+genitive
+fj&lt;U+00F6&gt;gurra
+
+
+
+
+
+
+
+
+Other numbers are as follows and not declined:
+
+
+
+five
+fimm
+nineteen
+n&lt;U+00ED&gt;tj&lt;U+00E1&gt;n
+
+
+six
+sex
+twenty
+tuttugu
+
+
+seven
+sj&lt;U+00F6&gt;
+twenty-one
+tuttugu og einn
+
+
+eight
+&lt;U+00E1&gt;tta
+thirty
+&lt;U+00FE&gt;rj&lt;U+00E1&gt;t&lt;U+00ED&gt;u
+
+
+nine
+n&lt;U+00ED&gt;u
+forty
+fj&lt;U+00F6&gt;rut&lt;U+00ED&gt;u
+
+
+ten
+t&lt;U+00ED&gt;u
+fifty
+fimmt&lt;U+00ED&gt;u
+
+
+eleven
+ellefu
+sixty
+sext&lt;U+00ED&gt;u
+
+
+twelve
+t&lt;U+00F3&gt;lf
+seventy
+sj&lt;U+00F6&gt;t&lt;U+00ED&gt;u
+
+
+thirteen
+&lt;U+00FE&gt;rett&lt;U+00E1&gt;n
+eighty
+&lt;U+00E1&gt;ttat&lt;U+00ED&gt;u
+
+
+fourteen
+fj&lt;U+00F3&gt;rt&lt;U+00E1&gt;n
+ninety
+n&lt;U+00ED&gt;ut&lt;U+00ED&gt;u
+
+
+fifteen
+fimmt&lt;U+00E1&gt;n
+(one) hundred
+(eitt) hundra&lt;U+00F0&gt;
+
+
+sixteen
+sext&lt;U+00E1&gt;n
+(one) thousand
+(eitt) &lt;U+00FE&gt;&lt;U+00FA&gt;sund
+
+
+seventeen
+sautj&lt;U+00E1&gt;n
+'''(one) million
+(ein) milj&lt;U+00F3&gt;n
+
+
+eighteen
+&lt;U+00E1&gt;tj&lt;U+00E1&gt;n
+zero
+n&lt;U+00FA&gt;ll
+
+
+
+Adjectives
+Adjectives themselves must agree with the gender of the nouns that they describe. For example, the word for &lt;U+2018&gt;Icelandic&lt;U+2019&gt; would agree as follows:
+
+
+
+masculine
+feminine
+neuter
+
+
+
+
+&lt;U+00ED&gt;slenskur
+&lt;U+00ED&gt;slensk
+&lt;U+00ED&gt;slenskt
+
+
+Icelandic
+
+
+
+
+
+In addition, they must agree with the number (i.e. singular/plural) of the noun being described:
+
+
+
+masculine
+feminine
+neuter
+
+
+
+
+&lt;U+00ED&gt;slenskir
+&lt;U+00ED&gt;slenskar
+&lt;U+00ED&gt;slenskt
+
+
+lit. Icelandics
+
+
+
+
+
+Verbs
+As with most declined languages, the verbs in Icelandic determine the case of the subsequent nouns, pronouns and adjectives of a sentence. In the infinitive, most Icelandic verbs end in -a. There are three main groups of verbs in Icelandic: -a, -i, and -ur, referring to the endings that these verbs take when conjugated in the first person singular present. Take the infinitive tala (&lt;U+2018&gt;to talk&lt;U+2019&gt;), for example:
+
+
+
+Number
+Singular
+Plural
+
+
+
+
+Person
+&lt;U+00E9&gt;g
+I
+&lt;U+00FE&gt;&lt;U+00FA&gt;
+you (compare archaic thou)
+
+
+tala
+to talk
+tala
+talk
+talar
+talk
+
+
+
+And compare with the verb vera (&lt;U+2018&gt;to be&lt;U+2019&gt;):
+
+
+
+vera
+to be
+er
+am
+ert
+are
+er
+is
+erum
+are
+eru&lt;U+00F0&gt;
+are
+eru
+are
+
+
+
+
+
+L&lt;U+00E6&gt;ra (&lt;U+2018&gt;to learn&lt;U+2019&gt;) is an -i verb:
+
+
+
+l&lt;U+00E6&gt;ra
+to learn
+l&lt;U+00E6&gt;ri
+learn
+l&lt;U+00E6&gt;rir
+learn
+l&lt;U+00E6&gt;rir
+learns
+l&lt;U+00E6&gt;rum
+learn
+l&lt;U+00E6&gt;ri&lt;U+00F0&gt;
+learn
+l&lt;U+00E6&gt;ra
+learn
+
+
+
+
+
+And finally ver&lt;U+00F0&gt;a (&lt;U+2018&gt;to become&lt;U+2019&gt;), which is an -ur verb:
+
+
+
+ver&lt;U+00F0&gt;a
+to become
+ver&lt;U+00F0&gt;
+become
+ver&lt;U+00F0&gt;ur
+become
+ver&lt;U+00F0&gt;ur
+becomes
+ver&lt;U+00F0&gt;um
+become
+ver&lt;U+00F0&gt;i&lt;U+00F0&gt;
+become
+ver&lt;U+00F0&gt;a
+become
+
+
+
+
+
+Note how for each of the verb groups, the conjugations in the singular change, but in the plural, the endings are nearly always predictable (-um, -i&lt;U+00F0&gt; and -a, respectively). As English learners of many foreign languages find, conjugation can be difficult to understand because the majority of English verbs are regular and have only one change in ending (-s for third person singular). However, in the majority of cases in Icelandic, the conjugation patterns can be easily picked up and remain regular across most verbs. However, it should be noted that one can not determine how to conjugate a verb merely from seeing its infinitive, so it is a matter of learning which group each verb belongs to.
+Some Icelandic infinitives end with the -ja suffix. These verbs can be conjugated like -ur verbs, that is to say that the suffix is lost in the first person singular. When conjugating -ja verbs, the single &lt;U+2018&gt;j&lt;U+2019&gt; must also be removed, so syngja (&lt;U+2018&gt;to sing&lt;U+2019&gt;) would become &lt;U+00E9&gt;g syng (&lt;U+2018&gt;I sing&lt;U+2019&gt;) in the first person singular and not &lt;U+00E9&gt;g syngj.
+Tenses
+Strictly speaking, there are only two simple tenses in Icelandic, simple present and simple past. All other tenses are formed using auxiliary constructions (some of these are regarded as tenses, others as aspects). For example, the present continuous is formed thus:
+
+
+personal pronoun + vera + a&lt;U+00F0&gt; + infinitive verb
+
+&lt;U+00E9&gt;g er a&lt;U+00F0&gt; l&lt;U+00E6&gt;ra
+
+I am learning
+
+
+However, it should be noted that this construction only usually applies to abstract concepts, and is not used for activities, e.g. to sit would not use this construction. Instead, the simple present should be used.
+The collective tenses are:
+
+conditional
+future
+past
+
+continuous
+perfect
+subjunctive
+
+present
+
+continous
+perfect
+subjunctive
+
+
+Reflexivity
+For many verbs that require an object, a reflexive pronoun can be used instead. The case of the pronoun depends on the case that the verb governs:
+
+
+'''subject + verb + object (reflexive pronoun)
+
+&lt;U+00FE&gt;&lt;U+00FA&gt; skemmtir &lt;U+00FE&gt;&lt;U+00E9&gt;r
+
+you enjoy yourself
+
+
+Here, we can tell that skemmtir governs the dative (you are giving the enjoyment to yourself) because the reflexive pronoun &lt;U+00FE&gt;&lt;U+00E9&gt;r is used. See above for other personal pronouns.
+Adverbs
+Compared to other lexical categories, Icelandic adverbs are relatively simple, and are not declined and can be constructed easily from adjectives, nouns and verbs. These derived adverbs often end in -lega (approximately equivalent to the -ly suffix in English):
+
+
+n&lt;U+00FD&gt;r&lt;U+2014&gt;new &lt;U+21D2&gt; n&lt;U+00FD&gt;lega&lt;U+2014&gt;lately
+
+
+However, like English, some common adverbs do not stick to this pattern:
+
+
+n&lt;U+00FA&gt;na&lt;U+2014&gt;now
+
+br&lt;U+00E1&gt;&lt;U+00F0&gt;um&lt;U+2014&gt;soon
+
+
+Other word classes
+Prepositions
+In Icelandic, prepositions determine the case of the following noun. Some examples are given below:
+
+
+
+accusative
+dative
+genitive
+
+
+
+
+um - about
+a&lt;U+00F0&gt; - towards
+til - to
+
+
+gegnum - through
+fr&lt;U+00E1&gt; - from
+&lt;U+00E1&gt;n - without
+
+
+kringum - around
+af - off
+auk - ''in addition
+
+
+vi&lt;U+00F0&gt; - against
+hj&lt;U+00E1&gt; - beside
+mill - between
+
+
+
+Syntax
+Icelandic word order is SVO (subject-verb-object), generally speaking, with the subject and verb inverted in questions and when a sentence begins with an adverb. However, the inflectional system allows for considerable freedom in word order.
+Questions
+In Icelandic, questions can be easily formed by rearranging the order of the sentence from subject-verb-object to verb-subject-object. For example:
+
+
+&lt;U+00DE&gt;&lt;U+00FA&gt; talar &lt;U+00ED&gt;slensku.&lt;U+2014&gt;You speak Icelandic.
+
+
+can be made into a question as follows:
+
+
+Talar &lt;U+00FE&gt;&lt;U+00FA&gt; &lt;U+00ED&gt;slensku?&lt;U+2014&gt;Do you speak Icelandic? (literally. Speak you Icelandic?)
+
+
+This simple rule still applies when interrogatives are involved, which are simply added to the front of the sentence. The interrogatives in Icelandic are:
+
+hva&lt;U+00F0&gt;?&lt;U+2014&gt;what/how?
+hva&lt;U+00F0&gt;a?&lt;U+2014&gt;what kind of?
+hver?&lt;U+2014&gt;who?
+hvar/hvert/hva&lt;U+00F0&gt;an?&lt;U+2014&gt;where?
+hven&lt;U+00E6&gt;r?&lt;U+2014&gt;when?
+hvers vegnu/af hverju?&lt;U+2014&gt;why?
+hvort?&lt;U+2014&gt;whether/which?
+
+However, interrogative pronouns (hva&lt;U+00F0&gt;/hver) must decline with the verb that they modify, so the case of the pronoun will change depending on the verb.
+External links
+
+An Icelandic minigrammar, Intercomprehension in Germanic Languages Online / University of Troms&lt;U+00F8&gt;, 2003.
+Mimir - Online Icelandic grammar notebook
+Verbix - an online Icelandic verb conjugator
+An online declension tool for Icelandic nouns
+
+es:Gram&lt;U+00E1&gt;tica islandesa
+Category:Grammars of specific languages Category:Icelandic language

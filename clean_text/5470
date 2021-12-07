@@ -1,0 +1,164 @@
+The PlayStation 2 hardware includes the console as well as game media and various accessories.
+PlayStation 2 software is distributed on CD-ROM and DVD-ROM. In addition the console can play audio CDs and DVD movies, and is backwardly compatible with PlayStation games. The PS2 also supports PlayStation memory cards and controllers, although PS1 memory cards only work with PS1 games and the controllers may not support all functions (such as analog buttons) for PS2 games.
+The PS2's DualShock 2 controller is essentially an upgraded PlayStation DualShock with analog face, shoulder and D-pad buttons replacing the digital buttons of the original.1 Like its predecessor, the DualShock 2 controller has force feedback, which is commonly called the &quot;vibration&quot; function.
+ The standard PlayStation 2 memory card has an 8 MB capacity and uses Sony's MagicGate encryption. This requirement prevented the production of memory cards by third parties who did not purchase a MagicGate license. Memory cards without encryption can be used to store PlayStation game saves, but PlayStation games would be unable to read from or write to the card &lt;U+2013&gt; such a card could only be used as a backup. There are a variety of non-Sony manufactured memory cards available for the PlayStation 2, allowing for a larger memory capacity than the standard 8 MB. However their use is unsupported and compatibility is not guaranteed. These memory cards can have up to 128 MB storage space.
+The console also features USB and IEEE 1394 expansion ports. Compatibility with USB and IEEE 1394 devices is dependent on the software supporting the device. For example, the PS2 BIOS will not boot an ISO image from a USB flash drive or operate a USB printer, as the machine's operating system does not include this functionality. By contrast, Gran Turismo 4 and Tourist Trophy are programmed to save screenshots to a USB mass storage device and print images on certain USB printers. A PlayStation 2 HDD can be installed in an expansion bay on the back of the console, and was required to play certain games, notably the popular Final Fantasy XI.2 This was only available on certain models (see &quot;Hardware Revisions&quot; below).
+Specifications
+The specifications of the PlayStation 2 console are as follows, with hardware revisions:     
+
+CPU: 128-bit34 &quot;Emotion Engine&quot; clocked at 294.912 MHz (299 MHz on newer versions), 10.5 million transistors
+
+System memory: 32 MB Direct Rambus or RDRAM
+Memory bus Bandwidth: 3.2 gigabytes per second
+Main processor: MIPS R5900 CPU core, 64-bit, little endian (mipsel).
+Coprocessor: FPU (Floating Point Multiply Accumulator &lt;U+00D7&gt; 1, Floating Point Divider &lt;U+00D7&gt; 1)
+Vector Units: VU0 and VU1 (Floating Point Multiply Accumulator &lt;U+00D7&gt; 9, Floating Point Divider &lt;U+00D7&gt; 1), 32-bit, at 147.456 MHz.
+
+VU0 typically used for polygon transformations optionally (under parallel or serial connection), physics and other gameplay based things
+VU1 typically used for polygon transformations, lighting and other visual based calculations (Texture matrix able for 2 coordinates (UV/ST)5)
+
+Parallel: Results of VU0/FPU sent as another display list via MFIFO (E.G. complex characters/vehicles/etc.)
+Serial: Results of VU0/FPU sent to VU1 (via 3 methods) and can act as an optional geometry pre-processor that does all base work to update the scene every frame (E.G. camera, perspective, boning and laws of movement such as animations or physics)6
+
+
+Floating Point Performance: 6.2 GFLOPS (single precision 32-bit floating point)
+
+FPU 0.64 GFLOPS
+VU0 2.44 GFLOPS
+VU1 3.08 GFLOPS (with Internal 0.64 GFLOPS EFU)
+
+Tri-Strip Geometric transformation (VU0+VU1): 150 million polygons per second7
+
+3D CG Geometric transformation with raw 3D perspective operations (VU0+VU1): 66-80+ million polygons per second8
+3D CG Geometric transformations at peak bones/movements/effects (textures)/lights (VU0+VU1, parallel or series): 15&lt;U+2013&gt;20 million polygons per second9
+Actual real-world polygons (per frame):500-650k at 30fps, 250-325k at 60fps
+
+Compressed Image Decoder: MPEG-2
+I/O Processor interconnection: Remote Procedure Call over a serial link, DMA controller for bulk transfer
+Cache memory: Instruction: 16 KB, Data: 8 KB + 16 KB (ScrP)
+
+
+
+Graphics processing unit: &quot;Graphics Synthesizer&quot; clocked at 147.456 MHz
+
+Pixel pipelines: 16
+Video output resolution: variable from 256&lt;U+00D7&gt;224 to 1920&lt;U+00D7&gt;1080 pixels
+4 MB Embedded DRAM video memory bandwidth at 48 gigabytes per second (main system 32 MB can be dedicated into VRAM for off-screen materials)
+
+Texture buffer bandwidth: 9.6 &amp;GB/s
+Frame buffer bandwidth: 38.4 GB/s
+
+DRAM Bus width: 2560-bit (composed of three independent buses: 1024-bit write, 1024-bit read, 512-bit read/write)
+Pixel configuration: RGB: Alpha:Z Buffer (24:8, 15:1 for RGB, 16, 24, or 32-bit Z buffer)
+Dedicated connection to: Main CPU and VU1
+Overall pixel fillrate: 16&lt;U+00D7&gt;147 = 2.352 Gpixel/s (rounded to 2.4 Gpixel/s)
+
+Pixel fillrate: with no texture, flat shaded 2.4 (75,000,000 32pixel raster triangles)
+Pixel fillrate: with 1 full texture (Diffuse Map), Gouraud shaded 1.2 (37,750,000 32-bit pixel raster triangles)
+Pixel fillrate: with 2 full textures (Diffuse map + specular or alpha or other), Gouraud shaded 0.6 (18,750,000 32-bit pixel raster triangles)
+
+GS effects: AAx2 (poly sorting required),10 Bilinear, Trilinear, Multi-pass, Palletizing (4-bit = 6:1 ratio, 8-bit = 3:1)
+Multi-pass rendering ability
+
+Four passes = 300 Mpixel/s (300 Mpixels/s divided by 32 pixels = 9,375,000 triangles/s lost every four passes)11
+
+
+Audio: &quot;SPU1+SPU2&quot; (SPU1 is actually the CPU clocked at 8 MHz)
+
+Sound Memory: 2 MB
+Number of voices: 48 hardware channels of ADPCM on SPU2 plus software-mixed channels
+Sampling Frequency: 44.1 kHz or 48 kHz (selectable)
+Output: Dolby Digital 5.1 Surround sound, DTS (Full motion video only), later games achieved analog 5.1 surround during gameplay through Dolby Pro Logic II
+
+I/O Processor
+
+I/O Memory: 2 MB
+CPU Core: Original PlayStation CPU (MIPS R3000A clocked at 33.8688 MHz or 37.5 MHz)
+Automatically underclocked to 33.8688 MHz to achieve hardware backwards compatibility with original PlayStation format games.
+Sub Bus: 32-bit
+Connection to: SPU and CD/DVD controller.
+
+
+
+Connectivity:
+
+2 proprietary PlayStation controller ports (250 kHz clock for PS1 and 500 kHz for PS2 controllers)
+2 proprietary Memory Card slots using MagicGate encryption (250 kHz for PS1 cards, up to 2 MHz for PS2 cards)
+2 USB 1.1 ports with an OHCI-compatible controller
+AV Multi Out (Composite video, S-Video, RGsB (SCART and VGA connector), YPBPR(component), and D-Terminal)
+RFU DC Out
+S/PDIF Digital Out
+Expansion Bay for 3.5&quot; HDD (Network Adaptor required, SCPH-10000 to 500xx only)
+Ethernet port (Slim only)
+PCMCIA for PCMCIA Network Adaptor and External Hard Disk Drive (early models only)
+i.LINK (SCPH-10000 to 3000x only)
+Infrared remote control port (SCPH-500xx and newer)
+
+
+ VGA connector is only available for progressive-scan supporting games and Linux for PlayStation 2 and requires a monitor that supports RGsB, or &quot;sync on green,&quot; signals.
+
+Disc Drive type: proprietary interface through a custom micro-controller + DSP chip. 24x speed CD-ROM, 4x speed DVD-ROM &lt;U+2014&gt; Region-locked with anti-copy protection. Can't read Gold Discs.
+
+
+Supported Disc Media: PlayStation 2 format CD-ROM, PlayStation format CD-ROM, CD-DA, PlayStation 2 format DVD-ROM, DVD Video. DVD5 (Single-layer, 4.7 GB) and DVD9 (Dual-layer, 8.5 GB) supported. Later models starting with SCPH-500xx are DVD+RW and DVD-RW compatible.
+
+Disc Read Error (DRE) Lawsuit
+A class action lawsuit was filed against Sony Computer Entertainment America Inc. on July 16, 2002, in the Superior Court of California, County of San Mateo. The lawsuit addresses consumer reports of inappropriate &quot;no disc error&quot; (disc read error) messages and other problems associated with playing DVDs and CDs on the PlayStation 2.
+Sony settled its &quot;disc read error&quot; lawsuit by compensating the affected gamers with USD $25, a free game from a specified list, and the reduced cost repair or replacement (at SCEA's discretion) of the damaged system. This settlement was subject to the courts' approval, and hearings began in the US and Canada on April 28, 2006, and May 11, 2006, respectively.12
+Revisions
+thumb|upright=1.15|The Slimline PS2 is considerably smaller than the &quot;Fat&quot; PS2 The PS2 has undergone many revisions, some only of internal construction and others involving substantial external changes. These are colloquially known among PS2 hardware hackers as V0, V1, V2, ..., V18.13 Each region receives a different model number; for example, the V18 was released in North America as SCPH-90001, in Australia as SCPH-90002, and in Hong Kong as SCPH-90006. The final digit is simply a region code and has no bearing on the hardware other than region lock-outs for games and DVDs, and language options within the system software.
+The PS2 is primarily differentiated between models featuring the original &quot;fat&quot; case design and &quot;slimline&quot; models, which were introduced at the end of 2004. In 2010, a television incorporating a PS2 was made available to consumers.
+Original case design
+ Three of the original PS2 launch models (SCPH-10000, SCPH-15000, and SCPH-18000) were only sold in Japan, and lacked the expansion bay of later PS2 models. These models included a PCMCIA slot instead of the expansion bay port of newer models. SCPH-10000 and SCPH-15000 did not have built-in DVD movie playback and instead relied on encrypted playback software that was copied to a memory card from an included CD-ROM (normally, the PS2 will only execute encrypted software from its memory card; see PS2 Independence Exploit). V3 had a substantially different internal structure from the subsequent revisions, featuring several interconnected printed circuit boards. As of V4 everything was unified into one board, except the power supply. V5 introduced minor internal changes, and the only difference between V6 (sometimes called V5.1) and V5 is the orientation of the Power/Reset switch board connector, which was reversed to prevent the use of no-solder modchips. The V5 also introduced a laser that is more reliable than the ones used in previous models. V7 and V8 included only minor revisions to V6.
+Beginning with model SCPH-500xx, the i.LINK port was removed. An infrared receiver was added for use with a remote to control DVD playback.
+The PS2 standard color is matte black. Several different variations in color were produced in different quantities and regions, including ceramic white, light yellow, metallic blue (aqua), metallic silver, navy (star blue), opaque blue (astral blue), opaque black (midnight black), pearl white, Sakura purple, satin gold, satin silver, snow white, super red, transparent blue (ocean blue), and also Limited Edition color Pink, which was distributed in some regions such as Oceania, and parts of Asia.141516
+The small PlayStation logo on the front of the disc tray could be rotated ninety degrees, in order for the logo to be the right way up in both vertical and horizontal console orientations. This feature is also used on slimline consoles.
+Slimline case designs
+
+This was superseded by another slimline design in 2007. |manufacturer=Sony Computer Entertainment |family=PlayStation |CPU=300 MHz |Connectivity=2 &lt;U+00D7&gt; USB 1.1, Ethernet, IrDA, 2 &lt;U+00D7&gt; controller ports. |type=Video game console |generation=Sixth generation era |lifespan=October 29, 2004 &lt;U+2013&gt; January 4, 2013 |controllers=DualShock 2 }}
+In September 2004, Sony unveiled its third major hardware revision (V12, model number SCPH-700xx). Available in late October 2004, it is smaller, thinner, and quieter than the older versions and includes a built-in Ethernet port (in some markets it also has an integrated modem). Due to its thinner profile, it does not contain the 3.5&quot; expansion bay and therefore does not support the internal hard disk drive. It also lacks an internal power supply, similar to the GameCube, and has a modified Multitap expansion. The removal of the expansion bay has been criticized as a limitation due to the existence of titles such as Final Fantasy XI, which require the use of the HDD.
+The official PS2 Linux also requires an expansion bay to function. Currently only the modified Multitap is sold in stores; however, these are also compatible with the older versions, and also added support for multiple memory cards on some games. Third-party connectors can be soldered into the unit giving hard drive support; however, IDE connections were completely removed in the V14 revision, thereby eliminating this option. Certain mod chips enable the use of a USB hard drive or other mass storage device.
+There are actually two sub-versions of the SCPH-700xx. One of them includes the old EE and GS chips, and the other contains the newer unified EE+GS chip, but otherwise they are identical. The variations are variously referred to as V11.5 for the older model (with separate EE and GS chips) and V12 for the newer model, and V12 for the older model and V13 for the newer model. Currently, most people use V12 for both models, or V12 for the old model and V13 for the newer one.
+The V12 model was first released in black, but a silver edition was available in the United Kingdom, Germany, Australia, United Arab Emirates and other GCC Countries, France, Italy, South Africa, and finally, North America. A limited edition pink console also became available after March 2007.
+V12 (or V13) was succeeded by V14 (SCPH-7500x), which contains integrated EE and GS chips, and different ASICs compared to previous revisions, with some chips having a copyright date of 2005, compared to 2000 or 2001 for earlier models. It also has a different lens and some compatibility issues with a different number of PlayStation games and even some PS2 games.17
+In the beginning of 2005 it was found that some black slimline console power transformers manufactured between August and December 2004 were defective and could overheat. The units were recalled by Sony, with the company supplying a replacement model made in 2005.18
+Later hardware revisions had better compatibility with PlayStation games (Metal Gear Solid: VR Missions operates on most silver models); however, the new Japanese slim models have more issues with playing PlayStation games than the first PS2 revisions. 
+In 2006, Sony released new hardware revisions (V15, model numbers SCPH-7700xa and SCPH-7700xb). It was first released in Japan on September 15, 2006, including the Silver edition. After its release in Japan, it was then released in North America, Europe and other parts of the world. The new revision uses an integrated, unified EE+GS chip; a redesigned ASIC; a different laser lens; an updated BIOS; and updated drivers.
+In July 2007, Sony started shipping a revision of the slimline PlayStation 2 (SCPH-7900x) featuring a reduced weight of 600 grams compared to 900 grams of the SCPH-7700x (with Expansion Bay), achieved through a reduction in parts. The unit also uses a smaller motherboard as well as a custom ASIC which houses the Emotion Engine, Graphics Synthesizer, and the RDRAM. The AC adaptor's weight was also reduced to 250 grams from the 350 grams in the previous revision.19
+Another refinement of the slimline PlayStation 2 (SCPH-9000x) was released in Japan on November 22, 2007.20 As well some cosmetic changes, the design of the hardware has been overhauled, incorporating the power supply into the console itself; this also reduces the total weight to . SCPH-9000x series consoles manufactured after the third quarter of 2008 (indicated by date code 8C) incorporate a revised BIOS, which disables an exploit present in all older models that allowed homebrew applications to be launched from a memory card.
+PSX
+  Sony also manufactured a consumer device called the PSX that can be used as a digital video recorder and DVD burner in addition to playing PS2 games. The device was released in Japan on December 13, 2003, and was the first Sony product to include the XrossMediaBar interface. It did not sell well in the Japanese market and was not released anywhere else.
+The PSX featured one USB port, a Memory Stick card reader and two PlayStation 2 Memory Card slots.21
+
+Sony BRAVIA KDL22PX300
+Released in 2010, the Sony BRAVIA KDL22PX300 is a 22 inch 720p television that incorporates a PlayStation 2 console and 4 HDMI ports. The 720p TV also includes BRAVIA Internet Video Access, allowing users access to streaming services such as YouTube and on-demand television.22{{-}}
+References
+
+Category:PlayStation 2 Category:Video game hardware
+
+
+
+↩
+↩
+John L. Hennessy and David A. Patterson. &quot;Computer Architecture: A Quantitative Approach, Third Edition&quot;. ISBN 1-55860-724-2↩
+Keith Diefendorff. &quot;Sony's Emotionally Charged Chip&quot;. Microprocessor Report, Volume 13, Number 5, April 19, 1999. Microdesign Resources.↩
+↩
+↩
+↩
+
+
+
+↩
+Sony Settles PS2 &quot;Disc Read Error&quot; Class Action Gamasutra, November 10, 2005↩
+↩
+↩
+↩
+A list of all console colors and console Limited Editions. Consolecolors.com↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+

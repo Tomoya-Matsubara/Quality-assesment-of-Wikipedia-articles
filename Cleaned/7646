@@ -1,0 +1,170 @@
+Reddit ,1 stylized as reddit, is a social news and entertainment website where registered users submit content in the form of either a link or a text (&quot;self&quot;) post. Other users then vote the submission &quot;up&quot; or &quot;down&quot;, which is used to rank the post and determine its position on the site's pages and front page. Reddit is based in San Francisco, California.
+Reddit was founded by Steve Huffman and Alexis Ohanian. It was acquired by Cond&lt;U+00E9&gt; Nast Publications in October 2006. In September 2011, Reddit was split from Cond&lt;U+00E9&gt; Nast, and now operates as a subsidiary of Cond&lt;U+00E9&gt; Nast's parent company, Advance Publications.
+Overview
+The site is a collection of entries submitted by its registered users, essentially a bulletin board system. The entries are organized into areas of interest called &quot;subreddits&quot;. Historically, the front page was the main subreddit, and other areas were &quot;subreddits&quot;. There is now no main subreddit.
+Registered users, especially those who post new entries, or post comments to entries, are called &quot;redditors&quot;, a portmanteau of &quot;reddit editor&quot;. Reddit itself is a portmanteau of &quot;read/edit&quot; and of &quot;read it&quot;, i.e., &quot;I read it on Reddit&quot;.
+As submissions post to the site, redditors can vote for or against them (upvote/downvote). Each reddit has a front page that shows newer submissions that have been rated highly. Redditors can also post comments about the submission, and respond back and forth in a conversation tree of comments; the comments themselves can also be upvoted and downvoted.
+The home page of Reddit displays front page content from selected subreddits. There is a default set, but registered users can customize their set.
+Redditors can &quot;friend&quot; one another, which gives a redditor quick access to posting and comments of their friend list.
+Postings are typically a link to an external source, with a title provided by the redditor who posted it. Some redditors use the site as a personal bookmark collection. Others, relying on the size and activity of Reddit, and on the crowd sourced ratings of links, use it as a news aggregator.
+Reddit also allows postings that do not link externally. These are called &quot;self posts&quot; or &quot;text submissions&quot;. Reddit encourages links over text submissions, by allowing redditors to accumulate points (&quot;karma&quot;) for highly rated links, but not for self-posts. Redditors also accumulate karma for highly rated comments, on posts of both kinds.
+The commenting system and friend system, along with a certain &quot;Reddit ethos&quot; (called reddiquette on Reddit), lend Reddit aspects of a social network, though not to the extent of Facebook, Google+, and other websites aimed at social networking.
+Front page rank, for both the general front page and for individual subreddits, is determined by the age of the submission, positive (&quot;upvoted&quot;) to negative (&quot;downvoted&quot;) feedback ratio and the total vote count.2 Dozens of submissions cycle through these front pages daily.
+Mister Splashy Pants logo used on November 27, 2007
+, commentary on the site is particularly active, with several communities generating thousands of comments per day.3 Popular comments have generated many 'memes' within the Reddit community.
+The Reddit community has been known to socialise at local parks and bars around the world,4 and there are many localised subreddits for local meetings.
+Subreddits
+Any registered user may create a subreddit, although a link to do so does not appear on the user's homepage until after thirty days.5 There are over 5,400 active subreddits to peruse,6 with a default set of 20 put in place in October 2011.7
+Users may customize what is shown on their personal front page by subscribing to individual subreddits through a page that shows all subreddits available. The site's general front page is also accessible via a link to &quot;all&quot; at the top of the individual user's customised front page.
+One of the most popular subreddits is IAmA (&quot;I am a&quot;) where a user may post &quot;AMAs&quot; (for &quot;Ask Me Anything&quot;), or similarly &quot;AMAAs&quot; ( for &quot;Ask Me Almost Anything&quot;) &lt;U+2013&gt; prompts for others to ask questions any topic. AMAs are open to all Reddit users, and use the site's comment system for both questions and answers.
+A number of notable individuals have participated in the IAmA subreddit, including President Barack Obama89 (while campaigning for the 2012 election), Chris Hadfield10 (who answered questions from the International Space Station), Bill Gates,11 Jimmy Kimmel,12 Ron Paul,13 Stephen Colbert,14 Bear Grylls,15 Deadmau5,16 Zach Braff,17 Neil Strauss,18 Raffi (musician),19 and Tim Ferriss.20 Barack Obama's AMA is the highest rated on the site, .21 On August 29, 2012, when the AMA occurred, the increased traffic brought down many parts of the website.22
+Celebrities participating in IAmAs have seen both positive and negative responses. Woody Harrelson's23 AMA was criticized after Harrelson declined to answer questions that were unrelated to a movie he was promoting.24 In contrast, rapper Snoop Lion attracted 1.6 million page views25 after conducting an AMA that provided several candid responses to the community's questions.26
+History
+Reddit was founded in June 200527 by Steve Huffman and Alexis Ohanian in Medford MA, both 22-year-old graduates of the University of Virginia.28 It received its initial funding from Y Combinator. The team expanded to include Christopher Slowe in November 2005. Between November 2005 and January 2006 Reddit merged with Aaron Swartz's company Infogami, and Swartz became an equal owner of the resulting parent company, Not A Bug.2930 Cond&lt;U+00E9&gt; Nast Publications, owner of Wired, acquired Reddit on October 31, 2006, and the team moved to San Francisco.31 In January 2007, Swartz was fired.32
+On June 18, 2008, Reddit became an open source project.33 With the exception of the anti-spam/cheating portions, all of the code and libraries written for Reddit became freely available on Github.34
+By the end of 2008, the team had grown to include Erik Martin, Jeremy Edberg,35 David King,36 and Mike Schiraldi.37 In 2009, Huffman and Ohanian moved on to form Hipmunk, recruiting Slowe38 and King39 shortly thereafter.
+In July 2010, after explosive traffic growth, Reddit introduced Reddit Gold, offering new features for a price of US$3.99/month or US$29.99/year.40 The revenue and attention got them approval to buy more servers and employ more people.
+On February 14, 2013, Reddit began accepting the digital currency bitcoin for its Reddit Gold subscription service through a partnership with bitcoin payment processor Coinbase.41
+On September 6, 2011, Reddit became operationally independent of Cond&lt;U+00E9&gt; Nast, now operating as a separate subsidiary of its parent company, Advance Publications.42
+On January 11, 2012, Reddit announced that it would be participating in a 12-hour sitewide blackout in protest of the Stop Online Piracy Act.43 The blackout occurred on January 18 and coincided with the blackouts of Wikipedia and several other Internet properties. In May 2012, Reddit joined the Internet Defense League, a group formed to organise future protests.44
+Technology
+Reddit was originally written in Common Lisp but was rewritten in Python in December 2005.45 The reasons given for the switch were wider access to code libraries and greater development flexibility. The Python web framework that former Reddit employee Aaron Swartz developed to run the site, web.py, is now available as an open-source project.46
+Reddit currently uses Pylons as its web framework.47 , Reddit has decommissioned their physical servers and migrated to Amazon Web Services.48
+Reddit uses PostgreSQL as primary datastore and slowly moving to Apache Cassandra, a column oriented datastore. It uses RabbitMQ for offline processing, HAProxy for load balancing and memcached for caching.
+In early 2009, Reddit started using jQuery.49
+On June 7, 2010, Reddit staff launched a revamped mobile interface featuring rewritten CSS, a new color scheme, and a multitude of improvements.50
+There are several unofficial applications that use the Reddit API on the Android Market, including Reddit is Fun,51 Andreddit,52 F5, BaconReader,53 and an Android tablet specific application called Reddita.54 For Apple's iOS, there is an official Reddit app called iReddit55 as well as a number of unofficial third party client apps. For Windows 8, there is an unofficial Reddit app called Reddit on ReddHub.56
+On July 21, 2010, Reddit outsourced the Reddit search engine to Flaptor, who used its search product IndexTank.57 Reddit currently uses Amazon CloudSearch.58
+Demographics
+According to Google Ad Planner's estimate, as of May 2013, the median Reddit user is male (59%), 25&lt;U+2013&gt;34 years of age, and is connecting from the United States (68%).59
+Community and culture
+The website is known for its open nature and diverse user community that generate its content. Its demographics allows for wide-ranging subject areas, or main subreddits, that receive much attention, as well as the ability for smaller subreddits to serve more niche purposes. The unique possibilities that subreddits provide create new opportunities for raising attention and fostering discussion across many areas. In gaining popularity in terms of unique users per day, Reddit has been a platform for many to raise publicity for a number of causes. And with that increased ability to garner attention and a large audience, users can use one of the largest communities on the Internet for new, revolutionary, and influential purposes.60
+Its popularity has enabled users to take unprecedented advantage of such a large community. Its innovative socially ranked rating and sorting system drives a method that is useful for fulfilling certain goals of viewership or simply finding answers to interesting questions. User sentiments about the website's function and structure include feelings about the breadth and depth of the discussions on Reddit and how the site makes it easy to discover new and interesting items. Almost all of the user reviews on Alexa.com, which rates Reddit's monthly unique traffic rating 125th in the United States, mention Reddit's &quot;good content&quot; as a likable quality. However, others raise the negative aspects of the potential for Reddit's communities to possess a &quot;hive mind&quot; of sorts,61 embodying some negative aspects of group interaction theories like crowd psychology and collective consciousness.
+In recent history, Reddit has been known as the instigator of several large-scale projects, some short and others long-term, in order to benefit others. A selection of major events are outlined below:
+In early December 2010, members of the Christianity subreddit decided to hold a fundraiser62 and later members of the atheism subreddit decided to give some friendly competition,63 cross-promoting64 fundraising drives for M&lt;U+00E9&gt;decins Sans Fronti&lt;U+00E8&gt;res (Doctors Without Borders) and World Vision's Clean Water Fund, respectively. Later, the Islam subreddit joined in, raising money for Islamic Relief. In less than a week, the three communities (as well as the Reddit community at large) raised over $200,000. Most of this was raised by the atheism subreddit,65 though the Christianity subreddit had a higher donation amount per subscriber.
+In early October 2010, a story was posted on Reddit about a seven-year-old girl, Kathleen Edward, who was in the advanced stages of Huntington's disease. The girl's neighbors were taunting her and her family. Redditors banded together and gave the girl a shopping spree6667 at Tree Town Toys, a toy store local to the story owned by a Reddit user.
+Reddit started the largest Secret Santa program in the world, which is still in operation to date. For the 2010 Holiday season, 92 countries were involved in the Secret Santa program. There were 17,543 participants, and $662,907.60 was collectively spent on gift purchases and shipping costs.686970
+Members from Reddit donated over $600,000 to DonorsChoose in support of Stephen Colbert's March to Keep Fear Alive. The donation spree broke previous records for the most money donated to a single cause by the Reddit community and resulted in an interview with Colbert on Reddit.71
+Reddit users donated $185,356.70 to Direct Relief International for Haiti after the earthquake devastated the island in January 2010.72
+Reddit users donated over $70,000 to the Faraja Orphanage in the first 24 hours to help secure the orphanage after intruders robbed and attacked one of the volunteers, Omari, who survived a strike to the head from a machete.73
+&quot;Restoring Truthiness&quot; campaign
+As a response to Glenn Beck's August 28, 2010, Restoring Honor rally (heavily promoted by him in his FOX News broadcasts during the summer), in September 2010 Reddit users started a movement to persuade Stephen Colbert to have a counter-rally in Washington, D.C.74 The movement was started by user mrsammercer, in a post where he describes waking up from a dream in which Stephen Colbert holds a satirical rally in D.C.75
+He writes, &quot;This would be the high water mark of American satire. Half a million people pretending to suspend all rational thought in unison. Perfect harmony. It'll feel like San Francisco in the late 60s, only we won't be able to get any acid.&quot;
+The idea resonated with the Reddit community, which launched a campaign to bring the event to life. Over $600,00076 was raised for charity to gain the attention of Colbert. The campaign was mentioned on-air several times, and when the Rally to Restore Sanity and/or Fear was held in Washington, D.C. on October 30, 2010, thousands of redditors made the journey.77
+During a post-rally press conference, Reddit co-founder Alexis Ohanian asked, &quot;What role did the Internet campaign play in convincing you to hold this rally?&quot; Jon Stewart responded by saying that, though it was a very nice gesture, the two had already thought of the idea prior and the deposit on using the National Mall was already paid during the summer, so it acted mostly as a &quot;validation of what we were thinking about attempting&quot;.78 In a message to the Reddit community, Colbert later added, &quot;I have no doubt that your efforts to organize and the joy you clearly brought to your part of the story contributed greatly to the turnout and success.&quot;79
+Controversies involving Reddit
+The website has a strong culture of free speech and very few rules about the types of content that may be posted.80 This has led to the creation of several communities that have been perceived as offensive, including forums dedicated to jailbait (since banned) and pictures of dead bodies; several such subreddits were the focus of an edition of Anderson Cooper 360 in September 2011.81 However, &quot;Suggestive or sexual content featuring minors&quot; was not explicitly banned until February 2012, after members of the forum Something Awful planned to send correspondence to &quot;Parent Teacher Associations, politicians, churches, news outlets and the FBI&quot; about such subreddits.82
+In October 2012, a Gawker article published the real-life identity of &quot;Violentacrez&quot;, a Reddit moderator prominently involved with a string of controversial subreddits devoted to explicit material.8384 As a result of the story, the user, revealed to be a middle-aged computer programmer from Texas, was fired from his job.85 In response to the expos&lt;U+00E9&gt;, a number of Reddit moderators banned Gawker links from their subreddits.86
+Following the 2013 Boston Marathon bombings, Reddit faced criticism after users wrongly identified a number of people as suspects.87 Notable among misidentified bombing suspects was Sunil Tripathi, a student reported missing before the bombings took place. A body reported to be Sunil's was found in Rhode Island's Providence River on April 25, 2013 as reported by the Rhode Island Health Department. The cause of death is under investigation.88 Reddit general manager Erik Martin later issued an apology for this behavior, criticizing the &quot;online witch hunts and dangerous speculation&quot; that took place on the website.89
+Awards
+In May 2010, Reddit was named in Lead411's &quot;2010 Hottest San Francisco Companies&quot; list.90
+See also
+4chan
+Digg
+Diigo
+Delicious
+Fark
+Imgur
+MetaFilter
+Reddit effect
+StumbleUpon
+Slashdot
+Social bookmarking
+Social news
+Web 2.0
+References
+External links
+Reddit
+Reddit's official blog
+Reddit's source code (hosted by GitHub)
+Alien Logo Archive
+The Culture of Reddit Documentary produced by Off Book (Web series)
+Category:News websites Category:Social bookmarking Category:Free software programmed in Python Category:News aggregators Category:Political websites Category:Internet properties established in 2005 Category:2005 establishments in the United States Category:Article Feedback 5 Additional Articles Category:Economy of San Francisco, California
+↩
+↩
+http://stattit.com/subreddits/by_comments_avg_1d/↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+ (archive.org link)↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+&quot;Reddit Plans SOPA 'Blackout' Protest Jan. 18&quot;↩
+The Internet Defense League &lt;U+2013&gt; Protecting the Free Internet since 2012↩
+↩
+↩
+Sites Using Pylons &lt;U+2013&gt; Pylons Community &lt;U+2013&gt; PythonWeb↩
+↩
+what's new on reddit: reddit now powered by jQuery &lt;U+2013&gt; Posted by Chris Slowe (keysersosa) (Friday, January 30, 2009) &lt;U+2013&gt; blog.reddit↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+http://www.reddit.com/r/redditdev/comments/wqx7o/does_reddit_using_amazon_cloud_search/c5fut4i↩
+ &lt;U+2013&gt; Requires a Google account to view.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Stryker, Cole (2010-12-10). Kathleen Edward, Harassed Girl with Huntington's Diseas, Thanks Reddit. Urlesque. Retrieved April 20, 2011.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Rally to Restore Sanity &lt;U+2013&gt; Press Conference &lt;U+2013&gt; Video Mediaite. October 30, 2010.↩
+↩
+↩
+Anderson Cooper 360, 9/29/2011.↩
+Reddit Bans &lt;U+2018&gt;Sexual Content Featuring Minors&lt;U+2019&gt; | TPM Idea Lab↩
+↩
+↩
+↩
+http://www.deccanchronicle.com/130426/news-world/article/family-says-sunil-tripathi-showed-signs-depression↩
+↩
+↩

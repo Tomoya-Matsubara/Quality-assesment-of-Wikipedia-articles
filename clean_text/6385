@@ -1,0 +1,13 @@
+In mathematics, Gauss&lt;U+2013&gt;Jordan elimination is a version of Gaussian elimination that puts zeros both above and below each pivot element as it goes from the top row of the given matrix to the bottom. In other words, Gauss-Jordan elimination brings a matrix to reduced row echelon form, whereas Gaussian elimination takes it only as far as row echelon form. It is considerably less efficient than the two-stage Gaussian elimination algorithm.
+References
+
+Lipschutz, Seymour, and Lipson, Mark. &quot;Schaum's Outlines: Linear Algebra&quot;. Tata McGraw-hill edition. Delhi 2001. pp. 69-80.
+
+External links
+
+Algorithm for Gauss-Jordan elimination in Matlab
+Algorithm for Gauss-Jordan elimination in Python
+
+
+de:Gau&lt;U+00DF&gt;-Jordan-Algorithmus pt:Elimina&lt;U+00E7&gt;&lt;U+00E3&gt;o de Gauss-Jordan ru:&lt;U+041C&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0434&gt; &lt;U+0416&gt;&lt;U+043E&gt;&lt;U+0440&gt;&lt;U+0434&gt;&lt;U+0430&gt;&lt;U+043D&gt;&lt;U+0430&gt; &lt;U+2014&gt; &lt;U+0413&gt;&lt;U+0430&gt;&lt;U+0443&gt;&lt;U+0441&gt;&lt;U+0441&gt;&lt;U+0430&gt;
+Category:Numerical linear algebra

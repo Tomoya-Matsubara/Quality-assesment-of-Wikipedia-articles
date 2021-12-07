@@ -1,0 +1,56 @@
+The centripetal force is the force needed to move an object in a circle at constant speed. Hence it is a force requirement, not a physical force in its own right. Any physical force (gravity, electrostatics, tension, friction, etc.) can be used to supply the centripetal force. The term centripetal force comes from the Latin words centrum (&quot;center&quot;) and petere (&quot;tend towards&quot;).
+Basic idea
+Objects moving in a straight line with constant speed have constant velocity and require no force to do so, since they experience no acceleration. However, an object moving in a circle at constant speed has a changing direction of motion. Since velocity is a vector with both speed and direction, a changing direction implies a changing velocity. The rate of this change in velocity is the centripetal acceleration.
+The centripetal acceleration varies with the radius r of the circle and speed v, becoming larger for higher speed and smaller radius. More precisely, the centripetal acceleration is given by
+$$\mathbf{a}_c = - \frac{v^2}{r} \hat{\mathbf{r}} = - \frac{v^2}{r} \frac{\mathbf{r}}{r} = - \omega^2 \mathbf{r}$$
+where ω = v/r is the angular velocity. The direction of this acceleration is towards the center of the circle, i.e., opposite to the position vector r. (We assume that the origin of r is the center of the circle.)
+By Newton's second law of motion F = ma, a physical force F must be applied to a mass m to produce this acceleration. The amount of force needed to move at speed v on a circle of radius r is exactly
+$$\mathbf{F}_c = - \frac{m v^2}{r} \hat{\mathbf{r}} = - \frac{m v^2}{r} \frac{\mathbf{r}}{r} = - m \omega^2 \mathbf{r} = m \boldsymbol\omega \times   (\boldsymbol\omega \times   \boldsymbol r )$$
+where the formula has been written in several equivalent ways; here, $\hat{\mathbf{r}}$ is the unit vector in the r direction and ω is the angular velocity vector. If the applied force is less or more than Fc, the object will &quot;slip outwards&quot; or &quot;slip inwards&quot;, moving on a larger or smaller circle, respectively.
+If an object is traveling in a circle with a varying speed, its acceleration can be divided into two components, a radial acceleration (the centripetal acceleration that changes the direction of the velocity) and a tangential acceleration that changes the speed of the velocity.
+Examples
+For an orbiting satellite, the centripetal force is supplied by the gravitational attraction between the satellite and its primary, and acts toward the center of mass which lies in the satellite's primary. For an object at the end of a rope rotating about a vertical axis, the centripetal force is the horizontal component of the tension of the rope which acts towards the axis of rotation. For a spinning object, internal tensile stress gives the centripetal force that holds the object together in one piece.
+Common misunderstandings
+Centripetal force should not be confused with centrifugal force. The centrifugal force is a fictitious force that arises from being in a rotating reference frame. To eliminate all such fictitious forces, one needs to be in a non-accelerating reference frame, i.e., in an inertial reference frame. Only then can one safely use Newton's laws of motion, such as F = ma.
+Centripetal force should not be confused with central force, either. Central forces are a class of physical forces between two objects that meet two conditions: (1) their magnitude depends only on the distance between the two objects and (2) their direction points along the line connecting the two objects. Examples of central forces include the gravitational force between two masses and the electrostatic force between two charges. Central forces are physical forces, whereas the centripetal force is not. However, central forces are often used to meet the centripetal force requirement.
+Derivation using calculus
+One derivation strategy is to use a polar coordinate system, assume a constant radius, and differentiate twice.
+Let r(t) be a vector that describes the position of a point mass as a function of time. Since we are assuming uniform circular motion, let r(t) = R·ur, where R is a constant (the radius of the circle) and ur is the unit vector pointing from the origin to the point mass. In terms of Cartesian unit vectors where θ = ωt:
+ur = cos(θ)ux + sin(θ)uy 
+Note: unlike in cartesian coordinates where the unit vectors are constants, in polar coordinates the direction of the unit vectors depend on the angle between the x_axis and the point being described; the angle θ.
+So we differentiate to find velocity:
+$$\mathbf{v} = R \frac {d\mathbf{u_r}}{dt} \,$$
+$$\mathbf{v} = R \frac{d\theta}{dt} \mathbf{u_\theta} \,$$
+v = Rωuθ 
+where ω is the angular velocity (just a short way of writing dθ/dt), uθ is the unit vector that is perpendicular to ur that points in the direction of increasing θ. In cartesian terms: uθ = -sin(θ) ux + cos(θ) uy
+This result for the velocity is good because it matches our expectation that the velocity should be directed around the circle, and that the magnitude of the velocity should be ωR. Differentiating again, we find that the acceleration, a is:
+$$\mathbf{a} = R \left( \frac {d\omega}{dt} \mathbf{u_\theta} - \omega^2 \mathbf{u_r} \right) \,$$
+Thus, the radial component of the acceleration is:
+ar =  − ω2R 
+Geometric derivation (without calculus)
+
+Figure 1: The position and velocity vectors both move in a circle.
+
+The circle on the left in Figure 1 shows an object moving on a circle at constant speed at four different times in its orbit. Its position is given by R and its velocity is v.
+The velocity vector v is always perpendicular to the position vector (since the velocity vector is always tangent to the R circle); thus, since R moves in a circle, so does v. The circular motion of the velocity is shown in the circle on the right of Figure 1, along with its acceleration a. Just as velocity is the rate of change of position, acceleration is the rate of change of velocity.
+Since the position and velocity vectors move in tandem, they go around their circles in the same time T. That time equals the distance traveled divided by the velocity
+$$T = \frac{2\pi R}{v}$$
+and, by analogy,
+$$T = \frac{2\pi v}{a}$$
+Setting these two equations equal and solving for a, we get
+$$a = \frac{v^{2}}{R}$$
+Comparing the two circles in Figure 1 also shows that the acceleration points towards the center of the R circle. For example, in the left circle in Figure 1, the position vector R pointing at 12 o'clock has a velocity vector v pointing at 9 o'clock, which (switching to the circle on the right) has an acceleration vector a pointing at 6 o'clock. So the acceleration vector is opposite to R and towards the center of the R circle.
+See also
+
+Centrifugal force
+Circular motion
+Coriolis force
+
+References &amp; External Links
+
+
+
+Centripetal force vs. Centrifugal force - from an online Regents Exam physics tutorial by the Oswego City School District
+
+cs:Dost&lt;U+0159&gt;ediv&lt;U+00E1&gt; s&lt;U+00ED&gt;la da:Centripetalkraft de:Zentripetalkraft eo:Centrifuga forto es:Fuerza centr&lt;U+00ED&gt;peta fi:Sentripetaalivoima it:Forza centripeta ja:&lt;U+4E2D&gt;&lt;U+5FC3&gt;&lt;U+529B&gt; ko:&lt;U+AD6C&gt;&lt;U+C2EC&gt;&lt;U+B825&gt; no:Sentripetalkraft pl:Si&lt;U+0142&gt;a do&lt;U+015B&gt;rodkowa ru:&lt;U+0426&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0440&gt;&lt;U+043E&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043B&gt;&lt;U+044C&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+044F&gt; &lt;U+0441&gt;&lt;U+0438&gt;&lt;U+043B&gt;&lt;U+0430&gt; sl:Centripetalna sila sv:Centripetalkraft
+Category:Force Category:Mechanics

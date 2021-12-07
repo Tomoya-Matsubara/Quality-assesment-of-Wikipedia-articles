@@ -1,0 +1,163 @@
+ The 1972 Atlantic hurricane season is one of four Atlantic hurricane seasons not to have any major hurricanes, the others being the 1968 season, the 1986 season, and the 1994 season. During the season, seven tropical or subtropical depressions formed, all of which became tropical or subtropical storms or hurricanes.1 The season officially began on June 1, 1972 and ended on November 30. These dates typically limit the period of each year when most tropical cyclones form in the eastern Atlantic basin. This timeline documents all the storm formations, strengthening, weakening, landfalls, extratropical transitions, as well as dissipation. The timeline also includes information which was not operationally released, meaning that information from post-storm reviews by the National Hurricane Center, such as information on a storm that was not operationally warned on, has been included.
+The first storm of the season, Subtropical Storm Alpha, formed on May 23, before the season began on June 1. The final storm of the season, Subtropical Storm Delta, dissipated on November 7. There were seven tropical cyclones during the season. Of these, three were subtropical storm, and four were tropical. Of these tropical systems, three became hurricanes; none of these reached Category 3 intensity or higher on the Saffir-Simpson hurricane scale. Although it was an inactive season, 1972 brought one of the deadliest and most expensive hurricanes to strike the United States, Hurricane Agnes. Agnes was a weak but large storm that made landfall at the Florida panhandle and then followed the east coast northward. It killed 122 people and caused $2.1 billion (1972 dollars) in damage, mostly due to flooding in Pennsylvania and New York.2
+Timeline of storms
+Timeline of tropical activity in 1972 Atlantic hurricane season
+ ImageSize = width:800 height:200 PlotArea = top:10 bottom:80 right:20 left:20 Legend = columns:3 left:30 top:58 columnwidth:270 AlignBars = early
+DateFormat = dd/mm/yyyy Period = from:01/05/1972 till:01/12/1972 TimeAxis = orientation:horizontal ScaleMinor = grid:black unit:month increment:1 start:01/05/1972
+Colors =
+ id:canvas value:gray(0.88)
+ id:TD     value:rgb(0.38,0.73,1)  legend:Tropical_Depression_=_&lt;39_mph_(0&lt;U+2013&gt;62_km/h)
+ id:TS     value:rgb(0,0.98,0.96)  legend:Tropical_Storm_=_39-73_mph_(63&lt;U+2013&gt;117 km/h)
+ id:C1     value:rgb(1,1,0.80)     legend:Category_1_=_74-95_mph_(119&lt;U+2013&gt;153_km/h)
+ id:C2     value:rgb(1,0.91,0.46)  legend:Category_2_=_96-110_mph_(154&lt;U+2013&gt;177_km/h)
+ id:C3     value:rgb(1,0.76,0.25)  legend:Category_3_=_111-130_mph_(178&lt;U+2013&gt;209-km/h)
+ id:C4     value:rgb(1,0.56,0.13)  legend:Category_4_=_131-155_mph_(210&lt;U+2013&gt;249_km/h)
+ id:C5     value:rgb(1,0.38,0.38)  legend:Category_5_=_&gt;=156_mph_(&gt;=250_km/h)
+Backgroundcolors = canvas:canvas
+BarData =
+ barset:Hurricane
+ bar:Month
+PlotData=
+ barset:Hurricane width:10 align:left fontsize:S shift:(4,-4) anchor:till
+ from:23/05/1972 till:29/05/1972 color:TS text:&quot;Alpha&quot;
+ from:14/06/1972 till:29/06/1972 color:C1 text:&quot;Agnes&quot;
+ from:22/08/1972 till:01/09/1972 color:C2 text:&quot;Betty&quot;
+ from:29/08/1972 till:03/09/1972 color:TS text:&quot;Carrie&quot;
+ from:05/09/1972 till:14/09/1972 color:C1 text:&quot;Dawn&quot;
+ from:19/09/1972 till:21/09/1972 color:TS text:&quot;Charlie&quot;
+ from:01/11/1972 till:07/11/1972 color:TS text:&quot;Delta&quot;
+ bar:Month width:5 align:center fontsize:S shift:(0,-20) anchor:middle color:canvas
+ from:01/05/1972 till:01/06/1972 text:May
+ from:01/06/1972 till:01/07/1972 text:June
+ from:01/07/1972 till:01/08/1972 text:July
+ from:01/08/1972 till:01/09/1972 text:August
+ from:01/09/1972 till:01/10/1972 text:September
+ from:01/10/1972 till:01/11/1972 text:October
+ from:01/11/1972 till:01/12/1972 text:November
+May
+Track Map of Subtropical Storm Alpha|thumb
+May 23
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; A subtropical depression forms while located to the southeast of Savannah, Georgia.34
+May 25
+:*8:00 p.m. EDT (0000 UTC May 26) &lt;U+2013&gt; The subtropical depression previously located to the southeast of Savannah, Georgia, strengthens into a subtropical storm and is named Alpha.56
+May 26
+:*6 a.m. EDT (1200 UTC) &lt;U+2013&gt; Subtropical Storm Alpha reaches its maximum sustained winds of 70 mph (110 km/h).78
+:*8:00 p.m. EDT (0000 UTC May 27) &lt;U+2013&gt; Subtropical Storm Alpha makes landfall near Brunswick, Georgia with winds of 45 mph (75 km/h).910
+May 28
+:*8:00 p.m. EDT (0000 UTC May 28) &lt;U+2013&gt; Subtropical Storm Alpha weakens into a subtropical depression.1112
+:*6 a.m. EDT (1200 UTC) &lt;U+2013&gt; Subtropical Depression Alpha emerges off the Florida Panhandle with winds of 35 mph (55 km/h).1314
+May 29
+:*6 a.m. EDT (1200 UTC) &lt;U+2013&gt; Subtropical Depression Alpha dissipates in the northern Gulf of Mexico1516
+June
+June 1
+:* The 1972 Atlantic hurricane season officially begins.17 
+June 14
+7:00 a.m. CDT (1200 UTC) &lt;U+2013&gt; A tropical depression forms over the Yucatan Peninsula.1819
+June 15
+:*1:00 p.m. CDT (1800 UTC) &lt;U+2013&gt; The tropical depression emerges off the Yucatan Peninsula into the western Caribbean Sea with winds of 35 mph (55 km/h).2021
+June 16
+:*7:00 a.m. CDT (1200 UTC) &lt;U+2013&gt; The tropical depression strengthens into a tropical storm and is named Agnes.2223
+June 18
+:*7:00 a.m. CDT(1200 UTC) &lt;U+2013&gt; Tropical Storm Agnes strengthens into the first hurricane of the season.2425
+June 19
+:*1:00 a.m. CDT (0600 UTC) &lt;U+2013&gt; Hurricane Agnes reaches its maximum sustained winds of 85 mph (140 km/h).2627
+:*1:00 p.m. CDT (1800 UTC) &lt;U+2013&gt; Hurricane Agnes makes landfall near Panama City, Florida with winds of 75 mph (120 km/h).2829
+:*7 p.m CDT (0000 UTC) &lt;U+2013&gt; Hurricane Agnes weakens into a tropical storm.3031
+June 20
+:*1:00 a.m. CDT (0600 UTC) &lt;U+2013&gt; Tropical Storm Agnes rapidly weakens into a tropical depression.3233
+June 21
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; Tropical Depression Agnes unexpectedly re-strengthens into a tropical storm while over eastern North Carolina.3435
+:*8:00 p.m. EDT (0000 UTC) &lt;U+2013&gt; Tropical Storm Agnes emerges into the Atlantic Ocean near Nags Head, North Carolina.3637
+June 22
+:*8:00 a.m. EDT (1200 UTC) &lt;U+2013&gt; Tropical Storm Agnes reaches a secondary peak strength of 70 mph (110 km/h).3839
+:*1:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; Tropical Storm Agnes makes landfall near New York City, New York with winds of 65 mph (100 km/h).4041
+June 23
+:*2:00 a.m. EDT (0600 UTC) &lt;U+2013&gt; Tropical Storm Agnes becomes extratropical.4243
+July
+There were no tropical systems during the month of July in the Atlantic hurricane basin.
+August
+Track Map of Hurricane Betty|thumb
+August 22
+:*9:00 a.m. ADT (1200 UTC) &lt;U+2013&gt; A subtropical depression forms to the north of Bermuda.4445
+August 23
+:*9:00 p.m. ADT (0000 UTC August 24) &lt;U+2013&gt; The subtropical depression strengthens into a subtropical storm and is named Bravo.4647
+August 25
+:*3:00 a.m. ADT (0600 UTC) &lt;U+2013&gt; Subtropical Storm Bravo become Tropical and is re-named Betty.4849
+August 27
+:*9:00 a.m. ADT (1200 UTC) &lt;U+2013&gt; Tropical Storm Betty strengthens into the second hurricane of the season.5051
+:*3:00 p.m. ADT (1800 UTC) &lt;U+2013&gt; Hurricane Betty strengthens into a category two hurricane.5253
+August 27
+:*9:00 p.m. ADT (0000 UTC August 28) &lt;U+2013&gt; Hurricane Betty reaches its maximum of 105 mph (165 km/h).5455
+August 29
+:*8:00 a.m. EDT (1200 UTC) &lt;U+2013&gt; A tropical depression forms to the west of Daytona Beach, Florida.5657 
+:*3:00 p.m. ADT (1800 UTC) &lt;U+2013&gt; Hurricane Betty weakens into a category one hurricane.5859
+August 30
+:*8:00 p.m. EDT (0000 UTC August 31) &lt;U+2013&gt; The tropical depression strengthens into a tropical storm and is named Carrie.6061
+:*8:00 p.m. ADT (0000 UTC August 31) &lt;U+2013&gt; Hurricane Betty weakens into a tropical storm.6263
+August 31
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; Tropical Storm Carrie reaches its first peak intensity of 60 mph (95 km/h).6465
+September
+September 1
+:*3:00 p.m. ADT (1800 UTC) &lt;U+2013&gt; Tropical Storm Betty becomes extratropical in the frigid waters of the North Atlantic.6667
+September 3
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; Tropical Storm Carrie reaches its secondary peak strength of 70 mph (105 km/h).6869
+:*9:00 p.m. ADT (0000 UTC September 4) &lt;U+2013&gt; Tropical Storm Carrie becomes extratropical.7071 
+September 4
+:*8:00 p.m. EDT (0000 UTC September 5) &lt;U+2013&gt; A tropical depression forms northeast of Santa Clara, Cuba.7273
+September 5
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; The tropical depression crosses Key Largo, Florida and the Florida Panhandle with winds of 35 mph (55 km/h).7475
+:*8:00 p.m. EDT (0000 UTC) &lt;U+2013&gt; The tropical depression emerges off the Florida Panhandle.7677
+September 6
+:*8:00 a.m. EDT (1200 UTC) &lt;U+2013&gt; The tropical depression strengthens into a tropical storm and is named Dawn.7879
+September 7
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; Tropical Storm Dawn strengthens into the third and final hurricane of the season.8081
+:*8:00 p.m. EDT (0000 UTC September 8) &lt;U+2013&gt; Hurricane Dawn reaches its peak intensity of 80 mph (130 km/h).8283
+September 8
+:*8:00 p.m. EDT (0000 UTC September 9) &lt;U+2013&gt; Hurricane Dawn weakens into a tropical storm.8485
+September 12
+:*2:00 p.m. EDT (1800 UTC) &lt;U+2013&gt; Tropical Storm Dawn weakens into a tropical depression.8687
+September 14
+:*8:00 a.m. EDT (1200 UTC) &lt;U+2013&gt; Tropical Depression Dawn dissipates northeast of Charleston, South Carolina after having paralleled the Georgia and South Carolina coasts for the last 24 hours.8889 
+September 19
+:*9:00 a.m. ADT (1200 UTC) &lt;U+2013&gt; A subtropical depression forms northeast of Bermuda.9091
+September 19
+:*9:00 p.m. ADT (0000 UTC September 20) &lt;U+2013&gt; The subtropical depression strengthens into a subtropical storm and is named Charlie.9293
+September 20
+:*9:00 p.m. ADT (0000 UTC September 21) &lt;U+2013&gt; Subtropical Storm Charlie reaches its peak intensity of 65 mph (105 km/h).9495
+September 21
+:*3:00 a.m.(0600 UTC) &lt;U+2013&gt; Subtropical Storm Charlie becomes extratropical.9697
+October
+There were no tropical systems in the month of October in the Atlantic hurricane basin.
+November
+Track Map of Subtropical Storm Delta|thumb
+November 1
+:*3:00 p.m. ADT (1800 UTC) &lt;U+2013&gt; A subtropical depression forms in the central North Atlantic.9899
+:*9:00 p.m. ADT (0000 UTC November 2) &lt;U+2013&gt; The subtropical depression strengthens into a subtropical storm and is named Delta.100101
+November 2
+:*9:00 a.m. ADT (1200 UTC) - Subtropical Storm Delta reaches its peak strength of 45 mph (75 km/h).102103
+November 4
+:*9:00 p.m. ADT (0000 UTC) &lt;U+2013&gt; Subtropical Storm Delta weakens into a subtropical depression.104105
+November 7
+:*3:00 p.m. ADT (1800 UTC) &lt;U+2013&gt; Subtropical Depression Delta dissipates.106107
+November 30
+:* The 1972 Atlantic hurricane season officially ends.108
+See also
+1972 Atlantic hurricane season
+References
+Category:1972 Atlantic hurricane season
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩

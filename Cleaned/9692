@@ -1,0 +1,250 @@
+ A quark ( or ) is an elementary particle and a fundamental constituent of matter. Quarks combine to form composite particles called hadrons, the best-known of which are protons and neutrons, the components of atomic nuclei.1 Quarks are the only elementary particles in the Standard Model of particle physics to experience all four fundamental interactions, also known as fundamental forces (electromagnetism, weak interaction, strong interaction, and gravitation). Due to a phenomenon known as color confinement, quarks are never found in isolation; they can only be found within hadrons.23 For this reason, much of what is known about quarks has been drawn from observations of the hadrons themselves.
+There are six different types of quarks, known as flavors: up, down, charm, strange, top, and bottom.4 Up and down quarks have the lowest masses of all quarks. The heavier quarks rapidly change into up and down quarks through a process of particle decay: the transformation from a higher mass state to a lower mass state. For this reason, up and down quarks are generally stable and the most common in the universe, whereas charm, strange, top and bottom quarks can only be produced in high energy collisions (such as those involving cosmic rays and in particle accelerators).
+Quarks have various intrinsic properties, including electric charge, color charge, spin and mass. For every quark flavor there is a corresponding type of antiparticle, known as antiquark, that differs from the quark only in that some of its properties have equal magnitude but opposite sign. Quarks are the only known particles whose electric charges are not integer multiples of the elementary charge.
+The quark model was independently proposed by physicists Murray Gell-Mann and George Zweig in 1964.5 Quarks were introduced as parts of an ordering scheme for hadrons, and there was little evidence for their physical existence until 1968.67 All six flavors of quark have since been observed in accelerator experiments; the top quark, first observed at Fermilab in 1995, was the last to be discovered.8
+Classification
+ The Standard Model is the theoretical framework describing all the currently known elementary particles, as well as the unobserved9 Higgs boson.10 This model contains six flavors of quarks (), named up (), down (), charm (), strange (), top () and bottom ().11 Antiparticles of quarks are called antiquarks, and are denoted by a bar over the symbol for the corresponding quark, such as  for an up antiquark. As with antimatter in general, antiquarks have the same mass, mean lifetime and spin as their respective quarks, but the electric charge and other charges have the opposite sign.12
+Quarks are spin- particles, implying that they are fermions according to the spin-statistics theorem; in particular they are subject to the Pauli exclusion principle, which states that no two identical fermions can simultaneously occupy the same quantum state. This is in contrast to bosons (particles with integer spin), of which any number can be in the same state.13
+Unlike leptons, quarks possess color charge, which causes them to engage in the strong interaction. The resulting attraction between different quarks causes the formation of composite particles known as hadrons (see &quot;Strong interaction and color charge&quot; below).
+The quarks which determine the quantum numbers of hadrons are called valence quarks; apart from these, any hadron may contain an indefinite number of virtual (or sea) quarks, antiquarks and gluons which do not influence its quantum numbers.14 There are two families of hadrons, distinguished by their valence quark content: baryons, formed of three quarks, and mesons, formed of a quark and an antiquark.15
+The most common baryons are the building blocks of the atomic nucleus: the proton and the neutron.16 A great number of hadrons are known (see list of baryons and list of mesons), most of them differentiated by their quark content and the properties these constituent quarks confer. The existence of &quot;exotic&quot; hadrons with more valence quarks, such as tetraquarks () and pentaquarks (), has been conjectured17 but not proven.181920
+Elementary fermions are grouped into three generations, each comprising two leptons and two quarks. The first generation includes up and down quarks, the second charm and strange quarks, and the third top and bottom quarks. All searches for a fourth generation of quarks and other elementary fermions have failed,21 and there is strong indirect evidence that no more than three generations exist.2223 Particles in higher generations generally have greater mass and lesser stability, causing them to decay into lower-generation particles by means of weak interactions. Only first-generation, up and down quarks occur commonly in nature. Heavier quarks can only be created in high-energy collisions (such as in those involving cosmic rays), and decay quickly; however, they are thought to have been present during the first fractions of second after the Big Bang, when the universe was in an extremely hot and dense phase (the quark epoch). Studies of heavier quarks are conducted in artificially created conditions, such as in particle accelerators.24
+Having electric charge, flavor, color charge and mass, quarks are the only known elementary particles that engage in all four fundamental interactions of contemporary physics: electromagnetism, weak interaction, strong interaction and gravitation.25 Gravitation, however, is usually irrelevant at subatomic scales, and is not described by the Standard Model.
+See the table of properties below for a more complete overview of the six quark flavors' properties.
+History
+ The quark model was independently proposed by physicists Murray Gell-Mann26 and George Zweig2728 in 1964,29 shortly after Gell-Mann's early 1960s formulation of a particle classification system known as the Eightfold Way&lt;U+2014&gt;or, in more technical terms, SU(3) flavor symmetry. Israeli physicist Yuval Ne'eman had independently developed a scheme similar to the Eightfold Way in 1962, but played no part in the subsequent proposal of the quark model. At the time of the quark theory's inception, the particle zoo consisted of a few leptons and a multitude of hadrons. Partially as a result of Gell-Mann and Ne'eman's model, Gell-Mann and Zweig posited that hadrons were not elementary particles, but were instead composed of combinations of quarks and antiquarks. Their model involved three flavors of quarks&lt;U+2014&gt;up, down and strange&lt;U+2014&gt;to which they ascribed properties such as spin and electric charge.303132
+The initial reaction of the physics community to the proposal was mixed. There was particular contention about whether the quark was a physical entity or an abstraction used to explain certain concepts that were not well understood at the time.33
+In less than a year, extensions to the Gell-Mann&lt;U+2013&gt;Zweig model were proposed when another duo of physicists, Sheldon Lee Glashow and James Bjorken, predicted the existence of a fourth flavor of quark, which they referred to as charm. The addition was proposed because it allowed a better description of the weak interaction (the mechanism that allows quarks to decay), equalized the number of known quarks with the number of known leptons, and implied a mass formula that correctly reproduced the masses of the known mesons.34
+In 1968, deep inelastic scattering experiments at the Stanford Linear Accelerator Center (SLAC) showed that the proton was not an elementary particle, but instead contained much smaller, point-like objects,353637 which became known as partons (a term proposed by Richard Feynman).38 
+|doi=10.1103/PhysRevD.69.114005
+}}39 While this proved that hadrons indeed had a substructure, as predicted by the quark model, physicists remained reluctant to identify partons with quarks. The objects that were observed at the SLAC would later be identified as up and down quarks as the other flavors were discovered.4041 The strange quark's existence was now validated: not only was it a necessary component of Gell-Mann and Zweig's three quark model, but it provided an explanation for the kaon () and pion () hadrons discovered in cosmic rays in 1947.42
+In a 1970 paper, Glashow, John Iliopoulos and Luciano Maiani gave more compelling theoretical arguments for the as-yet undiscovered charm quark.4344 The number of supposed quark flavors grew to the current six in 1973, following extensions to the quark model proposed by Makoto Kobayashi and Toshihide Maskawa; the two had noted that the experimental observation of CP violation45 could be explained if there were another pair of quarks, which were eventually named top and bottom.46
+Photograph of the event that lead to the discovery of the  baryon, at the Brookhaven National Laboratory in 1974|alt=Photo of bubble chamber tracks next to diagram of same tracks. A neutrino (unseen in photo) enters from below and collides with a proton, producing a negatively charged muon, three positively charged pions, and one negatively charged pion, as well as a neutral lambda baryon (unseen in photo). The lambda baryon then decays into a proton and a negative pion, producing a &quot;V&quot; pattern.
+It was the observation of the charm quark that finally convinced the physics community of the quark model's validity.47 Charm quarks were produced and observed almost simultaneously by two teams in November 1974 (see November Revolution)&lt;U+2014&gt;one at the SLAC under Burton Richter, and one at Brookhaven National Laboratory under Samuel Ting. The two parties had assigned the discovered particle two different symbols, J and &lt;U+03C8&gt;. The particle thus became formally known as the  meson and was found to be the charm quark&lt;U+2013&gt;charm antiquark pair that Glashow and Bjorken had predicted.
+In 1977, the bottom quark was observed by a team at Fermilab led by Leon Lederman.48 This was a strong indicator of the top quark's existence: without the top quark, the bottom quark would have been without a partner. However, it was not until 1995 that the top quark was finally observed, also by a team at Fermilab.49 It had a mass much greater than had been expected at the time its existence had been postulated50&lt;U+2014&gt;almost as heavy as a gold atom.51 
+Etymology
+Gell-Mann originally named the quark after the sound made by ducks.52 For some time, he was undecided on an actual spelling for the term he intended to coin, until he found the word quark in James Joyce's book Finnegans Wake: 
+Gell-Mann went into further detail regarding the name of the quark in his book, The Quark and the Jaguar:53 
+Zweig preferred the name ace for the particle he had theorized, but Gell-Mann's terminology came to prominence once the quark model had been commonly accepted.54
+The names for the &quot;up&quot; and &quot;down&quot; quarks drive from the fact that they are the &quot;isospin up&quot; and &quot;isospin down&quot; component of an isospin doublet.55 Similarly, the names &quot;top&quot; and &quot;bottom&quot; are used largely because they are &quot;logical partners for up and down&quot;.56 Strange quarks were given their name because they were discovered to be components of the strange particles discovered in cosmic rays years before the quark model was proposed; these particles were deemed &quot;strange&quot; because they decayed unusually slowly.57 Of the quark names, &quot;charm&quot; is reported to be the most arbitrary.58 Sheldon Lee Glashow, a co-proposer of the charm quark, is quoted as saying, &quot;We called our construct the 'charmed quark', for we were fascinated and pleased by the symmetry it brought to the subnuclear world.&quot;59
+In the past, top and bottom quarks had the alternative names &quot;truth&quot; and &quot;beauty&quot;, respectively; these names have mostly fallen out of use.60
+Properties
+Electric charge
+Quarks have fractional electric charge values, either &lt;U+2212&gt; or + times the elementary charge (e) depending on flavor: up, charm and top quarks (collectively referred to as up-type quarks) have a charge of +, while down, strange and bottom quarks (down-type quarks) have &lt;U+2212&gt;. Antiquarks have the opposite charge to their corresponding quarks; up-type antiquarks have charges of &lt;U+2212&gt; and down-type antiquarks have charges of +. Since the electric charge of a hadron is the sum of the charges of the constituent quarks, all hadrons have integer charges: the combination of three quarks (baryons), three antiquarks (antibaryons), or a quark and an antiquark (mesons) always result in integer charges.61 For example, the hadron constituents of atomic nuclei, neutrons and protons, have charges of 0 and +1 respectively; the neutron is composed of two down quarks and one up quark, and the proton of two up quarks and one down quark.62
+Spin
+Spin is an intrinsic property of elementary particles, and its direction is an important degree of freedom. It is sometimes visualized as the rotation of an object around its own axis (hence the name spin), but this notion is somewhat misguided at subatomic scales because elementary particles are believed to be point-like.63
+Spin can be represented by a vector whose length is measured in units of h/(2&lt;U+03C0&gt;), where h is the Planck constant. This value is often denoted by &lt;U+0127&gt; (&quot;h bar&quot;), and called the &quot;reduced Planck constant&quot;. For quarks, a measurement of the spin vector component along any axis can only yield the values +&lt;U+0127&gt;/2 or &lt;U+2212&gt;&lt;U+0127&gt;/2; for this reason quarks are classified as spin- particles.64 The component of spin along a given axis&lt;U+2014&gt;by convention the z axis&lt;U+2014&gt;is often denoted by an up arrow &lt;U+2191&gt; for the value + and down arrow &lt;U+2193&gt; for the value &lt;U+2212&gt;, placed after the symbol for flavor. For example, an up quark with a spin of + along the z axis is denoted by u&lt;U+2191&gt;.65
+Weak interaction
+ A quark of one flavor can transform into a quark of another flavor only through the weak interaction, one of the four fundamental interactions in particle physics. By absorbing or emitting a W boson, any up-type quark (up, charm and top quarks) can change into any down-type quark (down, strange and bottom quarks) and vice versa. This flavor transformation mechanism causes the radioactive process of beta decay, in which a neutron () &quot;splits&quot; into a proton (), an electron () and an electron antineutrino () (see picture). This occurs when one of the down quarks in the neutron () decays into an up quark by emitting a virtual  boson, transforming the neutron into a proton (). The  boson then decays into an electron and an electron antineutrino.66
+&lt;U+2192&gt;
++  + 
+(Beta decay, hadron notation)
+&lt;U+2192&gt;
++  + 
+(Beta decay, quark notation)
+Both beta decay and the inverse process of inverse beta decay are routinely used in medical applications such as positron emission tomography (PET) and in high-energy experiments such as neutrino detection.
+The six quarks' decay modes, with mass increasing from left to right. The &quot;intensities&quot; of the lines are dictated by the CKM matrix. It should be noted that the decay modes of free quarks are largely hypothetical, because only the top quark has been observed to decay independently of a hadron.|alt=Three balls &quot;u&quot;, &quot;c&quot; and &quot;t&quot; noted with &quot;charge +2/3&quot; stand above three balls &quot;d&quot;, &quot;s&quot;, &quot;b&quot; noted with &quot;&lt;U+2212&gt;1/3&quot;. Strong arrows connect &quot;d&quot; to &quot;u&quot;, &quot;c&quot; to &quot;s&quot;, and &quot;t&quot; to &quot;b&quot;; weak arrows connect &quot;c&quot; to &quot;d&quot;, &quot;s&quot; to &quot;u&quot;, &quot;t&quot; to &quot;s&quot;, and &quot;b&quot; to &quot;c&quot;; weaker arrows connect &quot;b&quot; to &quot;u&quot; and &quot;t&quot; to &quot;d&quot;.
+While the process by which quarks transform into one another is the same for all quarks, each quark has a certain preference to transform into the quark of its own generation. The relative tendencies of the various transformations from quarks of one flavor to another are described in a comprehensive mathematical table called the Cabibbo&lt;U+2013&gt;Kobayashi&lt;U+2013&gt;Maskawa matrix (or CKM matrix). The approximate magnitudes of the entries of the CKM matrix are:67
+ 0.974; |V_us|  0.226; |V_ub|  0.004; |V_cd|  0.226; |V_cs|  0.973; |V_cb|  0.041; |V_td|  0.009; |V_ts|  0.041; |V_tb|  0.999.">
+\begin{bmatrix} |V_\mathrm {ud}| &amp; |V_\mathrm {us}| &amp; |V_\mathrm {ub}| \\ |V_\mathrm {cd}| &amp; |V_\mathrm {cs}| &amp; |V_\mathrm {cb}| \\ |V_\mathrm {td}| &amp; |V_\mathrm {ts}| &amp; |V_\mathrm {tb}| \end{bmatrix} \approx \begin{bmatrix} 0.974 &amp; 0.226 &amp; 0.004 \\ 0.226 &amp; 0.973 &amp; 0.041 \\ 0.009 &amp; 0.041 &amp; 0.999 \end{bmatrix}, where Vij represents the tendency of a quark of flavor i to change into a quark of flavor j (or vice versa).68
+There exists an equivalent weak interaction matrix for leptons (right side of the W boson on the above beta decay diagram), called the Pontecorvo&lt;U+2013&gt;Maki&lt;U+2013&gt;Nakagawa&lt;U+2013&gt;Sakata matrix (PMNS matrix).69 Together, the CKM and PMNS matrices describe all flavor transformations, but the links between the two are not yet clear.70 
+Strong interaction and color charge
+All types of hadrons have zero total color charge.|alt=A green and a magenta (&quot;antigreen&quot;) arrow canceling out each other out white, representing a meson; a red, a green, and a blue arrow canceling out to white, representing a baryon; a yellow (&quot;antiblue&quot;), a magenta, and a cyan (&quot;antired&quot;) arrow canceling out to white, representing an antibaryon.
+Quarks possess a property called color charge. There are three types of color charge, arbitrarily labeled blue, green and red.71 Each of them is complemented by an anticolor&lt;U+2014&gt;antiblue, antigreen and antired. Every quark carries a color, while every antiquark carries an anticolor.72
+The system of attraction and repulsion between quarks charged with different combinations of the three colors is called strong interaction, which is mediated by particles known as gluons; this is discussed at length below. The theory that describes strong interactions is called quantum chromodynamics (QCD). A quark charged with one color value can form a bound system with an antiquark carrying the corresponding anticolor; three (anti)quarks, one of each (anti)color, will similarly be bound together. The result of two attracting quarks will be color neutrality: a quark with color charge &lt;U+03BE&gt; plus an antiquark with color charge &lt;U+2212&gt;&lt;U+03BE&gt; will result in a color charge of 0 (or &quot;white&quot; color) and the formation of a meson. Analogous to the additive color model in basic optics, the combination of three quarks or three antiquarks, each with different color charges, will result in the same &quot;white&quot; color charge and the formation of a baryon or antibaryon.73
+In modern particle physics, gauge symmetries&lt;U+2014&gt;a kind of symmetry group&lt;U+2014&gt;relate interactions between particles (see gauge theories). Color SU(3) (commonly abbreviated to SU(3)c) is the gauge symmetry that relates the color charge in quarks and is the defining symmetry for quantum chromodynamics.74 Just as the laws of physics are independent of which directions in space are designated x, y and z, and remain unchanged if the coordinate axes are rotated to a new orientation, the physics of quantum chromodynamics is independent of which directions in three-dimensional color space are identified as blue, red and green. SU(3)c color transformations correspond to &quot;rotations&quot; in color space (which, mathematically speaking, is a complex space). Every quark flavor f, each with subtypes fB, fG, fR corresponding to the quark colors,75 forms a triplet: a three-component field which transforms under the fundamental representation of SU(3)c.76 The requirement that SU(3)c should be local&lt;U+2014&gt;that is, that its transformations be allowed to vary with space and time&lt;U+2014&gt;determines the properties of the strong interaction, in particular the existence of eight gluon types to act as its force carriers.7778
+Mass
+There are two terms used when referring to a quark's mass; current quark mass refers to the mass of a quark by itself, while constituent quark mass refers to the current quark mass plus the mass of the gluon particle field surrounding the quark.79 These masses typically have very different values. Most of a hadron's mass comes from the gluons that bind the constituent quarks together, rather than from the quarks themselves. While gluons are inherently massless, they possess energy&lt;U+2014&gt;more specifically, quantum chromodynamics binding energy (QCBE)&lt;U+2014&gt;and it is this that contributes so greatly to the overall mass of the hadron (see mass in special relativity). For example, a proton has a mass of approximately 938 MeV/c2, of which the rest mass of its three valence quarks only contributes about 11 MeV/c2; much of the remainder can be attributed to the gluons' QCBE.8081
+The Standard Model posits that elementary particles derive their masses from the Higgs mechanism, which is related to the unobserved Higgs boson. Physicists hope that further research into the reasons for the top quark's large mass, which was found to be approximately equal to that of a gold nucleus (~173 GeV/c2),82 might reveal more about the origin of the mass of quarks and other elementary particles.83
+Table of properties
+The following table summarizes the key properties of the six quarks. Flavor quantum numbers (isospin (Iz), strangeness (S, not to be confused with spin), charm (C), bottomness (B′) and topness (T)) are assigned to certain quark flavors, and denote qualities of quark-based systems and hadrons. The baryon number (B) is + for all quarks, as baryons are made of three quarks. For antiquarks, the electric charge (Q) and all flavor quantum numbers (B, Iz, C, S, T and B′) are of opposite sign. Mass and total angular momentum (J; equal to spin for point particles) do not change sign for the antiquarks.
+Quark flavor properties84
+Name
+Symbol
+Mass (MeV/c2)*
+J
+B
+Q
+Iz
+C
+S
+T
+B′
+Antiparticle
+Antiparticle symbol
+First generation
+Up
+1.5 to 3.3
++
++
++
+0
+0
+0
+0
+Antiup
+Down
+3.5 to 6.0
++
+&lt;U+2212&gt;
+&lt;U+2212&gt;
+0
+0
+0
+0
+Antidown
+Second generation
+Charm
++
++
+0
++1
+0
+0
+0
+Anticharm
+Strange
++
+&lt;U+2212&gt;
+0
+0
+&lt;U+2212&gt;1
+0
+0
+Antistrange
+Third generation
+Top
++
++
+0
+0
+0
++1
+0
+Antitop
+Bottom
++
+&lt;U+2212&gt;
+0
+0
+0
+0
+&lt;U+2212&gt;1
+Antibottom
+J = total angular momentum, B = baryon number, Q = electric charge, Iz = isospin, C = charm, S = strangeness, T = topness, B′ = bottomness.
+* Notation such as  denotes measurement uncertainty.
+Interacting quarks
+As described by quantum chromodynamics, the strong interaction between quarks is mediated by gluons, massless vector gauge bosons. Each gluon carries one color charge and one anticolor charge. In the standard framework of particle interactions (part of a more general formulation known as perturbation theory), gluons are constantly exchanged between quarks through a virtual emission and absorption process. When a gluon is transferred between quarks, a color change occurs in both; for example, if a red quark emits a red&lt;U+2013&gt;antigreen gluon, it becomes green, and if a green quark absorbs a red&lt;U+2013&gt;antigreen gluon, it becomes red. Therefore, while each quark's color constantly changes, their strong interaction is preserved.858687
+Since gluons carry color charge, they themselves are able to emit and absorb other gluons. This causes asymptotic freedom: as quarks come closer to each other, the chromodynamic binding force between them weakens.88 Conversely, as the distance between quarks increases, the binding force strengthens. The color field becomes stressed, much as an elastic band is stressed when stretched, and more gluons of appropriate color are spontaneously created to strengthen the field. Above a certain energy threshold, pairs of quarks and antiquarks will be created which bind to the quarks being separated, forming new hadrons. This phenomenon is known as color confinement: quarks never appear in isolation.8990 This process of hadronization occurs before quarks formed in a high energy collision are able to interact in any other way. The only exception is the top quark, which may decay before it hadronizes.91
+Sea quarks
+Hadrons. along with the valence quarks () that contribute to their quantum numbers, contain virtual quark&lt;U+2013&gt;antiquark () pairs known as sea quarks (). Such sea quarks form when a gluon of the hadron's color field splits; this process also works in reverse in that the annihilation of two sea quarks produces a gluon. The result is a constant flux of gluon splits and creation colloquially known as &quot;the sea&quot;.92 Sea quarks are much less stable than their valence counterparts, and they typically annihilate each other within the interior of the hadron. Despite this, sea quarks can hadronize into baryonic or mesonic particles under certain circumstances.93
+Virtual quark&lt;U+2013&gt;antiquark pairs have a tendency to form what can be described as a kind of &quot;cloud&quot; or &quot;shield&quot; around the valence quarks in hadrons. This cloud is complemented by another layer of virtual gluons lying beyond it. These layers adopt color charges based on the valence quark they surround. Quantum chromodynamics causes the virtual antiquarks in the cloud&lt;U+2014&gt;which exhibit the anticolor of the valence quark&lt;U+2014&gt;to be closer to the inside of the field. In the case of a red quark, for instance, the antired virtual antiquarks would tend to be closer to the red valence quark than their red virtual quark partners. This disparity in proximity and the anticolor barrier it creates has the effect of &quot;de-amplifying&quot; the color charge of the valence quark. However, this anticolor tilt is neutralized by the virtual gluon field beyond, which carries the original color charge and &quot;re-amplifies&quot; the valence quark's color. The canceling of these two influences on the valence quark results in the balanced color charge that valence quarks have been observed to possess.9495
+Other phases of quark matter
+right|thumb|300px|A qualitative rendering of the phase diagram of quark matter. The precise details of the diagram are the subject of ongoing research.9697|alt=Quark&lt;U+2013&gt;gluon plasma exists at high temperatures; the hadronic phase exists at low temperatures and baryonic densities, in particular nuclear matter for very low temperatures and intermediate densities; color superconductivity exists at low temperatures and high densities. Under sufficiently extreme conditions, quarks may become deconfined and exist as free particles. In the course of asymptotic freedom, the strong interaction becomes weaker at higher temperatures. Eventually, color confinement would be lost and an extremely hot plasma of freely moving quarks and gluons would be formed. This theoretical phase of matter is called quark&lt;U+2013&gt;gluon plasma.98 The exact conditions needed to give rise to this state are unknown and have been the subject of a great deal of speculation and experimentation. A recent estimate puts the needed temperature at  kelvins.99 While a state of entirely free quarks and gluons has never been achieved (despite numerous attempts by CERN in the 1980s and 1990s),100 recent experiments at the Relativistic Heavy Ion Collider has yielded evidence for liquid-like quark matter exhibiting &quot;nearly perfect&quot; fluid motion.101
+The quark&lt;U+2013&gt;gluon plasma would be characterized by a great increase in the number of heavier quark pairs in relation to the number of up and down quark pairs. It is believed that in the period prior to 10&lt;U+2212&gt;6 seconds after the Big Bang (the quark epoch), the universe was filled with quark&lt;U+2013&gt;gluon plasma, as the temperature was too high for hadrons to be stable.102
+Given sufficiently high baryon densities and relatively low temperatures&lt;U+2014&gt;possibly comparable to those found in neutron stars&lt;U+2014&gt;quark matter is expected to degenerate into a Fermi liquid of weakly-interacting quarks. This liquid would be characterized by a condensation of colored quark Cooper pairs, thereby breaking the local SU(3)c symmetry. Because quark Cooper pairs harbor color charge, such a phase of quark matter would be color superconductive; that is, color charge would be able to pass through it with no resistance.103
+See also
+Quarkonium &lt;U+2013&gt; Mesons made of a quark and antiquark of the same flavor
+Preons &lt;U+2013&gt; Hypothetical particles which were once postulated to be subcomponents of quarks and leptons
+Quark&lt;U+2013&gt;lepton complementarity &lt;U+2013&gt; Possible fundamental relation between quarks and leptons
+Quark star &lt;U+2013&gt; A hypothetical degenerate neutron star with extreme density
+Notes
+Citations
+Further reading
+External links
+1969 Physics Nobel Prize lecture by Murray Gell-Mann
+1976 Physics Nobel Prize lecture by Burton Richter
+1976 Physics Nobel Prize lecture by Samuel C.C. Ting
+2008 Physics Nobel Prize lecture by Makoto Kobayashi
+2008 Physics Nobel Prize lecture by Toshihide Maskawa
+The Top Quark And The Higgs Particle by T.A. Heppenheimer &lt;U+2013&gt; A description of CERN&lt;U+2019&gt;s experiment to count the families of quarks.
+ar:&lt;U+0643&gt;&lt;U+0648&gt;&lt;U+0627&gt;&lt;U+0631&gt;&lt;U+0643&gt; ast:Quark bn:&lt;U+0995&gt;&lt;U+09CB&gt;&lt;U+09AF&gt;&lt;U+09BC&gt;&lt;U+09BE&gt;&lt;U+09B0&gt;&lt;U+09CD&gt;&lt;U+0995&gt; bs:Kvark bg:&lt;U+041A&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+0440&gt;&lt;U+043A&gt; ca:Quark cs:Kvark cy:Cwarc da:Kvark (fysik) de:Quark (Physik) et:Kvark el:&lt;U+039A&gt;&lt;U+03BF&gt;&lt;U+03C5&gt;&lt;U+03AC&gt;&lt;U+03C1&gt;&lt;U+03BA&gt; es:Quark eo:Kvarko fa:&lt;U+06A9&gt;&lt;U+0648&gt;&lt;U+0627&gt;&lt;U+0631&gt;&lt;U+06A9&gt; fr:Quark ga:Cuarc gl:Quark ko:&lt;U+CFFC&gt;&lt;U+D06C&gt; hr:Kvark id:Quark is:Kvarki it:Quark (particella) he:&lt;U+05E7&gt;&lt;U+05D5&gt;&lt;U+05D5&gt;&lt;U+05D0&gt;&lt;U+05E8&gt;&lt;U+05E7&gt; ku:Kuark la:Quarcum lv:Kvarki lt:Kvarkas hu:Kvark mk:&lt;U+041A&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+0440&gt;&lt;U+043A&gt; ml:&lt;U+0D15&gt;&lt;U+0D4D&gt;&lt;U+0D35&gt;&lt;U+0D3E&gt;&lt;U+0D30&gt;&lt;U+0D4D&gt;&lt;U+200D&gt;&lt;U+0D15&gt;&lt;U+0D4D&gt;&lt;U+0D15&gt;&lt;U+0D4D&gt; ms:Kuark nl:Quark ja:&lt;U+30AF&gt;&lt;U+30A9&gt;&lt;U+30FC&gt;&lt;U+30AF&gt; no:Kvark nn:Kvark uz:Kvark pl:Kwark pt:Quark ro:Quarc ru:&lt;U+041A&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+0440&gt;&lt;U+043A&gt; scn:Quark simple:Quark sk:Kvark sl:Kvark sr:&lt;U+041A&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+0440&gt;&lt;U+043A&gt; sh:Kvark su:Quark fi:Kvarkki sv:Kvark ta:&lt;U+0B95&gt;&lt;U+0BC1&gt;&lt;U+0BB5&gt;&lt;U+0BBE&gt;&lt;U+0BB0&gt;&lt;U+0BCD&gt;&lt;U+0B95&gt;&lt;U+0BCD&gt;&lt;U+0B95&gt;&lt;U+0BC1&gt; th:&lt;U+0E04&gt;&lt;U+0E27&gt;&lt;U+0E32&gt;&lt;U+0E23&gt;&lt;U+0E4C&gt;&lt;U+0E01&gt; tr:Kuark uk:&lt;U+041A&gt;&lt;U+0432&gt;&lt;U+0430&gt;&lt;U+0440&gt;&lt;U+043A&gt; ur:&lt;U+06A9&gt;&lt;U+0648&gt;&lt;U+0627&gt;&lt;U+0631&gt;&lt;U+06A9&gt; vi:Quark zh:&lt;U+5938&gt;&lt;U+514B&gt;
+Category:Quarks Category:Fundamental physics concepts
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+.↩
+↩
+↩
+↩
+↩
+Section 6.1. in ↩
+↩
+↩
+Several research groups claimed to have proven the existence of tetraquarks and pentaquarks in the early 2000s. While the status of tetraquarks is still under debate, all known pentaquark candidates have since been established as being non-existent.↩
+↩
+↩
+↩
+The main evidence is based on the resonance width of the  boson, which constrains the 4th generation neutrino to have a mass greater than ~. This would be highly contrasting with the other three generations' neutrinos, whose masses cannot exceed .↩
+}↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+The term &quot;parton&quot; also remains in use as a collective term referring for the constituents of hadrons: quarks, antiquarks and gluons.↩
+↩
+↩
+↩
+↩
+CP violation is a phenomenon which causes weak interactions to behave differently when left and right are swapped (P symmetry) and particles are replaced with their corresponding antiparticles (C symmetry).↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+The actual probability of decay of one quark to another is a complicated function of (amongst other variables) the decaying quark's mass, the masses of the decay products, and the corresponding element of the CKM matrix. This probability is directly proportional (but not equal) to the absolute value squared of the corresponding CKM entry.↩
+↩
+↩
+Despite the name, color charge is not related with the color spectrum of visible light.↩
+↩
+↩
+Part III of ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩

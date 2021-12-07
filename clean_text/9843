@@ -1,0 +1,151 @@
+The International Organization for Standardization (ISO) basic Latin-script alphabet consists of the following 26 letters:12
+
+
+
+
+Majuscule forms (also called uppercase or capital letters)
+
+
+A
+
+
+Minuscule forms (also called lowercase or small letters)
+
+
+a
+
+
+
+
+By the 1960s it became apparent to the computer and telecommunications industries in the First World that a non-proprietary method of encoding characters was needed. The International Organization for Standardization (ISO) encapsulated the Latin script in their (ISO/IEC 646) 7-bit character-encoding standard. To achieve widespread acceptance, this encapsulation was based on popular usage. As the United States held an eminent position in both industries during the 1960s, the standard was based on the already published American Standard Code for Information Interchange, better known as ASCII, which included in the character set the 26 &lt;U+00D7&gt; 2 letters of the English alphabet. Later standards issued by the ISO, for example ISO/IEC 8859 (8-bit character encoding) and ISO/IEC 10646 (Unicode Latin), have continued to define the 26 &lt;U+00D7&gt; 2 letters of the English alphabet as the basic Latin script with extensions to handle other letters in other languages.3
+Representation
+ In ASCII the letters belong to the printable characters and in Unicode since version 1.0 they belong to the block &quot;C0 Controls and Basic Latin&quot;. In both cases, as well as in ISO/IEC 646, ISO/IEC 8859 and ISO/IEC 10646 they are occupying the positions in hexadecimal notation 41 to 5A for uppercase and 61 to 7A for lowercase.
+Not case sensitive, all letters have code words in the ICAO spelling alphabet and can be represented with Morse code.
+Usage
+All of the lowercase letters are used in the International Phonetic Alphabet (IPA). In X-SAMPA and SAMPA these letters have the same sound value as in IPA. In Kirshenbaum they have the same value except for the letter r.
+Alphabets containing exactly the same letters
+
+The below list only contains alphabets that do not contain
+
+letters with diacritical marks that constitute distinct letters.
+multigraphs that constitute distinct letters.
+
+
+
+
+alphabet
+diacritic
+multigraphs (not constituting distinct letters)
+ligatures
+
+
+
+
+Afrikaans alphabet
+&lt;U+00E1&gt;, &lt;U+00E9&gt;, &lt;U+00E8&gt;, &lt;U+00EA&gt;, &lt;U+00EB&gt;, &lt;U+00ED&gt;, &lt;U+00EE&gt;, &lt;U+00EF&gt;, &lt;U+00F3&gt;, &lt;U+00F4&gt;, &lt;U+00FA&gt;, &lt;U+00FB&gt;, &lt;U+00FD&gt;
+
+
+
+
+Catalan alphabet
+&lt;U+00E0&gt;, &lt;U+00E9&gt;, &lt;U+00E8&gt;, &lt;U+00ED&gt;, &lt;U+00EF&gt;, &lt;U+00F3&gt;, &lt;U+00F2&gt;, &lt;U+00FA&gt;, &lt;U+00FC&gt;, &lt;U+00E7&gt;
+
+
+
+
+Dutch alphabet
+&lt;U+00E4&gt;, &lt;U+00E9&gt;, &lt;U+00E8&gt;, &lt;U+00EB&gt;, &lt;U+00EF&gt;, &lt;U+00F6&gt;, &lt;U+00FC&gt;
+The digraph &lt;U+27E8&gt;ij&lt;U+27E9&gt; is sometimes considered to be a separate letter. When that is the case, it usually replaces or is intermixed with &lt;U+27E8&gt;y&lt;U+27E9&gt;.
+
+
+
+English alphabet
+-none-
+many
+&lt;U+00E6&gt;, &lt;U+0153&gt;
+
+
+French alphabet
+&lt;U+00E0&gt;, &lt;U+00E2&gt;, &lt;U+00E7&gt;, &lt;U+00E9&gt;, &lt;U+00E8&gt;, &lt;U+00EA&gt;, &lt;U+00EB&gt;, &lt;U+00EE&gt;, &lt;U+00EF&gt;, &lt;U+00F4&gt;, &lt;U+00F9&gt;, &lt;U+00FB&gt;, &lt;U+00FC&gt;, &lt;U+00FF&gt;
+&lt;U+27E8&gt;ai&lt;U+27E9&gt;, &lt;U+27E8&gt;au&lt;U+27E9&gt;, &lt;U+27E8&gt;ei&lt;U+27E9&gt;, &lt;U+27E8&gt;eu&lt;U+27E9&gt;, &lt;U+27E8&gt;oi&lt;U+27E9&gt;, &lt;U+27E8&gt;ou&lt;U+27E9&gt;, &lt;U+27E8&gt;eau&lt;U+27E9&gt;, &lt;U+27E8&gt;ch&lt;U+27E9&gt;, &lt;U+27E8&gt;ph&lt;U+27E9&gt;, &lt;U+27E8&gt;gn&lt;U+27E9&gt;, &lt;U+27E8&gt;an&lt;U+27E9&gt;, &lt;U+27E8&gt;am&lt;U+27E9&gt;, &lt;U+27E8&gt;en&lt;U+27E9&gt;, &lt;U+27E8&gt;em&lt;U+27E9&gt;, &lt;U+27E8&gt;in&lt;U+27E9&gt;, &lt;U+27E8&gt;im&lt;U+27E9&gt;, &lt;U+27E8&gt;on&lt;U+27E9&gt;, &lt;U+27E8&gt;om&lt;U+27E9&gt;, &lt;U+27E8&gt;un&lt;U+27E9&gt;, &lt;U+27E8&gt;um&lt;U+27E9&gt;, &lt;U+27E8&gt;yn&lt;U+27E9&gt;, &lt;U+27E8&gt;ym&lt;U+27E9&gt;, &lt;U+27E8&gt;ain&lt;U+27E9&gt;, &lt;U+27E8&gt;aim&lt;U+27E9&gt;, &lt;U+27E8&gt;ein&lt;U+27E9&gt;, &lt;U+27E8&gt;oin&lt;U+27E9&gt;, &lt;U+27E8&gt;a&lt;U+00EE&gt;&lt;U+27E9&gt;, &lt;U+27E8&gt;e&lt;U+00EE&gt;&lt;U+27E9&gt;
+&lt;U+00E6&gt;, &lt;U+0153&gt;
+
+
+German alphabet
+&lt;U+00E4&gt;, &lt;U+00F6&gt;, &lt;U+00FC&gt;
+&lt;U+27E8&gt;sch&lt;U+27E9&gt;, &lt;U+27E8&gt;qu&lt;U+27E9&gt;, &lt;U+27E8&gt;ch&lt;U+27E9&gt;, &lt;U+27E8&gt;ph&lt;U+27E9&gt;, &lt;U+27E8&gt;ng&lt;U+27E9&gt;, &lt;U+27E8&gt;ie&lt;U+27E9&gt;, &lt;U+27E8&gt;ck&lt;U+27E9&gt;, &lt;U+27E8&gt;ei&lt;U+27E9&gt;, &lt;U+27E8&gt;eu&lt;U+27E9&gt;, &lt;U+27E8&gt;&lt;U+00E4&gt;u&lt;U+27E9&gt;
+&lt;U+00DF&gt;
+
+
+Ido alphabet
+-none-
+&lt;U+27E8&gt;qu&lt;U+27E9&gt;, &lt;U+27E8&gt;ch&lt;U+27E9&gt;, &lt;U+27E8&gt;sh&lt;U+27E9&gt;
+-none-
+
+
+Indonesian alphabet
+-none-
+&lt;U+27E8&gt;kh&lt;U+27E9&gt;, &lt;U+27E8&gt;ng&lt;U+27E9&gt;, &lt;U+27E8&gt;ny&lt;U+27E9&gt;, &lt;U+27E8&gt;sy&lt;U+27E9&gt;
+
+
+
+Interglossa alphabet
+-none-
+
+
+
+
+Interlingua alphabet
+-none-
+&lt;U+27E8&gt;qu&lt;U+27E9&gt;
+-none-
+
+
+Luxembourgish alphabet
+&lt;U+00E4&gt;, &lt;U+00E9&gt;, &lt;U+00EB&gt;
+
+
+
+
+Malay alphabet
+-none-
+&lt;U+27E8&gt;kh&lt;U+27E9&gt;, &lt;U+27E8&gt;ng&lt;U+27E9&gt;, &lt;U+27E8&gt;ny&lt;U+27E9&gt;, &lt;U+27E8&gt;sy&lt;U+27E9&gt;
+-none-
+
+
+Occidental alphabet
+-none-
+
+
+
+
+Portuguese alphabet
+&lt;U+00E3&gt;, &lt;U+00F5&gt;, &lt;U+00E1&gt;, &lt;U+00E9&gt;, &lt;U+00ED&gt;, &lt;U+00F3&gt;, &lt;U+00FA&gt;, &lt;U+00E2&gt;, &lt;U+00EA&gt;, &lt;U+00F4&gt;, &lt;U+00E0&gt;, &lt;U+00E7&gt;
+&lt;U+27E8&gt;ch&lt;U+27E9&gt;, &lt;U+27E8&gt;lh&lt;U+27E9&gt;, &lt;U+27E8&gt;nh&lt;U+27E9&gt;, &lt;U+27E8&gt;rr&lt;U+27E9&gt;, &lt;U+27E8&gt;ss&lt;U+27E9&gt;, &lt;U+27E8&gt;am&lt;U+27E9&gt;, &lt;U+27E8&gt;em&lt;U+27E9&gt;, &lt;U+27E8&gt;im&lt;U+27E9&gt;, &lt;U+27E8&gt;om&lt;U+27E9&gt;, &lt;U+27E8&gt;um&lt;U+27E9&gt;, &lt;U+27E8&gt;&lt;U+00E3&gt;e&lt;U+27E9&gt;, &lt;U+27E8&gt;&lt;U+00E3&gt;o&lt;U+27E9&gt;, &lt;U+27E8&gt;&lt;U+00F5&gt;e&lt;U+27E9&gt;
+-none-
+
+
+
+English is the only major modern European language requiring no diacritics for native words (although a diaeresis is used by some publishers in words such as &quot;co&lt;U+00F6&gt;peration&quot;).45
+Note for Portuguese: k, w and y were part of the alphabet until several spelling reforms during the 20th century, whose objectives were changing the etymological Portuguese spelling into an easier phonetic spelling. Thus these letters had been replaced by another letters which have the same sound (e. g. Psychologia became Psicologia, kioske became quiosque, martyr became m&lt;U+00E1&gt;rtir etc.). Now the usage of k, w, and y only happens in foreign words and its derived terms and for scientific abbreviations (e. g. km, byronismo). These letters are considered part of the alphabet again since the 1990 Portuguese Language Orthographic Agreement, which came into effect on January 1, 2009 in Brazil. See Reforms of Portuguese orthography.
+See also
+
+Hebrew alphabet
+Greek alphabet
+Latin-script alphabet
+Windows code pages
+
+References
+
+
+Category:Latin alphabets  
+
+
+
+↩
+↩
+
+As an example, an article containing both a diaeresis &quot;co&lt;U+00F6&gt;perate&quot; and a cedilla in &quot;fa&lt;U+00E7&gt;ades&quot; ()↩
+http://dscriber.com/news/121-the-new-yorkers-odd-mark-the-diaeresis↩
+
+

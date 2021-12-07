@@ -1,0 +1,230 @@
+
+
+ In photography and optics, the f-number (sometimes called focal ratio, f-ratio, or relative aperture1) of an optical system expresses the diameter of the entrance pupil in terms of the effective focal length of the lens.
+Notation
+The f-number #, often notated as N, is given by
+$$f/\# = N = \frac fD \$$ where f is the focal length, and D is the diameter of the entrance pupil. By convention, &quot;#&quot; is treated as a single symbol, and specific values of # are written by replacing the number sign with the value. For example, if the focal length is 16 times the pupil diameter, the f-number is 16, or N = 16. The greater the f-number, the less light per unit area reaches the image plane of the system.
+The literal interpretation of the N notation for f-number N is as an arithmetic expression for the effective aperture diameter (input pupil diameter), the focal length divided by the f-number: D = f/N.
+The pupil diameter is proportional to the diameter of the aperture stop of the system. In a camera, this is typically the diaphragm aperture, which can be adjusted to vary the size of the pupil, and hence the amount of light that reaches the film or image sensor. Other types of optical system, such as telescopes and binoculars may have a fixed aperture, but the same principle holds: the greater the focal ratio, the fainter the images created (measuring brightness per unit area of the image). Note that the common assumption in photography that the pupil diameter is equal to the aperture diameter is not correct for all types of camera lens. A focal ratio of 16 does not always mean that the physical aperture inside the camera lens has diameter equal to one sixteenth the focal length.
+Stops, f-stop conventions, and exposure
+The term stop is sometimes confusing due to its multiple meanings. A stop can be a physical object: an opaque part of an optical system that blocks certain rays. The aperture stop is the aperture that limits the brightness of the image by restricting the input pupil size, while a field stop is a stop intended to cut out light that would be outside the desired field of view and might cause flare or other problems if not stopped.
+In photography, stops are also a unit used to quantify ratios of light or exposure, with one stop meaning a factor of two, or one-half. The one-stop unit is also known as the EV (exposure value) unit. On a camera, the f-number is usually adjusted in discrete steps, known as f-stops. Each &quot;stop&quot; is marked with its corresponding f-number, and represents a halving of the light intensity from the previous stop. This corresponds to a decrease of the pupil and aperture diameters by a factor of $\sqrt{2}$, and hence a halving of the area of the pupil.
+ Modern lenses use a standard f-stop scale that corresponds to the sequence of the powers of $\sqrt{2}$:   1, 1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32, 45, 64, 90, 128, etc. The values of the ratios are rounded off to these particular conventional numbers, to make them easy to remember and write down.
+The slash indicates division. For example, 16 means that the pupil diameter is equal to the focal length divided by sixteen; that is, if the camera has an 80 mm lens, all the light that reaches the film passes through a circle that is 5 mm (80 mm/16) in diameter. The location of this circle inside the lens depends on the optical design. It may simply be the opening of the aperture stop, or may be a magnified image of the aperture stop, formed by elements within the lens.
+Shutter speeds are arranged in a similar scale, so that one stop in the shutter speed scale corresponds to one stop in the aperture scale. Opening up a lens by one stop allows twice as much light to fall on the film in a given period of time, therefore to have the same exposure, you must have a shutter speed twice as fast (shutter open half as long). Alternatively, you could use a film which is half as sensitive to light. This fundamental principle of photographic technique is known as reciprocity.
+Photographers sometimes express other exposure ratios in terms of 'stops'. If we ignore the f-number markings, the f-stops make a logarithmic scale of exposure intensity. Given this interpretation, you can then think of taking a half-step along this scale, to make an exposure difference of &quot;half a stop&quot;.
+Fractional stops
+Most old cameras had an aperture scale graduated in full stops but the aperture is continuously variable allowing to select any intermediate aperture.
+Click-stopped aperture became a common feature in the sixties; the aperture scale was usually marked in full stops, but many lenses had a click between two marks, allowing a gradation of half a stop.
+On modern cameras, especially when aperture is set on the camera body, f-number is often divided more finely than steps of one stop. Steps of one-third stop (1/3 EV) are the most common, since this matches the ISO system of film speeds. Half-stop steps are also seen on some cameras. As an example, the aperture that is one-third stop smaller than 2.8 is 3.2, two-thirds smaller is 3.5, and one whole stop smaller is 4. The next few f-stops in this sequence are
+
+
+4.5, 5, 5.6, 6.3, 7.1, 8, etc.
+
+
+As in the earlier DIN and ASA film-speed standards, the ISO speed is defined only in one-third stop increments, and shutter speeds of digital cameras are commonly on the same scale in reciprocal seconds. A portion of the ISO range is the sequence
+
+
+... 16/13&lt;U+00B0&gt;, 20/14&lt;U+00B0&gt;, 25/15&lt;U+00B0&gt;, 32/16&lt;U+00B0&gt;, 40/17&lt;U+00B0&gt;, 50/18&lt;U+00B0&gt;, 64/19&lt;U+00B0&gt;, 80/20&lt;U+00B0&gt;, 100/21&lt;U+00B0&gt;, 125/22&lt;U+00B0&gt;...
+
+
+while shutter speeds in reciprocal seconds have a few conventional differences in their numbers (1/15, 1/30, and 1/60 second instead of 1/16, 1/32, and 1/64).
+In practice the maximum aperture of a lens may not be an integral power of $\sqrt{2}$, in which case it is usually a half or third stop above or below an integral power of $\sqrt{2}$.
+Modern electronically-controlled interchangeable lenses, such as those from Canon and Sigma for SLR cameras, have f-stops specified internally in 1/8-stop increments, so the cameras' 1/3-stop settings are approximated by the nearest 1/8-stop setting in the lens.
+Standard full-stop F-number scale
+Including aperture value AV:
+
+
+
+AV
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+
+
+
+f/#
+0.7
+1.0
+1.4
+2
+2.8
+4
+5.6
+8
+11
+16
+22
+32
+45
+64
+90
+128
+
+
+
+Typical one-half-stop F-number scale
+
+
+
+f/#
+1.0
+1.2
+1.4
+1.7
+2
+2.4
+2.8
+3.4
+4
+4.8
+5.6
+6.7
+8
+9.5
+11
+13
+16
+19
+22
+
+
+
+
+
+Typical one-third-stop F-number scale
+
+
+
+f/#
+1.0
+1.1
+1.2
+1.4
+1.6
+1.8
+2
+2.2
+2.5
+2.8
+3.2
+3.5
+4
+4.5
+5.0
+5.6
+6.3
+7
+8
+9
+10
+11
+12
+14
+16
+18
+20
+22
+
+
+
+
+
+Notice that sometimes a number is ambiguous; for example, 1.2 may be used in either a half-stop or a one-third-stop system; sometimes 1.3 might be used instead for the one-third stop scale. There are other variations.
+t-stops
+Since all lenses absorb some portion of the light passing through them (particularly zoom lenses containing many elements), for exposure purposes t-stops are sometimes used instead of f-stops. The t-numbers are adjusted so that the amount of light transmitted through the lens at a given t-stop is equal to that going through an ideal non-absorbing lens set at that f-stop. (The t in t-stop stands for transmission.)
+Sunny 16 rule
+An example of the use of f-numbers in photography is the sunny 16 rule: an approximately correct exposure will be obtained on a sunny day by using an aperture of 16 and a shutter speed close to the reciprocal of the ISO speed of the film; for example, using ISO 200 film, an aperture of 16 and a shutter speed of 1/200 second. The f-number may then be adjusted downwards for situations with lower light.
+Effects on image quality
+  Depth of field increases with f-number, as illustrated in the photos to the right. This means that photos taken with a low f-number will tend to have one subject in focus, with the rest of the image out of focus. This is frequently useful for nature photography or certain special effects.
+Picture quality also varies with f-number. The optimal f-stop varies with the lens characteristics. For modern standard lenses having 6 or 7 elements, the sharpest image is often obtained around 5.6–8, while for older standard lenses having only 4 elements (Tessar formula) stopping to 11 will give the sharpest image. The reason the sharpness is best at medium f-numbers is that the sharpness at high f-number is constrained by diffraction, whereas at low f-numbers limitations of the lens design known as aberrations will dominate. The larger number of elements in modern lenses allow the designer to compensate for aberrations, allowing the lens to give good pictures at a lower f-stop. Light falloff is also sensitive to f-stop. Many wide-angle lenses will show a significant light falloff (vignetting) at the edges for large apertures. To measure the actual resolution of the lens at the different f-numbers it is necessary to use a standardized measurement chart like the 1951 USAF Resolution Test Chart.
+Photojournalists have a saying, &quot;8 and be there,&quot; frequently interpreted as meaning that being on the scene is more important than worrying about technical details. The aperture of 8 gives adequate depth of field, assuming a 35 mm or DSLR camera, minimum shutter-speed, and ISO film rating within reasonable limits subject to lighting.
+Human eye
+The f-number of the human eye varies from about 8.3 in a very brightly lit place to about 2.1 in the dark2.
+History
+The system of f-numbers for specifying relative apertures evolved in the late nineteenth century, in competition with several other systems of aperture notation.
+Origins of relative aperture
+In 1867, Sutton and Dawson defined &quot;apertal ratio&quot; as essentially the reciprocal of the modern f-number:3 
+In 1874, John Henry Dallmeyer called the ratio 1/N the &quot;intensity ratio&quot; of a lens:4 
+Although he did not yet have access to Ernst Abbe's theory of stops and pupils 1, which was made widely available by Siegfried Czapski in 1893 5, Dallmeyer knew that his working aperture was not the same as the physical diameter of the aperture stop:6 
+This point is further emphasized by Czapski in 1893 7. According to an English review of his book, in 1894, &quot;The necessity of clearly distinguishing between effective aperture and diameter of physical stop is strongly insisted upon&quot; 8.
+J. H. Dallmeyer's son, Thomas Rudolphus Dallmeyer, inventor of the telephoto lens, followed the intensity ratio terminology in 1899.9
+Aperture numbering systems
+At the same time, there were a number of aperture numbering systems designed with the goal of making exposure times vary in direct or inverse proportion with the aperture, rather than with the square of the f-number or inverse square of the apertal ratio or intensity ratio. But these systems all involved some arbitrary constant, as opposed to the simple ratio of focal length and diameter.
+For example, the Uniform System (U.S.) of apertures was adopted as a standard by the Photographic Society of Great Britain in the 1880s. Bothamley in 1891 said &quot;The stops of all the best makers are now arranged according to this system.&quot; 10 U.S. 16 is the same aperture as 16, but apertures that are larger or smaller by a full stop use doubling or halving of the U.S. number, for example 11 is U.S. 8 and 8 is U.S. 4. The exposure time required is directly proportional to the U.S. number. Eastman Kodak used U.S. stops on many of their cameras at least in the 1920s.
+By 1895, Hodges contradicts Bothamley, saying that the f-number system has taken over: &quot;This is called the f/x system, and the diaphragms of all modern lenses of good construction are so marked.&quot; 11
+Here is the situation as seen in 1899: 
+Piper in 190112 discusses five different systems of aperture marking: the old and new Zeiss systems based on actual intensity (proportional to reciprocal square of the f-number); and the U.S., C.I., and Dallmeyer systems based on exposure (proportional to square of the f-number). He calls the f-number the &quot;ratio number,&quot; &quot;aperture ratio number,&quot; and &quot;ratio aperture.&quot; He calls expressions like 8 the &quot;fractional diameter&quot; of the aperture, even though it is literally equal to the &quot;absolute diameter&quot; which he distinguishes as a different term. He also sometimes uses expressions like &quot;an aperture of f 8&quot; without the division indicated by the slash.
+Beck and Andrews in 190213 talk about the Royal Photographic Society standard of 4, 5.6, 8, 11.3, etc. The R.P.S. had changed their name and moved off of the U.S. system some time between 1895 and 1902. Their standard sequence doesn't quite match the modern conventions, e.g. at 11.3.
+Typographical standardization
+By 1920, the term f-number appeared in books both as F number and f/number. In modern publications, the forms f-number and f number are more common, though the earlier forms, as well as F-number are still found in a few books; not uncommonly, the initial lower-case f in f-number or f/number is set as the hooked italic f as in # 2. Notations for f-numbers were also quite variable in the early part of the twentieth century. They were sometimes written with a capital F 3, sometimes with a dot (period) instead of a slash 4, and sometimes set as a vertical fraction 5.
+The 1961 ASA standard PH2.12-1961 American Standard General-Purpose Photographic Exposure Meters (Photoelectric Type) specifies that &quot;The symbol for relative apertures shall be f / or f : followed by the effective f-number.&quot; Note that they show the hooked italic f  not only in the symbol, but also in the term f-number, which today is more commonly set in an ordinary non-italic face.
+Fast lenses
+ The term fast lens denotes a lens with a small f-number. Some of the fastest camera lenses ever made are:
+
+Carl Zeiss 50mm 0.70 (Limited production lens built for the NASA space program, used on 35mm movie cameras by Stanley Kubrick for a candlelit scene in Barry Lyndon)
+Rodenstock TV-Heligon 50mm 0.75
+Canon TV 50mm 0.95 (Available in TV and Canon 7 Rangefinder Version)
+Leica Noctilux 50mm 1.0 (Leica M mount, the fastest lens in production for 35mm cameras)
+Canon EF 50mm 1.0 (for Canon autofocus SLR, now out of production)
+Nikkor 50mm 1.1 (for Nikon rangefinder cameras)
+
+See also
+
+Circle of confusion
+Printer points
+Film speed
+Shutter speed
+Exposure value
+Pinhole camera
+Telescope
+Depth of field
+
+References
+
+External links
+
+f Number Arithmetic
+Film Speed
+F-Stop Quick Reference
+Understanding Camera Lenses - focal length &amp; f-number - includes how to interpret f-numbers when purchasing a lens
+Large format photography—how to select the f-stop
+A Tedious Explanation of the f/stop f/stops cause a lot of people confusion. This explanation shows why the numbers go like they do and why they make sense.
+Changing the f-stop will change your Depth of Field. (as will other important factors not mentioned in this article)
+The F Number - Demystified. (but beware that the mysterious plot there is in error, with two-stop increments labeled as one-stop)
+Photographic Cheat Sheet (PDF)
+
+de:Blendenzahl es:Paso nl:F-getal ja:F&lt;U+5024&gt; pl:Liczba przys&lt;U+0142&gt;ony ru:&lt;U+0427&gt;&lt;U+0438&gt;&lt;U+0441&gt;&lt;U+043B&gt;&lt;U+043E&gt; &lt;U+0434&gt;&lt;U+0438&gt;&lt;U+0430&gt;&lt;U+0444&gt;&lt;U+0440&gt;&lt;U+0430&gt;&lt;U+0433&gt;&lt;U+043C&gt;&lt;U+044B&gt;
+Category:Optics Category:Photographic terms
+
+
+
+Smith, Warren Modern Lens Design 2005 McGraw-Hill↩
+ Sect. 5.7.1↩
+Thomas Sutton and George Dawson, A Dictionary of Photography, London: Sampson Low, Son &amp; Marston, 1867, (p. 122).↩
+John Henry Dallmeyer, Photographic Lenses: On Their Choice and Use—Special Edition Edited for American Photographers, pamphlet, 1874.↩
+Siegfried Czapski, Theorie der optischen Instrumente, nach Abbe, Breslau: Trewendt, 1893.↩
+John Henry Dallmeyer, Photographic Lenses: On Their Choice and Use—Special Edition Edited for American Photographers, pamphlet, 1874.↩
+
+Henry Crew, &quot;Theory of Optical Instruments by Dr. Czapski,&quot; in Astronomy and Astro-physics XIII pp. 241–243, 1894.↩
+Thomas R. Dallmeyer, Telephotography: An elementary treatise on the construction and application of the telephotographic lens, London: Heinemann, 1899.↩
+C. H. Bothamley, Ilford Manual of Photography, London: Brittania Works Co. Ltd., 1891.↩
+John A. Hodges, Photographic Lenses: How to Choose, and How to Use, Bradford: Percy Lund &amp; Co., 1895.↩
+C. Welborne Piper, A First Book of the Lens: An Elementary Treatise on the Action and Use of the Photographic Lens, London: Hazell, Watson, and Viney, Ltd., 1901.↩
+Conrad Beck and Herbert Andrews, Photographic Lenses: A Simple Treatise, second edition, London: R. &amp; J. Beck Ltd., c. 1902.↩
+
+

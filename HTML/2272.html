@@ -1,0 +1,87 @@
+<p>In <a href="mathematics" class="uri" title="wikilink">mathematics</a>, the <strong>Henstock&lt;U+2013&gt;Kurzweil integral</strong>, also known as the <strong>Denjoy integral</strong> (pronounced ) and the <strong>Perron integral</strong>, is one of a number of definitions of the <a href="integral" class="uri" title="wikilink">integral</a> of a <a href="function_(mathematics)" title="wikilink">function</a>. It is a generalization of the <a href="Riemann_integral" title="wikilink">Riemann integral</a> which in some situations is more useful than the <a href="Lebesgue_integral" title="wikilink">Lebesgue integral</a>.</p>
+<p>This integral was first defined by <a href="Arnaud_Denjoy" title="wikilink">Arnaud Denjoy</a> (1912). Denjoy was interested in a definition that would allow one to integrate functions like</p>
+<p><br /><span class="math display">$$f(x)=\frac{1}{x}\sin\left(\frac{1}{x^3}\right).$$</span><br /></p>
+<p>This function has a singularity at 0, and is not Lebesgue integrable. However, it seems natural to calculate its integral except over [−&lt;U+03B5&gt;,&lt;U+03B4&gt;] and then let &lt;U+03B5&gt;, &lt;U+03B4&gt; &lt;U+2192&gt; 0.</p>
+<p>Trying to create a general theory Denjoy used <a href="transfinite_induction" title="wikilink">transfinite induction</a> over the possible types of singularities which made the definition quite complicated. Other definitions were given by <a href="Nikolai_Luzin" title="wikilink">Nikolai Luzin</a> (using variations on the notions of <a href="absolute_continuity" title="wikilink">absolute continuity</a>), and by <a href="Oskar_Perron" title="wikilink">Oskar Perron</a>, who was interested in continuous major and minor functions. It took a while to understand that the Perron and Denjoy integrals are actually identical.</p>
+<p>Later, in 1957, the Czech mathematician <a href="Jaroslav_Kurzweil" title="wikilink">Jaroslav Kurzweil</a> discovered a new definition of this integral elegantly similar in nature to <a href="Riemann" class="uri" title="wikilink">Riemann</a>'s original definition which he named the <strong>gauge integral</strong>; the theory was developed by <a href="Ralph_Henstock" title="wikilink">Ralph Henstock</a>. Due to these two important mathematicians, it is now commonly known as the <strong>Henstock&lt;U+2013&gt;Kurzweil integral</strong>. The simplicity of Kurzweil's definition made some educators advocate that this integral should replace the Riemann integral in introductory calculus courses, but this idea has not gained traction.</p>
+<h2 id="definition">Definition</h2>
+<p>Henstock's definition is as follows:</p>
+<p>Given a <a href="tagged_partition" title="wikilink">tagged partition</a> <em>P</em> of [<em>a</em>, <em>b</em>], say</p>
+<p><br /><span class="math display"><em>a</em> = <em>u</em><sub>0</sub> &lt; <em>u</em><sub>1</sub> &lt; ⋯ &lt; <em>u</em><sub><em>n</em></sub> = <em>b</em>,  <em>t</em><sub><em>i</em></sub> ∈ [<em>u</em><sub><em>i</em> − 1</sub>, <em>u</em><sub><em>i</em></sub>]</span><br /></p>
+<p>and a positive function</p>
+<p><br /><span class="math display"><em>δ</em>: [<em>a</em>, <em>b</em>] → (0, ∞), </span><br /></p>
+<p>which we call a <em>gauge</em>, we say ''P ''is <span class="math inline"><em>δ</em></span>-fine if</p>
+<p><br /><span class="math display">∀<em>i</em>  <em>u</em><sub><em>i</em></sub> − <em>u</em><sub><em>i</em> − 1</sub> &lt; <em>δ</em>(<em>t</em><sub><em>i</em></sub>).</span><br /></p>
+<p>For a tagged partition <em>P</em> and a function</p>
+<p><br /><span class="math display"><em>f</em>: [<em>a</em>, <em>b</em>] → ℝ</span><br /></p>
+<p>we define the Riemann sum to be</p>
+<p><br /><span class="math display">$$\sum_P f = \sum_{i = 1}^n (u_i - u_{i-1}) f(t_i).$$</span><br /></p>
+<p>Given a function</p>
+<p><br /><span class="math display"><em>f</em>: [<em>a</em>, <em>b</em>] → ℝ,</span><br /></p>
+<p>we now define a number <em>I</em> to be the Henstock&lt;U+2013&gt;Kurzweil integral of <em>f</em> if for every &lt;U+03B5&gt; &gt; 0 there exists a gauge <span class="math inline"><em>δ</em></span> such that whenever <em>P</em> is <span class="math inline"><em>δ</em></span>-fine, we have</p>
+<p><br /><span class="math display">|∑<sub><em>P</em></sub><em>f</em> − <em>I</em>| &lt; <em>ε</em>.</span><br /></p>
+<p>If such an <em>I</em> exists, we say that <em>f</em> is Henstock&lt;U+2013&gt;Kurzweil integrable on [<em>a</em>, <em>b</em>].</p>
+<p><a href="Cousin&#39;s_theorem" title="wikilink">Cousin's theorem</a> states that for every gauge <span class="math inline"><em>δ</em></span>, such a <span class="math inline"><em>δ</em></span>-fine partition <em>P</em> does exist, so this condition cannot be satisfied <a href="vacuous_truth" title="wikilink">vacuously</a>. The Riemann integral can be regarded as the special case where we only allow constant gauges.</p>
+<h2 id="properties">Properties</h2>
+<p>Let  be any function.</p>
+<p>If , then <em>f</em> is Henstock&lt;U+2013&gt;Kurzweil integrable on [<em>a</em>, <em>b</em>] if and only if it is Henstock&lt;U+2013&gt;Kurzweil integrable on both [<em>a</em>, <em>c</em>] and [<em>c</em>, <em>b</em>], and then</p>
+<p><br /><span class="math display">∫<sub><em>a</em></sub><sup><em>b</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em> = ∫<sub><em>a</em></sub><sup><em>c</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em> + ∫<sub><em>c</em></sub><sup><em>b</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em>.</span><br /></p>
+<p>The Henstock&lt;U+2013&gt;Kurzweil integral is linear, i.e., if <em>f</em> and <em>g</em> are integrable, and &lt;U+03B1&gt;, &lt;U+03B2&gt; are reals, then &lt;U+03B1&gt;<em>f</em> + &lt;U+03B2&gt;<em>g</em> is integrable and</p>
+<p><br /><span class="math display">∫<sub><em>a</em></sub><sup><em>b</em></sup><em>α</em><em>f</em>(<em>x</em>) + <em>β</em><em>g</em>(<em>x</em>) <em>d</em><em>x</em> = <em>α</em>∫<sub><em>a</em></sub><sup><em>b</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em> + <em>β</em>∫<sub><em>a</em></sub><sup><em>b</em></sup><em>g</em>(<em>x</em>) <em>d</em><em>x</em>.</span><br /></p>
+<p>If <em>f</em> is Riemann or Lebesgue integrable, then it is also Henstock&lt;U+2013&gt;Kurzweil integrable, and the values of the integrals are the same. The important <a href="Hake&#39;s_theorem" title="wikilink">Hake's theorem</a> states that</p>
+<p><br /><span class="math display">∫<sub><em>a</em></sub><sup><em>b</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em> = lim<sub><em>c</em> → <em>b</em>−</sub>∫<sub><em>a</em></sub><sup><em>c</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em></span><br /></p>
+<p>whenever either side of the equation exists, and symmetrically for the lower integration bound. This means that if <em>f</em> is &quot;<a href="improper_integral" title="wikilink">improperly</a> Henstock&lt;U+2013&gt;Kurzweil integrable&quot;, then it is properly Henstock&lt;U+2013&gt;Kurzweil integrable; in particular, improper Riemann or Lebesgue integrals such as</p>
+<p><br /><span class="math display">$$\int_0^1\frac{\sin(1/x)}x\,dx$$</span><br /></p>
+<p>are also Henstock&lt;U+2013&gt;Kurzweil integrals. This shows that there is no sense in studying an &quot;improper Henstock&lt;U+2013&gt;Kurzweil integral&quot; with finite bounds. However, it makes sense to consider improper Henstock&lt;U+2013&gt;Kurzweil integrals with infinite bounds such as</p>
+<p><br /><span class="math display">∫<sub><em>a</em></sub><sup> + ∞</sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em> := lim<sub><em>b</em> →  + ∞</sub>∫<sub><em>a</em></sub><sup><em>b</em></sup><em>f</em>(<em>x</em>) <em>d</em><em>x</em>.</span><br /></p>
+<p>For many types of functions the Henstock&lt;U+2013&gt;Kurzweil integral is no more general than Lebesgue integral. For example, if <em>f</em> is bounded, the following are equivalent:</p>
+<ul>
+<li><em>f</em> is Henstock&lt;U+2013&gt;Kurzweil integrable,</li>
+<li><em>f</em> is Lebesgue integrable,</li>
+<li><em>f</em> is <a href="measurable_function" title="wikilink">Lebesgue measurable</a>.</li>
+</ul>
+<p>In general, every Henstock&lt;U+2013&gt;Kurzweil integrable function is measurable, and <em>f</em> is Lebesgue integrable if and only if both <em>f</em> and |<em>f</em>| are Henstock&lt;U+2013&gt;Kurzweil integrable. This means that the Henstock&lt;U+2013&gt;Kurzweil integral can be thought of as a &quot;<a href="absolute_convergence" title="wikilink">non-absolutely convergent</a> version of Lebesgue integral&quot;. It also implies that the Henstock&lt;U+2013&gt;Kurzweil integral satisfies appropriate versions of the <a href="monotone_convergence_theorem#Lebesgue_monotone_convergence_theorem" title="wikilink">monotone convergence theorem</a> (without requiring the functions to be nonnegative) and <a href="dominated_convergence_theorem" title="wikilink">dominated convergence theorem</a> (where the condition of dominance is loosened to <em>g</em>(<em>x</em>) &lt;U+2264&gt; <em>f<sub>n</sub></em>(<em>x</em>) &lt;U+2264&gt; <em>h</em>(<em>x</em>) for some integrable <em>g</em>, <em>h</em>).</p>
+<p>If <em>F</em> is differentiable everywhere (or with countable many exceptions), the derivative <em>F</em>′ is Henstock&lt;U+2013&gt;Kurzweil integrable, and its indefinite Henstock&lt;U+2013&gt;Kurzweil integral is <em>F</em>. (Note that <em>F</em>′ need not be Lebesgue integrable.) In other words, we obtain a simpler and more satisfactory version of the <a href="second_fundamental_theorem_of_calculus" title="wikilink">second fundamental theorem of calculus</a>: each differentiable function is, up to a constant, the integral of its derivative:</p>
+<dl>
+
+<dd><span class="math inline"><em>F</em>(<em>x</em>) − <em>F</em>(<em>a</em>) = ∫<sub><em>a</em></sub><sup><em>x</em></sup><em>F</em>′(<em>t</em>) <em>d</em><em>t</em>.</span>
+</dd>
+</dl>
+<p>Conversely, the <a href="Lebesgue_differentiation_theorem" title="wikilink">Lebesgue differentiation theorem</a> continues to holds for the Henstock&lt;U+2013&gt;Kurzweil integral: if <em>f</em> is Henstock&lt;U+2013&gt;Kurzweil integrable on [<em>a</em>, <em>b</em>], and</p>
+<p><br /><span class="math display"><em>F</em>(<em>x</em>) = ∫<sub><em>a</em></sub><sup><em>x</em></sup><em>f</em>(<em>t</em>) <em>d</em><em>t</em>,</span><br /></p>
+<p>then <em>F</em>′(<em>x</em>) = <em>f</em>(<em>x</em>) almost everywhere in [<em>a</em>, <em>b</em>] (in particular, <em>F</em> is almost everywhere differentiable).</p>
+<h2 id="mcshane-integral">McShane integral</h2>
+<p>Interestingly, <a href="Lebesgue_integral" title="wikilink">Lebesgue integral</a> on a line can also be presented in a similar fashion.</p>
+<p>First of all, change of</p>
+<p><br /><span class="math display">∀<em>i</em>  <em>u</em><sub><em>i</em></sub> − <em>u</em><sub><em>i</em> − 1</sub> &lt; <em>δ</em>(<em>t</em><sub><em>i</em></sub>)</span><br /></p>
+<p>to</p>
+<p><br /><span class="math display">∀<em>i</em>  [<em>u</em><sub><em>i</em> − 1</sub>, <em>u</em><sub><em>i</em></sub>] ⊂ <em>U</em><sub><em>δ</em>(<em>t</em><sub><em>i</em></sub>)</sub>(<em>t</em><sub><em>i</em></sub>)</span><br /></p>
+<p>(here <span class="math inline"><em>U</em><sub><em>ε</em></sub>(<em>a</em>)</span> is a <span class="math inline"><em>ε</em></span>-neighbourhood of <em>a</em>) in the notion of <span class="math inline"><em>δ</em></span>-fine partition yields a definition of the Henstock&lt;U+2013&gt;Kurzweil integral equivalent to the one given above. But after this change we can drop condition</p>
+<p><br /><span class="math display"><em>t</em><sub><em>i</em></sub> ∈ [<em>u</em><sub><em>i</em> − 1</sub>, <em>u</em><sub><em>i</em></sub>]</span><br /></p>
+<p>and get a definition of <em>McShane integral</em>, which is equivalent to the Lebesgue integral.</p>
+<h2 id="references">References</h2>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<h2 id="external-links">External links</h2>
+<p>The following are additional resources on the web for learning more:</p>
+<ul>
+<li><a href="http://www.math.vanderbilt.edu/~schectex/ccc/gauge/" class="uri">http://www.math.vanderbilt.edu/~schectex/ccc/gauge/</a></li>
+<li><a href="http://www.math.vanderbilt.edu/~schectex/ccc/gauge/letter/" class="uri">http://www.math.vanderbilt.edu/~schectex/ccc/gauge/letter/</a></li>
+</ul>
+
+<p><a href="ca:Integral_de_Henstock-Kurzwe" title="wikilink">ca:Integral de Henstock-Kurzwe</a> <a href="de:Gauge-Integral" class="uri" title="wikilink">de:Gauge-Integral</a> <a href="fr:Int&lt;U+00E9&gt;grale_de_Kurzweil-Henstock" title="wikilink">fr:Int&lt;U+00E9&gt;grale de Kurzweil-Henstock</a> <a href="it:Integrale_di_Henstock-Kurzweil" title="wikilink">it:Integrale di Henstock-Kurzweil</a> <a href="he:&lt;U+05D0&gt;&lt;U+05D9&gt;&lt;U+05E0&gt;&lt;U+05D8&gt;&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05DC&gt;_&lt;U+05D4&gt;&lt;U+05E0&gt;&lt;U+05E1&gt;&lt;U+05D8&gt;&lt;U+05D5&gt;&lt;U+05E7&gt;" title="wikilink">he:&lt;U+05D0&gt;&lt;U+05D9&gt;&lt;U+05E0&gt;&lt;U+05D8&gt;&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05DC&gt; &lt;U+05D4&gt;&lt;U+05E0&gt;&lt;U+05E1&gt;&lt;U+05D8&gt;&lt;U+05D5&gt;&lt;U+05E7&gt;</a> <a href="nl:Henstock-Kurzweil-integraal" class="uri" title="wikilink">nl:Henstock-Kurzweil-integraal</a> <a href="pt:Integral_de_Henstock&lt;U+2013&gt;Kurzweil" title="wikilink">pt:Integral de Henstock&lt;U+2013&gt;Kurzweil</a> <a href="ru:&lt;U+0418&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+0433&gt;&lt;U+0440&gt;&lt;U+0430&gt;&lt;U+043B&gt;_&lt;U+041A&gt;&lt;U+0443&gt;&lt;U+0440&gt;&lt;U+0446&gt;&lt;U+0432&gt;&lt;U+0435&gt;&lt;U+0439&gt;&lt;U+043B&gt;&lt;U+044F&gt;-&lt;U+0425&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+043A&gt;&lt;U+0430&gt;" title="wikilink">ru:&lt;U+0418&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+0433&gt;&lt;U+0440&gt;&lt;U+0430&gt;&lt;U+043B&gt; &lt;U+041A&gt;&lt;U+0443&gt;&lt;U+0440&gt;&lt;U+0446&gt;&lt;U+0432&gt;&lt;U+0435&gt;&lt;U+0439&gt;&lt;U+043B&gt;&lt;U+044F&gt;-&lt;U+0425&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+043A&gt;&lt;U+0430&gt;</a> <a href="fi:Henstock-Kurzweil-integraali" class="uri" title="wikilink">fi:Henstock-Kurzweil-integraali</a></p>
+<p><a href="Category:Definitions_of_mathematical_integration" title="wikilink">Category:Definitions of mathematical integration</a></p>

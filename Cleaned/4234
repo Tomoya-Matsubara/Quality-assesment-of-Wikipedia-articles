@@ -1,0 +1,19 @@
+In spaceflight, the attitude control system (ACS) or attitude determination and control (ADAC) system of a spacecraft consists of equipment to measure, report and change the orientation of the vehicle.1
+Components
+Some components of the attitude control system include:
+Momentum wheels
+Reaction wheels
+Control moment gyroscopes
+Reaction control systems
+Attitude sensors such as gyroscopes, rate gyros (in spacecraft this is called Astrionics)
+See also
+Reaction control system
+Triad Method
+Orientation (geometry)
+Dynamics
+The ACS causes torques, which spin the spacecraft. With an accurate model of the dynamics of the spacecraft, those torques can be used to control the spacecraft's attitude.
+References
+External links
+de:Attitude Determination and Control System fr:Contr&lt;U+00F4&gt;le d'attitude
+Category:Spacecraft design
+↩

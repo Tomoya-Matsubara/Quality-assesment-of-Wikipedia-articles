@@ -1,0 +1,26 @@
+ The Charpy impact test, also known as the Charpy v-notch test, is a standardized high strain-rate test which determines the amount of energy absorbed by a material during fracture. This absorbed energy is a measure of a given material's toughness and acts as a tool to study temperature-dependent brittle-ductile transition. It is widely applied in industry, since it is easy to prepare and conduct and results can be obtained quickly and cheaply. But a major disadvantage is that all results are only comparative.1
+The test was developed in 1905 by a French scientist. It was pivotal in understanding the fracture problems of ships during the second World War. Today it is used in many industries for testing building and construction materials used in the construction of pressure vessels, bridges and to see how storms will affect materials used in building.2
+Definition
+The apparatus consists of a pendulum hammer swinging at a notched sample of material. The energy transferred to the material can be inferred by comparing the difference in the height of the hammer before and after a big fracture.
+The notch in the sample affects the results of the impact test,3 thus it is necessary for the notch to be of a regular dimensions and geometry. The size of the sample can also affect results, since the dimensions determine whether or not the material is in plane strain. This difference can greatly affect conclusions made.4
+The &quot;Standard methods for Notched Bar Impact Testing of Metallic Materials&quot; can be found in ASTM E23, where the all aspects of the test and the equipment are described in detail.
+Quantitative results
+The quantitative result of the impact test&lt;U+2014&gt;the energy needed to fracture a material&lt;U+2014&gt;can be used to measure the toughness of the material and the yield strength. Also, the strain rate may be studied and analyzed for its effect on fracture.
+The ductile-brittle transition temperature (DBTT) may be derived from the temperature where the energy needed to fracture the material drastically changes. However, in practice there is no sharp transition and so it is difficult to obtain a precise transition temperature. An exact DBTT may be empirically derived in many ways: a specific absorbed energy, change in aspect of fracture (such as 50% of the area is cleavage), etc.5
+Qualitative results
+The qualitative results of the impact test can be used to determine the ductility of a material.6 If the material breaks on a flat plane, the fracture was brittle, and if the material breaks with jagged edges or shear lips, then the fracture was ductile. Usually a material does not break in just one way or the other, and thus comparing the jagged to flat surface areas of the fracture will give an estimate of the percentage of ductile and brittle fracture.7
+Sample sizes
+According to ASTM A370, standard specimen for Charpy impact test is 10mm&lt;U+00D7&gt;10mm&lt;U+00D7&gt;55mm. Subsize specimen are: 10mm&lt;U+00D7&gt;7.5mm&lt;U+00D7&gt;55mm, 10mm&lt;U+00D7&gt;6.7mm&lt;U+00D7&gt;55mm, 10mm&lt;U+00D7&gt;5mm&lt;U+00D7&gt;55mm, 10mm&lt;U+00D7&gt;3.3mm&lt;U+00D7&gt;55mm, 10mm&lt;U+00D7&gt;2.5mm&lt;U+00D7&gt;55mm. Details of specimen as per ASTM A370 (Standard Test Method and Definitions for Mechanical Testing of Steel Products).
+Notes
+See also
+Izod impact strength test
+Ductility
+Brittle
+Impact force
+de:Kerbschlagbiegeversuch es:P&lt;U+00E9&gt;ndulo de Charpy fr:Essai de flexion par choc sur &lt;U+00E9&gt;prouvette entaill&lt;U+00E9&gt;e Charpy it:Pendolo di Charpy nl:Kerfslagproef ja:&lt;U+30B7&gt;&lt;U+30E3&gt;&lt;U+30EB&gt;&lt;U+30D4&gt;&lt;U+30FC&gt;&lt;U+885D&gt;&lt;U+6483&gt;&lt;U+8A66&gt;&lt;U+9A13&gt; sl:Charpyjev udarni preizkus
+Category:Materials testing Category:Fracture mechanics
+Meyers and Chawla. Mechanical Behaviors of Materials. Prentice Hall, Inc. (Pearson Education). (1999).↩
+Jacobs and Kilduff. Engineering Materials Technology. Pearson Prentice Hall. 5th Ed. 153-155 (2005).↩
+Kurishita, H et al. Effects of V-Notch Dimensions on Charpy Impact Test Results for Differently Sized Miniature Specimens of Ferritic Steel. Materials Transactions, JIM (Japan). 34, No. 11, 1042&lt;U+2013&gt;1052 (1993).↩
+Mills, N. J. The mechanism of brittle fracture in notched impact tests on polycarbonate. J. of Mater. Sci., 11, No. 2, 363&lt;U+2013&gt;375 (1976)↩
+Mathurt, KK et al. 3D analysis of failure modes in the Charpy impact test. Modeling Simul. Mater. Sci. Eng., 2, 617&lt;U+2013&gt;635 (1994).↩

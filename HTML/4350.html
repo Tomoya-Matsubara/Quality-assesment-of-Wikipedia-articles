@@ -1,0 +1,82 @@
+
+<p><img src="P2ptv.PNG" title="fig:P2PTV overlay network serving three video streams." alt="P2PTV overlay network serving three video streams." /> The term <strong>P2PTV</strong> refers to <a href="peer-to-peer" class="uri" title="wikilink">peer-to-peer</a> (P2P) <a href="software" class="uri" title="wikilink">software</a> applications designed to redistribute video streams in real time on a P2P network; the distributed video streams are typically <a href="TV" class="uri" title="wikilink">TV</a> channels from all over the world but may also come from other sources. The draw to these applications is significant because they have the potential to make any TV channel globally available.</p>
+<h2 id="technology-and-use">Technology and use</h2>
+<p>In a P2PTV system, each user, while downloading a video stream, is simultaneously also uploading that stream to other users, thus contributing to the overall available <a href="Bandwidth_(computing)" title="wikilink">bandwidth</a>. The arriving streams are typically a few minutes time-delayed compared to the original sources. The video quality of the channels usually depends on how many users are watching; the video quality is better if there are more users. The architecture of many P2PTV networks can be thought of as real-time versions of <a href="BitTorrent_(protocol)" title="wikilink">BitTorrent</a>: if a user wishes to view a certain channel, the P2PTV software contacts a &quot;tracker server&quot; for that channel in order to obtain addresses of peers who distribute that channel; it then contacts these peers to receive the feed. The tracker records the user's address, so that it can be given to other users who wish to view the same channel. In effect, this creates an <a href="overlay_network" title="wikilink">overlay network</a> on top of the regular internet for the distribution of real-time video content.</p>
+<p>The need for a tracker can also be eliminated by the use of <a href="distributed_hash_table" title="wikilink">distributed hash table</a> technology.</p>
+<p>Some applications allow users to broadcast their own streams, whether self-produced, obtained from a video file, or through a <a href="TV_tuner_card" title="wikilink">TV tuner card</a> or <a href="video_capture_card" title="wikilink">video capture card</a>.</p>
+<p>Many of the commercial P2PTV applications were developed in China (<a href="TVUnetworks" title="wikilink">TVUPlayer</a>, <a href="PPLive" class="uri" title="wikilink">PPLive</a>, <a href="QQLive" class="uri" title="wikilink">QQLive</a>,<a href="Feidian" class="uri" title="wikilink">Feidian</a>,<a href="PPStream" class="uri" title="wikilink">PPStream</a>, <a href="SopCast" class="uri" title="wikilink">SopCast</a>). The majority of available applications broadcast mainly Asian TV stations, with the exception of TVUPlayer, which carries a number of North American stations including <a href="CBS" class="uri" title="wikilink">CBS</a>, <a href="Spike_TV" title="wikilink">Spike TV</a>, and <a href="Fox_News" title="wikilink">Fox News</a>. Some applications distribute TV channels without a legal license to do so; this utilization of P2P technology is particularly popular to view channels that are either not available locally, or only available by paid subscription, as is the case for some sports channels.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> By January 2009, there were about 14,000 P2P channels on PPStream.</p>
+<p>Other commercial P2PTV applications outside China are Abroadcasting (USA), <a href="Zattoo" class="uri" title="wikilink">Zattoo</a> (Switzerland/USA), Octoshape (Denmark), LiveStation (UK).</p>
+<h2 id="issues-for-broadcasters">Issues for broadcasters</h2>
+<ul>
+<li>Broadcasting via a P2PTV system is usually much cheaper than the alternatives and can be done by private individuals.</li>
+<li>No <a href="quality_of_service" title="wikilink">quality of service</a> (QoS). Compared to <a href="unicast" title="wikilink">unicasting</a> (the standard server-client architecture used in <a href="streaming_media" title="wikilink">streaming media</a>) no one can guarantee a reliable stream, since every user is a rebroadcaster. Each viewer is a part of a chain of viewers which all can have a negative influence on the reliability of the stream (by having a slow PC, a filled downlink or uplink or an unreliable consumer grade DSL or cable connection).</li>
+<li>Less control. If a broadcaster prefers to limit access to their content based on regions, and would like good data on viewer behaviour, such as volume, trends and viewing time, then a traditional broadcasting solution offers more control.</li>
+<li>Professional broadcasters and distributors have used a hybrid solution for many years. Distribution servers are not centrally installed, but are rolled out in a smart, decentralized way. A central management facility manages content distribution over multiple peer servers (also known as Edge servers, or Caches), strategically located near user swarms (generally popular access ISP networks), manages load balancing, redirection of users, view reporting and QoS. Examples are <a href="Akamai_Technologies" title="wikilink">Akamai</a>.</li>
+</ul>
+<h2 id="notable-applications">Notable applications</h2>
+<h3 id="branded-webtv-service-for-end-users">Branded webtv service for end-users</h3>
+<ul>
+<li><a href="Babelgum" class="uri" title="wikilink">Babelgum</a>.com (non-live)</li>
+<li><a href="BBC_iPlayer" title="wikilink">BBC iPlayer</a> (live and non-live, used peer-to-peer technology <a href="BBC_iPlayer#Download_service" title="wikilink"> until December 2008</a>)</li>
+<li><a href="Joost" class="uri" title="wikilink">Joost</a>.com (non-live, live trials)</li>
+<li><a href="LiveStation" class="uri" title="wikilink">LiveStation</a>.com (Windows, Linux, Mac) - based in United Kingdom</li>
+<li><a href="Miro_(software)" title="wikilink">Miro</a> (non-live)</li>
+<li><a href="ReelTime.com" class="uri" title="wikilink">ReelTime.com</a> (non-live)</li>
+<li><a href="Zattoo" class="uri" title="wikilink">Zattoo</a>.com (Windows, Mac)</li>
+</ul>
+<h3 id="commercial-solutions-for-broadcasters">Commercial solutions for broadcasters</h3>
+<ul>
+<li><a href="Alluvium_(peercasting)" title="wikilink">Alluvium</a> - based in Texas, USA</li>
+<li><a href="Octoshape" class="uri" title="wikilink">Octoshape</a> (Windows, Linux, Mac)</li>
+<li><a href="Pando_(application)" title="wikilink">Pando</a></li>
+<li><a href="Rawflow" class="uri" title="wikilink">Rawflow</a></li>
+</ul>
+<h3 id="unclassified-yet">Unclassified (yet)</h3>
+<ul>
+<li><a href="CDNetworks" class="uri" title="wikilink">CDNetworks</a> (<a href="CDN" class="uri" title="wikilink">CDN</a> service)</li>
+<li><a href="CoolStreaming" class="uri" title="wikilink">CoolStreaming</a> (discontinued service)</li>
+<li><a href="Cybersky-TV" class="uri" title="wikilink">Cybersky-TV</a> - software</li>
+<li><a href="Feidian" class="uri" title="wikilink">Feidian</a> - based in China mainland</li>
+<li><a href="PeerCast" class="uri" title="wikilink">PeerCast</a> (Windows, Linux, Mac)</li>
+<li><a href="PPLive" class="uri" title="wikilink">PPLive</a> - based in China mainland, chinese only program.</li>
+<li><a href="PPStream" class="uri" title="wikilink">PPStream</a> - based in China mainland</li>
+<li><a href="Tribler" class="uri" title="wikilink">Tribler</a> - linked to <a href="P2P-Next" class="uri" title="wikilink">P2P-Next</a>, relies on <a href="BitTorrent_(protocol)" title="wikilink">BitTorrent</a> protocol</li>
+<li><a href="TVUnetworks" class="uri" title="wikilink">TVUnetworks</a> - Windows and MacOSX P2PTV Software and Network</li>
+<li><a href="PULSE_(P2PTV)" title="wikilink"> Pulse</a> - (Windows, Linux) LGPL P2PTV engine with announcement portal and unrestricted access</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Comparison_of_streaming_media_systems" title="wikilink">Comparison of streaming media systems</a></li>
+<li><a href="Comparison_of_video_services" title="wikilink">Comparison of video services</a></li>
+<li><a href="Digital_television" title="wikilink">Digital television</a></li>
+<li><a href="Grid_casting" title="wikilink">Grid casting</a></li>
+<li><a href="HTTP(P2P)" class="uri" title="wikilink">HTTP(P2P)</a></li>
+<li><a href="Internet_television" title="wikilink">Internet television</a></li>
+<li><a href="IPTV" class="uri" title="wikilink">IPTV</a></li>
+<li><a href="List_of_music_streaming_services" title="wikilink">List of music streaming services</a></li>
+<li><a href="List_of_streaming_media_systems" title="wikilink">List of streaming media systems</a></li>
+<li><a href="Multicast" class="uri" title="wikilink">Multicast</a></li>
+<li><a href="Protection_of_Broadcasts_and_Broadcasting_Organizations_Treaty" title="wikilink">Protection of Broadcasts and Broadcasting Organizations Treaty</a></li>
+<li><a href="Push_technology" title="wikilink">Push technology</a></li>
+<li><a href="Software_as_a_service" title="wikilink">Software as a service</a></li>
+<li><a href="Streaming_media" title="wikilink">Streaming media</a></li>
+<li><a href="Webcast" class="uri" title="wikilink">Webcast</a></li>
+<li><a href="Web_television" title="wikilink">Web television</a></li>
+</ul>
+<h2 id="references">References</h2>
+
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="http://wiki.ebu.ch/p2p/Main_Page">EBU Project Group D/P2P (Peer-to-Peer) website</a></li>
+<li><a href="http://www.abroadcasting.com">Abroadcasting</a></li>
+<li><a href="http://www.octoshape.com">Octoshape</a></li>
+<li><a href="http://www.livestation.com">LiveStation</a></li>
+</ul>
+<p><a href="ca:P2PTV" class="uri" title="wikilink">ca:P2PTV</a> <a href="de:P2PTV" class="uri" title="wikilink">de:P2PTV</a> <a href="es:P2PTV" class="uri" title="wikilink">es:P2PTV</a> <a href="ko:P2PTV" class="uri" title="wikilink">ko:P2PTV</a> <a href="it:P2P_TV" title="wikilink">it:P2P TV</a> <a href="hu:P2PTV" class="uri" title="wikilink">hu:P2PTV</a> <a href="ja:P2P&lt;U+30C6&gt;&lt;U+30EC&gt;&lt;U+30D3&gt;" class="uri" title="wikilink">ja:P2P&lt;U+30C6&gt;&lt;U+30EC&gt;&lt;U+30D3&gt;</a> <a href="pt:P2PTV" class="uri" title="wikilink">pt:P2PTV</a> <a href="fi:P2PTV" class="uri" title="wikilink">fi:P2PTV</a> <a href="tr:P2PTV" class="uri" title="wikilink">tr:P2PTV</a></p>
+<p><a href="Category:Networks" class="uri" title="wikilink">Category:Networks</a> <a href="Category:Applications_of_distributed_computing" title="wikilink">Category:Applications of distributed computing</a> <a href="Category:Cloud_storage" title="wikilink">Category:Cloud storage</a> <a href="Category:Digital_television" title="wikilink">Category:Digital television</a> <a href="Category:Distributed_algorithms" title="wikilink">Category:Distributed algorithms</a> <a href="Category:Distributed_data_storage" title="wikilink">Category:Distributed data storage</a> <a href="Category:Distributed_data_storage_systems" title="wikilink">Category:Distributed data storage systems</a> <a href="Category:File_sharing_networks" title="wikilink">Category:File sharing networks</a> <a href="Category:Film_and_video_technology" title="wikilink">Category:Film and video technology</a> <a href="Category:Internet_broadcasting" title="wikilink">Category:Internet broadcasting</a> <a href="Category:Internet_television" title="wikilink">Category:Internet television</a> <a href="Category:Multimedia" class="uri" title="wikilink">Category:Multimedia</a> <a href="Category:Peer-to-peer_computing" title="wikilink">Category:Peer-to-peer computing</a> <a href="Category:Peercasting" class="uri" title="wikilink">Category:Peercasting</a> <a href="Category:Streaming_media_systems" title="wikilink">Category:Streaming media systems</a> <a href="Category:Video_hosting" title="wikilink">Category:Video hosting</a> <a href="Category:Video_on_demand_services" title="wikilink">Category:Video on demand services</a></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><a href="#fnref1" class="footnote-back">↩</a></li>
+</ol>
+</section>

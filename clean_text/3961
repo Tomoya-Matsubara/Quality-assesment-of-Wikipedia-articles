@@ -1,0 +1,679 @@
+
+ In mathematics, a group is a set of elements together with an operation that combines any two of its elements to form a third element. To qualify as a group, the set and operation must satisfy a few conditions called group axioms, namely associativity, identity and inverse elements. While these are familiar from many mathematical structures, such as number systems&lt;U+2014&gt;for example, the integers endowed with the addition operation form a group&lt;U+2014&gt;the formulation of the axioms is detached from the concrete nature of the group and its operation. This allows one to handle entities of very different mathematical origins in a flexible way, while retaining essential structural aspects of many objects in abstract algebra and beyond. The ubiquity of groups in numerous areas&lt;U+2014&gt;both within and outside mathematics&lt;U+2014&gt;makes them a central organizing principle of contemporary mathematics.12
+Groups share a fundamental kinship with the notion of symmetry. A symmetry group encodes symmetry features of a geometrical object: it consists of the set of transformations that leave the object unchanged, and the operation of combining two such transformations by performing one after the other. Such symmetry groups, particularly the continuous Lie groups, play an important role in many academic disciplines. Matrix groups, for example, can be used to understand fundamental physical laws underlying special relativity and symmetry phenomena in molecular chemistry.
+The concept of a group arose from the study of polynomial equations, starting with &lt;U+00C9&gt;variste Galois in the 1830s. After contributions from other fields such as number theory and geometry, the group notion was generalized and firmly established around 1870. Modern group theory&lt;U+2014&gt;a very active mathematical discipline&lt;U+2014&gt;studies groups in their own right. To explore groups, mathematicians have devised various notions to break groups into smaller, better-understandable pieces, such as subgroups, quotient groups and simple groups. In addition to their abstract properties, group theorists also study the different ways in which a group can be expressed concretely (its group representations), both from a theoretical and a computational point of view. A particularly rich theory has been developed for finite groups, which culminated with the monumental classification of finite simple groups completed in 1983.
+
+Definition and illustration
+First example: the integers
+One of the most familiar groups is the set of integers Z containing the numbers
+
+
+..., &lt;U+2212&gt;4, &lt;U+2212&gt;3, &lt;U+2212&gt;2, &lt;U+2212&gt;1, 0, 1, 2, 3, 4, ...3
+
+
+The following properties of integer addition serve as a model for the abstract group axioms given in the definition below.
+
+For any two integers a and b, the sum a + b is also an integer. In other words, the process of adding integers two at a time can never yield a result that is not an integer. This property is known as closure under addition.
+For all integers a, b and c, (a + b) + c = a + (b + c). Expressed in words, adding a to b first, and then adding c to their sum gives the same final result as adding the sum of b and c to a, a property known as associativity.
+If a is any integer, then 0 + a = a + 0 = a. Zero is called the identity element of addition because adding it to any integer returns the same integer.
+For every integer a, there is an integer b such that a + b = b + a = 0. The integer b is called the inverse element of the integer a and is denoted &lt;U+2212&gt;a.
+
+Definition
+The integers, together with the operation &quot;+&quot;, form a mathematical object belonging to a broad class sharing similar structural aspects. To appropriately understand these structures without dealing with every concrete case separately, the following abstract definition is developed to encompass the above example along with many others, one of which is the symmetry group detailed below. A group is a set, G, together with an operation &quot;&lt;U+2022&gt;&quot; that combines any two elements a and b to form another element denoted . The symbol &quot;&lt;U+2022&gt;&quot; is a general placeholder for a concretely given operation, such as the addition above. To qualify as a group, the set and operation, , must satisfy four requirements known as the group axioms:4
+
+
+{|
+
+
+| 1. ||width=&quot;150pt&quot;| Closure. || For all a, b in G, the result of the operation a &lt;U+2022&gt; b is also in G. |- | 2. || Associativity. || For all a, b and c in G, the equation (a &lt;U+2022&gt; b) &lt;U+2022&gt; c = a &lt;U+2022&gt; (b &lt;U+2022&gt; c) holds. |- | 3. || Identity element. || There exists an element e in G, such that for all elements a in G, the equation e &lt;U+2022&gt; a = a &lt;U+2022&gt; e = a holds. |- | 4. || Inverse element. || For each a in G, there exists an element b in G such that a &lt;U+2022&gt; b = b &lt;U+2022&gt; a = e, where e is the identity element. |}
+The order in which the group operation is carried out can be significant. In other words, the result of combining element a with element b need not yield the same result as combining element b with element a; the equation
+
+
+a &lt;U+2022&gt; b = b &lt;U+2022&gt; a
+
+
+may not always be true. This equation does always hold in the group of integers under addition, because a + b = b + a for any two integers (commutativity of addition). However, it does not always hold in the symmetry group below. Groups for which the equation a &lt;U+2022&gt; b = b &lt;U+2022&gt; a always holds are called abelian (in honor of Niels Abel). Thus, the integer addition group is abelian, but the following symmetry group is not.
+Second example: a symmetry group
+The symmetries (i.e. rotations and reflections) of a square form a group called a dihedral group, and denoted D4.5 The following symmetries occur:
+
+
+
+
+id (keeping it as is)
+
+r1 (rotation by 90&lt;U+00B0&gt; right)
+
+r2 (rotation by 180&lt;U+00B0&gt; right)
+
+r3 (rotation by 270&lt;U+00B0&gt; right)
+
+
+
+fv (vertical flip)
+
+fh (horizontal flip)
+
+fd (diagonal flip)
+
+fc (counter-diagonal flip)
+
+
+The elements of the symmetry group of the square (D4). The vertices are colored and numbered only to visualize the operations.
+
+
+
+
+
+
+:* the identity operation leaving everything unchanged, denoted id;
+:* rotations of the square by 90&lt;U+00B0&gt; right, 180&lt;U+00B0&gt; right, and 270&lt;U+00B0&gt; right, denoted by r1, r2 and r3, respectively;
+:* reflections about the vertical and horizontal middle line (fh and fv), or through the two diagonals (fd and fc).
+
+Any two symmetries a and b can be composed, i.e. applied one after another. The result of performing first a and then b is written symbolically from right to left as
+
+
+b &lt;U+2022&gt; a (&quot;apply the symmetry b after performing the symmetry a&quot;. The right-to-left notation stems from composition of functions).
+
+
+The group table on the right lists the results of all such compositions possible. For example, rotating by 270&lt;U+00B0&gt; right (r3) and then flipping horizontally (fh) is the same as performing a reflection along the diagonal (fd). Using the above symbols, highlighted in blue in the group table:
+
+
+fh &lt;U+2022&gt; r3 = fd.
+
+
+
+
+Group table of D4
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;U+2022&gt;
+id
+r1
+r2
+r3
+fv
+fh
+fd
+fc
+
+
+
+
+id
+id
+r1
+r2
+r3
+fv
+fh
+fd
+fc
+
+
+r1
+r1
+r2
+r3
+id
+fc
+fd
+fv
+fh
+
+
+r2
+r2
+r3
+id
+r1
+fh
+fv
+fc
+fd
+
+
+r3
+r3
+id
+r1
+r2
+fd
+fc
+fh
+fv
+
+
+fv
+fv
+fd
+fh
+fc
+id
+r2
+r1
+r3
+
+
+fh
+fh
+fc
+fv
+fd
+r2
+id
+r3
+r1
+
+
+fd
+fd
+fh
+fc
+fv
+r3
+r1
+id
+r2
+
+
+fc
+fc
+fv
+fd
+fh
+r1
+r3
+r2
+id
+
+
+The elements id, r1, r2, and r3 form a subgroup, highlighted in red (upper left region). A left and right coset of this subgroup is highlighted in green (in the last row) and yellow (last column), respectively.
+
+
+
+
+
+
+
+
+
+
+
+Given this set of symmetries and the described operation, the group axioms can be understood as follows:
+
+The closure axiom demands that the composition b &lt;U+2022&gt; a of any two symmetries a and b is still a symmetry. Another example for the group operation is
+
+
+r3 &lt;U+2022&gt; fh = fc,
+
+
+i.e. rotating 270&lt;U+00B0&gt; right after flipping horizontally equals flipping along the counter-diagonal (fc). Indeed every other combination of two symmetries still gives a symmetry, as can be checked using the group table.
+The associativity constraint deals with composing more than two symmetries: given three elements a, b and c of D4, there are two possible ways of computing &quot;a then b then c&quot;. The requirement
+
+
+(a &lt;U+2022&gt; b) &lt;U+2022&gt; c = a &lt;U+2022&gt; (b &lt;U+2022&gt; c)
+
+
+means that the composition of the three elements is independent of the priority of the operations, i.e. composing first a after b, and c to the result  thereof amounts to performing a after the composition of b and c. For example,  (fd &lt;U+2022&gt; fv) &lt;U+2022&gt; r2 = fd &lt;U+2022&gt; (fv &lt;U+2022&gt; r2) can be checked using the group table at the right
+
+
+{|style=&quot;text-align:center&quot;|
+
+
+|(fd &lt;U+2022&gt; fv) &lt;U+2022&gt; r2|| = ||r3 &lt;U+2022&gt; r2|| = ||r1, which equals |- |fd &lt;U+2022&gt; (fv &lt;U+2022&gt; r2)|| = ||fd &lt;U+2022&gt; fh|| = ||r1. |}
+The identity element is the symmetry id leaving everything unchanged: for any symmetry a, performing id after a (or a after id) equals a, in symbolic form,
+
+
+id &lt;U+2022&gt; a = a,
+
+a &lt;U+2022&gt; id = a.
+
+
+
+An inverse element undoes the transformation of some other element. Every symmetry can be undone: each of transformations&lt;U+2014&gt;identity id, the flips fh, fv, fd, fc and the 180&lt;U+00B0&gt; rotation r2&lt;U+2014&gt;is its own inverse, because performing each one twice brings the square back to its original orientation. The rotations r3 and r1 are each other's inverse, because rotating one way and then by the same angle the other way leaves the square unchanged. In symbols,
+
+
+fh &lt;U+2022&gt; fh = id,
+
+r3 &lt;U+2022&gt; r1 = r1 &lt;U+2022&gt; r3 = id.
+
+
+
+
+In contrast to the group of integers above, where the order of the operation is irrelevant, it does matter in D4: fh &lt;U+2022&gt; r1 = fc but r1 &lt;U+2022&gt; fh = fd. In other words, D4 is not abelian, which makes the group structure more difficult than the integers introduced first.
+History
+
+The modern concept of an abstract group developed out of several fields of mathematics.678 The original motivation for group theory was the quest for solutions of polynomial equations of degree higher than 4. The 19th century French mathematician &lt;U+00C9&gt;variste Galois, extending prior work of Paolo Ruffini and Joseph-Louis Lagrange, gave a criterion for the solvability of a particular polynomial equation in terms of the symmetry group of its roots (solutions). The elements of such a Galois group correspond to certain permutations of the roots. At first, Galois' ideas were rejected by his contemporaries, and published only posthumously.910 More general permutation groups were investigated in particular by Augustin Louis Cauchy. Arthur Cayley's On the theory of groups, as depending on the symbolic equation &lt;U+03B8&gt;n = 1 (1854) gives the first abstract definition of a finite group.11
+Geometry was a second field in which groups were used systematically, especially symmetry groups as part of Felix Klein's 1872 Erlangen program.12 After novel geometries such as hyperbolic and projective geometry had emerged, Klein used group theory to organize them in a more coherent way. Further advancing these ideas, Sophus Lie founded the study of Lie groups in 1884.13
+The third field contributing to group theory was number theory. Certain abelian group structures had been used implicitly in Carl Friedrich Gauss' number-theoretical work Disquisitiones Arithmeticae (1798), and more explicitly by Leopold Kronecker.14 In 1847, Ernst Kummer led early attempts to prove Fermat's Last Theorem to a climax by developing groups describing factorization into prime numbers.15
+The convergence of these various sources into a uniform theory of groups started with Camille Jordan's Trait&lt;U+00E9&gt; des substitutions et des &lt;U+00E9&gt;quations alg&lt;U+00E9&gt;briques (1870).16 Walther von Dyck (1882) gave the first statement of the modern definition of an abstract group.17 As of the 20th century, groups gained wide recognition by the pioneering work of Ferdinand Georg Frobenius and William Burnside, who worked on representation theory of finite groups, Richard Brauer's modular representation theory and Issai Schur's papers.18 The theory of Lie groups, and more generally locally compact groups was pushed by Hermann Weyl, &lt;U+00C9&gt;lie Cartan and many others.19 Its algebraic counterpart, the theory of algebraic groups, was first shaped by Claude Chevalley (from the late 1930s) and later by pivotal work of Armand Borel and Jacques Tits.20
+The University of Chicago's 1960&lt;U+2013&gt;61 Group Theory Year brought together group theorists such as Daniel Gorenstein, John G. Thompson and Walter Feit, laying the foundation of a collaboration that, with input from numerous other mathematicians, classified all finite simple groups in 1982. This project exceeded previous mathematical endeavours by its sheer size, in both length of proof and number of researchers. Research is ongoing to simplify the proof of this classification.21 These days, group theory is still a highly active mathematical branch crucially impacting many other fields.
+Simple consequences of the group axioms
+
+Basic facts about all groups that can be obtained directly from the group axioms are commonly subsumed under elementary group theory.22 For example, repeated applications of the associativity axiom show that the unambiguity of
+
+
+a &lt;U+2022&gt; b &lt;U+2022&gt; c = (a &lt;U+2022&gt; b) &lt;U+2022&gt; c = a &lt;U+2022&gt; (b &lt;U+2022&gt; c)
+
+
+generalizes to more than three factors. Because this implies that parentheses can be inserted anywhere within such a series of terms, parentheses are usually omitted.23
+The axioms may be weakened to assert only the existence of a left identity and left inverses. Both can be shown to be actually two-sided, so the resulting definition is equivalent to the one given above.24
+Uniqueness of identity element and inverses
+Two important consequences of the group axioms are the uniqueness of the identity element and the uniqueness of inverse elements. There can be only one identity element in a group, and each element in a group has exactly one inverse element. Thus, it is customary to speak of the identity, and the inverse of an element.25
+To prove the uniqueness of an inverse element of a, suppose that a has two inverses, denoted l and r. Then
+
+
+{|
+
+
+|l ||=||l &lt;U+2022&gt; e ||    ||as e is the identity element |- | ||=||l &lt;U+2022&gt; (a &lt;U+2022&gt; r) ||    ||because r is an inverse of a, so e = a &lt;U+2022&gt; r |- | ||=||(l &lt;U+2022&gt; a) &lt;U+2022&gt; r ||    ||by associativity, which allows to rearrange the parentheses |- | ||=||e &lt;U+2022&gt; r||    ||since l is an inverse of a, i.e. l &lt;U+2022&gt; a = e |- | ||=||r||    || for e is the identity element |}
+Hence the two extremal terms l and r are connected by a chain of equalities, so they agree. In other words there is only one inverse element of a.
+Division
+In groups, it is possible to perform division: given elements a and b of the group G, there is exactly one solution x in G to the equation x &lt;U+2022&gt; a = b.26 In fact, right multiplication of the equation by a−1 gives the solution x = x &lt;U+2022&gt; a &lt;U+2022&gt; a−1 = b &lt;U+2022&gt; a−1. Similarly there is exactly one solution y in G to the equation a &lt;U+2022&gt; y = b, namely y = a−1 &lt;U+2022&gt; b. In general, x and y need not agree.
+Basic concepts
+
+The following sections use mathematical symbols such as X = {x'', y, z}'' to denote a set X containing elements x, y, and z, or alternatively x &lt;U+2208&gt; X to restate that x is an element of X. The notation  means f is a function assigning to every element of X an element of Y.
+
+
+To understand groups beyond the level of mere symbolic manipulations as above, more structural concepts have to be employed. There is a conceptual principle underlying all of the following notions: to take advantage of the structure offered by groups (which for example sets&lt;U+2014&gt;being &quot;structureless&quot;&lt;U+2014&gt;don't have) constructions related to groups have to be compatible with the group operation. This compatibility manifests itself in the following notions in various ways. For example, groups can be related to each other via functions called group homomorphisms. By the mentioned principle, they are required to respect the group structures in a precise sense. The structure of groups can also be understood by breaking them into pieces called subgroups and quotient groups. The principle of &quot;preserving structures&quot;&lt;U+2014&gt;a recurring topic in mathematics throughout&lt;U+2014&gt;is an instance of working in a category, in this case the category of groups.27
+Group homomorphisms
+
+Group homomorphisms are functions that preserve group structure. A function a: G &lt;U+2192&gt; H between two groups is a homomorphism if the equation
+
+
+a(g &lt;U+2022&gt; k) = a(g) &lt;U+2022&gt; a(k).
+
+
+holds for all elements g, k in G, i.e. the result is the same when performing the group operation after or before applying the map a. This requirement ensures that a(1G) = 1H, and also a(g)−1 = a(g−1) for all g in G. Thus a group homomorphism respects all the structure of G provided by the group axioms.28
+Two groups G and H are called isomorphic if there exist group homomorphisms a: G &lt;U+2192&gt; H and b: H &lt;U+2192&gt; G, such that applying the two functions one after another (in each of the two possible orders) equal the identity function of G and H, respectively. That is, a(b(h)) = h and b(a(g)) = g for any g in G and h in H. From an abstract point of view, isomorphic groups carry the same information. For example, proving that g &lt;U+2022&gt; g = 1 for some element g of G is equivalent to proving that a(g) &lt;U+2022&gt; a(g) = 1, because applying a to the first equality yields the second, and applying b to the second gives back the first.
+Subgroups
+
+Informally, a subgroup is a group H contained within a bigger one, G.29 Concretely, the identity element of G is contained in H, and whenever h1 and h2 are in H, then so are  and h1−1, so the elements of H, equipped with the group operation on G restricted to H, form indeed a group.
+In the example above, the identity and the rotations constitute a subgroup R = {id, r1, r2, r3}, highlighted in red in the group table above: any two rotations composed are still a rotation, and a rotation can be undone by (i.e. is inverse to) the rotation in the opposite direction. The subgroup test is a necessary and sufficient condition for a subset H of a group G to be a subgroup: it is sufficient to check that  for all elements g, h &lt;U+2208&gt; H. Knowing the subgroups is important in understanding the group as a whole.
+Given any subset S of a group G, the subgroup generated by S consists of products of elements of S and their inverses. It is the smallest subgroup of G containing S.30 In the introductory example above, the subgroup generated by r2 and fv consists of these two elements, the identity element id and fh = fv &lt;U+2022&gt; r2. Again, this is a subgroup, because combining any two of these four elements or their inverses (which are, in this particular case, these same elements) yields an element of this subgroup.
+Cosets
+
+In many situations it is desirable to consider two group elements the same if they differ by an element of a given subgroup. For example, in D4 above, once a flip is performed, the square never gets back to the r2 configuration by just applying the rotation operations (and no further flips), i.e. the rotation operations are irrelevant to the question whether a flip has been performed. Cosets are used to formalize this insight: a subgroup H defines left and right cosets, which can be thought of as translations of H by arbitrary group elements g. In symbolic terms, the left and right coset of H containing g are
+
+
+gH = {gh, h &lt;U+2208&gt; H} and Hg = {hg, h &lt;U+2208&gt; H}, respectively.31
+
+
+The cosets of any subgroup H form a partition of G; that is, two left cosets are either equal or have an empty intersection.32 The first case g1H = g2H happens precisely when , i.e. if the two elements differ by an element of H. Similar considerations apply to the right cosets of H. The left and right cosets of H may or may not be equal. If they are, i.e. for all g in G, gH = Hg, then H is said to be a normal subgroup. One may then simply refer to N as the set of cosets.
+In D4, the introductory symmetry group, the left cosets gR of the subgroup R consisting of the rotations are either equal to R, if g is an element of R itself, or otherwise equal to U = fvR = {fv, fd, fh, fc} (highlighted in green). The subgroup R is also normal, because fvR = U = Rfv and similarly for any element other than fv.
+Quotient groups
+
+In addition to disregarding the internal structure of a subgroup by considering its cosets, it is desirable to endow this coarser entity with a group law called quotient group or factor group. For this to be possible, the subgroup has to be normal. Given any normal subgroup N, the quotient group is defined by
+
+
+G / N = {gN, g &lt;U+2208&gt; G}, &quot;G modulo N&quot;33
+
+
+This set inherits a group operation (sometimes called coset multiplication, or coset addition) from the original group G: (gN) &lt;U+2022&gt; (hN) = (gh)N for all g and h in G. This definition is motivated by the idea (itself an instance of general structural considerations outlined above) that the map  that associates to any element g its coset gN be a group homomorphism, or by general abstract considerations called universal properties. The coset ''eN '' = N serves as the identity in this group, and the inverse of Ng in the quotient group is (gN)−1 = (g−1)N.
+
+
+
+
+
+
+
+
+&lt;U+2022&gt;
+R
+U
+
+
+
+
+R
+R
+U
+
+
+U
+U
+R
+
+
+Group table of the quotient group .
+
+
+
+
+
+The elements of the quotient group  are R itself, which represents the identity, and U = fvR. The group operation on the quotient is shown at the right. For example, U &lt;U+2022&gt; U = fvR &lt;U+2022&gt; fvR = (fv &lt;U+2022&gt; fv)R = R. Both the subgroup R = {id, r1, r2, r3}, as well as the corresponding quotient are abelian, whereas D4 is not abelian. Building bigger groups by smaller ones, such as D4 from its subgroup R and the quotient  is abstracted by a notion called semidirect product.
+Quotient and subgroups together form a way of describing every group by its presentation: any group is the quotient of the free group over the generators of the group, quotiented by the subgroup of relations. The dihedral group D4, for example, can be generated by two elements r and f (for example, r = r1, the right rotation and f = fv the vertical (or any other) flip), which means that every symmetry of the square is a finite composition of these two symmetries or their inverses. Together with the relations
+
+
+''r 4 = f 2 = (rf'')2 = 1,34
+
+
+the group is completely described. A presentation of a group can also be used to construct the Cayley graph, a device used to graphically capture discrete groups.
+Sub- and quotient groups are related in the following way: a subset H of G can be seen as an injective map , i.e. any element of the target has at most one element that maps to it. The counterpart to injective maps are surjective maps (every element of the target is mapped onto), such as the canonical map . Interpreting subgroup and quotients in light of these homomorphisms emphasizes the structural concept inherent to these definitions alluded to in the introduction. In general, homomorphisms are neither injective nor surjective. Kernel and image of group homomorphisms and the first isomorphism theorem address this phenomenon.
+Examples and applications
+
+
+Examples and applications of groups abound. A starting point is the group Z of integers with addition as group operation, introduced above. If instead of addition multiplication is considered, one obtains multiplicative groups. These groups are predecessors of important constructions in abstract algebra.
+Groups are also applied in many other mathematical areas. Mathematical objects are often examined by associating groups to them and studying the properties of the corresponding groups. For example, Henri Poincar&lt;U+00E9&gt; founded what is now called algebraic topology by introducing the fundamental group.35 By means of this connection, topological properties such as proximity and continuity translate into properties of groups. For example, the image at the right depicts elements of the fundamental group of a plane minus a point. Elements of the group are given by loops in this area. The blue loop is considered null-homotopic (and thus irrelevant), because it can be shrunk to a point. The presence of the hole prevents the orange loop from being shrunk. The fundamental group of the plane with a point deleted turns out to be infinite cyclic, generated by the orange loop (or any other loop winding once around the hole). This way, the fundamental group detects the hole.
+In more recent applications, the influence has also been reversed to motivate geometric constructions by a group-theoretical background. In a similar vein, geometric group theory employs geometric concepts, for example in the study of hyperbolic groups.36 Further branches crucially applying groups include algebraic geometry and number theory.37
+In addition to the above theoretical applications, many practical applications of groups exist. Cryptography relies on the combination of the abstract group theory approach together with algorithmical knowledge obtained in computational group theory, in particular when implemented for finite groups.38 Applications of group theory are not restricted to mathematics; sciences such as physics, chemistry and computer science benefit from the concept.
+Numbers
+Many number systems, such as the integers and the rationals enjoy a naturally given group structure. In some cases, such as with the rationals, both addition and multiplication operations give rise to group structures. Such number systems are predecessors to more general algebraic structures known as rings and fields.
+Integers
+The group of integers Z under addition, denoted (Z, +), has been described above. The integers, with the operation of multiplication instead of addition, (Z, &lt;U+00B7&gt;) do not form a group. The closure, associativity and identity axioms are satisfied, but inverses do not exist: for example, a = 2 is an integer, but the only solution to the equation a &lt;U+00B7&gt; b = 1 in this case is b = 1/2, which is a rational number, but not an integer. Hence not every element of Z has a (multiplicative) inverse.
+Rationals
+The desire for the existence of multiplicative inverses suggests considering fractions
+$$\frac{a}{b}$$. Fractions of integers (with b nonzero) are known as rational numbers. The set of all such fractions is commonly denoted Q. There is still a minor obstacle for  the rationals with multiplication, being a group: because the rational number 0 does not have a multiplicative inverse (i.e., there is no x such that x &lt;U+00B7&gt; 0 = 1), (Q, &lt;U+00B7&gt;) is still not a group.
+However, the set of all nonzero rational numbers Q \ {0} = {q &lt;U+2208&gt; Q, q &lt;U+2260&gt; 0} does form an abelian group under multiplication, denoted . Associativity and identity element axioms follow from the properties of integers. The closure requirement still holds true after removing zero, because the product of two nonzero rationals is never zero. Finally, the inverse of a/b is b/a, therefore the axiom of the inverse element is satisfied.
+The rational numbers (including 0) also form a group under addition. Intertwining addition and multiplication operations yields more complicated structures called rings and&lt;U+2014&gt;if division is possible, such as in Q&lt;U+2014&gt;fields, which occupy a central position in abstract algebra. Group theoretic arguments therefore underlie parts of the theory of those entities.
+Nonzero integers modulo a prime
+For any prime number p, modular arithmetic furnishes the multiplicative group of integers modulo p.39 Its elements are integers not divisible by p, considered modulo p, i.e. two numbers are considered equivalent if their difference is divisible by p. For example, if p = 5, there are exactly four group elements 1, 2, 3, 4: multiples of 5 are excluded and 6 and −4 are both equivalent to 1 etc. The group operation is given by multiplication. Therefore, 4 &lt;U+00B7&gt; 4 = 1, because the usual product 16 is equivalent to 1, for 5 divides 16 − 1 = 15, denoted
+
+
+16 &lt;U+2261&gt; 1 (mod 5).
+
+
+The primality of p ensures that the product of two integers neither of which is divisible by p is not divisible by p either, hence the indicated set of classes is closed under multiplication. The identity element is 1, as usual for a multiplicative group, and the associativity follows from the corresponding property of integers. Finally, the inverse element axiom requires that given an integer a not divisible by p, there exists an integer b such that
+
+
+a &lt;U+00B7&gt; b &lt;U+2261&gt; 1 (mod p), i.e. p divides the difference .
+
+
+The inverse b can be found by using B&lt;U+00E9&gt;zout's identity and the fact that the greatest common divisor  equals 1.40 In the case p = 5 above, the inverse of 4 is 4, and the inverse of 3 is 2, as 3 &lt;U+00B7&gt; 2 = 6 &lt;U+2261&gt; 1 (mod 5). Hence all group axioms are fulfilled. Actually, this example is similar to (Q\{0}, &lt;U+00B7&gt;) above, because it turns out to be the multiplicative group of nonzero elements in the finite field Fp, denoted Fp&lt;U+00D7&gt;.41 These groups are crucial to public-key cryptography.
+Cyclic groups
+
+ A cyclic group is a group all of whose elements are powers (when the group operation is written additively, the term 'multiple' can be used) of a particular element a.42 In multiplicative notation, the elements of the group are:
+
+
+..., a−3, a−2, a−1, a0 = e, a, a2, a3, ...,
+
+
+where a2 means a &lt;U+2022&gt; a, and a−3 stands for a−1 &lt;U+2022&gt; a−1 &lt;U+2022&gt; a−1=(a &lt;U+2022&gt; a &lt;U+2022&gt; a)−1 etc. Such an element a is called a generator or a primitive element of the group.
+A typical example for this class of groups is the group of n-th complex roots of unity, given by complex numbers z satisfying zn = 1 (and whose operation is multiplication).43 Any cyclic group with n elements is isomorphic to this group. Using some field theory, the group Fp&lt;U+00D7&gt; can be shown to be cyclic: for p = 5, 3 is a generator since 31 = 3, 32 = 9 &lt;U+2261&gt; 4, 33 &lt;U+2261&gt; 2, and 34 &lt;U+2261&gt; 1. An infinite cyclic group is isomorphic to (Z, +), the group of integers under addition introduced above.44 As these two prototypes are both abelian, so is any cyclic group.
+The study of abelian groups is quite mature, including the fundamental theorem of finitely generated abelian groups; and reflecting this state of affairs, many group-related notions, such as center and commutator, describe the extent to which a given group is not abelian.45
+Symmetry groups
+
+
+Symmetry groups are groups consisting of symmetries of given mathematical objects&lt;U+2014&gt;be they of geometric nature, such as the introductory symmetry group of the square, or of algebraic nature, such as polynomial equations and their solutions.46 Conceptually, group theory can be thought of as the study of symmetry. Symmetries in mathematics greatly simplify the study of geometrical or analytical objects. A group is said to act on another mathematical object X if every group element performs some operation on X compatibly to the group law. In the rightmost example below, an element of order 7 of the (2,3,7) triangle group acts on the tiling by permuting the highlighted warped triangles (and the other ones, too). By a group action, the group pattern is connected to the structure of the object being acted on.
+In chemical fields, such as crystallography, space groups and point groups describe molecular symmetries and crystal symmetries. These symmetries underlie the chemical and physical behavior of these systems, and group theory enables simplification of quantum mechanical analysis of these properties.47 For example, group theory is used to show that optical transitions between certain quantum levels cannot occur simply because of the symmetry of the states involved.
+Not only are groups useful to assess the implications of symmetries in molecules, but surprisingly they also predict that molecules sometimes can change symmetry. The Jahn-Teller effect is a distortion of a molecule of high symmetry when it adopts a particular ground state of lower symmetry from a set of possible ground states that are related to each other by the symmetry operations of the molecule.48 49
+Likewise, group theory helps predict the changes in physical properties that occur when a material undergoes a phase transition, for example, from a cubic to a tetrahedral crystalline form. An example is ferroelectric materials, where the change from a paraelectric to a ferroelectric state occurs at the Curie temperature and is related to a change from the high-symmetry paraelectric state to the lower symmetry ferroelectic state, accompanied by a so-called soft phonon mode, a vibrational lattice mode that goes to zero frequency at the transition.50
+Such spontaneous symmetry breaking has found further application in elementary particle physics, where its occurrence is related to the appearance of Goldstone bosons.
+
+
+
+
+
+
+
+
+
+
+
+C60a.png
+
+
+Ammonia-3D-balls-A.png
+
+
+Cubane-3D-balls.png
+
+
+Hexaaquacopper(II)-3D-balls.png
+
+
+Uniform_tiling_73-t2_colored.png
+
+
+
+Buckminsterfullerene displays
+icosahedral symmetry.
+Ammonia, NH3. Its symmetry group is of order 6, generated by a 120&lt;U+00B0&gt; rotation and a reflection.
+Cubane C8H8 features
+octahedral symmetry.
+Hexaaquacopper(II) complex ion, [Cu(O[[hydrogen|H2)6]2+]]. Compared to a perfectly symmetrical shape, the molecule is vertically dilated by about 22% (Jahn-Teller effect).
+The (2,3,7) triangle group, a hyperbolic group, acts on this tiling of the hyperbolic plane.
+
+
+
+Finite symmetry groups such as the Mathieu groups are used in coding theory, which is in turn applied in error correction of transmitted data, and in CD players.51 Another application is differential Galois theory, which characterizes functions having antiderivatives of a prescribed form, giving group-theoretic criteria for when solutions of certain differential equations are well-behaved. Geometric properties that remain stable under group actions are investigated in (geometric) invariant theory.52
+General linear group and representation theory
+
+ Matrix groups consist of matrices together with matrix multiplication. The general linear group GL(n, R) consists of all invertible n-by-n matrices with real entries.53 Its subgroups are referred to as matrix groups or linear groups. The dihedral group example mentioned above can be viewed as a (very small) matrix group. Another important matrix group is the special orthogonal group SO(n). It describes all possible rotations in n dimensions. Via Euler angles, rotation matrices are used in computer graphics.54
+Representation theory is both an application of the group concept and important for a deeper understanding of groups.5556 It studies the group by its group actions on other spaces. A broad class of group representations are linear representations, i.e. the group is acting on a vector space, such as the three-dimensional Euclidean space R3. A representation of G on an n-dimensional real vector space is simply a group homomorphism
+
+
+&lt;U+03C1&gt;: G &lt;U+2192&gt; GL(n, R)
+
+
+from the group to the general linear group. This way, the group operation, which may be abstractly given, translates to the multiplication of matrices making it accessible to explicit computations.
+Given a group action, this gives further means to study the object being acted on. On the other hand, it also yields information about the group. Group representations are an organizing principle in the theory of finite groups, Lie groups, algebraic groups and topological groups, especially (locally) compact groups.5758
+Galois groups
+
+Galois groups have been developed to help solving polynomial equations by capturing their symmetry features.5960 For example, the solutions of the quadratic equation ax2 + bx + c = 0 are given by
+$$x = \frac{-b \pm \sqrt {b^2-4ac}}{2a}.$$ Exchanging &quot;+&quot; and &quot;−&quot; in the expression, i.e. permuting the two solutions of the equation can be viewed as a (very simple) group operation. Similar formulae are known for cubic and quartic equations, but do not exist in general for degree 5 and higher.61 Abstract properties of Galois groups (in particular their solvability) associated to polynomials give a criterion which polynomials do have all their solutions expressible by radicals, i.e. solutions expressible using solely addition, multiplication, and roots similar to the formula above.62
+The problem can be dealt with even more neatly using field theory: considering the splitting field of a polynomial shifts the problem into the realm of field theory. Modern Galois theory generalizes the above type of Galois groups to field extensions and establishes&lt;U+2014&gt;via the fundamental theorem of Galois theory&lt;U+2014&gt;a precise relationship between fields and groups, underlining once again the ubiquity of groups in mathematics.
+Finite groups
+
+A group is called finite if it has a finite number of elements. The number of elements is called the order of the group G.63 An important class is the symmetric groups SN, the groups of permutations of N letters. For example, the symmetric group on 3 letters S3 is the group consisting of all possible swaps of the three letters ABC, i.e. contains the elements ABC, ACB, ..., up to CBA, in total 6 (or 3 factorial) elements. This class is fundamental insofar as any finite group can be expressed as a subgroup of a symmetric group SN for a suitable integer N (Cayley's theorem). Parallel to the group of symmetries of the square above, S3 can also be interpreted as the group of symmetries of an equilateral triangle.
+The order of an element a in a group G is the least positive integer n such that an = e, where an represents $\underbrace{a \cdot \ldots \cdot a}_n$, i.e. application of the operation &lt;U+2022&gt; to n copies of a. (If &lt;U+2022&gt; represents multiplication, then an corresponds to the nth power of a.) In infinite groups, such an n may not exist, in which case the order of a is said to be infinity. The order of an element equals the order of the cyclic subgroup generated by this element.
+More sophisticated counting techniques, for example counting cosets, yield more precise statements about finite groups: Lagrange's Theorem states that for a finite group G the order of any finite subgroup H divides the order of G. The Sylow theorems give a partial converse.
+The dihedral group (discussed above) is a finite group of order 8. The order of r1 is 4, as is the order of the subgroup R it generates (see above). The order of the reflection elements fv etc. is 2. Both orders divide 8, as predicted by Lagrange's Theorem. The groups Fp&lt;U+00D7&gt; above have order .
+Classification of finite simple groups
+
+Mathematicians often strive for a complete classification (or list) of a mathematical notion. In the context of finite groups, this aim quickly leads to difficult and profound mathematics. According to Lagrange's theorem, finite groups of order p, a prime number, are necessarily cyclic (abelian) groups Zp. Groups of order p2 can also be shown to be abelian, a statement which does not generalize to order p3, as the non-abelian group D4 of order 8 = 23 above shows.64 Computer algebra systems can be used to list small groups, but there is no classification of all finite groups. An intermediate step is the classification of finite simple groups. A nontrivial group is called simple if its only normal subgroups are the trivial group and the group itself. The Jordan-H&lt;U+00F6&gt;lder theorem exhibits simple groups as the building blocks for all finite groups.65 Listing all finite simple groups was a major achievement in contemporary group theory. 1998 Fields Medal winner Richard Borcherds succeeded to prove the monstrous moonshine conjectures, a surprising and deep relation of the largest finite simple sporadic group&lt;U+2014&gt;the &quot;monster group&quot;&lt;U+2014&gt;with certain modular functions, a piece of classical complex analysis, and string theory, a theory supposed to unify the description of many physical phenomena.66
+Groups with additional structure
+Many groups are simultaneously groups and examples of other mathematical structures. In the language of category theory, they are group objects in a category, meaning that they are objects (that is, examples of another mathematical structure) which come with transformations (called morphisms) that mimic the group axioms. For example, every group (as defined above) is also a set, so a group is a group object in the category of sets.
+Topological groups
+
+ Some topological spaces may be endowed with a group law. In order for the group law and the topology to interweave well, the group operations must be continuous functions, that is,  and g−1 must not vary wildly if g and h vary only little. Such groups are called topological groups, and they are the group objects in the category of topological spaces.67 The most basic examples are the reals R under addition, , and similarly with any other topological field such as the complex numbers or p-adic numbers. All of these groups are locally compact, so they have Haar measures and can be studied via harmonic analysis. The former offer an abstract formalism of invariant integrals. Invariance means, in the case of real numbers for example:
+
+
+∫f(x) dx = ∫f(x + c) dx
+
+
+for any constant c. Matrix groups over these fields fall under this regime, as do adele rings and adelic algebraic groups, which are basic to number theory.68 Galois groups of infinite field extensions such as the absolute Galois group can also be equipped with a topology, the so-called Krull topology, which in turn is central to generalize the above sketched connection of fields and groups to infinite field extensions.69 An advanced generalization of this idea, adapted to the needs of algebraic geometry, is the &lt;U+00E9&gt;tale fundamental group.70
+Lie groups
+
+Lie groups (in honor of Sophus Lie) are groups which also have a manifold structure, i.e. they are spaces looking locally like some Euclidean space of the appropriate dimension.71 Again, the additional structure, here the manifold structure, has to be compatible, i.e. the maps corresponding to multiplication and the inverse have to be smooth.
+
+A standard example is the general linear group introduced above: it is an open subset of the space of all n-by-n matrices, because it is given by the inequality
+
+
+det (A) &lt;U+2260&gt; 0,
+
+
+where A denotes an n-by-n matrix.72
+Lie groups are of fundamental importance in physics: Noether's theorem links continuous symmetries to conserved quantities.73 Rotation, as well as translations in space and time are basic symmetries of the laws of mechanics. They can, for instance, be used to construct simple models&lt;U+2014&gt;imposing, say, axial symmetry on a situation will typically lead to significant simplification in the equations one needs to solve to provide a physical description. Another example are the Lorentz transformations, which relate measurements of time and velocity of two observers in motion relative to each other. They can be deduced in a purely group-theoretical way, by expressing the transformations as a rotational symmetry of Minkowski space. The latter serves&lt;U+2014&gt;in the absence of significant gravitation&lt;U+2014&gt;as a model of space time in special relativity.74 The full symmetry group of Minkowski space, i.e. including translations, is known as the Poincar&lt;U+00E9&gt; group. By the above, it plays a pivotal role in special relativity and, by implication, for quantum field theories.75 Symmetries that vary with location are central to the modern description of physical interactions with the help of gauge theory.76
+Generalizations
+
+In abstract algebra, more general structures are defined by relaxing some of the axioms defining a group.777879 For example, if the requirement that every element has an inverse is eliminated, the resulting algebraic structure is called a monoid. The natural numbers N (including 0) under addition form a monoid, as do the nonzero integers under multiplication , see above. There is a general method to formally add inverses to elements to any (abelian) monoid, much the same way as  is derived from , known as the Grothendieck group. Groupoids are similar to groups except that the composition a &lt;U+2022&gt; b need not be defined for all a and b. They arise in the study of more complicated forms of symmetry, often in topological and analytical structures, such as the fundamental groupoid. The table gives a list of several structures generalizing groups.
+
+
+See also
+
+
+
+Group ring
+Group algebra
+Euclidean group
+Grothendieck group
+Symmetry in physics
+CPT symmetry
+
+
+Notes
+
+
+                           
+Citations
+
+References
+General references
+
+, Chapter 2 contains an undergraduate-level exposition of the notions covered in this article.
+, Chapter 5 provides a layman-accessible explanation of groups.
+.
+, an elementary introduction.
+.
+.
+.
+.
+.
+.
+.
+
+Special references
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+Historical references
+
+
+
+.
+.
+.
+ (Galois work was first published by Joseph Liouville in 1843).
+.
+.
+.
+
+.
+.
+
+
+
+af:Groep (wiskunde) ar:&lt;U+0632&gt;&lt;U+0645&gt;&lt;U+0631&gt;&lt;U+0629&gt; (&lt;U+0631&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+0636&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+062A&gt;) az:Qrup anlay&lt;U+0131&gt;&lt;U+015F&gt;&lt;U+0131&gt; zh-min-nan:K&lt;U+00FB&gt;n-l&lt;U+016B&gt;n bg:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+0430&gt;&lt;U+043B&gt;&lt;U+0433&gt;&lt;U+0435&gt;&lt;U+0431&gt;&lt;U+0440&gt;&lt;U+0430&gt;) ca:Grup (matem&lt;U+00E0&gt;tiques) cs:Grupa cy:Gr&lt;U+0175&gt;p (mathemateg) da:Gruppe (matematik) de:Gruppentheorie et:R&lt;U+00FC&gt;hm (matemaatika) el:&lt;U+039F&gt;&lt;U+03BC&gt;&lt;U+03AC&gt;&lt;U+03B4&gt;&lt;U+03B1&gt; es:Grupo (matem&lt;U+00E1&gt;tica) eo:Grupo (algebro) fa:&lt;U+06AF&gt;&lt;U+0631&gt;&lt;U+0648&gt;&lt;U+0647&gt; (&lt;U+0631&gt;&lt;U+06CC&gt;&lt;U+0627&gt;&lt;U+0636&gt;&lt;U+06CC&gt;) fr:Groupe (math&lt;U+00E9&gt;matiques) zh-classical:&lt;U+7FA4&gt; (&lt;U+4EE3&gt;&lt;U+6578&gt;) ko:&lt;U+AD70&gt; (&lt;U+C218&gt;&lt;U+D559&gt;) hr:Grupa (matematika) id:Grup (matematika) is:Gr&lt;U+00FA&gt;pa it:Gruppo (matematica) he:&lt;U+05D7&gt;&lt;U+05D1&gt;&lt;U+05D5&gt;&lt;U+05E8&gt;&lt;U+05D4&gt; (&lt;U+05DE&gt;&lt;U+05D1&gt;&lt;U+05E0&gt;&lt;U+05D4&gt; &lt;U+05D0&gt;&lt;U+05DC&gt;&lt;U+05D2&gt;&lt;U+05D1&gt;&lt;U+05E8&gt;&lt;U+05D9&gt;) ka:&lt;U+10EF&gt;&lt;U+10D2&gt;&lt;U+10E3&gt;&lt;U+10E4&gt;&lt;U+10D8&gt; (&lt;U+10DB&gt;&lt;U+10D0&gt;&lt;U+10D7&gt;&lt;U+10D4&gt;&lt;U+10DB&gt;&lt;U+10D0&gt;&lt;U+10E2&gt;&lt;U+10D8&gt;&lt;U+10D9&gt;&lt;U+10D0&gt;) lt:Grup&lt;U+0117&gt; (algebra) hu:Csoport ml:&lt;U+0D17&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D42&gt;&lt;U+0D2A&gt;&lt;U+0D4D&gt;&lt;U+0D2A&gt;&lt;U+0D4D&gt; (&lt;U+0D17&gt;&lt;U+0D23&gt;&lt;U+0D3F&gt;&lt;U+0D24&gt;&lt;U+0D36&gt;&lt;U+0D3E&gt;&lt;U+0D38&gt;&lt;U+0D4D&gt;&lt;U+0D24&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D02&gt;) nl:Groep (wiskunde) ja:&lt;U+7FA4&gt; (&lt;U+6570&gt;&lt;U+5B66&gt;) no:Gruppe (matematikk) nn:Gruppeteori nov:Grupe (matematike) oc:Grop (matematicas) pms:Strop pl:Grupa (matematyka) pt:Grupo (matem&lt;U+00E1&gt;tica) ro:Grup (matematic&lt;U+0103&gt;) ru:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;) scn:Gruppu (matimatica) simple:Group theory sk:Grupa (matematika) sl:Grupa (matematika) sr:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;) fi:Ryhm&lt;U+00E4&gt; (algebra) sv:Grupp (matematik) ta:&lt;U+0B95&gt;&lt;U+0BC1&gt;&lt;U+0BB2&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt; (&lt;U+0B95&gt;&lt;U+0BA3&gt;&lt;U+0BBF&gt;&lt;U+0BA4&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt;) th:&lt;U+0E01&gt;&lt;U+0E23&gt;&lt;U+0E38&gt;&lt;U+0E1B&gt; (&lt;U+0E04&gt;&lt;U+0E13&gt;&lt;U+0E34&gt;&lt;U+0E15&gt;&lt;U+0E28&gt;&lt;U+0E32&gt;&lt;U+0E2A&gt;&lt;U+0E15&gt;&lt;U+0E23&gt;&lt;U+0E4C&gt;) vi:L&lt;U+00FD&gt; thuy&lt;U+1EBF&gt;t nh&lt;U+00F3&gt;m tr:&lt;U+00D6&gt;bek (matematik) uk:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;) vls:Groep (algebra) yi:&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05D5&gt;&lt;U+05E4&gt;&lt;U+05E2&gt; (&lt;U+05DE&gt;&lt;U+05D0&gt;&lt;U+05D8&gt;&lt;U+05E2&gt;&lt;U+05DE&gt;&lt;U+05D0&gt;&lt;U+05D8&gt;&lt;U+05D9&gt;&lt;U+05E7&gt;) zh-yue:&lt;U+7FA3&gt;&lt;U+8AD6&gt; bat-smg:Gropiu teuor&lt;U+0117&gt;j&lt;U+0117&gt; zh:&lt;U+7FA4&gt;
+Category:Abstract algebra Category:Group theory Category:Symmetry
+
+
+
+↩
+: &quot;The idea of a group is one which pervades the whole of mathematics both pure and applied.&quot;↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+for example, class groups and Picard groups; see , in particular &lt;U+00A7&gt;&lt;U+00A7&gt;I.12 and I.13↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+. See also ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+ (see in particular p. 273 for concrete examples)↩
+↩
+↩
+. See also  for similar results.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+

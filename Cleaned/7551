@@ -1,0 +1,39 @@
+In mathematics, Serre's modularity conjecture, introduced by Jean-Pierre Serre based on some 1973&lt;U+2013&gt;1974 correspondence with John Tate , states that an odd irreducible two-dimensional Galois representation over a finite field arises from a modular form, and a stronger version of his conjecture specifies the weight and level of the modular form. It was proved by Chandrashekhar Khare in the level 1 case,1 in 2005 and later in 2008 a proof of the full conjecture was worked out jointly by Khare and Jean-Pierre Wintenberger.2
+Formulation
+The conjecture concerns the absolute Galois group Gℚ of the rational number field ℚ.
+Let ρ be an absolutely irreducible, continuous, two-dimensional representation of Gℚ over a finite field that is odd (meaning that complex conjugation has determinant -1)
+F = 𝔽ℓr
+of characteristic ℓ,
+$$\rho: G_\mathbb{Q} \rightarrow \mathrm{GL}_2(F).\$$
+To any normalized modular eigenform
+$$f = q+a_2q^2+a_3q^3+\cdots\$$
+of level N = N(ρ), weight k = k(ρ), and some Nebentype character
+$$\chi : \mathbb{Z}/N\mathbb{Z} \rightarrow F^*\$$,
+a theorem due to Shimura, Deligne, and Serre-Deligne attaches to f a representation
+$$\rho_f: G_\mathbb{Q} \rightarrow \mathrm{GL}_2(\mathcal{O}),\$$
+where 𝒪 is the ring of integers in a finite extension of ℚℓ. This representation is characterized by the condition that for all prime numbers p, coprime to Nℓ we have
+$$\operatorname{Trace}(\rho_f(\operatorname{Frob}_p))=a_p\$$
+and
+$$\det(\rho_f(\operatorname{Frob}_p))=p^{k-1} \chi(p).\$$
+Reducing this representation modulo the maximal ideal of 𝒪 gives a mod ℓ representation $\overline{\rho_f}$ of Gℚ.
+Serre's conjecture asserts that for any ρ as above, there is a modular eigenform f such that
+$$\overline{\rho_f} \cong \rho$$.
+The level and weight of the conjectural form f are explicitly calculated in Serre's article. In addition, he derives a number of results from this conjecture, among them Fermat's Last Theorem and the now-proven Taniyama&lt;U+2013&gt;Weil (or Taniyama&lt;U+2013&gt;Shimura) conjecture, now known as the modularity theorem (although this implies Fermat's Last Theorem, Serre proves it directly from his conjecture).
+Optimal level and weight
+The strong form of Serre's conjecture describes the level and weight of the modular form.
+The optimal level is the Artin conductor of the representation, with the power of l removed.
+Proof
+A proof of the level 1 and small weight cases of the conjecture was obtained during 2004 by Chandrashekhar Khare and Jean-Pierre Wintenberger,3 and by Luis Dieulefait,4 independently.
+In 2005, Chandrashekhar Khare obtained a proof of the level 1 case of Serre conjecture,5 and in 2008 a proof of the full conjecture in collaboration with Jean-Pierre Wintenberger.6
+Notes
+References
+External links
+Serre's Modularity Conjecture 50 minute lecture by Ken Ribet given on October 25, 2007 ( slides PDF, other version of slides PDF)
+Lectures on Serre's conjectures
+Category:Modular forms Category:Theorems in number theory
+.↩
+ and .↩
+.↩
+.↩
+.↩
+ and .↩

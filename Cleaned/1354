@@ -1,0 +1,84 @@
+In computer science, Clean is a general-purpose purely functional computer programming language.
+Features
+The language Clean first appeared in 1987 and is still being further developed; it shares many properties with Haskell: referential transparency, list comprehension, guards, garbage collection, higher order functions and currying and lazy evaluation.
+An integrated development environment (IDE) is included in the Clean distribution.
+Clean's method for dealing with mutable state and I/O is done through a uniqueness typing system, in contrast to Haskell's use of monads. &quot;The uniqueness type system also allows the Clean compiler to generate efficient code because uniquely attributed data structures can be destructively updated.&quot;1
+Examples
+Hello world:
+module hello
+ Start :: {#Char}
+ Start = &quot;Hello, world!&quot;
+Factorial:
+ module factorial
+  fac 0 = 1
+ fac n = n * fac (n-1)
+ // find the factorial of 10
+ Start = fac 10
+Factorial:
+ module factorial2
+  import StdEnv
+ fac 0 = 1
+ fac n = prod [1..n]//Generate a list that goes from 1 to n and returns the product of the elements
+ // find the factorial of 6
+ Start = fac 6
+Fibonacci sequence:
+ module fibonacci
+  fib 0 = 0
+ fib 1 = 1
+ fib n = fib (n - 2) + fib (n - 1) 
+  Start = fib 7
+Infix operator:
+ (^) infixr 8 :: Int Int -&gt; Int
+ (^) x 0 = 1
+ (^) x n = x * x ^ (n-1)
+The type declaration states that the function is a right associative infix operator with priority 8: this states that x*x^(n-1) is equivalent to x*(x^(n-1)) as opposed to (x*x)^(n-1); this operator is pre-defined in the Clean standard environment.
+How Clean works
+Computation is based on graph rewriting and reduction. Constants such as numbers are graphs and functions are graph rewriting formulas. This, combined with compilation to native code, makes Clean programs relatively fast, even with high abstraction.2
+Compiling
+Source files (.icl) and project files (.dcl) are converted into Clean's platform-independent bytecode (.abc), implemented in C and Clean.
+Bytecode is converted to object code (.obj) using C.
+object code is linked with other files in the module and the runtime system and converted into a normal executable in Clean.
+Earlier Clean system versions were written completely in C, thus avoiding bootstrapping issues.
+Platforms
+Clean is available for Microsoft Windows. It is also available with limited input/output capabilities and without the &quot;Dynamics&quot; feature for Apple Macintosh, Solaris and Linux.
+License
+Clean is dual licensed: it is available under the terms of the GNU LGPL, and also under a proprietary license.
+Versus Haskell
+Speed
+Some state that Clean is faster than Haskell,3 but other research show that this depends on the kind of program that is tested.4
+Syntactic differences
+The syntax of Clean is very similar to Haskell, with some notable differences:5
+Haskell
+Clean
+Remarks
+(a -&gt; b) -&gt; [a] -&gt; [b]
+(a -&gt; b) [a] -&gt; [b]
+higher order function
+f . g
+f o g
+function composition
+-5
+~5
+unary minus
+[ x | x &lt;- [1..10] , isOdd x]
+[ x \\ x &lt;- [1..10] | isOdd x]
+list comprehension
+x:xs
+[x:xs]
+cons operator
+See also
+Haskell programming language
+List of functional programming topics
+References
+External links
+Clean Wiki
+Clean in FOLDOC
+Clean in The Computer Language Benchmarks Game
+Clean vs. Haskell discussion (haskell-cafe)
+Programming in Clean
+ca:Clean cs:Clean de:Clean (Programmiersprache) nl:Clean (programmeertaal) ja:Clean pt:Clean ru:Clean fi:Clean (ohjelmointikieli) tg:Clean zh:Concurrent Clean
+Category:Functional languages Category:Haskell programming language family Category:Term-rewriting programming languages Category:Free compilers and interpreters Category:Cross-platform free software
+http://www.st.cs.ru.nl/papers/2007/achp2007-CleanHaskellQuickGuide.pdf↩
+Boxplot Summary | Ubuntu : Intel Q6600 Computer Language Benchmarks Game↩
+Why is Clean faster than Haskell?↩
+Hacle - A Translator from Haskell to Clean↩

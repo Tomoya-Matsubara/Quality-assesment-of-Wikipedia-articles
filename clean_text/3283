@@ -1,0 +1,39 @@
+A proppant is a material that will keep an induced hydraulic fracture open, during or following a fracturing treatment, while the fracking fluid itself varies in composition depending on the type of fracturing used, and can be gel, foam or slickwater-based. In addition, there may be unconventional fracking fluids. Fluids make tradeoffs in such material properties as viscosity, where more viscous fluids can carry more concentrated proppant; the energy or pressure demands to maintain a certain flux pump rate (flow velocity) that will conduct the proppant appropriately; pH, various rheological factors, among others. In addition, fluids may be used in low-volume well stimulation of high-permeability sandstone wells (20k to 80k gallons per well) to the high-volume operations such as shale gas and tight gas that use millions of gallons of water per well.
+Conventional wisdom has often vacillated about the relative superiority of gel, foam and slickwater fluids with respect to each other, which is in turn related to proppant choice. For example, Zuber, Kuskraa and Sawyer (1988) found that gel-based fluids seemed to achieve the best results for coalbed methane operations, 1, but as of 2012, slickwater treatments are more popular.
+Ignoring proppant, slickwater fracturing fluids are mostly water, generally 99% or more by volume, but gel-based fluids can see polymers and surfactants comprising as much as 7 vol% , ignoring other additives. 2 Other common additives include hydrochloric acid (low pH can etch certain rocks, dissolving limestone for instance), friction reducers, guar gum3, biocides, emulsion breaker and emulsifiers.
+Radioactive tracer isotopes are sometimes included in the hydrofracturing fluid to determine the injection profile and location of fractures created by hydraulic fracturing.4 Patents describe in detail how several tracers are typically used in the same well. Wells are hydraulically fractured in different stages.5 Tracers with different half-lives are used for each stage.67 Their half-lives range from 40.2 hours (Lanthanum-140) to 5.27 years (Cobalt-60).8 Amounts per injection of radionuclide are listed in The US Nuclear Regulatory Commission (NRC) guidelines.9The NRC guidelines also list a wide range or radioactive materials in solid, liquid and gaseous forms that are used as field flood or enhanced oil and gas recovery study applications tracers used in single and multiple wells.10
+Except for diesel-based additive fracturing fluids, noted by the American Environmental Protection Agency to have a higher proportion of volatile organic compounds and carcinogenic BTEX, use of fracturing fluids in hydraulic fracturing operations was explicitly excluded from regulation under the American Clean Water Act in 2005, a legislative move that has since attracted controversy for being the product of special interests lobbying.
+Proppant permeability and mesh size
+Proppants used should be permeable or permittive to gas under high pressures; the interstitial space between particles should be sufficiently large, yet have the mechanical strength to withstand closure stresses to hold fractures open after the fracturing pressure is withdrawn. Large mesh proppants have greater permeability than small mesh proppants at low closure stresses, but will mechanically fail (i.e. get crushed) and produce very fine particulates (&lt;U+201C&gt;fines&lt;U+201D&gt;) at high closure stresses such that smaller-mesh proppants overtake large-mesh proppants in permeability after a certain threshold stress.11
+Though sand is a common proppant, untreated sand is prone to significant fines generation; fines generation is often measured in wt% of initial feed. A commercial newsletter from Hexion cites untreated sand fines production to be 23.9% compared with 8.2% for lightweight ceramic and 0.5% for their product. 12 One way to maintain an ideal mesh size (i.e. permeability) while having sufficient strength is to choose proppants of sufficient strength; sand might be coated with resin, or a different proppant material might be chosen altogether-- popular alternatives include ceramic, glass, and sintered bauxite.
+Proppant weight and strength
+Increased strength often comes at a cost of increased density, which in turn demands higher flow rates, viscosities or pressures during fracturing, which translates to increased fracturing costs, both environmentally and economically. 13 Lightweight proppants conversely are designed to be lighter than sand (~2.5 g/cc) and thus allow pumping at lower pressures or fluid velocities. Light proppants are less likely to settle. Porous materials can break the strength-density trend, or even afford greater gas permeability. Proppant geometry is also important; certain shapes or forms amplify stress on proppant particles making them especially vulnerable to crushing (a sharp discontinuity can classically allow infinite stresses in linear elastic materials). 14
+Proppant deposition and post-treatment behaviours
+Proppant mesh size also impacts fracture length: proppants can be &lt;U+201C&gt;bridged out&lt;U+201D&gt; if the fracture width decreases to less than twice the size of the diameter of the proppant.15 As proppants are deposited in a fracture, proppants can resist further fluid flow or the flow of other proppants, inhibiting further growth of the fracture. In addition, closure stresses (once external fluid pressure is released) may cause proppants to reorganise or &lt;U+201C&gt;squeeze out&lt;U+201D&gt; proppants, even if no fines are generated, resulting in smaller effective width of the fracture and decreased permeability. Some companies try to cause weak bonding at rest between proppant particles in order to prevent such reorganisation. 16 The modelling of fluid dynamics and rheology of fracturing fluid and its carried proppants is a subject of active research by the industry.
+Proppant costs
+Though good proppant choice positively impacts output rate and overall ultimate recovery of a well, commercial proppants are also constrained by cost. Transport costs from supplier to site form a significant component of the cost of proppants.
+References
+
+fr:Agents de sout&lt;U+00E8&gt;nement ru:&lt;U+041F&gt;&lt;U+0440&gt;&lt;U+043E&gt;&lt;U+043F&gt;&lt;U+0430&gt;&lt;U+043D&gt;&lt;U+0442&gt;
+Category:Petroleum engineering Category:Hydraulic fracturing
+
+
+
+↩
+↩
+↩
+Reis, John C. (1976). Environmental Control in Petroleum Engineering. Gulf Professional Publishers.↩
+1 Scott III, George L. (03-June-1997) US Patent No. 5635712: Method for monitoring the hydraulic fracturing of a subterranean formation. US Patent Publications.↩
+
+2 Scott III, George L. (15-Aug-1995) US Patent No. US5441110: System and method for monitoring fracture growth during hydraulic fracture treatment. US Patent Publications.↩
+3 Gadeken, Larry L., Halliburton Company (08-Nov-1989). Radioactive well logging method.↩
+↩
+
+↩
+↩
+SPE]] Production &amp; Operations|year=2006|month=May|volume=21|issue=2|pages=212&lt;U+2013&gt;221|url=http://www.spe.org/ejournals/jsp/journalapp.jsp?pageType=Preview&amp;jid=EPF&amp;mid=SPE-84308-PA}}↩
+↩
+
+
+
+

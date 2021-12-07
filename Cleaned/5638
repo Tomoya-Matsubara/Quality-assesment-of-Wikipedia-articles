@@ -1,0 +1,20 @@
+AccelerEyes builds programming tools for parallel programming and visual computing on GPU chipsets. Based in Atlanta, the company released Jacket1, a tool to compile MATLAB code for CUDA-enabled GPUs, in June 2008. In an October 2008 article,2 the number of current Jacket users is said to be in the thousands, and includes engineers and scientists in technology companies such as GE, Google, Toyota, and Morgan Stanley.
+Company history
+AccelerEyes was founded in June 2007 and is notable for making simple tools for complicated graphics processing unit (GPU) programming.3 AccelerEyes currently has several products enabling MATLAB code to run on the GPU: Jacket, multi-GPU tools, linear algebra libraries, an SDK, and the a compatibility package for the MATLAB Compiler. Jacket is the GPU Toolbox for MATLAB.4
+AccelerEyes' product, Jacket, builds high-level interfaces to remove the lower-level complexity of GPU programming.5 This is accomplished by enabling MATLAB code to run on NVIDIA GPUs coprocessors. Jacket contains a runtime to automatically transform MATLAB's M-code for CUDA-enabled cards.
+To provide support for visual computing, Jacket's Graphics Library enables seamless integration of CUDA computation with OpenGL visualization.
+The company's name, AccelerEyes, combines the prefix Acceler&lt;U+2014&gt;used to denote speed&lt;U+2014&gt;and the root of Eyes&lt;U+2014&gt;used to denote visualizations. The company-name appears with capital A and E. The company's slogan is &quot;Delivering a Software Platform Connecting Apps to GPUs&quot;.
+See also
+Jacket (software)
+NVIDIA
+CUDA
+MATLAB
+References
+External links
+AccelerEyes.com &lt;U+2013&gt; Corporate website
+CUDA Zone
+Category:Nvidia Category:Companies established in 2007 Category:Software companies of the United States Category:Parallel computing Category:Companies based in Atlanta, Georgia
+↩
+↩
+↩
+ ↩

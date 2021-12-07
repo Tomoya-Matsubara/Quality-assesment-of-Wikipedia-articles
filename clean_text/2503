@@ -1,0 +1,72 @@
+
+Hippasus (, H&lt;U+00ED&gt;ppasos; 5th century BC) of Metapontum in Magna Graecia, was a Pythagorean philosopher. Little is known about his life or his beliefs, but he is sometimes credited with the discovery of the existence of irrational numbers.
+Life
+Little is known about the life of Hippasus. He may have lived in the late 5th century BC. He probably came from Metapontum in Italy (Magna Graecia), although the nearby city of Croton is also mentioned as his birthplace.1 Iamblichus states that he was the founder of a sect of the Pythagoreans called the Mathematici () in opposition to the Acusmatici ();2 but elsewhere he makes him the founder of the Acusmatici in opposition to the Mathematici.3
+Doctrines
+Aristotle speaks of Hippasus as holding the element of fire to be the cause of all things;4 and Sextus Empiricus contrasts him with the Pythagoreans in this respect, that he believed the arche to be material, whereas they thought it was incorporeal, namely, number.5 Diogenes La&lt;U+00EB&gt;rtius tells us that Hippasus believed that &quot;there is a definite time which the changes in the universe take to complete, and that the universe is limited and ever in motion.&quot;6 According to one statement, Hippasus left no writings,7 according to another he was the author of the Mystic Discourse, written to bring Pythagoras into disrepute.8
+A scholium on Plato's Phaedo notes him as an early experimenter in music theory, claiming that he made use of bronze disks to discover the fundamental musical ratios, 4:3, 3:2, and 2:1.9
+Irrational numbers
+Hippasus is sometimes credited with the discovery of the existence of irrational numbers, following which he was drowned at sea. Pythagoreans preached that all numbers could be expressed as the ratio of integers, and the discovery of irrational numbers is said to have shocked them. However, the evidence linking the discovery to Hippasus is confused.
+Pappus merely says that the knowledge of irrational numbers originated in the Pythagorean school, and that the member who first divulged the secret perished by drowning.10 Iamblichus gives a series of inconsistent reports. In one story he explains how a Pythagorean was merely expelled for divulging the nature of the irrational; but he then cites the legend of the Pythagorean who drowned at sea for making known the construction of the regular dodecahedron in the sphere.11 In another account he tells how it was Hippasus who drowned at sea for betraying the construction of the dodecahedron and taking credit for this construction himself;12 but in another story this same punishment is meted out to the Pythagorean who divulged knowledge of the irrational.13 Iamblichus clearly states that the drowning at sea was a punishment from the gods for impious behaviour.14
+These stories are usually taken together to ascribe the discovery of irrationals to Hippasus, but whether he did or not is uncertain.15 In principle, the stories can be combined, since it is possible to discover irrational numbers when constructing dodecahedrons. Irrationality, by infinite reciprocal subtraction, can be easily seen in the Golden ratio of the regular pentagon.16
+Some modern scholars prefer to credit Hippasus with the discovery of the irrationality of &lt;U+221A&gt;2. Plato in his Theaetetus,17 describes how Theodorus of Cyrene (c. 400 BC) proved the irrationality of &lt;U+221A&gt;3, &lt;U+221A&gt;5, etc. up to &lt;U+221A&gt;17, which implies that an earlier mathematician had already proved the irrationality of &lt;U+221A&gt;2.18 A simple proof of the irrationality of &lt;U+221A&gt;2 is indicated by Aristotle, and it is set out in the proposition interpolated at the end of Euclid's Book X,19 which suggests that the proof was certainly ancient.20 The proof is one of reductio ad absurdum, and the method is to show that, if the diagonal of a square is commensurable with the side, then the same number must be both odd and even.21
+In the hands of modern writers this combination of vague ancient reports and modern guesswork has sometimes evolved into a much more emphatic and colourful tale. Some writers have Hippasus making his discovery while on board a ship, as a result of which his Pythagorean shipmates toss him overboard;22 while one writer even has Pythagoras himself &quot;to his eternal shame&quot; sentencing Hippasus to death by drowning, for showing &quot;that &lt;U+221A&gt;2 is an irrational number.&quot;23
+Proof of the irrationality of &lt;U+221A&gt;2
+The reductio ad absurdum proof of the irrationality of &lt;U+221A&gt;2 is as follows:24
+
+Take a right triangle whose sides are 1 unit in length
+By the Pythagorean theorem, the diagonal is &lt;U+221A&gt;2
+Suppose that &lt;U+221A&gt;2 is a natural number, or that it is the ratio of two natural numbers. In both cases, it can be represented as the ratio of two natural numbers, &lt;U+221A&gt;2=m/n
+Suppose that m/n has been reduced to its lowest common form by division
+It follows that either m and n are both odd, or that m is odd and n is even, or that m is even and n is odd (if not, we could reduce m/n even further by dividing both numbers by 2)
+Square both sides of &lt;U+221A&gt;2=m/n, so that 2=m2/n2
+Then 2n2=m2, so that m2 is even, and therefore m is even
+If m is even, then m=2x, where x is some other natural number
+Squaring this, it follows that m2=4x2=2n2
+It follows that n2=2x2, and therefore n2 is even, which means that n, being a natural number, must be even
+So we've reached a contradiction: although we assumed that m and n cannot both be even, it now turns out they both are. It therefore follows that &lt;U+221A&gt;2 cannot be expressed as the ratio of two natural numbers, and must therefore be in another class of numbers
+
+References
+
+See also
+
+Incommensurable magnitudes
+
+External links
+
+Hippasus of Metapontum at scienceworld.wolfram.com
+
+
+
+
+bn:&lt;U+0987&gt;&lt;U+09AA&gt;&lt;U+09CD&gt;&lt;U+09AA&gt;&lt;U+09BF&gt;&lt;U+09AF&gt;&lt;U+09BC&gt;&lt;U+09BE&gt;&lt;U+09B8&gt; bs:Hipasus ca:Hip&lt;U+00E0&gt;s de Metapont de:Hippasos von Metapont el:&lt;U+038A&gt;&lt;U+03C0&gt;&lt;U+03C0&gt;&lt;U+03B1&gt;&lt;U+03C3&gt;&lt;U+03BF&gt;&lt;U+03C2&gt; es:Hipaso de Metaponto ext:Ipasu eu:Hipaso fa:&lt;U+0647&gt;&lt;U+06CC&gt;&lt;U+067E&gt;&lt;U+0627&gt;&lt;U+0633&gt;&lt;U+0648&gt;&lt;U+0633&gt; fr:Hippase de M&lt;U+00E9&gt;taponte ko:&lt;U+D788&gt;&lt;U+D30C&gt;&lt;U+C18C&gt;&lt;U+C2A4&gt; id:Hippasus is:Hippasos it:Ippaso di Metaponto he:&lt;U+05D4&gt;&lt;U+05D9&gt;&lt;U+05E4&gt;&lt;U+05D0&gt;&lt;U+05E1&gt;&lt;U+05D5&gt;&lt;U+05E1&gt; nl:Hippasus ja:&lt;U+30D2&gt;&lt;U+30C3&gt;&lt;U+30D1&gt;&lt;U+30BD&gt;&lt;U+30B9&gt; pt:Hipaso de Metaponto ro:Hippasos ru:&lt;U+0413&gt;&lt;U+0438&gt;&lt;U+043F&gt;&lt;U+043F&gt;&lt;U+0430&gt;&lt;U+0441&gt; &lt;U+0438&gt;&lt;U+0437&gt; &lt;U+041C&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+0430&gt;&lt;U+043F&gt;&lt;U+043E&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+0430&gt; scn:Ippasu sk:Hippasos z Metapontu sl:Hipas fi:Hippasos sv:Hippasos zh:&lt;U+5E0C&gt;&lt;U+5E15&gt;&lt;U+7D22&gt;&lt;U+65AF&gt;
+Category:5th-century BC Greek people Category:5th-century BC philosophers Category:Ancient Greek mathematicians Category:Ancient Greek physicists Category:Ancient Metapontines Category:Irrational numbers Category:Pythagoreans of Magna Graecia
+
+
+
+Iamblichus, Vita Pythagorica, 18 (81)↩
+Iamblichus, De Communi Mathematica Scientia, 76↩
+Iamblichus, Vita Pythagorica, 18 (81); cf. Iamblichus, In Nic. 10.20; De anima ap. Stobaeus, i.49.32↩
+Aristotle, Metaph. i. 3 cf. Simplicius, Commentary on the Physics, 23.33-24.4↩
+Sextus Empiricus, ad Phys. i. 361↩
+Diogenes La&lt;U+00EB&gt;rtius, viii. 84 cf. Simplicius, Commentary on the Physics, 23.33-24.4↩
+Diogenes La&lt;U+00EB&gt;rtius, viii. 84↩
+Diogenes La&lt;U+00EB&gt;rtius, viii. 7↩
+Scholium on Plato's Phaedo, 108D↩
+Pappus, Commentary on Book X of Euclid's Elements. A similar story is quoted in a Greek scholium to the tenth book.↩
+Iamblichus, Vita Pythagorica, 34 (246)↩
+Iamblichus, Vita Pythagorica, 18 (88), De Communi Mathematica Scientia, 25↩
+Iamblichus, Vita Pythagorica, 34 (247)↩
+
+Wilbur Richard Knorr, (1975), The Evolution of the Euclidean Elements: A Study of the Theory of Incommensurable Magnitudes and its Significance for Early Greek Geometry, pages 21-2, 50-1. Springer.↩
+Walter Burkert, (1972), Lore and Science in Ancient Pythagoreanism, page 459. Harvard University Press↩
+Plato, Theaetetus, 147D ff↩
+Thomas Heath, (1921) A History of Greek Mathematics, Volume 1, From Thales to Euclid, p. 155.↩
+Thomas Heath, (1921) A History of Greek Mathematics, Volume 1, From Thales to Euclid, p. 157.↩
+Thomas Heath, (1921) A History of Greek Mathematics, Volume 1, From Thales to Euclid, p. 168.↩
+
+Morris Kline, (1990), Mathematical Thought from Ancient to Modern Times, page 32. Oxford University Press↩
+Simon Singh, (1998), Fermat's Enigma, page 50↩
+David Berlinski (2005) Infinite Ascent, pp. 9-10↩
+
+

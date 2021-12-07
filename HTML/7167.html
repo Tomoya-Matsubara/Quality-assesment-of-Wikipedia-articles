@@ -1,0 +1,13 @@
+<p>A <strong>Bob</strong> (contraction of <em><strong>B</strong>litter <strong>ob</strong>ject</em>) was a graphical element (GEL) first used by the <a href="Amiga" class="uri" title="wikilink">Amiga</a> computer. Bobs were <a href="sprite_(computer_graphics)" title="wikilink">hardware sprite</a>-like objects, movable on the screen with the help of the <a href="blitter" class="uri" title="wikilink">blitter</a> <a href="coprocessor" class="uri" title="wikilink">coprocessor</a>.</p>
+<p>The <a href="AmigaOS" class="uri" title="wikilink">AmigaOS</a> GEL system consisted of VSprites, Bobs, AnimComps (<em>animation components</em>) and AnimObs (<em>animation objects</em>), each extending the preceding with additional functionality. While VSprites were a virtualization of hardware sprites Bobs were drawn into a playfield by the blitter, saving and restoring the background of the GEL as required. The Bob with the highest video priority was the last one to be drawn, which made it appear to be in front of all other Bobs.</p>
+<p>In contrast to hardware sprites Bobs were not limited in size and number. Bobs required more <a href="Clock_rate" title="wikilink">processing power</a> than sprites, because they required at least one <a href="Direct_memory_access" title="wikilink">DMA</a> memory copy operation to draw them on the screen. Sometimes three distinct memory copy operations were needed: one to save the screen area where the Bob would be drawn, one to actually draw the Bob, and one later to restore the screen background when the Bob moved away.</p>
+<p>An AnimComp added animation to a Bob and an AnimOb grouped AnimComps together and assigned them velocity and acceleration.</p>
+<h2 id="references">References</h2>
+<p>Rob Peck (1986). <em>ROM Kernel Reference Manual: Libraries and Devices</em>, <a href="Pearson_PLC" title="wikilink">Addison-Wesley</a>, ISBN 0-201-11078-4</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Original_Amiga_chipset" title="wikilink">Original Amiga chipset</a></li>
+</ul>
+
+<p><a href="de:BOB_(Computergrafik)" title="wikilink">de:BOB (Computergrafik)</a></p>
+<p><a href="Category:Commodore_Amiga" title="wikilink">Category:Commodore Amiga</a> <a href="Category:Computer_graphics" title="wikilink">Category:Computer graphics</a> <a href="Category:Demo_effects" title="wikilink">Category:Demo effects</a></p>

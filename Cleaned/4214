@@ -1,0 +1,6 @@
+Grsync is a Graphical User Interface (GUI) for rsync, the most used directory synchronization tool under Linux / Unix System. Grsync is released under the GPL license, so it is OpenSource, and makes use of the GTK libraries. It doesn't support all of rsync features, but can be effectively used to synchronize local directories and supports remote targets in a limited way.
+External links
+Grsync' homepage
+rsync' homepage
+Tutorial: Using rsync
+Category:Network-related software Category:Unix software Category:Network file transfer protocols Category:Data synchronization Category:Free backup software Category:Linux software

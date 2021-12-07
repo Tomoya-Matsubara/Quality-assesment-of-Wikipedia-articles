@@ -1,0 +1,300 @@
+The price of a bitcoin reached previous all-time high of US$1124.76 on 29 November 2013, up from just US$13.36 on 5 January at the start of the year; the price subsequently dropped into the $700 range.
+Bitcoin is a cryptocurrency, a form of money that uses cryptography to control its creation and management, rather than relying on central authorities.1 However, not all of the technologies and concepts that make up Bitcoin are new; the presumed pseudonym Satoshi Nakamoto (the creator of Bitcoin, see below) integrated many existing ideas from the cypherpunk community when creating Bitcoin.
+Pre-history
+Prior to the release of Bitcoin there were a number of precursor ecash technologies starting with the issuer based ecash protocols of David Chaum 
+ and Stefan Brands, and moving on to distributed digital scarcity based ecash protocols starting from Adam Back's hashcash, Wei Dai's b-money, Nick Szabo's bit-gold and Hal Finney's RPOW which build on hashcash.
+Independently and at around the same time Wei Dai proposed b-money 2 and Nick Szabo proposed bit-gold.3 Subsequently Hal Finney implemented and deployed RPOW a reusable form of hashcash based on IBM secure TPM hardware and remote attestation (centralized but with no issuer inflation risk).
+Since the initial bit-gold proposal which proposed a collectible market based mechanism for inflation control Nick Szabo also investigated some additional enabling aspects for decentralized asset registers including Byzantine network issues.
+There has been much speculation as to the identity of Satoshi Nakamoto with suspects including Wei Dai, Hal Finney and accompanying denials.45 The possibility that Satoshi Nakamoto was a computer collective in the European financial sector has also been bruited.6
+Creation
+In November 2008, a paper was posted on the internet under the name Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System. This paper detailed methods of using a peer-to-peer network to generate what was described as &quot;a system for electronic transactions without relying on trust&quot;.78910 In January 2009, the Bitcoin network came into existence with the release of the first open source Bitcoin client and the issuance of the first bitcoins,11121314 with Satoshi Nakamoto mining the first block of bitcoins ever (known as the &quot;genesis block&quot;), which had a reward of 50 bitcoins. The value of the first bitcoin transactions were negotiated by individuals on the bitcointalk forums with one notable transaction of 10,000 BTC used to indirectly purchase two pizzas delivered by Papa John&lt;U+2019&gt;s.15
+On 6 August 2010, a major vulnerability in the Bitcoin protocol was spotted. Transactions weren't properly verified before they were included in the transaction log or &quot;block chain&quot; which let users bypass Bitcoin's economic restrictions and create an indefinite number of bitcoins.1617 On 15 August, the vulnerability was exploited; over 184 billion bitcoins were generated in a transaction, and sent to two addresses on the network. Within hours, the transaction was spotted and erased from the transaction log after the bug was fixed and the network forked to an updated version of the Bitcoin protocol.1819 This was the only major security flaw found and exploited in Bitcoin's history.2021
+Growth
+Wikileaks22 and other organizations began to accept bitcoins for donations. The Electronic Frontier Foundation began, and then temporarily suspended, bitcoin acceptance, citing concerns about a lack of legal precedent about new currency systems, saying that they &quot;generally don't endorse any type of product or service.&quot;23 The EFF's decision was changed in 17 May 2013.24 On 23 December 2011, Douglas Feigelson of BitBills filed a patent application for &lt;U+201C&gt;Creating And Using Digital Currency&lt;U+201D&gt; with the United States Patent and Trademark Office, an action which was contested based on prior art in June 2013.2526
+In January 2012, Bitcoin was featured as the main subject within a fictionalized trial on the CBS legal drama The Good Wife in the third season episode &quot;Bitcoin for Dummies&quot;. The host of CNBC's Mad Money, Jim Cramer, played himself in a courtroom scene where he testifies that he doesn't consider Bitcoin a true currency, saying &quot;There's no central bank to regulate it; it's digital and functions completely peer to peer&quot;.27
+In October 2012, BitPay reported having over 1,000 merchants accepting Bitcoin under its payment processing service.28
+In February 2013 the Bitcoin-based payment processor Coinbase reported selling US$1 million worth of Bitcoins in a single month at over $22 per Bitcoin.29 The Internet Archive announced that it was ready to accept donations as bitcoins and that it intends to give employees the option to receive portions of their salaries in Bitcoin currency.30
+In March the Bitcoin transaction log or &quot;block chain&quot; temporarily forked into two independent logs with differing rules on how transactions could be accepted. The Mt. Gox exchange briefly halted Bitcoin deposits and the exchange rate briefly dipped by 23% to $37 as the event occurred3132 before recovering to previous level of approximately $48 in the following hours.33 In the US, the Financial Crimes Enforcement Network (FinCEN) established regulatory guidelines for &quot;decentralized virtual currencies&quot; such as Bitcoin, classifying American &quot;Bitcoin miners&quot; who sell their generated bitcoins as Money Service Businesses (or MSBs), that may be subject to registration and other legal obligations.343536
+In April, payment processors BitInstant and Mt. Gox experienced processing delays due to insufficient capacity37 resulting in the bitcoin exchange rate dropping from $266 to $76 before returning to $160 within six hours.38
+Bitcoin gained greater recognition when services such as OkCupid and Foodler began accepting it for payment.39
+On 15 May 2013, the US authorities seized accounts associated with Mt. Gox after discovering that it had not registered as a money transmitter with FinCEN in the US.4041
+On 23 June 2013, it was reported that the US Drug Enforcement Administration listed 11.02 bitcoins as a seized asset in a United States Department of Justice seizure notice pursuant to 21 U.S.C. &lt;U+00A7&gt; 881.42 It is the first time a government agency has claimed to have seized bitcoin.4344
+In July 2013 a project began in Kenya linking Bitcoin with M-Pesa, a popular mobile payments system, in an experiment designed to spur innovative payments in Africa.45 During the same month the Foreign Exchange Administration and Policy Department in Thailand stated that Bitcoin lacks any legal framework and would therefore be illegal, which effectively banned trading on Bitcoin exchanges in the country.4647 According to Vitalik Buterin, a writer for Bitcoin Magazine, &quot;Bitcoin's fate in Thailand may give the electronic currency more credibility in some circles&quot;, but he was concerned it didn't bode well for Bitcoin in China.48
+On 6 August 2013, Federal Judge Amos Mazzant of the Eastern District of Texas of the Fifth Circuit ruled that bitcoins are &quot;a currency or a form of money&quot; (specifically securities as defined by Federal Securities Laws), and as such were subject to the court's jurisdiction,4950 and Germany's Finance Ministry subsumed Bitcoins under the term &quot;unit of account&quot;&lt;U+2014&gt;a financial instrument&lt;U+2014&gt;though not as e-money or a functional currency, a classification nonetheless having legal and tax implications.51
+In October 2013, the FBI seized roughly 26,000 BTC from website Silk Road during the arrest of alleged owner Ross Ulbricht.525354
+Two companies, Robocoin and Bitcoiniacs launched the world's first Bitcoin ATM on 29 October 2013 in Vancouver, BC, Canada, allowing clients to sell or purchase Bitcoin currency at a downtown coffee shop.555657
+In November 2013, the University of Nicosia announced that it would be accepting Bitcoin as payment for tuition fees, with the university's chief financial officer calling it the &quot;gold of tomorrow&quot;.58 In December Overstock.com59 announced plans to accept Bitcoin in the second half of 2014. In January 2014, Zynga60 announced it was testing Bitcoin for purchasing in-game assets in seven of its games. That same month, The D Las Vegas Casino Hotel and Golden Gate Hotel &amp; Casino properties in downtown Las Vegas announced they would also begin accepting Bitcoin, according to an article by USA Today. The article also stated the currency would be accepted in five locations, including the front desk and certain restaurants.61
+Prices and value history
+Among the factors which may have contributed to this rise were the European sovereign-debt crisis&lt;U+2014&gt;particularly the 2012&lt;U+2013&gt;2013 Cypriot financial crisis&lt;U+2014&gt;statements by FinCEN improving the currency's legal standing and rising media and Internet interest.62636465 The current all time high was set on 17 November 2013 at US$1216.73 on the Mt. Gox exchange.66
+As the market valuation of the total stock of Bitcoins approached US$1 billion, some commentators called Bitcoin prices a bubble.676869 In early April 2013, the price per Bitcoin dropped from $266 to around $50 and then rose to around $100. Over two weeks starting late June 2013 the price dropped steadily to $70. The price began to recover, peaking once again on 1 October at $140. On 2 October, The Silk Road was seized by the FBI. This seizure caused a flash crash to $110. The price quickly rebounded, returning to $200 several weeks later.70 The latest run went from $200 on 3 November to $900 on 18 November.71 Bitcoin passed a US$1000 all time high on 28 November at MtGox.
+Until 2013 almost all market with bitcoins were in US $.727374
+Bitcoin value history (comparison to $)
+Date
+Price for 1 BTC
+Notes
+Jan 2009 &lt;U+2013&gt; Jan 2010
+basically none
+No exchanges or market, users were mainly cryptography fans who were sending bitcoins for low or no value.
+Feb 2010 &lt;U+2013&gt; May 2010
+less than $0.01
+User &quot;laszlo&quot; made the first real-world transaction &lt;U+2013&gt; he bought 2 pizzas for 10,000 BTC.7576 User &quot;SmokeTooMuch&quot; auctioned 10,000 BTC for $50 (cumulatively), but no buyer was found.7778
+June 2010
+$0.08
+In five days, the price grew 1000%, rising from $0.008 to $0.08 for 1 bitcoin.
+Feb 2011 &lt;U+2013&gt; April 2011
+$1
+Bitcoin takes parity with US dollar. 79
+8 July 2011
+$31
+top of first &quot;bubble&quot;, followed by the first price drop
+Dec 2011
+$2
+minimum after few months
+Dec 2012
+$13
+slowly rising for a year
+April 11, 2013
+$266
+top of a price rally, during which the value was growing by 5-10% daily.
+May 2013
+$130
+basically stable, again slowly rising.
+June 2013
+$100
+in June slowly dropping to $70, but rising in July to $110
+Nov 2013
+$350 &lt;U+2013&gt; $1250
+from October $150&lt;U+2013&gt;$200 in November, rising to $400, then $600, eventually reaching $900 on 11/19/2013 and breaking $1000 threshold on 27 November 2013.
+Dec 2013
+$600 &lt;U+2013&gt; $1000
+Price crashed to $600, rebounded to $1,000, crashed again to the $500 range. Stabilized to the ~$650&lt;U+2013&gt;$800 range.
+Jan 2014
+$750 &lt;U+2013&gt; $1000
+Price spiked to $1000 briefly, then settled in the $800-$900 range for the rest of the month.80
+Feb 2014
+$550 &lt;U+2013&gt; $750
+Price fell following the shutdown of MTGOX before recovering to the $600-$700 range.
+Mar 2014
+$450 &lt;U+2013&gt; $700
+Price continued to fall due to a false report regarding Bitcoin ban in China 81 and uncertainty over whether the Chinese government would seek to prohibit banks from working with digital currency exchanges. 82
+Apr 2014
+$340 &lt;U+2013&gt; $530
+The lowest price since the 2012&lt;U+2013&gt;2013 Cypriot financial crisis had been reached at 3:25 AM on April 11th83 |-}
+Satoshi Nakamoto
+&quot;Satoshi Nakamoto&quot; was presumed to be a pseudonym for the person or people who designed the original Bitcoin protocol in 2008 and launched the network in 2009. Nakamoto was responsible for creating the majority of the official Bitcoin software and was active in making modifications and posting technical information on the BitcoinTalk Forum.84
+Investigations into the real identity of Satoshi Nakamoto were attempted by The New Yorker and Fast Company. The New Yorker's investigation brought up at least two possible candidates: Michael Clear and Vili Lehdonvirta. Fast Company's investigation brought up circumstantial evidence linking an encryption patent application filed by Neal King, Vladimir Oksman and Charles Bry on 15 August 2008, and the bitcoin.org domain name which was registered 72 hours later. The patent application (#20100042841) contained networking and encryption technologies similar to Bitcoin's, and textual analysis revealed that the phrase &quot;... computationally impractical to reverse&quot; appeared in both the patent application and bitcoin's whitepaper.85 All three inventors explicitly denied being Satoshi Nakamoto.8687 In May 2013, Ted Nelson speculated that Japanese mathematician Shinichi Mochizuki is Satoshi Nakamoto.88 Later in 2013 the Israeli researchers, Dorit Ron and Adi Shamir, pointed to Silk Road-linked Ross William Ulbricht as the possible person behind the cover. The two researchers based their suspicion on an analysis of the network of bitcoin transactions.89 These allegations were contested.90 Ron and Shamir later retracted their claim.91
+Nakamoto's involvement with Bitcoin does not appear to extend past mid-2010.92 In April 2011, Nakamoto communicated with a Bitcoin contributor saying he had &quot;moved on to other things&quot;.93
+Stefan Thomas, a Swiss coder and active community member, graphed the time stamps for each of Nakamoto's 500-plus bitcoin forum posts; the resulting chart showed a steep decline to almost no posts between the hours of 5 a.m. and 11 a.m. Greenwich Mean Time. Because this pattern held true even on Saturdays and Sundays, it suggested that Nakamoto was asleep at this time, and the hours of 5 a.m. to 11 a.m. GMT are midnight to 6 a.m. Eastern Standard Time. Other clues suggested that Nakamoto was British: A newspaper headline he had encoded in the genesis block came from the UK-published newspaper The Times, and both his forum posts and his comments in the bitcoin source code used British English spellings, such as &quot;optimise&quot; and &quot;colour&quot;.94
+An Internet search by an anonymous blogger of texts similar in writing to the Bitcoin whitepaper suggests Nick Szabo's &quot;bit gold&quot; articles as having a similar author.95 Nick denied being Satoshi, and stated his official opinion on Satoshi and Bitcoin in a May 2011 article.96
+In a March 2014 article in Newsweek, journalist Leah McGrath Goodman doxed Dorian S. Nakamoto of Temple City, California, saying that Satoshi Nakamoto is the man's birth name.9798
+The fork of March 2013
+On 12 March 2013, a Bitcoin miner running version 0.8.0 of the Bitcoin software created a large block that was incompatible with earlier versions of the Bitcoin software because of its size. This created a split or &quot;fork&quot; in the block chain since older versions of the software did not accept this block as valid. Computers with the recent version of the software accepted the block and continued to build on the diverging chain, whereas older versions of the software rejected it and continued extending the block chain without the offending block. This split resulted in two separate transaction logs being formed without clear consensus, which allowed for the same funds to be spent differently on each chain. In response, the Mt. Gox exchange temporarily halted Bitcoin deposits.99 The exchange rate fell 23% to $37 on the Mt. Gox exchange but rose most of the way back to its prior level of $48.100101
+Developers at bitcoin.org resolved the split by recommending that users downgrade to &quot;version 0.7&quot;, which utilized the oldest transaction log in the split. User funds largely remained unaffected and were available when network consensus was reached.102 The network reached consensus and continued to operate as normal a few hours after the split.103
+Regulatory issues
+On 18 March 2013, the Financial Crimes Enforcement Network (or FinCEN), a bureau of the United States Department of the Treasury, issued a report regarding centralized and decentralized &quot;virtual currencies&quot; and their legal status within &quot;money services business&quot; (MSB) and Bank Secrecy Act regulations.104105 It classified digital currencies and other digital payment systems such as Bitcoin as &quot;virtual currencies&quot; because they are not legal tender under any sovereign jurisdiction. FinCEN cleared American users of Bitcoin of legal obligations106 by saying, &quot;A user of virtual currency is not an MSB under FinCEN's regulations and therefore is not subject to MSB registration, reporting, and recordkeeping regulations.&quot; However, it held that American entities who generate &quot;virtual currency&quot; such as bitcoins are money transmitters or MSBs if they sell their generated currency for national currency: &quot;...a person that creates units of convertible virtual currency and sells those units to another person for real currency or its equivalent is engaged in transmission to another location and is a money transmitter.&quot; This specifically extends to &quot;miners&quot; of the Bitcoin currency who may have to register as MSBs and abide by the legal requirements of being a money transmitter if they sell their generated bitcoins for national currency and are within the United States.107 Since FinCEN issued this guidance, dozens of virtual currency exchangers and administrators have registered with FinCEN, and FinCEN is receiving an increasing number of suspicious activity reports (SARs) from these entities.108
+Additionally, FinCEN claimed regulation over American entities that manage bitcoins in a payment processor setting or as an exchanger: &quot;In addition, a person is an exchanger and a money transmitter if the person accepts such de-centralized convertible virtual currency from one person and transmits it to another person as part of the acceptance and transfer of currency, funds, or other value that substitutes for currency.&quot;109110
+In summary, FinCEN's decision would require Bitcoin exchanges where bitcoins are traded for traditional currencies to disclose large transactions and suspicious activity, comply with money laundering regulations, and collect information about their customers as traditional financial institutions are required to do.111112113
+Patrick Murck of the Bitcoin Foundation criticized FinCEN's report as an &quot;overreach&quot; and claimed that FinCEN &quot;cannot rely on this guidance in any enforcement action&quot;.114
+Jennifer Shasky Calvery, the director of FinCEN said, &lt;U+201C&gt;Virtual currencies are subject to the same rules as other currencies. ... Basic money-services business rules apply here.&lt;U+201D&gt;115
+In its October 2012 study, Virtual currency schemes, the European Central Bank concluded that the growth of virtual currencies will continue, and, given the currencies' inherent price instability, lack of close regulation, and risk of illegal uses by anonymous users, the Bank warned that periodic examination of developments would be necessary to reassess risks.116
+In 2013, the U.S. Treasury extended its anti-money laundering regulations to processors of bitcoin transactions.117118
+In June 2013, Bitcoin Foundation board member Jon Matonis wrote in Forbes that he received a warning letter from the California Department of Financial Institutions accusing the foundation of unlicensed money transmission. Matonis denied that the foundation is engaged in money transmission and said he viewed the case as &quot;an opportunity to educate state regulators.&quot;119
+In late July 2013, the industry group Committee for the Establishment of the Digital Asset Transfer Authority began to form to set best practices and standards, to work with regulators and policymakers to adapt existing currency requirements to digital currency technology and business models and develop risk management standards.120
+Theft and exchange shutdowns
+It is possible to steal bitcoins; theft has been documented on numerous occasions. At other times, Bitcoin exchanges have shut down, taking their clients' bitcoins with them. A Wired study showed that 45 percent of Bitcoin exchanges end up closing.121
+On 19 June 2011, a security breach of the Mt. Gox Bitcoin exchange caused the nominal price of a bitcoin to fraudulently drop to one cent on the Mt. Gox exchange, after a hacker used credentials from a Mt. Gox auditor's compromised computer illegally to transfer a large number of bitcoins to himself. They used the exchange's software to sell them all nominally, creating a massive &quot;ask&quot; order at any price. Within minutes, the price reverted to its correct user-traded value.122123124125126127 Accounts with the equivalent of more than US$8,750,000 were affected.128
+In July 2011, the operator of Bitomat, the third-largest Bitcoin exchange, announced that he lost access to his wallet.dat file with about 17,000 bitcoins (roughly equivalent to US$220,000 at that time). He announced that he would sell the service for the missing amount, aiming to use funds from the sale to refund his customers.129
+In August 2011, MyBitcoin, a now defunct Bitcoin transaction processor, declared that it was hacked, which caused it to be shut down, paying 49% on customer deposits, leaving more than 78,000 bitcoins (equivalent to roughly US$800,000 at that time) unaccounted for.130131
+In early August 2012, a lawsuit was filed in San Francisco court against Bitcoinica &lt;U+2014&gt; a Bitcoin trading venue &lt;U+2014&gt; claiming about US$460,000 from the company. Bitcoinica was hacked twice in 2012, which led to allegations that the venue neglected the safety of customers' money and cheated them out of withdrawal requests.132133
+In late August 2012, an operation titled Bitcoin Savings and Trust was shut down by the owner, leaving around US$5.6 million in bitcoin-based debts; this led to allegations that the operation was a Ponzi scheme.134135136137 In September 2012, the U.S. Securities and Exchange Commission had reportedly started an investigation on the case.138
+In September 2012, Bitfloor, a Bitcoin exchange, also reported being hacked, with 24,000 bitcoins (worth about US$250,000) stolen. As a result, Bitfloor suspended operations.139140 The same month, Bitfloor resumed operations; its founder said that he reported the theft to FBI, and that he plans to repay the victims, though the time frame for repayment is unclear.141
+On 3 April 2013, Instawallet, a web-based wallet provider, was hacked,142 resulting in the theft of over 35,000 bitcoins143 which were valued at US$129.90 per bitcoin at the time, or nearly $4.6 million in total. As a result, Instawallet suspended operations.144
+On 11 August 2013, the Bitcoin Foundation announced that a bug in a pseudorandom number generator within the Android operating system had been exploited to steal from wallets generated by Android apps; fixes were provided 13 August 2013.145
+Inputs.io, a Bitcoin wallet provider operated from Australia but stored on servers in the USA, was hacked on 23 and 26 October 2013, causing a loss of 4100 bitcoins, worth over A$1 million. The chat room (coinchat) run by the owner TradeFortress was taken down due to the massive loss of the slush pool to fund the chatroom's payouts. It was then acquired by a new admin but had a sting of bad luck and design choices causing it to lose a large amount of its demographic.146
+In Hong Kong, a Bitcoin trading platform owned by Global Bond Limited (GBL) vanished with 30 million yuan (US$5 million) from 500 investors on 26 October 2013.147
+On 3 March 2014, Flexcoin announced it was closing its doors because of a hack attack that took place the day before.148149150 In a statement that now occupies their homepage, they announced on 3 March 2014 that &quot;As Flexcoin does not have the resources, assets, or otherwise to come back from this loss [the hack], we are closing our doors immediately.&quot;151 Users can no longer log in to the site.
+Taxation and regulation
+In 2012, the Cryptocurrency Legal Advocacy Group (CLAG) stressed the importance for taxpayers to determine whether taxes are due on a Bitcoin-related transaction based on whether one has experienced a &quot;realization event&quot;: when a taxpayer has provided a service in exchange for bitcoins, a realization event has probably occurred and any gain or loss would likely be calculated using fair market values for the service provided.&quot;152
+In August 2013, the German Finance Ministry characterized Bitcoin as a unit of account,153154 usable in multilateral clearing circles and subject to capital gains tax if held less than one year.155
+On 5 December 2013, the People's Bank of China announced in a press release regarding bitcoin regulation that whilst individuals in China are permitted to freely trade and exchange bitcoins as a commodity, it is prohibited for Chinese financial banks to operate using bitcoins or for bitcoins to be used as legal tender currency, and that entities dealing with bitcoins must track and report suspicious activity to prevent money laundering.156 The value of bitcoin dropped on various exchanges between 11 to 20 percent following the regulation announcement, before rebounding upward again.157
+Appearance in popular culture
+On 26th April 2013 a post-apocalyptic PC Game Fallout 2 has been given a mod that switches in-game currency to Bitcoin. 158
+List of biggest address balances
+These are the Bitcoin addresses containing the largest amount of unspent funds 159160161162
+Some of the most valuable addresses contain funds seized by the FBI from &quot;Dread Pirate Roberts&quot;, creator of the popular anonymous black market site the Silk Road, which was taken offline by the Department of Justice in October 2013.163
+Rank
+USD
+Bitcoins
+Address
+First transaction
+1
+$141,887,713.76
+144,341.51959292
+01:27:38 UTC
+2
+$109,225,658.89
+111,114.60721354
+02:42:15 UTC
+3
+$89,446,119.00
+90,993.00000000
+09:10:52 UTC
+4
+$87,488,018.41
+89,001.03601737
+23:18:40 UTC
+5
+$78,597,776.53
+79,957.04631704
+10:26:19 UTC
+164
+References
+External links
+History of Bitcoin @ Bitcoin wiki
+The History of Bitcoin - An illustrated timeline from the very beginning
+Bitcoin Trade Wiki (businesses accepting/working with Bitcoin)
+Bitcoin: A Peer-to-Peer Electronic Cash System, the original paper on Bitcoin by Satoshi Nakamoto
+Category:Bitcoin
+↩
+↩
+↩
+↩
+↩
+Bitcoin Inventor Satoshi Nakamoto is Anonymous-style Cell from Europe ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Roose, Kevin (8 April 2013) . Nymag.com. Retrieved on 20 April 2013.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+ ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+ Bitcoin Charts (hodnota m&lt;U+011B&gt;ny, i v historii) ↩
+ History of Bitcoin (Bitcoin wiki) ↩
+↩
+ Pizza for bitcoins? (diskusn&lt;U+00ED&gt; vl&lt;U+00E1&gt;kno) ↩
+ Laszlo's pizza for $76,880 ↩
+ Bitcoin Auction: 10,000.00 BTC --- Starting Bid 50.00 USD (discussion thread) ↩
+↩
+↩
+ Coindesk Bitcoin Price Index Chart ↩
+↩
+↩
+BitcoinWisdom - Live Bitcoin/Litecoin charts ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Benjamin Wallace: The Rise and Fall of Bitcoin, Wired, November 23, 2011 ↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+. Fox News (11 April 2013). Retrieved on 20 April 2013.↩
+. Blog.aarp.org (19 March 2013). Retrieved on 20 April 2013.↩
+↩
+↩
+ Wired.co.uk (26 April 2013).↩
+↩
+↩
+↩
+Lee, Timothy B. (19 June 2011) , Ars Technica↩
+Karpeles, Mark (20 June 2011) Huge Bitcoin sell off due to a compromised account &lt;U+2013&gt; rollback, Mt.Gox Support ↩
+↩
+Dotson, Kyt (1 August 2011) . SiliconAngle↩
+Jeffries, Adrianne (8 August 2011) . BetaBeat↩
+Jeffries, Adrianne (19 August 2011) . BetaBeat↩
+Geuss, Megan (12 August 2012) . Arstechnica↩
+Peck, Morgen (15 August 2012) . IEEE Spectrum↩
+↩
+↩
+↩
+↩
+Foxton, Willard (2 September 2012) . The Telegraph↩
+↩
+↩
+↩
+↩
+. Blockchain.info (3 April 2013). Retrieved 20 April 2013.↩
+ &lt;U+25CF&gt; Original Bitcoin announcement: ↩
+. Retrieved 9 November 2013.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+2013-12-05, &lt;U+4E2D&gt;&lt;U+56FD&gt;&lt;U+4EBA&gt;&lt;U+6C11&gt;&lt;U+94F6&gt;&lt;U+884C&gt;&lt;U+7B49&gt;&lt;U+4E94&gt;&lt;U+90E8&gt;&lt;U+59D4&gt;&lt;U+53D1&gt;&lt;U+5E03&gt;&lt;U+300A&gt;&lt;U+5173&gt;&lt;U+4E8E&gt;&lt;U+9632&gt;&lt;U+8303&gt;&lt;U+6BD4&gt;&lt;U+7279&gt;&lt;U+5E01&gt;&lt;U+98CE&gt;&lt;U+9669&gt;&lt;U+7684&gt;&lt;U+901A&gt;&lt;U+77E5&gt;&lt;U+300B&gt;, People's Bank of China ↩
+2013-12-06, China bans banks from bitcoin transactions, The Sydney Morning Herald ↩
+2013-04-26, First PC game is using Bitcoin as the currency: Fallout 2, BitcoinTalk.org discussion forum↩
+↩
+↩
+↩
+↩
+↩

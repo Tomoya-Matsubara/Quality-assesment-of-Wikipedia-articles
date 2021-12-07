@@ -1,0 +1,78 @@
+On 5 December 2008, the Internet Watch Foundation (IWF), a British watchdog group, blacklisted content on the English version of the online encyclopaedia Wikipedia related to the Scorpions' 1976 studio album Virgin Killer, due to the presence of its controversial cover artwork, depicting a young girl posing nude, with a faux glass shatter obscuring her genitalia. The image was deemed to be &quot;potentially illegal content&quot; under British law which forbids the possession or creation of indecent photographs of children. The IWF's blacklist are used in web filtering systems such as Cleanfeed, implementation of these systems by British internet service providers are required by law.
+The URL to its image page, which depicts the cover art, was also blacklisted; however thumbnails and the image itself remained accessible. The album cover had been deemed controversial at the time of its release,1 and was replaced in some markets with an alternate cover image featuring a photo of the band members.2 The IWF described the image as &quot;a potentially illegal indecent image of a child under the age of 18&quot;.3 Wikipedia's policies state that it does not censor content &quot;that some readers consider objectionable or offensive, even exceedingly so,&quot; and as such only remove inappropriate content that is irrelevant, clearly vandalism, or illegal under the laws of the U.S. State of Florida, where the site's servers are located.45 Wikipedia also removes content that violates Wikipedia's Biographies of living persons policy, or that violates other Wikipedia policies.6
+As well as the direct consequence of censoring the article and image for UK based readers of the English Wikipedia through the affected ISPs (a censoring that could be circumvented),7 and that the album cover was being made available unfiltered on other major sites including Amazon.co.uk8 (from which it was later removed), and available for sale in the UK,9 the action also had some indirect effects on Wikipedia, namely temporarily preventing all editors using said ISPs in the UK from contributing to any page of the encyclopaedia.10 and preventing anonymous edits from these ISPs while the URL remained on the blacklist. This was described by the IWF as unintended &quot;collateral damage&quot;.11 This was due to the proxies used to access Wikipedia, as Wikipedia implements a blocking policy whereby contributors can be blocked if they vandalize the encyclopedia. Therefore all vandalism coming from one ISP would be directed through one proxy&lt;U+2014&gt;hence one IP&lt;U+2014&gt;and all of the ISP's customers using that proxy would be barred from editing.
+After invoking its appeals procedure and reviewing the situation, the IWF reversed their blacklisting of the page on 9 December 2008,1213 and announced that they would not blacklist other copies of the image hosted outside the UK.14
+Background
+The album art of the Scorpions' album Virgin Killer was deemed controversial at the time of its release,15 featuring a young girl fully nude with a &quot;smashed glass&quot; effect covering her genitalia.16 The cover was replaced in some markets with an alternate cover image featuring a photo of the band members. RCA refused to sell the controversial album cover in the United States.17 The cover was not the only Scorpions' cover which caused controversy however, as the covers for Taken by Force18 and Lovedrive19 have also caused controversy with their content.
+In the United Kingdom, access to illegal content (such as child pornography) was strictly self-regulated by individual internet service providers. This began when BT Group introduced Cleanfeed, a server-side filtering system which uses data obtained from the Internet Watch Foundation. The IWF is a non-profit organisation that operates a website where users can report web pages containing illegal or dubious content to be added to their blacklists.20 This was implemented in order to prevent users from accessing this material, since it is illegal to possess an indecent image of a child under the age of 18 per the Protection of Children Act.21 British ISPs were later obligated by the government to implement filters for illegal content by the beginning of 2007.2223
+Addition to IWF blacklist
+ On 5 December 2008 the Internet Watch Foundation added the Wikipedia URLs for the Virgin Killer article and the description page of the image to its blacklist.24 After the blacklisting, users of major UK ISPs, including BT, Vodafone, Virgin Media/Tesco.net, Be/O2, EasyNet/UK Online/Sky Broadband, Orange, Demon, and TalkTalk (Opal Telecom), were unable to access the content.25
+Sarah Robertson, director of communications for the IWF, said that the image was rated &quot;1 on a scale of 1 to 5, where 1 is the least offensive&quot;. She described the picture as &quot;erotic posing with no sexual activity&quot;.26 While the image itself has not been flagged as &quot;illegal&quot;, IWF determined it to be a &quot;potentially illegal indecent image of a child under the age of 18.&quot;27
+The IWF said they were first notified of the Wikipedia URL on Thursday, 4 December 2008. This followed the May 2008 reporting of the cover image on Wikipedia by US-based social conservative site WorldNetDaily to the Federal Bureau of Investigation. An officer of the Concerned Women for America, a conservative Christian advocacy group, commented, &quot;By allowing that image to remain posted, Wikipedia is helping to further facilitate perversion and pedophilia.&quot;2829 EContent magazine subsequently reported that the discussion page associated with the article declared &quot;Prior discussion has determined by broad consensus that the Virgin Killer cover will not be removed&quot;, and asserted that Wikipedia contributors &quot;favour inclusion in all but the most extreme cases&quot;.30 However, according to The Guardian because &quot;the IWF doesn't talk to people outside of the UK they weren't able to appreciate what was going on.&quot; Internet security expert Richard Clayton explained that &quot;We see this borderline stuff all the time; it's a no-win,&quot; before adding that the decision seems to have been based on taking the image out of context, particularly &quot;given that you can go into HMV and buy a copy on the high street&quot;.31 On 9 December 2008 the IWF reversed its blacklist of the Wikipedia pages on the basis of the &quot;contextual issues involved in this specific case and, in light of the length of time the image has existed and its wide availability&quot;.32
+Effects on Wikipedia
+ The blacklisting of Virgin Killer also caused other inadvertent issues for Wikipedia users in the United Kingdom. Usually most Internet users have a unique IP address visible to websites. However, as a result of ISPs using the IWF blacklist implemented through Cleanfeed technology, traffic to Wikipedia via those affected ISPs was then routed through a small number of proxy servers.33 This caused problems for users of the site. Since Wikipedia allows users to anonymously edit its encyclopedia articles, these individuals are identified only through their IP addresses, which are used to selectively block users who vandalize the site or otherwise break its rules. The proxy filtering makes it impossible to uniquely distinguish users, and to prevent vandalism Wikipedia &quot;instituted a blanket ban on anonymous edits from the six ISPs, which account for 95% of British residential internet users&quot;.34 This had the immediate effect of requiring nearly all registered users in the UK to request the lifting of IP Autoblocks on their accounts before they could edit again, and the de-facto permanent effect of barring any contribution from people without user accounts on the site (who contribute merely under an IP address and not a user name).
+The MediaWiki software that Wikipedia runs on can interpret X-Forwarded-For (XFF) headers, allowing Wikipedia to identify a user's main IP address rather than the proxy IP address, allowing the ability to block proxy users individually by their client's IP rather than the proxy server IP (avoiding the need to block the whole proxy due to the actions of a single user)35. However, none of the ISPs subscribing to this system pass X-Forwarded-For information to Wikipedia, having the impact of reversing the normal method of identification and blocking on Wikipedia.36 IP addresses assumed to be assigned to an individual person or organisation were assigned instead to millions of people and thousands of registered editors.37 Wikipedia servers saw them all as the IP of the proxy rather than each as the IP of their own machine.
+Due to erroneous use of BGP and other routing technology to redirect the connections to the filtering proxies, users of some networks were temporarily prevented from accessing or editing any content hosted by Wikimedia, a problem reminiscent of Pakistan's accidental blocking of YouTube for much of the world instead of only their own citizens.
+Response by the Wikimedia Foundation
+On 7 December, the Wikimedia Foundation, a non-profit organisation which supports the English Wikipedia, issued a press release about the blacklisting of their sites by the IWF stating that they had &quot;no reason to believe the article, or the image contained in the article, has been held to be illegal in any jurisdiction anywhere in the world&quot;, and noting that not just the image but the article itself had been blocked.38
+On 9 December, Jimmy Wales, who holds the board-appointed &quot;community founder&quot; seat on the Wikimedia Board of Trustees, told the UK's Channel 4 News that he had briefly considered legal action.394041 After the block had been removed, Mike Godwin, general counsel for the Wikimedia Foundation, stated &quot;there is still plenty to be troubled by in the operations of the Internet Watch Foundation and its blacklist&quot;.42
+Retraction of content block
+On 9 December 2008, the IWF rescinded the block,4344454647 issuing the following statement:48
+Aftermath
+This incident has also had an effect on Australian Internet censoring plans. Electronic Frontiers Australia vice-chairman Colin Jacobs said that &quot;[the] incident in Britain, in which virtually the entire country was unable to edit Wikipedia because the country's Internet Watch Foundation had blacklisted a single image on the site, illustrated the pitfalls of mandatory ISP filtering&quot;.4950 The Sydney Morning Herald has commented that &quot;Ironically, the banning of the image has only made it visible to more people as news sites publicise the issue and the image spreads across sites other than Wikipedia.&quot;51 This is known as the Streisand effect. At the time of the incident Amazon US were also displaying the image on their site and the IWF stated that it &quot;might yet add Amazon US to its list of 'blocked' sites for hosting the picture&quot;;52 however, Amazon subsequently took the decision to remove the image from their site.53
+The Electronic Frontier Foundation criticised the IWF's reasoning:54
+Although the image has been described by the American media as &quot;one step above child porn&quot;,55 the IWF continues to assert that the image is indeed child porn, and asserts that the image would be blocked if it were on a British server.56 Meanwhile, British media such as The Guardian have cropped out the bottom part of the image, while claiming that the cropped bottom part of the image is &lt;U+201C&gt;encyclopedic&lt;U+201D&gt;, &lt;U+201C&gt;clinical&lt;U+201D&gt;, and not &lt;U+201C&gt;titillating&lt;U+201D&gt;.57
+On 20 February 2009, Peter Robbins, the chief executive of the IWF, was interviewed about the incident.58
+See also
+Internet censorship in the United Kingdom
+References
+External links
+Internet Watch Foundation
+Internal discussion on Wikipedia discussing the IWF actions
+Wikipedia's list of media coverage of incident
+Clayton, Richard: Technical aspects of the censoring of Wikipedia (Light Blue Touchpaper - Security Research, Computer Laboratory, University of Cambridge)
+lt:IWF Vikipedijos blokavimas
+Category:2008 controversies Category:History of Wikipedia Category:Internet censorship in the United Kingdom
+↩
+↩
+↩
+↩
+Investigation by several UK based Wikipedians revealed that the page/image was still available using direct addressing URL parameters, or by using the Wikipedia secure server, as detailed in an internal discussion of the issue at the Administrator's Noticeboard at the time↩
+↩
+↩
+↩
+↩
+↩
+↩
+Yasui, Todd. &lt;U+201C&gt;The Sign of the Scorpions;The West German Metal Meisters' Tour de Force,&lt;U+201D&gt; Washington Post (1988-08-30).↩
+↩
+↩
+Internet Watch Foundation &lt;U+2014&gt; R v Bowden http://www.iwf.org.uk/police/page.99.209.htm↩
+&quot;Government sets deadline for universal network-level content blocking&quot;, LINX, 29 May 2006. Retrieved 29 May 2006.↩
+&quot;Govt sets target for blocking child porn sites&quot;, The Register, 18 May 2006. Retrieved 29 May 2006.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+: &quot;However Amazon US no longer risks being blocked under IWF's rulings. The image, as an album cover, had been on its site earlier this week, but has now been removed, apparently on the site's own initiative.&quot;↩
+Internet Censors Must Be Accountable For The Things They Break,, Peter Eckersley, 2008-12-09↩
+Iwasaki, Scott. &lt;U+201C&gt;Provocative art is part of rock music culture&lt;U+201D&gt;, Deseret News, (1998-12-11).↩
+Doctorow, Cory. &lt;U+201C&gt;How to make child-porn blocks safe for the internet&lt;U+201D&gt;, The Guardian (2008-12-16).↩
+↩

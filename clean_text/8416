@@ -1,0 +1,358 @@
+
+{{ infobox OS | name = Fedora | logo =  | screenshot =  | caption = Fedora 10 running GNOME | developer = Fedora Project | family = Unix-like | source_model = Various | working_state = Current | released = 2003-11-16 | latest_release_version = 10 | latest_release_date = 1 | latest_test_version = 11 (Alpha) | latest_test_date = 2 | kernel_type = Monolithic | ui = GNOME | license = Various | website = www.fedoraproject.org | updatemodel = Yum, Anaconda | package_manager = RPM Package Manager | supported_platforms = x86, x86-64, PowerPC }} Fedora () is an RPM-based, general purpose operating system built on top of the Linux kernel, developed by the community-supported Fedora Project and sponsored by Red Hat. Fedora's mission statement is: &quot;Fedora is about the rapid progress of Free and Open Source software.&quot;3
+One of Fedora's main objectives is not only to contain free and open source software, but also to be on the leading edge of such technologies.45 Also, developers in Fedora prefer to make upstream changes instead of applying fixes specifically for Fedora&lt;U+2014&gt;this ensures that updates are available to all Linux distributions.6
+Linus Torvalds, creator of the Linux kernel, says he uses Fedora because it had fairly good support for PowerPC when he used that processor architecture. He became accustomed to the operating system and continues to use it.7
+History
+The Fedora Project was created in late 2003, when Red Hat Linux was discontinued.8 Red Hat Enterprise Linux was to be Red Hat's only officially supported Linux distribution, while Fedora was to be a community distribution.9 Red Hat Enterprise Linux branches its releases from versions of Fedora.10
+The name of Fedora derives from Fedora Linux, a volunteer project that provided extra software for the Red Hat Linux distribution, and from the characteristic fedora used in Red Hat's &quot;Shadowman&quot; logo. Fedora Linux was eventually absorbed into the Fedora Project.11 Fedora is a trademark of Red Hat. Although this has previously been disputed by the creators of the Fedora repository management software, the issue has now been resolved.12
+Features
+Distribution
+
+PackageKit, the default package manager on Fedora
+
+The Fedora Project distributes Fedora in several different ways:13
+
+Fedora DVD &lt;U+2013&gt; a DVD of all major Fedora packages at time of shipping;
+Live images &lt;U+2013&gt; CD or DVD sized images that can be used to create a Live CD or install Fedora on a USB flash drive;
+Minimal CD or USB image &lt;U+2013&gt; used for installing over HTTP, FTP or NFS;14
+Rescue CD or USB image &lt;U+2013&gt; used if some part of the system has failed and needs to be fixed, or for installing over the Internet.
+
+The Fedora Project also distributes custom variations of Fedora which are called Fedora spins.15 These are built from a specific set of software packages and have a combination of software to meet the requirements of a specific kind of end user. Fedora spins are developed by several Fedora special interest groups.16 It is also possible to create Live USB versions of Fedora using Fedora Live USB creator or UNetbootin.
+Software package management is primarily handled by the yum utility.17 Graphical interfaces, such as pirut and pup are provided, as well as puplet, which provides visual notifications in the panel when updates are available.18 apt-rpm is an alternative to yum, and may be more familiar to people used to Debian or Debian-based distributions, where Advanced Packaging Tool is used to manage packages.19 Additionally, extra repositories can be added to the system, so that packages not available in Fedora can be installed.20
+Software repositories
+Before Fedora 7, there were two main repositories &lt;U+2013&gt; Core and Extras. Fedora Core contained all the base packages that were required by the operating system, as well as other packages that were distributed along with the installation CD/DVDs, and was maintained only by Red Hat developers. Fedora Extras, the secondary repository that was included from Fedora Core 3, was community-maintained and not distributed along with the installation CD/DVDs. Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.21 That also allowed for community submissions of packages that were formerly allowed only by Red Hat developers.
+Also prior to Fedora 7 being released, there was a third repository called Fedora Legacy. This repository was community-maintained and was mainly concerned with extending the life cycle of older Fedora Core distributions and selected Red Hat Linux releases that were no longer officially maintained.22 Fedora Legacy was shut down in December 2006.23
+There are also third party repositories aimed at Fedora, which contain software that cannot be put in the official repositories for licensing or support reasons. The two most prominent third-party repositories are RPMforge and RPM fusion. Both distribute software that Fedora will not, either because it does not meet Fedora's definition of Free Software, or because distribution of that software may violate US law.
+RPMforge is a combination of four software repositories:
+
+Dag, made by Dag Wie&lt;U+00EB&gt;rs 1, with support for RHEL, CentOS and old Red Hat;
+Freshrpms, made by Matthias Saou 2 for latest Fedora;
+Dries, made by Dries Verachtert: 3, for Fedora; and
+Arrotin, made by Fabian Arrotin: 4, with support for RHEL PPC and CentOS PPC, which joined RPMforge later than the other three repositories.24
+
+RPM Fusion is a combination of another three software repositories:
+
+Livna, made by Damien Nad&lt;U+00E9&gt;, 5] (whilst this is mostly deprecated,libdvdcss remains in the Livna repository due to copyright concerns25);
+Dribble, which concentrates on, but is not limited to, multimedia, games and emulators;26 and
+Freshrpms, made by Matthias Saou in 2000 for his own usage.27
+
+Security features
+Security is one of the most important features in Fedora. One of the security features in Fedora is Security-Enhanced Linux, a Linux feature that implements a variety of security policies, including mandatory access controls, through the use of Linux Security Modules (LSM) in the Linux kernel. Fedora is one of the distributions leading the way with SELinux.28 SELinux was introduced in Fedora Core 2. It was disabled by default, as it radically altered how the operating system worked, but was enabled by default in Fedora Core 3 and introduced a less strict, targeted policy.2930
+Fedora also has methods in place to prevent some buffer overflow exploits and root kits from functioning. Compile time buffer checks, Exec Shield and restrictions on how kernel memory in /dev/mem can be accessed help to prevent this.31
+Releases
+Fedora Core 1&lt;U+2013&gt;4
+ 
+Fedora Core 1 was the first version of Fedora and was released on November 6, 2003.32 It was codenamed Yarrow. Fedora Core 1 was based on Red Hat Linux 9 and shipped with version 2.4.19 of the Linux kernel, version 2.4 of the GNOME desktop environment, and version 3.1.4 of KDE (the K Desktop Environment).33
+Fedora Core 2 was released on May 18, 2004, codenamed Tettnang.34 It shipped with Linux 2.6, GNOME 2.6, KDE 3.2.2, and SELinux35 (SELinux was disabled by default due to concerns that it radically altered the way that Fedora Core ran).36 XFree86 was replaced by the newer X.org, a merger of the previous official X11R6 release, which additionally included a number of updates to Xrender, Xft, Xcursor, fontconfig libraries, and other significant improvements.37
+Fedora Core 3 was released on November 8, 2004, codenamed Heidelberg.38 This was the first release of Fedora Core to include the Mozilla Firefox web browser, as well as support for the Indic languages.39 This release also saw the LILO boot loader deprecated in favour of GRUB.40 SELinux was also enabled by default, but with a new targeted policy, which was less strict than the policy used in Fedora Core 2.41 Fedora Core 3 shipped with GNOME 2.8 and KDE 3.3.42 It was the first release to include the new Fedora Extras repository.43
+Fedora Core 4 was released on June 13, 2005, with the codename Stentz.44 It shipped with Linux 2.6.11,45 KDE 3.4 and GNOME 2.10.46 This version introduced the new Clearlooks theme, which was inspired by the Red Hat Bluecurve theme.47 It also shipped with the OpenOffice.org 2.0 office suite, as well as Xen, a high performance and secure open source virtualization framework.48 It also introduced support for the PowerPC CPU architecture, and over 80 new policies for SELinux.49
+None of these distributions are maintained by the Fedora Project.50
+Fedora Core 5&lt;U+2013&gt;6
+
+Fedora Core 6 with the DNA theme
+
+The last two cores introduced specific artwork that defined them. This is a trend that has continued in later Fedora versions.
+Fedora Core 5 was released on March 20, 2006, with the codename Bordeaux, and introduced the Fedora Bubbles artwork.51 It was the first Fedora release to include Mono and tools built with it such as Beagle, F-Spot and Tomboy.52 It also introduced new package management tools such as pup and pirut (see Yellow dog Updater, Modified). It also was the first Fedora release not to include the long deprecated (but kept for compatibility) LinuxThreads, replaced by the Native POSIX Thread Library.53
+Fedora Core 6 was released on October 24, 2006, codenamed Zod.54 This release introduced the Fedora DNA artwork, replacing the Fedora Bubbles artwork used in Fedora Core 5.55 The codename is derived from the infamous villain, General Zod, from the Superman DC Comic Books.56 This version introduced support for the Compiz compositing window manager and AIGLX (a technology that enables GL-accelerated effects on a standard desktop).57 It shipped with Firefox 1.5 as the default web browser, and Smolt, a tool that allows users to inform developers about the hardware they use.
+Neither of these distributions are maintained by the Fedora Project.58
+Fedora 7
+Fedora 7, codenamed Moonshine, was released on May 31, 2007.59 The biggest difference between Fedora Core 6 and Fedora 7 was the merging of the Red Hat &quot;Core&quot; and Community &quot;Extras&quot; repositories,60 and the new build system put in place to manage those packages. This release used entirely new build and compose tools that enabled the user to create fully-customized Fedora distributions that could also include packages from any third party provider.61
+There are three official spins available for Fedora 7:62
+
+Live &lt;U+2013&gt; two Live CDs (one for GNOME and one for KDE);
+Fedora &lt;U+2013&gt; a DVD that includes all the major packages available at shipping;
+Everything &lt;U+2013&gt; simply an installation tree for use by yum and Internet installations.
+
+Fedora 7 features GNOME 2.18 and KDE 3.5.6, a new theme entitled Flying High, OpenOffice.org 2.2 and Firefox 2.0.63 Fast user switching is, for the first time, fully integrated and enabled by default.64 Also, there were a number of updates to SELinux, including a new setroubleshoot tool for debugging SELinux security notifications, and a new, comprehensive system-config-selinux tool for fine-tuning the SELinux setup.65 As of 2008-06-13, Fedora 7 was no longer supported by the Fedora Project.6667
+Fedora 8
+
+Fedora 8 with the Infinity theme
+
+Fedora 8, codenamed Werewolf, was released on November 8, 2007.68
+Some of the new features and updates in Fedora 8 include:69
+
+PulseAudio &lt;U+2013&gt; a sound daemon that allows different applications to control the audio. Fedora was the first distribution to enable it by default.70
+system-config-firewall &lt;U+2013&gt; a new firewall configuration tool that replaces system-config-securitylevel from previous releases.
+Codeina &lt;U+2013&gt; a tool that guides users using content under proprietary or patent encumbered formats to purchase codecs from fluendo; it is an optional component that may be uninstalled in favor of Gstreamer codec plug-ins from Livna which are free of charge.
+IcedTea &lt;U+2013&gt; a project that attempts to bring OpenJDK to Fedora by replacing encumbered code.
+NetworkManager &lt;U+2013&gt; faster, more reliable connections;71 better security (through the use of the keyring); clearer display of wireless networks; better D-Bus integration.
+Better laptop support &lt;U+2013&gt; enhancements to the kernel to reduce battery load, disabling of background cron jobs when running on the battery, and additional wireless drivers.
+
+Fedora 8 also includes a new desktop artwork entitled Infinity, and a new desktop theme called Nodoka. A unique feature of Infinity is that the wallpaper can change during the day to reflect the time of day.72
+In February 2008, a new Xfce Live CD &quot;spin&quot; was announced for the x86 and x86-64 architectures.73 This Live CD version uses the Xfce desktop environment, which aims to be fast and lightweight, while still being visually appealing and easy to use. Like the GNOME and KDE spins, the Xfce spin can be installed to the hard disk.74
+Fedora 9
+
+Fedora 9 with the Waves theme
+
+Fedora 9, codenamed Sulphur, was released on May 13, 2008.
+Some of the new features of Fedora 9 include:75
+
+GNOME 2.22.
+KDE 4, which is the default interface as part of the KDE spin.
+OpenJDK 6 has replaced IcedTea.76
+PackageKit is included as a front-end to yum, and as the default package manager.
+One Second X allows the X Window System to perform a cold start from the command line in nearly one second; similarly, shutdown of X should be as quick.77
+Many improvements to the Anaconda installer;78 among these features, it now supports resizing ext2, ext3 and NTFS file systems, and can create and install Fedora to encrypted file systems.
+Firefox 3.0 beta 5 is included in this release, and the 3.0 package was released as an update the same day as the general release.
+Perl 5.10.0, which features a smaller memory footprint and other improvements.
+Data Persistence in USB images79
+
+Fedora 9 features a new artwork entitled Waves which, like Infinity in Fedora 8, changes the wallpaper to reflect the time of day.
+Fedora 10
+ Fedora 10, codenamed &quot;Cambridge&quot;, was released on November 25, 2008.80 It flaunts the new &quot;Solar&quot; artwork. Its features include:81
+
+Web-based package installer similar to Linux Mint's
+Faster startup using Plymouth (instead of Red Hat Graphical Boot used in previous versions)
+Support for ext4 filesystem
+Sugar Desktop Environment
+GNOME 2.24
+KDE 4.1.2
+OpenOffice.org 3.0
+
+Version history
+
+
+
+Color
+Meaning
+
+
+
+
+Red
+Old release; not supported
+
+
+Yellow
+Old release; still supported
+
+
+Green
+Current release
+
+
+Blue
+Future release
+
+
+
+
+
+
+Project Name
+Version
+Code name
+Release date
+Linux version
+
+
+
+
+Fedora Core
+1
+Yarrow
+2003-11-05
+2.4.19
+
+
+2
+Tettnang
+2004-05-18
+2.6.5
+
+
+
+3
+Heidelberg
+2004-11-08
+2.6.9
+
+
+
+4
+Stentz
+2005-06-13
+2.6.11
+
+
+
+5
+Bordeaux
+2006-03-20
+2.6.15
+
+
+
+6
+Zod
+2006-10-24
+2.6.18
+
+
+
+Fedora
+7
+Moonshine
+2007-05-31
+2.6.21
+
+
+8
+Werewolf
+2007-11-08
+2.6.23.1
+
+
+
+9
+Sulphur
+2008-05-13
+2.6.25
+
+
+
+10
+Cambridge
+2008-11-25
+2.6.27
+
+
+
+11
+Leonidas
+Possibly 2009-05-2682
+TBA
+
+
+
+
+Fedora gallery
+Image:Fedora_Core_1.png|Fedora Core 1 Image:Fedora_Core_4.png|Fedora Core 4 Image:Fedora_Core_5.png|Fedora Core 5 Image:Fedora Core 6 Desktop.png|Fedora Core 6 Image:Fedora 7 Desktop.png|Fedora 7 Image:Fedora 8 GNOME.png|Fedora 8 Image:Fedora.png|Fedora 9 Image:Fedora 10 GNOME.png|Fedora 10
+Fedora-based distributions
+
+
+Source: DistroWatch
+
+
+
+ASPLinux &lt;U+2013&gt; a Russian Fedora based distribution which includes its own installer. ASPLinux also includes closed source NVIDIA and ATI drivers, and supports proprietary audio and video codecs.
+Aurora SPARC Linux &lt;U+2013&gt; for the SPARC platform
+Berry Linux &lt;U+2013&gt; a medium-sized Fedora based distribution that provides support for Japanese and English.
+BLAG Linux and GNU &lt;U+2013&gt; a stripped down 1-CD Fedora with Debian's APT system
+Eeedora &lt;U+2013&gt; for the Asus Eee PC
+Ekaaty &lt;U+2013&gt; from Brazil
+Fox Linux &lt;U+2013&gt; made in Italy, designed for basic home computing tasks such as browsing the Web, writing and printing documents, using multimedia and burning discs.
+Linpus - made by Taiwanese company Linpus Technologies for the Asian market.
+Linux XP &lt;U+2013&gt; a commercial Linux distribution aimed at replacing Windows XP as a home-use desktop operating system.
+MythDora &lt;U+2013&gt; based around MythTV's media center capabilities.
+Nusantara &lt;U+2013&gt; a Linux distribution supported by the Indonesian ministry of technology as a desktop operating system. It is a part of IGOS program (Indonesia Goes Open Source).
+Omega - Rahul Sundaram, Red Hat's Community Engineer, had added Livna Repository support which has non-free multimedia codecs such as MP3 decoding.6
+Red Hat Enterprise Linux &lt;U+2013&gt; enterprise Linux offering from Red Hat, which branches from the current Fedora baseline.
+Yellow Dog Linux &lt;U+2013&gt; for the PowerPC platform.
+Simplis &lt;U+2013&gt; focuses on easy-to-use Linux, with a custom KDE interface that resembles Windows Vista.
+Fedora Colinux - an easy to install and fully functional coLinux distribution based on Fedora Core 6 7.
+
+See also
+
+References
+
+External links
+
+Fedora Project homepage
+
+International Fedora Project sites
+
+
+
+
+
+
+af:Fedora ar:&lt;U+0641&gt;&lt;U+064A&gt;&lt;U+062F&gt;&lt;U+0648&gt;&lt;U+0631&gt;&lt;U+0627&gt; &lt;U+0643&gt;&lt;U+0648&gt;&lt;U+0631&gt; bs:Fedora Core ca:Fedora cs:Fedora da:Fedora (Linux distribution) de:Fedora (Linux-Distribution) eo:Fedora es:Fedora (distribuci&lt;U+00F3&gt;n Linux) eu:Fedora Core fa:&lt;U+0641&gt;&lt;U+062F&gt;&lt;U+0648&gt;&lt;U+0631&gt;&lt;U+0627&gt; &lt;U+06A9&gt;&lt;U+0631&gt; fr:Fedora gl:Fedora Core ko:&lt;U+D398&gt;&lt;U+B3C4&gt;&lt;U+B77C&gt; &lt;U+CF54&gt;&lt;U+C5B4&gt; hr:Fedora Core ilo:Fedora Core id:Fedora Core it:Fedora (distribuzione Linux) he:&lt;U+05E4&gt;&lt;U+05D3&gt;&lt;U+05D5&gt;&lt;U+05E8&gt;&lt;U+05D4&gt; (&lt;U+05D4&gt;&lt;U+05E4&gt;&lt;U+05E6&gt;&lt;U+05EA&gt; &lt;U+05DC&gt;&lt;U+05D9&gt;&lt;U+05E0&gt;&lt;U+05D5&gt;&lt;U+05E7&gt;&lt;U+05E1&gt;) ka:Fedora Core lv:Fedora lt:Fedora Core hu:Fedora Core mk:Fedora (Linux &lt;U+0434&gt;&lt;U+0438&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+0440&gt;&lt;U+0438&gt;&lt;U+0431&gt;&lt;U+0443&gt;&lt;U+0446&gt;&lt;U+0438&gt;&lt;U+0458&gt;&lt;U+0430&gt;) nl:Fedora ja:Fedora Core no:Fedora Core nn:Fedora Core uz:Fedora Core pl:Fedora Core pt:Fedora Core ro:Fedora Core ru:Fedora simple:Fedora (operating system) sk:Fedora Core sr:Fedora Core fi:Fedora (Linux-jakelu) sv:Fedora Core ta:&lt;U+0BAA&gt;&lt;U+0BC6&gt;&lt;U+0B9F&gt;&lt;U+0BCB&gt;&lt;U+0BB0&gt;&lt;U+0BBE&gt; th:Fedora Core vi:Fedora Core tr:Fedora Core uk:Fedora Core zh:Fedora Core
+Category:Fedora Project Category:RPM-based Linux distributions Category:X86-64 Linux distributions
+
+
+
+↩
+{{ cite news | url=https://www.redhat.com/archives/fedora-test-list/2009-February/msg00088.html | title=Announcing Fedora 11 Alpha (blink) | author=Jesse Keating | accessdate=2009-02-05 }}↩
+↩
+
+↩
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2008-May/msg00006.html | title=Fedora 9 | author=Paul W. Frields | publisher=Fedora Project | date=2008-05-12 | accessdate=2008-07-27 }}↩
+↩
+{{ cite news |url=http://www.redhat.com/archives/rhl-list/2003-September/msg00064.html | title=Fedora Project: Announcing New Direction | date=2003-09-22 | accessdate=2007-10-18 }}↩
+
+{{ cite web | url=http://www.redhat.com/magazine/022aug06/features/fedora_rhel_4/ | title=The Fedora Project and Red Hat Enterprise Linux, part 4 | date=2006-08-22 | accessdate=2007-10-18 }}↩
+↩
+↩
+{{ cite web | url=http://docs.fedoraproject.org/install-guide/f8/en_US/ch-new-users.html#sn-howto-download | title=New Users &lt;U+2013&gt; How Do I Download Installation Files? | author=Fedora Project | accessdate=2007-11-18 }}↩
+{{ cite web | url=http://docs.fedoraproject.org/install-guide/f8/en_US/ch-other-install-methods.html | title=Alternative Install Methods | author=Fedora Project | accessdate=2007-11-18 }}↩
+CustomSpins - Fedora Project Wiki↩
+↩
+{{ cite web | url=http://docs.fedoraproject.org/yum/en/sn-software-management-tools.html | title=Software Management Tools in Fedora Core | author=Stuart Ellis | accessdate=2007-11-18 }}↩
+
+{{ cite web | url=http://fedoraproject.org/wiki/Tools/Apt | title=APT and Fedora | author=Fedora Project | accessdate=2007-11-18 }}↩
+{{ cite web | url=http://docs.fedoraproject.org/yum/en/sn-using-repositories.html | title=Using Repositories | author=Stuart Ellis | accessdate=2007-11-18 }}↩
+↩
+{{ cite web | url=http://fedoraproject.org/wiki/Legacy | title=Fedora Legacy | author=Fedora Project | accessdate=2007-11-18 }}↩
+{{ cite news | url=http://www.redhat.com/archives/fedora-legacy-list/2006-December/msg00049.html | title=Fedora Legacy shutting down | author=David Eisenstein | date=2006-12-29 | accessdate=2007-11-18 }}↩
+RPM Forge FAQ, https://rpmrepo.org/RPMforge/FAQ↩
+{{ cite web | url=http://rpm.livna.org/fedora/10/00_PLEASE_READ.txt | title=Please Read | date=2008-11-09 | accessdate=2008-12-01 }}↩
+Dribble FAQ, http://dribble.org.uk/faq.html↩
+Freshrpms history, http://freshrpms.net/about/↩
+↩
+↩
+↩
+↩
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html | title=Announcing Fedora Core 1 | author=Red Hat | date=2003-11-06 | accessdate=2007-10-18 }}↩
+
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2004-May/msg00010.html | title=Presenting Fedora Core 2 | author=Red Hat | date=2004-05-18 | accessdate=2007-10-18 }}↩
+
+
+
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2004-November/msg00002.html | title=Announcing the release of Fedora Core 3 | author=Red Hat | date=2004-11-08 | accessdate=2007-10-18 }}↩
+
+
+
+
+
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2005-June/msg00010.html | title=The Amazing Fedora Core 4! | author=Fedora Project | date=2005-06-13 | accessdate=2007-11-18 }}↩
+
+↩
+
+
+
+{{ cite web | url=http://fedoraproject.org/wiki/Releases | title=Releases | author=Fedora Project | accessdate=2008-06-23 }}↩
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2006-March/msg00027.html | title=Announcing the release of Fedora Core 5 | date=2006-03-20 | accessdate=2007-10-18 }}↩
+
+{{ cite web | url=http://docs.fedoraproject.org/release-notes/fc5/release-notes-ISO/#id3083554 | title=Fedora Core 5 Release Notes | accessdate=2007-10-18 }}↩
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2006-October/msg00008.html | title=Announcing Fedora Core 6 (Zod) | author=Fedora Project | date=2006-10-24 | accessdate=2007-10-18 }}↩
+{{ cite web | url=http://docs.fedoraproject.org/release-notes/fc6/en_US/sn-OverView.html#id2974245 | title=Fedora Core 6 Release Notes | author=Fedora Project | accessdate=2007-10-18 }}↩
+{{ cite web | url=http://www.redhat.com/magazine/024oct06/features/fsr/ | title=Fedora status report: Announcing Zod | author=Red Hat | accessdate=2007-10-18 }}↩
+
+{{ cite web | url=http://fedoraproject.org/wiki/Releases | title=Releases | author=Fedora Project | accessdate=2008-06-23 }}↩
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2007-May/msg00009.html | title=Announcing Fedora 7 (Moonshine) | author=Fedora Project | date=2007-05-31 | accessdate=2007-11-07 }}↩
+
+
+{{ cite web | url=http://docs.fedoraproject.org/release-notes/f7/en_US/sn-OverView.html | author=Fedora Project | title=Fedora 7 Release Highlights | accessdate=2007-11-18 }}↩
+
+
+
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2008-April/msg00013.html | title=Fedora 7 End of Life | author=Paul W. Frields | publisher=Fedora Project | date=2008-04-29 | accessdate=2008-06-23 }}↩
+
+↩
+{{ cite web | url=http://fedoraproject.org/wiki/Releases/8/ReleaseSummary | title=Fedora 8 Release Summary | date=2007-11-07 | accessdate=2007-11-07 }}↩
+
+
+
+{{ cite news | url=http://www.redhat.com/archives/fedora-announce-list/2008-February/msg00005.html | title=Announcing Fedora 8 Xfce Spin | author=Rahul Sundaram | publisher=Fedora Project | date=2008-02-13 | accessdate=2008-05-17 }}↩
+
+{{ cite web | url=http://docs.fedoraproject.org/release-notes/f9preview/en_US/sn-OverView.html | title=Fedora 9 Release Notes | publisher=Fedora Project | accessdate=2008-05-13 }}↩
+↩
+{{ cite web | url=http://fedoraproject.org/wiki/Features/OneSecondX | title=One Second X | publisher=Fedora Project | accessdate=2008-05-09 }}↩
+{{ cite web | url=http://fedoraproject.org/wiki/Releases/9/Beta/ReleaseNotes#head-eaadbfea30e5d3ca0b72a51953519d6f8fd53d3c | title=Fedora 9 (Beta) Release Notes | publisher=Fedora Project | accessdate=2008-01-04 }}↩
+↩
+{{ cite web | url=http://fedoraproject.org/wiki/Releases/10/Schedule?oldid=50362 | title=Fedora 10 Release Schedule | publisher=The Fedora Project | date=2008-09-24 | accessdate=2008-09-25 }}↩
+↩
+Fedora 11 Proposed Schedule↩
+
+

@@ -1,0 +1,106 @@
+An integer (from the Latin integer meaning &quot;whole&quot;),1 commonly known as a &quot;whole number&quot;, is a number that can be written without a fractional component. For example, 21, 4, and &lt;U+2212&gt;2048 are integers, while 9.75, 5&lt;U+00BD&gt;, and  are not.
+The set of integers consists of zero (), the natural numbers (, , , ...) and their inverse (negatives, i.e. &lt;U+2212&gt;1, &lt;U+2212&gt;2, &lt;U+2212&gt;3, ...). This is often denoted by a boldface Z (&quot;Z&quot;) or blackboard bold ℤ (Unicode U+2124 ) standing for the German word Zahlen (, &quot;numbers&quot;).23  is a subset of the sets of rational and real numbers and, like the natural numbers, is countably infinite.
+The integers form the smallest group and the smallest ring containing the natural numbers. In algebraic number theory, the integers are sometimes called rational integers to distinguish them from the more general algebraic integers. In fact, the (rational) integers are the algebraic integers that are also rational numbers.
+Algebraic properties
+Integers can be thought of as discrete, equally spaced points on an infinitely long number line. In the above, non-negative integers are shown in purple and negative integers in red.
+Like the natural numbers, Z is closed under the operations of addition and multiplication, that is, the sum and product of any two integers is an integer. However, with the inclusion of the negative natural numbers, and, importantly, , Z (unlike the natural numbers) is also closed under subtraction. The integers form a unital ring which is the most basic one, in the following sense: for any unital ring, there is a unique ring homomorphism from the integers into this ring. This universal property, namely to be an initial object in the category of rings, characterizes the ring Z.
+Z is not closed under division, since the quotient of two integers (e.g., 1 divided by 2), need not be an integer. Although the natural numbers are closed under exponentiation, the integers are not (since the result can be a fraction when the exponent is negative).
+The following lists some of the basic properties of addition and multiplication for any integers a, b and c.
+Properties of addition and multiplication on integers
+Addition
+Multiplication
+Closure:
+is an integer
+is an integer
+Associativity:
+(a + b) + c}}
+(a &lt;U+00D7&gt; b) &lt;U+00D7&gt; c}}
+Commutativity:
+b + a}}
+b &lt;U+00D7&gt; a}}
+Existence of an identity element:
+a}}
+a}}
+Existence of inverse elements:
+0}}
+An inverse element usually does not exist at all.
+Distributivity:
+(a &lt;U+00D7&gt; b) + (a &lt;U+00D7&gt; c)}}and (a &lt;U+00D7&gt; c) + (b &lt;U+00D7&gt; c)}}
+No zero divisors: (*)
+| If  0}}, then  0}} or  0}} (or both)
+In the language of abstract algebra, the first five properties listed above for addition say that Z under addition is an abelian group. As a group under addition, Z is a cyclic group, since every non-zero integer can be written as a finite sum  or . In fact, Z under addition is the only infinite cyclic group, in the sense that any infinite cyclic group is isomorphic to Z.
+The first four properties listed above for multiplication say that Z under multiplication is a commutative monoid. However not every integer has a multiplicative inverse; e.g. there is no integer x such that  1,}} because the left hand side is even, while the right hand side is odd. This means that Z under multiplication is not a group.
+All the rules from the above property table, except for the last, taken together say that Z together with addition and multiplication is a commutative ring with unity. It is the prototype of all objects of such algebraic structure. Only those equalities of expressions are true in Z for all values of variables, which are true in any unital commutative ring. Note that certain non-zero integers map to zero in certain rings.
+At last, the property (*) says that the commutative ring Z is an integral domain. In fact, Z provides the motivation for defining such a structure.
+The lack of multiplicative inverses, which is equivalent to the fact that Z is not closed under division, means that Z is not a field. The smallest field with the usual operations containing the integers is the field of rational numbers. The process of constructing the rationals from the integers can be mimicked to form the field of fractions of any integral domain. And back, starting from an algebraic number field (an extension of rational numbers), its ring of integers can be extracted, which includes Z as its subring.
+Although ordinary division is not defined on Z, the division &quot;with remainder&quot; is defined on them. It is called Euclidean division and possesses the following important property: that is, given two integers a and b with , there exist unique integers q and r such that  q &lt;U+00D7&gt; b + r}} and  b {{!}}}}, where | b | denotes the absolute value of b. The integer q is called the quotient and r is called the remainder of the division of a by b. The Euclidean algorithm for computing greatest common divisors works by a sequence of Euclidean divisions.
+Again, in the language of abstract algebra, the above says that Z is a Euclidean domain. This implies that Z is a principal ideal domain and any positive integer can be written as the products of primes in an essentially unique way. This is the fundamental theorem of arithmetic.
+Order-theoretic properties
+Z is a totally ordered set without upper or lower bound. The ordering of Z is given by:
+... &lt;U+2212&gt;3 &lt; &lt;U+2212&gt;2 &lt; &lt;U+2212&gt;1 &lt; 0 &lt; 1 &lt; 2 &lt; 3 &lt; ...
+An integer is positive if it is greater than zero and negative if it is less than zero. Zero is defined as neither negative nor positive.
+The ordering of integers is compatible with the algebraic operations in the following way:
+if a &lt; b and c &lt; d, then a + c &lt; b + d
+if a &lt; b and 0 &lt; c, then ac &lt; bc.
+It follows that Z together with the above ordering is an ordered ring.
+The integers are the only integral domain whose positive elements are well-ordered, and in which order is preserved by addition.
+Construction
+Red points represent ordered pairs of natural numbers. Linked red points are equivalence classes representing the blue integers at the end of the line.|upright=2
+Although the integers are intuitively defined by adding zero and negative integers to the natural numbers, such a construction is not very practicable, because of the number of case distinctions which would be needed in the definition of arithmetical operations.  Therefore, a more abstract construction, which allows one to define the arithmetical operations without any case distinction, is usually preferred by mathematicians.  The integers can thus be formally constructed as the equivalence classes of ordered pairs of natural numbers (a,b).4
+The intuition is that (a,b) stands for the result of subtracting b from a.5 To confirm our expectation that  and  denote the same number, we define an equivalence relation ~ on these pairs with the following rule:
+(a, b) ∼ (c, d) ​ precisely when
+a + d = b + c. ​
+Addition and multiplication of integers can be defined in terms of the equivalent operations on the natural numbers;6 denoting by [(a,b)] the equivalence class having (a,b) as a member, one has:
+[(a, b)] + [(c, d)] := [(a + c, b + d)]. 
+[(a, b)] ⋅ [(c, d)] := [(ac + bd, ad + bc)]. 
+The negation (or additive inverse) of an integer is obtained by reversing the order of the pair:
+ − [(a, b)] := [(b, a)]. 
+Hence subtraction can be defined as the addition of the additive inverse:
+[(a, b)] − [(c, d)] := [(a + d, b + c)]. 
+The standard ordering on the integers is given by:
+[(a, b)] &lt; [(c, d)]  iff a + d &lt; b + c. 
+It is easily verified that these definitions are independent of the choice of representatives of the equivalence classes.
+Every equivalence class has a unique member that is of the form (n,0) or (0,n) (or both at once). The natural number n is identified with the class [(n,0)] (in other words the natural numbers are embedded into the integers by map sending n to [(n,0)]), and the class [(0,n)] is denoted &lt;U+2212&gt;n (this covers all remaining classes, and gives the class [(0,0)] a second time since  0.}}
+Thus, [(a,b)] is denoted by
+$$\begin{cases} a - b, &amp; \mbox{if }  a \ge b  \\ -(b-a),  &amp; \mbox{if } a &lt; b. \end{cases}$$
+If the natural numbers are identified with the corresponding integers (using the embedding mentioned above), this convention creates no ambiguity.
+This notation recovers the familiar representation of the integers as {... &lt;U+2212&gt;3,&lt;U+2212&gt;2,&lt;U+2212&gt;1, 0, 1, 2, 3, ...}.
+Some examples are:
+$$\begin{align}
+ 0 &amp;= [(0,0)] &amp;= [(1,1)] &amp;= \cdots &amp; &amp;= [(k,k)] \\
+ 1 &amp;= [(1,0)] &amp;= [(2,1)] &amp;= \cdots &amp; &amp;= [(k+1,k)] \\
+-1 &amp;= [(0,1)] &amp;= [(1,2)] &amp;= \cdots &amp; &amp;= [(k,k+1)] \\
+ 2 &amp;= [(2,0)] &amp;= [(3,1)] &amp;= \cdots &amp; &amp;= [(k+2,k)] \\
+-2 &amp;= [(0,2)] &amp;= [(1,3)] &amp;= \cdots &amp; &amp;= [(k,k+2)].
+\end{align}$$
+Integers in computing
+An integer is often a primitive data type in computer languages. However, integer data types can only represent a subset of all integers, since practical computers are of finite capacity. Also, in the common two's complement representation, the inherent definition of sign distinguishes between &quot;negative&quot; and &quot;non-negative&quot; rather than &quot;negative, positive, and 0&quot;. (It is, however, certainly possible for a computer to determine whether an integer value is truly positive.) Fixed length integer approximation data types (or subsets) are denoted int or Integer in several programming languages (such as Algol68, C, Java, Delphi, etc.).
+Variable-length representations of integers, such as bignums, can store any integer that fits in the computer's memory. Other integer data types are implemented with a fixed size, usually a number of bits which is a power of 2 (4, 8, 16, etc.) or a memorable number of decimal digits (e.g., 9 or 10).
+Cardinality
+The cardinality of the set of integers is equal to ℵ0 (aleph-null). This is readily demonstrated by the construction of a bijection, that is, a function that is injective and surjective from Z to N. If N = {0, 1, 2, ...} then consider the function:
+$$f(x) = \begin{cases} 2|x|,  &amp; \mbox{if } x &lt; 0 \\ 0, &amp; \mbox{if } x = 0 \\ 2x-1, &amp; \mbox{if }  x &gt; 0. \end{cases}$$ {... (-4,8) (-3,6) (-2,4) (-1,2) (0,0) (1,1) (2,3) (3,5) ...}
+If N = {1, 2, 3, ...} then consider the function:
+$$g(x) = \begin{cases} 2|x|,  &amp; \mbox{if } x &lt; 0 \\ 2x+1, &amp; \mbox{if }  x \ge 0. \end{cases}$$ {... (-4,8) (-3,6) (-2,4) (-1,2) (0,1) (1,3) (2,5) (3,7) ...}
+If the domain is restricted to Z then each and every member of Z has one and only one corresponding member of N and by the definition of cardinal equality the two sets have equal cardinality.
+See also
+0.999...
+Canonical representation of a positive integer
+Hyperinteger
+Integer-valued function
+Integer lattice
+Integer part
+Integer sequence
+Notes
+References
+Sources
+Bell, E.T., Men of Mathematics. New York: Simon and Schuster, 1986. (Hardcover; ISBN 0-671-46400-0)/(Paperback; ISBN 0-671-62818-6)
+Herstein, I.N., Topics in Algebra, Wiley; 2 edition (June 20, 1975), ISBN 0-471-01090-1.
+Mac Lane, Saunders, and Garrett Birkhoff; Algebra, American Mathematical Society; 3rd edition (April 1999). ISBN 0-8218-1646-2.
+External links
+The Positive Integers — divisor tables and numeral representation tools
+On-Line Encyclopedia of Integer Sequences cf OEIS
+Category:Elementary mathematics Category:Abelian group theory Category:Ring theory   Category:Elementary number theory Category:Algebraic number theory
+Integer 's first, literal meaning in Latin is &quot;untouched&quot;, from in (&quot;not&quot;) plus tangere (&quot;to touch&quot;). &quot;Entire&quot; derives from the same origin, via French (see: )↩
+↩
+↩
+↩

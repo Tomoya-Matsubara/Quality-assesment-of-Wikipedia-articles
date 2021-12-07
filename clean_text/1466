@@ -1,0 +1,203 @@
+
+
+
+
+An actuary is a business professional who deals with the financial impact of risk and uncertainty. Actuaries provide assessments of financial security systems, with a focus on their complexity, their mathematics, and their mechanisms . The name of the corresponding profession is actuarial science.
+Actuaries mathematically evaluate the probability of events and quantify the contingent outcomes in order to minimize the impacts of financial losses associated with uncertain undesirable events. Since many events, such as death, cannot be avoided, it is helpful to take measures to minimize their financial impact when they occur. These risks can affect both sides of the balance sheet, and require asset management, liability management, and valuation skills. Analytical skills, business knowledge, and understanding of human behavior and the vagaries of information systems are required to design and manage programs that control risk .
+The profession has consistently ranked as one of the most desirable in various studies over the years. In 2006, a study by U.S. News &amp; World Report included actuaries among the 25 Best Professions that it expects will be in great demand in the future . A study published by job search website CareerCast ranked actuary relative to other jobs in the United States as number 1 in 2010 , number 2 in 2012 , and number 1 in 2013 . The study used five key criteria to rank jobs: environment, income, employment outlook, physical demands, and stress.
+Disciplines
+Actuaries' insurance disciplines include life insurance; health insurance; Pensions, annuities, and asset management; social welfare programs; property insurance; casualty and general insurance; and reinsurance, to name some.
+Life, health, and pension actuaries deal with mortality risk, morbidity, and consumer choice regarding the ongoing utilization of drugs and medical services risk, and investment risk. Products prominent in their work include life insurance, annuities, pensions, mortgage and credit insurance, short and long term disability, and medical, dental, health savings accounts and long term care insurance. In addition to these risks, social insurance programs are greatly influenced by public opinion, politics, budget constraints, changing demographics, and other factors such as medical technology, inflation, and cost of living considerations .
+Casualty actuaries, also known as non-life or general insurance actuaries, deal with risks that can occur to people or property other than risks related to the life or health of a person. Products prominent in their work include auto insurance, homeowners insurance, commercial property insurance, workers' compensation, title insurance, malpractice insurance, products liability insurance, directors and officers liability insurance, environmental and marine insurance, terrorism insurance, and other types of liability insurance. Reinsurance products have to accommodate all of the previously mentioned products, and in addition have to reflect properly the increasing long term risks associated with climate change, cultural litigiousness, acts of war, terrorism, and politics .
+Both major classes of actuaries are also called upon for their expertise in enterprise risk management . This can involve dynamic financial analysis, stress testing, the formulation of corporate risk policy, and the setting up and running of corporate risk departments . Actuaries are also involved in other areas of the financial services industry, and can be involved in managing corporate credit, company evaluations, and tool development .
+History
+
+Mathematician Nathaniel Bowditch was America's first insurance actuary
+
+Need for insurance
+The basic requirements of communal interests gave rise to risk sharing since the dawn of civilization. For example, people who lived their entire lives in a camp had the risk of fire, which would leave their band or family without shelter. After basic exchange came into existence, more complex forms developed beyond a basic barter economy, and new forms of risk manifested. Merchants embarking on trade journeys bore the risk of losing goods entrusted to them, their own possessions, or even their lives. Intermediaries developed to warehouse and trade goods, and they often suffered from financial risk. The primary providers in any extended families or household always ran the risk of premature death, disability or infirmity, leaving their dependents to starve. Credit procurement was difficult if the creditor worried about repayment in the event of the borrower's death or infirmity. Alternatively, people sometimes lived too long from a financial perspective, exhausting their savings, if any, or becoming a burden on others in the extended family or society .
+Early attempts
+In the ancient world there was not always room for the sick, suffering, disabled, aged, or the poor&lt;U+2014&gt;these were often not part of the cultural consciousness of societies . Early methods of protection, aside from the normal support of the extended family, involved charity; religious organizations or neighbors would collect for the destitute and needy. By the middle of the 3rd century, 1,500 suffering people were being supported by charitable operations in Rome . Charitable protection is still an active form of support to this very day . However, receiving charity is uncertain and is often accompanied by social stigma. Elementary mutual aid agreements and pensions did arise in antiquity . Early in the Roman empire, associations were formed to meet the expenses of burial, cremation, and monuments&lt;U+2014&gt;precursors to burial insurance and friendly societies. A small sum was paid into a communal fund on a weekly basis, and upon the death of a member, the fund would cover the expenses of rites and burial. These societies sometimes sold shares in the building of columb&lt;U+0101&gt;ria, or burial vaults, owned by the fund&lt;U+2014&gt;the precursor to mutual insurance companies . Other early examples of mutual surety and assurance pacts can be traced back to various forms of fellowship within the Saxon clans of England and their Germanic forbears, and to Celtic society .
+Non-life insurance started as a hedge against loss of cargo during sea travel. Anecdotal reports of such guarantees occur in the writings of Demosthenes, who lived in the 4th century BCE . The earliest records of an official non-life insurance policy come from Sicily, where there is record of a fourteenth-century contract to insure a shipment of wheat . In 1350, Lenardo Cattaneo assumed &quot;all risks from act of God, or of man, and from perils of the sea&quot; that may occur to a shipment of wheat from Sicily to Tunis up to a maximum of 300 florins. For this he was paid a premium of eighteen per cent . In current terminology, this would be an ocean marine contract for a rate-on-line of 18%.
+Development of theory
+ The 17th century was a period of extraordinary advances in mathematics in Germany, France, and England. At the same time there was a rapidly growing desire and need to place the valuation of personal risk on a more scientific basis. Independently from each other, compound interest was studied and probability theory emerged as a well understood mathematical discipline. Another important advance came in 1662 from a London draper named John Graunt, who showed that there were predictable patterns of longevity and death in a defined group, or cohort, of people, despite the uncertainty about the future longevity or mortality of any one individual person. This study became the basis for the original life table. It was now possible to set up an insurance scheme to provide life insurance or pensions for a group of people, and to calculate with some degree of accuracy how much each person in the group should contribute to a common fund assumed to earn a fixed rate of interest. The first person to demonstrate publicly how this could be done was Edmond Halley. In addition to constructing his own life table, Halley demonstrated a method of using his life table to calculate the premium someone of a given age should pay to purchase a life-annuity .
+Early actuaries
+James Dodson's pioneering work on the level premium system led to the formation of the Society for Equitable Assurances on Lives and Survivorship (now commonly known as Equitable Life) in London in 1762. This was the first life insurance company to use premium rates which were calculated scientifically for long-term life policies, using Dodson's work. The company still exists, though it has run into difficulties recently. After Dodson's death in 1757, Edward Rowe Mores took over the leadership of the group that eventually became the Society for Equitable Assurances in 1762. It was he who specified that the chief official should be called an 'actuary' . Previously, the use of the term had been restricted to an official who recorded the decisions, or 'acts', of ecclesiastical courts, in ancient times originally the secretary of the Roman senate, responsible for compiling the Acta Senatus . Other companies which did not originally use such mathematical and scientific methods most often failed or were forced to adopt the methods pioneered by Equitable .
+Development of the modern profession
+
+In the 18th and 19th centuries, computational complexity was limited to manual calculations. The actual calculations required to compute fair insurance premiums are rather complex. The actuaries of that time developed methods to construct easily used tables, using sophisticated approximations called commutation functions, to facilitate timely, accurate, manual calculations of premiums . Over time, actuarial organizations were founded to support and further both actuaries and actuarial science, and to protect the public interest by ensuring competency and ethical standards . However, calculations remained cumbersome, and actuarial shortcuts were commonplace. Non-life actuaries followed in the footsteps of their life compatriots in the early 20th century. In the United States, the 1920 revision to workers' compensation rates took over two months of around-the-clock work by day and night teams of actuaries . In the 1930s and 1940s, however, rigorous mathematical foundations for stochastic processes were developed . Actuaries could now begin to forecast losses using models of random events instead of deterministic methods. Computers further revolutionized the actuarial profession. From pencil-and-paper to punchcards to microcomputers, the modeling and forecasting ability of the actuary has grown exponentially .
+Another modern development is the convergence of modern financial theory with actuarial science . In the early 20th century, actuaries were developing many techniques that can be found in modern financial theory, but for various historical reasons, these developments did not achieve much recognition . However, in the late 1980s and early 1990s, there was a distinct effort for actuaries to combine financial theory and stochastic methods into their established models . Today, the profession, both in practice and in the educational syllabi of many actuarial organizations, combines tables, loss models, stochastic methods, and financial theory , but is still not completely aligned with modern financial economics .
+Responsibilities
+Actuaries use skills primarily in mathematics, particularly calculus-based probability and mathematical statistics, but also economics, computer science, finance,and business to help businesses assess the risk of certain events occurring and to formulate policies that minimize the cost of that risk. For this reason, actuaries are essential to the insurance and reinsurance industry, either as staff employees or as consultants; to other businesses, including sponsors of pension plans; and to government agencies such as the Government Actuary's Department in the UK or the Social Security Administration in the US. Actuaries assemble and analyze data to estimate the probability and likely cost of the occurrence of an event such as death, sickness, injury, disability, or loss of property. Actuaries also address financial questions, including those involving the level of pension contributions required to produce a certain retirement income and the way in which a company should invest resources to maximize its return on investments in light of potential risk. Using their broad knowledge, actuaries help design and price insurance policies, pension plans, and other financial strategies in a manner which will help ensure that the plans are maintained on a sound financial basis .
+Traditional employment
+On both the life and casualty sides, the classical function of actuaries is to calculate premiums and reserves for insurance policies covering various risks. Premiums are the amount of money the insurer needs to collect from the policyholder in order to cover the expected losses, expenses, and a provision for profit. Reserves are provisions for future liabilities and indicate how much money should be set aside now to reasonably provide for future payouts. If you inspect the balance sheet of an insurance company, you will find that the liability side consists mainly of reserves.
+On the casualty side, this analysis often involves quantifying the probability of a loss event, called the frequency, and the size of that loss event, called the severity. Further, the amount of time that occurs before the loss event is also important, as the insurer will not have to pay anything until after the event has occurred. On the life side, the analysis often involves quantifying how much a potential sum of money or a financial liability will be worth at different points in the future. Since neither of these kinds of analysis are purely deterministic processes, stochastic models are often used to determine frequency and severity distributions and the parameters of these distributions. Forecasting interest yields and currency movements also plays a role in determining future costs, especially on the life side.
+Actuaries do not always attempt to predict aggregate future events. Often, their work may relate to determining the cost of financial liabilities that have already occurred, called retrospective reinsurance, or the development or re-pricing of new products.
+Actuaries also design and maintain products and systems. They are involved in financial reporting of companies' assets and liabilities. They must communicate complex concepts to clients who may not share their language or depth of knowledge. Actuaries work under a strict code of ethics that covers their communications and work products, but their clients may not adhere to those same standards when interpreting the data or using it within different kinds of businesses.
+Non-traditional employment
+Many actuaries are general business managers or financial officers. They analyze business prospects with their financial skills in valuing or discounting risky future cash flows, and many apply their pricing expertise from insurance to other lines of business. Some actuaries act as expert witnesses by applying their analysis in court trials to estimate the economic value of losses such as lost profits or lost wages.
+There has been a recent widening of the scope of the actuarial field to include investment advice and asset management. Further, there has been a convergence from the financial fields of risk management and quantitative analysis with actuarial science. Now, actuaries also work as risk managers, quantitative analysts, or investment specialists. Even actuaries in traditional roles are now studying and using the tools and data previously in the domain of finance . One of the latest developments in the industry, insurance securitization, requires both the actuarial and finance skills .
+Another field in which actuaries are becoming more prominent is that of Enterprise Risk Management, for both financial and non-financial corporations . For example, the Basel II accord for financial institutions, and its analogue, the Solvency II accord for insurance companies, requires such institutions to account for operational risk separately and in addition to credit, reserve, asset, and insolvency risk. Actuarial skills are well suited to this environment because of their training in analyzing various forms of risk, and judging the potential for upside gain, as well as downside loss associated with these forms of risk .
+Remuneration
+The credentialing and examination procedure for becoming a fully qualified actuary can be intensely demanding. Consequently, the profession remains very small throughout the world. As a result, actuaries are in high demand, and they are highly paid for the services they render. In the USA, newly qualified actuaries typically earn at least $100,000, while more experienced actuaries more likely earn over $150,000 per year. In the UK, where there are approximately 9,000 fully qualified actuaries, typical post-university starting salaries range between GBP &lt;U+00A3&gt;25,300 and &lt;U+00A3&gt;35,000 ($40,500 and $56,000) and successful, more experienced actuaries can earn well in excess of &lt;U+00A3&gt;100,000 ($160,000) a year .
+Credentialing and exams
+
+Becoming a fully credentialed actuary requires passing a rigorous series of professional examinations, usually taking several years in total. In some countries, such as Denmark, most study takes place in a university setting . In others, such as the U.S., most study takes place during employment through a series of examinations (, ). In the UK, and countries based on its process, there is a hybrid university-exam structure .
+Exam support
+As these qualifying exams are extremely rigorous, support is usually available to people progressing through the exams. Often, employers provide paid on-the-job study time and paid attendance at seminars designed for the exams . Also, many companies which employ actuaries have automatic pay raises or promotions when exams are passed. As a result, actuarial students have strong incentives for devoting adequate study time during off-work hours. A common rule of thumb for exam students is that, for the Society of Actuaries examinations, roughly 400 hours of study time are necessary for each four-hour exam . Thus, thousands of hours of study time should be anticipated over several years, assuming no failures . In practice, as the historical passing percentages remain below 50% for these exams, the &quot;travel time&quot; to credentialing is extended and more study time is needed. This process resembles formal schooling, so that actuaries who are sitting for exams are still called &quot;students&quot; or &quot;candidates&quot; despite holding important positions with substantial responsibilities.
+Pass marks and pass rates
+Unlike some other professions, the actuarial profession is generally reluctant to specify the pass marks for its examinations. This has led to speculation over the years that the profession runs a quota system, perhaps (a) to limit the supply of those who pass the exams and qualify in the profession or (b) because a high fail rate might give the impression of difficulty and high value to a qualification that is not easy to obtain. This concern is confirmed by a former Chairman of the Board of Examiners of the Institute and Faculty of Actuaries who made the following denial : 
+Regarding this concern, the CAS has stated : 
+Notable actuaries
+
+
+Nathaniel Bowditch :Early American mathematician remembered for his work on ocean navigation. In 1804, Bowditch became America's first insurance actuary as president of the Essex Fire and Marine Insurance Company in Salem, Massachusetts. Under his direction, the Company prospered despite difficult political conditions and the War of 1812.
+
+
+
+Harald Cram&lt;U+00E9&gt;r :Swedish actuary and probabilist notable for his contributions in the area mathematical statistics, such as the Cram&lt;U+00E9&gt;r&lt;U+2013&gt;Rao inequality . Professor Cram&lt;U+00E9&gt;r was an Honorary President of the Swedish Actuarial Society .
+
+
+
+James Dodson :Head of the Royal Mathematical School, and Stone's School, Dodson built on the statistical mortality tables developed by Edmund Halley in 1693 .
+
+
+
+Edmond Halley :While Halley actually predated much of what is now considered the start of the actuarial profession, he was the first to mathematically and statistically rigorously calculate premiums for a life insurance policy .
+
+
+
+James C. Hickman :Notable actuarial educator, researcher, and author .
+
+
+
+David X. Li :Canadian qualified actuary who in the first decade of the 21st century pioneered the use of Gaussian copula models for the pricing of collateralized debt obligations (CDOs). The Financial Times called him &quot;the world's most influential actuary,&quot; while in the aftermath of the Global financial crisis of 2008&lt;U+2013&gt;2009, to which Li's model has been credited partly to blame, his model has been called a &quot;recipe for disaster&quot;.
+
+
+
+Edward Rowe Mores :First person to use the title 'actuary' with respect to a business position .
+
+
+
+William Morgan :Morgan was the appointed Actuary of the Society for Equitable Assurances in 1775. He expanded on Mores's and Dodson's work, and may be rightly considered the father of the actuarial profession in that his title became applied to the field as a whole..
+
+
+
+Anette Norberg :Skip for the Swedish Women's Curling Team at the 2010 Winter Olympics. Norberg has won gold medals at the 2010 Winter Olympics, the 2006 Winter Olympics, seven European Curling Championships, and two World Curling Championships.
+
+
+
+Maurice Princet :French actuary and close associate of artist Pablo Picasso. Princet is considered &quot;Le Math&lt;U+00E9&gt;maticien du Cubisme&quot; (&quot;The Mathematician of Cubism&quot;) for his &quot;critical influence on Picasso's development as an artist at the birth of cubism&quot; .
+
+
+
+Frank Redington :Developed the Redington Immunization Theory
+
+
+
+Isaac M. Rubinow :Founder and first president of the Casualty Actuarial Society .
+
+
+
+Elizur Wright :American actuary and abolitionist, professor of mathematics at Western Reserve College (Ohio). He campaigned for laws that required life insurance companies to hold sufficient reserves to guarantee that policies would be paid .
+
+
+
+Fictional actuaries
+
+Due to the low public-profile of the job, some of the most recognizable actuaries to the general public happen to be characters in movies. Many actuaries were unhappy with the stereotypical portrayals of these actuaries as unhappy, math-obsessed and socially inept people; others have claimed that the portrayals are close to home, if a bit exaggerated .
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+External links
+
+
+
+Be An Actuary: The SOA and CAS jointly sponsored web site
+Global actuarial discussion forum and actuarial wiki
+
+
+Category:Actuarial science Category:Insurance Category:Mathematical science occupations Category:Occupations Category:Risk

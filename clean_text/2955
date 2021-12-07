@@ -1,0 +1,993 @@
+
+
+In the history of astronomy, Islamic astronomy or Arabic astronomy refers to the astronomical developments made in the Islamic world, particularly during the Islamic Golden Age (8th&lt;U+2013&gt;15th centuries),1 and mostly written in the Arabic language. These developments mostly took place in the Middle East, Central Asia, Al-Andalus, and North Africa, and later in the Far East and India. It closely parallels the genesis of other Islamic sciences in its assimilation of foreign material and the amalgamation of the disparate elements of that material to create a science with Islamic characteristics. These included Sassanid, Hellenistic and Indian works in particular, which were translated and built upon.2 In turn, Islamic astronomy later had a significant influence on Indian,3 Byzantine4 and European5 astronomy (see Latin translations of the 12th century) as well as Chinese astronomy6 and Malian astronomy.78
+A significant number of stars in the sky, such as Aldebaran and Altair, and astronomical terms such as alhidade, azimuth, and almucantar, are still referred to by their Arabic names.9 A large corpus of literature from Islamic astronomy remains today, numbering approximately 10,000 manuscripts scattered throughout the world, many of which have not been read or catalogued. Even so, a reasonably accurate picture of Islamic activity in the field of astronomy can be reconstructed.10
+Islam and astronomy
+Islam has affected astronomy directly and indirectly. A major impetus for the flowering of astronomy in Islam came from religious observances, which presented an assortment of problems in mathematical astronomy, specifically in spherical geometry.11
+Background
+In the 7th century, both Christians and Jews observed holy days, such as Easter and Passover, whose timing was determined by the phases of the moon. Both communities had confronted the fact that the approximately 29.5-day lunar months are not commensurable with the 365-day solar year. To solve the problem, Christians and Jews had adopted a scheme based on a discovery made in circa 430 BC by the Athenian astronomer Meton. In the 19-year Metonic cycle, there were 12 years of 12 lunar months and seven years of 13 lunar months. The periodic insertion of a 13th month kept calendar dates in step with the seasons.12
+On the other hand, astronomers used Ptolemy's way to calculate the place of the moon and stars. The method Ptolemy used to solve spherical triangles was a clumsy one devised late in the 1st century by Menelaus of Alexandria. It involved setting up two intersecting right triangles; by applying Menelaus' theorem it was possible to solve one of the six sides, but only if the other five sides were known. To tell the time from the sun's altitude, for instance, repeated applications of Menelaus' theorem were required. For medieval Islamic astronomers, there was an obvious challenge to find a simpler trigonometric method.13
+Islamic attitude towards astronomy
+
+Islam advised Muslims to find ways of using the stars. The Qur'an says: &quot;And it is He who ordained the stars for you that you may be guided thereby in the darkness of the land and the sea.&quot;14 On the basis of this advice Muslims began to develop better observational and navigational instruments, thus most navigational stars today have Arabic names.15
+Other influences of the Qur'an on Islamic astronomy included its &quot;insistence that the Universe is ruled by a single set of laws&quot; which was &quot;rooted in the Islamic concept of tawh&lt;U+00EE&gt;d, the unity of God&quot;, as well its &quot;greater respect for empirical data than was common in the preceding Greek civilization&quot; which inspired Muslims to place a greater emphasis on empirical observation,16 in contrast to ancient Greek philosophers such as the Platonists who expressed a general distrust towards the senses and instead viewed reason alone as being sufficient to understanding nature. The Qur'an's insistence on observation, reason and contemplation (&quot;see&quot;, &quot;think&quot; and &quot;contemplate&quot;), on the other hand, led Muslims to develop an early scientific method based on these principles, particularly empirical observation. Muhammad Iqbal writes:17
+
+Several hadiths attributed to Muhammad also show that he was generally opposed to astrology as well as superstition in general. An example of this is when an eclipse occurred during his son Ibrahim ibn Muhammad's death, and rumours began spreading about this being God's personal condolence. Muhammad is said to have replied:18
+
+&quot;An eclipse is a phenomenon of nature &amp; has no relation to the death or birth of a human being.&quot;
+
+From the 12th century onwards, Islamic astronomy began becoming a science primarily dependant upon observation rather than philosophy, primarily due to religious opposition from Islamic theologians of the Ash'ari school, most prominently Al-Ghazali, who opposed the interference of Aristotelian physics and Aristotelian cosmology in astronomy, opening up possibilities for an astronomy unrestrained by Aristotelian philosophy.1920 For example, the Ash'ari doctrine influenced the theologian Fakhr al-Din al-Razi (1149&lt;U+2013&gt;1209) to reject the Aristotelian notion of the Earth's centrality within the universe and instead propose the notion of a multiverse consisting of countless worlds and universes, &quot;such that each one of those worlds be bigger and more massive than this world as well as having the like of what this world has.&quot; Al-Razi also criticized the Aristotelian notion of solid celestial spheres and suggested these may be &quot;merely the abstract orbit traced by the stars.&quot;21 Later in the century, the Islamic theologian Adud al-Din al-Iji (1281&lt;U+2013&gt;1355), under the influence of the Ash'ari doctrine of occasionalism, which maintained that all physical effects were caused directly by God's will, rejected the Aristotelian principle of an innate principle of circular motion in the heavenly bodies,22 and maintained that the celestial spheres were &quot;imaginary things&quot; and &quot;more tenuous than a spider's web&quot;.23 Under such influences, Ali Qushji (d. 1474) rejected Aristotelian physics and completely separated it from astronomy, allowing astronomy to become a purely empirical and mathematical science. This allowed him to explore alternatives to the Aristotelian notion of a stationery Earth, as he explored the idea of a moving Earth. He concluded, on the basis of empirical evidence rather than speculative philosophy, that the moving Earth theory is just as likely to be true as the stationary Earth theory and that it is not possible to empirically deduce which theory is true (see Astronomical physics and Earth's motion section below).2425
+Islamic rules
+ There are several rules in Islam which lead Muslims to use better astronomical calculations and observations.
+The first issue is the Islamic calendar. The Qur'an says: &quot;The number of months in the sight of Allah is twelve (in a year) so ordained by Him the day He created the heavens and the earth; of them four are sacred; that is the straight usage.&quot;2627 Therefore Muslims could not follow the Christian or Hebrew calendars and they thus had to develop a new one.
+The other issue is moon sighting. Islamic months do not begin at the astronomical new moon, defined as the time when the moon has the same celestial longitude as the sun and is therefore invisible; instead they begin when the thin crescent moon is first sighted in the western evening sky.28 The Qur'an says: &quot;They ask you about the waxing and waning phases of the crescent moons, say they are to mark fixed times for mankind and Hajj.&quot;2930 This led Muslims to find the phases of the moon in the sky, and their efforts led to new mathematical calculations and observational instruments, as well as a special science being formed specifically for moon sighting.31
+Muslims are also expected to pray towards the Kaaba in Mecca and orient their mosques in that direction. Thus they need to determine the direction of Mecca from a given location.3233 Another influencing factor is the time of Salah. Muslims need to determine from celestial bodies the proper times for the prayers at sunrise, at midday, in the afternoon, at sunset, and in the evening.3435
+Necessity of spherical geometry
+
+
+An illustration from al-Biruni's Persian book. It shows different phases of the moon.
+
+Predicting just when the crescent moon would become visible is a special challenge to Islamic mathematical astronomers. Although Ptolemy's theory of the complex lunar motion was tolerably accurate near the time of the new moon, it specified the moon's path only with respect to the ecliptic. To predict the first visibility of the moon, it was necessary to describe its motion with respect to the horizon, and this problem demands a more sophisticated spherical geometry.36 Finding the direction of Mecca and the time of Salah are the reasons which led to Muslims making advances in spherical geometry. Solving any of these problems involves finding the unknown sides or angles of a triangle on the celestial sphere from the known sides and angles. A way of finding the time of day, for example, is to construct a triangle whose vertices are the zenith, the north celestial pole, and the sun's position. The observer must know the altitude of the sun and that of the pole; the former can be observed, and the latter is equal to the observer's latitude. The time is then given by the angle at the intersection of the meridian (the arc through the zenith and the pole) and the sun's hour circle (the arc through the sun and the pole).3738
+History
+Pre-Islamic Arabian knowledge of stars was empirical; their knowledge was what they observed regarding the rising and setting of stars. The rise of Islam is claimed to have provoked increased Arab thought in this field.39 The foundations of Islamic astronomy closely parallel the genesis of other Islamic sciences in its assimilation of foreign material and the amalgamation of the disparate elements of that material to create a science that was essentially Islamic. These include Indian, Sassanid and Hellenistic works which were translated and built upon.
+The science historian Donald Routledge Hill has divided the history of Islamic astronomy into the four following distinct time periods in its history:40
+
+Assimilation and syncretization of earlier Hellenistic, Indian and Sassanid astronomy (700&lt;U+2014&gt;825 AD)
+Vigorous investigation, and acceptance and modification to the Ptolemaic system (825&lt;U+2014&gt;1025 AD)
+Flourishing of a distinctive Islamic system of astronomy (1025&lt;U+2014&gt;1450 AD)
+Stagnation, where few significant contributions were made (1450&lt;U+2014&gt;1900 AD)
+
+610&lt;U+2013&gt;700
+From the beginning, Muslim community in Medina sight new moon to determine the lunar months especially Ramadan and holy days.
+In approximately 638 A.D, Caliph Umar introduced a new lunar calendar based on the Islamic viewpoint. This calendar has twelve lunar months, the beginnings of which are determined by the sighting of the crescent moon. This calendar is about 11 days shorter than the solar year. This calendar is still in use for religious purposes among Muslims.4142
+700&lt;U+2013&gt;825
+This period was most notably the period of assimilation and syncretization of earlier Hellenistic, Indian and Sassanid astronomy occurred during the 8th and early 9th centuries.
+Impetus
+Historians point out several factors that fostered the growth of Islamic astronomy. The first was the proximity of the Muslim world to the world of ancient learning. Much of the ancient Greek, Sanskrit and Middle Persian texts were translated into Arabic during the 9th century. This process was enhanced by the tolerance towards scholars of other religions.43
+Another impetus came from Islamic religious observances, which presented a host of problems in mathematical astronomy. In solving these religious problems the Islamic scholars went far beyond the Greek mathematical methods.44
+Ancient influences and translation movement
+During this period, a number of Sanskrit and Middle Persian texts were first translated into Arabic. The most notable of the texts was Zij al-Sindhind,45 based on the Surya Siddhanta and the works of Brahmagupta, and translated by Muhammad al-Fazari and Yaq&lt;U+016B&gt;b ibn T&lt;U+0101&gt;riq in 777. Sources indicate that the text was translated after an Indian astronomer visited the court of Caliph Al-Mansur in 770. The most notable Middle Persian text translated was the Zij al-Shah, a collection of astronomical tables compiled in Sassanid Persia over two centuries.
+Fragments of text during this period indicate that Arabs adopted the sine function (inherited from Indian trigonometry) instead of the chords of arc used in Hellenistic mathematics.46 Another Indian influence was an approximate formula used for timekeeping by Muslim astronomers.47
+ Islamic interest in astronomy ran parallel to the interest in mathematics. Especially noteworthy in this regard was the Almagest (c. 150) of the astronomer Ptolemy (c. 100&lt;U+2013&gt;178). The Almagest was a landmark work in its field, assembling, as Euclid's Elements had previously done with geometrical works, all extant knowledge in the field of astronomy that was known to the author. This work was originally known as The Mathematical Composition, but after it had come to be used as a text in astronomy, it was called The Great Astronomer. The Islamic world called it The Greatest prefixing the Greek work megiste (greatest) with the article al- and it has since been known to the world as Al-megiste or, after popular use in Western translation, Almagest.48 though much of the Almagest was incorrect, even in premise, it remained a standard astronomical text in both the Islamic world and Europe until the Maragha Revolution and Copernican Revolution.49 Ptolemy also produced other works, such as Optics, Harmonica, and some suggest he also wrote Tetrabiblon.
+The Almagest was a particularly unifying work for its exhaustive lists of astronomical phenomena. He drew up a list of chronological tables of Assyrian, Persian, Greek, and Roman kings for use in reckoning the lapse of time between known astronomical events and fixed dates. In addition to its relevance to calculating accurate calendars, it linked far and foreign cultures together by a common interest in the stars and astrology. The work of Ptolemy was replicated and refined over the years under Arab, Persian and other Muslim astronomers and astrologers.
+825&lt;U+2013&gt;1025
+The period throughout the 9th, 10th and early 11th centuries was one of vigorous investigation, in which the superiority of the Ptolemaic system of astronomy was accepted and significant contributions made to it. Astronomical research was greatly supported by the Abbasid caliph al-Mamun. Baghdad and Damascus became the centers of such activity. The caliphs not only supported this work financially, but endowed the work with formal prestige.50
+Early observational astronomy
+
+Al-Khwarizmi, the father of algebra and algorithms and a Persian Astronomer, wrote the Zij al-Sindh, the first original Zij in Islamic astronomy.
+
+In observational astronomy, the first major original Muslim work of astronomy was Zij al-Sindh by al-Khwarizimi in 830. The work contains tables for the movements of the sun, the moon and the five planets known at the time. The work is significant as it introduced Indian and Ptolemaic concepts into Islamic sciences. This work also marked the turning point in Islamic astronomy. Hitherto, Muslim astronomers had adopted a primarily research approach to the field, translating works of others and learning already discovered knowledge. Al-Khwarizmi's work marked the beginning of non-traditional methods of study and calculations.51
+Between 825 to 835, Habash al-Hasib al-Marwazi conducted various observations at the Al-Shammisiyyah observatory in Baghdad, where he estimated a number of geographic and astronomical values.52 He compiled his results in The Book of Bodies and Distances, in which many of his estimates come closer to modern values than any of his predecessors. For example, he estimated the Moon's diameter as 3,037 km (equivalent to 1,519 km radius) and its distance from the Earth as 215,209 miles, which come close to the currently accepted values of 1,735 km radius and 238,857 miles distance, respectively.53
+In 850, al-Farghani wrote Kitab fi Jawani (&quot;A compendium of the science of stars&quot;). The book primarily gave a summary of Ptolemic cosmography. However, it also corrected Ptolemy's Almagest based on findings of earlier Iranian astronomers. Al-Farghani gave revised values for the obliquity of the ecliptic, the precessional movement of the apogees of the sun and the moon, and the circumference of the earth. The books were widely circulated through the Muslim world, and even translated into Latin.54
+Muhammad ibn J&lt;U+0101&gt;bir al-Harr&lt;U+0101&gt;n&lt;U+012B&gt; al-Batt&lt;U+0101&gt;n&lt;U+012B&gt; (Albatenius) (853&lt;U+2013&gt;929) produced &quot;improved tables of the orbits of the sun and the moon&quot; that &quot;contained his great discovery that the direction of the sun's excentric ... , as recorded by Ptolemy, was changing.&quot;55 Among other things, he worked on timing the first appearance of the moon's crescent following a new moon, the lengths of the solar and sidereal years, the prediction of eclipses, and the phenomenon of parallax.56 Around the same time, Yahya Ibn Abi Mansour carried out extensive observations and tests, and wrote the Al-Zij al-Mumtahan, in which he completely revised the Almagest values.57 
+In the 10th century, Abd al-Rahman al-Sufi (Azophi) carried out observations on the stars and described their positions, magnitudes, brightness, and colour and drawings for each constellation in his Book of Fixed Stars (964). He also gave the first descriptions and pictures of &quot;A Little Cloud&quot; now known as the Andromeda Galaxy. He mentions it as lying before the mouth of a Big Fish, an Arabic constellation. This &quot;cloud&quot; was apparently commonly known to the Isfahan astronomers, very probably before 905 AD.58 The first recorded mention of the Large Magellanic Cloud was also given by Abd Al-Rahman al-Sufi.5960
+Ibn Yunus observed more than 10,000 entries for the sun's position for many years using a large astrolabe with a diameter of nearly 1.4 meters. His observations on eclipses were still used centuries later in Simon Newcomb's investigations on the motion of the moon, while his other observations inspired Laplace's Obliquity of the Ecliptic and Inequalities of Jupiter and Saturn. 61 Abu-Mahmud al-Khujandi relatively accurately computed the axial tilt to be 23&lt;U+00B0&gt;32'19&quot; (23.53&lt;U+00B0&gt;).62
+In 1006, the Egyptian astronomer Ali ibn Ridwan observed SN 1006, the brightest supernova in recorded history, and left a detailed description of the temporary star. He says that the object was two to three times as large as the disc of Venus and about one-quarter the brightness of the Moon, and that the star was low on the southern horizon. Monks at the Benedictine abbey at St. Gall later corroborated bin Ridwan's observations as to magnitude and location in the sky.
+Rejection of Heliocentrism
+
+Due to the scientific dominance of the Ptolemaic system in Islamic astronomy, the Muslim astronomers accepted unanimously the geocentric model. 63 However, several Muslim scholars questioned the Earth's apparent immobility6465 and centrality within the universe.66 Alhazen wrote a scathing critique of Ptolemy's model in his Doubts on Ptolemy (c. 1028), which some have interpreted to imply he was criticizing Ptolemy's geocentrism,67 but most agree that he was actually criticizing the details of Ptolemy's model rather than his geocentrism.68 Alhazen did, however, later propose the Earth's rotation on its axis in The Model of the Motions (c. 1038).69
+Abu Rayhan Biruni (b. 973) discussed the possibility of whether the Earth rotated about its own axis and around the Sun, but in his Masudic Canon, he set forth the principles that the Earth is at the center of the universe and that it has no motion of its own.70 He was aware that if the Earth rotated on its axis and around the Sun, this would be consistent with his astronomical parameters,71 but he considered this a philosophical problem rather than a mathematical one.72
+Universal cosmology
+
+
+In contrast to ancient Greek philosophers who believed that the universe had an infinite past with no beginning, medieval philosophers and theologians developed the concept of the universe having a finite past with a beginning (see Temporal finitism). This view was inspired by the creation myth shared by the three Abrahamic religions: Judaism, Christianity and Islam. The Christian philosopher, John Philoponus, presented the first such argument against the ancient Greek notion of an infinite past. His arguments were adopted by many most notably; early Muslim philosopher, Al-Kindi (Alkindus); the Jewish philosopher, Saadia Gaon (Saadia ben Joseph); and the Muslim theologian, Al-Ghazali (Algazel). They used two logical arguments against an infinite past, the first being the &quot;argument from the impossibility of the existence of an actual infinite&quot;, which states:73
+
+
+&quot;An actual infinite cannot exist.&quot;
+
+&quot;An infinite temporal regress of events is an actual infinite.&quot;
+
+&quot;An infinite temporal regress of events cannot exist.&quot;
+
+
+The second argument, the &quot;argument from the impossibility of completing an actual infinite by successive addition&quot;, states:74
+
+
+&quot;An actual infinite cannot be completed by successive addition.&quot;
+
+&quot;The temporal series of past events has been completed by successive addition.&quot;
+
+&quot;The temporal series of past events cannot be an actual infinite.&quot;
+
+
+Both arguments were adopted by later Christian philosophers and theologians, and the second argument in particular became more famous after it was adopted by Immanuel Kant in his thesis of the first antimony concerning time.75
+Physical cosmology
+ In the 9th century, the eldest Ban&lt;U+016B&gt; M&lt;U+016B&gt;s&lt;U+0101&gt; brother, Ja'far Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; ibn Sh&lt;U+0101&gt;kir, made significant contributions to astrophysics and celestial mechanics. He was the first to hypothesize that the heavenly bodies and celestial spheres are subject to the same laws of physics as Earth, unlike the ancients who believed that the celestial spheres followed their own set of physical laws different from that of Earth.76 In the 10th century, Muhammad ibn J&lt;U+0101&gt;bir al-Harr&lt;U+0101&gt;n&lt;U+012B&gt; al-Batt&lt;U+0101&gt;n&lt;U+012B&gt; (Albatenius) (853&lt;U+2013&gt;929) introduced the idea of testing &quot;past observations by means of new ones&quot;.77 This led to the use of exacting empirical observations and experimental techniques by Muslim astronomers from the 11th century onwards.78
+In the early 11th century, Ibn al-Haytham (Alhazen) wrote the Maqala fi daw al-qamar (On the Light of the Moon) some time before 1021. This was the first attempt successful at combining mathematical astronomy with physics and the earliest attempt at applying the experimental method to astronomy and astrophysics. He disproved the universally held opinion that the moon reflects sunlight like a mirror and correctly concluded that it &quot;emits light from those portions of its surface which the sun's light strikes.&quot; In order to prove that &quot;light is emitted from every point of the moon's illuminated surface,&quot; he built an &quot;ingenious experimental device.&quot; Ibn al-Haytham had &quot;formulated a clear conception of the relationship between an ideal mathematical model and the complex of observable phenomena; in particular, he was the first to make a systematic use of the method of varying the experimental conditions in a constant and uniform manner, in an experiment showing that the intensity of the light-spot formed by the projection of the moonlight through two small apertures onto a screen diminishes constantly as one of the apertures is gradually blocked up.&quot;79
+Ibn al-Haytham, in his Book of Optics (1021), also maintained that the celestial spheres do not consist of solid matter, and that the heavens are less dense than the air. These views were later repeated by Witelo and had a significant influence on the Copernican and Tychonic systems of astronomy.80
+Ibn al-Haytham also refuted Aristotle's view on the Milky Way galaxy. Aristotle believed the Milky Way to be caused by &quot;the ignition of the fiery exhalation of some stars which were large, numerous and close together&quot; and that the &quot;ignition takes place in the upper part of the atmosphere, in the region of the world which is continuous with the heavenly motions.&quot;81 Ibn al-Haytham refuted this by making the first attempt at observing and measuring the Milky Way's parallax,82 and he thus &quot;determined that because the Milky Way had no parallax, it was very remote from the earth and did not belong to the atmosphere.&quot;83
+Also in the early 11th century, Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; introduced the experimental method into astronomy and was the first to conduct elaborate experiments related to astronomical phenomena.84 He discovered the Milky Way galaxy to be a collection of numerous nebulous stars.85 In Afghanistan, he observed and described the solar eclipse on April 8, 1019, and the lunar eclipse on September 17, 1019, in detail, and gave the exact latitudes of the stars during the lunar eclipse.86
+1025&lt;U+2013&gt;1450
+During this period, a distinctive Islamic system of astronomy flourished. It was Greek tradition to separate mathematical astronomy (as typified by Ptolemy) from philosophical cosmology (as typified by Aristotle). Muslim scholars developed a program of seeking a physically real configuration (hay'a) of the universe, that would be consistent with both mathematical and physical principles. Within the context of this hay'a tradition, Muslim astronomers began questioning technical details of the Ptolemaic system of astronomy.87 Most of these criticisms, however, continued to follow the Ptolemaic astronomical paradigm, remaining within the geocentric framework.88 As the historian of astronomy, A. I. Sabra, noted:
+
+Some Muslim astronomers, however, most notably Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; and Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt;, discussed whether the Earth moved and considered how this might be consistent with astronomical computations and physical systems.89 Several other Muslim astronomers, most notably those following the Maragha school of astronomy, developed non-Ptolemaic planetary models within a geocentric context that were later adapted by the Copernican model in a heliocentric context.
+Refutations of astrology
+
+The study of astrology was refuted by several Muslim writers, including al-Farabi, Ibn al-Haytham, Avicenna, Abu Rayhan al-Biruni and Averroes. Their reasons for refuting astrology were often due to both scientific (the methods used by astrologers being conjectural rather than empirical) and religious (conflicts with orthodox Islamic scholars) reasons.90
+Ibn Qayyim Al-Jawziyya (1292&lt;U+2013&gt;1350), in his Miftah Dar al-SaCadah, used empirical arguments in astronomy in order to refute the practice of astrology and divination.91 He recognized that the stars are much larger than the planets, and that Mercury is the smallest planet known to them, and thus argued:92
+
+Al-Jawziyya also recognized the Milky Way galaxy as &quot;a myriad of tiny stars packed together in the sphere of the fixed stars&quot; and thus argued that &quot;it is certainly impossible to have knowledge of their influences.&quot;93
+Astrophysics and celestial mechanics
+In astrophysics and celestial mechanics, Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; described the Earth's gravitation as: 
+Al-Biruni also discovered that gravity exists within the heavenly bodies and celestial spheres, and he criticized the Aristotelian views of them not having any levity or gravity and of circular motion being an innate property of the heavenly bodies.94
+Also in the 12th century, Fakhr al-Din al-Razi participated in the debate among Islamic scholars over whether the celestial spheres or orbits (falak) are &quot;to be considered as real, concrete physical bodies&quot; or &quot;merely the abstract circles in the heavens traced out year in and year out by the various stars and planets.&quot; He points out that many astronomers prefer to see them as solid spheres &quot;on which the stars turn,&quot; while others, such as the Islamic scholar Dahhak, view the celestial sphere as &quot;not a body but merely the abstract orbit traced by the stars.&quot; Al-Razi himself remains &quot;undecided as to which celestial models, concrete or abstract, most conform with external reality,&quot; and notes that &quot;there is no way to ascertain the characteristics of the heavens,&quot; whether by &quot;observable&quot; evidence or by authority (al-khabar) of &quot;divine revelation or prophetic traditions.&quot; He concludes that &quot;astronomical models, whatever their utility or lack thereof for ordering the heavens, are not founded on sound rational proofs, and so no intellectual commitment can be made to them insofar as description and explanation of celestial realities are concerned.&quot;95
+Beginning of hay'a program
+
+Ibn al-Haytham (Alhacen) was a pioneer of the Muslim haya tradition of astronomy, presented the first critique and reform of Ptolemy's model, and introduced experimentation to astrophysics.
+
+Between 1025 and 1028, Ibn al-Haytham (Latinized as Alhazen), began what has been called the hay'a tradition of Islamic astronomy with his Al-Shuku ala Batlamyus (Doubts on Ptolemy). The hay'a tradition was concerned with accommodating mathematical hypotheses within &quot;a configuration (hay'a) of physical orbs and spheres each of which turning  uniformly about its own axis,&quot; thereby producing &quot;a physically plausible ... description of what actually took place in the heavens.&quot;96 While maintaining the physical reality of the geocentric model, he was the first to criticize Ptolemy's astronomical system, which he criticized on empirical, observational and experimental grounds,97 and for relating actual physical motions to imaginary mathematical points, lines and circles: 
+Ibn al-Haytham developed a physical structure of the Ptolemaic system in his Treatise on the configuration of the World, or ''Maq&lt;U+00E2&gt;lah f&lt;U+00EE&gt; hay'at al-&lt;U+201B&gt;&lt;U+00E2&gt;lam'', which became an influential work in the hay'a tradition.98 In his Epitome of Astronomy, he insisted that the heavenly bodies &quot;were accountable to the laws of physics.&quot;99
+In 1038, Ibn al-Haytham described the first non-Ptolemaic configuration in The Model of the Motions. His reform was not concerned with cosmology, as he developed a systematic study of celestial kinematics that was completely geometric. This in turn led to innovative developments in infinitesimal geometry.100 His reformed model was the first to reject the equant101 and eccentrics,102 separate natural philosophy from astronomy, free celestial kinematics from cosmology, and reduce physical entities to geometrical entities. The model also propounded the Earth's rotation about its axis,103 and the centres of motion were geometrical points without any physical significance, like Johannes Kepler's model centuries later.104 Ibn al-Haytham also describes an early version of Occam's razor, where he employs only minimal hypotheses regarding the properties that characterize astronomical motions, as he attempts to eliminate from his planetary model the cosmological hypotheses that cannot be observed from Earth.105
+
+Al-Biruni was the first to conduct elaborate experiments related to astronomical phenomena, and he introduced the analysis of the acceleration of planets, discovered that the motions of the solar apogee and precession are not identical, discussed the possibility of heliocentrism, and suggested that the Earth's rotation on its axis would be consistent with his astronomical parameters.
+
+Early alternative models
+In 1030, Ab&lt;U+016B&gt; al-Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; discussed the Indian planetary theories of Aryabhata, Brahmagupta and Varahamihira in his Ta'rikh al-Hind (Latinized as Indica). Biruni stated that Brahmagupta and others consider that the earth rotates on its axis and Biruni noted that this does not create any mathematical problems.106
+Abu Said al-Sijzi, a contemporary of al-Biruni, suggested the possible heliocentric movement of the Earth around the Sun, which al-Biruni did not reject.107 Al-Biruni agreed with the Earth's rotation about its own axis, and while he was initially neutral regarding the heliocentric and geocentric models,108 he considered heliocentrism to be a philosophical problem.109 He remarked that if the Earth rotates on its axis and moves around the Sun, it would remain consistent with his astronomical parameters:110 
+In 1031, al-Biruni completed his extensive astronomical encyclopaedia Kitab al-Qanun al-Mas'udi (Latinized as Canon Mas&lt;U+2019&gt;udicus),111 in which he recorded his astronomical findings and formulated astronomical tables. In it he presented a geocentric model, tabulating the distance of all the celestial spheres from the central Earth, computed according to the principles of Ptolemy's Almagest.112 The book introduces the mathematical technique of analysing the acceleration of the planets, and first states that the motions of the solar apogee and the precession are not identical. Al-Biruni also discovered that the distance between the Earth and the Sun is larger than Ptolemy's estimate, on the basis that Ptolemy disregarded annular eclipses.
+In 1070, Abu Ubayd al-Juzjani, a pupil of Avicenna, proposed a non-Ptolemaic configuration in his Tarik al-Aflak. In his work, he indicated the so-called &quot;equant&quot; problem of the Ptolemic model, and proposed a solution for the problem. He claimed that his teacher Avicenna had also worked out the equant problem.113
+Andalusian Revolt
+
+Muladi art from Toledo in Al-Andalus depicting the Alc&lt;U+00E1&gt;zar in the year 976.AD
+
+thumb |Detail from The Ambassadors by Hans Holbein, showing a Torquetum, an instrument invented by Jabir bin Aflah, to the right rear.
+In the 11th&lt;U+2013&gt;12th centuries, astronomers in al-Andalus such as Al-Majriti and Ibn al-Saffar introduced various works and used various instruments. Later Abu al-Salt is credited to have introduced the early astronomical works of Al-Andalus to North Africa where they have been preserved. Their students took up the challenge earlier posed by Ibn al-Haytham, namely to develop an alternate non-Ptolemaic configuration that evaded the errors found in the Ptolemaic model.114 Like Ibn al-Haytham's critique, the anonymous Andalusian work, al-Istidrak ala Batlamyus (Recapitulation regarding Ptolemy), included a list of objections to Ptolemic astronomy. This marked the beginning of the Andalusian school's revolt against Ptolemaic astronomy, sometimes called the &quot;Andalusian Revolt&quot;. Among the major figures of Andalusian astronomy was Jabir ibn Aflah, who invented the Torquetum.115
+In the 12th century, under the influence of Ibn Tufail, the philosopher, Averroes and the astronomer, al-Bitruji, rejected the epicycles and eccentrics introduced by Ptolemy. They considered the Ptolemaic model to be inconsistent with Aristotle's physical principles and argued for a strictly concentric model of the universe. Al-Bitruji failed in his attempt to make an accurate model of the motions of the planets employing homocentric spheres.116 Averroes wrote the following criticism of the Ptolemaic model of planetary motion:117
+
+Averroes' contemporary, Maimonides, wrote the following on the planetary model proposed by Ibn Bajjah (Avempace):
+
+Ibn Bajjah also proposed the Milky Way galaxy to be made up of many stars but that it appears to be a continuous image due to the effect of refraction in the Earth's atmosphere, citing his observation of the conjunction of Jupiter and Mars in 500 AH (1106/1107 AD) as evidence.118
+In Toledo, Muladi astronomer Al-Zarqali (1029&lt;U+2013&gt;1087) wrote further on the Tables of Toledo. His works were carried out by Ibn al-Kammad and confirmed by Ibn al&lt;U+2010&gt;Haim al&lt;U+2010&gt;Ishbili.
+Maragha School
+
+
+The &quot;Maragha school&quot; was an astronomical tradition beginning in the Maragheh observatory and continuing with astronomers from the Damascus mosque and Samarkand observatory. Like their Andalusian predecessors, the Maragha astronomers attempted to solve the equant problem and produce alternative configurations to the Ptolemaic model. They were more successful than their Andalusian predecessors in producing non-Ptolemaic configurations which eliminated the equant and eccentrics, were more accurate than the Ptolemaic model in numerically predicting planetary positions, and were in better agreement with empirical observations.119 The most important of the Maragha astronomers included Mo'ayyeduddin Urdi (d. 1266), Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; (1201&lt;U+2013&gt;1274), Najm al-D&lt;U+012B&gt;n al-Qazw&lt;U+012B&gt;n&lt;U+012B&gt; al-K&lt;U+0101&gt;tib&lt;U+012B&gt; (d. 1277), Qotb al-Din Shirazi (1236&lt;U+2013&gt;1311), Sadr al-Sharia al-Bukhari (c. 1347), Ibn al-Shatir (1304&lt;U+2013&gt;1375), Ali Qushji (c. 1474), al-Birjandi (d. 1525) and Shams al-Din al-Khafri (d. 1550).120
+
+Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; resolved significant problems in the Ptolemaic system with the Tusi-couple, which later played an important role in the Copernican model.
+
+Some have described their achievements in the 13th and 14th centuries as a &quot;Maragha Revolution&quot;, &quot;Maragha School Revolution&quot;, or &quot;Scientific Revolution before the Renaissance&quot;. An important aspect of this revolution included the realization that astronomy should aim to describe the behavior of physical bodies in mathematical language, and should not remain a mathematical hypothesis, which would only save the phenomena. The Maragha astronomers also realized that the Aristotelian view of motion in the universe being only circular or linear was not true, as the Tusi-couple showed that linear motion could also be produced by applying circular motions only.121
+Unlike the ancient Greek and Hellenistic astronomers who were not concerned with the coherence between the mathematical and physical principles of a planetary theory, Islamic astronomers insisted on the need to match the mathematics with the real world surrounding them,122 which gradually evolved from a reality based on Aristotelian physics to one based on an empirical and mathematical physics after the work of Ibn al-Shatir. The Maragha Revolution was thus characterized by a shift away from the philosophical foundations of Aristotelian cosmology and Ptolemaic astronomy and towards a greater emphasis on the empirical observation and mathematization of astronomy and of nature in general, as exemplified in the works of Ibn al-Shatir, Qushji, al-Birjandi and al-Khafri.123124125
+
+Ibn al-Shatir's model for the appearances of Mercury, showing the multiplication of epicycles using the Tusi-couple, thus eliminating the Ptolemaic eccentrics and equant.
+
+Other achievements of the Maragha school include the first empirical observational evidence for the Earth's rotation on its axis by Tusi and Qushji,126 the separation of natural philosophy from astronomy by Ibn al-Shatir and Qushji,127 the rejection of the Ptolemaic model on empirical rather than philosophical grounds by Ibn al-Shatir,128 and the development of a non-Ptolemaic model by Ibn al-Shatir that was mathematically identical to the heliocentric Copernical model.129
+Mo'ayyeduddin Urdi (d. 1266) was the first of the Maragheh astronomers to develop a non-Ptolemaic model, and he proposed a new theorem, the &quot;Urdi lemma&quot;.130 Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; (1201&lt;U+2013&gt;1274) resolved significant problems in the Ptolemaic system by developing the Tusi-couple as an alternative to the physically problematic equant introduced by Ptolemy.131 Tusi's student Qotb al-Din Shirazi (1236&lt;U+2013&gt;1311), in his The Limit of Accomplishment concerning Knowledge of the Heavens, discussed the possibility of heliocentrism. Al-Qazw&lt;U+012B&gt;n&lt;U+012B&gt; al-K&lt;U+0101&gt;tib&lt;U+012B&gt; (d. 1277), who also worked at the Maragheh observatory, in his Hikmat al-'Ain, wrote an argument for a heliocentric model, though he later abandoned the idea.132
+
+Medieval manuscript by Qutb al-Din al-Shirazi depicting an epicyclic planetary model.
+
+Ibn al-Shatir (1304&lt;U+2013&gt;1375) of Damascus, in A Final Inquiry Concerning the Rectification of Planetary Theory, incorporated the Urdi lemma, and eliminated the need for an equant by introducing an extra epicycle (the Tusi-couple), departing from the Ptolemaic system in a way that was mathematically identical to what Nicolaus Copernicus did in the 16th century. Unlike previous astronomers before him, Ibn al-Shatir was not concerned with adhering to the theoretical principles of natural philosophy or Aristotelian cosmology, but rather to produce a model that was more consistent with empirical observations. For example, it was Ibn al-Shatir's concern for observational accuracy which led him to eliminate the epicycle in the Ptolemaic solar model and all the eccentrics, epicycles and equant in the Ptolemaic lunar model. His model was thus in better agreement with empirical observations than any previous model,133 and was also the first that permitted empirical testing.134 His work thus marked a turning point in astronomy, which may be considered a &quot;Scientific Revolution before the Renaissance&quot;.135 His rectified model was later adapted into a heliocentric model by Copernicus,136 which was mathematically achieved by reversing the direction of the last vector connecting the Earth to the Sun.137 In the published version of his masterwork, De revolutionibus orbium coelestium, Copernicus also cites the theories of al-Battani, Arzachel and Averroes as influences,138 while the works of Ibn al-Haytham and al-Biruni were also known in Europe at the time.
+An area of active discussion in the Maragheh school, and later the Samarkand and Istanbul observatories, was the possibility of the Earth's rotation. Supporters of this theory included Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt;, Nizam al-Din al-Nisaburi (c. 1311), al-Sayyid al-Sharif al-Jurjani (1339&lt;U+2013&gt;1413), Ali Qushji (d. 1474), and Abd al-Ali al-Birjandi (d. 1525). Al-Tusi was the first to present empirical observational evidence of the Earth's rotation, using the location of comets relevant to the Earth as evidence, which Qushji elaborated on with further empirical observations while rejecting Aristotelian natural philosophy altogether. Both of their arguments were similar to the arguments later used by Nicolaus Copernicus in 1543 to explain the Earth's rotation (see Astronomical physics and Earth's motion section below).139
+However, it remains a fact that the Maragha school never made the big leap to heliocentrism.140 In addition, the influence of the Maragha school on Copernicus remains speculative, since there is no documentary evidence to prove it. The possibility that Copernicus independently developed the Tusi couple remains open, since no researcher has yet proven that he knew about Tusi&lt;U+00B4&gt;s work or the Maragha school.141142 It has been argued that, given some differences between the two models, it is more likely that Copernicus could have taken the ideas found in the Tusi couple from Proclus's Commentary on the First Book of Euclid.143 Another possible source for Copernicus's knowledge is the Questiones de Spera of Nicole Oresme, who described how a reciprocating linear motion of a celestial body could be produced by a combination of circular motions similar to those proposed by al-Tusi.144
+Multiversal cosmology
+
+Fakhr al-Din al-Razi (1149&lt;U+2013&gt;1209), in dealing with his conception of physics and the physical world in his Matalib, discusses Islamic cosmology and astronomy. He criticizes the idea of the Earth's centrality within the universe and &quot;explores the notion of the existence of a multiverse in the context of his commentary&quot; on the Qur'anic verse, &quot;All praise belongs to God, Lord of the Worlds.&quot; He raises the question of whether the term &quot;worlds&quot; in this verse refers to &quot;multiple worlds within this single universe or cosmos, or to many other universes or a multiverse beyond this known universe.&quot; In volume 4 of the Matalib, Al-Razi states:145
+
+Al-Razi rejected the Aristotelian and Avicennian view of the impossibility of multiple worlds or universes. He describes the main Aristotelian arguments against the existence of multiple worlds or universes, pointing out their weaknesses and refuting them. This rejection arose from his affirmation of atomism, as advocated by the Ash'ari school of Islamic theology, which entails the existence of vacant space in which the atoms move, combine and separate. He discussed more on the issue of the void in greater detail in volume 5 of the Matalib.146 He argued that God has the power to fill the vacuum with an infinite number of universes.147
+Observational astronomy
+
+
+An Arabic manuscript from the 13th century depicting Astronomers
+
+The transit of Venus and transit of Mercury were claimed to have been observed by medieval Islamic astronomers. In the 11th century, the Persian polymath Avicenna claimed to have observed the transit of Venus across the Sun. He took this as evidence that Venus was, at least sometimes, below the Sun (in the Ptolemaic cosmology).148 In the 12th century, the Andalusian astronomer Ibn Bajjah reported observing &quot;the two planets as black spots on the face of the Sun.&quot; In the 13th century, the Maragha astronomer Qotb al-Din Shirazi identified to Ibn Bajjah's observation as the transit of Venus and Mercury.149 However, Ibn Bajjah cannot have observed a Venus transit, as there were no Venus transits in his lifetime.150
+The astronomical tradition established by the Maragha school continued at the Ulugh Beg Observatory at Samarkand, in modern-day Uzbekistan. Founded by Ulugh Beg in the early 15th century, the observatory made considerable progress in observational astronomy. In the Zij-i Sultani, Beg determined the length of the sidereal year as 365d 5h 49m 15s, which has an error of +25s, making it more accurate than Nicolaus Copernicus' estimate which had an error of +30s. Beg also determined the Earth's axial tilt as 23.52 degrees, which remains the most accurate measurement to date. It was more accurate than later measurements by Copernicus and Tycho Brahe, and matches the currently accepted value precisely.151
+Islamic astronomy in the Far East
+
+Muslim astronomers were brought to China in order to work on calendar making and astronomy since the Abbasid period the first major introduction of Islamic Mathematics and Astronomy occurred during the Song dynasty.
+Ma Yize (ca. 910 &lt;U+2013&gt; 1005) was an important Chinese Muslim (Hui), Islamic astronomer and astrologist who worked as the chief official of the astronomical observatory for the Song dynasty. In the early 10th Century, the Chinese emperor of the Song dynasty encouraged the advancement of the study of astronomy and its related disciplines. In 961, the Emperor Taizu (r. 960&lt;U+2013&gt;976) appointed Ma Yize (910?&lt;U+2013&gt;1005) as the chief official to take charge of the government observatory. After compiling several important astrological works, including the Yingtianli (Calendar of Corresponding Heavens). His job was to provide observation, and computation of the regularities in celestial phenomena, using the Islamic methods. His findings were used by Wang Chuna in the compilation of Yingtianli, which was completed in 963. The calculation, based on a 7-day week system similar to that in the Islamic calendar, was first adopted in this document, which was the most important occurrence in the Chinese history of calendrical methods.
+Ma Yize might have consulted many works of Islamic mathematical astronomy into Chinese, including:
+
+Kitab al-Zij, 880, by Abu'Abdallah al-Battani (858&lt;U+2013&gt;929)
+al-Zij al-sabi, The Sabian Tables
+Kitab Matali' al-Buruj, On the Ascensions of the Signs of the Zodiac
+Kitab Aqdar al- Ittisalat, On the Quantities of the Astrological Applications
+
+It is possible that Ma was influenced by Al-Battani and Al-Hamdani. Owing to Ma's contribution to the compilation of 'Yingtianli', Ma was made a hereditary noble and his sons later succeeded his position with the Imperial Observatory.
+During Mongol Yuan Dynasty,152153154 The Chinese scholar Yeh-lu Chu'tsai accompanied Genghis Khan to Persia in 1210 and studied their calendar for use in the Mongol Empire.155 Kublai Khan brought Iranians to Beijing to construct an observatory and an institution for astronomical studies.156
+Several Chinese astronomers worked at the Maragheh observatory, founded by Nasir al-Din al-Tusi in 1259 under the patronage of Hulagu Khan in Persia.157 One of these Chinese astronomers was Fu Mengchi, or Fu Mezhai.158 In 1267, the Persian astronomer Jamal ad-Din, who previously worked at Maragha observatory, presented Kublai Khan with seven Persian astronomical instruments, including a terrestrial globe and an armillary sphere,159 as well as an astronomical almanac, which was later known in China as the Wannian Li (&quot;Ten Thousand Year Calendar&quot; or &quot;Eternal Calendar&quot;). He was known as &quot;Zhamaluding&quot; in China, where in 1271,160 he was appointed by Khan as the first director of the Islamic observatory in Beijing,161 known as the Islamic Astronomical Bureau, which operated alongside the Chinese Astronomical Bureau for four centuries. Islamic astronomy gained a good reputation in China for its theory of planetary latitudes, which did not exist in Chinese astronomy at the time, and for its accurate prediction of eclipses.162
+Some of the astronomical instruments constructed by the famous Chinese astronomer Guo Shoujing shortly afterwards resemble the style of instrumentation built at Maragheh.163 In particular, the &quot;simplified instrument&quot; (jianyi) and the large gnomon at the Gaocheng Astronomical Observatory show traces of Islamic influence.164 While formulating the Shoushili calendar in 1281, Shoujing's work in spherical trigonometry may have also been partially influenced by Islamic mathematics, which was largely accepted at Kublai's court.165 These possible influences include a pseudo-geometrical method for converting between equatorial and ecliptic coordinates, the systematic use of decimals in the underlying parameters, and the application of cubic interpolation in the calculation of the irregularity in the planetary motions.166
+Around 1384 during the Ming Dynasty, Emperor Zhu Yuanzhang ordered the Chinese translation and compilation of Islamic astronomical tables, a task that was carried out by the scholars Mashayihei, a Muslim astronomer, and Wu Bozong, a Chinese scholar-official. These tables came to be known as the Huihui Lifa (&lt;U+201C&gt;Muslim System of Calendrical Astronomy&lt;U+201D&gt;), which was published in China a number of times until the early 18th century,167 though the Qing Dynasty had officially abandoned the science of Astronomy in 1659.168 A Korean translation of the Huihui Lifa was also studied in Korea under the Joseon Dynasty during the time of Sejong the Great in the 15th century.169 The tradition of Chinese-Islamic astronomy survived in Korea for even longer, up until the early 19th century.170
+Islamic astronomy in Christian Europe
+ 
+During this period, Islamic-ruled regions of Europe, such as Al-Andalus, the Emirate of Sicily, and southern Italy, were slowly being reconquered by Christians. This led to the Arabic-Latin translation movement, which saw the assimilation of knowledge from the Islamic world by Western European science, including astronomy.171
+One of the most productive translators in Spain was Gerard of Cremona, who translated 87 books from Arabic to Latin. The astronomical texts he translated include Jabir ibn Aflah's Elementa astronomica,172 Ahmad ibn Muhammad ibn Kath&lt;U+012B&gt;r al-Fargh&lt;U+0101&gt;n&lt;U+012B&gt;'s On Elements of Astronomy on the Celestial Motions,173 the works of Thabit ibn Qurra and Hunayn ibn Ishaq,174 and the works of Arzachel, the Ban&lt;U+016B&gt; M&lt;U+016B&gt;s&lt;U+0101&gt; brothers, Ab&lt;U+016B&gt; K&lt;U+0101&gt;mil Shuj&lt;U+0101&gt; ibn Aslam, Abu al-Qasim, and Ibn al-Haytham (including the Book of Optics).175 The astronomical works translated by Plato of Tivoli included Al-Battani's astronomical and trigonometrical work De motu stellarum. Al-Khwarizmi's Astronomical tables (also containing trigonometric tables) were translated by Robert of Chester176 and by Adelard of Bath (fl. 1116&lt;U+2013&gt;1142), who also translated the Introduction to Astrology of Ab&lt;U+016B&gt; Ma'shar.177 Adelard associated with other scholars in Western England such as Peter Alfonsi and Walcher of Malvern who translated and developed the astronomical concepts brought from Islamic Spain.178 Other Arabic astronomical texts translated into Latin include Muhammad al-Fazari's Great Sindhind (based on the Surya Siddhanta and the works of Brahmagupta).179
+In addition to the Arabic-Latin translation movement in Western Europe, Byzantine astronomers also translated Arabic texts on astronomy into Medieval Greek during this time. In particular, Gregory Choniades, who had visited the famous Maragheh observatory, translated various Arabic books on astronomy, including for example the works of Abu Ma'shar, Ibn Yunus, Al-Khazini (who was of Byzantine Greek descent but raised in a Persian culture),180 Al-Khw&lt;U+0101&gt;rizm&lt;U+012B&gt;181 and Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; (such as the Zij-i Ilkhani and other Zij treatises) among others.182 Byzantine science thus played an important role in transmitting Arabic knowledge to Western Europe in later centuries, such as the transmission of the Tusi-couple, which later appeared in the work of Nicolaus Copernicus.183184
+1450&lt;U+2013&gt;1900
+This period was considered the period of stagnation, when the traditional system of astronomy continued to be practised with enthusiasm, but with decreasing innovation.185 It was believed there was no innovation of major significance during this period, but this view has been rejected by historians of astronomy in recent times, who argue that Muslim astronomers continued to make significant advances in astronomy through to the 16th century and possibly after this as well.186187 After the 16th century, there appears to have been little concern for theoretical astronomy, but observational astronomy in the Islamic tradition continued in the three Muslim gunpowder empires: the Ottoman Empire, the Safavid dynasty of Persia, and the Mughal Empire of India.
+Astronomical physics and Earth's motion
+
+
+Ali Qushji provided empirical evidence for the Earth's motion and developed an astronomical physics independent from Aristotelian physics and natural philosophy.
+
+The work of Ali Qushji (d. 1474), who worked at Samarkand and then Istanbul, is seen as a late example of innovation in Islamic theoretical astronomy and it is believed he may have possibly had some influence on Nicolaus Copernicus due to similar arguments concerning the Earth's rotation. Before Qushji, the only astronomer to present empirical evidence for the Earth's rotation was Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; (d. 1274), who used the phenomena of comets to refute Ptolemy's claim that a stationery Earth can be determined through observation. Al-Tusi, however, eventually accepted that the Earth was stationery on the basis of Aristotelian cosmology and natural philosophy. By the 15th century, the influence of Aristotelian physics and natural philosophy was declining due to religious opposition from Islamic theologians such as Al-Ghazali who opposed to the interference of Aristotelianism in astronomy, opening up possibilities for an astronomy unrestrained by philosophy. Under this influence, Qushji, in his Concerning the Supposed Dependence of Astronomy upon Philosophy, rejected Aristotelian physics and completely separated natural philosophy from astronomy, allowing astronomy to become a purely empirical and mathematical science. This allowed him to explore alternatives to the Aristotelian notion of a stationery Earth, as he explored the idea of a moving Earth. He also observed comets and elaborated on al-Tusi's argument. He took it a step further and concluded, on the basis of empirical evidence rather than speculative philosophy, that the moving Earth theory is just as likely to be true as the stationary Earth theory and that it is not possible to empirically deduce which theory is true.188189190
+His predecessor al-Tusi had previously realized that &quot;the monoformity of falling bodies, and the uniformity of celestial motions,&quot; both moved &lt;U+201C&gt;in a single way,&lt;U+201D&gt; though he still relied on Aristotelian philosophy to provide &quot;certain principles that only the natural philosophers could provide the astronomer.&quot; Qushji took this concept further and proposed that &quot;the astronomer had no need for Aristotelian physics and in fact should establish his own physical principles independently of the natural philosophers.&quot; Alongside his rejection of Aristotle's concept of a stationary Earth,191 Qushji also rejected the Aristotelian notion of the heavenly bodies moving in uniform circular motion.192 His work was an important step away from Aristotelian physics and towards an independent astronomical physics.193 This is considered to be a &quot;conceptual revolution&quot;194195 that had no precedent in European astronomy prior to the Copernican Revolution in the 16th century.196 Despite the similarity in their discussions regarding the Earth's motion, there is uncertainty over whether Qushji had any influence on Copernicus. However, it is likely that they both may have arrived at similar conclusions due to using the earlier work of al-Tusi as a basis. This is more of a possibility considering &quot;the remarkable coincidence between a passage in De revolutionibus (I.8) and one in &lt;U+1E6C&gt;&lt;U+016B&gt;s&lt;U+012B&gt;&lt;U+2019&gt;s Tadhkira (II.1[6]) in which Copernicus follows &lt;U+1E6C&gt;&lt;U+016B&gt;s&lt;U+012B&gt;&lt;U+2019&gt;s objection to Ptolemy&lt;U+2019&gt;s &lt;U+201C&gt;proofs&lt;U+201D&gt; of the Earth&lt;U+2019&gt;s immobility.&quot; This can be considered as evidence that not only was Copernicus influenced by the mathematical models of Islamic astronomers, but may have also been influenced by the astronomical physics they began developing and their views on the Earth's motion.197
+In the 16th century, the debate on the Earth's motion was continued by Al-Birjandi (d. 1528), who in his analysis of what might occur if the Earth were moving, develops a hypothesis similar to Galileo Galilei's notion of &quot;circular inertia&quot;,198 which he described in the following observational test (as a response to one of Qutb al-Din al-Shirazi's arguments):
+
+Planetary theory
+ It was traditionally believed that Islamic astronomers made no more advances in planetary theory after the work of Ibn al-Shatir in the 14th century, but recent studies have shown that there were several significant advances in planetary theory through to the 16th century. Ali Qushji, for example, improved on al-Tusi's planetary model and presented an alternative planetary model for Mercury.199 He also rejected the Aristotelian notion of the planets moving in uniform circular motion.200 George Saliba also studied the works of a 16th century astronomer, Shams al-Din al-Khafri (d. 1550), a Safavid commentator on earlier Maragha astronomers. Saliba wrote the following on al-Khafri's work:
+
+
+A model of the heliocentric system attributed to Nicolaus Copernicus.
+
+Ottoman observational astronomy
+
+Another notable 16th century Muslim astronomer was the Ottoman astronomer Taqi al-Din, who built the Istanbul observatory of Taqi al-Din in 1577, where he carried out astronomical observations until 1580. He produced a Zij (named Unbored Pearl) and astronomical catalogues that were more accurate than those of his contemporaries, Tycho Brahe and Nicolaus Copernicus. Taqi al-Din was also the first astronomer to employ a decimal point notation in his observations rather than the sexagesimal fractions used by his contemporaries and predecessors.201 He also invented a variety of astronomical instruments, including accurate mechanical astronomical clocks from 1556 to 1580.
+After the destruction of the Istanbul observatory of Taqi al-Din in 1580, astronomical activity stagnated in the Ottoman Empire, until the introduction of Copernican heliocentrism in 1660, when the Ottoman scholar Ibrahim Efendi al-Zigetvari Tezkireci translated No&lt;U+00EB&gt;l Duret's French astronomical work (written in 1637) into Arabic.202
+Islamic astronomy in India
+
+In the Mughal Empire, the 16th and 17th centuries saw a synthesis between Islamic and Indian astronomy, where Islamic observational techniques and instruments were combined with Hindu computational techniques. While there appears to have been little concern for theoretical astronomy, Muslim and Hindu astronomers in India continued to make advances in observational astronomy and produced nearly a hundred Zij treatises. Humayun built a personal observatory near Delhi, while Jahangir and Shah Jahan were also intending to build observatories but were unable to do so. After the decline of the Mughal Empire, however, it was a Hindu king, Jai Singh II of Amber, who attempted to revive the Islamic tradition of astronomy in India. In the early 18th century, he built several large observatories called Yantra Mandirs in order to rival the famous Samarkand observatory, and in order to update Ulugh Beg's Zij-i-Sultani with more accurate observations. The instruments and observational techniques used at the observatory were mainly derived from the Islamic tradition, and the computational techniques from the Hindu tradition.203204 In particular, one of the most remarkable astronomical instruments invented by Muslims in Mughal India is the seamless celestial globe (see Globes below).
+Jai Singh also invited European Jesuit astronomers to his observatory, who had bought back the astronomical tables compiled by Philippe de La Hire in 1702. After examining La Hire's work, Jai Singh concluded that the techniques and instruments used in the European tradition were inferior to the Islamic and Indian traditions. It is uncertain whether Islamic astronomers in India were aware of the Copernican Revolution via the Jesuits, but it appears they were not concerned with theoretical astronomy, hence the theoretical advances in Europe did not interest them at the time.205 They did, however, employ the use of telescopes. In the Zij-i Muhammad Shahi, Jai Singh states: &quot;telescopes were constructed in my kingdom and using them a number of observations were carried out.&quot;206
+Following the arrival of the British East India Company in the 18th century, Islamic astronomy was slowly displaced by European astronomy, though there were attempts at harmonizing the two traditions. For example, the Indian Islamic scholar Mir Muhammad Hussain had travelled to England in 1774 to study Western science and, on his return to India in 1777, he wrote a Persian treatise on astronomy. He wrote about the heliocentric model, and argued that there exists an infinite number of universes (awalim), each with their own planets and stars, and that this demonstrates the omnipotence of God, who is not confined to a single universe. Hussain's idea of a universe resembles the modern concept of a galaxy, thus his view corresponds to the modern view that the universe consists of billions of galaxies, each one consisting of billions of stars.207 The last known Zij treatise was the Zij-i Bahadurkhani, written in 1838 by the Indian astronomer Ghulam Hussain Jaunpuri (1760&lt;U+2013&gt;1862) and printed in 1855, dedicated to Bahadur Khan. The treatise incorporated the heliocentric system into the Zij tradition.208
+Observatories
+Islamic astronomers had based their work largely on actual observations of the heavens, far more so than earlier Greek astronomers who relied heavily upon abstract calculation.209 This led to the emergence of the modern astronomical observatory as a research institute210 (as opposed to a private observation post as was the case in ancient times)211 being first introduced by medieval Muslim astronomers, who produced accurate Zij treatises using these observatories. The Islamic observatory was the first specialized astronomical institution with its own scientific staff,212 director, astronomical program,213 large astronomical instruments, and building where astronomical research and observations are carried out. Islamic observatories were also the first to employ enormously large astronomical instruments in order to greatly improve the accuracy of their observations.214
+The medieval Islamic observatories were also the earliest institutions to emphasize group research (as opposed to individual research) and where &quot;theoretical investigations went hand in hand with observations.&quot; In this sense, they were similar to modern scientific research institutions.215
+Early observatories
+The first systematic observations in Islam are reported to have taken place under the patronage of al-Ma'mun, and the first Islamic observatories were built in the 9th century Iraq under his patronage. In many private observatories from Damascus to Baghdad, meridian degrees were measured, solar parameters were established, and detailed observations of the Sun, Moon, and planets were undertaken. One of these early observatories in Baghdad was the Al-Shammisiyyah observatory, where between 825 to 835, Habash al-Hasib al-Marwazi conducted various observations and estimated a number of geographic and astronomical values.216
+In the 10th century, the Buwayhid dynasty encouraged the undertaking of extensive works in Astronomy, such as the construction of a large scale instrument with which observations were made in the year 950. We know of this by recordings made in the zij of astronomers such as Ibn al-Alam. The great astronomer Abd Al-Rahman Al Sufi was patronised by prince 'Adud al-Dawla, who systematically revised Ptolemy's catalogue of stars. Abu-Mahmud al-Khujandi also constructed an observatory in Ray, Iran where he is known to have constructed the first huge mural sextant in 994 AD.217 Sharaf al-Daula also established a similar observatory in Baghdad. Reports by Ibn Yunus and al-Zarqall in Toledo and Cordoba indicate the use of sophisticated instruments for their time.
+
+Current status of Maragheh observatory.
+
+It was Malik Shah I who established the first large observatory, probably in Isfahan. It was here where Omar Khayy&lt;U+00E1&gt;m with many other collaborators constructed a zij and formulated the Persian solar calendar, a.k.a. the jalali calendar, the most accurate solar calendar to date. A modern version of this calendar is still in official use in Iran today.
+Late medieval observatories
+
+The more influential observatories, however, were established beginning in the 13th century. The Maragheh observatory was founded by Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; under the patronage of Hulegu Khan in the 13th century. Here, al-Tusi supervised its technical construction at Maragheh. The facility contained resting quarters for Hulagu Khan, as well as a library and mosque. Some of the top astronomers of the day gathered there, and their collaboration resulted in important alternatives to the Ptolemaic model over a period of 50 years. The observations of al-Tusi and his team of researchers were compiled in the Zij-i Ilkhani.
+
+Ulugh Beg, founder of the large Ulugh Beg Observatory in Samarkand, honored on this Soviet stamp.
+
+In 1420, prince Ulugh Beg, himself an astronomer and mathematician, founded another large observatory, the Ulugh Beg Observatory, in Samarkand. The remains of the observatory were excavated in 1908 by Russian teams. Ulugh Beg, alongside his team of researchers that included Jamsh&lt;U+012B&gt;d al-K&lt;U+0101&gt;sh&lt;U+012B&gt; and Ali Qushji, compiled the results of their observations in the Zij-i-Sultani (1437).
+
+Istanbul observatory of Taqi al-Din in 1577.
+
+In 1577, Taqi al-Din Muhammad ibn Ma'ruf founded a large observatory in Istanbul. This was on the same scale as those in Maragha and Samarkand as well as that of his contemporary Tycho Brahe.
+In the Mughal Empire, Humayun built a personal observatory near Delhi in the 16th century, while Jahangir and Shah Jahan were also intending to build observatories but were unable to do so. After the decline of the Mughal Empire, the Hindu king Jai Singh II of Amber built several large observatories called Yantra Mandirs inspired by the famous Samarkand observatory. The instruments and observational techniques used at the observatory were mainly derived from the Islamic tradition, and the computational techniques from the Hindu tradition.218219
+Instruments
+
+
+A Persian (Iranian) astrolabe from 1208.
+
+Modern knowledge of the instruments used by Muslim astronomers primarily comes from two sources. First the remaining instruments in private and museum collections today, and second the treatises and manuscripts preserved from the Middle Ages.
+Muslims both made many improvements to instruments already in use before their time, such as adding new scales or details and significantly enlarging them to improve accuracy,220 and invented many of their own new instruments. Islamic astronomers were also the first to build enormously large scientific instruments in order to greatly improve the accuracy of observations.221 Their contributions to astronomical instrumentation are abundant. Many of these instruments were often invented or designed for Islamic purposes, such as the determination of the Qibla (direction to Mecca) or the times of Salah prayers.
+Astrolabes and planisphere
+Brass astrolabes were developed in much of the Islamic world, often as an aid to finding the qibla. The earliest known example is dated 315 AH, (927/8 CE). The first person credited for building the Astrolabe in the Islamic world is reportedly Fazari.222 Though the first astrolabe to chart the stars was invented in the Hellenistic civilization, Fazari made several improvements to the device, such as the introduction of angular scales to the astrolabe,223 adding circles indicating azimuths on the horizon.224 The Arabs then took it during the Abbasid Caliphate and perfected it to be used to find the beginning of Ramadan, the hours of prayer (Salah), the direction of Mecca (Qibla), and over a thousand other uses. In the 10th century, Al-Sufi first described over 1,000 different uses of an astrolabe, in areas as diverse as astronomy, astrology, horoscopes, navigation, surveying, timekeeping, Qibla, Salah, etc.
+
+Large astrolabe
+
+
+Ibn Yunus in the 10th century accurately observed more than 10,000 entries for the sun's position for many years using a large astrolabe with a diameter of nearly 1.4 meters.225
+
+Mechanical geared astrolabe
+
+
+The first mechanical astrolabes with gears were invented in the Muslim world, and were perfected by Ibn Samh (c. 1020). One such device with eight gear-wheels was also constructed by Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; in 996. These can be considered as an ancestor of the mechanical clocks developed by later Muslim engineers.226
+
+An 18th century Persian astrolabe, kept at The Whipple Museum of the History of Science in Cambridge, England.
+
+
+Orthographical astrolabe
+
+
+Abu Rayhan al-Biruni invented and wrote the earliest treatise on the orthographical astrolabe in the 11th century.
+
+An astrolabe from Al-Andalus dating back to 1067.
+
+
+Universal astrolabe (Saphaea)
+
+
+The first astrolabe instruments were used to read the rise of the time of rise of the Sun and fixed stars. The first universal astrolabes were later constructed in the Islamic world and which, unlike their predecessors, did not depend on the latitude of the observer and could be used anywhere on the Earth. The basic idea for a latitude-independent astrolabe was conceived in the 9th century by Habash al-Hasib al-Marwazi in Baghdad and the topic was later discussed in the early 11th century by Al-Sijzi in Persia.227
+The first known universal astrolabe to be constructed was by Ali ibn Khalaf al-Shakkaz, an Arabic herbalist or apothecary in 11th century Al-Andalus. His instrument could solve problems of spherical astronomy for any geographic latitude, though in a somewhat more complicated fashion than the standard astrolabe. Another, more advanced and more famous, universal astrolabe was constructed by Ab&lt;U+016B&gt; Ish&lt;U+0101&gt;q Ibr&lt;U+0101&gt;h&lt;U+012B&gt;m al-Zarq&lt;U+0101&gt;l&lt;U+012B&gt; (Arzachel) soon after. His instrument became known in Europe as the &quot;Saphaea&quot;.228 It was a universal lamina (plate) which &quot;constituted a universal device representing a stereographic projection for the terrestrial equator and could be used to solve all the problems of spherical astronomy for any latitude.&quot;229
+
+Zuraqi
+
+
+The Zuraqi is a unique astrolabe invented by Al-Sijzi for a heliocentric planetary model in which the Earth is moving rather than the sky.230
+
+The planisphere was invented by Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt;.
+
+
+Planisphere
+
+
+In the early 11th century, Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; invented and wrote the first treatise on the planisphere, which was an early analog computer.231 The astrolabe was a predecessor of the modern planisphere.
+
+Linear astrolabe
+
+
+A famous work by Sharaf al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; is one in which he describes the linear astrolabe, sometimes called the &quot;staff of al-Tusi&quot;, which he invented.232
+Analog computers
+Various analog computer devices were invented to compute the latitudes of the Sun, Moon, and planets, the ecliptic of the Sun, the time of day at which planetary conjunctions will occur, and for performing linear interpolation.
+
+Equatorium
+
+
+The Equatorium was an analog computer invented by Ab&lt;U+016B&gt; Ish&lt;U+0101&gt;q Ibr&lt;U+0101&gt;h&lt;U+012B&gt;m al-Zarq&lt;U+0101&gt;l&lt;U+012B&gt; (Arzachel) in al-Andalus, probably around 1015 CE. It is a mechanical device for finding the longitudes and positions of the Moon, Sun, and planets, without calculation using a geometrical model to represent the celestial body's mean and anomalistic position.233
+
+Mechanical geared calendar computer
+
+
+Abu Rayhan Biruni also invented the first mechanical lunisolar calendar computer which employed a gear train and eight gear-wheels.234 This was an early example of a fixed-wired knowledge processing machine.235
+
+Volvelle
+
+
+The volvelle, also called a wheel chart, is a type of slide chart, paper constructions with rotating parts. It is considered an early example of a paper analog computer.236 The volvelle can be traced back to &quot;certain Arabic treateses on humoral medicine&quot;237 and to Biruni (c. 1000) who made important contributions to the development of the volvelle.238 In the 20th century, the volvelle had many diverse uses.
+
+The torquetum was invented by Jabir ibn Aflah (Geber).
+
+
+Torquetum
+
+
+Jabir ibn Aflah (Geber) (c. 1100&lt;U+2013&gt;1150) invented the torquetum, an observational instrument and mechanical analog computer device used to transform between spherical coordinate systems.239 It was designed to take and convert measurements made in three sets of coordinates: horizon, equatorial, and ecliptic.
+
+Castle clock with programmable analog computer
+
+
+In 1206, Al-Jazari invented his largest astronomical clock, the &quot;castle clock&quot;.240 It displayed the zodiac and the solar and lunar orbits. Another innovative feature of the clock was a pointer which traveled across the top of a gateway and caused automatic doors to open every hour.241
+
+Mechanical astrolabe with geared calendar computer
+
+
+In 1235, Abi Bakr of Isfahan invented a brass astrolabe with a geared calendar movement based on the design of Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt;'s mechanical calendar computer.242 Abi Bakr's geared astrolabe uses a set of gear-wheels and is the oldest surviving complete mechanical geared machine in existence.243244
+
+Plate of Conjunctions
+
+
+In the 15th century, al-Kashi invented the Plate of Conjunctions, a computing instrument used to determine the time of day at which planetary conjunctions will occur,245 and for performing linear interpolation.246
+
+Planetary computer
+
+
+In the 15th century, al-Kashi also invented a mechanical planetary computer which he called the Plate of Zones, which could graphically solve a number of planetary problems, including the prediction of the true positions in longitude of the Sun and Moon,247 and the planets in terms of elliptical orbits;248 the latitudes of the Sun, Moon, and planets; and the ecliptic of the Sun. The instrument also incorporated an alhidade and ruler.249
+Astronomical clocks
+The Muslims constructed a variety of astronomical clocks for use in their observatories.250
+
+Water-powered astronomical clocks
+
+
+Al-Jazari devised monumental water-powered astronomical clocks which displayed moving models of the Sun, Moon, and stars. His largest astronomical clock was the &quot;castle clock&quot;.251
+
+Mechanical observational clock
+
+
+Taqi al-Din invented the &quot;observational clock&quot;, which he described as &quot;a mechanical clock with three dials which show the hours, the minutes, and the seconds.&quot; This was the first clock to measure time in seconds, and he used it for astronomical purposes, specifically for measuring the right ascension of the stars. This is considered one of the most important innovations in 16th-century practical astronomy, as previous clocks were not accurate enough to be used for astronomical purposes.252 He further improved the observational clock, as described in his Sidrat al-muntaha, using only one dial to represent the hours, minutes and seconds. He describes this observational clock as &quot;a mechanical clock with a dial showing the hours, minutes and seconds and we divided every minute into five seconds.&quot;253
+Dials
+Muslim astronomers and engineers invented a variety of dials for timekeeping, and for determining the times of the five daily prayers.
+
+Sundials
+
+
+Muslims made several important improvements to the theory and construction of sundials, which they inherited from their Indian and Hellenistic predecessors. Al-Khwarizmi made tables for these instruments which considerably shortened the time needed to make specific calculations. Sundials were frequently placed on mosques to determine the time of prayer. One of the most striking examples was built in the 14th century by the muwaqqit (timekeeper) of the Umayyad Mosque in Damascus, Ibn al-Shatir.254 Muslim astronomers and engineers were the first to write instructions on the construction of vertical sundials and polar sundials.255
+Since ancient dials were nodus-based with straight hour-lines, they indicated unequal hours &lt;U+2014&gt; also called temporary hours &lt;U+2014&gt; that varied with the seasons, since every day was divided into twelve equal segments; thus, hours were shorter in winter and longer in summer. Abu'l-Hasan Ibn al-Shatir was aware that &quot;using a gnomon that is parallel to the Earth's axis will produce sundials whose hour lines indicate equal hours on any day of the year.&quot; His fragments of his sundial in a Damascus museum is the oldest polar-axis sundial still in existence. The concept later appeared in Western sundials from at least 1446.256257
+
+Navicula de Venetiis
+
+
+This was a universal horary dial invented in the 9th century Baghdad. It was used for accurate timekeeping by the Sun and Stars, and could be observed from any latitude.258 This was later known in Europe as the &quot;Navicula de Venetiis&quot;,259 which was considered the most sophisticated timekeeping instrument of the Renaissance.260
+
+Compass dial
+
+
+In the 13th century, Ibn al-Shatir devised a timekeeping device incorporating both a universal sundial and a magnetic compass for the purpose of finding the times of Salah prayers.261
+Globes
+
+An armillary sphere.
+
+
+Armillary sphere
+
+
+An armillary sphere had similar applications to a celestial globe. No early Islamic armillary spheres survive, but several treatises on &lt;U+201C&gt;the instrument with the rings&lt;U+201D&gt; were written.
+
+The spherical astrolabe was invented by Islamic astronomers.
+
+
+Spherical astrolabe
+
+
+The spherical astrolabe was first produced in the Islamic world.262 It was an Islamic variation of the astrolabe and the armillary sphere, of which only one complete instrument, from the 14th century, has survived.
+
+Celestial globes
+
+
+Celestial globes were used primarily for solving problems in celestial astronomy. Today, 126 such instruments remain worldwide, the oldest from the 11th century. The altitude of the sun, or the Right Ascension and Declination of stars could be calculated with these by inputting the location of the observer on the meridian ring of the globe.
+In the 12th century, Jabir ibn Aflah (Geber) was &quot;the first to design a portable celestial sphere to measure and explain the movements of celestial objects.&quot;
+
+Seamless celestial globe
+
+
+The seamless celestial globe invented by Muslim metallurgists and instrument-makers in Mughal India, specifically Lahore and Kashmir, is considered to be one of the most remarkable feats in metallurgy and engineering. All globes before and after this were seamed, and in the 20th century, it was believed by metallurgists to be technically impossible to create a metal globe without any seams. It was in the 1980s, however, that Emilie Savage-Smith discovered several celestial globes without any seams in Lahore and Kashmir. The earliest was invented in Kashmir by the Muslim metallurgist Ali Kashmiri ibn Luqman in 998 AH (1589&lt;U+2013&gt;90 CE) during Akbar the Great's reign; another was produced in 1070 AH (1659&lt;U+2013&gt;60 CE) by the Sindhi Astronomer Muhammad Salih Tahtawi with Arabic and Persian inscriptions during the reign of Shah Jahan. 21 such globes were produced, and these remain the only examples of seamless metal globes. These Mughal metallurgists developed the method of lost-wax casting in order to produce these globes.263
+These seamless celestial globes are considered to be an unsurpassed feat in metallurgy, hence some consider this achievement to be comparable to that of the Great Pyramid of Giza which was considered an unsurpassed feat in architecture until the 19th century.
+Optical instruments
+
+Observation tube
+
+
+The first reference to an &quot;observation tube&quot; is found in the work of al-Battani (Albatenius) (853&lt;U+2013&gt;929), and the first exact description of the observation tube was given by al-Biruni (973&lt;U+2013&gt;1048), in a section of his work that is &quot;dedicated to verifying the presence of the new crescent on the horizon.&quot; Though these early observation tubes did not have lenses, they &quot;enabled an observer to focus on a part of the sky by eliminating light interference.&quot; These observation tubes were later adopted in Latin-speaking Europe, where they influenced the development of the telescope.264
+
+Experimental device with apertures
+
+
+In order to prove that &quot;light is emitted from every point of the moon's illuminated surface,&quot; Ibn al-Haytham (Alhazen) built an &quot;ingenious experimental device&quot; showing &quot;that the intensity of the light-spot formed by the projection of the moonlight through two small apertures onto a screen diminishes constantly as one of the apertures is gradually blocked up.&quot;265
+
+Magnifying lens
+
+
+The first optical research to describe a magnifying lens used in an instrument was found in a book called the Book of Optics (1021) written by Ibn al-Haytham (Alhazen).266 His descriptions were fundamental to the development of the telescope and helped set the parameters in Europe for the later advances in telescopic technology.267 His additional work in light refraction, parabolic mirrors, as well as the creation of other instruments such as the camera obscura, also helped spark the Scientific Revolution.268269
+Quadrants
+A number of mural instruments, including several different quadrants and sextants, were invented by Muslim astronomers and engineers.
+
+The quadrant was invented by Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; al-Khw&lt;U+0101&gt;rizm&lt;U+012B&gt;. This illustration was drawn by Tycho Brahe.
+
+
+Sine quadrant
+
+
+The sine quadrant, invented by Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; al-Khw&lt;U+0101&gt;rizm&lt;U+012B&gt; in the 9th century Baghdad, was used for astronomical calculations.270 Also known as the &quot;Sinecal Quadrant&quot; (the Arabic term for it is &quot;Rubul Mujayyab&quot;), it was used for solving trigonometric problems and taking astronomical observations. It was developed by al-Khwarizmi in the 9th century and remained prevalent until the 19th century. Its defining feature is a graph paper like grid on one side that is divided into sixty equal intervals on each axis and is also bounded by a 90 degree graduated arc. A cord was attached to the apex of the quadrant with a bead at the end of it to act as a plumb bob. They were also sometimes drawn on the back of astrolabes.271
+
+Horary quadrant
+
+
+The first horary quadrant for specific latitudes, was invented by Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; al-Khw&lt;U+0101&gt;rizm&lt;U+012B&gt; in the 9th century Baghdad, center of the development of quadrants.272 It was used to determine time (especially the times of prayer) by observations of the Sun or stars.273 The horary quadrant could be used to find the time either in equal or unequal (length of the day divided by twelve) hours. Different sets of markings were created for either equal or unequal hours. For measuring the time in equal hours, the horary quadrant could only be used for one specific latitude while a quadrant for unequal hours could be used anywhere based on an approximate formula. One edge of the quadrant had to be aligned with the sun, and once aligned, a bead on the end of a plumbline attached to the centre of the quadrant showed the time of the day.274
+
+Universal horary quadrant (Quadrans Novus)
+
+
+The universal horary quadrant was an ingenious mathematical device invented by al-Khwarizmi in the 9th century Baghdad and which was later known as the &quot;Quadrans Vetus&quot; (Old Quadrant) in medieval Europe from the 13th century. It could be used for any latitude on Earth and at any time of the year to determine the time in hours from the altitude of the Sun. This was the second most widely used astronomical instrument during the Middle Ages after the astrolabe. One of its main purposes in the Islamic world was to determine the times of Salah.275
+
+Ulugh Beg's mural sextant, constructed in Samarkand, Uzbekistan, during the 15th century.
+
+
+Astrolabic/Almucantar quadrant (Quadrans Vetus)
+
+
+The astrolabic or almucantar quadrant was invented in the medieval Islamic world, and it employed the use of trigonometry. The term &quot;almucantar&quot; is itself derived from Arabic.276 The almucantar quadrant was originally modified from the astrolabe.277 It was invented in Egypt in the 11th or 12th century, and was later known in Europe as the &quot;Quadrans Vetus&quot; (New Quadrant).278 It was intended as a simplified alternative to the astrolabe serving a specific latitude. According to David King:279
+
+
+Universal quadrant (Shakk&lt;U+0101&gt;z&lt;U+012B&gt;ya)
+
+
+The universal (shakk&lt;U+0101&gt;z&lt;U+012B&gt;ya) quadrant was used for solving astronomical problems for any latitude. These quadrants had either one or two sets of shakk&lt;U+0101&gt;z&lt;U+012B&gt;ya grids and were developed in the 14th century in Syria. Some astrolabes are also printed on the back with the universal quadrant like an astrolabe created by Ibn al-Sarr&lt;U+0101&gt;j.280 The Shakkaziya quadrant produced by Jamal al-Din al-Maridini was an analog computer for solving problems of spherical astronomy.281 By the time of the Mamluk Sultanate, Muslim astronomers &quot;developed the quadrant to all conceivable limits; it virtually replaced the astrolabe in Syria and Egypt in Mamluk and Ottoman times.&quot;282
+Sextants
+
+Mural sextant
+
+
+The first sextant was constructed in Ray, Iran, by Abu-Mahmud al-Khujandi in 994. It was a very large mural sextant that achieved a high level of accuracy for astronomical measurements, which he described his in his treatise, On the obliquity of the ecliptic and the latitudes of the cities.283
+
+Fakhri sextant
+
+
+In the 15th century, Ulugh Beg constructed the Fakhri sextant, which had a radius of approximately 36 meters. Constructed in Samarkand, Uzbekistan, the arc was finely constructed with a staircase on either side to provide access for the assistants who performed the measurements.
+
+Framed sextant
+
+
+At the Istanbul observatory of Taqi al-Din between 1577 and 1580, Taqi al-Din invented the mushabbaha bi'l manattiq, a framed sextant with cords for the determination of the equinoxes similar to what Tycho Brahe later used.284
+Other instruments
+Various other astronomical instruments were also invented in the Islamic world:
+
+Alhidade: The alhidade was invented in the Islamic world, while the term &quot;alhidade&quot; is itself derived from Arabic.
+Compendium instrument: A compendium was a multi-purpose astronomical instrument, first constructed by the Muslim astronomer Ibn al-Shatir in the 13th century. His compendium featured an alhidade and polar sundial among other things. Al-Wafa'i developed another compendium in the 15th century which he called the &quot;equatorial circle&quot;, which also featured a horizontal sundial. These compendia later became popular in Renaissance Europe.285
+Orthogonal and regular grids: Islamic quadrants used for various astronomical and timekeeping purposes from the 10th century introduced orthogonal and regular grids and markings that are identical to modern graph paper.286287
+Qibla indicators: In the 17th century Safavid Persia, two unique brass instruments with Mecca-centred world maps engraved on them were produced primarily for the purpose of finding the Qibla. These instruments were engraved with cartographic grids to make it more convenient to find the direction and distance to Mecca at the centre from anywhere on the Earth, which may be based on cartographic grids dating back to 10th century Baghdad.288 One of the two instruments, produced by Muhammad Husayn,289 also had a sundial and compass attached to it.290
+Shadow square: The shadow square was an instrument used to determine the linear height of an object, in conjunction with the alidade, for angular observations.291 It was invented by Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; al-Khw&lt;U+0101&gt;rizm&lt;U+012B&gt; in the 9th century Baghdad.292
+
+List of notable treatises
+Zij treatises
+
+
+Ibrahim al-Fazari (d. 777) and Muhammad al-Fazari (d. 796/806)
+
+Az-Zij &lt;U+201B&gt;al&lt;U+0101&gt; Sin&lt;U+012B&gt; al-&lt;U+201B&gt;Arab (c. 750)
+
+Yaq&lt;U+016B&gt;b ibn T&lt;U+0101&gt;riq (d. 796)
+
+Az-Zij al-Mahlul min as-Sindhind li-Darajat Daraja
+
+Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; al-Khw&lt;U+0101&gt;rizm&lt;U+012B&gt; (Latinized as Algorismi) (c. 780&lt;U+2013&gt;850)
+
+Zij al-Sindhind (c. 830)
+
+Muhammad ibn J&lt;U+0101&gt;bir al-Harr&lt;U+0101&gt;n&lt;U+012B&gt; al-Batt&lt;U+0101&gt;n&lt;U+012B&gt; (Latinized as Albategni) (853&lt;U+2013&gt;929)
+
+Az-Zij as-Sabi
+
+Abd Al-Rahman Al Sufi (Latinized as Azophi) (903&lt;U+2013&gt;986)
+
+Book of Fixed Stars (c. 964)
+
+Ibn Yunus (c. 950&lt;U+2013&gt;1009)
+
+Zij al-Kabir al-Hakimi
+
+Al-Zarqali (Latinized as Arzachel) (1028&lt;U+2013&gt;1087)
+
+Tables of Toledo
+
+Al-Khazini (fl. 1115&lt;U+2013&gt;1130)
+
+Az-Zij as-Sanjar&lt;U+012B&gt; (Sinjaric Tables) (1115&lt;U+2013&gt;1116)
+
+Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; (1201&lt;U+2013&gt;1274)
+
+Zij-i Ilkhani (Ilkhanic Tables) (1272)
+
+Jamsh&lt;U+012B&gt;d al-K&lt;U+0101&gt;sh&lt;U+012B&gt; (1380&lt;U+2013&gt;1429)
+
+Khaqani Zij
+
+Ulugh Beg (1394&lt;U+2013&gt;1449)
+
+Zij-i-Sultani (1437)
+
+Taqi al-Din (1526&lt;U+2013&gt;1585)
+
+Unbored Pearl (1577&lt;U+2013&gt;1580)
+
+
+Almanacs
+The word &quot;Almanac&quot; is an Arabic word.293 The modern almanac differs from earlier astronomical tables (such as the earlier Babylonian, Ptolemaic and Zij tables) in the sense that &quot;the entries found in the almanacs give directly the positions of the celestial bodies and need no further computation&quot;, in contrast to the more common &quot;auxiliary astronomical tables&quot; based on Ptolemy's Almagest. The earliest known almanac in this modern sense is the Almanac of Azarqueil written in 1087 by Ab&lt;U+016B&gt; Ish&lt;U+0101&gt;q Ibr&lt;U+0101&gt;h&lt;U+012B&gt;m al-Zarq&lt;U+0101&gt;l&lt;U+012B&gt; (Latinized as Azarqueil) in Toledo, Al-Andalus. The work provided the true daily positions of the sun, moon and planets for four years from 1088 to 1092, as well as many other related tables. A Latin translation and adaptation of the work appeared as the Tables of Toledo in the 12th century and the Alfonsine tables in the 13th century.294
+Treatises on instruments
+In the 12th century, al-Khazini wrote the Risala fi'l-alat (Treatise on Instruments) which has seven parts describing different scientific instruments: the triquetrum, dioptra, a &quot;triangular instrument&quot;, the quadrant, the astrolabe, and instruments involving reflection.295
+In the 14th century Egypt, Najm al-Din al-Misri (c. 1325) wrote a treatise describing over 100 different types of scientific and astronomical instruments, many of which he invented himself.296
+In 1416, al-Kashi wrote the Treatise on Astronomical Observational Instruments, which described a variety of different instruments, including the triquetrum and armillary sphere, the equinoctial armillary and solsticial armillary of Mo'ayyeduddin Urdi, the sine and versine instrument of Urdi, the sextant of al-Khujandi, the Fakhri sextant at the Samarqand observatory, a double quadrant Azimuth-altitude instrument he invented, and a small armillary sphere incorporating an alhidade which he invented.297
+Other works
+
+Ja'far Muhammad ibn M&lt;U+016B&gt;s&lt;U+0101&gt; ibn Sh&lt;U+0101&gt;kir (Latinized as Mohammed Ben Musa) (800&lt;U+2013&gt;873)
+
+Book on the motion of the orbs
+Astral Motion
+The Force of Attraction
+
+Ahmad ibn Muhammad ibn Kath&lt;U+012B&gt;r al-Fargh&lt;U+0101&gt;n&lt;U+012B&gt; (Latinized as Alfraganus) (d. 850)
+
+Elements of astronomy on the celestial motions (c. 833)
+Kitab fi Jawami Ilm al-Nujum
+
+Ibn al-Haytham (Latinized as Alhacen) (965&lt;U+2013&gt;1039)
+
+On the Configuration of the World
+Doubts concerning Ptolemy (c. 1028)
+The Resolution of Doubts (c. 1029)
+The Model of the Motions of Each of the Seven Planets (1029&lt;U+2013&gt;1039)
+
+Ab&lt;U+016B&gt; Rayh&lt;U+0101&gt;n al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt; (973&lt;U+2013&gt;1048)
+
+Kitab al-Qanun al-Mas'udi (Latinized as Canon Mas&lt;U+2019&gt;udicus) (1031)
+
+Abu Ubayd al-Juzjani (c. 1070)
+
+Tarik al-Aflak (1070)
+
+Al-Istidrak ala Batlamyus (Recapitulation regarding Ptolemy) (11th century)
+Al-Khazini (fl. 1115&lt;U+2013&gt;1130)
+
+Risala fi'l-alat (Treatise on Instruments)
+
+Nas&lt;U+012B&gt;r al-D&lt;U+012B&gt;n al-T&lt;U+016B&gt;s&lt;U+012B&gt; (1201&lt;U+2013&gt;1274)
+
+Al-Tadhkirah fi'ilm al-hay'ah (Memento in astronomy)
+
+Najm al-D&lt;U+012B&gt;n al-Qazw&lt;U+012B&gt;n&lt;U+012B&gt; al-K&lt;U+0101&gt;tib&lt;U+012B&gt; (d. 1277)
+
+Hikmat al-'Ain
+
+Qutb al-Din al-Shirazi (1236&lt;U+2013&gt;1311)
+
+The Limit of Accomplishment concerning Knowledge of the Heavens
+
+Ibn al-Shatir (1304&lt;U+2013&gt;1375)
+
+A Final Inquiry Concerning the Rectification of Planetary Theory
+
+Ali Qushji (d. 1474)
+
+Concerning the Supposed Dependence of Astronomy upon Philosophy
+
+Shams al-Din al-Khafri (d. 1525)
+
+The complement to the explanation of the memento
+
+
+Arabic star names
+
+Many of the modern names for numerous stars and constellations are derived from their Arabic language names. Examples include: Acamar, Aldebaran, Algol, Altair, Baham, Baten Kaitos, Caph, Dabih, Edasich, Furud, Gienah, Hadar, Izar, Jabbah, Keid, Lesath, Mirak, Nashira, Okda, Phad, Rigel, Sadr, Tarf, and Vega, as well as a number of other stars. Some of these names originated in the pre-Islamic Arabian Peninsula, but many came later, some as translations of ancient Greek descriptions and others of unknown origin.298
+Notes
+
+See also
+
+Arab and Persian astrology
+Hebrew astronomy
+History of astronomy
+Inventions in the Muslim world
+Islamic astrology
+Islamic Golden Age
+List of Arabic star names
+List of Arab scientists and scholars
+List of Iranian scientists and scholars
+List of Muslim astronomers
+List of Muslim scientists
+Physics in medieval Islam
+Science in medieval Islam
+Sufi cosmology
+Zij
+
+References
+
+
+
+
+, in 
+
+
+
+
+
+
+
+
+
+(cf. )
+
+
+
+, June 2003
+, June 2003
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+, June 2004
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+External links
+
+&quot;How Greek Science Passed to the Arabs&quot; by De Lacy O'Leary
+The Arab Union for Astronomy and Space Sciences (AUASS)
+King Abdul Aziz Observatory
+History of Islamic Astrolabes
+
+
+
+
+ar:&lt;U+0639&gt;&lt;U+0644&gt;&lt;U+0645&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0641&gt;&lt;U+0644&gt;&lt;U+0643&gt; &lt;U+0641&gt;&lt;U+064A&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0639&gt;&lt;U+0647&gt;&lt;U+062F&gt; &lt;U+0627&gt;&lt;U+0644&gt;&lt;U+0625&gt;&lt;U+0633&gt;&lt;U+0644&gt;&lt;U+0627&gt;&lt;U+0645&gt;&lt;U+064A&gt; ca:Astronomia &lt;U+00E0&gt;rab es:Astronom&lt;U+00ED&gt;a &lt;U+00E1&gt;rabe fa:&lt;U+0646&gt;&lt;U+062C&gt;&lt;U+0648&gt;&lt;U+0645&gt; &lt;U+0627&gt;&lt;U+0633&gt;&lt;U+0644&gt;&lt;U+0627&gt;&lt;U+0645&gt;&lt;U+06CC&gt; fr:Astronomie arabe gl:Astronom&lt;U+00ED&gt;a &lt;U+00E1&gt;rabe medieval it:Astronomia islamica ml:&lt;U+0D07&gt;&lt;U+0D38&gt;&lt;U+0D4D&gt;&lt;U+0D32&gt;&lt;U+0D3E&gt;&lt;U+0D2E&gt;&lt;U+0D3F&gt;&lt;U+0D15&gt; &lt;U+0D1C&gt;&lt;U+0D4D&gt;&lt;U+0D2F&gt;&lt;U+0D4B&gt;&lt;U+0D24&gt;&lt;U+0D3F&gt;&lt;U+0D36&gt;&lt;U+0D3E&gt;&lt;U+0D38&gt;&lt;U+0D4D&gt;&lt;U+0D24&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D02&gt; pt:Astronomia isl&lt;U+00E2&gt;mica ru:&lt;U+0410&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+0440&gt;&lt;U+043E&gt;&lt;U+043D&gt;&lt;U+043E&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+044F&gt; &lt;U+0438&gt;&lt;U+0441&gt;&lt;U+043B&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0441&gt;&lt;U+043A&gt;&lt;U+043E&gt;&lt;U+0433&gt;&lt;U+043E&gt; &lt;U+0421&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+0434&gt;&lt;U+043D&gt;&lt;U+0435&gt;&lt;U+0432&gt;&lt;U+0435&gt;&lt;U+043A&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+044C&gt;&lt;U+044F&gt; sv:Islamisk astronomi
+  Category:History of astronomy Category:Islamic Golden Age
+
+
+
+↩
+
+↩
+
+
+↩
+African Cultural Astronomy By Jarita C. Holbrook, R. Thebe Medupe, Johnson O. Urama↩
+↩
+↩
+↩
+
+
+
+↩
+
+↩
+↩
+↩
+
+
+
+↩
+
+
+
+
+↩
+
+↩
+ ↩
+↩
+↩
+↩
+
+ ↩
+The history of the telescope Henry C. King, Harold Spencer Jones, Courier Dover Publications, 2003 ISBN 0486432653, 9780486432656↩
+
+
+↩
+
+
+What is the Hijrah Calendar?↩
+↩
+
+This book is not related to al-Khwarizmi's Zij al-Sindh. On zijes, see ↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+ (cf. )↩
+↩
+↩
+↩
+↩
+ (cf. )↩
+A. I. Sabra, &quot;Configuring the Universe: Aporetic, Problem Solving, and Kinematic Modeling as Themes of Arabic Astronomy,&quot; Perspectives on Science 6.3 (1998): 288&lt;U+2013&gt;330, at pp. 317&lt;U+2013&gt;18: ↩
+
+
+↩
+Qadir (1989), p. 5&lt;U+2013&gt;10.↩
+Nicolaus Copernicus, Stanford Encyclopedia of Philosophy (2004).↩
+Roshdi Rashed (2007). &quot;The Celestial Kinematics of Ibn al-Haytham&quot;, Arabic Sciences and Philosophy 17, p. 7&lt;U+2013&gt;55. Cambridge University Press.↩
+E. S. Kennedy, &quot;Al-B&lt;U+012B&gt;r&lt;U+016B&gt;n&lt;U+012B&gt;'s Masudic Canon&quot;, Al-Abhath, 24 (1971): 59&lt;U+2013&gt;81; reprinted in David A. King and Mary Helen Kennedy, ed., Studies in the Islamic Exact Sciences, Beirut, 1983, pp. 573&lt;U+2013&gt;595.↩
+G. Wiet, V. Elisseeff, P. Wolff, J. Naudu (1975). History of Mankind, Vol 3: The Great medieval Civilisations, p. 649. George Allen &amp; Unwin Ltd, UNESCO.↩
+Saliba (1999).↩
+↩
+
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+
+↩
+↩
+↩
+↩
+↩
+Bernard R. Goldstein, ed., Al-Bi&lt;U+0163&gt;r&lt;U+016B&gt;j&lt;U+012B&gt;: On the Principles of Astronomy, (New Haven: Yale University Press, 1971), pp. 6&lt;U+2013&gt;14.↩
+
+
+↩
+↩
+
+↩
+↩
+↩
+↩
+
+↩
+
+↩
+↩
+↩
+
+
+↩
+
+
+↩
+
+↩
+Toby E.Huff(1993): The rise of early modern science: Islam, China, and the West↩
+
+N.K. Singh,M. Zaki Kirmani, Encyclopaedia of Islamic science and scientists↩
+↩
+↩
+
+
+↩
+↩
+↩
+↩
+Hugh Thurston, Early Astronomy, (New York: Springer-Verlag), p. 194, ISBN 0-387-94107-X.↩
+
+
+↩
+↩
+Richard Bulliet, Pamela Crossley, Daniel Headrick, Steven Hirsch, Lyman Johnson, and David Northrup. The Earth and Its Peoples. 3. Boston: Houghton Mifflin Company, 2005. ISBN 0-618-42770-8↩
+↩
+↩
+↩
+
+
+
+
+↩
+Ho, Peng Yoke. (2000). Li, Qi, and Shu: An Introduction to Science and Civilization in China, p. 105. Mineola: Dover Publications. ISBN 0-486-41445-0.↩
+
+↩
+
+↩
+↩
+
+V. J. Katz, A History of Mathematics: An Introduction, p. 291.↩
+For a list of Gerard of Cremona's translations see: Edward Grant (1974) A Source Book in Medieval Science, (Cambridge: Harvard Univ. Pr.), pp. 35&lt;U+2013&gt;8 or Charles Burnett, &quot;The Coherence of the Arabic-Latin Translation Program in Toledo in the Twelfth Century,&quot; Science in Context, 14 (2001): at 249&lt;U+2013&gt;288, at pp. 275&lt;U+2013&gt;281.↩
+D. Campbell, Arabian Medicine and Its Influence on the Middle Ages, p. 6.↩
+
+
+Charles Burnett, ed. Adelard of Bath, Conversations with His Nephew, (Cambridge: Cambridge University Press, 1999), p. xi.↩
+M.-T. d'Alverny, &quot;Translations and Translators,&quot; pp. 440&lt;U+2013&gt;3↩
+G. G. Joseph, The Crest of the Peacock, p. 306↩
+↩
+↩
+
+↩
+↩
+
+
+↩
+
+
+Edith Dudley Sylla, &quot;Creation and nature&quot;, in Arthur Stephen McGrade (2003), pp. 178&lt;U+2013&gt;179, Cambridge University Press, ISBN 0521000637.↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+, in ↩
+
+Sevim Tekeli, &quot;Taqi al-Din&quot;, in Helaine Selin (1997), Encyclopaedia of the History of Science, Technology, and Medicine in Non-Western Cultures, Kluwer Academic Publishers, ISBN 0792340663.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+, in ↩
+
+
+↩
+↩
+
+↩
+
+
+
+
+Richard Nelson Frye, Golden Age of Persia, p. 163.↩
+↩
+↩
+
+↩
+↩
+↩
+
+↩
+Will Durant (1950). The Story of Civilization IV: The Age of Faith, p. 239-45.↩
+↩
+↩
+↩
+Tuncer Oren (2001). &quot;Advances in Computer and Information Sciences: From Abacus to Holonic Agents&quot;, Turk J Elec Engin 9 (1): 63&lt;U+2013&gt;70 [64].↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+
+
+↩
+↩
+, in ↩
+↩
+↩
+↩
+↩
+
+↩
+Emilie Savage-Smith (1993). &quot;Book Reviews&quot;, Journal of Islamic Studies 4 (2): 296&lt;U+2013&gt;299. ↩
+↩
+Regis Morelon, &quot;General Survey of Arabic Astronomy&quot;, pp. 9&lt;U+2013&gt;10, in ↩
+
+Sabra, A. I. &amp; Hogendijk, J. P. (2003), The Enterprise of Science in Islam: New Perspectives, MIT Press, pp. 85&lt;U+2013&gt;118, ISBN 0262194821↩
+O. S. Marshall (1950). &quot;Alhazen and the Telescope&quot;, Astronomical Society of the Pacific Leaflets 6, p. 4↩
+
+Richard Powers (University of Illinois), Best Idea; Eyes Wide OpenNew York Times, April 18, 1999.↩
+
+↩
+
+↩
+
+↩
+Elly Dekker (1995), &quot;An unrecorded medieval astrolabe quadrant from c. 1300&quot;, Annals of Science 52 (1): 1&lt;U+2013&gt;47 [6].↩
+
+↩
+↩
+
+↩
+
+↩
+↩
+
+Josef W. Meri (2006), Medieval Islamic Civilization: An Encyclopedia, p. 75, Taylor and Francis, ISBN 0415966914.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Robert E. Hall (1973). &quot;al-Kh&lt;U+0101&gt;zin&lt;U+012B&gt;&quot;, Dictionary of Scientific Biography, Vol. VII, p. 338b.↩
+
+↩
+↩
+
+

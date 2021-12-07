@@ -1,0 +1,26 @@
+Trisops was an experimental machine for the study of magnetic confinement of plasmas with the ultimate goal of producing fusion power. The configuration was a variation of a compact toroid, a toroidal (doughnut-shaped) structure of plasma and magnetic fields with no coils penetrating the center. It lost funding in its original form in 1978.
+The configuration was produced by combining two individual toroids produced by two conical &lt;U+03B8&gt; pinch guns, located at either end of a length of Pyrex pipe with a constant magnetic guide field. The toroidal currents in the toroids were in opposite directions, so that they repelled each other. After coming to an equilibrium, they were adiabatically compressed by increasing the external field.
+Force Free Plasma Vortices
+Force free plasma vortices have uniform magnetic helicity and therefore are stable against many instabilities. Typically, the current decays faster in the colder regions until the gradient in helicity is large enough to allow a turbulent redistribution of the current.
+Force free vortices follow the following equations.
+$$\begin{align}
+ \vec{\nabla} \times \vec{B} = \alpha\vec{B} \\
+\vec{v} = \pm\beta\vec{B}
+\end{align}$$
+The first equation describes a Lorentz force-free fluid: the j⃗ × B⃗ forces are everywhere zero. For a laboratory plasma &lt;U+03B1&gt; is a constant and &lt;U+03B2&gt; is a scalar function of spacial coordinates.
+The magnetic flux surfaces are toroidal, with the current being totally toroidal at the core of the torus and totally poloidal at the surface of the torus. This is similar to the field configuration of a tokamak, except that the field-producing coils are simpler and do not penetrate the plasma torus.
+Note that, unlike most plasma structures, the Lorentz force and the Magnus force, $\rho\vec{\nabla} \times \vec{v}$, play equivalent roles. ρ is the mass density.
+The Trisops Project
+Dr. Daniel Wells, while working on the stellarator at the Princeton Plasma Physics Laboratory in the 1960s conceived of colliding and then compressing stable force free plasma toroids to produce conditions needed for thermonuclear fusion. The name, Trisops, is an acronym for Thermonuclear Reactor In Support of Project Sherwood. He later moved to the University of Miami where he set set up the Trisops machine, supported by the National Science Foundation and Florida Power and Light.
+The project continued until 1978 when the NSF discontinued the grant and the Department of Energy did not pick up the support.
+The Trisops Machine
+Schematic diagram of Trisops machine used for creation and secondary compression of plasma vortex structures. Machine length is about 2m.
+The Trisops machine consisted of DC mirror coils producing a 500 G guide field, two conical &lt;U+03B8&gt;-pinch guns which produced two counter-rotating plasma vortices inside a pyrex vacuum chamber. The vortices approached each other, collided, repelled each other, and finally came to rest. At that time the compression coils produced a 35kG field with a quarter-cycle rise time of 10 &lt;U+03BC&gt;sec.
+Results
+The compressed rings retained their structure for 5 &lt;U+03BC&gt;sec, with a density of 2 x 1017 cm-3, an ion temperature of 5kev, an electron temperature of 300ev. A cutoff of funds prevented further measurements to resolve the discrepancy between the above figures, and the plasma electron-ion temperature equilibration time of 1 &lt;U+03BC&gt;sec.
+Followup
+The project lost funding in 1978. The machine was disassembled and remained at the University of Miami until 1997. At that time, the machine was moved to Lanham Md and reassembled for the CMTX project ( see reference ). The current status of the project and the machine are unknown.
+References
+D. R. Wells, J. Davidson, L. G. Phadke, J. G. Hirschberg, P. E. Ziajka, and J. Tunstall, High-temperature, high-density plasma production by vortex-ring compression, Phys. Rev. Lett. 41, 166 (1978).
+CMTX Project, Nov. 1997
+Category:Fusion reactors  

@@ -1,0 +1,679 @@
+
+<p><img src="Rubik&#39;s_cube.svg" title="fig:The possible rearrangements of Rubik&#39;s Cube form a group, called the Rubik&#39;s Cube group." alt="The possible rearrangements of Rubik&#39;s Cube form a group, called the Rubik&#39;s Cube group." width="200" /> In <a href="mathematics" class="uri" title="wikilink">mathematics</a>, a <strong>group</strong> is a <a href="set_(mathematics)" title="wikilink">set</a> of <a href="element_(mathematics)" title="wikilink">elements</a> together with an <a href="Binary_operation" title="wikilink">operation</a> that combines any two of its elements to form a third element. To qualify as a group, the set and operation must satisfy a few conditions called group <a href="axiom" title="wikilink">axioms</a>, namely <a href="associativity" class="uri" title="wikilink">associativity</a>, <a href="identity_element" title="wikilink">identity</a> and <a href="inverse_element" title="wikilink">inverse elements</a>. While these are familiar from many mathematical structures, such as number systems&lt;U+2014&gt;for example, the <a href="integer" title="wikilink">integers</a> endowed with the <a href="addition" class="uri" title="wikilink">addition</a> operation form a group&lt;U+2014&gt;the formulation of the axioms is detached from the concrete nature of the group and its operation. This allows one to handle entities of very different mathematical origins in a flexible way, while retaining essential structural aspects of many objects in <a href="abstract_algebra" title="wikilink">abstract algebra</a> and beyond. The ubiquity of groups in numerous areas&lt;U+2014&gt;both within and outside mathematics&lt;U+2014&gt;makes them a central organizing principle of contemporary mathematics.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>Groups share a fundamental kinship with the notion of <a href="symmetry" class="uri" title="wikilink">symmetry</a>. A <a href="symmetry_group" title="wikilink">symmetry group</a> encodes symmetry features of a <a href="geometry" title="wikilink">geometrical</a> object: it consists of the set of transformations that leave the object unchanged, and the operation of combining two such transformations by performing one after the other. Such symmetry groups, particularly the continuous <a href="Lie_group" title="wikilink">Lie groups</a>, play an important role in many academic disciplines. <a href="Matrix_group" title="wikilink">Matrix groups</a>, for example, can be used to understand fundamental <a href="physics" title="wikilink">physical</a> laws underlying <a href="special_relativity" title="wikilink">special relativity</a> and symmetry phenomena in molecular <a href="chemistry" class="uri" title="wikilink">chemistry</a>.</p>
+<p>The concept of a group arose from the study of <a href="polynomial_equations" title="wikilink">polynomial equations</a>, starting with <a href="&lt;U+00C9&gt;variste_Galois" title="wikilink">&lt;U+00C9&gt;variste Galois</a> in the 1830s. After contributions from other fields such as <a href="number_theory" title="wikilink">number theory</a> and geometry, the group notion was generalized and firmly established around 1870. Modern <a href="group_theory" title="wikilink">group theory</a>&lt;U+2014&gt;a very active mathematical discipline&lt;U+2014&gt;studies groups in their own right. To explore groups, mathematicians have devised <a href="Glossary_of_group_theory" title="wikilink">various notions</a> to break groups into smaller, better-understandable pieces, such as <a href="subgroup" title="wikilink">subgroups</a>, <a href="quotient_group" title="wikilink">quotient groups</a> and <a href="simple_group" title="wikilink">simple groups</a>. In addition to their abstract properties, group theorists also study the different ways in which a group can be expressed concretely (its <a href="group_representation" title="wikilink">group representations</a>), both from a <a href="representation_theory" title="wikilink">theoretical</a> and a <a href="computational_group_theory" title="wikilink">computational point of view</a>. A particularly rich theory has been developed for <a href="finite_group" title="wikilink">finite groups</a>, which culminated with the monumental <a href="classification_of_finite_simple_groups" title="wikilink">classification of finite simple groups</a> completed in 1983.</p>
+
+<h2 id="definition-and-illustration">Definition and illustration</h2>
+<h3 id="first-example-the-integers">First example: the integers</h3>
+<p>One of the most familiar groups is the set of <a href="integers" class="uri" title="wikilink">integers</a> <strong>Z</strong> containing the numbers</p>
+<dl>
+
+<dd>..., &lt;U+2212&gt;4, &lt;U+2212&gt;3, &lt;U+2212&gt;2, &lt;U+2212&gt;1, 0, 1, 2, 3, 4, ...<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>
+</dd>
+</dl>
+<p>The following properties of integer <a href="addition" class="uri" title="wikilink">addition</a> serve as a model for the abstract group axioms given in the definition below.</p>
+<ol>
+<li>For any two integers <em>a</em> and <em>b</em>, the <a href="Summation" title="wikilink">sum</a> <em>a</em> + <em>b</em> is also an integer. In other words, the process of adding integers two at a time can never yield a result that is not an integer. This property is known as <a href="Closure_(mathematics)" title="wikilink"><em>closure</em></a> under addition.</li>
+<li>For all integers <em>a</em>, <em>b</em> and <em>c</em>, (<em>a</em> + <em>b</em>) + <em>c</em> = <em>a</em> + (<em>b</em> + <em>c</em>). Expressed in words, adding <em>a</em> to <em>b</em> first, and then adding <em>c</em> to their sum gives the same final result as adding the sum of <em>b</em> and <em>c</em> to <em>a</em>, a property known as <em><a href="associativity" class="uri" title="wikilink">associativity</a></em>.</li>
+<li>If <em>a</em> is any integer, then 0 + <em>a</em> = <em>a</em> + 0 = <em>a</em>. <a href="Zero" class="uri" title="wikilink">Zero</a> is called the <em><a href="identity_element" title="wikilink">identity element</a></em> of addition because adding it to any integer returns the same integer.</li>
+<li>For every integer <em>a</em>, there is an integer <em>b</em> such that <em>a</em> + <em>b</em> = <em>b</em> + <em>a</em> = 0. The integer <em>b</em> is called the <em><a href="inverse_element" title="wikilink">inverse element</a></em> of the integer <em>a</em> and is denoted &lt;U+2212&gt;<em>a</em>.</li>
+</ol>
+<h3 id="definition">Definition</h3>
+<p>The integers, together with the operation &quot;+&quot;, form a mathematical object belonging to a broad class sharing similar structural aspects. To appropriately understand these structures without dealing with every concrete case separately, the following abstract <a href="definition" class="uri" title="wikilink">definition</a> is developed to encompass the above example along with many others, one of which is the symmetry group detailed below. A group is a <a href="set_(mathematics)" title="wikilink">set</a>, <em>G</em>, together with an <a href="Binary_operation" title="wikilink">operation</a> &quot;&lt;U+2022&gt;&quot; that combines any two <a href="element_(mathematics)" title="wikilink">elements</a> <em>a</em> and <em>b</em> to form another element denoted . The symbol &quot;&lt;U+2022&gt;&quot; is a general placeholder for a concretely given operation, such as the addition above. To qualify as a group, the set and operation, , must satisfy four requirements known as the <em>group axioms</em>:<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
+<dl>
+
+<dd>{|
+</dd>
+</dl>
+<p>| 1. ||width=&quot;150pt&quot;| Closure. || For all <em>a</em>, <em>b</em> in <em>G</em>, the result of the operation <em>a</em> &lt;U+2022&gt; <em>b</em> is also in <em>G</em>. |- | 2. || Associativity. || For all <em>a</em>, <em>b</em> and <em>c</em> in <em>G</em>, the equation (<em>a</em> &lt;U+2022&gt; <em>b</em>) &lt;U+2022&gt; <em>c</em> = <em>a</em> &lt;U+2022&gt; (<em>b</em> &lt;U+2022&gt; <em>c</em>) holds. |- | 3. || Identity element. || There exists an element <em>e</em> in <em>G</em>, such that for all elements <em>a</em> in <em>G</em>, the equation <em>e</em> &lt;U+2022&gt; <em>a</em> = <em>a</em> &lt;U+2022&gt; <em>e</em> = <em>a</em> holds. |- | 4. || Inverse element. || For each <em>a</em> in <em>G</em>, there exists an element <em>b</em> in <em>G</em> such that <em>a</em> &lt;U+2022&gt; <em>b</em> = <em>b</em> &lt;U+2022&gt; <em>a</em> = <em>e</em>, where <em>e</em> is the identity element. |}</p>
+<p>The order in which the group operation is carried out can be significant. In other words, the result of combining element <em>a</em> with element <em>b</em> need not yield the same result as combining element <em>b</em> with element <em>a</em>; the equation</p>
+<dl>
+
+<dd><p><em>a</em> &lt;U+2022&gt; <em>b</em> = <em>b</em> &lt;U+2022&gt; <em>a</em></p>
+</dd>
+</dl>
+<p>may not always be true. This equation does always hold in the group of integers under addition, because <em>a</em> + <em>b</em> = <em>b</em> + <em>a</em> for any two integers (<a href="commutativity" class="uri" title="wikilink">commutativity</a> of addition). However, it does not always hold in the symmetry group below. Groups for which the equation <em>a</em> &lt;U+2022&gt; <em>b</em> = <em>b</em> &lt;U+2022&gt; <em>a</em> always holds are called <em><a href="abelian_group" title="wikilink">abelian</a></em> (in honor of <a href="Niels_Abel" title="wikilink">Niels Abel</a>). Thus, the integer addition group is abelian, but the following symmetry group is not.</p>
+<h3 id="second-example-a-symmetry-group">Second example: a symmetry group</h3>
+<p>The <a href="Symmetry" title="wikilink">symmetries</a> (i.e. <a href="rotation" title="wikilink">rotations</a> and <a href="reflection_(mathematics)" title="wikilink">reflections</a>) of a square form a group called a <a href="dihedral_group" title="wikilink">dihedral group</a>, and denoted D<sub>4</sub>.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> The following symmetries occur:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td><p><img src="group_D8_id.svg" title="fig:group_D8_id.svg" alt="group_D8_id.svg" width="140" /><br />
+id (keeping it as is)</p></td>
+<td><p><img src="group_D8_90.svg" title="fig:group_D8_90.svg" alt="group_D8_90.svg" width="140" /><br />
+r<sub>1</sub> (rotation by 90&lt;U+00B0&gt; right)</p></td>
+<td><p><img src="group_D8_180.svg" title="fig:group_D8_180.svg" alt="group_D8_180.svg" width="140" /><br />
+r<sub>2</sub> (rotation by 180&lt;U+00B0&gt; right)</p></td>
+<td><p><img src="group_D8_270.svg" title="fig:group_D8_270.svg" alt="group_D8_270.svg" width="140" /><br />
+r<sub>3</sub> (rotation by 270&lt;U+00B0&gt; right)</p></td>
+</tr>
+<tr class="even">
+<td><p><img src="group_D8_fv.svg" title="fig:group_D8_fv.svg" alt="group_D8_fv.svg" width="140" /><br />
+f<sub>v</sub> (vertical flip)</p></td>
+<td><p><img src="group_D8_fh.svg" title="fig:group_D8_fh.svg" alt="group_D8_fh.svg" width="140" /><br />
+f<sub>h</sub> (horizontal flip)</p></td>
+<td><p><img src="group_D8_f13.svg" title="fig:group_D8_f13.svg" alt="group_D8_f13.svg" width="140" /><br />
+f<sub>d</sub> (diagonal flip)</p></td>
+<td><p><img src="group_D8_f24.svg" title="fig:group_D8_f24.svg" alt="group_D8_f24.svg" width="140" /><br />
+f<sub>c</sub> (counter-diagonal flip)</p></td>
+</tr>
+<tr class="odd">
+<td><p>The elements of the symmetry group of the square (D<sub>4</sub>). The vertices are colored and numbered only to visualize the operations.</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>:* the <a href="identity_operation" title="wikilink">identity operation</a> leaving everything unchanged, denoted id;</p>
+<p>:* rotations of the square by 90&lt;U+00B0&gt; right, 180&lt;U+00B0&gt; right, and 270&lt;U+00B0&gt; right, denoted by r<sub>1</sub>, r<sub>2</sub> and r<sub>3</sub>, respectively;</p>
+<p>:* reflections about the vertical and horizontal middle line (f<sub>h</sub> and f<sub>v</sub>), or through the two <a href="diagonal" title="wikilink">diagonals</a> (f<sub>d</sub> and f<sub>c</sub>).</p>
+
+<p>Any two symmetries <em>a</em> and <em>b</em> can be <a href="Function_composition" title="wikilink">composed</a>, i.e. applied one after another. The result of performing first <em>a</em> and then <em>b</em> is written symbolically <em>from right to left</em> as</p>
+<dl>
+
+<dd><p><em>b</em> &lt;U+2022&gt; <em>a</em> (&quot;apply the symmetry <em>b</em> after performing the symmetry <em>a</em>&quot;. The right-to-left notation stems from <a href="function_composition" title="wikilink">composition of functions</a>).</p>
+</dd>
+</dl>
+<p>The <a href="group_table" title="wikilink">group table</a> on the right lists the results of all such compositions possible. For example, rotating by 270&lt;U+00B0&gt; right (r<sub>3</sub>) and then flipping horizontally (f<sub>h</sub>) is the same as performing a reflection along the diagonal (f<sub>d</sub>). Using the above symbols, highlighted in blue in the group table:</p>
+<dl>
+
+<dd><p>f<sub>h</sub> &lt;U+2022&gt; r<sub>3</sub> = f<sub>d</sub>.</p>
+</li>
+</dd>
+</dl>
+<table style="width:100%;">
+<caption><a href="Cayley_table" title="wikilink">Group table</a> of D<sub>4</sub></caption>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>&lt;U+2022&gt;</p></th>
+<th><p>id</p></th>
+<th><p>r<sub>1</sub></p></th>
+<th><p>r<sub>2</sub></p></th>
+<th><p>r<sub>3</sub></p></th>
+<th><p>f<sub>v</sub></p></th>
+<th><p>f<sub>h</sub></p></th>
+<th><p>f<sub>d</sub></p></th>
+<th><p>f<sub>c</sub></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>id</p></td>
+<td><p>id</p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+</tr>
+<tr class="even">
+<td><p>r<sub>1</sub></p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>id</p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+</tr>
+<tr class="odd">
+<td><p>r<sub>2</sub></p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>id</p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+</tr>
+<tr class="even">
+<td><p>r<sub>3</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>id</p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+</tr>
+<tr class="odd">
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>id</p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+</tr>
+<tr class="even">
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>id</p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>r<sub>1</sub></p></td>
+</tr>
+<tr class="odd">
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>id</p></td>
+<td><p>r<sub>2</sub></p></td>
+</tr>
+<tr class="even">
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>c</sub></p></td>
+<td><p>f<sub>v</sub></p></td>
+<td><p>f<sub>d</sub></p></td>
+<td><p>f<sub>h</sub></p></td>
+<td><p>r<sub>1</sub></p></td>
+<td><p>r<sub>3</sub></p></td>
+<td><p>r<sub>2</sub></p></td>
+<td><p>id</p></td>
+</tr>
+<tr class="odd">
+<td><p>The elements id, r<sub>1</sub>, r<sub>2</sub>, and r<sub>3</sub> form a <a href="subgroup" class="uri" title="wikilink">subgroup</a>, highlighted in red (upper left region). A left and right <a href="coset" class="uri" title="wikilink">coset</a> of this subgroup is highlighted in green (in the last row) and yellow (last column), respectively.</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Given this set of symmetries and the described operation, the group axioms can be understood as follows:</p>
+<ol>
+<li>The closure axiom demands that the composition <em>b</em> &lt;U+2022&gt; <em>a</em> of any two symmetries <em>a</em> and <em>b</em> is still a symmetry. Another example for the group operation is
+<dl>
+
+<dd><p>r<sub>3</sub> &lt;U+2022&gt; f<sub>h</sub> = f<sub>c</sub>,</p>
+</dd>
+</dl>
+<p>i.e. rotating 270&lt;U+00B0&gt; right after flipping horizontally equals flipping along the counter-diagonal (f<sub>c</sub>). Indeed every other combination of two symmetries still gives a symmetry, as can be checked using the group table.</p></li>
+<li>The associativity constraint deals with composing more than two symmetries: given three elements <em>a</em>, <em>b</em> and <em>c</em> of D<sub>4</sub>, there are two possible ways of computing &quot;<em>a</em> then <em>b</em> then <em>c</em>&quot;. The requirement
+<dl>
+
+<dd><p>(<em>a</em> &lt;U+2022&gt; <em>b</em>) &lt;U+2022&gt; <em>c</em> = <em>a</em> &lt;U+2022&gt; (<em>b</em> &lt;U+2022&gt; <em>c</em>)</p>
+</dd>
+</dl>
+<p>means that the composition of the three elements is independent of the priority of the operations, i.e. composing first <em>a</em> after <em>b</em>, and <em>c</em> to the result  thereof amounts to performing <em>a</em> after the composition of <em>b</em> and <em>c</em>. For example,  (f<sub>d</sub> &lt;U+2022&gt; f<sub>v</sub>) &lt;U+2022&gt; r<sub>2</sub> = f<sub>d</sub> &lt;U+2022&gt; (f<sub>v</sub> &lt;U+2022&gt; r<sub>2</sub>) can be checked using the <a href="Cayley_table" title="wikilink">group table</a> at the right</p>
+<dl>
+
+<dd>{|style=&quot;text-align:center&quot;|
+</dd>
+</dl>
+<p>|(f<sub>d</sub> &lt;U+2022&gt; f<sub>v</sub>) &lt;U+2022&gt; r<sub>2</sub>|| = ||r<sub>3</sub> &lt;U+2022&gt; r<sub>2</sub>|| = ||r<sub>1</sub>, which equals |- |f<sub>d</sub> &lt;U+2022&gt; (f<sub>v</sub> &lt;U+2022&gt; r<sub>2</sub>)|| = ||f<sub>d</sub> &lt;U+2022&gt; f<sub>h</sub>|| = ||r<sub>1</sub>. |}</p></li>
+<li>The identity element is the symmetry id leaving everything unchanged: for any symmetry <em>a</em>, performing id after <em>a</em> (or <em>a</em> after id) equals <em>a</em>, in symbolic form,
+<dl>
+
+<dd><p>id &lt;U+2022&gt; <em>a</em> = <em>a</em>,</p>
+</dd>
+<dd><p><em>a</em> &lt;U+2022&gt; id = <em>a</em>.</p>
+</li>
+</dd>
+</dl></li>
+<li>An inverse element undoes the transformation of some other element. Every symmetry can be undone: each of transformations&lt;U+2014&gt;identity id, the flips f<sub>h</sub>, f<sub>v</sub>, f<sub>d</sub>, f<sub>c</sub> and the 180&lt;U+00B0&gt; rotation r<sub>2</sub>&lt;U+2014&gt;is its own inverse, because performing each one twice brings the square back to its original orientation. The rotations r<sub>3</sub> and r<sub>1</sub> are each other's inverse, because rotating one way and then by the same angle the other way leaves the square unchanged. In symbols,
+<dl>
+
+<dd><p>f<sub>h</sub> &lt;U+2022&gt; f<sub>h</sub> = id,</p>
+</dd>
+<dd><p>r<sub>3</sub> &lt;U+2022&gt; r<sub>1</sub> = r<sub>1</sub> &lt;U+2022&gt; r<sub>3</sub> = id.</p>
+</li>
+</dd>
+</dl></li>
+</ol>
+<p>In contrast to the group of integers above, where the order of the operation is irrelevant, it does matter in D<sub>4</sub>: f<sub>h</sub> &lt;U+2022&gt; r<sub>1</sub> = f<sub>c</sub> but r<sub>1</sub> &lt;U+2022&gt; f<sub>h</sub> = f<sub>d</sub>. In other words, D<sub>4</sub> is not abelian, which makes the group structure more difficult than the integers introduced first.</p>
+<h2 id="history">History</h2>
+
+<p>The modern concept of an abstract group developed out of several fields of mathematics.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a><a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a><a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> The original motivation for group theory was the quest for solutions of <a href="polynomial_equation" title="wikilink">polynomial equations</a> of degree higher than 4. The 19th century French mathematician <a href="&lt;U+00C9&gt;variste_Galois" title="wikilink">&lt;U+00C9&gt;variste Galois</a>, extending prior work of <a href="Paolo_Ruffini" title="wikilink">Paolo Ruffini</a> and <a href="Joseph-Louis_Lagrange" title="wikilink">Joseph-Louis Lagrange</a>, gave a criterion for the solvability of a particular polynomial equation in terms of the <a href="symmetry_group" title="wikilink">symmetry group</a> of its <a href="Root_(mathematics)" title="wikilink">roots</a> (solutions). The elements of such a <a href="Galois_group" title="wikilink">Galois group</a> correspond to certain <a href="permutation" title="wikilink">permutations</a> of the roots. At first, Galois' ideas were rejected by his contemporaries, and published only posthumously.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a><a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> More general <a href="permutation_group" title="wikilink">permutation groups</a> were investigated in particular by <a href="Augustin_Louis_Cauchy" title="wikilink">Augustin Louis Cauchy</a>. <a href="Arthur_Cayley" title="wikilink">Arthur Cayley</a>'s <em>On the theory of groups, as depending on the symbolic equation &lt;U+03B8&gt;<sup>n</sup> = 1</em> (1854) gives the first abstract definition of a <a href="finite_group" title="wikilink">finite group</a>.<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a></p>
+<p>Geometry was a second field in which groups were used systematically, especially <a href="symmetry_group" title="wikilink">symmetry groups</a> as part of <a href="Felix_Klein" title="wikilink">Felix Klein</a>'s 1872 <a href="Erlangen_program" title="wikilink">Erlangen program</a>.<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a> After novel geometries such as <a href="hyperbolic_geometry" title="wikilink">hyperbolic</a> and <a href="projective_geometry" title="wikilink">projective geometry</a> had emerged, Klein used group theory to organize them in a more coherent way. Further advancing these ideas, <a href="Sophus_Lie" title="wikilink">Sophus Lie</a> founded the study of <a href="Lie_group" title="wikilink">Lie groups</a> in 1884.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a></p>
+<p>The third field contributing to group theory was <a href="number_theory" title="wikilink">number theory</a>. Certain <a href="abelian_group" title="wikilink">abelian group</a> structures had been used implicitly in <a href="Carl_Friedrich_Gauss" title="wikilink">Carl Friedrich Gauss</a>' number-theoretical work <em><a href="Disquisitiones_Arithmeticae" title="wikilink">Disquisitiones Arithmeticae</a></em> (1798), and more explicitly by <a href="Leopold_Kronecker" title="wikilink">Leopold Kronecker</a>.<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a> In 1847, <a href="Ernst_Kummer" title="wikilink">Ernst Kummer</a> led early attempts to prove <a href="Fermat&#39;s_Last_Theorem" title="wikilink">Fermat's Last Theorem</a> to a climax by developing <a href="class_group" title="wikilink">groups describing factorization</a> into <a href="prime_number" title="wikilink">prime numbers</a>.<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></p>
+<p>The convergence of these various sources into a uniform theory of groups started with <a href="Camille_Jordan" title="wikilink">Camille Jordan</a>'s <em>Trait&lt;U+00E9&gt; des substitutions et des &lt;U+00E9&gt;quations alg&lt;U+00E9&gt;briques</em> (1870).<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a> <a href="Walther_von_Dyck" title="wikilink">Walther von Dyck</a> (1882) gave the first statement of the modern definition of an abstract group.<a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a> As of the 20th century, groups gained wide recognition by the pioneering work of <a href="Ferdinand_Georg_Frobenius" title="wikilink">Ferdinand Georg Frobenius</a> and <a href="William_Burnside" title="wikilink">William Burnside</a>, who worked on <a href="representation_theory" title="wikilink">representation theory</a> of finite groups, <a href="Richard_Brauer" title="wikilink">Richard Brauer</a>'s <a href="modular_representation_theory" title="wikilink">modular representation theory</a> and <a href="Issai_Schur" title="wikilink">Issai Schur</a>'s papers.<a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a> The theory of Lie groups, and more generally <a href="locally_compact_group" title="wikilink">locally compact groups</a> was pushed by <a href="Hermann_Weyl" title="wikilink">Hermann Weyl</a>, <a href="&lt;U+00C9&gt;lie_Cartan" title="wikilink">&lt;U+00C9&gt;lie Cartan</a> and many others.<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a> Its algebraic counterpart, the theory of <a href="algebraic_group" title="wikilink">algebraic groups</a>, was first shaped by <a href="Claude_Chevalley" title="wikilink">Claude Chevalley</a> (from the late 1930s) and later by pivotal work of <a href="Armand_Borel" title="wikilink">Armand Borel</a> and <a href="Jacques_Tits" title="wikilink">Jacques Tits</a>.<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a></p>
+<p>The <a href="University_of_Chicago" title="wikilink">University of Chicago</a>'s 1960&lt;U+2013&gt;61 Group Theory Year brought together group theorists such as <a href="Daniel_Gorenstein" title="wikilink">Daniel Gorenstein</a>, <a href="John_G._Thompson" title="wikilink">John G. Thompson</a> and <a href="Walter_Feit" title="wikilink">Walter Feit</a>, laying the foundation of a collaboration that, with input from numerous other mathematicians, <a href="classification_of_finite_simple_groups" title="wikilink">classified all finite simple groups</a> in 1982. This project exceeded previous mathematical endeavours by its sheer size, in both length of proof and number of researchers. Research is ongoing to simplify the proof of this classification.<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a> These days, group theory is still a highly active mathematical branch crucially impacting many other fields.</p>
+<h2 id="simple-consequences-of-the-group-axioms">Simple consequences of the group axioms</h2>
+
+<p>Basic facts about all groups that can be obtained directly from the group axioms are commonly subsumed under <em>elementary group theory</em>.<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a> For example, <a href="Mathematical_induction" title="wikilink">repeated</a> applications of the associativity axiom show that the unambiguity of</p>
+<dl>
+
+<dd><em>a</em> &lt;U+2022&gt; <em>b</em> &lt;U+2022&gt; <em>c</em> = (<em>a</em> &lt;U+2022&gt; <em>b</em>) &lt;U+2022&gt; <em>c</em> = <em>a</em> &lt;U+2022&gt; (<em>b</em> &lt;U+2022&gt; <em>c</em>)
+</dd>
+</dl>
+<p>generalizes to more than three factors. Because this implies that parentheses can be inserted anywhere within such a series of terms, parentheses are usually omitted.<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a></p>
+<p>The axioms may be weakened to assert only the existence of a <a href="left_identity" title="wikilink">left identity</a> and <a href="left_inverse_element" title="wikilink">left inverses</a>. Both can be shown to be actually two-sided, so the resulting definition is equivalent to the one given above.<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></p>
+<h3 id="uniqueness-of-identity-element-and-inverses">Uniqueness of identity element and inverses</h3>
+<p>Two important consequences of the group axioms are the uniqueness of the identity element and the uniqueness of inverse elements. There can be only one identity element in a group, and each element in a group has exactly one inverse element. Thus, it is customary to speak of <em>the</em> identity, and <em>the</em> inverse of an element.<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a></p>
+<p>To prove the uniqueness of an inverse element of <em>a</em>, suppose that <em>a</em> has two inverses, denoted <em>l</em> and <em>r</em>. Then</p>
+<dl>
+
+<dd>{|
+</dd>
+</dl>
+<p>|<em>l</em> ||=||<em>l</em> &lt;U+2022&gt; <em>e</em> ||    ||as <em>e</em> is the identity element |- | ||=||<em>l</em> &lt;U+2022&gt; (<em>a</em> &lt;U+2022&gt; <em>r</em>) ||    ||because <em>r</em> is an inverse of <em>a</em>, so <em>e</em> = <em>a</em> &lt;U+2022&gt; <em>r</em> |- | ||=||(<em>l</em> &lt;U+2022&gt; <em>a</em>) &lt;U+2022&gt; <em>r</em> ||    ||by associativity, which allows to rearrange the parentheses |- | ||=||<em>e</em> &lt;U+2022&gt; <em>r</em>||    ||since <em>l</em> is an inverse of <em>a</em>, i.e. <em>l</em> &lt;U+2022&gt; <em>a</em> = <em>e</em> |- | ||=||<em>r</em>||    || for <em>e</em> is the identity element |}</p>
+<p>Hence the two extremal terms <em>l</em> and <em>r</em> are connected by a chain of equalities, so they agree. In other words there is only one inverse element of <em>a</em>.</p>
+<h3 id="division">Division</h3>
+<p>In groups, it is possible to perform <a href="division_(mathematics)" title="wikilink">division</a>: given elements <em>a</em> and <em>b</em> of the group <em>G</em>, there is exactly one solution <em>x</em> in <em>G</em> to the <a href="equation" class="uri" title="wikilink">equation</a> <em>x</em> &lt;U+2022&gt; <em>a</em> = <em>b</em>.<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a> In fact, right multiplication of the equation by <em>a</em><sup>−1</sup> gives the solution <em>x</em> = <em>x</em> &lt;U+2022&gt; <em>a</em> &lt;U+2022&gt; <em>a</em><sup>−1</sup> = <em>b</em> &lt;U+2022&gt; <em>a</em><sup>−1</sup>. Similarly there is exactly one solution <em>y</em> in <em>G</em> to the equation <em>a</em> &lt;U+2022&gt; <em>y</em> = <em>b</em>, namely <em>y</em> = <em>a</em><sup>−1</sup> &lt;U+2022&gt; <em>b</em>. In general, <em>x</em> and <em>y</em> need not agree.</p>
+<h2 id="basic-concepts">Basic concepts</h2>
+<div class=dablink>
+<p>The following sections use <a href="table_of_mathematical_symbols" title="wikilink">mathematical symbols</a> such as X = <em>{</em>x'', <em>y</em>, <em>z</em>}'' to denote a <a href="set_(mathematics)" title="wikilink">set</a> X containing <a href="element_(mathematics)" title="wikilink">elements</a> x, y, and z, or alternatively x <em>&lt;U+2208&gt;</em> X to restate that x is an element of X. The notation  means f is a <a href="function_(mathematics)" title="wikilink">function</a> assigning to every element of X an element of Y.</p>
+</div>
+
+<p>To understand groups beyond the level of mere symbolic manipulations as above, more structural concepts have to be employed. There is a conceptual principle underlying all of the following notions: to take advantage of the structure offered by groups (which for example sets&lt;U+2014&gt;being &quot;structureless&quot;&lt;U+2014&gt;don't have) constructions related to groups have to be <em>compatible</em> with the group operation. This compatibility manifests itself in the following notions in various ways. For example, groups can be related to each other via <a href="function_(mathematics)" title="wikilink">functions</a> called group homomorphisms. By the mentioned principle, they are required to respect the group structures in a precise sense. The structure of groups can also be understood by breaking them into pieces called subgroups and quotient groups. The principle of &quot;preserving structures&quot;&lt;U+2014&gt;a recurring topic in mathematics throughout&lt;U+2014&gt;is an instance of working in a <a href="category_(mathematics)" title="wikilink">category</a>, in this case the <a href="category_of_groups" title="wikilink">category of groups</a>.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></p>
+<h3 id="group-homomorphisms">Group homomorphisms</h3>
+
+<p><em>Group homomorphisms</em> are functions that preserve group structure. A function <em>a</em>: <em>G</em> &lt;U+2192&gt; <em>H</em> between two groups is a homomorphism if the equation</p>
+<dl>
+
+<dd><p><em>a</em>(<em>g</em> &lt;U+2022&gt; <em>k</em>) = <em>a</em>(<em>g</em>) &lt;U+2022&gt; <em>a</em>(<em>k</em>).</p>
+</dd>
+</dl>
+<p>holds for all elements <em>g</em>, <em>k</em> in <em>G</em>, i.e. the result is the same when performing the group operation after or before applying the map <em>a</em>. This requirement ensures that <em>a</em>(1<sub><em>G</em></sub>) = 1<sub><em>H</em></sub>, and also <em>a</em>(<em>g</em>)<sup>−1</sup> = <em>a</em>(<em>g</em><sup>−1</sup>) for all <em>g</em> in <em>G</em>. Thus a group homomorphism respects all the structure of <em>G</em> provided by the group axioms.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></p>
+<p>Two groups <em>G</em> and <em>H</em> are called <a href="isomorphism" title="wikilink">isomorphic</a> if there exist group homomorphisms <em>a</em>: <em>G</em> &lt;U+2192&gt; <em>H</em> and <em>b</em>: <em>H</em> &lt;U+2192&gt; <em>G</em>, such that applying the two functions <a href="function_composition" title="wikilink">one after another</a> (in each of the two possible orders) equal the <a href="identity_function" title="wikilink">identity function</a> of <em>G</em> and <em>H</em>, respectively. That is, <em>a</em>(<em>b</em>(<em>h</em>)) = <em>h</em> and <em>b</em>(<em>a</em>(<em>g</em>)) = <em>g</em> for any <em>g</em> in <em>G</em> and <em>h</em> in <em>H</em>. From an abstract point of view, isomorphic groups carry the same information. For example, proving that <em>g</em> &lt;U+2022&gt; <em>g</em> = 1 for some element <em>g</em> of <em>G</em> is <a href="Logical_equivalence" title="wikilink">equivalent</a> to proving that <em>a</em>(<em>g</em>) &lt;U+2022&gt; <em>a</em>(<em>g</em>) = 1, because applying <em>a</em> to the first equality yields the second, and applying <em>b</em> to the second gives back the first.</p>
+<h3 id="subgroups">Subgroups</h3>
+
+<p>Informally, a <em>subgroup</em> is a group <em>H</em> contained within a bigger one, <em>G</em>.<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a> Concretely, the identity element of <em>G</em> is contained in <em>H</em>, and whenever <em>h</em><sub>1</sub> and <em>h</em><sub>2</sub> are in <em>H</em>, then so are  and <em>h</em><sub>1</sub><sup>−1</sup>, so the elements of <em>H</em>, equipped with the group operation on <em>G</em> restricted to <em>H</em>, form indeed a group.</p>
+<p>In the example above, the identity and the rotations constitute a subgroup <em>R</em> = {id, r<sub>1</sub>, r<sub>2</sub>, r<sub>3</sub>}, highlighted in red in the group table above: any two rotations composed are still a rotation, and a rotation can be undone by (i.e. is inverse to) the rotation in the opposite direction. The <a href="subgroup_test" title="wikilink">subgroup test</a> is a <a href="Necessary_and_sufficient_conditions" title="wikilink">necessary and sufficient condition</a> for a subset <em>H</em> of a group <em>G</em> to be a subgroup: it is sufficient to check that  for all elements <em>g</em>, <em>h</em> &lt;U+2208&gt; <em>H</em>. Knowing <a href="lattice_of_subgroups" title="wikilink">the subgroups</a> is important in understanding the group as a whole.</p>
+<p>Given any subset <em>S</em> of a group <em>G</em>, the subgroup generated by <em>S</em> consists of products of elements of <em>S</em> and their inverses. It is the smallest subgroup of <em>G</em> containing <em>S</em>.<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a> In the introductory example above, the subgroup generated by r<sub>2</sub> and f<sub>v</sub> consists of these two elements, the identity element id and f<sub>h</sub> = f<sub>v</sub> &lt;U+2022&gt; r<sub>2</sub>. Again, this is a subgroup, because combining any two of these four elements or their inverses (which are, in this particular case, these same elements) yields an element of this subgroup.</p>
+<h3 id="cosets">Cosets</h3>
+
+<p>In many situations it is desirable to consider two group elements the same if they differ by an element of a given subgroup. For example, in D<sub>4</sub> above, once a flip is performed, the square never gets back to the r<sub>2</sub> configuration by just applying the rotation operations (and no further flips), i.e. the rotation operations are irrelevant to the question whether a flip has been performed. Cosets are used to formalize this insight: a subgroup <em>H</em> defines left and right cosets, which can be thought of as <a href="translation_(geometry)" title="wikilink">translations</a> of <em>H</em> by arbitrary group elements <em>g</em>. In symbolic terms, the <em>left</em> and <em>right coset</em> of <em>H</em> containing <em>g</em> are</p>
+<dl>
+
+<dd><p><em>gH</em> = {<em>gh</em>, <em>h</em> &lt;U+2208&gt; <em>H</em>} and <em>Hg</em> = {<em>hg</em>, <em>h</em> &lt;U+2208&gt; <em>H</em>}, respectively.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a></p>
+</dd>
+</dl>
+<p>The cosets of any subgroup <em>H</em> form a <a href="Partition_of_a_set" title="wikilink">partition</a> of <em>G</em>; that is, two left cosets are either equal or have an <a href="empty_set" title="wikilink">empty</a> <a href="Intersection_(set_theory)" title="wikilink">intersection</a>.<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a> The first case <em>g</em><sub>1</sub><em>H</em> = <em>g</em><sub>2</sub><em>H</em> happens <a href="if_and_only_if" title="wikilink">precisely when</a> , i.e. if the two elements differ by an element of <em>H</em>. Similar considerations apply to the right cosets of <em>H</em>. The left and right cosets of <em>H</em> may or may not be equal. If they are, i.e. for all <em>g</em> in <em>G</em>, <em>gH</em> = <em>Hg</em>, then <em>H</em> is said to be a <em><a href="normal_subgroup" title="wikilink">normal subgroup</a></em>. One may then simply refer to <em>N</em> as the set of cosets.</p>
+<p>In D<sub>4</sub>, the introductory symmetry group, the left cosets <em>gR</em> of the subgroup <em>R</em> consisting of the rotations are either equal to <em>R</em>, if <em>g</em> is an element of <em>R</em> itself, or otherwise equal to <em>U</em> = f<sub>v</sub><em>R</em> = {f<sub>v</sub>, f<sub>d</sub>, f<sub>h</sub>, f<sub>c</sub>} (highlighted in green). The subgroup <em>R</em> is also normal, because f<sub>v</sub><em>R</em> = <em>U</em> = <em>R</em>f<sub>v</sub> and similarly for any element other than f<sub>v</sub>.</p>
+<h3 id="quotient-groups">Quotient groups</h3>
+
+<p>In addition to disregarding the internal structure of a subgroup by considering its cosets, it is desirable to endow this coarser entity with a group law called <em>quotient group</em> or <em>factor group</em>. For this to be possible, the subgroup has to be normal. Given any normal subgroup <em>N</em>, the quotient group is defined by</p>
+<dl>
+
+<dd><em>G</em> / <em>N</em> = {<em>gN</em>, <em>g</em> &lt;U+2208&gt; <em>G</em>}, &quot;<em>G</em> modulo <em>N</em>&quot;<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a>
+</dd>
+</dl>
+<p>This set inherits a group operation (sometimes called coset multiplication, or coset addition) from the original group <em>G</em>: (<em>gN</em>) &lt;U+2022&gt; (<em>hN</em>) = (<em>gh</em>)<em>N</em> for all <em>g</em> and <em>h</em> in <em>G</em>. This definition is motivated by the idea (itself an instance of general structural considerations outlined above) that the map  that associates to any element <em>g</em> its coset <em>gN</em> be a group homomorphism, or by general abstract considerations called <a href="universal_property" title="wikilink">universal properties</a>. The coset ''eN '' = <em>N</em> serves as the identity in this group, and the inverse of <em>Ng</em> in the quotient group is (<em>gN</em>)<sup>−1</sup> = (<em>g</em><sup>−1</sup>)<em>N</em>.</p>
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>&lt;U+2022&gt;</p></th>
+<th><p>R</p></th>
+<th><p>U</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><em>R</em></p></td>
+<td><p><em>R</em></p></td>
+<td><p><em>U</em></p></td>
+</tr>
+<tr class="even">
+<td><p><em>U</em></p></td>
+<td><p><em>U</em></p></td>
+<td><p><em>R</em></p></td>
+</tr>
+<tr class="odd">
+<td><p>Group table of the quotient group .</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The elements of the quotient group  are <em>R</em> itself, which represents the identity, and <em>U</em> = f<sub>v</sub><em>R</em>. The group operation on the quotient is shown at the right. For example, <em>U</em> &lt;U+2022&gt; <em>U</em> = f<sub>v</sub><em>R</em> &lt;U+2022&gt; f<sub>v</sub><em>R</em> = (f<sub>v</sub> &lt;U+2022&gt; f<sub>v</sub>)<em>R</em> = <em>R</em>. Both the subgroup <em>R</em> = {id, r<sub>1</sub>, r<sub>2</sub>, r<sub>3</sub>}, as well as the corresponding quotient are abelian, whereas D<sub>4</sub> is not abelian. Building bigger groups by smaller ones, such as D<sub>4</sub> from its subgroup <em>R</em> and the quotient  is abstracted by a notion called <a href="semidirect_product" title="wikilink">semidirect product</a>.</p>
+<p>Quotient and subgroups together form a way of describing every group by its <em><a href="presentation_of_a_group" title="wikilink">presentation</a></em>: any group is the quotient of the <a href="free_group" title="wikilink">free group</a> over the <em><a href="Generating_set_of_a_group" title="wikilink">generators</a></em> of the group, quotiented by the subgroup of <em>relations</em>. The dihedral group D<sub>4</sub>, for example, can be generated by two elements <em>r</em> and <em>f</em> (for example, <em>r</em> = r<sub>1</sub>, the right rotation and <em>f</em> = f<sub>v</sub> the vertical (or any other) flip), which means that every symmetry of the square is a finite composition of these two symmetries or their inverses. Together with the relations</p>
+<dl>
+
+<dd>''r <em><sup>4</sup> = </em>f <em><sup>2</sup> = (</em>rf'')<sup>2</sup> = 1,<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a>
+</dd>
+</dl>
+<p>the group is completely described. A presentation of a group can also be used to construct the <a href="Cayley_graph" title="wikilink">Cayley graph</a>, a device used to graphically capture <a href="discrete_group" title="wikilink">discrete groups</a>.</p>
+<p>Sub- and quotient groups are related in the following way: a subset <em>H</em> of <em>G</em> can be seen as an <a href="injective" class="uri" title="wikilink">injective</a> map , i.e. any element of the target has at most one <a href="preimage" title="wikilink">element that maps to it</a>. The counterpart to injective maps are <a href="surjective" class="uri" title="wikilink">surjective</a> maps (every element of the target is mapped onto), such as the canonical map . Interpreting subgroup and quotients in light of these homomorphisms emphasizes the structural concept inherent to these definitions alluded to in the introduction. In general, homomorphisms are neither injective nor surjective. <a href="Kernel_(algebra)" title="wikilink">Kernel</a> and <a href="Image_(mathematics)" title="wikilink">image</a> of group homomorphisms and the <a href="first_isomorphism_theorem" title="wikilink">first isomorphism theorem</a> address this phenomenon.</p>
+<h2 id="examples-and-applications">Examples and applications</h2>
+
+
+<p>Examples and applications of groups abound. A starting point is the group <strong>Z</strong> of integers with addition as group operation, introduced above. If instead of addition <a href="multiplication" class="uri" title="wikilink">multiplication</a> is considered, one obtains <a href="multiplicative_group" title="wikilink">multiplicative groups</a>. These groups are predecessors of important constructions in <a href="abstract_algebra" title="wikilink">abstract algebra</a>.</p>
+<p>Groups are also applied in many other mathematical areas. Mathematical objects are often examined by <a href="functor" title="wikilink">associating</a> groups to them and studying the properties of the corresponding groups. For example, <a href="Henri_Poincar&lt;U+00E9&gt;" title="wikilink">Henri Poincar&lt;U+00E9&gt;</a> founded what is now called <a href="algebraic_topology" title="wikilink">algebraic topology</a> by introducing the <a href="fundamental_group" title="wikilink">fundamental group</a>.<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a> By means of this connection, <a href="Glossary_of_topology" title="wikilink">topological properties</a> such as <a href="Neighbourhood_(mathematics)" title="wikilink">proximity</a> and <a href="continuous_function" title="wikilink">continuity</a> translate into properties of groups. For example, the image at the right depicts elements of the fundamental group of a plane minus a point. Elements of the group are given by loops in this area. The blue loop is considered <a href="null-homotopic" class="uri" title="wikilink">null-homotopic</a> (and thus irrelevant), because it can be <a href="homotopy" title="wikilink">shrunk</a> to a point. The presence of the hole prevents the orange loop from being shrunk. The fundamental group of the plane with a point deleted turns out to be infinite cyclic, generated by the orange loop (or any other loop <a href="winding_number" title="wikilink">winding once</a> around the hole). This way, the fundamental group detects the hole.</p>
+<p>In more recent applications, the influence has also been reversed to motivate geometric constructions by a group-theoretical background. In a similar vein, <a href="geometric_group_theory" title="wikilink">geometric group theory</a> employs geometric concepts, for example in the study of <a href="hyperbolic_group" title="wikilink">hyperbolic groups</a>.<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a> Further branches crucially applying groups include <a href="algebraic_geometry" title="wikilink">algebraic geometry</a> and <a href="number_theory" title="wikilink">number theory</a>.<a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a></p>
+<p>In addition to the above theoretical applications, many practical applications of groups exist. <a href="Cryptography" class="uri" title="wikilink">Cryptography</a> relies on the combination of the abstract group theory approach together with <a href="algorithm" title="wikilink">algorithmical</a> knowledge obtained in <a href="computational_group_theory" title="wikilink">computational group theory</a>, in particular when implemented for finite groups.<a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a> Applications of group theory are not restricted to mathematics; sciences such as <a href="physics" class="uri" title="wikilink">physics</a>, <a href="chemistry" class="uri" title="wikilink">chemistry</a> and <a href="computer_science" title="wikilink">computer science</a> benefit from the concept.</p>
+<h3 id="numbers">Numbers</h3>
+<p>Many number systems, such as the integers and the rationals enjoy a naturally given group structure. In some cases, such as with the rationals, both addition and multiplication operations give rise to group structures. Such number systems are predecessors to more general algebraic structures known as <a href="ring_(mathematics)" title="wikilink">rings</a> and <a href="field_(mathematics)" title="wikilink">fields</a>.</p>
+<h4 id="integers">Integers</h4>
+<p>The group of integers <strong>Z</strong> under addition, denoted (<strong>Z</strong>, +), has been described above. The integers, with the operation of <a href="multiplication" class="uri" title="wikilink">multiplication</a> instead of addition, (<strong>Z</strong>, &lt;U+00B7&gt;) do <em>not</em> form a group. The closure, associativity and identity axioms are satisfied, but inverses do not exist: for example, <em>a</em> = 2 is an integer, but the only solution to the equation <em>a &lt;U+00B7&gt; b</em> = 1 in this case is <em>b</em> = 1/2, which is a rational number, but not an integer. Hence not every element of <strong>Z</strong> has a (multiplicative) inverse.</p>
+<h4 id="rationals">Rationals</h4>
+<p>The desire for the existence of multiplicative inverses suggests considering <a href="fraction_(mathematics)" title="wikilink">fractions</a></p>
+<p><br /><span class="math display">$$\frac{a}{b}$$</span><br />. Fractions of integers (with <em>b</em> nonzero) are known as <a href="rational_number" title="wikilink">rational numbers</a>. The set of all such fractions is commonly denoted <strong>Q</strong>. There is still a minor obstacle for  the rationals with multiplication, being a group: because the rational number <a href="0_(number)" title="wikilink">0</a> does not have a multiplicative inverse (i.e., there is no <em>x</em> such that <em>x</em> &lt;U+00B7&gt; 0 = 1), (<strong>Q</strong>, &lt;U+00B7&gt;) is still not a group.</p>
+<p>However, the set of all <em>nonzero</em> rational numbers <strong>Q</strong> \ {0} = {<em>q</em> &lt;U+2208&gt; <strong>Q</strong>, <em>q</em> &lt;U+2260&gt; 0} does form an abelian group under multiplication, denoted . Associativity and identity element axioms follow from the properties of integers. The closure requirement still holds true after removing zero, because the product of two nonzero rationals is never zero. Finally, the inverse of <em>a</em>/<em>b</em> is <em>b</em>/<em>a</em>, therefore the axiom of the inverse element is satisfied.</p>
+<p>The rational numbers (including 0) also form a group under addition. Intertwining addition and multiplication operations yields more complicated structures called rings and&lt;U+2014&gt;if division is possible, such as in <strong>Q</strong>&lt;U+2014&gt;fields, which occupy a central position in <a href="abstract_algebra" title="wikilink">abstract algebra</a>. Group theoretic arguments therefore underlie parts of the theory of those entities.</p>
+<h4 id="nonzero-integers-modulo-a-prime">Nonzero integers modulo a prime</h4>
+<p>For any <a href="prime_number" title="wikilink">prime number</a> <em>p</em>, <a href="modular_arithmetic" title="wikilink">modular arithmetic</a> furnishes the <a href="multiplicative_group_of_integers_modulo_n" title="wikilink">multiplicative group of integers modulo <em>p</em></a>.<a href="#fn39" class="footnote-ref" id="fnref39"><sup>39</sup></a> Its elements are integers not divisible by <em>p</em>, considered <a href="Modular_arithmetic" title="wikilink">modulo</a> <em>p</em>, i.e. two numbers are considered equivalent if their <a href="difference_(mathematics)" title="wikilink">difference</a> is divisible by <em>p</em>. For example, if <em>p</em> = 5, there are exactly four group elements 1, 2, 3, 4: <a href="multiple_(mathematics)" title="wikilink">multiples</a> of 5 are excluded and 6 and −4 are both equivalent to 1 etc. The group operation is given by multiplication. Therefore, 4 &lt;U+00B7&gt; 4 = 1, because the usual product 16 is equivalent to 1, for 5 divides 16 − 1 = 15, denoted</p>
+<dl>
+
+<dd>16 &lt;U+2261&gt; 1 (<a href="modulo" title="wikilink">mod</a> 5).
+</dd>
+</dl>
+<p>The primality of <em>p</em> ensures that the product of two integers neither of which is divisible by <em>p</em> is not divisible by <em>p</em> either, hence the indicated set of classes is closed under multiplication. The identity element is 1, as usual for a multiplicative group, and the associativity follows from the corresponding property of integers. Finally, the inverse element axiom requires that given an integer <em>a</em> not divisible by <em>p</em>, there exists an integer <em>b</em> such that</p>
+<dl>
+
+<dd><em>a</em> &lt;U+00B7&gt; <em>b</em> &lt;U+2261&gt; 1 (mod <em>p</em>), i.e. <em>p</em> divides the difference .
+</dd>
+</dl>
+<p>The inverse <em>b</em> can be found by using <a href="B&lt;U+00E9&gt;zout&#39;s_identity" title="wikilink">B&lt;U+00E9&gt;zout's identity</a> and the fact that the <a href="greatest_common_divisor" title="wikilink">greatest common divisor</a>  equals 1.<a href="#fn40" class="footnote-ref" id="fnref40"><sup>40</sup></a> In the case <em>p</em> = 5 above, the inverse of 4 is 4, and the inverse of 3 is 2, as 3 &lt;U+00B7&gt; 2 = 6 &lt;U+2261&gt; 1 (mod 5). Hence all group axioms are fulfilled. Actually, this example is similar to (<strong>Q</strong>\{0}, &lt;U+00B7&gt;) above, because it turns out to be the multiplicative group of nonzero elements in the finite field <strong>F</strong><sub><em>p</em></sub>, denoted <strong>F</strong><sub><em>p</em></sub><sup>&lt;U+00D7&gt;</sup>.<a href="#fn41" class="footnote-ref" id="fnref41"><sup>41</sup></a> These groups are crucial to <a href="public-key_cryptography" title="wikilink">public-key cryptography</a>.</p>
+<h3 id="cyclic-groups">Cyclic groups</h3>
+
+<p><img src="Cyclic_group.svg" title="fig:The 6th complex roots of unity form a cyclic group. z is a primitive element, but z2 is not, because the odd powers of z are not a power of z2." alt="The 6th complex roots of unity form a cyclic group. z is a primitive element, but z2 is not, because the odd powers of z are not a power of z2." /> A <em>cyclic group</em> is a group all of whose elements are <a href="power_(mathematics)" title="wikilink">powers</a> (when the group operation is written additively, the term 'multiple' can be used) of a particular element <em>a</em>.<a href="#fn42" class="footnote-ref" id="fnref42"><sup>42</sup></a> In multiplicative notation, the elements of the group are:</p>
+<dl>
+
+<dd>..., <em>a</em><sup>−3</sup>, <em>a</em><sup>−2</sup>, <em>a</em><sup>−1</sup>, <em>a</em><sup>0</sup> = <em>e</em>, <em>a</em>, <em>a</em><sup>2</sup>, <em>a</em><sup>3</sup>, ...,
+</dd>
+</dl>
+<p>where <em>a</em><sup>2</sup> means <em>a</em> &lt;U+2022&gt; <em>a</em>, and <em>a<sup>−3</sup></em> stands for <em>a</em><sup>−1</sup> &lt;U+2022&gt; <em>a</em><sup>−1</sup> &lt;U+2022&gt; <em>a</em><sup>−1</sup>=(<em>a</em> &lt;U+2022&gt; <em>a</em> &lt;U+2022&gt; <em>a</em>)<sup>−1</sup> etc. Such an element <em>a</em> is called a generator or a <a href="Primitive_root_modulo_n" title="wikilink">primitive element</a> of the group.</p>
+<p>A typical example for this class of groups is the group of <a href="root_of_unity" title="wikilink"><em>n</em>-th complex roots of unity</a>, given by <a href="complex_number" title="wikilink">complex numbers</a> <em>z</em> satisfying <em>z</em><sup><em>n</em></sup> = 1 (and whose operation is multiplication).<a href="#fn43" class="footnote-ref" id="fnref43"><sup>43</sup></a> Any cyclic group with <em>n</em> elements is isomorphic to this group. Using some <a href="field_theory_(mathematics)" title="wikilink">field theory</a>, the group <strong>F</strong><sub><em>p</em></sub><sup>&lt;U+00D7&gt;</sup> can be shown to be cyclic: for <em>p</em> = 5, 3 is a generator since 3<sup>1</sup> = 3, 3<sup>2</sup> = 9 &lt;U+2261&gt; 4, 3<sup>3</sup> &lt;U+2261&gt; 2, and 3<sup>4</sup> &lt;U+2261&gt; 1. An infinite cyclic group is isomorphic to (<strong>Z</strong>, +), the group of integers under addition introduced above.<a href="#fn44" class="footnote-ref" id="fnref44"><sup>44</sup></a> As these two prototypes are both abelian, so is any cyclic group.</p>
+<p>The study of abelian groups is quite mature, including the <a href="fundamental_theorem_of_finitely_generated_abelian_groups" title="wikilink">fundamental theorem of finitely generated abelian groups</a>; and reflecting this state of affairs, many group-related notions, such as <a href="Center_(group_theory)" title="wikilink">center</a> and <a href="commutator" class="uri" title="wikilink">commutator</a>, describe the extent to which a given group is not abelian.<a href="#fn45" class="footnote-ref" id="fnref45"><sup>45</sup></a></p>
+<h3 id="symmetry-groups">Symmetry groups</h3>
+
+
+<p><em>Symmetry groups</em> are groups consisting of <a href="symmetry" title="wikilink">symmetries</a> of given mathematical objects&lt;U+2014&gt;be they of geometric nature, such as the introductory symmetry group of the square, or of algebraic nature, such as <a href="polynomial_equation" title="wikilink">polynomial equations</a> and their solutions.<a href="#fn46" class="footnote-ref" id="fnref46"><sup>46</sup></a> Conceptually, group theory can be thought of as the study of symmetry. <a href="Symmetry_in_mathematics" title="wikilink">Symmetries in mathematics</a> greatly simplify the study of <a href="geometry" title="wikilink">geometrical</a> or <a href="analysis" title="wikilink">analytical objects</a>. A group is said to <a href="group_action" title="wikilink">act</a> on another mathematical object <em>X</em> if every group element performs some operation on <em>X</em> compatibly to the group law. In the rightmost example below, an element of order 7 of the <a href="(2,3,7)_triangle_group" title="wikilink">(2,3,7) triangle group</a> acts on the tiling by permuting the highlighted warped triangles (and the other ones, too). By a group action, the group pattern is connected to the structure of the object being acted on.</p>
+<p>In chemical fields, such as <a href="crystallography" class="uri" title="wikilink">crystallography</a>, <a href="space_group" title="wikilink">space groups</a> and <a href="point_group" title="wikilink">point groups</a> describe <a href="molecular_symmetry" title="wikilink">molecular symmetries</a> and crystal symmetries. These symmetries underlie the chemical and physical behavior of these systems, and group theory enables simplification of <a href="quantum_mechanics" title="wikilink">quantum mechanical</a> analysis of these properties.<a href="#fn47" class="footnote-ref" id="fnref47"><sup>47</sup></a> For example, group theory is used to show that optical transitions between certain quantum levels cannot occur simply because of the symmetry of the states involved.</p>
+<p>Not only are groups useful to assess the implications of symmetries in molecules, but surprisingly they also predict that molecules sometimes can change symmetry. The <a href="Jahn-Teller_effect" title="wikilink">Jahn-Teller effect</a> is a distortion of a molecule of high symmetry when it adopts a particular ground state of lower symmetry from a set of possible ground states that are related to each other by the symmetry operations of the molecule.<a href="#fn48" class="footnote-ref" id="fnref48"><sup>48</sup></a> <a href="#fn49" class="footnote-ref" id="fnref49"><sup>49</sup></a></p>
+<p>Likewise, group theory helps predict the changes in physical properties that occur when a material undergoes a <a href="phase_transition" title="wikilink">phase transition</a>, for example, from a cubic to a tetrahedral crystalline form. An example is <a href="ferroelectric" class="uri" title="wikilink">ferroelectric</a> materials, where the change from a paraelectric to a ferroelectric state occurs at the <a href="Curie_temperature" title="wikilink">Curie temperature</a> and is related to a change from the high-symmetry paraelectric state to the lower symmetry ferroelectic state, accompanied by a so-called soft <a href="phonon" class="uri" title="wikilink">phonon</a> mode, a vibrational lattice mode that goes to zero frequency at the transition.<a href="#fn50" class="footnote-ref" id="fnref50"><sup>50</sup></a></p>
+<p>Such <a href="spontaneous_symmetry_breaking" title="wikilink">spontaneous symmetry breaking</a> has found further application in elementary particle physics, where its occurrence is related to the appearance of <a href="Goldstone_boson" title="wikilink">Goldstone bosons</a>.</p>
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 20%" />
+<col style="width: 14%" />
+<col style="width: 36%" />
+<col style="width: 15%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><figure>
+<img src="C60a.png" title="C60a.png" alt="C60a.png" width="125" /><figcaption>C60a.png</figcaption>
+</figure></td>
+<td><figure>
+<img src="Ammonia-3D-balls-A.png" title="Ammonia-3D-balls-A.png" alt="Ammonia-3D-balls-A.png" width="125" /><figcaption>Ammonia-3D-balls-A.png</figcaption>
+</figure></td>
+<td><figure>
+<img src="Cubane-3D-balls.png" title="Cubane-3D-balls.png" alt="Cubane-3D-balls.png" width="125" /><figcaption>Cubane-3D-balls.png</figcaption>
+</figure></td>
+<td><figure>
+<img src="Hexaaquacopper(II)-3D-balls.png" title="Hexaaquacopper(II)-3D-balls.png" alt="Hexaaquacopper(II)-3D-balls.png" width="125" /><figcaption>Hexaaquacopper(II)-3D-balls.png</figcaption>
+</figure></td>
+<td><figure>
+<img src="Uniform_tiling_73-t2_colored.png" title="Uniform_tiling_73-t2_colored.png" alt="Uniform_tiling_73-t2_colored.png" width="125" /><figcaption>Uniform_tiling_73-t2_colored.png</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p><a href="Buckminsterfullerene" class="uri" title="wikilink">Buckminsterfullerene</a> displays<br />
+<a href="icosahedral_symmetry" title="wikilink">icosahedral symmetry</a>.</p></td>
+<td><p><a href="Ammonia" class="uri" title="wikilink">Ammonia</a>, <a href="nitrogen" title="wikilink">N</a><a href="hydrogen" title="wikilink">H<sub>3</sub></a>. Its symmetry group is of order 6, generated by a 120&lt;U+00B0&gt; rotation and a reflection.</p></td>
+<td><p><a href="Cubane" class="uri" title="wikilink">Cubane</a> <a href="Carbon" title="wikilink">C<sub>8</sub></a><a href="Hydrogen" title="wikilink">H<sub>8</sub></a> features<br />
+<a href="octahedral_symmetry" title="wikilink">octahedral symmetry</a>.</p></td>
+<td><p>Hexaaquacopper(II) <a href="complex_ion" title="wikilink">complex ion</a>, <a href="copper" title="wikilink">[Cu</a><a href="oxygen" title="wikilink">(O</a>[[hydrogen|H<sub>2</sub>)<sub>6</sub>]<sup>2+</sup>]]. Compared to a perfectly symmetrical shape, the molecule is vertically dilated by about 22% (Jahn-Teller effect).</p></td>
+<td><p>The (2,3,7) triangle group, a hyperbolic group, acts on this <a href="Tessellation" title="wikilink">tiling</a> of the <a href="hyperbolic_geometry" title="wikilink">hyperbolic</a> plane.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Finite symmetry groups such as the <a href="Mathieu_group" title="wikilink">Mathieu groups</a> are used in <a href="coding_theory" title="wikilink">coding theory</a>, which is in turn applied in <a href="forward_error_correction" title="wikilink">error correction</a> of transmitted data, and in <a href="CD_player" title="wikilink">CD players</a>.<a href="#fn51" class="footnote-ref" id="fnref51"><sup>51</sup></a> Another application is <a href="differential_Galois_theory" title="wikilink">differential Galois theory</a>, which characterizes functions having <a href="antiderivative" title="wikilink">antiderivatives</a> of a prescribed form, giving group-theoretic criteria for when solutions of certain <a href="differential_equation" title="wikilink">differential equations</a> are well-behaved. Geometric properties that remain stable under group actions are investigated in <a href="geometric_invariant_theory" title="wikilink">(geometric)</a> <a href="invariant_theory" title="wikilink">invariant theory</a>.<a href="#fn52" class="footnote-ref" id="fnref52"><sup>52</sup></a></p>
+<h3 id="general-linear-group-and-representation-theory">General linear group and representation theory</h3>
+
+<p><img src="Matrix_multiplication.svg" title="fig:Two vectors (the left illustration) multiplied by matrices (the middle and right illustrations). The middle illustration represents a clockwise rotation by 90&lt;U+00B0&gt;, while the right-most one stretches the x-coordinate by factor 2." alt="Two vectors (the left illustration) multiplied by matrices (the middle and right illustrations). The middle illustration represents a clockwise rotation by 90&lt;U+00B0&gt;, while the right-most one stretches the x-coordinate by factor 2." width="250" /> <a href="Matrix_group" title="wikilink">Matrix groups</a> consist of <a href="Matrix_(mathematics)" title="wikilink">matrices</a> together with <a href="matrix_multiplication" title="wikilink">matrix multiplication</a>. The <em>general linear group</em> <em>GL</em>(<em>n</em>, <strong>R</strong>) consists of all <a href="invertible_matrix" title="wikilink">invertible</a> <em>n</em>-by-<em>n</em> matrices with <a href="real_number" title="wikilink">real</a> entries.<a href="#fn53" class="footnote-ref" id="fnref53"><sup>53</sup></a> Its subgroups are referred to as <em>matrix groups</em> or <em><a href="linear_group" title="wikilink">linear groups</a></em>. The dihedral group example mentioned above can be viewed as a (very small) matrix group. Another important matrix group is the <a href="special_orthogonal_group" title="wikilink">special orthogonal group</a> <em>SO</em>(<em>n</em>). It describes all possible rotations in <em>n</em> dimensions. Via <a href="Euler_angles" title="wikilink">Euler angles</a>, <a href="Rotation_matrix" title="wikilink">rotation matrices</a> are used in <a href="computer_graphics" title="wikilink">computer graphics</a>.<a href="#fn54" class="footnote-ref" id="fnref54"><sup>54</sup></a></p>
+<p><em>Representation theory</em> is both an application of the group concept and important for a deeper understanding of groups.<a href="#fn55" class="footnote-ref" id="fnref55"><sup>55</sup></a><a href="#fn56" class="footnote-ref" id="fnref56"><sup>56</sup></a> It studies the group by its <a href="group_action" title="wikilink">group actions</a> on other spaces. A broad class of <a href="group_representation" title="wikilink">group representations</a> are linear representations, i.e. the group is acting on a <a href="vector_space" title="wikilink">vector space</a>, such as the three-dimensional <a href="Euclidean_space" title="wikilink">Euclidean space</a> <strong>R</strong><sup>3</sup>. A representation of <em>G</em> on an <em>n</em>-<a href="dimension" title="wikilink">dimensional</a> real vector space is simply a group homomorphism</p>
+<dl>
+
+<dd><em>&lt;U+03C1&gt;</em>: <em>G</em> &lt;U+2192&gt; <em>GL</em>(<em>n</em>, <strong>R</strong>)
+</dd>
+</dl>
+<p>from the group to the general linear group. This way, the group operation, which may be abstractly given, translates to the multiplication of matrices making it accessible to explicit computations.</p>
+<p>Given a group action, this gives further means to study the object being acted on. On the other hand, it also yields information about the group. Group representations are an organizing principle in the theory of finite groups, Lie groups, <a href="algebraic_group" title="wikilink">algebraic groups</a> and <a href="topological_group" title="wikilink">topological groups</a>, especially (locally) <a href="compact_group" title="wikilink">compact groups</a>.<a href="#fn57" class="footnote-ref" id="fnref57"><sup>57</sup></a><a href="#fn58" class="footnote-ref" id="fnref58"><sup>58</sup></a></p>
+<h3 id="galois-groups">Galois groups</h3>
+
+<p><em>Galois groups</em> have been developed to help solving <a href="polynomial_equation" title="wikilink">polynomial equations</a> by capturing their symmetry features.<a href="#fn59" class="footnote-ref" id="fnref59"><sup>59</sup></a><a href="#fn60" class="footnote-ref" id="fnref60"><sup>60</sup></a> For example, the solutions of the <a href="quadratic_equation" title="wikilink">quadratic equation</a> <em>ax</em><sup>2</sup> + <em>bx</em> + <em>c</em> = 0 are given by</p>
+<p><br /><span class="math display">$$x = \frac{-b \pm \sqrt {b^2-4ac}}{2a}.$$</span><br /> Exchanging &quot;+&quot; and &quot;−&quot; in the expression, i.e. permuting the two solutions of the equation can be viewed as a (very simple) group operation. Similar formulae are known for <a href="cubic_equation" title="wikilink">cubic</a> and <a href="quartic_equation" title="wikilink">quartic equations</a>, but do <em>not</em> exist in general for <a href="quintic_equation" title="wikilink">degree 5</a> and higher.<a href="#fn61" class="footnote-ref" id="fnref61"><sup>61</sup></a> Abstract properties of Galois groups (in particular their <a href="solvable_group" title="wikilink">solvability</a>) associated to polynomials give a criterion which polynomials do have all their solutions expressible by radicals, i.e. solutions expressible using solely addition, multiplication, and <a href="Nth_root" title="wikilink">roots</a> similar to the formula above.<a href="#fn62" class="footnote-ref" id="fnref62"><sup>62</sup></a></p>
+<p>The problem can be dealt with even more neatly using <a href="field_theory_(mathematics)" title="wikilink">field theory</a>: considering the <a href="splitting_field" title="wikilink">splitting field</a> of a polynomial shifts the problem into the realm of field theory. Modern <a href="Galois_theory" title="wikilink">Galois theory</a> generalizes the above type of Galois groups to <a href="field_extension" title="wikilink">field extensions</a> and establishes&lt;U+2014&gt;via the <a href="fundamental_theorem_of_Galois_theory" title="wikilink">fundamental theorem of Galois theory</a>&lt;U+2014&gt;a precise relationship between fields and groups, underlining once again the ubiquity of groups in mathematics.</p>
+<h2 id="finite-groups">Finite groups</h2>
+
+<p>A group is called <em>finite</em> if it has a <a href="finite_set" title="wikilink">finite number of elements</a>. The number of elements is called the <a href="order_(group_theory)" title="wikilink">order</a> of the group <em>G</em>.<a href="#fn63" class="footnote-ref" id="fnref63"><sup>63</sup></a> An important class is the <em><a href="symmetric_group" title="wikilink">symmetric groups</a></em> <em>S</em><sub><em>N</em></sub>, the groups of <a href="permutation" title="wikilink">permutations</a> of <em>N</em> letters. For example, the symmetric group on 3 letters <a href="dihedral_group_of_order_6" title="wikilink"><em>S</em><sub>3</sub></a> is the group consisting of all possible swaps of the three letters <em>ABC</em>, i.e. contains the elements <em>ABC</em>, <em>ACB</em>, ..., up to <em>CBA</em>, in total 6 (or 3 <a href="factorial" class="uri" title="wikilink">factorial</a>) elements. This class is fundamental insofar as any finite group can be expressed as a subgroup of a symmetric group <em>S</em><sub><em>N</em></sub> for a suitable integer <em>N</em> (<a href="Cayley&#39;s_theorem" title="wikilink">Cayley's theorem</a>). Parallel to the group of symmetries of the square above, <em>S</em><sub>3</sub> can also be interpreted as the group of symmetries of an <a href="equilateral_triangle" title="wikilink">equilateral triangle</a>.</p>
+<p>The order of an element <em>a</em> in a group <em>G</em> is the least positive integer <em>n</em> such that <em>a<sup>n</sup> = e</em>, where <em>a<sup>n</sup></em> represents <span class="math inline">$\underbrace{a \cdot \ldots \cdot a}_n$</span>, i.e. application of the operation &lt;U+2022&gt; to <em>n</em> copies of <em>a</em>. (If &lt;U+2022&gt; represents multiplication, then <em>a</em><sup><em>n</em></sup> corresponds to the <em>n</em><sup>th</sup> power of <em>a</em>.) In infinite groups, such an <em>n</em> may not exist, in which case the order of <em>a</em> is said to be infinity. The order of an element equals the order of the cyclic subgroup generated by this element.</p>
+<p>More sophisticated counting techniques, for example counting cosets, yield more precise statements about finite groups: <a href="Lagrange&#39;s_theorem_(group_theory)" title="wikilink">Lagrange's Theorem</a> states that for a finite group <em>G</em> the order of any finite subgroup <em>H</em> <a href="divisor" title="wikilink">divides</a> the order of <em>G</em>. The <a href="Sylow_theorems" title="wikilink">Sylow theorems</a> give a partial converse.</p>
+<p>The <a href="dihedral_group" title="wikilink">dihedral group</a> (discussed above) is a finite group of order 8. The order of r<sub>1</sub> is 4, as is the order of the subgroup <em>R</em> it generates (see above). The order of the reflection elements f<sub>v</sub> etc. is 2. Both orders divide 8, as predicted by Lagrange's Theorem. The groups <strong>F</strong><sub><em>p</em></sub><sup>&lt;U+00D7&gt;</sup> above have order .</p>
+<h3 id="classification-of-finite-simple-groups">Classification of finite simple groups</h3>
+
+<p>Mathematicians often strive for a complete <a href="classification_theorems" title="wikilink">classification</a> (or list) of a mathematical notion. In the context of finite groups, this aim quickly leads to difficult and profound mathematics. According to Lagrange's theorem, finite groups of order <em>p</em>, a prime number, are necessarily cyclic (abelian) groups <strong>Z</strong><sub><em>p</em></sub>. Groups of order <em>p</em><sup>2</sup> can also be shown to be abelian, a statement which does not generalize to order <em>p</em><sup>3</sup>, as the non-abelian group D<sub>4</sub> of order 8 = 2<sup>3</sup> above shows.<a href="#fn64" class="footnote-ref" id="fnref64"><sup>64</sup></a> <a href="Computer_algebra_system" title="wikilink">Computer algebra systems</a> can be used to <a href="List_of_small_groups" title="wikilink">list small groups</a>, but there is no classification of all finite groups. An intermediate step is the classification of finite simple groups. A nontrivial group is called <em><a href="simple_group" title="wikilink">simple</a></em> if its only normal subgroups are the <a href="trivial_group" title="wikilink">trivial group</a> and the group itself. The <a href="Jordan-H&lt;U+00F6&gt;lder_theorem" title="wikilink">Jordan-H&lt;U+00F6&gt;lder theorem</a> exhibits simple groups as the building blocks for all finite groups.<a href="#fn65" class="footnote-ref" id="fnref65"><sup>65</sup></a> <a href="List_of_finite_simple_groups" title="wikilink">Listing all finite simple groups</a> was a major achievement in contemporary group theory. 1998 <a href="Fields_Medal" title="wikilink">Fields Medal</a> winner <a href="Richard_Borcherds" title="wikilink">Richard Borcherds</a> succeeded to prove the <a href="monstrous_moonshine" title="wikilink">monstrous moonshine</a> conjectures, a surprising and deep relation of the largest finite simple <a href="sporadic_group" title="wikilink">sporadic group</a>&lt;U+2014&gt;the &quot;<a href="monster_group" title="wikilink">monster group</a>&quot;&lt;U+2014&gt;with certain <a href="modular_function" title="wikilink">modular functions</a>, a piece of classical <a href="complex_analysis" title="wikilink">complex analysis</a>, and <a href="string_theory" title="wikilink">string theory</a>, a theory supposed to unify the description of many physical phenomena.<a href="#fn66" class="footnote-ref" id="fnref66"><sup>66</sup></a></p>
+<h2 id="groups-with-additional-structure">Groups with additional structure</h2>
+<p>Many groups are simultaneously groups and examples of other mathematical structures. In the language of <a href="category_theory" title="wikilink">category theory</a>, they are <a href="group_object" title="wikilink">group objects</a> in a <a href="category_(mathematics)" title="wikilink">category</a>, meaning that they are objects (that is, examples of another mathematical structure) which come with transformations (called <a href="morphism" title="wikilink">morphisms</a>) that mimic the group axioms. For example, every group (as defined above) is also a set, so a group is a group object in the <a href="category_of_sets" title="wikilink">category of sets</a>.</p>
+<h3 id="topological-groups">Topological groups</h3>
+
+<p><img src="Circle_as_Lie_group2.svg" title="fig:The unit circle in the complex plane under complex multiplication is a Lie group and, therefore, a topological group. It is topological since complex multiplication and division are continuous. It is a manifold and thus a Lie group, because every small piece, such as the red arc in the figure, looks like a part of the real line (shown at the bottom). " alt="The unit circle in the complex plane under complex multiplication is a Lie group and, therefore, a topological group. It is topological since complex multiplication and division are continuous. It is a manifold and thus a Lie group, because every small piece, such as the red arc in the figure, looks like a part of the real line (shown at the bottom). " /> Some <a href="topological_space" title="wikilink">topological spaces</a> may be endowed with a group law. In order for the group law and the topology to interweave well, the group operations must be <a href="continuous_function" title="wikilink">continuous functions</a>, that is,  and <em>g</em><sup>−1</sup> must not vary wildly if <em>g</em> and <em>h</em> vary only little. Such groups are called <em>topological groups,</em> and they are the group objects in the <a href="category_of_topological_spaces" title="wikilink">category of topological spaces</a>.<a href="#fn67" class="footnote-ref" id="fnref67"><sup>67</sup></a> The most basic examples are the <a href="real_number" title="wikilink">reals</a> <strong>R</strong> under addition, , and similarly with any other <a href="topological_field" title="wikilink">topological field</a> such as the <a href="complex_number" title="wikilink">complex numbers</a> or <a href="p-adic_number" title="wikilink"><em>p</em>-adic numbers</a>. All of these groups are <a href="locally_compact_topological_group" title="wikilink">locally compact</a>, so they have <a href="Haar_measure" title="wikilink">Haar measures</a> and can be studied via <a href="harmonic_analysis" title="wikilink">harmonic analysis</a>. The former offer an abstract formalism of invariant <a href="integral" title="wikilink">integrals</a>. Invariance means, in the case of real numbers for example:</p>
+<dl>
+
+<dd><span class="math inline">∫<em>f</em>(<em>x</em>) <em>d</em><em>x</em> = ∫<em>f</em>(<em>x</em> + <em>c</em>) <em>d</em><em>x</em></span>
+</dd>
+</dl>
+<p>for any constant <em>c</em>. Matrix groups over these fields fall under this regime, as do <a href="adele_ring" title="wikilink">adele rings</a> and <a href="adelic_algebraic_group" title="wikilink">adelic algebraic groups</a>, which are basic to number theory.<a href="#fn68" class="footnote-ref" id="fnref68"><sup>68</sup></a> Galois groups of infinite field extensions such as the <a href="absolute_Galois_group" title="wikilink">absolute Galois group</a> can also be equipped with a topology, the so-called <a href="Krull_topology" title="wikilink">Krull topology</a>, which in turn is central to generalize the above sketched connection of fields and groups to infinite field extensions.<a href="#fn69" class="footnote-ref" id="fnref69"><sup>69</sup></a> An advanced generalization of this idea, adapted to the needs of <a href="algebraic_geometry" title="wikilink">algebraic geometry</a>, is the <a href="&lt;U+00E9&gt;tale_fundamental_group" title="wikilink">&lt;U+00E9&gt;tale fundamental group</a>.<a href="#fn70" class="footnote-ref" id="fnref70"><sup>70</sup></a></p>
+<h3 id="lie-groups">Lie groups</h3>
+
+<p><em>Lie groups</em> (in honor of <a href="Sophus_Lie" title="wikilink">Sophus Lie</a>) are groups which also have a <a href="manifold" class="uri" title="wikilink">manifold</a> structure, i.e. they are spaces <a href="diffeomorphism" title="wikilink">looking locally like</a> some <a href="Euclidean_space" title="wikilink">Euclidean space</a> of the appropriate <a href="dimension" class="uri" title="wikilink">dimension</a>.<a href="#fn71" class="footnote-ref" id="fnref71"><sup>71</sup></a> Again, the additional structure, here the manifold structure, has to be compatible, i.e. the maps corresponding to multiplication and the inverse have to be <a href="smooth_map" title="wikilink">smooth</a>.</p>
+
+<p>A standard example is the general linear group introduced above: it is an <a href="open_subset" title="wikilink">open subset</a> of the space of all <em>n</em>-by-<em>n</em> matrices, because it is given by the inequality</p>
+<dl>
+
+<dd>det (<em>A</em>) &lt;U+2260&gt; 0,
+</dd>
+</dl>
+<p>where <em>A</em> denotes an <em>n</em>-by-<em>n</em> matrix.<a href="#fn72" class="footnote-ref" id="fnref72"><sup>72</sup></a></p>
+<p>Lie groups are of fundamental importance in physics: <a href="Noether&#39;s_theorem" title="wikilink">Noether's theorem</a> links continuous symmetries to <a href="conserved_quantities" title="wikilink">conserved quantities</a>.<a href="#fn73" class="footnote-ref" id="fnref73"><sup>73</sup></a> <a href="Rotation" class="uri" title="wikilink">Rotation</a>, as well as <a href="translation_(geometry)" title="wikilink">translations</a> in <a href="space" class="uri" title="wikilink">space</a> and <a href="time" class="uri" title="wikilink">time</a> are basic symmetries of the laws of <a href="mechanics" class="uri" title="wikilink">mechanics</a>. They can, for instance, be used to construct simple models&lt;U+2014&gt;imposing, say, axial symmetry on a situation will typically lead to significant simplification in the equations one needs to solve to provide a physical description. Another example are the <a href="Lorentz_transformation" title="wikilink">Lorentz transformations</a>, which relate measurements of time and velocity of two observers in motion relative to each other. They can be deduced in a purely group-theoretical way, by expressing the transformations as a rotational symmetry of <a href="Minkowski_space" title="wikilink">Minkowski space</a>. The latter serves&lt;U+2014&gt;in the absence of significant <a href="gravitation" class="uri" title="wikilink">gravitation</a>&lt;U+2014&gt;as a model of <a href="space_time" title="wikilink">space time</a> in <a href="special_relativity" title="wikilink">special relativity</a>.<a href="#fn74" class="footnote-ref" id="fnref74"><sup>74</sup></a> The full symmetry group of Minkowski space, i.e. including translations, is known as the <a href="Poincar&lt;U+00E9&gt;_group" title="wikilink">Poincar&lt;U+00E9&gt; group</a>. By the above, it plays a pivotal role in special relativity and, by implication, for <a href="quantum_field_theories" title="wikilink">quantum field theories</a>.<a href="#fn75" class="footnote-ref" id="fnref75"><sup>75</sup></a> <a href="Local_symmetry" title="wikilink">Symmetries that vary with location</a> are central to the modern description of physical interactions with the help of <a href="gauge_theory" title="wikilink">gauge theory</a>.<a href="#fn76" class="footnote-ref" id="fnref76"><sup>76</sup></a></p>
+<h2 id="generalizations">Generalizations</h2>
+
+<p>In <a href="abstract_algebra" title="wikilink">abstract algebra</a>, more general structures are defined by relaxing some of the axioms defining a group.<a href="#fn77" class="footnote-ref" id="fnref77"><sup>77</sup></a><a href="#fn78" class="footnote-ref" id="fnref78"><sup>78</sup></a><a href="#fn79" class="footnote-ref" id="fnref79"><sup>79</sup></a> For example, if the requirement that every element has an inverse is eliminated, the resulting algebraic structure is called a <a href="monoid" class="uri" title="wikilink">monoid</a>. The <a href="natural_number" title="wikilink">natural numbers</a> <strong>N</strong> (including 0) under addition form a monoid, as do the nonzero integers under multiplication , see above. There is a general method to formally add inverses to elements to any (abelian) monoid, much the same way as  is derived from , known as the <a href="Grothendieck_group" title="wikilink">Grothendieck group</a>. <a href="Groupoid" title="wikilink">Groupoids</a> are similar to groups except that the composition <em>a</em> &lt;U+2022&gt; <em>b</em> need not be defined for all <em>a</em> and <em>b</em>. They arise in the study of more complicated forms of symmetry, often in <a href="topology" title="wikilink">topological</a> and <a href="mathematical_analysis" title="wikilink">analytical</a> structures, such as the <a href="fundamental_groupoid" title="wikilink">fundamental groupoid</a>. The table gives a list of several structures generalizing groups.</p>
+<div style="clear:both">
+</div>
+<h2 id="see-also">See also</h2>
+
+
+<ul>
+<li><a href="Group_ring" title="wikilink">Group ring</a></li>
+<li><a href="Group_algebra" title="wikilink">Group algebra</a></li>
+<li><a href="Euclidean_group" title="wikilink">Euclidean group</a></li>
+<li><a href="Grothendieck_group" title="wikilink">Grothendieck group</a></li>
+<li><a href="Symmetry_in_physics" title="wikilink">Symmetry in physics</a></li>
+<li><a href="CPT_symmetry" title="wikilink">CPT symmetry</a></li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+
+<p><font class=small>                          </font> </p>
+<h3 id="citations">Citations</h3>
+
+<h2 id="references">References</h2>
+<h3 id="general-references">General references</h3>
+<ul>
+<li><p>, Chapter 2 contains an undergraduate-level exposition of the notions covered in this article.</p></li>
+<li><p>, Chapter 5 provides a layman-accessible explanation of groups.</p></li>
+<li><p>.</p></li>
+<li><p>, an elementary introduction.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+</ul>
+<h3 id="special-references">Special references</h3>
+<ul>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+</ul>
+<h3 id="historical-references">Historical references</h3>
+
+<ul>
+<li></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p> (Galois work was first published by <a href="Joseph_Liouville" title="wikilink">Joseph Liouville</a> in 1843).</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+<li></li>
+<li><p>.</p></li>
+<li><p>.</p></li>
+</ul>
+
+
+<p><a href="af:Groep_(wiskunde)" title="wikilink">af:Groep (wiskunde)</a> <a href="ar:&lt;U+0632&gt;&lt;U+0645&gt;&lt;U+0631&gt;&lt;U+0629&gt;_(&lt;U+0631&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+0636&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+062A&gt;)" title="wikilink">ar:&lt;U+0632&gt;&lt;U+0645&gt;&lt;U+0631&gt;&lt;U+0629&gt; (&lt;U+0631&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+0636&gt;&lt;U+064A&gt;&lt;U+0627&gt;&lt;U+062A&gt;)</a> <a href="az:Qrup_anlay&lt;U+0131&gt;&lt;U+015F&gt;&lt;U+0131&gt;" title="wikilink">az:Qrup anlay&lt;U+0131&gt;&lt;U+015F&gt;&lt;U+0131&gt;</a> <a href="zh-min-nan:K&lt;U+00FB&gt;n-l&lt;U+016B&gt;n" class="uri" title="wikilink">zh-min-nan:K&lt;U+00FB&gt;n-l&lt;U+016B&gt;n</a> <a href="bg:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt;_(&lt;U+0430&gt;&lt;U+043B&gt;&lt;U+0433&gt;&lt;U+0435&gt;&lt;U+0431&gt;&lt;U+0440&gt;&lt;U+0430&gt;)" title="wikilink">bg:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+0430&gt;&lt;U+043B&gt;&lt;U+0433&gt;&lt;U+0435&gt;&lt;U+0431&gt;&lt;U+0440&gt;&lt;U+0430&gt;)</a> <a href="ca:Grup_(matem&lt;U+00E0&gt;tiques)" title="wikilink">ca:Grup (matem&lt;U+00E0&gt;tiques)</a> <a href="cs:Grupa" class="uri" title="wikilink">cs:Grupa</a> <a href="cy:Gr&lt;U+0175&gt;p_(mathemateg)" title="wikilink">cy:Gr&lt;U+0175&gt;p (mathemateg)</a> <a href="da:Gruppe_(matematik)" title="wikilink">da:Gruppe (matematik)</a> <a href="de:Gruppentheorie" class="uri" title="wikilink">de:Gruppentheorie</a> <a href="et:R&lt;U+00FC&gt;hm_(matemaatika)" title="wikilink">et:R&lt;U+00FC&gt;hm (matemaatika)</a> <a href="el:&lt;U+039F&gt;&lt;U+03BC&gt;&lt;U+03AC&gt;&lt;U+03B4&gt;&lt;U+03B1&gt;" class="uri" title="wikilink">el:&lt;U+039F&gt;&lt;U+03BC&gt;&lt;U+03AC&gt;&lt;U+03B4&gt;&lt;U+03B1&gt;</a> <a href="es:Grupo_(matem&lt;U+00E1&gt;tica)" title="wikilink">es:Grupo (matem&lt;U+00E1&gt;tica)</a> <a href="eo:Grupo_(algebro)" title="wikilink">eo:Grupo (algebro)</a> <a href="fa:&lt;U+06AF&gt;&lt;U+0631&gt;&lt;U+0648&gt;&lt;U+0647&gt;_(&lt;U+0631&gt;&lt;U+06CC&gt;&lt;U+0627&gt;&lt;U+0636&gt;&lt;U+06CC&gt;)" title="wikilink">fa:&lt;U+06AF&gt;&lt;U+0631&gt;&lt;U+0648&gt;&lt;U+0647&gt; (&lt;U+0631&gt;&lt;U+06CC&gt;&lt;U+0627&gt;&lt;U+0636&gt;&lt;U+06CC&gt;)</a> <a href="fr:Groupe_(math&lt;U+00E9&gt;matiques)" title="wikilink">fr:Groupe (math&lt;U+00E9&gt;matiques)</a> <a href="zh-classical:&lt;U+7FA4&gt;_(&lt;U+4EE3&gt;&lt;U+6578&gt;)" title="wikilink">zh-classical:&lt;U+7FA4&gt; (&lt;U+4EE3&gt;&lt;U+6578&gt;)</a> <a href="ko:&lt;U+AD70&gt;_(&lt;U+C218&gt;&lt;U+D559&gt;)" title="wikilink">ko:&lt;U+AD70&gt; (&lt;U+C218&gt;&lt;U+D559&gt;)</a> <a href="hr:Grupa_(matematika)" title="wikilink">hr:Grupa (matematika)</a> <a href="id:Grup_(matematika)" title="wikilink">id:Grup (matematika)</a> <a href="is:Gr&lt;U+00FA&gt;pa" class="uri" title="wikilink">is:Gr&lt;U+00FA&gt;pa</a> <a href="it:Gruppo_(matematica)" title="wikilink">it:Gruppo (matematica)</a> <a href="he:&lt;U+05D7&gt;&lt;U+05D1&gt;&lt;U+05D5&gt;&lt;U+05E8&gt;&lt;U+05D4&gt;_(&lt;U+05DE&gt;&lt;U+05D1&gt;&lt;U+05E0&gt;&lt;U+05D4&gt;_&lt;U+05D0&gt;&lt;U+05DC&gt;&lt;U+05D2&gt;&lt;U+05D1&gt;&lt;U+05E8&gt;&lt;U+05D9&gt;)" title="wikilink">he:&lt;U+05D7&gt;&lt;U+05D1&gt;&lt;U+05D5&gt;&lt;U+05E8&gt;&lt;U+05D4&gt; (&lt;U+05DE&gt;&lt;U+05D1&gt;&lt;U+05E0&gt;&lt;U+05D4&gt; &lt;U+05D0&gt;&lt;U+05DC&gt;&lt;U+05D2&gt;&lt;U+05D1&gt;&lt;U+05E8&gt;&lt;U+05D9&gt;)</a> <a href="ka:&lt;U+10EF&gt;&lt;U+10D2&gt;&lt;U+10E3&gt;&lt;U+10E4&gt;&lt;U+10D8&gt;_(&lt;U+10DB&gt;&lt;U+10D0&gt;&lt;U+10D7&gt;&lt;U+10D4&gt;&lt;U+10DB&gt;&lt;U+10D0&gt;&lt;U+10E2&gt;&lt;U+10D8&gt;&lt;U+10D9&gt;&lt;U+10D0&gt;)" title="wikilink">ka:&lt;U+10EF&gt;&lt;U+10D2&gt;&lt;U+10E3&gt;&lt;U+10E4&gt;&lt;U+10D8&gt; (&lt;U+10DB&gt;&lt;U+10D0&gt;&lt;U+10D7&gt;&lt;U+10D4&gt;&lt;U+10DB&gt;&lt;U+10D0&gt;&lt;U+10E2&gt;&lt;U+10D8&gt;&lt;U+10D9&gt;&lt;U+10D0&gt;)</a> <a href="lt:Grup&lt;U+0117&gt;_(algebra)" title="wikilink">lt:Grup&lt;U+0117&gt; (algebra)</a> <a href="hu:Csoport" class="uri" title="wikilink">hu:Csoport</a> <a href="ml:&lt;U+0D17&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D42&gt;&lt;U+0D2A&gt;&lt;U+0D4D&gt;&lt;U+0D2A&gt;&lt;U+0D4D&gt;_(&lt;U+0D17&gt;&lt;U+0D23&gt;&lt;U+0D3F&gt;&lt;U+0D24&gt;&lt;U+0D36&gt;&lt;U+0D3E&gt;&lt;U+0D38&gt;&lt;U+0D4D&gt;&lt;U+0D24&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D02&gt;)" title="wikilink">ml:&lt;U+0D17&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D42&gt;&lt;U+0D2A&gt;&lt;U+0D4D&gt;&lt;U+0D2A&gt;&lt;U+0D4D&gt; (&lt;U+0D17&gt;&lt;U+0D23&gt;&lt;U+0D3F&gt;&lt;U+0D24&gt;&lt;U+0D36&gt;&lt;U+0D3E&gt;&lt;U+0D38&gt;&lt;U+0D4D&gt;&lt;U+0D24&gt;&lt;U+0D4D&gt;&lt;U+0D30&gt;&lt;U+0D02&gt;)</a> <a href="nl:Groep_(wiskunde)" title="wikilink">nl:Groep (wiskunde)</a> <a href="ja:&lt;U+7FA4&gt;_(&lt;U+6570&gt;&lt;U+5B66&gt;)" title="wikilink">ja:&lt;U+7FA4&gt; (&lt;U+6570&gt;&lt;U+5B66&gt;)</a> <a href="no:Gruppe_(matematikk)" title="wikilink">no:Gruppe (matematikk)</a> <a href="nn:Gruppeteori" class="uri" title="wikilink">nn:Gruppeteori</a> <a href="nov:Grupe_(matematike)" title="wikilink">nov:Grupe (matematike)</a> <a href="oc:Grop_(matematicas)" title="wikilink">oc:Grop (matematicas)</a> <a href="pms:Strop" class="uri" title="wikilink">pms:Strop</a> <a href="pl:Grupa_(matematyka)" title="wikilink">pl:Grupa (matematyka)</a> <a href="pt:Grupo_(matem&lt;U+00E1&gt;tica)" title="wikilink">pt:Grupo (matem&lt;U+00E1&gt;tica)</a> <a href="ro:Grup_(matematic&lt;U+0103&gt;)" title="wikilink">ro:Grup (matematic&lt;U+0103&gt;)</a> <a href="ru:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+043F&gt;&lt;U+0430&gt;_(&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;)" title="wikilink">ru:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;)</a> <a href="scn:Gruppu_(matimatica)" title="wikilink">scn:Gruppu (matimatica)</a> <a href="simple:Group_theory" title="wikilink">simple:Group theory</a> <a href="sk:Grupa_(matematika)" title="wikilink">sk:Grupa (matematika)</a> <a href="sl:Grupa_(matematika)" title="wikilink">sl:Grupa (matematika)</a> <a href="sr:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt;_(&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;)" title="wikilink">sr:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;)</a> <a href="fi:Ryhm&lt;U+00E4&gt;_(algebra)" title="wikilink">fi:Ryhm&lt;U+00E4&gt; (algebra)</a> <a href="sv:Grupp_(matematik)" title="wikilink">sv:Grupp (matematik)</a> <a href="ta:&lt;U+0B95&gt;&lt;U+0BC1&gt;&lt;U+0BB2&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt;_(&lt;U+0B95&gt;&lt;U+0BA3&gt;&lt;U+0BBF&gt;&lt;U+0BA4&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt;)" title="wikilink">ta:&lt;U+0B95&gt;&lt;U+0BC1&gt;&lt;U+0BB2&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt; (&lt;U+0B95&gt;&lt;U+0BA3&gt;&lt;U+0BBF&gt;&lt;U+0BA4&gt;&lt;U+0BAE&gt;&lt;U+0BCD&gt;)</a> <a href="th:&lt;U+0E01&gt;&lt;U+0E23&gt;&lt;U+0E38&gt;&lt;U+0E1B&gt;_(&lt;U+0E04&gt;&lt;U+0E13&gt;&lt;U+0E34&gt;&lt;U+0E15&gt;&lt;U+0E28&gt;&lt;U+0E32&gt;&lt;U+0E2A&gt;&lt;U+0E15&gt;&lt;U+0E23&gt;&lt;U+0E4C&gt;)" title="wikilink">th:&lt;U+0E01&gt;&lt;U+0E23&gt;&lt;U+0E38&gt;&lt;U+0E1B&gt; (&lt;U+0E04&gt;&lt;U+0E13&gt;&lt;U+0E34&gt;&lt;U+0E15&gt;&lt;U+0E28&gt;&lt;U+0E32&gt;&lt;U+0E2A&gt;&lt;U+0E15&gt;&lt;U+0E23&gt;&lt;U+0E4C&gt;)</a> <a href="vi:L&lt;U+00FD&gt;_thuy&lt;U+1EBF&gt;t_nh&lt;U+00F3&gt;m" title="wikilink">vi:L&lt;U+00FD&gt; thuy&lt;U+1EBF&gt;t nh&lt;U+00F3&gt;m</a> <a href="tr:&lt;U+00D6&gt;bek_(matematik)" title="wikilink">tr:&lt;U+00D6&gt;bek (matematik)</a> <a href="uk:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt;_(&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;)" title="wikilink">uk:&lt;U+0413&gt;&lt;U+0440&gt;&lt;U+0443&gt;&lt;U+043F&gt;&lt;U+0430&gt; (&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0442&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt;)</a> <a href="vls:Groep_(algebra)" title="wikilink">vls:Groep (algebra)</a> <a href="yi:&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05D5&gt;&lt;U+05E4&gt;&lt;U+05E2&gt;_(&lt;U+05DE&gt;&lt;U+05D0&gt;&lt;U+05D8&gt;&lt;U+05E2&gt;&lt;U+05DE&gt;&lt;U+05D0&gt;&lt;U+05D8&gt;&lt;U+05D9&gt;&lt;U+05E7&gt;)" title="wikilink">yi:&lt;U+05D2&gt;&lt;U+05E8&gt;&lt;U+05D5&gt;&lt;U+05E4&gt;&lt;U+05E2&gt; (&lt;U+05DE&gt;&lt;U+05D0&gt;&lt;U+05D8&gt;&lt;U+05E2&gt;&lt;U+05DE&gt;&lt;U+05D0&gt;&lt;U+05D8&gt;&lt;U+05D9&gt;&lt;U+05E7&gt;)</a> <a href="zh-yue:&lt;U+7FA3&gt;&lt;U+8AD6&gt;" class="uri" title="wikilink">zh-yue:&lt;U+7FA3&gt;&lt;U+8AD6&gt;</a> <a href="bat-smg:Gropiu_teuor&lt;U+0117&gt;j&lt;U+0117&gt;" title="wikilink">bat-smg:Gropiu teuor&lt;U+0117&gt;j&lt;U+0117&gt;</a> <a href="zh:&lt;U+7FA4&gt;" class="uri" title="wikilink">zh:&lt;U+7FA4&gt;</a></p>
+<p><a href="Category:Abstract_algebra" title="wikilink">Category:Abstract algebra</a> <a href="Category:Group_theory" title="wikilink">Category:Group theory</a> <a href="Category:Symmetry" class="uri" title="wikilink">Category:Symmetry</a></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><a href="#fnref1" class="footnote-back">↩</a></li>
+<li id="fn2">: &quot;The idea of a group is one which pervades the whole of mathematics both pure and applied.&quot;<a href="#fnref2" class="footnote-back">↩</a></li>
+<li id="fn3"><a href="#fnref3" class="footnote-back">↩</a></li>
+<li id="fn4"><a href="#fnref4" class="footnote-back">↩</a></li>
+<li id="fn5"><a href="#fnref5" class="footnote-back">↩</a></li>
+<li id="fn6"><a href="#fnref6" class="footnote-back">↩</a></li>
+<li id="fn7"><a href="#fnref7" class="footnote-back">↩</a></li>
+<li id="fn8"><a href="#fnref8" class="footnote-back">↩</a></li>
+<li id="fn9"><a href="#fnref9" class="footnote-back">↩</a></li>
+<li id="fn10"><a href="#fnref10" class="footnote-back">↩</a></li>
+<li id="fn11"><a href="#fnref11" class="footnote-back">↩</a></li>
+<li id="fn12"><a href="#fnref12" class="footnote-back">↩</a></li>
+<li id="fn13"><a href="#fnref13" class="footnote-back">↩</a></li>
+<li id="fn14"><a href="#fnref14" class="footnote-back">↩</a></li>
+<li id="fn15"><a href="#fnref15" class="footnote-back">↩</a></li>
+<li id="fn16"><a href="#fnref16" class="footnote-back">↩</a></li>
+<li id="fn17"><a href="#fnref17" class="footnote-back">↩</a></li>
+<li id="fn18"><a href="#fnref18" class="footnote-back">↩</a></li>
+<li id="fn19"><a href="#fnref19" class="footnote-back">↩</a></li>
+<li id="fn20"><a href="#fnref20" class="footnote-back">↩</a></li>
+<li id="fn21"><a href="#fnref21" class="footnote-back">↩</a></li>
+<li id="fn22"><a href="#fnref22" class="footnote-back">↩</a></li>
+<li id="fn23"><a href="#fnref23" class="footnote-back">↩</a></li>
+<li id="fn24"><a href="#fnref24" class="footnote-back">↩</a></li>
+<li id="fn25"><a href="#fnref25" class="footnote-back">↩</a></li>
+<li id="fn26"><a href="#fnref26" class="footnote-back">↩</a></li>
+<li id="fn27"></li>
+<li id="fn28"><a href="#fnref28" class="footnote-back">↩</a></li>
+<li id="fn29"><a href="#fnref29" class="footnote-back">↩</a></li>
+<li id="fn30"><a href="#fnref30" class="footnote-back">↩</a></li>
+<li id="fn31"><a href="#fnref31" class="footnote-back">↩</a></li>
+<li id="fn32"><a href="#fnref32" class="footnote-back">↩</a></li>
+<li id="fn33"><a href="#fnref33" class="footnote-back">↩</a></li>
+<li id="fn34"><a href="#fnref34" class="footnote-back">↩</a></li>
+<li id="fn35"><a href="#fnref35" class="footnote-back">↩</a></li>
+<li id="fn36"><a href="#fnref36" class="footnote-back">↩</a></li>
+<li id="fn37">for example, <a href="class_group" title="wikilink">class groups</a> and <a href="Picard_group" title="wikilink">Picard groups</a>; see , in particular &lt;U+00A7&gt;&lt;U+00A7&gt;I.12 and I.13<a href="#fnref37" class="footnote-back">↩</a></li>
+<li id="fn38"><a href="#fnref38" class="footnote-back">↩</a></li>
+<li id="fn39"><a href="#fnref39" class="footnote-back">↩</a></li>
+<li id="fn40"><a href="#fnref40" class="footnote-back">↩</a></li>
+<li id="fn41"><a href="#fnref41" class="footnote-back">↩</a></li>
+<li id="fn42"><a href="#fnref42" class="footnote-back">↩</a></li>
+<li id="fn43"><a href="#fnref43" class="footnote-back">↩</a></li>
+<li id="fn44"><a href="#fnref44" class="footnote-back">↩</a></li>
+<li id="fn45"><a href="#fnref45" class="footnote-back">↩</a></li>
+<li id="fn46"><a href="#fnref46" class="footnote-back">↩</a></li>
+<li id="fn47">. See also <a href="#fnref47" class="footnote-back">↩</a></li>
+<li id="fn48"><a href="#fnref48" class="footnote-back">↩</a></li>
+<li id="fn49"><a href="#fnref49" class="footnote-back">↩</a></li>
+<li id="fn50"><a href="#fnref50" class="footnote-back">↩</a></li>
+<li id="fn51"><a href="#fnref51" class="footnote-back">↩</a></li>
+<li id="fn52"><a href="#fnref52" class="footnote-back">↩</a></li>
+<li id="fn53"><a href="#fnref53" class="footnote-back">↩</a></li>
+<li id="fn54"><a href="#fnref54" class="footnote-back">↩</a></li>
+<li id="fn55"><a href="#fnref55" class="footnote-back">↩</a></li>
+<li id="fn56"><a href="#fnref56" class="footnote-back">↩</a></li>
+<li id="fn57"></li>
+<li id="fn58"><a href="#fnref58" class="footnote-back">↩</a></li>
+<li id="fn59"><a href="#fnref59" class="footnote-back">↩</a></li>
+<li id="fn60"><a href="#fnref60" class="footnote-back">↩</a></li>
+<li id="fn61"> (see in particular p. 273 for concrete examples)<a href="#fnref61" class="footnote-back">↩</a></li>
+<li id="fn62"><a href="#fnref62" class="footnote-back">↩</a></li>
+<li id="fn63"><a href="#fnref63" class="footnote-back">↩</a></li>
+<li id="fn64">. See also  for similar results.<a href="#fnref64" class="footnote-back">↩</a></li>
+<li id="fn65"><a href="#fnref65" class="footnote-back">↩</a></li>
+<li id="fn66"><a href="#fnref66" class="footnote-back">↩</a></li>
+<li id="fn67"><a href="#fnref67" class="footnote-back">↩</a></li>
+<li id="fn68"><a href="#fnref68" class="footnote-back">↩</a></li>
+<li id="fn69"><a href="#fnref69" class="footnote-back">↩</a></li>
+<li id="fn70"><a href="#fnref70" class="footnote-back">↩</a></li>
+<li id="fn71"><a href="#fnref71" class="footnote-back">↩</a></li>
+<li id="fn72"><a href="#fnref72" class="footnote-back">↩</a></li>
+<li id="fn73"><a href="#fnref73" class="footnote-back">↩</a></li>
+<li id="fn74"><a href="#fnref74" class="footnote-back">↩</a></li>
+<li id="fn75"><a href="#fnref75" class="footnote-back">↩</a></li>
+<li id="fn76"><a href="#fnref76" class="footnote-back">↩</a></li>
+<li id="fn77"><a href="#fnref77" class="footnote-back">↩</a></li>
+<li id="fn78"><a href="#fnref78" class="footnote-back">↩</a></li>
+<li id="fn79"><a href="#fnref79" class="footnote-back">↩</a></li>
+</ol>
+</section>

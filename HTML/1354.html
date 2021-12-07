@@ -1,0 +1,117 @@
+
+<p>In <a href="computer_science" title="wikilink">computer science</a>, <strong>Clean</strong> is a <a href="general-purpose_programming_language" title="wikilink">general-purpose</a> <a href="purely_functional" title="wikilink">purely functional</a> <a href="computer" class="uri" title="wikilink">computer</a> <a href="Computer_programming" title="wikilink">programming</a> <a href="Programming_language" title="wikilink">language</a>.</p>
+<h2 id="features">Features</h2>
+<p>The language Clean first appeared in 1987 and is still being further developed; it shares many properties with <a href="Haskell_(programming_language)" title="wikilink">Haskell</a>: <a href="Referential_transparency_(computer_science)" title="wikilink">referential transparency</a>, <a href="list_comprehension" title="wikilink">list comprehension</a>, <a href="Guard_(computing)" title="wikilink">guards</a>, <a href="garbage_collection_(computer_science)" title="wikilink">garbage collection</a>, <a href="higher_order_functions" title="wikilink">higher order functions</a> and <a href="currying" class="uri" title="wikilink">currying</a> and <a href="lazy_evaluation" title="wikilink">lazy evaluation</a>.</p>
+<p>An <a href="integrated_development_environment" title="wikilink">integrated development environment</a> (IDE) is included in the Clean distribution.</p>
+<p>Clean's method for dealing with mutable state and I/O is done through a <a href="Uniqueness_type" title="wikilink">uniqueness typing system</a>, in contrast to Haskell's use of <a href="Monads_in_functional_programming" title="wikilink">monads</a>. &quot;The uniqueness type system also allows the Clean compiler to generate efficient code because uniquely attributed data structures can be <a href="Destructive_update" title="wikilink">destructively updated</a>.&quot;<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<h2 id="examples">Examples</h2>
+<p><a href="hello_world_program" title="wikilink">Hello world</a>:</p>
+<p><code>module hello</code><br />
+<code> Start :: {#Char}</code><br />
+<code> Start = &quot;Hello, world!&quot;</code></p>
+<p><a href="Factorial" class="uri" title="wikilink">Factorial</a>:</p>
+<p><code> module factorial</code><br />
+<code>  fac 0 = 1</code><br />
+<code> fac n = n * fac (n-1)</code></p>
+<p><code> // find the factorial of 10</code><br />
+<code> Start = fac 10</code></p>
+<p><a href="Factorial" class="uri" title="wikilink">Factorial</a>:</p>
+<p><code> module factorial2</code><br />
+<code>  import StdEnv</code><br />
+<code> fac 0 = 1</code><br />
+<code> fac n = prod [1..n]//Generate a list that goes from 1 to n and returns the product of the elements</code></p>
+<p><code> // find the factorial of 6</code><br />
+<code> Start = fac 6</code></p>
+<p><a href="Fibonacci_sequence" title="wikilink">Fibonacci sequence</a>:</p>
+<p><code> module fibonacci</code><br />
+<code>  fib 0 = 0</code><br />
+<code> fib 1 = 1</code><br />
+<code> fib n = fib (n - 2) + fib (n - 1) </code><br />
+<code>  Start = fib 7</code></p>
+<p><a href="Infix_notation" title="wikilink">Infix</a> operator:</p>
+<p><code> (^) infixr 8 :: Int Int -&gt; Int</code><br />
+<code> (^) x 0 = 1</code><br />
+<code> (^) x n = x * x ^ (n-1)</code></p>
+<p>The type declaration states that the function is a right associative infix operator with priority 8: this states that <code>x*x^(n-1)</code> is equivalent to <code>x*(x^(n-1))</code> as opposed to <code>(x*x)^(n-1)</code>; this operator is pre-defined in the Clean standard environment.</p>
+<h2 id="how-clean-works">How Clean works</h2>
+<p>Computation is based on <a href="graph_rewriting" title="wikilink">graph rewriting</a> and <a href="graph_reduction" title="wikilink">reduction</a>. Constants such as numbers are graphs and functions are graph rewriting formulas. This, combined with compilation to native code, makes Clean programs relatively fast, even with high abstraction.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<h2 id="compiling">Compiling</h2>
+<ol>
+<li>Source files (.icl) and project files (.dcl) are converted into Clean's platform-independent bytecode (.abc), implemented in <a href="C_(programming_language)" title="wikilink">C</a> and Clean.</li>
+<li>Bytecode is converted to object code (.obj) using <a href="C_(programming_language)" title="wikilink">C</a>.</li>
+<li>object code is linked with other files in the module and the runtime system and converted into a normal executable in Clean.</li>
+</ol>
+<p>Earlier Clean system versions were written completely in <a href="C_(programming_language)" title="wikilink">C</a>, thus avoiding bootstrapping issues.</p>
+<h2 id="platforms">Platforms</h2>
+<p>Clean is available for <a href="Microsoft_Windows" title="wikilink">Microsoft Windows</a>. It is also available with limited <a href="input/output" class="uri" title="wikilink">input/output</a> capabilities and without the &quot;Dynamics&quot; feature for <a href="Apple_Macintosh" title="wikilink">Apple Macintosh</a>, <a href="Solaris_(operating_system)" title="wikilink">Solaris</a> and <a href="Linux" class="uri" title="wikilink">Linux</a>.</p>
+<h2 id="license">License</h2>
+<p>Clean is <a href="dual_license" title="wikilink">dual licensed</a>: it is available under the terms of the <a href="GNU_Lesser_General_Public_License" title="wikilink">GNU LGPL</a>, and also under a proprietary license.</p>
+<h2 id="versus-haskell">Versus Haskell</h2>
+<h3 id="speed">Speed</h3>
+<p>Some state that Clean is faster than Haskell,<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> but other research show that this depends on the kind of program that is tested.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
+<h3 id="syntactic-differences">Syntactic differences</h3>
+<p>The syntax of Clean is very similar to Haskell, with some notable differences:<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
+<table>
+<thead>
+<tr class="header">
+<th><p>Haskell</p></th>
+<th><p>Clean</p></th>
+<th><p>Remarks</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>(a -&gt; b) -&gt; [a] -&gt; [b]</p></td>
+<td><p>(a -&gt; b) [a] -&gt; [b]</p></td>
+<td><p><a href="higher_order_function" title="wikilink">higher order function</a></p></td>
+</tr>
+<tr class="even">
+<td><p>f . g</p></td>
+<td><p>f o g</p></td>
+<td><p><a href="Function_composition_(computer_science)" title="wikilink">function composition</a></p></td>
+</tr>
+<tr class="odd">
+<td><p>-5</p></td>
+<td><p>~5</p></td>
+<td><p>unary minus</p></td>
+</tr>
+<tr class="even">
+<td><p>[ x | x &lt;- [1..10] , isOdd x]</p></td>
+<td><p>[ x \\ x &lt;- [1..10] | isOdd x]</p></td>
+<td><p><a href="list_comprehension" title="wikilink">list comprehension</a></p></td>
+</tr>
+<tr class="odd">
+<td><p>x:xs</p></td>
+<td><p>[x:xs]</p></td>
+<td><p><a href="cons" class="uri" title="wikilink">cons</a> operator</p></td>
+</tr>
+</tbody>
+</table>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Haskell_(programming_language)" title="wikilink">Haskell programming language</a></li>
+<li><a href="List_of_functional_programming_topics" title="wikilink">List of functional programming topics</a></li>
+</ul>
+<h2 id="references">References</h2>
+
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="http://wiki.clean.cs.ru.nl/">Clean Wiki</a></li>
+<li><a href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?Clean">Clean in FOLDOC</a></li>
+<li><a href="http://shootout.alioth.debian.org/u32/clean.php">Clean in The Computer Language Benchmarks Game</a></li>
+<li><a href="http://www.nabble.com/Why-can&#39;t-Haskell-be-faster--tf4723820.html">Clean vs. Haskell discussion (haskell-cafe)</a></li>
+<li><a href="http://www.discenda.org/Clean/">Programming in Clean</a></li>
+</ul>
+
+<p><a href="ca:Clean" class="uri" title="wikilink">ca:Clean</a> <a href="cs:Clean" class="uri" title="wikilink">cs:Clean</a> <a href="de:Clean_(Programmiersprache)" title="wikilink">de:Clean (Programmiersprache)</a> <a href="nl:Clean_(programmeertaal)" title="wikilink">nl:Clean (programmeertaal)</a> <a href="ja:Clean" class="uri" title="wikilink">ja:Clean</a> <a href="pt:Clean" class="uri" title="wikilink">pt:Clean</a> <a href="ru:Clean" class="uri" title="wikilink">ru:Clean</a> <a href="fi:Clean_(ohjelmointikieli)" title="wikilink">fi:Clean (ohjelmointikieli)</a> <a href="tg:Clean" class="uri" title="wikilink">tg:Clean</a> <a href="zh:Concurrent_Clean" title="wikilink">zh:Concurrent Clean</a></p>
+<p><a href="Category:Functional_languages" title="wikilink">Category:Functional languages</a> <a href="Category:Haskell_programming_language_family" title="wikilink">Category:Haskell programming language family</a> <a href="Category:Term-rewriting_programming_languages" title="wikilink">Category:Term-rewriting programming languages</a> <a href="Category:Free_compilers_and_interpreters" title="wikilink">Category:Free compilers and interpreters</a> <a href="Category:Cross-platform_free_software" title="wikilink">Category:Cross-platform free software</a></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><a href="http://www.st.cs.ru.nl/papers/2007/achp2007-CleanHaskellQuickGuide.pdf" class="uri">http://www.st.cs.ru.nl/papers/2007/achp2007-CleanHaskellQuickGuide.pdf</a><a href="#fnref1" class="footnote-back">↩</a></li>
+<li id="fn2"><a href="http://shootout.alioth.debian.org/u32/which-programming-languages-are-fastest.php?python=on&amp;jruby=on&amp;yarv=on&amp;perl=on&amp;php=on&amp;ruby=on">Boxplot Summary | Ubuntu : Intel Q6600 Computer Language Benchmarks Game</a><a href="#fnref2" class="footnote-back">↩</a></li>
+<li id="fn3"><a href="http://sequence.complete.org/node/119">Why is Clean faster than Haskell?</a><a href="#fnref3" class="footnote-back">↩</a></li>
+<li id="fn4"><a href="http://www-users.cs.york.ac.uk/~mfn/hacle/">Hacle - A Translator from Haskell to Clean</a><a href="#fnref4" class="footnote-back">↩</a></li>
+<li id="fn5"></li>
+</ol>
+</section>

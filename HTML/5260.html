@@ -1,0 +1,52 @@
+<p>Microsoft <strong>ActiveX Data Objects</strong> (<strong>ADO</strong>) is a set of <a href="Component_Object_Model" title="wikilink">Component Object Model</a> objects for accessing data sources. It provides a layer between <a href="programming_language" title="wikilink">programming languages</a> and <a href="OLE_DB" title="wikilink">OLE DB</a> (a means of accessing data stores, whether they be <a href="database" title="wikilink">databases</a> or otherwise, in a uniform manner), which allows a developer to write programs which access data, without knowing how the database is implemented. You must be aware of your database for connection only. No knowledge of <a href="SQL" class="uri" title="wikilink">SQL</a> is required to access a database when using ADO, although one can use ADO to execute arbitrary SQL commands. The disadvantage of this (i.e. using SQL directly) is that it introduces a dependency upon the type of database used.</p>
+<p>It is positioned as a successor to Microsoft's earlier object layers for accessing data sources, including <a href="Remote_Data_Objects" title="wikilink">RDO</a> (Remote Data Objects) and <a href="Data_Access_Objects" title="wikilink">DAO</a> (Data Access Objects). ADO was introduced by <a href="Microsoft" class="uri" title="wikilink">Microsoft</a> in October 1996.</p>
+<p>ADO consists of several top-level objects:</p>
+<ul>
+<li>Connection Object - represents the <a href="Database_Connection" title="wikilink">connection to the database</a>.</li>
+<li>Recordset Object - represents a set of database records.</li>
+<li>Command Object - represents a SQL command.</li>
+<li>Record Object - represents a set of data, typically from a source other than a database.</li>
+<li>Stream Object - represents a stream of data, as from a text file or web page.</li>
+<li>Error Object - stores errors.</li>
+<li>Field Object - represents a database field.</li>
+<li>Parameter Object - represents a SQL parameter.</li>
+<li>Property Object - stores information about objects.</li>
+</ul>
+<p>The ADO components are usually used in conjunction with a high-level language such as <a href="VBScript" class="uri" title="wikilink">VBScript</a> in an <a href="Active_Server_Pages" title="wikilink">ASP</a> environment or <a href="Visual_Basic" title="wikilink">Visual Basic</a>. However, languages such as <a href="Borland_Delphi" title="wikilink">Delphi</a> and <a href="C++_Builder" title="wikilink">C++ Builder</a>, development environments from Microsoft rival <a href="Borland" title="wikilink">Borland Software Corporation</a>, also allow the use of ADO to access various databases.</p>
+<p>In the newer programming framework of <a href="Microsoft_.NET" title="wikilink">.NET</a>, <a href="Microsoft" class="uri" title="wikilink">Microsoft</a> also presented an upgraded version of ADO called <a href="ADO.NET" class="uri" title="wikilink">ADO.NET</a>. Its object structure is quite different from that of traditional ADO.</p>
+<p>Here is an ASP example using ADO to select the &quot;Name&quot; field, from a table called &quot;Phonebook&quot;, where a &quot;PhoneNumber&quot; was equal to &quot;555-5555&quot;.</p>
+<p><code>dim myconnection, myrecordset, name</code><br />
+<code>set myconnection = server.createobject(&quot;ADODB.Connection&quot;)</code><br />
+<code>set myrecordset = server.createobject(&quot;ADODB.Recordset&quot;)</code><br />
+<br />
+<code>myconnection.open mydatasource</code><br />
+<code>myrecordset.open &quot;Phonebook&quot;, myconnection</code><br />
+<code>myrecordset.find &quot;PhoneNumber = '555-5555'&quot;</code><br />
+<code>name = myrecordset.fields.item(&quot;Name&quot;)</code><br />
+<code>myrecordset.close</code><br />
+<br />
+<code>set myrecordset = nothing</code><br />
+<code>set myconnection = nothing</code></p>
+<p>This is equivalent to the following ASP code, which uses plain SQL instead of the functionality of the Recordset object:</p>
+<p><code>dim myconnection, myrecordset, name</code><br />
+<code>set myconnection = server.createobject(&quot;ADODB.connection&quot;)</code><br />
+<code>myconnection.open mydatasource</code><br />
+<code>set myrecordset = myconnection.execute(&quot;SELECT Name FROM Phonebook WHERE PhoneNumber = '555-5555'&quot;)</code><br />
+<code>name = myrecordset(0) </code><br />
+<code>myrecordset.close</code><br />
+<br />
+<code>set myrecordset = nothing</code><br />
+<code>set myconnection = nothing</code></p>
+<h2 id="software-support">Software support</h2>
+<p>ADO was supported in ASP and in VBA for Office.</p>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="http://msdn.microsoft.com/library/en-us/ado270/htm/dasdkadooverview.asp?frame=true">Microsoft ADO page</a></li>
+<li><a href="http://www.SQLstrings.com">ADO database connection strings</a></li>
+<li><a href="http://www.connectionstrings.com/">Database connection strings</a></li>
+<li><a href="http://www.exforsys.com/content/view/1341/266/">ASP.NET: Accessing Data with C#</a></li>
+<li><a href="http://devguru.com/technologies/ado/index.asp">DevGuru ADO Quick Reference</a></li>
+</ul>
+
+<p><a href="da:ADO" class="uri" title="wikilink">da:ADO</a> <a href="de:ActiveX_Data_Objects" title="wikilink">de:ActiveX Data Objects</a> <a href="es:ActiveX_Data_Objects" title="wikilink">es:ActiveX Data Objects</a> <a href="fr:ADO" class="uri" title="wikilink">fr:ADO</a> <a href="nl:ActiveX_Data_Objects" title="wikilink">nl:ActiveX Data Objects</a> <a href="ja:ActiveX_Data_Objects" title="wikilink">ja:ActiveX Data Objects</a> <a href="pl:ADO" class="uri" title="wikilink">pl:ADO</a> <a href="pt:ADO" class="uri" title="wikilink">pt:ADO</a> <a href="ru:ADO" class="uri" title="wikilink">ru:ADO</a> <a href="th:ADO" class="uri" title="wikilink">th:ADO</a> <a href="zh:ADO" class="uri" title="wikilink">zh:ADO</a></p>
+<p><a href="Category:Microsoft_APIs" title="wikilink">Category:Microsoft APIs</a></p>

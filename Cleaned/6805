@@ -1,0 +1,48 @@
+A disk image emulator is computer software designed to emulate a disk image, usually of a CD or DVD, on a local hard drive or USB flash drive. The emulation is usually done by creating a virtual drive on the system, that to the operating system looks like an ordinary disk drive.
+In short, it puts a permanent copy of a disc on a hard drive, making the disc accessible when the disc isn't in the computer.
+Some operating systems such as Linux1 and Mac OS X2 have this functionality built-in (see loop device), while others such as Microsoft Windows require additional software.
+Uses
+Enables users to avoid constantly switching out discs
+Helps prevent scratching, which can cause permanent damage to a disc
+Speeds up access times as hard drives are faster than optical drives
+Provides a backup copy of a disc, in case the original becomes damaged, lost, or stolen
+Enables users to carry large disc libraries without the physical burden of the discs
+Emulates multiple disks, which is useful for installing or using software that shipped on multiple disks
+Can make a disc accessible to users on a network, which is very practical when it is impossible to distribute the discs to all of the users on a network
+Allows programs that can normally only work with optical discs (like some DVD-Video applications) to access data on a hard drive
+For often-used CD and DVD discs, where simply copying the disc to a hard drive won't work
+A CD/DVD master used to burn physical discs
+Make disc accessible to machines without disc drive
+Save power by turning off disc drive, for instance on laptops
+ Makes the computer quieter, many removable disc drives are noisier than hard disks
+Software distribution
+Some software programs are available by means of disk images which can be downloaded from the internet. Thanks to the spread of broadband internet, this has become a primary distribution method for Linux distributions,3 which typically comprise one or more CDs of data. This has also been used by some companies for software which must be run from CD, such as bootable recovery CDs.4
+Copyright infringement of software
+Disk image emulators may be used to aid in copyright infringement of software by facilitating the use of disk images of proprietary software distributed over the Internet, often via peer-to-peer file sharing. However, since disk image emulation software has many legitimate uses and does not usually promote copyright infringement, it typically is not considered to violate legislation such as the DMCA.
+Disk image emulator software
+Alcohol 120%
+CDemu (Linux kernel module)
+Daemon Tools (freeware/adware, ads are opt-out)
+DiskImageMounter (Mac OS only)
+GameDrive
+MagicDISC (freeware)
+MagicISO (demoware)
+Nero ImageDrive
+PowerISO
+UltraISO
+ImageMapper
+Microsoft Virtual CD-ROM Control Panel5
+See also
+Virtual drive
+Copy protection
+CD/DVD copy protection
+Read-only memory
+Loopback device
+Footnotes
+de:Virtual CD ja:&lt;U+30C7&gt;&lt;U+30A3&gt;&lt;U+30B9&gt;&lt;U+30AF&gt;&lt;U+30C9&gt;&lt;U+30E9&gt;&lt;U+30A4&gt;&lt;U+30D6&gt;&lt;U+4EEE&gt;&lt;U+60F3&gt;&lt;U+5316&gt;&lt;U+30BD&gt;&lt;U+30D5&gt;&lt;U+30C8&gt; ko:&lt;U+B514&gt;&lt;U+C2A4&gt;&lt;U+D06C&gt; &lt;U+C774&gt;&lt;U+BBF8&gt;&lt;U+C9C0&gt;
+Category:Optical disc authoring Disk image emulator
+↩
+Although OS X's built-in DiskImageMounter software does not emulate a physical drive↩
+↩
+↩
+↩

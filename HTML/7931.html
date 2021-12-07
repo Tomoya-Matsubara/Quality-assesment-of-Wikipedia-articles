@@ -1,0 +1,105 @@
+<figure>
+<img src="Consistency_of_estimator.svg" title="{T1, T2, T3, &lt;U+2026&gt;} is a sequence of estimators for parameter &lt;U+03B8&gt;0 (the true value of which is 4). This sequence is consistent: the estimators are getting more and more concentrated near the true value &lt;U+03B8&gt;0. The limiting distribution of the sequence is a degenerate random variable which equals &lt;U+03B8&gt;0 with probability 1." alt="{T1, T2, T3, &lt;U+2026&gt;} is a sequence of estimators for parameter &lt;U+03B8&gt;0 (the true value of which is 4). This sequence is consistent: the estimators are getting more and more concentrated near the true value &lt;U+03B8&gt;0. The limiting distribution of the sequence is a degenerate random variable which equals &lt;U+03B8&gt;0 with probability 1." width="250" /><figcaption>{<em>T</em><sub>1</sub>, <em>T</em><sub>2</sub>, <em>T</em><sub>3</sub>, &lt;U+2026&gt;} is a sequence of estimators for parameter <em>&lt;U+03B8&gt;</em><sub>0</sub> (the true value of which is 4). This sequence is consistent: the estimators are getting more and more concentrated near the true value <em>&lt;U+03B8&gt;</em><sub>0</sub>. The limiting distribution of the sequence is a degenerate random variable which equals <em>&lt;U+03B8&gt;</em><sub>0</sub> with probability 1.</figcaption>
+</figure>
+<p>In <a href="statistics" class="uri" title="wikilink">statistics</a>, a sequence of <a href="estimator" title="wikilink">estimators</a> for parameter <em>&lt;U+03B8&gt;</em><sub>0</sub> is said to be <strong>consistent</strong> (or <strong>asymptotically consistent</strong>) if this sequence <a href="convergence_in_probability" title="wikilink">converges in probability</a> to <em>&lt;U+03B8&gt;</em><sub>0</sub>. It means that the distributions of the estimators become more and more concentrated near the true value of the parameter being estimated, so that the probability of the estimator being arbitrarily close to <em>&lt;U+03B8&gt;</em><sub>0</sub> converges to one.</p>
+<p>In practice one usually constructs a single estimator as a function of an available sample of <a href="sample_size" title="wikilink">size</a> <em>n</em>, and then imagines being able to keep collecting data and expanding the sample <em>ad infinitum</em>. In this way one would obtain a sequence of estimators indexed by <em>n</em> and the notion of consistency will be understood as the sample size &lt;U+201C&gt;grows to infinity&lt;U+201D&gt;. If this sequence converges in probability to the true value <em>&lt;U+03B8&gt;</em><sub>0</sub>, we call it a consistent estimator; otherwise the estimator is said to be <strong>inconsistent</strong>.</p>
+<p>Consistency as defined here is sometimes referred to as <em>weak consistency</em>. When we replace convergence in probability with <a href="almost_sure_convergence" title="wikilink">almost sure convergence</a>, then the sequence of estimators is said to be <em>strongly consistent</em>.</p>
+<h2 id="definition">Definition</h2>
+<p>Loosely speaking, an <a href="estimator" class="uri" title="wikilink">estimator</a> <em>T<sub>n</sub></em> of <em>&lt;U+03B8&gt;</em> is said to be <strong>consistent</strong> if it <a href="convergence_in_probability" title="wikilink">converges in probability</a> to the true value of the parameter:<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<dl>
+
+<dd><math>
+</dd>
+</dl>
+<p><code>   \underset{n\to\infty}{\operatorname{plim}}\ T_n = \theta.</code><br />
+<code> </code></math></p>
+<p>More rigorous definition takes into account the fact that <em>&lt;U+03B8&gt;</em> is actually unknown, and thus the convergence in probability must take place for every possible value of this parameter. Let } be a family of distributions (called the <a href="parametric_model" title="wikilink">parametric model</a>), and let } denote an infinite <a href="statistical_sample" title="wikilink">sample</a> from the distribution <em>p<sub>&lt;U+03B8&gt;</sub></em>. Suppose {<em>T<sub>n</sub></em>(<em>X<sup>&lt;U+03B8&gt;</sup></em>)} is a sequence of estimators for some parameter <em>g</em>(<em>&lt;U+03B8&gt;</em>). Usually <em>T<sub>n</sub></em> will be based on the first <em>n</em> observations of a sample. Then this sequence {<em>T<sub>n</sub></em>} is said to be (weakly) <strong>consistent</strong> if <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<dl>
+
+<dd><math>
+</dd>
+</dl>
+<p><code>   \underset{n\to\infty}{\operatorname{plim}}\ T_n(X^{\theta}) = g(\theta),\ \ \text{for all}\ \theta\in\Theta.</code><br />
+<code> </code></math><code> </code></p>
+<p>This definition uses <em>g</em>(<em>&lt;U+03B8&gt;</em>) instead of simply <em>&lt;U+03B8&gt;</em>, because often one is interested in estimating a certain function or a sub-vector of the underlying parameter. In the next example we estimate the location parameter of the model, but not the scale:</p>
+<h3 id="example-sample-mean-for-normal-random-variables">Example: sample mean for normal random variables</h3>
+<p>Suppose one has a sequence of observations {<em>X</em><sub>1</sub>, <em>X</em><sub>2</sub>, &lt;U+2026&gt;} from a <a href="Normal_distribution" title="wikilink">normal <em>N</em>(<em>&lt;U+03BC&gt;</em>, <em>&lt;U+03C3&gt;</em><sup>2</sup>)</a> distribution. To estimate <em>&lt;U+03BC&gt;</em> based on the first <em>n</em> observations, we use the sample mean: <em>T<sub>n</sub></em> = (<em>X</em><sub>1</sub> + &lt;U+2026&gt; + <em>X<sub>n</sub></em>)/<em>n</em>. This defines a sequence of estimators, indexed by the sample size <em>n</em>.</p>
+<p>From the properties of the normal distribution, we know that <em>T</em><sub><em>n</em></sub> is itself normally distributed, with mean <em>&lt;U+03BC&gt;</em> and variance <em>&lt;U+03C3&gt;</em><sup>2</sup>/<em>n</em>. Equivalently, <span class="math inline">$\scriptstyle (T_n-\mu)/(\sigma/\sqrt{n})$</span> has a standard normal distribution. Then</p>
+<dl>
+
+<dd><math>
+</dd>
+</dl>
+<p><code>   \Pr\!\Big[\,|T_n-\mu|\geq\varepsilon\,\Big] = </code><br />
+<code>   \Pr\!\left[ \sqrt{n}\big|T_n-\mu\big|/\sigma \geq \sqrt{n}\varepsilon/\sigma \right] = </code><br />
+<code>   2\big(1-\Phi(\sqrt{n}\varepsilon/\sigma)\big)\ \to\ 0</code><br />
+<code> </code></math></p>
+<p>as <em>n</em> tends to infinity, for any fixed . Therefore, the sequence <em>T<sub>n</sub></em> of sample means is consistent for the population mean <em>&lt;U+03BC&gt;</em>.</p>
+<h2 id="establishing-consistency">Establishing consistency</h2>
+<p>The notion of asymptotic consistency is very close, almost synonymous to the notion of convergence in probability. As such, any theorem, lemma, or property which establishes convergence in probability may be used to prove the consistency. Many such tools exist:</p>
+<ul>
+<li>In order to demonstrate consistency directly from the definition one can use the inequality <a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>
+<dl>
+
+<dd><math>
+</dd>
+</dl>
+<p><code>   \Pr\!\big[h(T_n-\theta)\geq\varepsilon\big] \leq \frac{\operatorname{E}\big[h(T_n-\theta)\big]}{\varepsilon},</code><br />
+<code> </code></math></p>
+<p>the most common choice for function <em>h</em> being either the absolute value (in which case it is known as <a href="Markov_inequality" title="wikilink">Markov inequality</a>), or the quadratic function (respectively <a href="Chebychev&#39;s_inequality" title="wikilink">Chebychev's inequality</a>).</p></li>
+<li>Another useful result is the <a href="continuous_mapping_theorem" title="wikilink">continuous mapping theorem</a>: if <em>T<sub>n</sub></em> is consistent for <em>&lt;U+03B8&gt;</em> and <em>g</em>(&lt;U+00B7&gt;) is a real-valued function continuous at point <em>&lt;U+03B8&gt;</em>, then <em>g</em>(<em>T<sub>n</sub></em>) will be consistent for <em>g</em>(<em>&lt;U+03B8&gt;</em>): <a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>
+<dl>
+
+<dd><math>
+</dd>
+</dl>
+<p><code>   T_n\ \xrightarrow{p}\ \theta\ \quad\Rightarrow\quad g(T_n)\ \xrightarrow{p}\ g(\theta)</code><br />
+<code> </code></math></p></li>
+<li><a href="Slutsky&lt;U+2019&gt;s_theorem" title="wikilink">Slutsky&lt;U+2019&gt;s theorem</a> can be used to combine several different estimators, or an estimator with a non-random covergent sequence. If <em>T<sub>n</sub></em> &lt;U+2192&gt;<sup><em>p</em></sup><em>&lt;U+03B1&gt;</em>, and <em>S<sub>n</sub></em> &lt;U+2192&gt;<sup><em>p</em></sup><em>&lt;U+03B2&gt;</em>, then <a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>
+<dl>
+
+<dd><math>\begin{align}
+</dd>
+</dl>
+<p><code> &amp; T_n + S_n \ \xrightarrow{p}\ \alpha+\beta, \\</code><br />
+<code> &amp; T_n   S_n \ \xrightarrow{p}\ \alpha \beta, \\</code><br />
+<code> &amp; T_n / S_n \ \xrightarrow{p}\ \alpha/\beta,\ \text{provided that}\ \beta\neq0</code><br />
+<code> \end{align}</code></math></p></li>
+<li>If estimator <em>T<sub>n</sub></em> is given by an explicit formula, then most likely the formula will employ sums of random variables, and then the <a href="law_of_large_numbers" title="wikilink">law of large numbers</a> can be used: for a sequence {<em>X<sub>n</sub></em>} of random variables and under suitable conditions,
+<dl>
+
+<dd><span class="math inline">$\frac{1}{n}\sum_{i=1}^n g(X_i) \ \xrightarrow{p}\ \operatorname{E}[\,g(X)\,]$</span>
+</dd>
+</dl></li>
+<li>If estimator <em>T<sub>n</sub></em> is defined implicitly, for example as a value that maximizes certain objective function (see <a href="extremum_estimator" title="wikilink">extremum estimator</a>), then a more complicated argument involving <a href="stochastic_equicontinuity" title="wikilink">stochastic equicontinuity</a> has to be used. <a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></li>
+</ul>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Fisher_consistency" title="wikilink">Fisher consistency</a> &lt;U+2014&gt; alternative, although rarely used concept of consistency for the estimators</li>
+<li><a href="Statistical_hypothesis_testing" title="wikilink">Consistent test</a> &lt;U+2014&gt; the notion of consistency in the context of hypothesis testing</li>
+</ul>
+<h2 id="notes">Notes</h2>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+
+<p><a href="de:Konsistenz_(Statistik)" title="wikilink">de:Konsistenz (Statistik)</a> <a href="es:Consistencia_(estad&lt;U+00ED&gt;stica)" title="wikilink">es:Consistencia (estad&lt;U+00ED&gt;stica)</a> <a href="ru:&lt;U+0421&gt;&lt;U+043E&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+044F&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043B&gt;&lt;U+044C&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+044F&gt;_&lt;U+043E&gt;&lt;U+0446&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+043A&gt;&lt;U+0430&gt;" title="wikilink">ru:&lt;U+0421&gt;&lt;U+043E&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+044F&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043B&gt;&lt;U+044C&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+044F&gt; &lt;U+043E&gt;&lt;U+0446&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+043A&gt;&lt;U+0430&gt;</a> <a href="uk:&lt;U+041A&gt;&lt;U+043E&gt;&lt;U+043D&gt;&lt;U+0437&gt;&lt;U+0438&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+043D&gt;&lt;U+0430&gt;_&lt;U+043E&gt;&lt;U+0446&gt;&lt;U+0456&gt;&lt;U+043D&gt;&lt;U+043A&gt;&lt;U+0430&gt;" title="wikilink">uk:&lt;U+041A&gt;&lt;U+043E&gt;&lt;U+043D&gt;&lt;U+0437&gt;&lt;U+0438&gt;&lt;U+0441&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+043D&gt;&lt;U+0442&gt;&lt;U+043D&gt;&lt;U+0430&gt; &lt;U+043E&gt;&lt;U+0446&gt;&lt;U+0456&gt;&lt;U+043D&gt;&lt;U+043A&gt;&lt;U+0430&gt;</a></p>
+<p><a href="Category:Statistical_theory" title="wikilink">Category:Statistical theory</a> <a href="Category:Statistical_inference" title="wikilink">Category:Statistical inference</a> <a href="Category:Estimation_theory" title="wikilink">Category:Estimation theory</a></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><a href="#fnref1" class="footnote-back">↩</a></li>
+<li id="fn2"><a href="#fnref2" class="footnote-back">↩</a></li>
+<li id="fn3"><a href="#fnref3" class="footnote-back">↩</a></li>
+<li id="fn4"><a href="#fnref4" class="footnote-back">↩</a></li>
+<li id="fn5"><a href="#fnref5" class="footnote-back">↩</a></li>
+<li id="fn6"><a href="#fnref6" class="footnote-back">↩</a></li>
+</ol>
+</section>

@@ -1,0 +1,211 @@
+
+
+
+Mozilla Firefox is a graphical web browser developed by the Mozilla Corporation and a large community of external contributors. Firefox, officially abbreviated as Fx or fx1 and popularly abbreviated FF,2 started as a fork of the Navigator browser component of the Mozilla Application Suite. Firefox has replaced the Mozilla Suite as the flagship product of the Mozilla project, under the direction of the Mozilla Foundation.
+Mozilla Firefox is a cross-platform browser, providing support for various versions of Microsoft Windows, Mac OS X, and Linux. However, the source code has been unofficially ported to other operating systems, including FreeBSD,3 OS/2, Solaris, SkyOS, BeOS and more recently, Windows XP Professional x64 Edition.4
+Firefox's source code is freely available under the terms of the Mozilla tri-license as free and open source software. The current stable release of Firefox is version 2.0.0.2, released on February 23, 2007.5
+History
+
+Dave Hyatt and Blake Ross began working on the Firefox project as an experimental branch of the Mozilla project. They believed the commercial requirements of Netscape's sponsorship and developer-driven feature creep compromised the utility of the Mozilla browser.6 To combat what they saw as the Mozilla Suite's software bloat, they created a pared-down browser, with which they intended to replace the Mozilla Suite. On April 3 2003, the Mozilla Organization announced that they planned to change their focus from the Mozilla Suite to Firefox and Thunderbird.7
+The Firefox project has undergone several name changes. Originally titled Phoenix, it was renamed because of trademark issues with Phoenix Technologies. The replacement name, Firebird, provoked an intense response from the Firebird free database software project.8910 In response, the Mozilla Foundation stated that the browser should always bear the name Mozilla Firebird to avoid confusion with the database software. Continuing pressure from the database server's development community forced another change; on February 9 2004, Mozilla Firebird became Mozilla Firefox (Firefox for short).11
+The Firefox project went through many versions before 1.0 was released on November 9 2004. In addition to stability and security fixes, the Mozilla Foundation released its first major update to Firefox&lt;U+2014&gt;version 1.5&lt;U+2014&gt;on November 29, 2005. On October 24 2006, Mozilla released Firefox 2. This version includes updates to the tabbed browsing environment, the extensions manager, the GUI, and the find, search and software update engines; a new session restore feature; inline spell checking; and an anti-phishing feature which was implemented by Google as an extension1213 and later merged into the program itself.14
+Features
+
+Features included with Firefox are tabbed browsing, incremental find (via the Find toolbar), Live bookmarking, an integrated download manager, and a search system. The user can customize Firefox with downloadable extensions, themes, and advanced preferences not present in the Options dialog that are accessible via the about:config page.15 The developers of Firefox aimed to produce a browser that &quot;just surfs the web&quot;16 and delivers the &quot;best possible browsing experience to the widest possible set of people.&quot;17 Firefox provides an environment for web developers in which they can use built-in tools or extensions. These include the built-in JavaScript Console and the DOM Inspector.
+Standards support
+Mozilla Firefox supports many software standards, including HTML, XML, XHTML, CSS, ECMAScript (JavaScript), DOM, MathML, DTD, XSLT, XPath, SVG, and PNG images with alpha transparency.18 Firefox also supports standards proposals created by the WHATWG such as the offline storage1920 and canvas element.21 Although Firefox 2 does not pass the Acid2 standards-compliance test, development builds of Firefox 3 pass the test.22
+Security
+Firefox uses SSL/TLS to protect communications with web servers using strong cryptography when using the HTTPS protocol.23 It uses a sandbox security model24 and the developers use a &quot;bug bounty&quot; scheme, for finding fixes for some security25 and feature additions. Official guidelines for handling security vulnerabilities discourage early disclosure of vulnerabilities so as not to give potential attackers an advantage in creating exploits.26
+Because Firefox has fewer and less severe publicly known unpatched security vulnerabilities than Internet Explorer (see Comparison of web browsers), it is often cited as a reason to switch from Internet Explorer to Firefox for improved security.27282930 The Washington Post reports that exploit code for critical unpatched security vulnerabilities in Internet Explorer was available for 284 days in 2006. In comparison, exploit code for critical security vulnerabilities in Firefox was available for 9 days before Mozilla shipped a patch to remedy the problem.31
+A 2006 Symantec study showed that Firefox had surpassed other browsers, including Internet Explorer, in the number of vendor-confirmed vulnerabilities that year through September; these vulnerabilities were patched far more quickly than those found in IE and other browsers.32 Symantec later clarified their statement, saying that Firefox still had fewer security vulnerabilities, as counted by security researchers.33 As of February 25, 2007, Firefox 2 has two of six security vulnerabilities unpatched, marked &quot;not critical&quot; and &quot;less critical&quot; by Secunia.34 Internet Explorer has five of seven security vulnerabilities unpatched, the most severe of which was rated &quot;moderately critical&quot; by Secunia.35 (Note that the number of &quot;Secunia Advisories&quot; listed for each doesn't reflect on the actual number of vulnerabilities reported for each. Advisory SA23282 for Mozilla Firefox 2.0.x contains multiple vulnerabilities.)
+Licensing
+Firefox's source code is open source, tri-licensed under the Mozilla Public License (MPL), GNU General Public License (GPL), and the GNU Lesser General Public License (LGPL). These licenses permit anyone to view, modify and/or redistribute the source code, and several publicly-released applications have been built on it; for example, Netscape, Flock and Songbird make use of code from Firefox.
+The official end-user builds of Firefox distributed from mozilla.com are licensed under the Mozilla EULA.36 Several elements do not fall under the scope of the tri-license and have their use restricted by the EULA, including the trademarked Firefox name and artwork, and the proprietary Talkback crash reporter. Because of this and the clickwrap agreement included in the Windows version, the Free Software Foundation (FSF) consider these builds proprietary software.37
+In the past, Firefox was licensed solely under the MPL,38 which the FSF criticizes for being weak copyleft; the license permits, in limited ways, proprietary derivative works. Additionally, code under the MPL cannot legally be linked with code under the GPL or the LGPL.3940 To address these concerns, Mozilla re-licensed Firefox under the tri-license scheme of MPL, GPL, and LGPL. Since the re-licensing, developers have been free to choose the license under which they will receive the code, to suit their intended use: GPL or LGPL linking and derivative works when one of those licenses is chosen, or MPL use (including the possibility of proprietary derivative works) if they choose the MPL.41
+Trademark and logo issues
+ The name &quot;Mozilla Firefox&quot; is a registered trademark; along with the official Firefox logo, it may only be used under certain terms and conditions. Anyone may redistribute the official binaries in unmodified form and use the Firefox name and branding for such distribution, but restrictions are placed on distributions which modify the underlying source code.42
+To allow distributions of the code without using the official branding, the Firefox source code contains a &quot;branding switch&quot;. This switch allows the code to be compiled without the official logo and name, for example to produce a derivative work unencumbered by restrictions on the Firefox trademark. In the unbranded compilation the trademarked logo and name are replaced with a freely distributable generic globe logo and the name of the release series from which the modified version was derived. The name &quot;Deer Park&quot; is used for derivatives of Firefox 1.5 and &quot;Bon Echo&quot; for derivatives of Firefox 2.0.
+Outside of certain exceptions made for &quot;community editions&quot;, distributing modified versions of Firefox under the &quot;Firefox&quot; name requires explicit approval from Mozilla for the changes made to the underlying code, and requires the use of all of the official branding. For example, it is not permissible to use the name &quot;Firefox&quot; without also using the official logo. The Debian project notably fell afoul of this, by using the name &quot;Mozilla Firefox&quot; but not the official logo, in a modified distribution (because of restrictions on its use, the Debian Free Software Guidelines did not permit Debian to use the logo). Although Debian claimed to have reached a prior agreement which would have allowed this, they were told in 2006 by a representative of the Mozilla Foundation that this was not acceptable, and asked to either comply with the published trademark guidelines or cease using the &quot;Firefox&quot; name in their distribution.43 Ultimately, Debian switched to branding their modified version of Firefox as Iceweasel.
+Advertising
+
+The rapid adoption of Firefox, 100 million downloads in its first year of availability,44 followed a series of aggressive marketing campaigns starting in 2004 with a series of events Blake Ross and Asa Dotzler called &quot;marketing weeks&quot;.45
+On September 12 2004,46 a marketing portal dubbed &quot;Spread Firefox&quot; (SFX) debuted along with the Firefox Preview Release, creating a centralized space for the discussion of various marketing techniques. The portal enhanced the &quot;Get Firefox&quot; button program, giving users &quot;referrer points&quot; as an incentive. The site lists the top 250 referrers. From time to time, the SFX team or SFX members launch marketing events organized at the Spread Firefox website.
+The &quot;World Firefox Day&quot; campaign started on July 15 200647&lt;U+2014&gt;the anniversary of the founding of the Mozilla Foundation&lt;U+2014&gt;and ran until September 15 2006. Participants registered themselves and a friend on the website for nomination to have their names displayed on the Firefox Friends Wall, a digital wall that will be displayed at the headquarters of the Mozilla Foundation.
+Market adoption
+
+
+Usage share of Mozilla Firefox over time
+
+Web-surfers have adopted Firefox rapidly, despite Internet Explorer coming pre-installed with every copy of the Windows OS. Internet Explorer has seen a steady decline of its usage share since Firefox's release. According to Dutch web analytics firm OneStat, by July 2006, Firefox was the second most widely-used browser, with 12.93% of global usage share.48 By December 2006, according to data made available by U.S. firm NetApplications, Firefox's market share had grown to 14% globally.49
+Downloads have continued at an increasing rate since Firefox 1.0 was released in November 2004, and as of February 12, 2007 Firefox has been downloaded over 300 million times. This number does not include downloads using software updates or from third-party websites.50 They do not represent a user count, as one download may be installed on many machines, or one person may download the software multiple times. Mozilla Vice President of Products Christopher Beard estimates that Firefox had 70 million to 80 million users as of October 2006.51
+With Microsoft releasing version 7 of Internet Explorer (&quot;IE7&quot;) that same month, Firefox's share growth might have been expected to slow, but as of January 2007, IE7 has instead gained share mostly at the expense of older versions of IE.52
+Critical reception
+Forbes.com called Firefox the best browser in a 2004 commentary piece.53 PC World named Firefox the &quot;product of the year&quot; in 2005 on their &quot;100 Best Products of 2005&quot; list.54 After the release of Firefox 2 and Internet Explorer 7 in 2006, PC World reviewed both and announced that Firefox was the better browser.55
+Internet Week ran an article in which many readers reported high memory usage in Firefox 1.5.56 Mozilla developers said the higher memory use of Firefox 1.5 is at least partially an effect of the new fast backwards-and-forwards (FastBack) feature.57 Other known causes of memory problems are misbehaving extensions, such as Google Toolbar and some old versions of Adblock,58 or plug-ins, such as older versions of Adobe Acrobat Reader.59 When PC Magazine compared memory usage of Firefox, Opera, and Internet Explorer, they found that Firefox seemed to use only about as much memory as the other browsers.60 Tests performed by PC World and Zimbra indicate that Firefox 2 uses less memory than Internet Explorer 7.6162
+Softpedia notes that Firefox takes longer to start up than other browsers,63 which was confirmed by browser speed tests. IE also launches slightly faster than Firefox on Microsoft Windows since many of its components are built into Windows and are loaded during system startup.
+Relationship with Google
+The Mozilla Corporation's corporate relationship with Google6465 has been noted in the media, especially with regards to use of Firefox to provide revenues and data for Google. The release of the anti-phishing protection in Firefox 2 especially raised controversy.66 Enabled by default anti-phishing protection is based on a list that is regularly (approximately each half hour) updated and downloaded to the user's computer67 from Google's server (the user cannot change the data provider within the GUI68 nor is informed who the default data provider is). Browser also sends Google's cookie with each request for update.69 The &quot;advanced&quot; security feature of builds by the Mozilla Foundation activate an anti-phishing feature to provide live protection and, according to the Mozilla Wiki,70 send each visited URL to Google71 (the user must explicitly opt-in for it). Barring Internet privacy issues over such anti-phishing protection, there are concerns on how Google may use the data, even though Firefox's privacy policy states that Google may not use personal information for any purposes other than the anti-phishing protection feature.72 On the other hand, Google admits that it &quot;may share aggregated non-personal information with third parties outside of Google&quot;.73
+In 2005, the Mozilla Foundation and Mozilla Corporation had a combined revenue of US$52.9 million. Approximately 95 percent of this revenue74 was related to their search engine relationships.75
+Response from competition
+Despite Firefox's gains on Internet Explorer, Microsoft's head of Australian operations, Steve Vamos, stated in late 2004 that he did not see Firefox as a threat and that there was not significant demand for the feature set of Firefox among Microsoft's users. However, many features that distinguished Firefox from previous versions of Internet Explorer are now available with Internet Explorer 7. Vamos stated that he had never used Firefox.76 Microsoft Chairman Bill Gates has used Firefox, but he has commented &quot;so much software gets downloaded all the time, but do people actually use it?&quot;77 A Microsoft SEC filing on June 30 2005 acknowledged that &quot;competitors such as Mozilla offer software that competes with the Internet Explorer Web browsing capabilities of our Windows operating system products.&quot;78
+In August 2006, Microsoft offered to help Mozilla integrate Firefox with the forthcoming Windows Vista,79 which Mozilla accepted.80
+In October 2006, as congratulations for a successful ship of Firefox 2, the Internet Explorer 7 development team shipped a cake to Mozilla.81
+Future development
+
+According to the Firefox roadmap, future development will include version 3.0. Development on version 3.0, which will be based on Gecko 1.9, occurs simultaneously on the Mozilla trunk. Newer versions of Firefox will use Cairo as the rendering layer instead of the platform's native rendering engine (in the case of Windows, this is GDI+).82
+Version 3.0
+ 
+The development name for Mozilla Firefox 3 is Gran Paradiso.83 The precursory releases were codenamed &quot;Minefield&quot;, as this was the name of the trunk builds. &quot;Gran Paradiso&quot; (trans. &quot;Great Paradise&quot;), like other Firefox development names, is an actual place; in this case the highest mountain group in the Graian Alps. With the releases of version 3.0 alpha 1 on December 8, 2006 and version 3.0 alpha 2 on February 7, 2007, it adopted the &quot;Gran Paradiso&quot; codename.8485 A post on the Mozilla Wiki &quot;Release Roadmap&quot; from President of Products Christopher Beard suggests a release in November 2007.86
+The largest known change for Firefox 3 is the implementation of Gecko 1.9, an updated layout engine. It will also provide CSS3 columns.87 Firefox 3 will include features that were bumped from Firefox 2, such as the overhauled Places system for storing bookmarks and history in an SQLite backend, according to the wiki.88 Due to lack of support for Windows 95, Windows 98, Windows Me, and Windows NT 4.0 in Cairo, and because Microsoft decided to end support for Windows 98 and Windows Me on July 11 2006, Firefox 3 will not run on those operating systems. Firefox 3 will only run on Mac OS X 10.3 or higher.8990 Unlike previous versions, Firefox 3 on Mac OS X will use a Cocoa widget implementation.91
+There is also advanced ongoing work focused on further implementation of features from WHATWG specification.929394 In particular, support for the controversial9596 &quot;ping&quot;97 attribute in &lt;a&gt; and &lt;area&gt; HTML elements is implemented and enabled by default.98 The purpose of this additional attribute is tracking clicking on links.99100 LWN.net notes that &quot;ping&quot; has advantages over current click-tracking techniques because it can more reliably get the user to their intended destination and the user has the option of turning the &quot;ping&quot; feature off.101 The development team is asking users to submit feature requests that they wish to be included in Firefox 3.102
+Version 4.0
+On October 13 2006, Brendan Eich, Mozilla's Chief Technology Officer, wrote about the plans for Mozilla 2.0, the platform on which Firefox 4 is likely to be based. These changes include improving and removing XPCOM APIs, switching to standard C++ features, just-in-time compilation with JavaScript 2 (known as the Tamarin project), and tool-time and runtime security checks.103104
+See also
+
+
+Browser timeline
+Comparison of web browsers
+List of Firefox extensions
+List of web browsers
+Swiftfox
+Wikipedia:Tools/Browser tools/Mozilla Firefox
+
+Notes and references
+
+Further reading
+
+
+
+
+
+
+
+
+External links
+
+
+
+
+Mozilla Firefox homepage for end-users
+Mozilla Firefox project page for developers
+Mozilla EULA
+Firefox changelogs
+Spread Firefox &lt;U+2013&gt; The center for Firefox marketing
+
+
+
+
+
+
+
+af:Mozilla Firefox als:Mozilla Firefox ar:&lt;U+0645&gt;&lt;U+0648&gt;&lt;U+0632&gt;&lt;U+064A&gt;&lt;U+0644&gt;&lt;U+0627&gt; &lt;U+0641&gt;&lt;U+0627&gt;&lt;U+064A&gt;&lt;U+0631&gt;&lt;U+0641&gt;&lt;U+0648&gt;&lt;U+0643&gt;&lt;U+0633&gt; bn:&lt;U+09AE&gt;&lt;U+09CB&gt;&lt;U+099C&gt;&lt;U+09BF&gt;&lt;U+09B2&gt;&lt;U+09BE&gt; &lt;U+09AB&gt;&lt;U+09BE&gt;&lt;U+09AF&gt;&lt;U+09BC&gt;&lt;U+09BE&gt;&lt;U+09B0&gt;&lt;U+09AB&gt;&lt;U+0995&gt;&lt;U+09CD&gt;&lt;U+09B8&gt; zh-min-nan:Mozilla Firefox be:Mozilla Firefox bs:Mozilla Firefox bg:Mozilla Firefox ca:Mozilla Firefox cv:Mozilla Firefox cs:Mozilla Firefox da:Mozilla Firefox de:Mozilla Firefox et:Mozilla Firefox el:Mozilla Firefox es:Mozilla Firefox eo:Mozila Fajrovulpo eu:Mozilla Firefox fa:&lt;U+0645&gt;&lt;U+0648&gt;&lt;U+0632&gt;&lt;U+06CC&gt;&lt;U+0644&gt;&lt;U+0627&gt; &lt;U+0641&gt;&lt;U+0627&gt;&lt;U+06CC&gt;&lt;U+0631&gt;&lt;U+0641&gt;&lt;U+0627&gt;&lt;U+06A9&gt;&lt;U+0633&gt; fr:Mozilla Firefox fur:Mozilla Firefox ga:Mozilla Firefox gl:Mozilla Firefox ko:&lt;U+BAA8&gt;&lt;U+C9C8&gt;&lt;U+B77C&gt; &lt;U+D30C&gt;&lt;U+C774&gt;&lt;U+C5B4&gt;&lt;U+D3ED&gt;&lt;U+C2A4&gt; hi:&lt;U+092B&gt;&lt;U+093E&gt;&lt;U+092F&gt;&lt;U+0930&gt;&lt;U+092B&gt;&lt;U+0949&gt;&lt;U+0915&gt;&lt;U+094D&gt;&lt;U+0938&gt; hsb:Mozilla Firefox hr:Mozilla Firefox ilo:Mozilla Firefox id:Mozilla Firefox is:Mozilla Firefox it:Mozilla Firefox he:&lt;U+05DE&gt;&lt;U+05D5&gt;&lt;U+05D6&gt;&lt;U+05D9&gt;&lt;U+05DC&gt;&lt;U+05D4&gt; &lt;U+05E4&gt;&lt;U+05D9&gt;&lt;U+05D9&gt;&lt;U+05E8&gt;&lt;U+05E4&gt;&lt;U+05D5&gt;&lt;U+05E7&gt;&lt;U+05E1&gt; ka:Mozilla Firefox csb:Mozilla Firefox ku:Mozilla Firefox lb:Mozilla Firefox lt:Firefox hu:Mozilla Firefox mk:Mozilla Firefox ml:&lt;U+0D2E&gt;&lt;U+0D4B&gt;&lt;U+0D38&gt;&lt;U+0D3F&gt;&lt;U+0D32&gt;&lt;U+0D4D&gt;&lt;U+0D32&gt; &lt;U+0D2B&gt;&lt;U+0D2F&gt;&lt;U+0D30&gt;&lt;U+0D4D&gt;&lt;U+200D&gt;&lt;U+0D2B&gt;&lt;U+0D4B&gt;&lt;U+0D15&gt;&lt;U+0D4D&gt;&lt;U+0D38&gt;&lt;U+0D4D&gt; mr:&lt;U+092B&gt;&lt;U+093E&gt;&lt;U+092F&gt;&lt;U+0930&gt;&lt;U+092B&gt;&lt;U+0949&gt;&lt;U+0915&gt;&lt;U+094D&gt;&lt;U+0938&gt; nl:Mozilla Firefox ja:Mozilla Firefox no:Mozilla Firefox nn:Mozilla Firefox pl:Mozilla Firefox pt:Mozilla Firefox ro:Mozilla Firefox ru:Mozilla Firefox sq:Mozilla Firefox simple:Mozilla Firefox sk:Mozilla Firefox sl:Mozilla Firefox sr:Mozilla Firefox sh:Mozilla Firefox fi:Mozilla Firefox sv:Mozilla Firefox tl:Mozilla Firefox ta:&lt;U+0B83&gt;&lt;U+0BAA&gt;&lt;U+0BAF&gt;&lt;U+0BB0&gt;&lt;U+0BCD&gt; &lt;U+0B83&gt;&lt;U+0BAA&gt;&lt;U+0BBE&gt;&lt;U+0B95&gt;&lt;U+0BCD&gt;&lt;U+0BB8&gt;&lt;U+0BCD&gt; th:&lt;U+0E21&gt;&lt;U+0E2D&gt;&lt;U+0E0B&gt;&lt;U+0E34&gt;&lt;U+0E25&gt;&lt;U+0E25&gt;&lt;U+0E32&gt; &lt;U+0E44&gt;&lt;U+0E1F&gt;&lt;U+0E23&gt;&lt;U+0E4C&gt;&lt;U+0E1F&gt;&lt;U+0E2D&gt;&lt;U+0E01&gt;&lt;U+0E0B&gt;&lt;U+0E4C&gt; vi:Mozilla Firefox tg:Mozilla Firefox tr:Mozilla Firefox uk:Mozilla Firefox yi:Firefox zh-yue:Mozilla Firefox zh:Mozilla Firefox
+Category:Free web browsers Category:Gopher Clients Category:Internet history Category:Mozilla Firefox Category:Mac OS X web browsers Category:Windows web browsers Category:POSIX web browsers Category:2002 software
+
+
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+ Entry updated 2006-08-16.↩
+↩
+↩
+↩
+
+{{ cite web | url = http://www.mozilla.org/foundation/trademarks/policy.html | title = Mozilla Trademark Policy | accessdate = 2007-01-30 | publisher = mozilla.org }}↩
+{{ cite web | url = http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=354622 | title = Debian Bug report logs - #354622: Uses Mozilla Firefox trademark without permission | accessdate = 2007-01-30 | publisher = Debian.org}}↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+The Mozilla Wiki is a wiki website where the Mozilla Foundation and volunteers conduct product development, planning and discussion. Mozilla Wiki disclaimer (Retrieved 2007-02-08)↩
+↩
+
+↩
+ Page 11.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+ A page describing the future usage of Cairo.↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+ Comments section.↩
+↩
+↩
+↩
+
+
+↩
+↩
+↩
+↩
+
+

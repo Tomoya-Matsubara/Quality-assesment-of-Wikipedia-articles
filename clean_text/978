@@ -1,0 +1,212 @@
+Timeline 1750&lt;U+2014&gt;Present
+
+250 years
+
+ DateFormat = yyyy ImageSize = width:800 height:auto barincrement:18 PlotArea = left:20 right:20 bottom:20 top:10 Colors =
+ id:noir              value:black
+ id:canvas            value:rgb(0.97,0.97,0.97)
+ id:gris              value:gray(0.80)
+ id:grilleMajor       value:rgb(0.80,0.80,0.80)
+ id:bleuclair         value:rgb(0.56,0.56,0.86)
+ id:rouge             value:red
+ id:rougeclair        value:rgb(0.86,0.56,0.56)
+ id:bleuclair         value:rgb(0.76,0.76,0.96)
+ id:grilleMinor       value:rgb(0.86,0.86,0.86)
+Period = from:1750 till:2025 TimeAxis = orientation:horizontal format:yyyy AlignBars = justify ScaleMinor = unit:year increment:10 start:1750 gridcolor:grilleMinor ScaleMajor = unit:year increment:50 start:1750 gridcolor:grilleMajor BackgroundColors = canvas:canvas bars:canvas BarData=
+ bar:epoque
+ barset:evennement
+PlotData=
+ bar:epoque shift:(0,0) width:30
+ from:start till:end color:gris # Arri?re plan
+
+from:start till:1581 text:&quot;Julian calendar&quot; color:rougeclair
+
+ from:1750  till:end   color:rouge
+ barset:evennement color:rouge shift:(2,0) width:31
+ at:2020 #blank line
+ at:2003 text:&quot;Blobitecture&quot;
+ at:1982 text:&quot;Deconstructivism&quot;                                         #1982&lt;U+2013&gt;today
+ at:1981 text:&quot;Memphis Group&quot;                                           #1981-1988
+ at:1959 text:&quot;Metabolist Movement&quot;                                   #1959 Japan
+ at:1950 text:&quot;Postmodern architecture&quot;    
+ at:1950 text:&quot;Brutalist architecture&quot;                                    #1950s&lt;U+2013&gt;1970s
+ at:1950 text:&quot;Googie architecture&quot;                                      #1950s America
+ at:1950 text:&quot;Mid-century modern&quot;                                    #1950s California, etc.
+ at:1936 text:&quot;Usonian&quot;                                                       #1936&lt;U+2013&gt;1940s USA
+ at:1933 text:&quot;Stalinist architecture&quot;                                    #1933&lt;U+2013&gt;1955
+ at:1930 text:&quot;Streamline Moderne&quot;                                     #1930&lt;U+2013&gt;1937
+ at:1927 text:&quot;Modern architecture&quot;                                    #1927&lt;U+2013&gt;1960
+ at:1925 text:&quot;Art Deco architecture&quot;                                   #1925&lt;U+2013&gt;1940s
+ at:1922 text:&quot;Egyptian Revival architecture&quot;                        #1922&lt;U+2192&gt;Art Deco
+ at:1920 text:&quot;Mediterranean Revival&quot;                                  #1920s&lt;U+2013&gt;1930s America
+ at:1920 text:&quot;International style (architecture)&quot;                  #1920&lt;U+2013&gt;1960s
+ at:1919 text:&quot;Bauhaus&quot;                                                     #1919&lt;U+2013&gt;1930s
+ at:1915 text:&quot;Spanish Colonial Revival&quot;                             #1915 and 1931
+ at:1914 text:&quot;Constructivist architecture&quot;                           #1914&lt;U+2014&gt;1920
+ at:1912 text:&quot;Amsterdam School&quot;                                       #1912&lt;U+2013&gt;1924
+ at:1910 text:&quot;Expressionist architecture&quot;                            #1910&lt;U+2013&gt;ca. 1924
+ at:1909 text:&quot;Futurist architecture&quot;                                    #1909 Europe
+ at:1900 text:&quot;Prairie Style&quot;                                                 #1900 and 1917 USA
+ at:1898 text:&quot;Pueblo style                                                 #1898-1990s USA
+ at:1894 text:&quot;Mission Revival Style architecture&quot;                #1894-1936
+ at:1890 text:&quot;Colonial Revival architecture&quot;                        #1890s&lt;U+2013&gt;today
+ at:1890 text:&quot;City Beautiful movement&quot;                              #1890&lt;U+2013&gt;1900s USA
+ at:1890 text:&quot;American Craftsman&quot;                                    #1890s&lt;U+2013&gt;1930 New England
+ at:1888 text:&quot;Art nouveau architecture&quot;
+ at:1888 text:&quot;Jungenstil&quot;                                                    #1888 to 1911 German Art Nouveau
+ at:1888 text:&quot;Modernisme&quot;                                                #1888 to 1911 Catalonian Art Nouveau 
+ at:1880 text:&quot;Chicago school (architecture)&quot;                      #1880s and 1890
+ at:1880 text:&quot;Richardsonian Romanesque&quot;                         #1880s
+ at:1879 text:&quot;Shingle Style&quot;                                                #or stick style 1879-1905 New England
+ at:1872 text:&quot;National Park Service Rustic&quot;                         #1872&lt;U+2013&gt;1916 USA
+ at:1870 text:&quot;Queen Anne Style architecture&quot;                     #1870&lt;U+2013&gt;1910s England &amp; USA
+ at:1865 text:&quot;Second Empire&quot;                                             #1865 and 1880
+ at:1863 text:&quot;Beaux-Arts architecture&quot;
+ at:1860 text:&quot;Arts and crafts architecture&quot;
+ at:1848 text:&quot;Neo-Grec&quot;                                                     #1848 and 1865
+ at:1842 text:&quot;Greek Revival architecture&quot;
+ at:1840 text:&quot;Egyptian Revival architecture&quot;                       #1840s&lt;U+2013&gt;1850s
+ at:1840 text:&quot;Queenslander (architecture)&quot;                         #1840s&lt;U+2013&gt;1960s Australia
+ at:1840 text:&quot;Romanesque Revival architecture&quot;                 #1840&lt;U+2013&gt;1900 USA
+ at:1838 text:&quot;Jacobethian&quot;                                                 #1838
+ at:1837 text:&quot;Victorian architecture&quot;
+ at:1835 text:&quot;Tudorbethan architecture&quot;                            #1835&lt;U+2013&gt;1885
+ at:1830 text:&quot;Jacobethan&quot;
+ at:1815 text:&quot;Biedermeier&quot;                                                 #1815&lt;U+2013&gt;1848
+ at:1810 text:&quot;American Empire (style)&quot;
+ at:1810 text:&quot;Regency architecture&quot;
+ at:1809 text:&quot;Egyptian Revival architecture&quot;                       #1809&lt;U+2013&gt;1820s
+ at:1804 text:&quot;Empire (style)&quot;                                               #1804 to 1814, 1870 revival
+ at:1802 text:&quot;Italianate architecture&quot;
+ at:1780 text:&quot;Federal architecture&quot;
+ at:1770 text:&quot;Adam style&quot;                                                  #1770 England
+ at:1760 text:&quot;Gothic Revival architecture&quot;                          #1760s&lt;U+2013&gt;1840s
+ at:1750 text:&quot;Neoclassical architecture&quot;
+
+at:1720 text:&quot;Georgian architecture&quot; #1720&lt;U+2014&gt;
+at:1693 text:&quot;Sicilian Baroque&quot; #1693 earthquake&lt;U+2014&gt;c.1745 aka
+at:1666 text:&quot;English Baroque&quot; #Great Fire (1666) &amp; Treaty of Utrecht (1713)
+at:1650 text:&quot;Rococo architecture&quot; #1659&lt;U+2014&gt;
+at:1616 text:&quot;Palladian architecture&quot; #1616&lt;U+2014&gt;1680 (I.Jones)
+at:1600 text:&quot;Baroque architecture&quot; #1600&lt;U+2014&gt;
+at:1533 text:&quot;Elizabethan architecture&quot; #(b.1533&lt;U+2014&gt;d.1603)
+at:1527 text:&quot;Mannerism&quot; #1527&lt;U+2014&gt;1600
+at:1520 text:&quot;Spanish Colonial style&quot; #1520s&lt;U+2013&gt;c.1550*Manueline 1495 to 1521 (reign)
+at:1485 text:&quot;Tudor style architecture&quot; #1485&lt;U+2013&gt;1603
+at:1400 text:&quot;Renaissance architecture&quot; #1400&lt;U+2014&gt;1600
+at:1350 text:&quot;Brick Gothic&quot; #c.1350&lt;U+2014&gt;c.1400
+at:1350 text:&quot;Perpendicular Period&quot; #c.1350&lt;U+2014&gt;c.1550
+at:1290 text:&quot;Decorated Period&quot; #c.1290&lt;U+2014&gt;c.1350
+at:1190 text:&quot;Early English Period&quot; #1190&lt;U+2014&gt;1250
+at:1190 text:&quot;Gothic architecture&quot; #1200(sic)&lt;U+2014&gt;1400
+
+Neolithic architecture 10,000 BC-3000 BC
+Ancient Egyptian architecture 3000 BC&lt;U+2013&gt;373 AD
+Sumerian architecture 5300 BC&lt;U+2013&gt;2000 BC
+Classical architecture 600 BC-323 AD
+
+Ancient Greek architecture 776 BC-265 BC
+Roman architecture 753 BC&lt;U+2013&gt;663 AD
+
+Byzantine architecture 527 (Sofia)-1520
+Romanesque architecture 1050-1100
+Norman architecture 1074-1250
+
+
+ #To start the indentation on top again
+ #barset:break
+ #at:1919 #blank line
+
+Timeline 1000AD&lt;U+2014&gt;Present
+
+750 years - The last 250 years (fine grid) is detailed above
+
+
+DateFormat = yyyy ImageSize = width:800 height:auto barincrement:18 PlotArea = left:20 right:20 bottom:20 top:10 Colors =
+ id:noir              value:black
+ id:canvas            value:rgb(0.97,0.97,0.97)
+ id:gris              value:gray(0.80)
+ id:grilleMajor       value:rgb(0.80,0.80,0.80)
+ id:bleuclair         value:rgb(0.56,0.56,0.86)
+ id:rouge             value:red
+ id:rougeclair        value:rgb(0.86,0.56,0.56)
+ id:bleuclair         value:rgb(0.76,0.76,0.96)
+ id:grilleMinor       value:rgb(0.86,0.86,0.86)
+Period = from:1000 till:2008 TimeAxis = orientation:horizontal format:yyyy AlignBars = justify ScaleMinor = unit:year increment:10 start:1750 gridcolor:grilleMinor ScaleMajor = unit:year increment:50 start:1000 gridcolor:grilleMajor BackgroundColors = canvas:canvas bars:canvas BarData=
+ bar:epoque
+ barset:evennement
+PlotData=
+ bar:epoque shift:(0,0) width:30
+ from:start till:end color:gris # Arri?re plan
+ from:start till:1581  text:&quot;Julian calendar&quot; color:rougeclair
+ from:1582  till:end   text:&quot;Gregorian calendar&quot; color:rouge
+ barset:evennement color:rouge shift:(2,0) width:31
+ at:1750 #blank line
+ at:1750 text:&quot;Neoclassical architecture&quot;
+ at:1720 text:&quot;Georgian architecture&quot;                                #1720&lt;U+2014&gt;
+ at:1693 text:&quot;Sicilian Baroque&quot;                                         #1693 earthquake&lt;U+2014&gt;c.1745 aka
+ at:1666 text:&quot;English Baroque&quot;                                         #Great Fire (1666) &amp; Treaty of Utrecht (1713)
+ at:1650 text:&quot;Rococo architecture&quot;                                   #1659&lt;U+2014&gt;
+ at:1616 text:&quot;Palladian architecture&quot;                                #1616&lt;U+2014&gt;1680 (I.Jones)
+ at:1600 text:&quot;Baroque architecture&quot;                                 #1600&lt;U+2014&gt;
+ at:1533 text:&quot;Elizabethan architecture&quot;                            #(b.1533&lt;U+2014&gt;d.1603)
+ at:1527 text:&quot;Mannerism&quot;                                                #1527&lt;U+2014&gt;1600
+ at:1520 text:&quot;Spanish Colonial style&quot;                               #1520s&lt;U+2013&gt;c.1550*Manueline 1495 to 1521 (reign)
+ at:1485 text:&quot;Tudor style architecture&quot;                            #1485&lt;U+2013&gt;1603
+ at:1400 text:&quot;Renaissance architecture&quot;                           #1400&lt;U+2014&gt;1600
+ at:1350 text:&quot;Brick Gothic&quot;                                              #c.1350&lt;U+2014&gt;c.1400
+ at:1350 text:&quot;Perpendicular Period&quot;                                 #c.1350&lt;U+2014&gt;c.1550
+ at:1290 text:&quot;Decorated Period&quot;                                      #c.1290&lt;U+2014&gt;c.1350
+ at:1190 text:&quot;Early English Period&quot;                                   #1190&lt;U+2014&gt;1250 
+ at:1190 text:&quot;Gothic architecture&quot;                                    #1200(sic)&lt;U+2014&gt;1400
+ at:1074 text:&quot;Norman architecture&quot;                                  #1074-1250
+ at:1050 text:&quot;Romanesque architecture&quot;                          #1050-1100
+
+at:527 text:&quot;Byzantine architecture&quot; #527 (Sofia)-1520\
+at:-753 text:&quot;Roman architecture&quot; #753 BC&lt;U+2013&gt;663 AD\
+at:-776 text:&quot;Ancient Greek architecture&quot; #776 BC-265 BC
+at:-3000 text:&quot;Ancient Egyptian architecture&quot; #3000 BC&lt;U+2013&gt;373 AD
+at:-5300 text:&quot;Sumerian architecture&quot; #5300 BC&lt;U+2013&gt;2000 BC\
+at:-6000 text:&quot;Neolithic architecture&quot; #6000 BC-3000 BC
+
+ #To start the indentation on top again
+ #barset:break
+ #at:1919 #blank line
+
+Timeline 6000BC&lt;U+2014&gt;Present
+
+4000 years - The last 1000 years (fine grid) is detailed above
+
+
+DateFormat = yyyy ImageSize = width:800 height:auto barincrement:18 PlotArea = left:20 right:20 bottom:20 top:10 Colors =
+ id:noir              value:black
+ id:canvas            value:rgb(0.97,0.97,0.97)
+ id:gris              value:gray(0.80)
+ id:grilleMajor       value:rgb(0.80,0.80,0.80)
+ id:bleuclair         value:rgb(0.56,0.56,0.86)
+ id:rouge             value:red
+ id:rougeclair        value:rgb(0.86,0.56,0.56)
+ id:bleuclair         value:rgb(0.76,0.76,0.96)
+ id:grilleMinor       value:rgb(0.86,0.86,0.86)
+Period = from:-6000 till:2000 TimeAxis = orientation:horizontal format:yyyy AlignBars = justify ScaleMinor = unit:year increment:100 start:1000 gridcolor:grilleMinor ScaleMajor = unit:year increment:500 start:-6000 gridcolor:grilleMajor BackgroundColors = canvas:canvas bars:canvas BarData=
+ bar:epoque
+ barset:evennement
+PlotData=
+ bar:epoque shift:(0,0) width:30
+ from:start till:end color:gris # Arri?re plan
+ from:start till:1581  color:rougeclair
+ from:1582  till:end   color:rouge
+ barset:evennement color:rouge shift:(2,0) width:31
+ at:550 #blank line
+ at:527 text:&quot;Byzantine architecture&quot;                               #527 (Sofia)-1520\
+ at:-753 text:&quot;Roman architecture&quot;                                   #753 BC&lt;U+2013&gt;663 AD\
+ at:-776 text:&quot;Ancient Greek architecture&quot;                        #776 BC-265 BC
+ at:-3000 text:&quot;Ancient Egyptian architecture&quot;                  #3000 BC&lt;U+2013&gt;373 AD
+ at:-5300 text:&quot;Sumerian architecture&quot;                             #5300 BC&lt;U+2013&gt;2000 BC\
+ at:-6000 text:&quot;Neolithic architecture&quot;                              #6000 BC-3000 BC
+ #To start the indentation on top again
+ #barset:break
+ #at:1919 #blank line
+
+ 
+Category:Graphical timelines

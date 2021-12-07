@@ -1,0 +1,69 @@
+The Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry theory is an acid&lt;U+2013&gt;base reaction theory, proposed independently by Johannes Nicolaus Br&lt;U+00F8&gt;nsted and Thomas Martin Lowry in 1923. The fundamental concept of this theory is that an acid (or Br&lt;U+00F8&gt;nsted acid) is defined as being able to lose, or donate a proton (the hydrogen cation, or H+) while a base (or Br&lt;U+00F8&gt;nsted base) is defined as a species with the ability to gain, or accept a proton.
+Br&lt;U+00F8&gt;nsted and Lowry
+The Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry acid&lt;U+2013&gt;base theory was proposed independently and simultaneously by physical chemists Johannes Nicolaus Br&lt;U+00F8&gt;nsted in Denmark and Thomas Martin Lowry in England in 1923. That same year, Gilbert N. Lewis proposed an electronic theory of acid-base reactions,1 but both theories remain commonly used.
+Properties of acids and bases
+The Arrhenius theory for defining acids and bases states that acids are substances which dissociate in their aqueous solution to give H+ (hydroxyl ions) while bases are substances which dissociate in their aqueous solution to give OH&lt;U+2212&gt; (hydronium ions). This concept was able to explain the catalytic action of acids and reaction of acids and bases in aqueous solution but failed to explain: why molecules not having the above ions were able to neutralize acids and bases, acid – base reactions occurring in gaseous phases and why it did not identify metal oxides as bases. The Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry model of proton donors and proton acceptors in acid&lt;U+2013&gt;base reactions is an improvement over the Arrhenius theory. This theory showed that substances which have one or more lone pair of electrons and are proton acceptors are bases.
+In the Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry theory, an acid donates a proton and the base accepts it.234 A molecule containing an acidic hydrogen (a hydrogen atom attached to an electonegative atom) is considered an acid. A molecule having the tendency to form a bond with proton is considered a base. The ion or molecule remaining after the acid has lost a proton is known as that acid's conjugate base, and the species created when the base accepts the proton is known as the conjugate acid. This is expressed in the following reaction:
+acid + base  conjugate base + conjugate acid.
+Notice how this reaction can proceed in either forward or backward direction; in each case, the acid donates a proton to the base.
+With letters, the above equation can be written as:
+HA + B  A&lt;U+2212&gt; + HB+
+The acid, HA, donates a H+ ion to become A&lt;U+2212&gt;, its conjugate base. The base, B, accepts the proton to become HB+, its conjugate acid. In the reverse reaction, A&lt;U+2212&gt; it accepts a H+ from HB+ to recreate HA in order to remain in equilibrium. In the reverse reaction, as HB+ has donated a H+ to A&lt;U+2212&gt;, it therefore recreates B and remains in equilibrium. The conjugate acid and the conjugate base differ by only a proton.
+Example
+Acetic acid, a weak acid, donates a proton (hydrogen ion, highlighted in green) to water in an equilibrium reaction to give the acetate ion and the hydronium ion. Red: oxygen, black: carbon, white: hydrogen.
+Consider the following acid&lt;U+2013&gt;base reaction, seen in the image to the right:
++    + 
+Acetic acid, , is an acid because it donates a proton to water () and becomes its conjugate base: the acetate ion (). In the same sense,  is the base because it accepts a proton from  and becomes its conjugate acid: the hydronium ().
+Hydronium, , is the conjugate acid of water because, in the reverse reaction, it donates a proton to the acetate ion, , and becomes water. The acetate ion, , is the conjugate base of acetic acid because, in the reverse reaction, it accepts an proton from  to become the acid. Both of these processes demonstrate the equilibrium nature of the acid&lt;U+2013&gt;base reaction.
+Amphoteric substances
+ Water is amphoteric as it can act as an acid or as a base. In the reaction between acetic acid, CH3COOH, and water, H2O, discussed in the above section, water acts as a base.
+CH3COOH + H2O  CH3COO− + H3O+
+The acetate ion, CH3COO&lt;U+2212&gt;, is the conjugate base of acetic acid and the hydronium ion, H3O+, is the conjugate acid of the base, water.
+Water can also act as an acid, for instance when it reacts with ammonia. The equation given for this reaction is:
+H2O + NH3  OH− + NH4+
+in which H2O donates a proton to NH3. The hydroxide ion is the conjugate base of water acting as an acid and the ammonium ion is the conjugate acid of the base, ammonia.
+Strength of acids and bases
+A strong acid, such as hydrochloric acid, dissociates completely. A weak acid, such as acetic acid is only partially dissociated; the acid dissociation constant, Ka, is a quantitative measure of the strength of the acid.5 The tendency of an acid to lose proton determines its acidic strength while the tendency of a base to gain protons determines its basic strength. The conjugate of a strong acid is always a weak base and the conjugate of a weak acid is always a strong base and vice versa. In the dissociation reaction of acetic acid shown above the products formed are strong acid (H3O+) and strong base (CH3COO-).
+A wide range of compounds can be classified in the Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry framework: mineral acids and derivatives such as sulfonates, phosphonates, etc., carboxylic acids, amines, carbon acids, 1,3-diketones such as acetylacetone, ethyl acetoacetate, pyrrole, pyridine and Meldrum's acid.
+Limitations
+Though this theory is an improvement over the Arrhenius theory but it has some limitations;
+requires the transfer of a proton and a solvent which can dissolve the substance into respective ions.
+the reactions between acidic oxides and basic oxides cannot be explained on the basis of this theory.
+An example of reaction between acidic and basic oxides is this:
++  = 
+CaO is a basic oxide while SO3 is an acidic oxide. This reaction does not involves the transfer of a proton and cannot be explained on the basis of above concept.
+KOH and KNH2 are not considered Br&lt;U+00F8&gt;nsted bases, but rather salts containing the bases OH&lt;U+2212&gt; and NH2&lt;U+2212&gt;.
+this theory does not recognize Lewis acids like  and  as acids because they do not have a proton.
+Non-protonic acid base reactions cannot be explained on the basis of this theory.
+Examples of non-protonic acid-base reactions are:
++    + 
++   
+The Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry model calls hydrogen-containing substances (like HCl) acids. Thus, some substances, which many chemists considered to be acids, such as SO3 or BCl3, are excluded from this classification due to lack of hydrogen. Gilbert N. Lewis wrote in 1938, &quot;To restrict the group of acids to those substances that contain hydrogen interferes as seriously with the systematic understanding of chemistry as would the restriction of the term oxidizing agent to substances containing oxygen.&quot;6
+Br&lt;U+00F8&gt;nsted concept and Lewis acid&lt;U+2013&gt;base
+The hydrogen requirement of Arrhenius and Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry was removed by the Lewis definition of acid&lt;U+2013&gt;base reactions, devised by Gilbert N. Lewis in 1923, in the same year as Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry, but it was not elaborated by him until 1938.7 Instead of defining acid&lt;U+2013&gt;base reactions in terms of protons or other bonded substances, the Lewis definition defines a base (referred to as a Lewis base) to be a compound that can donate an electron pair, and an acid (a Lewis acid) to be a compound that can receive this electron pair.8 A Lewis base, defined as an electron-pair donor acts as a Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry base as the pair of electrons can be donated to a proton. This means that the Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry concept is not limited to aqueous solutions and can be applied to non aqueous solutions also. Any donor solvent S can act as a proton acceptor.
+AH + S:  A− + SH+
+Typical donor solvents used in acid&lt;U+2013&gt;base chemistry, like liquid ammonia have an oxygen or nitrogen atom with a lone pair of electrons that can be used to form a bond with a proton.
+Some Lewis acids, defined as electron-pair acceptors, also act as Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry acids. For example, the aluminium ion, Al3+ can accept electron pairs from water molecules, as in the reaction
+Al3+ + 6H2O → Al(H2O)63+
+The aqua ion formed is a weak Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry acid.
+Al(H2O)63+ + H2O  Al(H2O)5OH2+ + H3O+...........Ka = 1.2 &lt;U+00D7&gt; 10−5 9
+The overall reaction is described as acid hydrolysis of the aluminium ion.
+However not all Lewis acids generate Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry acidity. The magnesium ion similarly reacts as a Lewis acid with six water molecules
+Mg2+ + 6H2O → Mg(H2O)62+
+but here very few protons are exchanged since the Br&lt;U+00F8&gt;nsted&lt;U+2013&gt;Lowry acidity of the aqua ion is negligible (Ka = 3.0 &lt;U+00D7&gt; 10&lt;U+2212&gt;12).10
+See also
+Acid
+Acid&lt;U+2013&gt;base reaction
+Base (chemistry)
+Lewis acids and bases
+References
+Bibliography
+de:S&lt;U+00E4&gt;ure-Base-Konzepte#Definition nach Br&lt;U+00F8&gt;nsted und Lowry
+Category:Acid-base chemistry Category:Equilibrium chemistry
+↩
+↩
+↩
+↩
+↩
+Miessler, G. L., Tarr, D. A., (1991) &quot;Inorganic Chemistry&quot; 2nd ed. Pearson Prentice-Hall pp. 170&lt;U+2013&gt;172↩
+K.W. Whitten, K.D. Gailey and R.E. Davis, &quot;General Chemistry&quot; (4th edn., Saunders College Publishing 1992) p. 750.↩

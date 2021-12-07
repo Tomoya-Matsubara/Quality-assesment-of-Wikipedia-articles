@@ -1,0 +1,387 @@
+In physics, thermodynamics (from the Greek &lt;U+03B8&gt;&lt;U+03B5&gt;&lt;U+03C1&gt;&lt;U+03BC&gt;-&lt;&lt;U+03B8&gt;&lt;U+03B5&gt;&lt;U+03C1&gt;&lt;U+03BC&gt;&lt;U+03CC&gt;&lt;U+03C4&gt;&lt;U+03B7&gt;&lt;U+03C2&gt;, therme, meaning &quot;heat&quot;1 and &lt;U+03B4&gt;&lt;U+03C5&gt;&lt;U+03BD&gt;&lt;U+03B1&gt;&lt;U+03BC&gt;&lt;U+03B9&gt;&lt;U+03C2&gt;, dynamis, meaning &quot;power&quot;) is the study of the conversion of energy into work and heat and its relation to macroscopic variables such as temperature and pressure. Its underpinnings, based upon statistical predictions of the collective motion of particles from their microscopic behavior, is the field of statistical thermodynamics, a branch of statistical mechanics.234. Historically, thermodynamics developed out of need to increase the efficiency of early steam engines.5 
+Starting point and relevance
+The starting point for most thermodynamic considerations are the laws of thermodynamics, which postulate that energy can be exchanged between physical systems as heat or work.6 They also postulate the existence of a quantity named entropy, which can be defined for any system.7 In thermodynamics, interactions between large ensembles of objects are studied and categorized. Central to this are the concepts of system and surroundings. A system is composed of particles, whose average motions define its properties, which in turn are related to one another through equations of state. Properties can be combined to express internal energy and thermodynamic potentials, which are useful for determining conditions for equilibrium and spontaneous processes.
+With these tools, the usage of thermodynamics describes how systems respond to changes in their surroundings. This can be applied to a wide variety of topics in science and engineering, such as engines, phase transitions, chemical reactions, transport phenomena, and even black holes. The results of thermodynamics are essential for other fields of physics and for chemistry, chemical engineering, aerospace engineering, mechanical engineering, cell biology, biomedical engineering, materials science, and economics to name a few.89
+History
+The history of thermodynamics as a scientific discipline generally begins with Otto von Guericke who, in 1650, built and designed the world's first vacuum pump and demonstrated a vacuum using his Magdeburg hemispheres. Guericke was driven to make a vacuum in order to disprove Aristotle's long-held supposition that 'nature abhors a vacuum'. Shortly after Guericke, the Irish physicist and chemist Robert Boyle had learned of Guericke's designs and, in 1656, in coordination with English scientist Robert Hooke, built an air pump.10 Using this pump, Boyle and Hooke noticed a correlation between pressure, temperature, and volume. In time, Boyle's Law was formulated, which states that pressure and volume are inversely proportional. Then, in 1679, based on these concepts, an associate of Boyle's named Denis Papin built a bone digester, which was a closed vessel with a tightly fitting lid that confined steam until a high pressure was generated.
+Later designs implemented a steam release valve that kept the machine from exploding. By watching the valve rhythmically move up and down, Papin conceived of the idea of a piston and a cylinder engine. He did not, however, follow through with his design. Nevertheless, in 1697, based on Papin's designs, engineer Thomas Savery built the first engine. Although these early engines were crude and inefficient, they attracted the attention of the leading scientists of the time.
+Their work led 127 years later to Sadi Carnot, the &quot;father of thermodynamics&quot;, who, in 1824, published Reflections on the Motive Power of Fire, a discourse on heat, power, and engine efficiency. The paper outlined the basic energetic relations between the Carnot engine, the Carnot cycle, and Motive power. This marks the start of thermodynamics as a modern science.11
+The term thermodynamics was coined by James Joule in 1849 to designate the science of relations between heat and power.12 By 1858, &quot;thermo-dynamics&quot;, as a functional term, was used in William Thomson's paper An Account of Carnot's Theory of the Motive Power of Heat.13 The first thermodynamic textbook was written in 1859 by William Rankine, originally trained as a physicist and a civil and mechanical engineering professor at the University of Glasgow.14
+The laws of thermodynamics
+In thermodynamics, there are four laws that do not depend on the details of the systems under study or how they interact. Hence these laws are very generally valid, can be applied to systems about which one knows nothing other than the balance of energy and matter transfer. Examples of such systems include Einstein's prediction, around the turn of the 20th century, of spontaneous emission, and ongoing research into the thermodynamics of black holes.
+These four laws are:
+Zeroth law of thermodynamics, about thermal equilibrium:
+If two thermodynamic systems are separately in thermal equilibrium with a third, they are also in thermal equilibrium with each other.
+If we grant that all systems are (trivially) in thermal equilibrium with themselves, the Zeroth law implies that thermal equilibrium is an equivalence relation on the set of thermodynamic systems. This law is tacitly assumed in every measurement of temperature. Thus, if we want to know if two bodies are at the same temperature, it is not necessary to bring them into contact and to watch whether their observable properties change with time.15
+First law of thermodynamics, about the conservation of energy:
+The change in the internal energy of a closed thermodynamic system is equal to the sum of the amount of heat energy supplied to the system and the work done on the system.
+Second law of thermodynamics, about entropy:
+The total entropy of any isolated thermodynamic system tends to increase over time, approaching a maximum value.
+Third law of thermodynamics, about the absolute zero of temperature:
+As a system asymptotically approaches absolute zero of temperature all processes virtually cease and the entropy of the system asymptotically approaches a minimum value; also stated as: &quot;the entropy of all systems and of all states of a system is zero at absolute zero&quot; or equivalently &quot;it is impossible to reach the absolute zero of temperature by any finite number of processes&quot;.
+The following has sometimes been called the &quot;Fourth Law of Thermodynamics&quot;, about the transfer of heat energy between systems.
+Onsager reciprocal relations:
+In connected thermodynamic systems which are in equilibrium neither for pressure nor temperature, heat flow between is caused by forces proportional with unit of pressure difference, and equal to the proportional density flow caused per unit of temperature difference.
+See also: Bose&lt;U+2013&gt;Einstein condensate and negative temperature.
+Thermodynamic potentials
+As can be derived from the energy balance equation (or Burks' equation) on a thermodynamic system there exist energetic quantities called thermodynamic potentials, being the quantitative measure of the stored energy in the system. The five most well known potentials are:
+Internal energy
+U 
+Helmholtz free energy
+A = U − TS 
+Enthalpy
+H = U + pV 
+Gibbs free energy
+G = U + pV − TS 
+Grand potential
+ΦG = U − TS − μN 
+Other thermodynamic potentials can be obtained through Legendre transformation. Potentials are used to measure energy changes in systems as they evolve from an initial state to a final state. The potential used depends on the constraints of the system, such as constant temperature or pressure. Internal energy is the internal energy of the system, enthalpy is the internal energy of the system plus the energy related to pressure-volume work, and Helmholtz and Gibbs energy are the energies available in a system to do useful work when the temperature and volume or the pressure and temperature are fixed, respectively.
+Classical thermodynamics
+Classical thermodynamics is the original early 1800s variation of thermodynamics concerned with thermodynamic states, and properties as energy, work, and heat, and with the laws of thermodynamics, all lacking an atomic interpretation. In precursory form, classical thermodynamics derives from chemist Robert Boyle&lt;U+2019&gt;s 1662 postulate that the pressure P of a given quantity of gas varies inversely as its volume V at constant temperature; i.e. in equation form: PV = k, a constant. From here, a semblance of a thermo-science began to develop with the construction of the first successful atmospheric steam engines in England by Thomas Savery in 1697 and Thomas Newcomen in 1712. The first and second laws of thermodynamics emerged simultaneously in the 1850s, primarily out of the works of William Rankine, Rudolf Clausius, and William Thomson (Lord Kelvin).
+Statistical thermodynamics
+With the development of atomic and molecular theories in the late 1800s and early 1900s, thermodynamics was given a molecular interpretation. This field is called statistical thermodynamics, which can be thought of as a bridge between macroscopic and microscopic properties of systems. Essentially, statistical thermodynamics is an approach to thermodynamics situated upon statistical mechanics, which focuses on the derivation of macroscopic results from first principles. It can be opposed to its historical predecessor phenomenological thermodynamics, which gives scientific descriptions of phenomena with avoidance of microscopic details. The statistical approach is to derive all macroscopic properties (temperature, volume, pressure, energy, entropy, etc.) from the properties of moving constituent particles and the interactions between them (including quantum phenomena). It was found to be very successful and thus is commonly used.
+Chemical thermodynamics
+Chemical thermodynamics is the study of the interrelation of energy with chemical reactions or with a physical change of state within the confines of the laws of thermodynamics. During the years 1873-76 the American mathematical physicist Josiah Willard Gibbs published a series of three papers, the most famous being On the Equilibrium of Heterogeneous Substances, in which he showed how thermodynamic processes could be graphically analyzed, by studying the energy, entropy, volume, temperature and pressure of the thermodynamic system, in such a manner to determine if a process would occur spontaneously.16 During the early 20th century, chemists such as Gilbert N. Lewis, Merle Randall, and E. A. Guggenheim began to apply the mathematical methods of Gibbs to the analysis of chemical processes.17
+Thermodynamic systems
+ An important concept in thermodynamics is the &lt;U+201C&gt;system&lt;U+201D&gt;. Everything in the universe except the system is known as surroundings. A system is the region of the universe under study. A system is separated from the remainder of the universe by a boundary which may be imaginary or not, but which by convention delimits a finite volume. The possible exchanges of work, heat, or matter between the system and the surroundings take place across this boundary. Boundaries are of four types: fixed, moveable, real, and imaginary.
+Basically, the &lt;U+201C&gt;boundary&lt;U+201D&gt; is simply an imaginary dotted line drawn around a volume of something when there is going to be a change in the internal energy of that something. Anything that passes across the boundary that effects a change in the internal energy of the something needs to be accounted for in the energy balance equation. That something can be the volumetric region surrounding a single atom resonating energy, such as Max Planck defined in 1900; it can be a body of steam or air in a steam engine, such as Sadi Carnot defined in 1824; it can be the body of a tropical cyclone, such as Kerry Emanuel theorized in 1986 in the field of atmospheric thermodynamics; it could also be just one nuclide (i.e. a system of quarks) as some are theorizing presently in quantum thermodynamics.
+For an engine, a fixed boundary means the piston is locked at its position; as such, a constant volume process occurs. In that same engine, a moveable boundary allows the piston to move in and out. For closed systems, boundaries are real while for open system boundaries are often imaginary. There are five dominant classes of systems:
+Isolated Systems &lt;U+2013&gt; matter and energy may not cross the boundary
+Adiabatic Systems &lt;U+2013&gt; heat must not cross the boundary
+Diathermic Systems - heat may cross boundary
+Closed Systems &lt;U+2013&gt; matter may not cross the boundary
+Open Systems &lt;U+2013&gt; heat, work, and matter may cross the boundary (often called a control volume in this case)
+As time passes in an isolated system, internal differences in the system tend to even out and pressures and temperatures tend to equalize, as do density differences. A system in which all equalizing processes have gone practically to completion, is considered to be in a state of thermodynamic equilibrium.
+In thermodynamic equilibrium, a system's properties are, by definition, unchanging in time. Systems in equilibrium are much simpler and easier to understand than systems which are not in equilibrium. Often, when analysing a thermodynamic process, it can be assumed that each intermediate state in the process is at equilibrium. This will also considerably simplify the situation. Thermodynamic processes which develop so slowly as to allow each intermediate step to be an equilibrium state are said to be reversible processes.
+Conjugate variables
+The central concept of thermodynamics is that of energy, the ability to do work. By the First Law, the total energy of a system and its surroundings is conserved. Energy may be transferred into a system by heating, compression, or addition of matter, and extracted from a system by cooling, expansion, or extraction of matter. In mechanics, for example, energy transfer equals the product of the force applied to a body and the resulting displacement.
+Conjugate variables are pairs of thermodynamic concepts, with the first being akin to a &quot;force&quot; applied to some thermodynamic system, the second being akin to the resulting &quot;displacement,&quot; and the product of the two equalling the amount of energy transferred. The common conjugate variables are:
+Pressure-volume (the mechanical parameters);
+Temperature-entropy (thermal parameters);
+Chemical potential-particle number (material parameters).
+Thermodynamic instruments
+There are two types of thermodynamic instruments, the meter and the reservoir. A thermodynamic meter is any device which measures any parameter of a thermodynamic system. In some cases, the thermodynamic parameter is actually defined in terms of an idealized measuring instrument. For example, the zeroth law states that if two bodies are in thermal equilibrium with a third body, they are also in thermal equilibrium with each other. This principle, as noted by James Maxwell in 1872, asserts that it is possible to measure temperature. An idealized thermometer is a sample of an ideal gas at constant pressure. From the ideal gas law PV=nRT, the volume of such a sample can be used as an indicator of temperature; in this manner it defines temperature. Although pressure is defined mechanically, a pressure-measuring device, called a barometer may also be constructed from a sample of an ideal gas held at a constant temperature. A calorimeter is a device which is used to measure and define the internal energy of a system.
+A thermodynamic reservoir is a system which is so large that it does not appreciably alter its state parameters when brought into contact with the test system. It is used to impose a particular value of a state parameter upon the system. For example, a pressure reservoir is a system at a particular pressure, which imposes that pressure upon any test system that it is mechanically connected to. The Earth's atmosphere is often used as a pressure reservoir.
+It is important that these two types of instruments are distinct. A meter does not perform its task accurately if it behaves like a reservoir of the state variable it is trying to measure. If, for example, a thermometer were to act as a temperature reservoir it would alter the temperature of the system being measured, and the reading would be incorrect. Ideal meters have no effect on the state variables of the system they are measuring.
+Thermodynamic states
+When a system is at equilibrium under a given set of conditions, it is said to be in a definite state. The state of the system can be described by a number of intensive variables and extensive variables. The properties of the system can be described by an equation of state which specifies the relationship between these variables. State may be thought of as the instantaneous quantitative description of a system with a set number of variables held constant.
+Thermodynamic processes
+A thermodynamic process may be defined as the energetic evolution of a thermodynamic system proceeding from an initial state to a final state. Typically, each thermodynamic process is distinguished from other processes, in energetic character, according to what parameters, as temperature, pressure, or volume, etc., are held fixed. Furthermore, it is useful to group these processes into pairs, in which each variable held constant is one member of a conjugate pair. The seven most common thermodynamic processes are shown below:
+An isobaric process occurs at constant pressure.
+An isochoric process, or isometric/isovolumetric process, occurs at constant volume.
+An isothermal process occurs at a constant temperature.
+An adiabatic process occurs without loss or gain of energy by heat.
+An isentropic process (reversible adiabatic process) occurs at a constant entropy.
+An isenthalpic process occurs at a constant enthalpy.
+A steady state process occurs without a change in the internal energy of a system.
+See also
+Approaches and applied fields
+Atmospheric thermodynamics
+Biological thermodynamics
+Black hole thermodynamics
+Chemical thermodynamics
+Classical thermodynamics
+Equilibrium thermodynamics
+Maximum entropy thermodynamics
+Non-equilibrium thermodynamics
+Philosophy of thermal and statistical physics
+Psychrometrics
+Quantum thermodynamics
+Statistical thermodynamics
+Thermoeconomics
+Other
+Lists and timelines:
+List of important publications in thermodynamics
+List of textbooks in statistical mechanics
+List of thermal conductivities
+List of thermodynamic properties
+Table of thermodynamic equations
+Timeline of thermodynamics, statistical mechanics, and random processes
+Thermodynamic:  
+Boundary
+Component
+Conjugate variables
+Temperature / Entropy
+Pressure / Volume
+(Stress / Strain)
+Chemical potential / Particle number
+Constant:
+Avogadro's NA
+Boltzmann k
+Ideal gas R
+Stefan-Boltzmann &lt;U+03C3&gt;
+Critical line
+Cycle
+External combustion engine
+Internal combustion engine
+Atkinson
+Bell Coleman
+Brayton
+Carnot
+Combined
+Diesel
+Ericsson
+Hampson-Linde
+Heat engine
+Carnot
+HEHC
+Hot air engine
+Heat pump &amp; refrigeration
+Kalina
+Kleemenko
+Lenoir
+Miller
+Mixed/Dual
+Otto
+Rankine
+Regenerative
+Siemens
+Stirling
+Stoddard
+Ensemble
+Canonical
+Grand canonical
+Isoenthalpic-isobaric
+Isothermal-isobaric
+Microcanonical
+Equations
+Boltzmann
+Bridgman
+Churchill-Bernstein
+Clausius-Clapeyron relation
+Debye-H&lt;U+00FC&gt;ckel
+Equation of state
+Exact differential
+Gibbs-Duhem
+Gibbs-Helmholtz
+Green-Kubo relations
+Maxwell relations
+Onsager reciprocal relations
+Equilibrium
+Chemical
+Dynamic
+Local
+Phase
+History
+Instruments
+Barometer
+Calorimeter
+Dynamometer
+Thermometer
+Laws:
+Zeroth
+First
+Second
+Third
+Charles's
+Dulong-Petit
+Fundamental relation
+Gas laws
+Ideal gas
+Joule's
+Onsager reciprocal relations
+Stefan-Boltzmann
+Limit
+Material properties
+Bulk modulus K
+Compressibility &lt;U+03B2&gt;
+Specific heat capacity c
+Thermal expansion &lt;U+03B1&gt;
+Potential
+Internal energy
+Entropy
+Gibbs free energy
+Grand
+Helmholtz free energy
+Process
+Adiabatic
+Isenthalpic
+Isentropic
+Isobaric
+Isochoric
+Isothermal
+Quasistatic
+Spontaneous
+Steady state
+State
+Excited
+Function
+Ground
+Standard
+Stationary
+Steady
+System
+Closed
+Dissipative
+Isolated
+Temperature
+Negative
+Range
+Variable:
+Chemical potential &lt;U+03BC&gt;
+Density
+Energy
+Conservation of
+Conversion efficiency
+Electrical
+Free
+Gibbs free G
+Helmholtz free A
+Internal U
+Kinetic
+Potential
+Specific
+Enthalpy H
+Entropy S
+&amp; information theory
+As energy dispersal
+Introduction to
+Residual
+Shannon
+Statistical
+Exergy
+Efficiency
+Mass
+Mole (unit)
+Particle number N
+Pressure P
+Temperature T
+Volume V
+Work W
+Mechanical
+Theorem:
+Carnot's
+Clausius
+Equipartition
+Bolzmann's H
+Nernst heat
+Virial
+Other Related Topics   Heat:
+Critical heat flux
+Heat of combustion
+Heat transfer
+Convective
+Latent heat
+Mechanical equivalent
+Theory of heat
+Volumetric heat capacity
+Thermal:
+Analysis
+Conductivity
+Contact
+Efficiency
+Energy
+Equilibrium
+Expansion
+Negative
+Mass
+Motion
+Radiation
+Science
+Physical chemistry:
+Autocatalytic reactions and order creation
+Boiling point
+Calorimetry
+Chemical energetics
+Chemical kinetics
+Endergonic reaction
+Endothermic
+Exothermic
+Gibbs phase rule
+Melting point
+Phase diagram
+Calphad
+Phase transition
+Thermodynamic databases for pure substances
+Triple point
+Vapor-liquid equilibrium
+Statistical Mechanics:
+Boltzmann distribution
+Boltzmann distribution law
+Boltzmann factor
+Bose-Einstein condensate
+Bose-Einstein statistics
+Brownian motion
+Configuration integral
+Degeneracy
+Degrees of freedom
+Fermi-Dirac statistics
+Fluctuations
+Gibbs paradox
+Ideal gas
+Irreversibility
+Kinetic theory
+Macrostate
+Maxwell-Boltzmann statistics
+Microstate
+Molecular chaos
+Partition function
+Thermoelectricity:
+Nernst effect
+Peltier effect
+Seebeck effect
+Thermionic emission
+Thermoelectric effect
+Thermoelectricity
+Thermogenerator
+Thermophotovoltaic
+Thermopower
+Thomson effect
+Sundry:  
+Absolute zero
+Arrow of time
+Black body
+Dissipation
+Ettingshausen effect
+Extensive quantity
+Intensive quantity
+Legendre transformation
+Loschmidt's paradox
+Mass-energy equivalence
+Physical information
+Piezoelectric effect
+Pressure volume diagram
+Pyroelectric effect
+Quality of a fluid
+Refrigeration
+Gas asbsorption
+Cycle
+Thermoelectric cooling
+Vapor compression
+Standard conditions for temperature and pressure
+T-symmetry
+Two dimensional gas
+Wikibooks
+Engineering Thermodynamics
+Entropy for Beginners
+References
+Further reading
+A nontechnical introduction, good on historical and interpretive matters.
+The following titles are more technical:
+External links
+Thermodynamics Data &amp; Property Calculation Websites
+Thermodynamics Educational Websites
+Thermodynamics at ScienceWorld
+History of Thermodynamics
+Shakespeare &amp; Thermodynamics
+Biochemistry Thermodynamics
+Thermodynamics and Statistical Mechanics
+Free Steam Tables Online calculator based on IAPWS-IF97
+Engineering Thermodynamics - A Graphical Approach
+af:Termodinamika ar:&lt;U+062F&gt;&lt;U+064A&gt;&lt;U+0646&gt;&lt;U+0627&gt;&lt;U+0645&gt;&lt;U+064A&gt;&lt;U+0643&gt;&lt;U+0627&gt; &lt;U+062D&gt;&lt;U+0631&gt;&lt;U+0627&gt;&lt;U+0631&gt;&lt;U+064A&gt;&lt;U+0629&gt; az:Termodinamika bn:&lt;U+09A4&gt;&lt;U+09BE&gt;&lt;U+09AA&gt;&lt;U+0997&gt;&lt;U+09A4&gt;&lt;U+09BF&gt;&lt;U+09AC&gt;&lt;U+09BF&gt;&lt;U+099C&gt;&lt;U+09CD&gt;&lt;U+099E&gt;&lt;U+09BE&gt;&lt;U+09A8&gt; be:&lt;U+0422&gt;&lt;U+044D&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0434&gt;&lt;U+044B&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0456&gt;&lt;U+043A&gt;&lt;U+0430&gt; be-x-old:&lt;U+0422&gt;&lt;U+044D&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+0430&gt;&lt;U+0434&gt;&lt;U+044B&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0456&gt;&lt;U+043A&gt;&lt;U+0430&gt; bs:Termodinamika bg:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt; ca:Termodin&lt;U+00E0&gt;mica cs:Termodynamika cy:Thermodynameg da:Termodynamik de:Thermodynamik et:Termod&lt;U+00FC&gt;naamika el:&lt;U+0398&gt;&lt;U+03B5&gt;&lt;U+03C1&gt;&lt;U+03BC&gt;&lt;U+03BF&gt;&lt;U+03B4&gt;&lt;U+03C5&gt;&lt;U+03BD&gt;&lt;U+03B1&gt;&lt;U+03BC&gt;&lt;U+03B9&gt;&lt;U+03BA&gt;&lt;U+03AE&gt; es:Termodin&lt;U+00E1&gt;mica eo:Termodinamiko eu:Termodinamika fa:&lt;U+062A&gt;&lt;U+0631&gt;&lt;U+0645&gt;&lt;U+0648&gt;&lt;U+062F&gt;&lt;U+06CC&gt;&lt;U+0646&gt;&lt;U+0627&gt;&lt;U+0645&gt;&lt;U+06CC&gt;&lt;U+06A9&gt; fr:Thermodynamique gl:Termodin&lt;U+00E1&gt;mica ko:&lt;U+C5F4&gt;&lt;U+C5ED&gt;&lt;U+D559&gt; hi:&lt;U+0909&gt;&lt;U+0937&gt;&lt;U+094D&gt;&lt;U+092E&gt;&lt;U+093E&gt;&lt;U+0917&gt;&lt;U+0924&gt;&lt;U+093F&gt;&lt;U+0915&gt;&lt;U+0940&gt; hr:Termodinamika io:Termodinamiko id:Termodinamika is:Varmafr&lt;U+00E6&gt;&lt;U+00F0&gt;i it:Termodinamica he:&lt;U+05EA&gt;&lt;U+05E8&gt;&lt;U+05DE&gt;&lt;U+05D5&gt;&lt;U+05D3&gt;&lt;U+05D9&gt;&lt;U+05E0&gt;&lt;U+05DE&gt;&lt;U+05D9&gt;&lt;U+05E7&gt;&lt;U+05D4&gt; lv:Termodinamika lb:Thermodynamik lt:Termodinamika lmo:Termudinamica hu:Termodinamika mk:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt; ml:&lt;U+0D24&gt;&lt;U+0D3E&gt;&lt;U+0D2A&gt;&lt;U+0D17&gt;&lt;U+0D24&gt;&lt;U+0D3F&gt;&lt;U+0D15&gt;&lt;U+0D02&gt; ms:Termodinamik mn:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043A&gt; nl:Thermodynamica ja:&lt;U+71B1&gt;&lt;U+529B&gt;&lt;U+5B66&gt; no:Termodynamikk nn:Termodynamikk pl:Termodynamika pt:Termodin&lt;U+00E2&gt;mica ro:Termodinamic&lt;U+0103&gt; ru:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt; sq:Termodinamika simple:Thermo-dynamics sk:Termodynamika sl:Termodinamika sr:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0438&gt;&lt;U+043A&gt;&lt;U+0430&gt; fi:Termodynamiikka sv:Termodynamik ta:&lt;U+0BB5&gt;&lt;U+0BC6&gt;&lt;U+0BAA&gt;&lt;U+0BCD&gt;&lt;U+0BAA&gt; &lt;U+0B87&gt;&lt;U+0BAF&gt;&lt;U+0B95&gt;&lt;U+0BCD&gt;&lt;U+0B95&gt;&lt;U+0BB5&gt;&lt;U+0BBF&gt;&lt;U+0BAF&gt;&lt;U+0BB2&gt;&lt;U+0BCD&gt; th:&lt;U+0E2D&gt;&lt;U+0E38&gt;&lt;U+0E13&gt;&lt;U+0E2B&gt;&lt;U+0E1E&gt;&lt;U+0E25&gt;&lt;U+0E28&gt;&lt;U+0E32&gt;&lt;U+0E2A&gt;&lt;U+0E15&gt;&lt;U+0E23&gt;&lt;U+0E4C&gt; tr:Termodinamik uk:&lt;U+0422&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043C&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+0438&gt;&lt;U+043D&gt;&lt;U+0430&gt;&lt;U+043C&gt;&lt;U+0456&gt;&lt;U+043A&gt;&lt;U+0430&gt; ur:&lt;U+062D&gt;&lt;U+0631&gt;&lt;U+062D&gt;&lt;U+0631&gt;&lt;U+06A9&gt;&lt;U+06CC&gt;&lt;U+0627&gt;&lt;U+062A&gt; vi:Nhi&lt;U+1EC7&gt;t &lt;U+0111&gt;&lt;U+1ED9&gt;ng l&lt;U+1EF1&gt;c h&lt;U+1ECD&gt;c zh-yue:&lt;U+71B1&gt;&lt;U+529B&gt;&lt;U+5B78&gt; zh:&lt;U+70ED&gt;&lt;U+529B&gt;&lt;U+5B66&gt;
+  Category:Chemical engineering Category:Fundamental physics concepts Category:Greek loanwords
+Oxford American Dictionary↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+Kelvin, William T. (1849) &quot;An Account of Carnot's Theory of the Motive Power of Heat - with Numerical Results Deduced from Regnault's Experiments on Steam.&quot; Transactions of the Edinburg Royal Society, XVI. January 2. Scanned Copy↩
+↩
+Moran, Michael J. and Howard N. Shapiro, 2008. Fundamentals of Engineering Thermodynamics. 6th ed. Wiley and Sons: 16.↩
+↩
+↩

@@ -1,0 +1,81 @@
+
+DNS hijacking or DNS redirection is the practice of subverting the resolution of Domain Name System (DNS) queries. This can be achieved by malware that overrides a computer's TCP/IP configuration to point at a rogue DNS server under the control of an attacker, or through modifying the behaviour of a trusted DNS server so that it does not comply with internet standards.
+These modifications may be made for malicious purposes such as phishing, or for self-serving purposes by Internet service providers (ISPs) to direct users' web traffic to the ISP's own web servers where advertisements can be served, statistics collected, or other purposes of the ISP; and by DNS service providers to block access to selected domains as a form of censorship.
+Technical background
+One of the functions of a DNS server is to translate a domain name into an IP address that applications need to connect to an Internet resource such as a website. This functionality is defined in various formal internet standards that define the protocol in considerable detail. DNS servers are implicitly trusted by internet-facing computers and users to correctly resolve names to the actual addresses that are registered by the owners of an internet domain.
+Rogue DNS server
+A rogue DNS server translates domain names of desirable websites (search engines, banks, brokers, etc.) into IP addresses of sites with unintended content, even malicious websites. Most users depend on DNS servers automatically assigned by their ISPs. Zombie computers use DNS-changing trojans to invisibly switch the automatic DNS server assignment by the ISP to manual DNS server assignment from rogue DNS servers. When users try to visit websites, they are instead sent to a bogus website. This attack is termed pharming. If the site they are redirected to is a malicious website, masquerading as a legitimate website, in order to fraudulently obtain sensitive information, it is termed phishing.1
+Manipulation by ISPs
+A number of consumer ISPs such as Cablevision's Optimum Online,2 Comcast,3 Time Warner, Cox Communications, RCN,4 Rogers,5 Charter Communications, Verizon, Virgin Media,67 Frontier Communications, Bell Sympatico,8 UPC,9 T-Online,10 Optus,11 Mediacom,12 ONO,13 TalkTalk14 and Bigpond (Telstra)15161718 use DNS hijacking for their own purposes, such as displaying advertisements19 or collecting statistics. This practice violates the RFC standard for DNS (NXDOMAIN) responses,20 and can potentially open users to cross-site scripting attacks.21
+The concern with DNS hijacking involves this hijacking of the NXDOMAIN response. Internet and intranet applications rely on the NXDOMAIN response to describe the condition where the DNS has no entry for the specified host. If one were to query the invalid domain name (fakeexample.com), one should get an NXDOMAIN response - informing the application that the name is invalid and taking the appropriate action (for example, displaying an error or not attempting to connect to the server). However, if the domain name is queried on one of these non-compliant ISPs, one would always receive a fake IP address belonging to the ISP. In a web browser, this behavior can be annoying or offensive as connections to this IP address display the ISP redirect page of the provider, sometimes with advertising, instead of a proper error message. However, other applications that rely on the NXDOMAIN error will instead attempt to initiate connections to this spoofed IP address, potentially exposing sensitive information.
+Examples of functionality that breaks when an ISP hijacks DNS:
+
+Roaming laptops that are members of a Windows Server domain will falsely be led to believe that they are back on a corporate network because resources such as domain controllers, email servers and other infrastructure will appear to be available. Applications will therefore attempt to initiate connections to these corporate servers, but fail, resulting in degraded performance, unnecessary traffic on the internet connection and timeouts.
+Many small office and home networks do not have their own DNS server, relying instead on broadcast name resolution. Many versions of Microsoft Windows default to prioritizing DNS name resolution above NetBIOS name resolution broadcasts; therefore, when an ISP DNS server returns a (technically valid) IP address for the name of the desired computer on the LAN, the connecting computer uses this incorrect IP address and inevitably fails to connect to the desired computer on the LAN. Workarounds include using the correct IP address instead of the computer name, or the DhcpNodeType registry value to change name resolution service ordering.
+Browsers such as Firefox no longer have their 'Browse By Name' functionality (Where keywords typed in the address bar take you to the closest matching site.).22
+The local DNS client built into modern operating systems will cache results of DNS searches for performance reasons. If a client switches between a home network and a VPN, false entries may remain cached, thereby creating a service outage on the VPN connection.
+DNSBL anti-spam solutions rely on DNS; false DNS results therefore interfere with their operation.
+Confidential user data might be leaked by applications that are tricked by the ISP into believing that the servers they wish to connect to are available.
+User choice over which search engine to consult in the event of a URL being mistyped in a browser is removed as the ISP determines what search results are displayed to the user; functionality of applications like the Google Toolbar do not work correctly.
+Computers configured to use a split tunnel with a VPN connection will stop working because intranet names that should not be resolved outside the tunnel over the public Internet will start resolving to fictitious addresses, instead of resolving correctly over the VPN tunnel on a private DNS server when an NXDOMAIN response is received from the Internet. For example, a mail client attempting to resolve the DNS A record for an internal mail server may receive a false DNS response that directed it to a paid-results web server, with messages queued for delivery for days while retransmission was attempted in vain.23
+It breaks Web Proxy Autodiscovery Protocol (WPAD) by leading web browsers to believe incorrectly that the ISP has a proxy server configured.
+It breaks monitoring software. For example, if we periodically contact a server to determine its health, a monitor will never see a failure unless the monitor tries to verify the server's cryptographic key.
+
+In some cases, the ISPs provide subscriber-configurable settings to disable hijacking of NXDOMAIN responses. Correctly implemented, such a setting reverts DNS to standard behavior. Other ISPs, however, instead use a web browser cookie to store the preference. In this case, the underlying behavior is not resolved: DNS queries continue to be redirected, while the ISP redirect page is replaced with a counterfeit dns error page. Applications other than web-browsers cannot be opted out of the scheme using cookies as the opt-out targets only the HTTP protocol, when the scheme is actually implemented in the protocol-neutral DNS system.
+Manipulation by Registrars
+Some Domain Name Registrars, notably Name.com,24 perform a DNS hijacking on failed domain name lookups despite objection to this practice by ICANN25 and their consumers.
+Response
+In the UK, the Information Commissioner's Office have acknowledged that the practice of involuntary DNS hijacking contravenes PECR, and EC Directive 95/46 on Data Protection which require explicit consent for processing of communication traffic. However they have refused to intervene, claiming that it would not be sensible to enforce the law, because it would not cause significant (or indeed any) demonstrable detriment to individuals.2627
+ICANN, the international body responsible for administering top-level domain names, has published a memorandum highlighting its concerns, and affirming:28 
+Mitigation
+
+End users, dissatisfied with poor &quot;opt-out&quot; options like cookies, have responded to the controversy by finding ways to avoid spoofed NXDOMAIN responses. DNS software such as Bind and Dnsmasq offer options to filter results, and can be run from a gateway or router to protect an entire network. Google, among others, run open DNS servers that currently do not return spoofed results. So a user could use Google Public DNS instead of their ISP's DNS servers if they are willing to accept the associated loss of privacy associated with their online behavior being tracked. One limitation of this approach is that some providers block or rewrite outside DNS requests.
+There are also application level work-arounds, such as the NoRedirect Firefox extension that mitigate some of the behavior. An approach like that only fixes one application (in this example, Firefox) and will not address any other issues caused. Website owners may be able to fool some hijackers by using certain DNS settings. For example, setting a TXT record of &quot;unused&quot; on their wildcard address (e.g. *.example.com). Alternatively, they can try setting the CNAME of the wildcard to &quot;example.invalid&quot;, making use of the fact that '.invalid' is guaranteed not to exist per the RFC. The limitation of that approach is that it only prevents hijacking on those particular domains, but it may address some VPN security issues caused by DNS hijacking.
+See also
+
+Captive portal
+DNS cache poisoning
+Domain hijacking
+Dynamic Host Configuration Protocol
+Pharming
+Point-to-Point Protocol
+TCP reset attack
+
+References
+
+
+
+Category:Domain name system Category:Internet fraud Category:Hacking (computer security) Category:Internet ethics Category:Internet privacy Category:Internet security
+
+
+
+↩
+↩
+↩
+↩
+↩
+
+
+↩
+↩
+↩
+Optus' &quot;About the Search Results Page&quot;↩
+↩
+XSS Reflected dnssearch.Ono.es NXD redirect &lt;U+00AB&gt; iniqua↩
+TalkTalk | About This Page↩
+BigPond redirects typos to 'unethical' branded search page - CRN Australia↩
+↩
+↩
+↩
+↩
+↩
+
+↩
+↩
+↩
+↩
+↩
+↩
+
+
+

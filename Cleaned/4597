@@ -1,0 +1,89 @@
+Ax is a series of ARM based System on Chips (SoC) designed by Apple to fit inside their consumer electronic devices, such as the iPod, iPad, iPhone and Apple TV.
+Apple A4
+  The Apple A4 is a package on package (PoP) system-on-a-chip (SoC) designed by Apple and manufactured by Samsung.1 It combines an ARM Cortex-A8 CPU with a PowerVR GPU, and emphasizes power efficiency.2 The chip commercially debuted with the release of Apple's iPad tablet;3 followed shortly by the iPhone 4 smartphone,4 the 4th generation iPod Touch and the 2nd generation Apple TV. It was superseded in the second-generation iPad, released the following year, by the Apple A5 processor.
+Apple A4 is based on the ARM processor architecture.5 The first version released runs at 1 GHz for the iPad and contains an ARM Cortex-A8 CPU core paired with a PowerVR SGX 535 graphics processor (GPU)6789 built on Samsung's 45-nanometer (nm) silicon chip fabrication process.10 Clock speed for the units used in the iPhone 4, iPod Touch, and Apple TVs have not been revealed.
+The Cortex-A8 core used in the A4 is thought to use performance enhancements developed by chip designer Intrinsity (which was subsequently acquired by Apple)11 in collaboration with Samsung.12 The resulting core, dubbed &quot;Hummingbird&quot;, is able to run at far higher clock rates than other implementations while remaining fully compatible with the Cortex-A8 design provided by ARM.13 Other performance improvements include additional L2 cache. The same Cortex-A8 CPU core used in the A4 is also used in Samsung's S5PC110A01 SoC.1415
+The A4 processor package does not contain RAM, but supports PoP installation. The top package of the A4 used in the iPad, in the iPod Touch16 4th gen and in the Apple TV17 2nd gen contains two low-power 128 MB DDR SDRAM chips for a total of 256MB RAM. For the iPhone 4 there are two chips of 256 MB for a total of 512 MB.181920 RAM is connected to the processor using ARM's 64-bit-wide AMBA 3 AXI bus. This is twice the width of the RAM data bus used in previous ARM 11 and ARM 9 based Apple devices, to support the greater need for graphics bandwidth in the iPad.21 
+Apple A5
+  The Apple A5 is a package on package (PoP) system-on-a-chip (SoC) designed by Apple and manufactured by Samsung22 to replace the Apple A4. The chip commercially debuted with the release of Apple's iPad 2 tablet, followed by iPhone 4S smartphone. (This is consistent with how Apple debuted the A4 chip: first in the original iPad, then in the iPhone 4, and finally in the iPod touch 4th generation.23)
+The A5 contains a dual-core ARM Cortex-A9 CPU24 with ARM's advanced SIMD extension, marketed as NEON, and a dual core PowerVR SGX543MP2 GPU. This GPU can push between 70 and 80 million polygons/second and has a pixel fill rate of 2 billion pixels/second. The SGX535 in the A4 could only push 35 million polygons/second and 500 million pixels/second, although in real world tests it struggled to pull off even 7 million flat shaded polygons. 25 Apple lists the A5 to be clocked at 1 GHz on the iPad 2's technical specifications page,26 though it can dynamically adjust its frequency to save battery life.2728
+Apple claims that the CPU is twice as powerful and the GPU up to nine times as powerful as its predecessor, the Apple A4. The A5 package contains 512 MB of low-power DDR2 RAM clocked at 533 MHz.29303132 The A5 is estimated to cost 75% more than its predecessor; the price difference is supposed to diminish as production increases.33 
+Apple A6
+TSMC is reportedly begun trial manufacturing of the Apple A6 on their 28 nm fabrication process. It is debated whether TSMC will be the only supplier of the A6 chip that is speculated will be the heart of the iPad 3, rumored to be released in the first half of 201234, since it's also reported that Apple will stick to Samsung as primary supplier due to fabrication problems at TSMC.35
+Other specifications are unknown though rumors include an increased core count to quad-core, enhanced GPU36 or an increase in clock speed.
+List of Apple SoC
+Name
+Fabrication process
+Instruction set
+Clock rate
+CPU Cache
+GPU
+RAM
+Available&lt;U+2026&gt;
+Used in&lt;U+2026&gt;
+A4
+45 nm
+ARMv7
+800-1000 MHz Single-core ARM Cortex-A8
+L1: 32 kB Instruction + 32 kB Data, L2: 512 kB
+PowerVR SGX535
+LPDDR 200 MHz (Effective 400 MHz)
+March 2010
+iPad, iPhone 4, iPod Touch 4th gen, Apple TV 2nd gen
+A5
+45 nm
+ARMv7
+800-1000 MHz Dual-core ARM Cortex-A9
+L1: 32 kB instruction + 32 kB data, L2: 1 MB
+Dual-core PowerVR SGX543MP2
+LPDDR2 266 MHz (Effective 533 MHz)
+March 2011
+iPad 2, iPhone 4S
+Similar platforms
+Snapdragon by Qualcomm
+OMAP by Texas Instruments
+Tegra by Nvidia
+Exynos by Samsung
+NovaThor by ST-Ericsson
+See also
+Apple A4, Apple's first-generation Apple Ax SoC, featuring a single-core processor.
+Apple A5, Apple's second-generation Apple Ax SoC, featuring a dual-core processor.
+PWRficient, a processor designed by P.A. Semi, a company Apple acquired to form an in-house custom chip design department.
+PowerVR SGX GPUs were also used in the iPhone 3GS and the third-generation iPod touch.
+ARM Cortex-A9 MPCore
+References
+Category:2011 introductions Category:Apple Inc. hardware Category:Microprocessors Category:ARM architecture
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+iPhone 5 expected to have same A5 chip as iPad 2↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+TSMC may be ready to build A6 chipsets in early 2012↩
+Apple to Stick with Samsung for A6 Chip Production After All?↩
+Next-Gen Apple A6 ARM Processor to Use PowerVR Series 6 &lt;U+2018&gt;Rogue&lt;U+2019&gt; GPU?↩

@@ -1,0 +1,52 @@
+Microsoft ActiveX Data Objects (ADO) is a set of Component Object Model objects for accessing data sources. It provides a layer between programming languages and OLE DB (a means of accessing data stores, whether they be databases or otherwise, in a uniform manner), which allows a developer to write programs which access data, without knowing how the database is implemented. You must be aware of your database for connection only. No knowledge of SQL is required to access a database when using ADO, although one can use ADO to execute arbitrary SQL commands. The disadvantage of this (i.e. using SQL directly) is that it introduces a dependency upon the type of database used.
+It is positioned as a successor to Microsoft's earlier object layers for accessing data sources, including RDO (Remote Data Objects) and DAO (Data Access Objects). ADO was introduced by Microsoft in October 1996.
+ADO consists of several top-level objects:
+
+Connection Object - represents the connection to the database.
+Recordset Object - represents a set of database records.
+Command Object - represents a SQL command.
+Record Object - represents a set of data, typically from a source other than a database.
+Stream Object - represents a stream of data, as from a text file or web page.
+Error Object - stores errors.
+Field Object - represents a database field.
+Parameter Object - represents a SQL parameter.
+Property Object - stores information about objects.
+
+The ADO components are usually used in conjunction with a high-level language such as VBScript in an ASP environment or Visual Basic. However, languages such as Delphi and C++ Builder, development environments from Microsoft rival Borland Software Corporation, also allow the use of ADO to access various databases.
+In the newer programming framework of .NET, Microsoft also presented an upgraded version of ADO called ADO.NET. Its object structure is quite different from that of traditional ADO.
+Here is an ASP example using ADO to select the &quot;Name&quot; field, from a table called &quot;Phonebook&quot;, where a &quot;PhoneNumber&quot; was equal to &quot;555-5555&quot;.
+dim myconnection, myrecordset, name
+set myconnection = server.createobject(&quot;ADODB.Connection&quot;)
+set myrecordset = server.createobject(&quot;ADODB.Recordset&quot;)
+
+myconnection.open mydatasource
+myrecordset.open &quot;Phonebook&quot;, myconnection
+myrecordset.find &quot;PhoneNumber = '555-5555'&quot;
+name = myrecordset.fields.item(&quot;Name&quot;)
+myrecordset.close
+
+set myrecordset = nothing
+set myconnection = nothing
+This is equivalent to the following ASP code, which uses plain SQL instead of the functionality of the Recordset object:
+dim myconnection, myrecordset, name
+set myconnection = server.createobject(&quot;ADODB.connection&quot;)
+myconnection.open mydatasource
+set myrecordset = myconnection.execute(&quot;SELECT Name FROM Phonebook WHERE PhoneNumber = '555-5555'&quot;)
+name = myrecordset(0) 
+myrecordset.close
+
+set myrecordset = nothing
+set myconnection = nothing
+Software support
+ADO was supported in ASP and in VBA for Office.
+External links
+
+Microsoft ADO page
+ADO database connection strings
+Database connection strings
+ASP.NET: Accessing Data with C#
+DevGuru ADO Quick Reference
+
+
+da:ADO de:ActiveX Data Objects es:ActiveX Data Objects fr:ADO nl:ActiveX Data Objects ja:ActiveX Data Objects pl:ADO pt:ADO ru:ADO th:ADO zh:ADO
+Category:Microsoft APIs

@@ -1,0 +1,297 @@
+
+<p>[[<a href="File:Shapley" class="uri">File:Shapley</a>&lt;U+2013&gt;Folkman lemma.svg|thumb|300px|alt=The Shapley&lt;U+2013&gt;Folkman lemma depicted by a diagram with two panes, one on the left and the other on the right. The left-hand pane displays four sets, which are displayed in a two-by-two array. Each of the sets contains exactly two points, which are displayed in red. In each set, the two points are joined by a pink line-segment, which is the convex hull of the original set. Each set has exactly one point that is indicated with a plus-symbol. In the top row of the two-by-two array, the plus-symbol lies in the interior of the line segment; in the bottom row, the plus-symbol coincides with one of the red-points. This completes the description of the left-hand pane of the diagram. The right-hand pane displays the Minkowski sum of the sets, which is the union of the sums having exactly one point from each summand-set; for the displayed sets, the sixteen sums are distinct points, which are displayed in red: The right-hand red sum-points are the sums of the left-hand red summand-points. The convex hull of the sixteen red-points is shaded in pink. In the pink interior of the right-hand sumset lies exactly one plus-symbol, which is the (unique) sum of the plus-symbols from the right-hand side. Comparing the left array and the right pane, one confirms that the right-hand plus-symbol is indeed the sum of the four plus-symbols from the left-hand sets, precisely two points from the original non-convex summand-sets and two points from the convex hulls of the remaining summand-sets.| |The Shapley&lt;U+2013&gt;Folkman lemma.</p>
+<p>Every point in the <a href="convex_hull" title="wikilink">convex hull</a> of the <a href="Minkowski_addition" title="wikilink">sum</a> of the four <a href="convex_set" title="wikilink">non-convex sets</a> is <a href="cover_(topology)" title="wikilink">covered by</a> the sum of two <a href="convex_hull" title="wikilink">&quot;<em>convexified</em>&quot;</a> sets and two <em>original</em> sets, which have not been convexified, by application of the Shapley&lt;U+2013&gt;Folkman lemma to the <a href="Euclidean_geometry" title="wikilink">plane</a>.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>The sixteen dark-red points (on the right) form the <a href="Minkowski_addition" title="wikilink">Minkowski sum</a> of the four non-convex sets (on the left), each of which consists of a pair of red points. The plus-sign (on the right) marks a point belonging to the <a href="convex_hull" title="wikilink">convex hull</a> of the Minkowski sum, which is shaded; according to the Shapley&lt;U+2013&gt;Folkman lemma, this point may be represented as a sum of four points, one for each term in the Minkowski sum. Because the ambient space is two-dimensional, two of these four points belong to the convex hulls of their summands, and the remaining two belong to the summands themselves.]]</p>
+<p>In <a href="convex_geometry" title="wikilink">geometry</a>, the <strong>Shapley&lt;U+2013&gt;Folkman lemma</strong> and the <strong>Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr theorem</strong> study the <a href="Minkowski_addition" title="wikilink">Minkowski sums</a> of many sets in a <a href="vector_space" title="wikilink">vector space</a>, addressing the question, &quot;how close is this sum to being <a href="convex_set" title="wikilink">convex</a>?&quot;.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> The Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results suggest that when the number of sets being summed exceeds the <a href="dimension_(linear_algebra)" title="wikilink">dimension</a> of the vector space, then their Minkowski sum is approximately convex.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> The <a href="mathematical_theorem" title="wikilink">propositions</a> of Shapley, Folkman, and Starr give an <a href="upper_bound" title="wikilink">upper bound</a> on the <a href="Euclidean_distance" title="wikilink">Euclidean distance</a> of the Minkowski sum from the its <a href="convex_hull" title="wikilink">convex hull</a> (the smallest convex set that contains the Minkowski sum); this distance is zero exactly when the sum is convex. Their bound on the distance depends on the dimension <em>D</em> and on the shapes of the summand-sets, but <em>not</em> on the number of summand-sets <em>N</em>,  Because it is determined by the shapes of a subcollection of only <em>D</em> summand-sets, the bound on the distance from the <em>average sumset</em> to its convex hull <a href="limit_of_a_sequence" title="wikilink">decreases to zero</a> as the number of summands increases to <a href="infinity" class="uri" title="wikilink">infinity</a>, for summand-sets of uniformly bounded size.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
+<p><a href="mathematical_proof" title="wikilink">Proved</a> by <a href="Lloyd_Shapley" title="wikilink">Lloyd Shapley</a> and <a href="Jon_Folkman" title="wikilink">Jon Folkman</a>, the Shapley&lt;U+2013&gt;Folkman lemma was first published by the economist, Ross M. Starr, who was investigating the existence of <a href="general_equilibrium_theory#nonconvexities_in_large_economies" title="wikilink">economic equilibria</a> when some <a href="convex_preferences" title="wikilink">consumer preferences</a> need not be <a href="convex_set" title="wikilink">convex</a>.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> In his paper, Starr proved that a &quot;convexified&quot; economy has general equilibria that are closely approximated by &quot;quasi-equilbria&quot; of the original economy. The results of Shapley, Folkman, and Starr have applications in <a href="optimization_(mathematics)" title="wikilink">optimization</a> and <a href="probability_theory" title="wikilink">probability theory</a>, in addition to their applications in <a href="mathematical_economics" title="wikilink">economics</a> and <a href="convex_geometry" title="wikilink">geometry</a>.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p>
+<h2 id="preliminaries">Preliminaries</h2>
+<p>The Shapley&lt;U+2013&gt;Folkman lemma depends upon the following definitions and results from <a href="convex_geometry" title="wikilink">convex geometry</a>.</p>
+<h3 id="real-vector-spaces">Real vector spaces</h3>
+
+<p>A <a href="real_number" title="wikilink">real</a> <a href="vector_space" title="wikilink">vector space</a> of two <a href="dimension_(vector_space)" title="wikilink">dimensions</a> may be given a <a href="Cartesian_coordinate_system" title="wikilink">Cartesian coordinate system</a> in which every point is identified by a list of two real numbers, called &quot;coordinates&quot;, which are conventionally denoted by <em>x</em> and <em>y</em>. Two points in the Cartesian plane can be <em><a href="Euclidean_vector#Addition_and_subtraction" title="wikilink">added</a></em> coordinate-wise</p>
+<dl>
+
+<dd>(<em>x</em><sub>1</sub>, <em>y</em><sub>1</sub>) + (<em>x</em><sub>2</sub>, <em>y</em><sub>2</sub>) = (<em>x</em><sub>1</sub>+<em>x</em><sub>2</sub>, <em>y</em><sub>1</sub>+<em>y</em><sub>2</sub>);
+</dd>
+</dl>
+<p>further, a point can be <em><a href="scalar_multiplication" title="wikilink">multiplied</a></em> by each real number <em>&lt;U+03BB&gt;</em> coordinate-wise</p>
+<dl>
+
+<dd><em>&lt;U+03BB&gt;</em> (<em>x</em>, <em>y</em>) = (<em>&lt;U+03BB&gt;x</em>, <em>&lt;U+03BB&gt;y</em>).
+</dd>
+</dl>
+<p>More generally, any real vector space of (finite) dimension <em>D</em> can be viewed as the <a href="set_(mathematics)" title="wikilink">set</a> of all possible lists of <em>D</em> real numbers  } together with two <a href="operation_(mathematics)" title="wikilink">operations</a>: <a href="Euclidean_vector#Addition_and_subtraction" title="wikilink">vector addition</a> and <a href="scalar_multiplication" title="wikilink">multiplication by a real number</a>. For finite-dimensional vector spaces, the operations of vector addition and real-number multiplication can each be defined coordinate-wise, following the example of the Cartesian plane.</p>
+<h3 id="convex-sets">Convex sets</h3>
+<p>In a real vector space, a set is defined to be <em><a href="convex_set" title="wikilink">convex</a></em> if, or each pair of its points, every point on the <a href="line_segment" title="wikilink">line segment</a> that joins them is <a href="cover_(mathematics)" title="wikilink">covered</a> by the set. For example, a solid <a href="cube_(geometry)" title="wikilink">cube</a> is convex; however, anything that is hollow or dented, for example, a <a href="crescent" class="uri" title="wikilink">crescent</a> shape, is non-convex. <a href="Vacuous_truth" title="wikilink">Vacuously</a>, the <a href="empty_set" title="wikilink">empty set</a> is convex.</p>
+<p>More formally, a set <em>Q</em> is convex if, for all points <em>v</em><sub>0</sub> and <em>v</em><sub>1</sub> in <em>Q</em> and for every real number <em>&lt;U+03BB&gt;</em> in the <a href="unit_interval" title="wikilink">unit interval</a> [0,1], the point</p>
+<dl>
+
+<dd>(1 − <em>&lt;U+03BB&gt;</em>) <em>v</em><sub>0</sub> + <em>&lt;U+03BB&gt;v</em><sub>1</sub>
+</dd>
+</dl>
+<p>is a <a href="element_(mathematics)" title="wikilink">member</a> of <em>Q</em>. <img src="Extreme_points_illustration.png" title="fig:The red set&#39;s convex hull covers the blue set: The blue points are convex combinations of the red points." alt="The red set&#39;s convex hull covers the blue set: The blue points are convex combinations of the red points." /></p>
+<p>By <a href="mathematical_induction" title="wikilink">mathematical induction</a>, a set <em>Q</em> is convex if and only if every <a href="convex_combination" title="wikilink">convex combination</a> of members of <em>Q</em> also belong to <em>Q</em>. By definition, a <em>convex combination</em> of an indexed subset {<em>v</em><sub>0</sub>, <em>v</em><sub>1</sub>, . . . , <em>v</em><sub>D</sub>} of a vector space is any <a href="weighted_mean" title="wikilink">weighted average</a>  for some indexed set of non-negative real numbers {<em>&lt;U+03BB&gt;</em><sub>d</sub>} satisfying the <a href="affine_combination" title="wikilink">equation</a>  = 1.</p>
+<p>The definition of a convex set implies that the <em><a href="intersection_(set_theory)" title="wikilink">intersection</a></em> of two convex sets is a convex set. More generally, the intersection of a family of convex sets is a convex set.</p>
+<h3 id="convex-hull">Convex hull</h3>
+<p>For every subset <em>Q</em> of a real vector space, its  is the unique <a href="minimal_element" title="wikilink">minimal</a> convex set that contains <em>Q</em>. It is defined to be the intersection of all the convex sets that <a href="cover_(mathematics)" title="wikilink">cover</a> <em>Q</em>. The convex hull of a set can be equivalently defined to be the set of all convex combinations of points in <em>Q</em>.</p>
+<h3 id="minkowski-addition">Minkowski addition</h3>
+<p>In a real vector space, the <em><a href="Minkowski_addition" title="wikilink">Minkowski sum</a></em> of two (non-empty) sets <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> is defined to be the <a href="sumset" title="wikilink">set</a> <em>Q</em><sub>1</sub> + <em>Q</em><sub>2</sub> formed by the addition of vectors element-wise from the summand sets</p>
+<dl>
+
+<dd><em>Q</em><sub>1</sub> + <em>Q</em><sub>2</sub> = { <em>q</em><sub>1</sub> + <em>q</em><sub>2</sub> : <em>q</em><sub>1</sub> &lt;U+2208&gt; <em>Q</em><sub>1</sub> and <em>q</em><sub>2</sub> &lt;U+2208&gt; <em>Q</em><sub>2</sub> }.
+</dd>
+</dl>
+<p>[<a href="File:Minkowski">sum.png|thumb|alt=Three squares are shown in the nonnegative quadrant of the Cartesian plane. The square Q<sub>1</sub>=[0,1</a>&lt;U+00D7&gt;[0,1] is green. The square Q<sub>2</sub>=[1,2]&lt;U+00D7&gt;[1,2] is brown, and it sits inside the turquoise square Q<sub>1</sub>+Q<sub>2</sub>=[1,3]&lt;U+00D7&gt;[1,3].|<a href="Minkowski_addition" title="wikilink">Minkowski addition</a> of sets. The <a href="sumset" title="wikilink">sum</a> of the squares <em>Q</em><sub>1</sub>=[0,1]<sup>2</sup> and <em>Q</em><sub>2</sub>=[1,2]<sup>2</sup> is the square <em>Q</em><sub>1</sub>+<em>Q</em><sub>2</sub>=[1,3]<sup>2</sup>.]] More generally, the <em>Minkowski sum</em> of a finite family of (non-empty) sets</p>
+<dl>
+
+<dd>{<em>Q</em><sub>n</sub> : <em>Q</em><sub>n</sub> &lt;U+2260&gt; &lt;U+00D8&gt; and 1 &lt;U+2264&gt; <em>n</em> &lt;U+2264&gt; <em>N</em> }
+</dd>
+</dl>
+<p>is the set formed by element-wise addition of vectors</p>
+<dl>
+
+<dd>&lt;U+2211&gt; <em>Q</em><sub>n</sub> = { &lt;U+2211&gt; <em>q</em><sub>n</sub> : <em>q</em><sub>n</sub> &lt;U+2208&gt; <em>Q</em><sub>n</sub> }.
+</dd>
+</dl>
+<h3 id="convex-hulls-of-minkowski-sums">Convex hulls of Minkowski sums</h3>
+<p>Minkowski addition behaves well with respect to &quot;<em>convexification</em>&quot; &lt;U+2014&gt; the operation of taking convex hulls. Specifically, for all subsets <em>Q</em><sub>1</sub> and <em>Q</em><sub>2</sub> of a real vector space, the <a href="convex_hull" title="wikilink">convex hull</a> of their Minkowski sum is the Minkowski sum of their convex hulls. That is,</p>
+<dl>
+
+<dd>Conv( <em>Q</em><sub>1</sub> + <em>Q</em><sub>2</sub> ) = Conv( <em>Q</em><sub>1</sub> ) + Conv( <em>Q</em><sub>2</sub> ).
+</dd>
+</dl>
+<p>This result holds more generally. For each finite collection of non-empty sets,</p>
+<dl>
+
+<dd>Conv(  &lt;U+2211&gt; <em>Q</em><sub>n</sub>  ) = &lt;U+2211&gt; Conv( <em>Q</em><sub>n</sub> ).
+</dd>
+</dl>
+<p>In mathematical terminology, the <a href="operation_(mathematics)" title="wikilink">operations</a> of convexification and of Minkowski summation <a href="commutativity" title="wikilink">commute</a> with each other.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a><a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></p>
+<h2 id="statements">Statements</h2>
+<p>The preceding identity Conv( &lt;U+2211&gt; <em>Q</em><sub>n</sub> ) = &lt;U+2211&gt; Conv( <em>Q</em><sub>n</sub> ) implies that if the point <em>x</em> lies in the convex hull of the Minkowski sum of <em>N</em> sets</p>
+<dl>
+
+<dd><em>x</em> &lt;U+2208&gt; Conv( &lt;U+2211&gt; <em>Q</em><sub>n</sub> )
+</dd>
+</dl>
+<p>then <em>x</em> lies in the sum of the convex hulls of the summand-sets</p>
+<dl>
+
+<dd><em>x</em> &lt;U+2208&gt; &lt;U+2211&gt; Conv( <em>Q</em><sub>n</sub> ).
+</dd>
+</dl>
+<p>By the definition of Minkowski addition, this last expression means that <em>x</em> = &lt;U+2211&gt; <em>q</em><sub>n</sub> for some selection of points <em>q</em><sub>n</sub> in the convex hulls of the summand-sets, that is, where each <em>q</em><sub>n</sub> &lt;U+2208&gt; Conv(<em>Q</em><sub>n</sub>). In this representation, the selection of the summand-points <em>q</em><sub>n</sub> depends on the chosen sum-point <em>x</em>.</p>
+<h3 id="the-lemma-of-shapley-and-folkman">The lemma of Shapley and Folkman</h3>
+<p>For this representation of the point <em>x</em>, the <strong>Shapley&lt;U+2013&gt;Folkman lemma</strong> states that if the dimension <em>D</em> is less than the number of summands</p>
+<dl>
+
+<dd>
+</dd>
+</dl>
+<p>then convexification is needed for only <em>D</em> summand-sets, whose choice depends on <em>x</em>: The point has a representation</p>
+<dl>
+
+<dd><span class="math inline"><em>x</em> = ∑<sub>1 ≤ <em>d</em> ≤ <em>D</em></sub><em>q</em><sub><em>d</em></sub> + ∑<sub><em>D</em> + 1 ≤ <em>n</em> ≤ <em>N</em></sub><em>q</em><sub><em>n</em></sub></span> &lt;!-- : &lt;U+2211&gt;<sub>1&lt;U+2264&gt;<em>d</em>&lt;U+2264&gt;<em>D</em></sub> <em>x</em><sub><em>d</em></sub> + &lt;U+2211&gt;<sub><em>D</em>+1&lt;U+2264&gt;<em>n</em>&lt;U+2264&gt;<em>N</em></sub> <em>x</em><sub><em>n</em></sub>
+</dd>
+</dl>
+<p><code>--&gt;</code></p>
+<p>where <em>q</em><sub>d</sub> belongs to the convex hull of <em>Q</em><sub>d</sub> for <em>D</em> (or fewer) summand-sets and <em>q</em><sub>n</sub> belongs to <em>Q</em><sub>n</sub> itself for the remaining sets. That is,</p>
+<dl>
+
+<dd><span class="math inline"><em>x</em> ∈ ∑<sub>1 ≤ <em>d</em> ≤ <em>D</em></sub>Conv (<em>Q</em><sub><em>d</em></sub>) + ∑<sub><em>D</em> + 1 ≤ <em>n</em> ≤ <em>N</em></sub><em>Q</em><sub><em>n</em></sub></span>
+</dd>
+</dl>
+<p>for some re-indexing of the summand sets; this re-indexing depends on the particular point <em>x</em> being represented.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a></p>
+<p>Conversely, the Shapley&lt;U+2013&gt;Folkman lemma characterizes the <a href="dimension_(vector_space)" title="wikilink">dimension</a> of finite-dimensional, real vector spaces.That is, if a vector space obeys the Shapley&lt;U+2013&gt;Folkman lemma for a <a href="natural_number" title="wikilink">natural number</a> <em>D</em>, and for no number lesser than <em>D</em>, then its dimension is exactly <em>D</em>;<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> the Shapley&lt;U+2013&gt;Folkman lemma holds for <em>only</em> <em>finite-dimensional</em> vector spaces.<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a><a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a></p>
+<h3 id="shapleyu2013folkman-theorem-and-starrs-corollary">Shapley&lt;U+2013&gt;Folkman theorem and Starr's corollary</h3>
+<p><img src="Shapley,_Lloyd_(1923).jpeg" title="fig:Lloyd Shapley proved the Shapley&lt;U+2013&gt;Folkman lemma with Jon Folkman." alt="Lloyd Shapley proved the Shapley&lt;U+2013&gt;Folkman lemma with Jon Folkman." /> Shapley and Folkman used their lemma to prove their theorem:</p>
+<ul>
+<li>The <em>Shapley&lt;U+2013&gt;Folkman theorem</em> states that the squared <a href="Euclidean_distance" title="wikilink">Euclidean distance</a> from any point in the convexified sum  to the original (unconvexified) sum  is bounded by the sum of the squares of the <em>D</em> largest <a href="circumscribed_circle" title="wikilink">circumradii</a> of the sets <em>Q</em><sub>n</sub>.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> This bound is independent of the number of summand-sets <em>N</em> (if </li>
+</ul>
+<p>The <em>circumradius</em> used by Shapley and Folkman often exceeds (and cannot be less than) the <em>inner radius</em>, which was used</p>
+<ul>
+<li>The <em>inner radius</em> of a set <em>Q</em><sub>n</sub> is defined to be the smallest number <em>r</em> such that, for any point <em>q</em> in the convex hull of <em>Q</em><sub>n</sub>, there is a <a href="sphere" class="uri" title="wikilink">sphere</a> of radius <em>r</em> that contains a subset of <em>Q</em><sub>n</sub> whose convex hull contains <em>x</em>.</li>
+</ul>
+<p>Starr used the <em>inner radius</em> to strengthen the conclusion of the Shapley&lt;U+2013&gt;Folkman theorem: <a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a></p>
+<ul>
+<li><em>Starr's corollary to the Shapley&lt;U+2013&gt;Folkman theorem</em> states that the squared <a href="Euclidean_distance" title="wikilink">Euclidean distance</a> from any point <em>x</em> in the convexified sum  to the original (unconvexified) sum  is bounded by the sum of the squares of the <em>D</em> largest inner-radii of the sets <em>Q</em><sub>n</sub>.<ref>. Starr's corollary is often called the &quot;Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr theorem&quot; .</li>
+</ul>
+<p></ref></p>
+<p>Starr's corollary states an <a href="upper_and_lower_bounds" title="wikilink">upper bound</a> on the Euclidean distance between the Minkowski sum of <em>N</em> sets and the convex hull of the Minkowski sum; this distance between the sumset and its convex hull is a measurement of the non-convexity of the set. For <a href="abuse_of_notation" title="wikilink">simplicity</a>, this distance is called the &quot;<em>non-convexity</em>&quot; of the set (with respect to Starr's measurement). Thus, Starr's bound on the non-convexity of the sumset depends on only the <em>D</em> largest inner radii of the summand-sets; however, Starr's bound does not depend on the number of summand-sets <em>N</em>, when . Thus, Starr's bound on the non-convexity of the <em>average sumset</em></p>
+<dl>
+
+<dd><p> &lt;U+2211&gt; <em>Q</em><sub>n</sub></p>
+</dd>
+</dl>
+<p>decreases as the number of summands <em>N</em> increases; in fact, Starr's bound on the non-convexity of this average sumset <a href="limit_of_a_sequence" title="wikilink">decreases to zero</a> as the number of summands <em>N</em> increases to <a href="infinity" class="uri" title="wikilink">infinity</a> (when the inner radii of all the summands are bounded by the same number).<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a></p>
+<h3 id="proof-and-computations">Proof and computations</h3>
+<p>The original proof of the Shapley&lt;U+2013&gt;Folkman lemma established only the <a href="existence_theorem" title="wikilink">existence</a> of the representation, but did not provide an <a href="algorithm" class="uri" title="wikilink">algorithm</a> for computing the representation. In 1981, Starr published an <a href="iterative_method" title="wikilink">iterative method</a> for computing a representation of a given sum-point; however, his computational proof provides a weaker bound than do the original results.<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a></p>
+<h2 id="applications">Applications</h2>
+<p>The Shapley&lt;U+2013&gt;Folkman lemma has applications in <a href="economics" class="uri" title="wikilink">economics</a>, in <a href="mathematical_optimization" title="wikilink">optimization theory</a>, and in <a href="probability_theory" title="wikilink">probability</a>.</p>
+<h3 id="mathematical-economics">Mathematical economics</h3>
+<p><img src="Price_of_market_balance.gif" title="fig:At an equilibrium price P0, the quantity supplied S(P0) equals the quantity demanded D(P0)." alt="At an equilibrium price P0, the quantity supplied S(P0) equals the quantity demanded D(P0)." />  </p>
+<p>In the era before Starr's paper, non-convex sets seemed to stump economists from proving that that, <a href="supply_and_demand" title="wikilink">supply and demand</a> could be &quot;balanced&quot; with several consumers and goods &lt;U+2014&gt; so that a <em><a href="general_equilibrium_theory" title="wikilink">general</a></em> <a href="economic_equilibrium" title="wikilink">economic equilibrium</a> could exist <em>simultaneously</em> for <em>all</em> consumers and for <em>all</em> the markets in <em>all</em> the goods.<a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a><a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a></p>
+<h4 id="convex-sets-and-economic-equilibria">Convex sets and economic equilibria</h4>
+
+
+<p>Improving <a href="Kenneth_Arrow" title="wikilink">Arrow</a> and <a href="G&lt;U+00E9&gt;rard_Debreu" title="wikilink">Debreu</a>'s <a href="Arrow&lt;U+2013&gt;Debreu_model" title="wikilink">model of an economy</a>, <a href="Lionel_W._McKenzie" title="wikilink">Lionel W. McKenzie</a> proved the existence of general equilibria by using <a href="Luitzen_Egbertus_Jan_Brouwer" title="wikilink">Brouwer's</a> <a href="Brouwer_fixed_point_theorem" title="wikilink">theorem</a> on the <a href="fixed_point_theorem" title="wikilink">fixed points</a> of a <a href="continuous_function" title="wikilink">continuous function</a> from a <a href="compact_space" title="wikilink">compact</a>, convex set into itself. In McKenzie's approach to the Arrow&lt;U+2013&gt;Debreu model, convexity is essential, because such fixed-point theorems are inapplicable to non-convex sets.<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a> For example, the rotation of the <a href="unit_circle" title="wikilink">unit circle</a> by 90 degrees lacks fixed points, although this rotation is a continuous transformation of a compact set into itself; although compact, the unit circle is non-convex. In contrast, the same rotation applied to the <a href="unit_disk" title="wikilink">convex hull of the unit circle</a> leaves the point (0,0) fixed. Thus, non-convexity seemed to prevent economists from proving the existence of an equilibrium (with Brouwer's fixed-point theorem).<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a> <img src="Unit_circle.svg" title="fig:A quarter turn of the convex unit disk leaves the point (0,0) fixed but moves every point on the non-convex unit circle." alt="A quarter turn of the convex unit disk leaves the point (0,0) fixed but moves every point on the non-convex unit circle." /></p>
+<h4 id="preceding-papers">Preceding papers</h4>
+<p>A sequence of papers in the <em><a href="Journal_of_Political_Economy" title="wikilink">Journal of Political Economy</a></em> (<em>JPE</em>) discussed the approximate convexity of sums of non-convex sets from 1959 to 1961; the contributors were F. M. Bator, M. J. Farrell, <a href="Tjalling_Koopmans" title="wikilink">T. C. Koopmans</a>, and T. J. Rothenberg . These earlier and non-mathematical papers lacked the precise mathematical definitions, <a href="theorem" title="wikilink">propositions</a>, and <a href="mathematical_proof" title="wikilink">proofs</a> of later papers in mathematical economics.<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a> These <em>JPE</em>-papers stimulated a paper by Shapley and <a href="Martin_Shubik" title="wikilink">Shubik</a>, which (like Starr) considered <a href="convex_preferences" title="wikilink">&quot;convexified&quot; consumer preference</a> and introduced a notion of an &quot;approximate equilibria&quot;.<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a> The <em>JPE</em>-papers and the Shapley&lt;U+2013&gt;Shubik paper influenced another notion of &quot;quasi-equilibria&quot;, due to <a href="Robert_Aumann" title="wikilink">Aumann</a>.<ref name="Aumann" > Footnote 4 on page 1 for the <em>JPE</em>-papers and page 2 for the Shapley&lt;U+2013&gt;Shubik paper:  This paper builds on two papers by Aumann:</p>
+<p></p>
+<p> </ref></p>
+<h4 id="starrs-convexification-of-preferences">Starr's convexification of preferences</h4>
+<p>Starr began his research while he was an undergraduate at <a href="Stanford_University" title="wikilink">Stanford University</a>. He had enrolled in the (graduate) advanced mathematical-economics course of <a href="Kenneth_Arrow" title="wikilink">Kenneth J. Arrow</a>, who provided Starr with an extensive and annotated reading-list.<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a> The Shapley&lt;U+2013&gt;Folkman results are named after <a href="Lloyd_Shapley" title="wikilink">Lloyd Shapley</a> and <a href="Jon_Folkman" title="wikilink">Jon Folkman</a>, who proved both the Shapley&lt;U+2013&gt;Folkman lemma and a weaker version of the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr theorem in an unpublished report, &quot;Starr's problem&quot; (1966), which was cited by .<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a></p>
+<p>In his paper, Starr studied the general equilibria of the artificial economy in which <a href="convex_preferences" title="wikilink">non-convex preferences</a> were replaced by their <a href="convex_hull" title="wikilink">convex hulls</a>. Starr was investigating the existence of <a href="General_equilibrium_theory#Nonconvexities_in_large_economies" title="wikilink">economic equilibria</a> when some <a href="convex_preferences" title="wikilink">consumer preferences</a> need not be <a href="convex_set" title="wikilink">convex</a>.<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a> Applying the Shapley&lt;U+2013&gt;Folkman lemma,  proved that the &quot;convexified&quot; economy has general equilibria that are closely approximated by some &quot;<em>quasi-equilbrium</em>&quot; of the original economy. Using his corollary, Starr derived a <a href="upper_bound" title="wikilink">bound</a> on the distance from a &quot;quasi-equilbrium&quot; to an equilibrium of a &quot;convexified&quot; economy, when the number of agents exceeds the dimension of the goods.<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a> With his 1969 paper, Starr extended the scope of the Arrow&lt;U+2013&gt;Debreu theory of general equilibrium beyond convex sets:</p>
+<blockquote>
+<p>Thus, in the aggregate, the discrepancy between an allocation in the fictitious economy generated by [taking the convex hulls of all of the consumption and production sets] and some allocation in the real economy is bounded in a way that is independent of the number of economic agents. Therefore, the average agent experiences a deviation from intended actions that vanishes in significance as the number of agents goes to infinity.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></p>
+</blockquote>
+<h4 id="non-convex-sets-in-contemporary-economics">Non-convex sets in contemporary economics</h4>
+<figure>
+<img src="Kenneth_Arrow,_Stanford_University.jpg" title="Kenneth Arrow helped Ross M. Starr to study non-convex economies." alt="Kenneth Arrow helped Ross M. Starr to study non-convex economies." /><figcaption><a href="Kenneth_Arrow" title="wikilink">Kenneth Arrow</a> helped Ross M. Starr to study <a href="convex_set" title="wikilink">non-convex</a> <a href="convex_preferences" title="wikilink">economies</a>.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></figcaption>
+</figure>
+<p>Following Starr's 1969 paper, the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results were &quot;much exploited in the theoretical literature&quot;,<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a> according to <a href="Roger_Guesnerie" title="wikilink">Roger Guesnerie</a>, who wrote, &quot;The derivation of these results in general form has been one of the major achievements of postwar economic theory&quot;.<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a> In particular, the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results were incorporated in the <a href="general_equilibrium_theory" title="wikilink">theory of general economic equilibria</a><ref> Pages 392&lt;U+2013&gt;399 discuss the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results while page 188 discuss applications: </p>
+<p>Pages 52&lt;U+2013&gt;55 with applications on pages 145&lt;U+2013&gt;146, 152&lt;U+2013&gt;153, and 274&lt;U+2013&gt;275: </p>
+<p>Theorem C(6) on page 37 and applications on pages 115-116, 122, and 168: </p>
+<p></ref> and in the <a href="microeconomics" title="wikilink">theory</a> of <a href="market_failure" title="wikilink">market failures</a><a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a> and of <a href="public_economics" title="wikilink">public economics</a>.<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a> The Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results are introduced in graduate-level textbooks in <a href="microeconomics" class="uri" title="wikilink">microeconomics</a>,<ref> </p>
+<p>Page 628:  </ref> <a href="general_equilibrium_theory" title="wikilink">general equilibrium theory</a>,<ref> Page 169 in the first edition: </p>
+<p>In Ellickson, page xviii, and especially Chapter 7 &quot;Walras meets Nash&quot; (especially section 7.4 &quot;Nonconvexity&quot; pages 306&lt;U+2013&gt;310 and 312, and also 328&lt;U+2013&gt;329) and Chapter 8 &quot;What is Competition?&quot; (pages 347 and 352): </p>
+<p></p>
+<p></ref> <a href="game_theory" title="wikilink">game theory</a>,<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a> and <a href="mathematical_economics" title="wikilink">mathematical economics</a>.<ref> Pages 127 and 33&lt;U+2013&gt;34: </p>
+<p></p>
+<p></p>
+<p></ref> Being stated and often proved in economics textbooks, the Shapley&lt;U+2013&gt;Folkman lemma and Starr's corollary require only <a href="linear_algebra" title="wikilink">linear algebra</a> and <a href="Euclidean_space" title="wikilink">Euclidean geometry</a>. The approximate convexity of <a href="aggregation_problem" title="wikilink">aggregates</a> of non-convex sets have been studied with more advanced mathematics, particularly using <a href="measure_theory" title="wikilink">measure theory</a> and <a href="integral" title="wikilink">integration theory</a>.<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a></p>
+<p>The Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results establish that non-convexities are compatible with approximate equilibria in markets with many consumers; these results also apply to <a href="production_(economics)" title="wikilink">production economies</a> with many small <a href="business" title="wikilink">firms</a>. However, non-convexities arise in economic applications where the number of economic agents is relatively small, also; for markets with few agents, the <a href="aggregation" class="uri" title="wikilink">aggregation</a>-results of Shapley, Folkman, and Starr are inapplicable. Non-convexities remain important in <a href="oligopoly" title="wikilink">oligopolies</a> dominated by producers with increasing <a href="returns_to&amp;nbsp;scale" title="wikilink">returns to&amp;nbsp;scale</a>, especially &quot;natural <a href="natural_monopoly" title="wikilink">monopolies</a>&quot; dominated by one producer.<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a> Non-convex sets arise also with <a href="externality" title="wikilink">externalities</a>,<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a> with <a href="information_economics" title="wikilink">exchanges of information</a>,<a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a> and with <a href="incomplete_markets" title="wikilink">incomplete markets</a>,<a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a><a href="#fn39" class="footnote-ref" id="fnref39"><sup>39</sup></a> the last being associated with <a href="stock_market" title="wikilink">stock markets</a>.<a href="#fn40" class="footnote-ref" id="fnref40"><sup>40</sup></a> Such applications have continued to motivate economists to study non-convex sets.<a href="#fn41" class="footnote-ref" id="fnref41"><sup>41</sup></a><ref name=Mordukhovich2> Chapter 8 &quot;Applications to economics&quot;, especially Section 8.5.3 &quot;Enter nonconvexity&quot; (and the remainder of the chapter), particularly page 495:</p>
+
+<p></ref></p>
+<h3 id="mathematical-optimization">Mathematical optimization</h3>
+
+
+<p>Ekeland (1974, 1976) and  applied the Shapley&lt;U+2013&gt;Folkman lemma to explain the success of <a href="dual_problem" title="wikilink">Lagrangian dual</a> <a href="subgradient_method" title="wikilink">methods</a> on <a href="nonlinear_programming" title="wikilink">nonlinear programming</a> problems with <a href="convex_function" title="wikilink">non-convexities</a>.<a href="#fn42" class="footnote-ref" id="fnref42"><sup>42</sup></a> The problem had been raised by <a href="Claude_Lemar&lt;U+00E9&gt;chal" title="wikilink">Lemar&lt;U+00E9&gt;chal</a>'s reporting of solving <em>non&lt;U+2013&gt;convex</em> problems to within three percent of optimality.<ref> Page 38: . Lemar&lt;U+00E9&gt;chal's experiments were discussed in later publications:</p>
+<p></p>
+<p></p>
+<p></ref><ref name="Ekeland" > </p>
+<p>Ekeland's appendix acknowledges <a href="Claude_Lemar&lt;U+00E9&gt;chal" title="wikilink">Lemar&lt;U+00E9&gt;chal</a>'s experiments on page 373. Ekeland's appendix also contains a proof of the Shapley&lt;U+2013&gt;Folkman lemma: </p>
+<p>Reprinted with a &quot;new preface&quot; (page ix) and &quot;additional references&quot; (page 401): </p>
+<p></ref> The Aubin&lt;U+2013&gt;Ekeland analysis of duality gaps considered the <em><a href="Convex_conjugate#Biconjugate_convex" title="wikilink">convex</a></em> <a href="Convex_conjugate#Biconjugate" title="wikilink">closure</a> of a problem of non-convex minimization&lt;U+2014&gt;that is, the problem defined by the <a href="Kuratowski_closure_axioms" title="wikilink">closed</a> <a href="convex_hull" title="wikilink">convex</a> <a href="closure_operator" title="wikilink">hull</a> of the <a href="epigraph_(mathematics)" title="wikilink">epigraph</a> of the original problem. Their study of duality gaps was extended by Di Guglielmo to the <em><a href="quasiconvex_function" title="wikilink">quasiconvex</a></em> closure of a non-convex <a href="multiobjective_optimization" title="wikilink">minimization</a> problem&lt;U+2014&gt;that is, the problem defined by the <a href="Kuratowski_closure_axioms" title="wikilink">closed</a> <a href="convex_hull" title="wikilink">convex</a> <a href="closure_operator" title="wikilink">hull</a> of the <a href="semicontinuity#lower" title="wikilink">lower</a> <a href="level_set" title="wikilink">level sets</a>.<ref></p>
+
+<p></ref> Following Ekeland and Aubin, similar applications of the Shapley&lt;U+2013&gt;Folkman lemma are described in optimization monographs<a href="#fn43" class="footnote-ref" id="fnref43"><sup>43</sup></a><ref></p>
+<p>In addition to analyzing duality-gaps (acknowledging Ekeland on page 381), Bertsekas (1982) applies <a href="Dual_problem" title="wikilink">Lagrangian dual</a> <a href="subgradient_method" title="wikilink">methods</a> to the <a href="scheduling_(production_processes)" title="wikilink">scheduling</a> of <a href="electricity_generation" title="wikilink">electrical power plants</a> (&quot;<a href="power_system_simulation#Unit_Commitment" title="wikilink">unit commitment problems</a>&quot;), where non-convexity appears because of <a href="integer_programming" title="wikilink">integer constraints</a>: </p>
+<p></ref> and textbooks.<ref>Figure 5.1.9 (page 496): </p>
+<p>Pages 267&lt;U+2013&gt;279: </p>
+<p></ref></p>
+<h3 id="probability-and-measure-theory">Probability and measure theory</h3>
+<p>Convex sets may be studied with <a href="probability_theory" title="wikilink">probability theory</a>. Each point in the convex hull of a (<a href="empty_set" title="wikilink">non-empty</a>) compact set is the <a href="expected_value" title="wikilink">expected value</a> of a <a href="simple_function" title="wikilink">simple</a> <a href="multivariate_random_variable" title="wikilink">random vector</a> that takes its values among the subset of <a href="Krein&lt;U+2013&gt;Milman_theorem" title="wikilink">extreme points</a>, by the <a href="Krein&lt;U+2013&gt;Milman_theorem" title="wikilink">Krein&lt;U+2013&gt;Milman theorem</a>. This correspondence between convex sets and simple random vectors implies that the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results are useful in <a href="probability_theory" title="wikilink">probability theory</a> and <a href="measure_(mathematics)" title="wikilink">measure theory</a>.<a href="#fn44" class="footnote-ref" id="fnref44"><sup>44</sup></a> In the other direction, probability theory provides tools to examine convex sets generally and the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results specifically.<a href="#fn45" class="footnote-ref" id="fnref45"><sup>45</sup></a> The Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results have been widely used in the <a href="stochastic_geometry" title="wikilink">probabilistic theory of random sets</a>,<a href="#fn46" class="footnote-ref" id="fnref46"><sup>46</sup></a> for example, to prove a <a href="law_of_large_numbers" title="wikilink">law of large numbers</a>,<a href="#fn47" class="footnote-ref" id="fnref47"><sup>47</sup></a><a href="#fn48" class="footnote-ref" id="fnref48"><sup>48</sup></a> a <a href="central_limit_theorem" title="wikilink">central limit theorem</a>,<a href="#fn49" class="footnote-ref" id="fnref49"><sup>49</sup></a><a href="#fn50" class="footnote-ref" id="fnref50"><sup>50</sup></a> and a <a href="large_deviations_theory" title="wikilink">large-deviations</a> <a href="rate_function" title="wikilink">principle</a>.<a href="#fn51" class="footnote-ref" id="fnref51"><sup>51</sup></a> These <a href="convergence_of_random_variables" title="wikilink">probabilistic limit theorems</a> dispense with the assumption that all the random sets be convex, because their proofs use the Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results.</p>
+<p>The Shapley&lt;U+2013&gt;Folkman&lt;U+2013&gt;Starr results have been used to refine the <a href="Brunn&lt;U+2013&gt;Minkowski_theorem" title="wikilink">Brunn&lt;U+2013&gt;Minkowski inequality</a> in the <a href="measure_(mathematics)" title="wikilink">measure theoretic</a> <a href="integral_geometry" title="wikilink">geometry</a> of <a href="convex_body" title="wikilink">convex bodies</a>.<a href="#fn52" class="footnote-ref" id="fnref52"><sup>52</sup></a> In the theory of <a href="vector_measure" title="wikilink">vector measures</a>, the Shapley&lt;U+2013&gt;Folkman lemma has been used to prove <a href="Vector_measure#Lyapunov&#39;s_theorem" title="wikilink">Lyapunov's theorem</a>, which states that the range of a (<a href="atom_(measure_theory)" title="wikilink">non-atomic</a>) <a href="vector_measure" title="wikilink">vector measure</a> is <a href="closed_set" title="wikilink">closed</a> and convex.<a href="#fn53" class="footnote-ref" id="fnref53"><sup>53</sup></a> In fact, Lyapunov's theorem has been viewed as a <a href="discretization" title="wikilink">continuous</a> <a href="discrete_mathematics#discrete_analogues_of_continuous_mathematics" title="wikilink">analogue</a> of the Shapley&lt;U+2013&gt;Folkman lemma.</p>
+<p><a href="#fn54" class="footnote-ref" id="fnref54"><sup>54</sup></a><a href="#fn55" class="footnote-ref" id="fnref55"><sup>55</sup></a> Lyapunov's theorem is used in <a href="mathematical_economics" title="wikilink">economics</a>,<a href="#fn56" class="footnote-ref" id="fnref56"><sup>56</sup></a><ref>  Vind's article was noted by  with this comment:</p>
+<blockquote>
+<p>The concept of a convex set (i.e., a set containing the segment connecting any two of its points) had repeatedly been placed at the center of economic theory before 1964. It appeared in a new light with the introduction of integration theory in the study of economic competition: If one associates with every agent of an economy an arbitrary set in the commodity space and <em>if one averages those individual sets</em> over a collection of insignificant agents, <em>then the resulting set is necessarily convex</em>. [Debreu appends this footnote: &quot;On this direct consequence of a theorem of A. A. Lyapunov, see .&quot;] But explanations of the ... functions of prices ... can be made to rest on the <em>convexity of sets derived by that averaging process</em>. <em>Convexity</em> in the commodity space <em>obtained by aggregation</em> over a collection of insignificant agents is an insight that economic theory owes ... to integration theory. [<em>Italics added</em>]</p>
+</blockquote>
+
+<p></ref> in (<a href="bang&lt;U+2013&gt;bang_control" title="wikilink">&quot;bang-bang&quot;</a>) <a href="control_theory" title="wikilink">control theory</a>, and in <a href="statistical_theory" title="wikilink">statistical theory</a>.<ref name="Artstein" > </p>
+<p>Artstein's article has been republished in a <a href="festschrift" class="uri" title="wikilink">festschrift</a> by students of <a href="Robert_Aumann" title="wikilink">Robert J. Aumann</a>:  </ref></p>
+<h2 id="see-also">See also</h2>
+
+
+<ul>
+<li><a href="Convex_conjugate#Infimal_convolution" title="wikilink">Addition of epigraphs</a></li>
+<li><a href="Additive_number&amp;nbsp;theory" title="wikilink">Additive number&amp;nbsp;theory</a></li>
+<li><a href="Affine_geometry" title="wikilink">Affine geometry</a></li>
+<li><a href="Affine_hull" title="wikilink">Affine hull</a></li>
+</ul>
+
+<ul>
+<li><a href="Carath&lt;U+00E9&gt;odory&#39;s_theorem_(convex_hull)" title="wikilink">Carath&lt;U+00E9&gt;odory's lemma (convex hull)</a></li>
+<li><a href="Choquet_theory" title="wikilink">Choquet theory</a></li>
+<li><a href="Closure_operator" title="wikilink">Closure operator</a></li>
+<li><a href="Combinatorial_number&amp;nbsp;theory" title="wikilink">Combinatorial number&amp;nbsp;theory</a></li>
+</ul>
+
+<ul>
+<li><a href="Convex_analysis" title="wikilink">Convex analysis</a></li>
+<li><a href="Convex_body" title="wikilink">Convex body</a></li>
+<li><a href="Convex_cone" title="wikilink">Convex cone</a></li>
+<li><a href="Geometry_of_numbers" title="wikilink">Geometry of numbers</a></li>
+</ul>
+
+<ul>
+<li><a href="Conical_combination" title="wikilink">Positive linear combination</a></li>
+<li><a href="Normed_vector_space" title="wikilink">Norm of a vector space</a></li>
+<li><a href="Multivalued_function" title="wikilink">Set-valued analysis</a></li>
+<li><a href="Sumset" class="uri" title="wikilink">Sumset</a></li>
+</ul>
+
+<h2 id="references">References</h2>
+
+
+<h2 id="external-links">External links</h2>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+
+
+<p><a href="Category:Convex_hulls" title="wikilink">Category:Convex hulls</a> <a href="Category:Convex_geometry" title="wikilink">Category:Convex geometry</a> <a href="Category:Geometric_transversal_theory" title="wikilink">Category:Geometric transversal theory</a> <a href="Category:Additive_combinatorics" title="wikilink">Category:Additive combinatorics</a> <a href="Category:Sumsets" class="uri" title="wikilink">Category:Sumsets</a> <a href="Category:Mathematical_and_quantitative_methods_(economics)" title="wikilink">Category:Mathematical and quantitative methods (economics)</a> <a href="Category:Mathematical_economics" title="wikilink">Category:Mathematical economics</a> <a href="Category:General_equilibrium_and_disequilibrium" title="wikilink">Category:General equilibrium and disequilibrium</a> <a href="Category:Mathematical_theorems" title="wikilink">Category:Mathematical theorems</a></p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"></li>
+<li id="fn2">Page 1: <a href="#fnref2" class="footnote-back">↩</a></li>
+<li id="fn3">.<a href="#fnref3" class="footnote-back">↩</a></li>
+<li id="fn4"></li>
+<li id="fn5"></li>
+<li id="fn6"><a href="#fnref6" class="footnote-back">↩</a></li>
+<li id="fn7">Theorem 3 (pages 562&lt;U+2013&gt;563): <a href="#fnref7" class="footnote-back">↩</a></li>
+<li id="fn8">The commutativity of <a href="Minkowski_sum" title="wikilink">Minkowski addition</a> and <a href="convex_hull" title="wikilink">convexification</a> is established by Theorem 1.1.2 (pages 2&lt;U+2013&gt;3) in Schneider; this reference discusses much of the literature on the <a href="convex_hull" title="wikilink">convex hulls</a> of <a href="Minkowski_addition" title="wikilink">Minkowski</a> <a href="sumset" title="wikilink">sumsets</a> in its &quot;Chapter 3 Minkowski addition&quot; (pages 126&lt;U+2013&gt;196): <a href="#fnref8" class="footnote-back">↩</a></li>
+<li id="fn9"></li>
+<li id="fn10">Theorem 3.1.7 in <a href="#fnref10" class="footnote-back">↩</a></li>
+<li id="fn11"><a href="#fnref11" class="footnote-back">↩</a></li>
+<li id="fn12">The Shapley&lt;U+2013&gt;Folkman <em>lemma</em> is sometimes called the &quot;Shapley&lt;U+2013&gt;Folkman <em>theorem</em>&quot; .<a href="#fnref12" class="footnote-back">↩</a></li>
+<li id="fn13"><a href="#fnref13" class="footnote-back">↩</a></li>
+<li id="fn14"><a href="#fnref14" class="footnote-back">↩</a></li>
+<li id="fn15"></li>
+<li id="fn16"><a href="#fnref16" class="footnote-back">↩</a></li>
+<li id="fn17"></li>
+<li id="fn18"></li>
+<li id="fn19"></li>
+<li id="fn20"></li>
+<li id="fn21"></li>
+<li id="fn22">Shapley and Shubik introduce &quot;pseudo-equilibria&quot; and &quot;quasi-cores&quot; (related to the &quot;<a href="core_(economics)" title="wikilink"><em>core</em></a>&quot; of an economic <a href="cooperative_game" title="wikilink">game</a>) on page 806: <a href="#fnref22" class="footnote-back">↩</a></li>
+<li id="fn23">Pages 217&lt;U+2013&gt;218: <a href="#fnref23" class="footnote-back">↩</a></li>
+<li id="fn24"></li>
+<li id="fn25"></li>
+<li id="fn26"></li>
+<li id="fn27">Page 44: <a href="#fnref27" class="footnote-back">↩</a></li>
+<li id="fn28"></li>
+<li id="fn29">Page 112: <a href="#fnref29" class="footnote-back">↩</a></li>
+<li id="fn30">.<a href="#fnref30" class="footnote-back">↩</a></li>
+<li id="fn31">This is discussed in section 7.2 &quot;Convexification by numbers&quot;: <a href="#fnref31" class="footnote-back">↩</a></li>
+<li id="fn32">An &quot;informal&quot; presentation appears in pages 63&lt;U+2013&gt;65: <a href="#fnref32" class="footnote-back">↩</a></li>
+<li id="fn33">Theorem 1.6.5 on pages 24&lt;U+2013&gt;25: <a href="#fnref33" class="footnote-back">↩</a></li>
+<li id="fn34">Economists have studied the <a href="aggregation_problem" title="wikilink">aggregation</a> of non-convex sets using advanced mathematics, particularly <a href="differential_geometry" title="wikilink">differential geometry</a> and <a href="differential_topology" title="wikilink">topology</a>, <a href="Baire&amp;nbsp;category" class="uri" title="wikilink">Baire&amp;nbsp;category</a>, <a href="measure_(mathematics)" title="wikilink">measure</a> and <a href="integral" title="wikilink">integration theory</a>, and <a href="ergodic&amp;nbsp;theory" class="uri" title="wikilink">ergodic&amp;nbsp;theory</a>: <a href="#fnref34" class="footnote-back">↩</a></li>
+<li id="fn35">Page 1:  with <a href="#fnref35" class="footnote-back">↩</a></li>
+<li id="fn36"> Starrett discusses non-convexities in his textbook on <a href="public_economics" title="wikilink">public economics</a>: <a href="#fnref36" class="footnote-back">↩</a></li>
+<li id="fn37"><a href="#fnref37" class="footnote-back">↩</a></li>
+<li id="fn38">Page 270:  (Originally published as )<a href="#fnref38" class="footnote-back">↩</a></li>
+<li id="fn39">Page 371: <a href="#fnref39" class="footnote-back">↩</a></li>
+<li id="fn40"></li>
+<li id="fn41">Page 1966: <a href="#fnref41" class="footnote-back">↩</a></li>
+<li id="fn42"><a href="#fnref42" class="footnote-back">↩</a></li>
+<li id="fn43"></li>
+<li id="fn44">Page 45: <a href="#fnref44" class="footnote-back">↩</a></li>
+<li id="fn45"><a href="#fnref45" class="footnote-back">↩</a></li>
+<li id="fn46">Pages 195&lt;U+2013&gt;198, 218, 232, 237&lt;U+2013&gt;238 and 407: <a href="#fnref46" class="footnote-back">↩</a></li>
+<li id="fn47"><a href="#fnref47" class="footnote-back">↩</a></li>
+<li id="fn48"><a href="#fnref48" class="footnote-back">↩</a></li>
+<li id="fn49"><a href="#fnref49" class="footnote-back">↩</a></li>
+<li id="fn50"></li>
+<li id="fn51"> Cerf relies on an application of the Shapley&lt;U+2013&gt;Folkman lemma from .<a href="#fnref51" class="footnote-back">↩</a></li>
+<li id="fn52"><a href="#fnref52" class="footnote-back">↩</a></li>
+<li id="fn53"><a href="#fnref53" class="footnote-back">↩</a></li>
+<li id="fn54"></li>
+<li id="fn55"></li>
+<li id="fn56"></li>
+</ol>
+</section>

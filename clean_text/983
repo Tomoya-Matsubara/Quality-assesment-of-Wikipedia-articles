@@ -1,0 +1,64 @@
+
+ PubMed is a free database accessing primarily the MEDLINE database of citations and abstracts on life sciences and biomedical topics. The United States National Library of Medicine (NLM) at the National Institutes of Health (NIH) maintains PubMed as part of the Entrez information retrieval system. Listing an article or journal in PubMed is not endorsement. PubMed was first released in January 1996.&lt;ref[&gt;http://www.nlm.nih.gov/pubs/techbull/so06/so06_pm_10.html].
+Content
+In addition to MEDLINE, PubMed also provides access to:
+
+OLDMEDLINE for pre-1966 records. This has recently been enhanced so that records for 1951 and before, even those parts in the printed indexes, are now included within the main portion.
+Citations to all articles (even those that are out-of-scope, e.g., covering plate tectonics or astrophysics) from certain MEDLINE journals, primarily the most important general science and chemistry journals, from which the life sciences articles are indexed for MEDLINE.
+In-process records which provide a record for an article before it is indexed with Medical Subject Headings (MeSH) and added to MEDLINE or converted to out-of-scope status (PREMEDLINE).
+Records that precede the date that a journal was selected for MEDLINE indexing (when supplied electronically by the publisher).
+Some life science journals that submit full text to the PubMed Central digital library and may not have been recommended for inclusion in MEDLINE (although they have undergone a review by NLM), and some physics journals that were part of a prototype PubMed in the early to mid-1990s.1
+
+Many PubMed records contain links to full text articles which sometimes are freely available, often in PubMed Central.
+The National Library of Medicine also leases MEDLINE information to a number of private vendors such as Ovid and SilverPlatter &lt;U+2013&gt; as well as many other vendors.
+Information about the journals indexed in PubMed is found in the NLM Catalog Database, searchable by subject or journal title, the NLM ID (NLM's unique journal identifier), the ISO abbreviation of the title, and both the print and electronic International Standard Serial Numbers (pISSN and eISSN). The database includes all journals in all NCBI databases.
+
+, PubMed has over 20 million citations going back to 1966, and selectively to the year 1865, and very selectively to 1809 and about 1 million new numbers are added each year.2 Some 11.5 million articles are listed with their abstract and 3.1 million articles are available full-text for free, either from the publisher or as part of NCBI's PubMed Central collection.
+Characteristics
+PMID
+
+A &quot;PMID&quot; (PubMed unique identifier)3 is a unique number assigned to each PubMed record.
+Clinical Queries/Systematic Reviews
+A special feature of PubMed is the &quot;Clinical Queries&quot; and &quot;Systematic Reviews&quot; option which can be used to identify more relevant (robust) studies by automatically applying study-type 'filters&lt;U+2019&gt; to a search.
+Related articles
+After a quick search, references which are judged particularly relevant can be marked and &quot;related articles&quot; can be identified. If relevant, several studies can be selected and related articles to all of them can be generated. The related articles are then listed in order of &quot;relatedness&quot;. To create these lists of related articles, PubMed compares words from the title and abstract of each citation, as well as the MeSH headings assigned, using a powerful word-weighted algorithm.4
+Mapping to MeSH headings and subheadings
+A strong feature of PubMed is its ability to automatically link to MeSH headings and subheadings. Examples would be: &quot;bad breath&quot; links to (and includes in the search) &quot;Halitosis&quot;, &quot;Writers cramp&quot; to &quot;focal dystonia&quot;, &quot;breast cancer&quot; to &quot;breast neoplasms&quot;. Where appropriate, these MeSH terms are automatically &quot;expanded&quot;. Terms like &quot;nursing&quot; are automatically linked to &quot;Nursing [Mesh]&quot; or &quot;Nursing [Subheading]&quot;. This important feature makes PubMed searches automatically more sensitive and avoids false-negative (missed) hits by compensating for the diversity of medical terminology.
+Alternative interfaces
+
+eTBLAST - a natural language text similarity engine for MEDLINE and other text databases.
+GoPubMed - searching PubMed/MEDLINE with Gene Ontology and MeSH
+HighWire Press - a medical search engine created by apublishing house that searches within its collection of journals
+HubMed - an alternative interface to the PubMed medical literature database
+Pubget - based on PubMed/MEDLINE but gets to the PDF right away, provided the journal is available for free or the subscription is being paid for
+Quertle - a free, semantic-based search engine for PubMed, full-text articles, NIH Grants, TOXLINE, and news5
+
+See also
+
+JournalReview.org
+PubMed Annual Reload Tester
+UK PubMed Central
+PubMed Central Canada
+
+References
+
+External links
+
+
+PubMed Online Tutorials
+PubMed Help
+Other PubMed Search Engines Resource Guide
+
+
+ar:&lt;U+0628&gt;&lt;U+0648&gt;&lt;U+0628&gt; &lt;U+0645&gt;&lt;U+064A&gt;&lt;U+062F&gt; ca:PubMed cs:PubMed de:PubMed es:PubMed eu:PubMed fa:&lt;U+067E&gt;&lt;U+0627&gt;&lt;U+0628&gt;&lt;U+200C&gt;&lt;U+0645&gt;&lt;U+062F&gt; fr:PubMed is:Pubmed it:PubMed he:PubMed nl:PubMed no:PubMed pl:PubMed pt:PubMed ro:PubMed ru:PubMed sr:PubMed th:PubMed tr:PubMed zh:PubMed
+Category:Acronyms Category:National Institutes of Health Category:American websites Category:Bibliographic databases Category:Domain-specific search engines Category:Advertising-free websites Category:Medical websites
+
+
+
+1↩
+↩
+↩
+↩
+UC Denver Health Science Library | Quertle: A Powerful, New Search Engine↩
+
+

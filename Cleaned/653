@@ -1,0 +1,63 @@
+Wireless network refers to any type of computer network that is not connected by cables of any kind. It is a method by which homes, telecommunications networks and enterprise (business) installations avoid the costly process of introducing cables into a building, or as a connection between various equipment locations.1 Wireless telecommunications networks are generally implemented and administered using a transmission system called radio waves. This implementation takes place at the physical level (layer) of the network structure.2
+Types of wireless connections
+Wireless PAN
+ Wireless Personal Area Networks (WPANs) interconnect devices within a relatively small area, that is generally within a person's reach. For example, both Bluetooth radio and invisible Infrared light provides a WPAN for interconnecting a headset to a laptop. ZigBee also supports WPAN applications.3 Wi-Fi PANs are becoming commonplace (2010) as equipment designers start to integrate Wi-Fi into a variety of consumer electronic devices. Intel &quot;My WiFi&quot; and Windows 7 &quot;virtual Wi-Fi&quot; capabilities have made Wi-Fi PANs simpler and easier to set up and configure.4
+Wireless LAN
+A wireless local area network (WLAN) links two or more devices over a short distance using a wireless distribution method, usually providing a connection through an access point for Internet access. The use of spread-spectrum or OFDM technologies may allow users to move around within a local coverage area, and still remain connected to the network.
+Products using the IEEE 802.11 WLAN standards are marketed under the Wi-Fi bradn name. Fixed wireless technology implements point-to-point links between computers or networks at two distant locations, often using dedicated microwave or modulated laser light beams over line of sight paths. It is often used in cities to connect networks in two or more buildings without installing a wired link.
+Wireless mesh network
+A wireless mesh network is a wireless network made up of radio nodes organized in a mesh topology. Each node forwards messages on behalf of the other nodes. Mesh networks can &quot;self heal&quot;, automatically re-routing around a node that has lost power.
+Wireless MAN
+Wireless Metropolitan Area Networks are a type of wireless network that connects several wireless LANs.
+WiMAX is a type of Wireless MAN and is described by the IEEE 802.16 standard.5
+Wireless WAN
+Wireless wide area networks are wireless networks that typically cover large areas, such as between neighboring towns and cities, or city and suburb. These networks can be used to connect branch offices of business or as a public internet access system. The wireless connections between access points are usually point to point microwave links using parabolic dishes on the 2.4 GHz band, rather than omnidirectional antennas used with smaller networks. A typical system contains base station gateways, access points and wireless bridging relays. Other configurations are mesh systems where each access point acts as a relay also. When combined with renewable energy systems such as photo-voltaic solar panels or wind systems they can be stand alone systems.
+Mobile devices networks
+With the development of smart phones, cellular telephone networks routinely carry data in addition to telephone conversations:
+Global System for Mobile Communications (GSM): The GSM network is divided into three major systems: the switching system, the base station system, and the operation and support system. The cell phone connects to the base system station which then connects to the operation and support station; it then connects to the switching station where the call is transferred to where it needs to go. GSM is the most common standard and is used for a majority of cell phones.6
+Personal Communications Service (PCS): PCS is a radio band that can be used by mobile phones in North America and South Asia. Sprint happened to be the first service to set up a PCS.
+D-AMPS: Digital Advanced Mobile Phone Service, an upgraded version of AMPS, is being phased out due to advancement in technology. The newer GSM networks are replacing the older system.
+Uses
+Some examples of usage include Cellular phones which are part of everyday wireless networks, allowing easy personal communications. Another example, Inter-continental network systems, use radio satellites to communicate across the world. Emergency services such as the police utilize wireless networks to communicate effectively as well. Individuals and businesses use wireless networks to send and share data rapidly, whether it be in a small office building or across the world.
+General
+In a general sense, wireless networks offer a vast variety of uses by both business and home users.7
+&quot;Now, the industry accepts a handful of different wireless technologies. Each wireless technology is defined by a standard that describes unique functions at both the Physical and the Data Link layers of the OSI Model. These standards differ in their specified signaling methods, geographic ranges, and frequency usages, among other things. Such differences can make certain technologies better suited to home networks and others better suited to network larger organizations.&quot;8
+Performance
+Each standard varies in geographical range, thus making one standard more ideal than the next depending on what it is one is trying to accomplish with a wireless network.9 The performance of wireless networks satisfies a variety of applications such as voice and video. The use of this technology also gives room for future expansions. As wireless networking has become commonplace, sophistication increased through configuration of network hardware and software.10
+Space
+Space is another characteristic of wireless networking . Wireless networks offer many advantages when it comes to difficult-to-wire areas trying to communicate such as across a street or river, a warehouse on the other side of the premise or buildings that are physically separated but operate as one.11 Wireless networks allow for users to designate a certain space which the network will be able to communicate with other devices through that network. Space is also created in homes as a result of eliminating clutters of wiring.12 This techonology allows for an alternative to installing physical network mediums such as TPs, coaxes, or Fiber-optics, which can also be expensive.
+Business
+Organizational end users integrate wireless LANs into corporate information systems.13 These uses of wireless networking are now seen as practical and cost effective for companies to compete in a global market. Wireless technologies are applicable to all industries, especially for those that stress immediate processing. These industries are finding creative and innovating ways to place portable computers in industry workes that are hands on such as doctors, nurses, warehouse clerks, inspectors, claims adjustors, real estate agents, and so on.14 By using wireless technology, businesses are able to couple portable devices with a database and specific applications which in turn meet mobility needs.15
+Home
+For homeowners, wireless technology is an effective option as compared to ethernet for sharing printers, scanners, and high speed internet connections. WLANs help save from the cost of installation of cable mediums, save time from physical installation, and also creates mobility for devices connected to the network.16 Wireless networks are simple and require one single access point connected directly to the Internet via a router.17
+Environmental concerns
+Starting around 2009, there have been increased concerns about the safety of wireless communications, despite little evidence of health risks so far.18 The president of Lakehead University refused to agree to installation of a wireless network citing a California Public Utilities Commission study which said that the possible risk of tumors and other diseases due to exposure to electromagnetic fields (EMFs) needs to be further investigated.19
+Wireless access points are also often close to humans, but the drop off in power over distance is fast, following the inverse-square law.20 The HPA's position is that &lt;U+201C&gt;...radio frequency (RF) exposures from WiFi are likely to be lower than those from mobile phones.&lt;U+201D&gt; It also saw &lt;U+201C&gt;...no reason why schools and others should not use WiFi equipment.&lt;U+201D&gt;21 In October 2007, the HPA launched a new &lt;U+201C&gt;systematic&lt;U+201D&gt; study into the effects of WiFi networks on behalf of the UK government, in order to calm fears that had appeared in the media in a recent period up to that time&quot;.22 Dr Michael Clark, of the HPA, says published research on mobile phones and masts does not add up to an indictment of WiFi.23
+See also
+Exposed terminal problem
+Physical layer
+Public Safety Network
+Wireless community network
+Wireless access point
+Wireless LAN client comparison
+RuBee
+References
+Further reading
+External links
+ar:&lt;U+0634&gt;&lt;U+0628&gt;&lt;U+0643&gt;&lt;U+0629&gt; &lt;U+0644&gt;&lt;U+0627&gt;&lt;U+0633&gt;&lt;U+0644&gt;&lt;U+0643&gt;&lt;U+064A&gt;&lt;U+0629&gt; bs:Be&lt;U+017E&gt;i&lt;U+010D&gt;no umre&lt;U+017E&gt;avanje ca:Xarxa sense fil cs:Bezdr&lt;U+00E1&gt;tov&lt;U+00E1&gt; s&lt;U+00ED&gt;&lt;U+0165&gt; da:Radionet de:Kabellose &lt;U+00DC&gt;bertragungsverfahren et:Traadita v&lt;U+00F5&gt;rk el:&lt;U+0391&gt;&lt;U+03C3&gt;&lt;U+03CD&gt;&lt;U+03C1&gt;&lt;U+03BC&gt;&lt;U+03B1&gt;&lt;U+03C4&gt;&lt;U+03BF&gt; &lt;U+03B4&gt;&lt;U+03AF&gt;&lt;U+03BA&gt;&lt;U+03C4&gt;&lt;U+03C5&gt;&lt;U+03BF&gt; es:Red inal&lt;U+00E1&gt;mbrica eo:Sendrata reto eu:Haririk gabeko sare fr:R&lt;U+00E9&gt;seau sans fil gl:Rede sen f&lt;U+00ED&gt;os ko:&lt;U+BB34&gt;&lt;U+C120&gt; &lt;U+B124&gt;&lt;U+D2B8&gt;&lt;U+C6CC&gt;&lt;U+D06C&gt; hr:Be&lt;U+017E&gt;i&lt;U+010D&gt;ne mre&lt;U+017E&gt;e is:&lt;U+00DE&gt;r&lt;U+00E1&gt;&lt;U+00F0&gt;laust net mk:&lt;U+0411&gt;&lt;U+0435&gt;&lt;U+0437&gt;&lt;U+0436&gt;&lt;U+0438&gt;&lt;U+0447&gt;&lt;U+043D&gt;&lt;U+0430&gt; &lt;U+043C&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+0436&gt;&lt;U+0430&gt; nl:Draadloos netwerk ja:&lt;U+7121&gt;&lt;U+7DDA&gt;&lt;U+30A2&gt;&lt;U+30AF&gt;&lt;U+30BB&gt;&lt;U+30B9&gt; pt:Rede sem fio ro:Re&lt;U+021B&gt;ea f&lt;U+0103&gt;r&lt;U+0103&gt; fir ru:&lt;U+0411&gt;&lt;U+0435&gt;&lt;U+0441&gt;&lt;U+043F&gt;&lt;U+0440&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+043E&gt;&lt;U+0434&gt;&lt;U+043D&gt;&lt;U+044B&gt;&lt;U+0435&gt; &lt;U+043A&gt;&lt;U+043E&gt;&lt;U+043C&gt;&lt;U+043F&gt;&lt;U+044C&gt;&lt;U+044E&gt;&lt;U+0442&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+043D&gt;&lt;U+044B&gt;&lt;U+0435&gt; &lt;U+0441&gt;&lt;U+0435&gt;&lt;U+0442&gt;&lt;U+0438&gt; sr:&lt;U+0411&gt;&lt;U+0435&gt;&lt;U+0436&gt;&lt;U+0438&gt;&lt;U+0447&gt;&lt;U+043D&gt;&lt;U+0435&gt; &lt;U+043C&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+0436&gt;&lt;U+0435&gt; sv:Tr&lt;U+00E5&gt;dl&lt;U+00F6&gt;st n&lt;U+00E4&gt;tverk uk:&lt;U+0411&gt;&lt;U+0435&gt;&lt;U+0437&gt;&lt;U+0434&gt;&lt;U+0440&gt;&lt;U+043E&gt;&lt;U+0442&gt;&lt;U+043E&gt;&lt;U+0432&gt;&lt;U+0430&gt; &lt;U+043C&gt;&lt;U+0435&gt;&lt;U+0440&gt;&lt;U+0435&gt;&lt;U+0436&gt;&lt;U+0430&gt; zh:&lt;U+65E0&gt;&lt;U+7EBF&gt;&lt;U+7F51&gt;&lt;U+7EDC&gt;
+Category:Wireless networking
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩
+↩

@@ -1,0 +1,154 @@
+A stylistic depiction of a fragment from a CSV-formatted text file. The commas (shown in red) are used as field delimiters.
+A delimiter is a sequence of one or more characters used to specify the boundary between separate, independent regions in plain text or other data stream.1 An example of a delimiter is the comma character in a sequence of comma-separated values.
+An alternative to the use of field delimiters is declarative notation, which uses a length field at the start of a region to specify the boundary. For word delimiters used in the written form of human languages, see interword separation.
+Overview
+Delimiters can be broken down into:
+Field and Record delimiters
+Bracket delimiters
+Field and record delimiters
+Field delimiters are used to separate data fields. Record delimiters separate groups of fields.2
+For example, the (CSV) file format uses a comma as the delimiter between fields, and a end-of-line indicator as the delimiter between records. For instance:
+    fname,lname,age,salary
+nancy,davolio,33,$30000
+erin,borakova,28,$25250
+tony,raphael,35,$28700
+specifies a simple flat file database table using the (CSV) file format.
+Conventions
+Computing platforms historically use certain delimiters by convention.
+International Organization for Standardization (December 1, 1975). &quot;The set of control characters for ISO 646&quot;. Internet Assigned Numbers Authority Registry. Alternate U.S. version: 1. Accessed August 7, 2005.  The following tables depict just a few examples for comparison.
+Programming languages (See also, Comparison of programming languages (syntax)).
+String Literal
+End of Statement
+Pascal
+doublequote
+semicolon
+C
+doublequote, singlequote
+semicolon
+Field and Record delimiters (See also, ASCII, Control character).
+End of Field
+End of Record
+End of File
+Unix (and Mac OS X)
+Tab
+LF
+none
+Windows
+Tab
+CRLF
+none
+Classic Mac OS
+Tab
+CR
+none
+Unicode
+UNIT SEPARATOR
+Position 31 (U+001F)
+RECORD SEPARATOR
+Position 30 (U+001E)
+FILE SEPARATOR
+Position 28 (U+001C)
+Bracket delimiters
+Bracket delimiters (also block delimiters, region delimiters, balanced delimiters) are used to mark both the start and end of a region of text.3 They are used in almost all programming languages, including Wikicode.4
+Common examples of bracket delimiters include:5
+Delimiters
+Description
+( and )
+Parenthesis. The Lisp programming language syntax is cited as recognizable primarily from its use of parenthesis.6
+{ and }
+Curly brackets.7
+[ and ]
+Square brackets.8
+&lt; and &gt;
+Angle brackets.9
+&quot; and &quot;
+commonly used to denote string literals.
+' and '
+commonly used to denote string literals.
+&lt;? and ?&gt;
+used to indicate XML processing instructions.
+/* and */
+used to denote comments in some programming languages.
+{| and |}
+used to indicate a table in Wikicode.
+&lt;% and %&gt;
+used in some web templates to specify language boundaries. These are also called template delimiters.10
+Delimiter collision
+Delimiter collision is a problem that occurs when an author or programmer introduces delimiters into text without actually intending them to be interpreted as boundaries between separate regions.11 In the case of Comma-separated values files, for example, this can occur whenever an author attempts to include a comma as part of a field value (e.g., salary = &quot;$30,000&quot;).
+Solutions
+Because delimiter collision is a very common problem, methods for avoiding it have been invented.
+Escape character
+One method for avoiding delimiter collision is to use escape characters. From a language design standpoint, these are adequate, but they have drawbacks:
+text can be rendered unreadable when littered with numerous escape characters;
+they require a mechanism to 'escape the escapes' when not intended as escape characters; and
+although easy to type, they can be cryptic to someone unfamiliar with the language.12
+Escape sequence
+Escape sequences are similar to escape characters, except they usually consist of some kind of mnemonic instead of just a single character. One use is in string literals that include a doublequote (&quot;) character. For example in Perl, the code:
+   print &quot;Nancy said \x34Hello World!\x34 to the crowd.&quot;;  ### use \x34
+produces the same output as:
+   print &quot;Nancy said \&quot;Hello World!\&quot; to the crowd.&quot;;      ### use escape char
+One drawback of escape sequences, when used by people, is the need to memorize the codes that represent individual characters (see also: character entity reference, numeric character reference).
+Dual quoting delimiters
+In contrast to escape sequences and escape characters, dual delimiters provide yet another way to avoid delimiter collision. Some languages, for example, allow the use of either a singlequote (') or a doublequote (&quot;) to specify a string literal. For example in Perl:
+   print 'Nancy said &quot;Hello World!&quot; to the crowd.';
+produces the desired output without requiring escapes. This approach, however, only works when the string does not contain both types of quotation marks.
+Multiple quoting delimiters
+In contrast to dual delimiters, multiple delimiters are even more flexible for avoiding delimiter collision.13
+For example in Perl:
+   print qq^Nancy doesn't want to say &quot;Hello World!&quot; anymore.^;
+   print qq@Nancy doesn't want to say &quot;Hello World!&quot; anymore.@;
+   print qq&lt;U+00A7&gt;Nancy doesn't want to say &quot;Hello World!&quot; anymore.&lt;U+00A7&gt;;        
+all produce the desired output through use of the quotelike operator, which allows characters to act as delimiters. Although this method is more flexible, few languages support it. Perl and Ruby are two that do.1415
+Content boundary
+A content boundary is a special type of delimiter that is specifically designed to resist delimiter collision. It works by allowing the author to specify a long sequence of characters that is guaranteed to always indicate a boundary between parts in a multi-part message, with no other possible interpretation.16
+This is usually done by specifying a random sequence of characters followed by an identifying mark such as a UUID, a timestamp, or some other distinguishing mark. (See e.g., MIME, Here documents).
+Regular expression syntax
+In specifying a regular expression, alternate delimiters may also be used to simplify the syntax for match and substitution operations in Perl.17
+For example, a simple match operation may be specified in perl with the following syntax:
+   $string1 = 'Nancy said &quot;Hello World!&quot; to the crowd.';    # specify a target string
+   print $string1 =~ m/[aeiou]+/;                           # match one or more vowels
+The syntax is flexible enough to specify match operations with alternate delimiters, making it easy to avoid delimiter collision:
+   $string1 = 'Nancy said &quot;httq://Hello/World.htm&quot; is not a valid address.'; # target string
+   print $string1 =~ m@httq://@;       # match using alternate regular expression delimiter
+   print $string1 =~ m{httq://};       # same as previous, but different delimiter
+   print $string1 =~ m!httq://!;       # same as previous, but different delimiter
+ASCII armor
+Although principally used as a mechanism for text encoding of binary data, &quot;ASCII armoring&quot; is a programming and systems administration technique that also helps to avoid delimiter collision in some circumstances.1819 This technique is contrasted from the other approaches described above because it is more complicated, and therefore not suitable for small applications and simple data storage formats. The technique employs a special encoding scheme or hash function, such as base64, to ensure that delimiter characters do not appear in transmitted data.
+This technique is used, for example, in Microsoft's ASP.NET web development technology, and is closely associated with the &quot;VIEWSTATE&quot; component of that system.20
+Example
+The following is a simplified example demonstrating how this technique works in practice.
+The first code fragment shows a simple HTML tag in which the VIEWSTATE value contains characters that are incompatible with the delimiters of the HTML tag itself:
+    &lt;input type=&quot;hidden&quot; __VIEWSTATE=&quot;BookTitle:Nancy doesn&#39;t say &quot;Hello World!&quot; anymore.&quot; /&gt;
+This first code fragment is not well-formed, and would therefore not work properly in a &quot;real world&quot; deployed system.
+In contrast, the second code fragment shows a similar HTML tag, except this time incompatible characters in the VIEWSTATE value are removed through the application of base64 encoding:
+    &lt;input type=&quot;hidden&quot; __VIEWSTATE=&quot;TmFtZTpMYXJyeSAiQnVkIiBNZWxtYW47&quot; /&gt;
+This prevents delimiter collision and ensures that incompatible characters will not appear inside the HTML code, regardless of what characters appear in the original (decoded) text.21
+Notes and references
+See also
+Delimiter-separated values
+String literal
+CamelCase (used in WikiWikiWeb as an alternate method of link creation that does not require delimiters to indicate links)
+Federal Standard 1037C (contains a simple definition for &quot;delimiter&quot;)
+Naming collision
+Sigil
+de:Delimiter pl:Delimiter uk:&lt;U+0420&gt;&lt;U+043E&gt;&lt;U+0437&gt;&lt;U+0434&gt;&lt;U+0456&gt;&lt;U+043B&gt;&lt;U+044F&gt;&lt;U+044E&gt;&lt;U+0447&gt;&lt;U+0438&gt;&lt;U+0439&gt; &lt;U+0441&gt;&lt;U+0438&gt;&lt;U+043C&gt;&lt;U+0432&gt;&lt;U+043E&gt;&lt;U+043B&gt;
+Category:Programming language topics Category:Markup languages
+Federal Standard 1037C delimiter↩
+ p. 141↩
+ p. 319↩
+↩
+↩
+p. 3↩
+See e.g., curly bracket programming language.↩
+See e.g., Wikicode.↩
+See e.g., HTML.↩
+See e.g., Smarty template system documentation, , ↩
+p. 11↩
+Wall, infra p. 63↩
+ In Ruby, these are indicated as general delimited strings. p. 11↩
+Wall, infra p. 63↩
+ p. 26↩
+Friedl infra.↩
+(an example usage of ASCII armoring in encryption applications)↩
+(an example usage of ASCII armoring in encryption applications)↩
+(describes the use of Base64 encoding and VIEWSTATE inside HTML source code)↩
